@@ -86,6 +86,7 @@ import lineage2.gameserver.handler.bbs.CommunityBoardManager;
 import lineage2.gameserver.handler.bbs.ICommunityBoardHandler;
 import lineage2.gameserver.handler.items.IItemHandler;
 import lineage2.gameserver.idfactory.IdFactory;
+import lineage2.gameserver.instancemanager.AwakingManager;
 import lineage2.gameserver.instancemanager.BypassManager;
 import lineage2.gameserver.instancemanager.BypassManager.BypassType;
 import lineage2.gameserver.instancemanager.BypassManager.DecodedBypass;
@@ -7094,6 +7095,8 @@ public final class Player extends Playable implements PlayerGroup
 					{
 						_relationSkillToRemove.add(_k);
 					}
+					if (isAwaking())
+						AwakingManager.getInstance().AwakingRemoveSkills(this);
 				}
 				super.addSkill(skill);
 			}
