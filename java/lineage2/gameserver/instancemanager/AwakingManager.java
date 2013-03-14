@@ -463,7 +463,6 @@ public class AwakingManager implements OnPlayerEnterListener
 		}
 		if (player.isAwaking())
 		{
-			AwakingRemoveSkills(player);
 			return;
 		}
 		if (player.getActiveSubClass().isBase() || player.getActiveSubClass().isDouble())
