@@ -3266,7 +3266,7 @@ public final class Player extends Playable implements PlayerGroup
 					{
 						double points = ((noRateExp / (npcLevel * npcLevel)) * 100) / 9;
 						points *= Config.ALT_VITALITY_CONSUME_RATE;
-						if (getEffectList().getEffectByType(EffectType.Vitality) != null)
+						if (getEffectList().getEffectByType(EffectType.Vitality) != null || getEffectList().getEffectByStackType("vitalityRegen") != null)
 						{
 							points *= -1;
 						}
