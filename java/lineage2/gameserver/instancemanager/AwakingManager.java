@@ -26,7 +26,6 @@ import lineage2.gameserver.model.Skill;
 import lineage2.gameserver.model.SkillLearn;
 import lineage2.gameserver.model.actor.listener.CharListenerList;
 import lineage2.gameserver.model.base.ClassId;
-import lineage2.gameserver.model.base.ClassLevel;
 import lineage2.gameserver.model.base.EnchantSkillLearn;
 import lineage2.gameserver.network.serverpackets.ExCallToChangeClass;
 import lineage2.gameserver.network.serverpackets.ExChangeToAwakenedClass;
@@ -293,7 +292,7 @@ public class AwakingManager implements OnPlayerEnterListener
 		player.broadcastPacket(new SocialAction(player.getObjectId(), (_CA.get(_oldId) - 119)));
 		AwakingRemoveSkills(player);
 		giveItems(player);
-		getRaceSkill(player);
+		//getRaceSkill(player);
 	}
 	
 	/**
@@ -477,6 +476,7 @@ public class AwakingManager implements OnPlayerEnterListener
 	 * @param player Player
 	 * @return Skill
 	 */
+	/*  NO MORE USED !!!
 	public Skill getRaceSkill(Player player)
 	{
 		int race = player.getRace().ordinal();
@@ -518,4 +518,5 @@ public class AwakingManager implements OnPlayerEnterListener
 		player.updateStats();
 		return null;
 	}
+	*/
 }
