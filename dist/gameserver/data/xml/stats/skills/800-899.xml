@@ -767,8 +767,6 @@
 	</skill>
 	<skill id="839" levels="1" name="Dismount">
     <!-- Dismounts from a ridable mount. -->
-	<skill id="619" levels="1" name="Transform Dispel">
-    <!-- Cancels transformation. -->
 		<set name="icon" val="icon.skilltransform2"/>
 		<set name="hitTime" val="500"/>
 		<set name="target" val="TARGET_SELF"/>
