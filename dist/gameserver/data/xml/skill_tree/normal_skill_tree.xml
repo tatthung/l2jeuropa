@@ -16424,7 +16424,7 @@
 			<skill id="504" level="10" cost="23000" name="Triple Thrust" min_level="49" />
 			<skill id="504" level="11" cost="23000" name="Triple Thrust" min_level="49" />
 			<skill id="504" level="12" cost="23000" name="Triple Thrust" min_level="49" />
-			<skill id="1444" level="1" cost="70000" name="Pride of Kamael" min_level="49" />
+			<skill id="1444" level="1" cost="70000" name="Pride of kamael" min_level="49" />
 			<skill id="467" level="13" cost="107000" name="Soul Mastery" min_level="52" />
 			<skill id="465" level="26" cost="36000" name="Light Armor Mastery" min_level="52" />
 			<skill id="465" level="27" cost="36000" name="Light Armor Mastery" min_level="52" />
@@ -16817,7 +16817,7 @@
 			<skill id="504" level="10" cost="23000" name="Triple Thrust" min_level="49" />
 			<skill id="504" level="11" cost="23000" name="Triple Thrust" min_level="49" />
 			<skill id="504" level="12" cost="23000" name="Triple Thrust" min_level="49" />
-			<skill id="1444" level="1" cost="70000" name="Pride of Kamael" min_level="49" />
+			<skill id="1444" level="1" cost="70000" name="Pride of kamael" min_level="49" />
 			<skill id="467" level="13" cost="107000" name="Soul Mastery" min_level="52" />
 			<skill id="465" level="26" cost="36000" name="Light Armor Mastery" min_level="52" />
 			<skill id="465" level="27" cost="36000" name="Light Armor Mastery" min_level="52" />
@@ -17872,6 +17872,63 @@
 		</class>
 		<!-- Goddess of Destruction -->
 		<class id="139">
+			<!--Race Skills-->
+			<!--Human-->
+			<skill id="1901" level="1" min_level="85" name="Aim" race="human"/>
+			<skill id="1902" level="1" min_level="85" name="Mental Fortress" race="human"/>
+			<skill id="1903" level="1" min_level="85" name="Fitness" race="human"/>
+			<skill id="1904" level="1" min_level="85" name="Unbind" race="human"/>
+			<!--Elf-->
+			<skill id="1905" level="1" min_level="85" name="Swiftness" race="elf"/>
+			<skill id="1906" level="1" min_level="85" name="Water Blessing" race="elf"/>
+			<skill id="1907" level="1" min_level="85" name="Prevision" race="elf"/>
+			<skill id="1908" level="1" min_level="85" name="Delicacy" race="elf"/>
+			<!--Dark Elf-->
+			<skill id="1909" level="1" min_level="85" name="Sharpness" race="darkelf"/>
+			<skill id="1910" level="1" min_level="85" name="Dark Presence" race="darkelf"/>
+			<skill id="1911" level="1" min_level="85" name="Wind Blessing" race="darkelf"/>
+			<skill id="1912" level="1" min_level="85" name="Disparition" race="darkelf"/>
+			<skill id="1913" level="1" min_level="85" name="Life Siphon" race="darkelf"/>
+			<!--orc-->
+			<skill id="1914" level="1" min_level="85" name="Savage" race="orc"/>
+			<skill id="1915" level="1" min_level="85" name="Fire Blessing" race="orc"/>
+			<skill id="1916" level="1" min_level="85" name="Energetic" race="orc"/>
+			<skill id="1917" level="1" min_level="85" name="Undying Will" race="orc"/>
+			<!--dwarf-->
+			<skill id="1919" level="1" min_level="85" name="Dexterity" race="dwarf"/>
+			<skill id="1920" level="1" min_level="85" name="Endurance" race="dwarf"/>
+			<skill id="1921" level="1" min_level="85" name="Earth Blessing" race="dwarf"/>
+			<skill id="1922" level="1" min_level="85" name="Earth Tremor" race="dwarf"/>
+			<skill id="19088" level="1" min_level="85" name="Summon Siege Golem" race="dwarf"/>
+			<skill id="19089" level="1" min_level="85" name="Summon Wild Hog Cannon" race="dwarf"/>
+			<skill id="19090" level="1" min_level="85" name="Summon Swoop Cannon" race="dwarf"/>
+			<skill id="1321" level="1" min_level="85" name="Dwarven Craft" race="dwarf"/>
+			<skill id="172" level="11" name="Create Item" min_level="85" race="dwarf"/>
+			<skill id="172" level="12" name="Create Item" min_level="90" race="dwarf"/>
+			<skill id="172" level="13" name="Create Item" min_level="95" race="dwarf"/>
+			<skill id="172" level="14" name="Create Item" min_level="99" race="dwarf"/>
+			<!--kamael-->
+			<skill id="1923" level="1" min_level="85" name="Battle Instinct" race="kamael"/>
+			<skill id="1924" level="1" min_level="85" name="Dark Blessing" race="kamael"/>
+			<skill id="1925" level="1" min_level="85" name="Soul Protection" race="kamael"/>
+			<skill id="1926" level="1" min_level="85" name="Body Reinforcement" race="kamael"/>
+			<skill id="1954" level="1" min_level="85" name="Flying Body Reinforcement" race="kamael"/>
+			<!--Default by level skills-->
+			<skill id="194" level="1" cost="0" name="Lucky" min_level="1"/>
+			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85"/>
+			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95"/>
+			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99"/>
+			<skill id="1322" level="1" cost="0" name="Common Craft" min_level="1"/>
+			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
+			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
+			<skill id="1405" level="3" cost="0" name="Divine Inspiration" min_level="76" item_id="8620" item_count="1" clicked="false" />
+			<skill id="1405" level="4" cost="0" name="Divine Inspiration" min_level="76" item_id="8621" item_count="1" clicked="false" />
+			<skill id="1571" level="1" name="Each Class Inventory Increase" min_level="1"/>
+			<skill id="1597" level="1" name="Each Class Weight Increase" min_level="1"/>
+			<skill id="1927" level="1" cost="0" name="Sigel Aura" min_level="85"/>
+			<skill id="1946" level="1" name="Block Sigel Force" min_level="85"/>
+			<skill id="8600" level="1" cost="10000000" name="Summon Royal Aegis" min_level="85" />
+			<!--Default by level skills-->
 			<skill id="10001" level="1" cost="10000000" name="Superior Sword/Blunt Weapon Mastery" min_level="85" />
 			<skill id="10002" level="1" cost="10000000" name="Superior Heavy Armor Mastery" min_level="85" />
 			<skill id="10003" level="1" cost="10000000" name="Superior Shield Mastery" min_level="85" />
@@ -17998,13 +18055,65 @@
 			<skill id="10043" level="7" cost="50000000" name="Summon Knight Cubic" min_level="96" />
 			<skill id="10043" level="8" cost="50000000" name="Summon Knight Cubic" min_level="98" />
 			<skill id="10044" level="1" cost="10000000" name="Superior Elemental Mastery" min_level="85" />
-			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85" />
-			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95" />
-			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
-			<skill id="1927" level="1" cost="0" name="Sigel Aura" min_level="85" />
-			<skill id="8600" level="1" cost="10000000" name="Summon Royal Aegis" min_level="85" />
 		</class>
 		<class id="140">
+			<!--Race Skills-->
+			<!--Human-->
+			<skill id="1901" level="1" name="Aim" race="human" min_level="85"/>
+			<skill id="1902" level="1" name="Mental Fortress" race="human" min_level="85"/>
+			<skill id="1903" level="1" name="Fitness" race="human" min_level="85"/>
+			<skill id="1904" level="1" name="Unbind" race="human" min_level="85"/>
+			<!--Elf-->
+			<skill id="1905" level="1" name="Swiftness" race="elf" min_level="85"/>
+			<skill id="1906" level="1" name="Water Blessing" race="elf" min_level="85"/>
+			<skill id="1907" level="1" name="Prevision" race="elf" min_level="85"/>
+			<skill id="1908" level="1" name="Delicacy" race="elf" min_level="85"/>
+			<!--Dark Elf-->
+			<skill id="1909" level="1" name="Sharpness" race="darkelf" min_level="85"/>
+			<skill id="1910" level="1" name="Dark Presence" race="darkelf" min_level="85"/>
+			<skill id="1911" level="1" name="Wind Blessing" race="darkelf" min_level="85"/>
+			<skill id="1912" level="1" name="Disparition" race="darkelf" min_level="85"/>
+			<skill id="1913" level="1" name="Life Siphon" race="darkelf" min_level="85"/>
+			<!--orc-->
+			<skill id="1914" level="1" name="Savage" race="orc" min_level="85"/>
+			<skill id="1915" level="1" name="Fire Blessing" race="orc" min_level="85"/>
+			<skill id="1916" level="1" name="Energetic" race="orc" min_level="85"/>
+			<skill id="1917" level="1" name="Undying Will" race="orc" min_level="85"/>
+			<!--dwarf-->
+			<skill id="1919" level="1" name="Dexterity" race="dwarf" min_level="85"/>
+			<skill id="1920" level="1" name="Endurance" race="dwarf" min_level="85"/>
+			<skill id="1921" level="1" name="Earth Blessing" race="dwarf" min_level="85"/>
+			<skill id="1922" level="1" name="Earth Tremor" race="dwarf" min_level="85"/>
+			<skill id="19088" level="1" name="Summon Siege Golem" race="dwarf" min_level="85"/>
+			<skill id="19089" level="1" name="Summon Wild Hog Cannon" race="dwarf" min_level="85"/>
+			<skill id="19090" level="1" name="Summon Swoop Cannon" race="dwarf" min_level="85"/>
+			<skill id="1321" level="1" name="Dwarven Craft" race="dwarf" min_level="85"/>
+			<skill id="172" level="11" name="Create Item" min_level="85" race="dwarf"/>
+			<skill id="172" level="12" name="Create Item" min_level="90" race="dwarf"/>
+			<skill id="172" level="13" name="Create Item" min_level="95" race="dwarf"/>
+			<skill id="172" level="14" name="Create Item" min_level="99" race="dwarf"/>
+			<!--kamael-->
+			<skill id="1923" level="1" name="Battle Instinct" race="kamael" min_level="85"/>
+			<skill id="1924" level="1" name="Dark Blessing" race="kamael" min_level="85"/>
+			<skill id="1925" level="1" name="Soul Protection" race="kamael" min_level="85"/>
+			<skill id="1926" level="1" name="Body Reinforcement" race="kamael" min_level="85"/>
+			<skill id="1954" level="1" name="Flying Body Reinforcement" race="kamael" min_level="85"/>
+			<!--Default by level skills-->
+			<skill id="194" level="1" name="Lucky" min_level="1"/>
+			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99"/>
+			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85"/>
+			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95"/>
+			<skill id="1322" level="1" name="Common Craft" min_level="1"/>
+			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
+			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
+			<skill id="1405" level="3" cost="0" name="Divine Inspiration" min_level="76" item_id="8620" item_count="1" clicked="false" />
+			<skill id="1405" level="4" cost="0" name="Divine Inspiration" min_level="76" item_id="8621" item_count="1" clicked="false" />
+			<skill id="1571" level="1" name="Each Class Inventory Increase" min_level="85"/>
+			<skill id="1597" level="1" name="Each Class Weight Increase" min_level="85"/>
+			<skill id="1929" level="1" cost="0" name="Tyrr Aura" min_level="85" />
+			<skill id="1947" level="1" name="Block Tyrr Force" min_level="85"/>
+			<skill id="8601" level="1" cost="10000000" name="Summon Battle Scar" min_level="85" />
+			<!--Default by level skills-->
 			<skill id="10251" level="1" cost="10000000" name="Superior Weapon Mastery" min_level="85" />
 			<skill id="10252" level="1" cost="10000000" name="Superior Dual Weapon Mastery" min_level="85" />
 			<skill id="10253" level="1" cost="10000000" name="Superior Heavy Armor Mastery" min_level="85" />
@@ -18123,13 +18232,66 @@
 			<skill id="10296" level="1" cost="10000000" name="Spirit of the Hunter" min_level="85" />
 			<skill id="10297" level="1" cost="10000000" name="Spirit of the Slayer" min_level="85" />
 			<skill id="10298" level="1" cost="10000000" name="Power Revival" min_level="85" />
+		</class>
+		<class id="141">
+			<!--Race Skills-->
+			<!--Human-->
+			<skill id="1901" level="1" name="Aim" race="human" min_level="85"/>
+			<skill id="1902" level="1" name="Mental Fortress" race="human" min_level="85"/>
+			<skill id="1903" level="1" name="Fitness" race="human" min_level="85"/>
+			<skill id="1904" level="1" name="Unbind" race="human" min_level="85"/>
+			<!--Elf-->
+			<skill id="1905" level="1" name="Swiftness" race="elf" min_level="85"/>
+			<skill id="1906" level="1" name="Water Blessing" race="elf" min_level="85"/>
+			<skill id="1907" level="1" name="Prevision" race="elf" min_level="85"/>
+			<skill id="1908" level="1" name="Delicacy" race="elf" min_level="85"/>
+			<!--Dark Elf-->
+			<skill id="1909" level="1" name="Sharpness" race="darkelf" min_level="85"/>
+			<skill id="1910" level="1" name="Dark Presence" race="darkelf" min_level="85"/>
+			<skill id="1911" level="1" name="Wind Blessing" race="darkelf" min_level="85"/>
+			<skill id="1912" level="1" name="Disparition" race="darkelf" min_level="85"/>
+			<skill id="1913" level="1" name="Life Siphon" race="darkelf" min_level="85"/>
+			<!--orc-->
+			<skill id="1914" level="1" name="Savage" race="orc" min_level="85"/>
+			<skill id="1915" level="1" name="Fire Blessing" race="orc" min_level="85"/>
+			<skill id="1916" level="1" name="Energetic" race="orc" min_level="85"/>
+			<skill id="1917" level="1" name="Undying Will" race="orc" min_level="85"/>
+			<!--dwarf-->
+			<skill id="1919" level="1" name="Dexterity" race="dwarf" min_level="85"/>
+			<skill id="1920" level="1" name="Endurance" race="dwarf" min_level="85"/>
+			<skill id="1921" level="1" name="Earth Blessing" race="dwarf" min_level="85"/>
+			<skill id="1922" level="1" name="Earth Tremor" race="dwarf" min_level="85"/>
+			<skill id="19088" level="1" name="Summon Siege Golem" race="dwarf" min_level="85"/>
+			<skill id="19089" level="1" name="Summon Wild Hog Cannon" race="dwarf" min_level="85"/>
+			<skill id="19090" level="1" name="Summon Swoop Cannon" race="dwarf" min_level="85"/>
+			<skill id="1321" level="1" name="Dwarven Craft" race="dwarf" min_level="85"/>
+			<skill id="172" level="11" name="Create Item" min_level="85" race="dwarf"/>
+			<skill id="172" level="12" name="Create Item" min_level="90" race="dwarf"/>
+			<skill id="172" level="13" name="Create Item" min_level="95" race="dwarf"/>
+			<skill id="172" level="14" name="Create Item" min_level="99" race="dwarf"/>
+			<!--kamael-->
+			<skill id="1923" level="1" name="Battle Instinct" race="kamael" min_level="85"/>
+			<skill id="1924" level="1" name="Dark Blessing" race="kamael" min_level="85"/>
+			<skill id="1925" level="1" name="Soul Protection" race="kamael" min_level="85"/>
+			<skill id="1926" level="1" name="Body Reinforcement" race="kamael" min_level="85"/>
+			<skill id="1954" level="1" name="Flying Body Reinforcement" race="kamael" min_level="85"/>
+			<!--Base skills-->
+			<skill id="194" level="1" name="Lucky" min_level="1"/>
 			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
 			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85" />
 			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95" />
-			<skill id="1929" level="1" cost="0" name="Tyrr Aura" min_level="85" />
-			<skill id="8601" level="1" cost="10000000" name="Summon Battle Scar" min_level="85" />
-		</class>
-		<class id="141">
+			<skill id="1322" level="1" name="Common Craft" min_level="1"/>
+			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
+			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
+			<skill id="1405" level="3" cost="0" name="Divine Inspiration" min_level="76" item_id="8620" item_count="1" clicked="false" />
+			<skill id="1405" level="4" cost="0" name="Divine Inspiration" min_level="76" item_id="8621" item_count="1" clicked="false" />
+			<skill id="1405" level="4" cost="5000000" name="Divine Inspiration" min_level="85"/>
+			<skill id="1571" level="1" name="Each Class Inventory Increase" min_level="85"/>
+			<skill id="1597" level="1" name="Each Class Weight Increase" min_level="85"/>
+			<skill id="1931" level="1" cost="0" name="Othell Aura" min_level="85" />
+			<skill id="1948" level="1" name="Block Othell Force" min_level="85"/>
+			<skill id="8602" level="1" cost="10000000" name="Summon Blood Tail" min_level="85" />
+			<!--Default by level skills-->
 			<skill id="10501" level="1" cost="10000000" name="Superior Dagger Mastery" min_level="85" />
 			<skill id="10502" level="1" cost="10000000" name="Superior Dual Dagger Mastery" min_level="85" />
 			<skill id="10503" level="1" cost="10000000" name="Superior Light Armor Mastery" min_level="85" />
@@ -18266,15 +18428,68 @@
 			<skill id="10549" level="3" cost="50000000" name="Kick" min_level="91" />
 			<skill id="10549" level="4" cost="50000000" name="Kick" min_level="94" />
 			<skill id="10549" level="5" cost="50000000" name="Kick" min_level="97" />
-			<skill id="1931" level="1" cost="0" name="Othell Aura" min_level="85" />
 			<skill id="10552" level="1" cost="10000000" name="Superior Resistance" min_level="85" />
 			<skill id="10554" level="1" cost="10000000" name="Power Bluff" min_level="85" />
-			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
-			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85" />
-			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95" />
-			<skill id="8602" level="1" cost="10000000" name="Summon Blood Tail" min_level="85" />
 		</class>
 		<class id="142">
+			<!--Race Skills-->
+			<!--Human-->
+			<skill id="1901" level="1" name="Aim" race="human" min_level="85"/>
+			<skill id="1902" level="1" name="Mental Fortress" race="human" min_level="85"/>
+			<skill id="1903" level="1" name="Fitness" race="human" min_level="85"/>
+			<skill id="1904" level="1" name="Unbind" race="human" min_level="85"/>
+			<!--Elf-->
+			<skill id="1905" level="1" name="Swiftness" race="elf" min_level="85"/>
+			<skill id="1906" level="1" name="Water Blessing" race="elf" min_level="85"/>
+			<skill id="1907" level="1" name="Prevision" race="elf" min_level="85"/>
+			<skill id="1908" level="1" name="Delicacy" race="elf" min_level="85"/>
+			<!--Dark Elf-->
+			<skill id="1909" level="1" name="Sharpness" race="darkelf" min_level="85"/>
+			<skill id="1910" level="1" name="Dark Presence" race="darkelf" min_level="85"/>
+			<skill id="1911" level="1" name="Wind Blessing" race="darkelf" min_level="85"/>
+			<skill id="1912" level="1" name="Disparition" race="darkelf" min_level="85"/>
+			<skill id="1913" level="1" name="Life Siphon" race="darkelf" min_level="85"/>
+			<!--orc-->
+			<skill id="1914" level="1" name="Savage" race="orc" min_level="85"/>
+			<skill id="1915" level="1" name="Fire Blessing" race="orc" min_level="85"/>
+			<skill id="1916" level="1" name="Energetic" race="orc" min_level="85"/>
+			<skill id="1917" level="1" name="Undying Will" race="orc" min_level="85"/>
+			<!--dwarf-->
+			<skill id="1919" level="1" name="Dexterity" race="dwarf" min_level="85"/>
+			<skill id="1920" level="1" name="Endurance" race="dwarf" min_level="85"/>
+			<skill id="1921" level="1" name="Earth Blessing" race="dwarf" min_level="85"/>
+			<skill id="1922" level="1" name="Earth Tremor" race="dwarf" min_level="85"/>
+			<skill id="19088" level="1" name="Summon Siege Golem" race="dwarf" min_level="85"/>
+			<skill id="19089" level="1" name="Summon Wild Hog Cannon" race="dwarf" min_level="85"/>
+			<skill id="19090" level="1" name="Summon Swoop Cannon" race="dwarf" min_level="85"/>
+			<skill id="1321" level="1" name="Dwarven Craft" race="dwarf" min_level="85"/>
+			<skill id="172" level="11" name="Create Item" min_level="85" race="dwarf"/>
+			<skill id="172" level="12" name="Create Item" min_level="90" race="dwarf"/>
+			<skill id="172" level="13" name="Create Item" min_level="95" race="dwarf"/>
+			<skill id="172" level="14" name="Create Item" min_level="99" race="dwarf"/>
+			<!--kamael-->
+			<skill id="1923" level="1" name="Battle Instinct" race="kamael" min_level="85"/>
+			<skill id="1924" level="1" name="Dark Blessing" race="kamael" min_level="85"/>
+			<skill id="1925" level="1" name="Soul Protection" race="kamael" min_level="85"/>
+			<skill id="1926" level="1" name="Body Reinforcement" race="kamael" min_level="85"/>
+			<skill id="1954" level="1" name="Flying Body Reinforcement" race="kamael" min_level="85"/>
+			<!--Default by level skills-->
+			<skill id="194" level="1" name="Lucky" min_level="1"/>
+			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85" />
+			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95" />
+			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
+			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
+			<skill id="1322" level="1" name="Common Craft" min_level="1"/>
+			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
+			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
+			<skill id="1405" level="3" cost="0" name="Divine Inspiration" min_level="76" item_id="8620" item_count="1" clicked="false" />
+			<skill id="1405" level="4" cost="0" name="Divine Inspiration" min_level="76" item_id="8621" item_count="1" clicked="false" />
+			<skill id="1571" level="1" name="Each Class Inventory Increase" min_level="85"/>
+			<skill id="1597" level="1" name="Each Class Weight Increase" min_level="85"/>
+			<skill id="1933" level="1" cost="0" name="Yul Aura" min_level="85" />
+			<skill id="1949" level="1" name="Block Yul Force" min_level="85"/>
+			<skill id="8603" level="1" cost="10000000" name="Summon Tempest Arrow" min_level="85" />
+			<!--Default by level skills-->
 			<skill id="10751" level="1" cost="10000000" name="Superior Bow/Crossbow Mastery" min_level="85" />
 			<skill id="10752" level="1" cost="10000000" name="Superior Light Armor Mastery" min_level="85" />
 			<skill id="10753" level="1" cost="10000000" name="Superior Hawkeye Mastery" min_level="85" />
@@ -18413,14 +18628,66 @@
 			<skill id="10805" level="2" cost="50000000" name="Quick Charge" min_level="92" />
 			<skill id="10805" level="3" cost="50000000" name="Quick Charge" min_level="95" />
 			<skill id="10805" level="4" cost="50000000" name="Quick Charge" min_level="98" />
-			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
+		</class>
+		<class id="143">
+			<!--Race Skills-->
+			<!--Human-->
+			<skill id="1901" level="1" name="Aim" race="human" min_level="85"/>
+			<skill id="1902" level="1" name="Mental Fortress" race="human" min_level="85"/>
+			<skill id="1903" level="1" name="Fitness" race="human" min_level="85"/>
+			<skill id="1904" level="1" name="Unbind" race="human" min_level="85"/>
+			<!--Elf-->
+			<skill id="1905" level="1" name="Swiftness" race="elf" min_level="85"/>
+			<skill id="1906" level="1" name="Water Blessing" race="elf" min_level="85"/>
+			<skill id="1907" level="1" name="Prevision" race="elf" min_level="85"/>
+			<skill id="1908" level="1" name="Delicacy" race="elf" min_level="85"/>
+			<!--Dark Elf-->
+			<skill id="1909" level="1" name="Sharpness" race="darkelf" min_level="85"/>
+			<skill id="1910" level="1" name="Dark Presence" race="darkelf" min_level="85"/>
+			<skill id="1911" level="1" name="Wind Blessing" race="darkelf" min_level="85"/>
+			<skill id="1912" level="1" name="Disparition" race="darkelf" min_level="85"/>
+			<skill id="1913" level="1" name="Life Siphon" race="darkelf" min_level="85"/>
+			<!--orc-->
+			<skill id="1914" level="1" name="Savage" race="orc" min_level="85"/>
+			<skill id="1915" level="1" name="Fire Blessing" race="orc" min_level="85"/>
+			<skill id="1916" level="1" name="Energetic" race="orc" min_level="85"/>
+			<skill id="1917" level="1" name="Undying Will" race="orc" min_level="85"/>
+			<!--dwarf-->
+			<skill id="1919" level="1" name="Dexterity" race="dwarf" min_level="85"/>
+			<skill id="1920" level="1" name="Endurance" race="dwarf" min_level="85"/>
+			<skill id="1921" level="1" name="Earth Blessing" race="dwarf" min_level="85"/>
+			<skill id="1922" level="1" name="Earth Tremor" race="dwarf" min_level="85"/>
+			<skill id="19088" level="1" name="Summon Siege Golem" race="dwarf" min_level="85"/>
+			<skill id="19089" level="1" name="Summon Wild Hog Cannon" race="dwarf" min_level="85"/>
+			<skill id="19090" level="1" name="Summon Swoop Cannon" race="dwarf" min_level="85"/>
+			<skill id="1321" level="1" name="Dwarven Craft" race="dwarf" min_level="85"/>
+			<skill id="172" level="11" name="Create Item" min_level="85" race="dwarf"/>
+			<skill id="172" level="12" name="Create Item" min_level="90" race="dwarf"/>
+			<skill id="172" level="13" name="Create Item" min_level="95" race="dwarf"/>
+			<skill id="172" level="14" name="Create Item" min_level="99" race="dwarf"/>
+			<!--kamael-->
+			<skill id="1923" level="1" name="Battle Instinct" race="kamael" min_level="85"/>
+			<skill id="1924" level="1" name="Dark Blessing" race="kamael" min_level="85"/>
+			<skill id="1925" level="1" name="Soul Protection" race="kamael" min_level="85"/>
+			<skill id="1926" level="1" name="Body Reinforcement" race="kamael" min_level="85"/>
+			<skill id="1954" level="1" name="Flying Body Reinforcement" race="kamael" min_level="85"/>
+			<!--Default by level skills-->
+			<skill id="194" level="1" name="Lucky" min_level="1"/>
 			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85" />
 			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95" />
 			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
-			<skill id="1933" level="1" cost="0" name="Yul Aura" min_level="85" />
-			<skill id="8603" level="1" cost="10000000" name="Summon Tempest Arrow" min_level="85" />
-		</class>
-		<class id="143">
+			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
+			<skill id="1322" level="1" name="Common Craft" min_level="1"/>
+			<skill id="1571" level="1" name="Each Class Inventory Increase" min_level="85"/>
+			<skill id="1597" level="1" name="Each Class Weight Increase" min_level="85"/>
+			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
+			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
+			<skill id="1405" level="3" cost="0" name="Divine Inspiration" min_level="76" item_id="8620" item_count="1" clicked="false" />
+			<skill id="1405" level="4" cost="0" name="Divine Inspiration" min_level="76" item_id="8621" item_count="1" clicked="false" />
+			<skill id="1935" level="1" cost="0" name="Feoh Aura" min_level="85" />
+			<skill id="1950" level="1" name="Block Feoh Force" min_level="85"/>
+			<skill id="8604" level="1" cost="10000000" name="Summon Blue Phantom" min_level="85" />
+			<!--Default by level skills-->
 			<skill id="11001" level="1" cost="10000000" name="Superior Weapon Mastery" min_level="85" />
 			<skill id="11002" level="1" cost="10000000" name="Superior Robe Mastery" min_level="85" />
 			<skill id="11003" level="1" cost="10000000" name="Superior Anti Magic" min_level="85" />
@@ -18563,14 +18830,65 @@
 			<skill id="11185" level="1" cost="10000000" name="Superior Mana Boost" min_level="85" />
 			<skill id="11186" level="1" cost="10000000" name="Superior Fast MP Recovery" min_level="85" />
 			<skill id="11187" level="1" cost="10000000" name="Superior Clear Mind" min_level="85" />
-			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
+		</class>
+		<class id="144">
+			<!--Race Skills-->
+			<!--Human-->
+			<skill id="1901" level="1" name="Aim" race="human" min_level="85"/>
+			<skill id="1902" level="1" name="Mental Fortress" race="human" min_level="85"/>
+			<skill id="1903" level="1" name="Fitness" race="human" min_level="85"/>
+			<skill id="1904" level="1" name="Unbind" race="human" min_level="85"/>
+			<!--Elf-->
+			<skill id="1905" level="1" name="Swiftness" race="elf" min_level="85"/>
+			<skill id="1906" level="1" name="Water Blessing" race="elf" min_level="85"/>
+			<skill id="1907" level="1" name="Prevision" race="elf" min_level="85"/>
+			<skill id="1908" level="1" name="Delicacy" race="elf" min_level="85"/>
+			<!--Dark Elf-->
+			<skill id="1909" level="1" name="Sharpness" race="darkelf" min_level="85"/>
+			<skill id="1910" level="1" name="Dark Presence" race="darkelf" min_level="85"/>
+			<skill id="1911" level="1" name="Wind Blessing" race="darkelf" min_level="85"/>
+			<skill id="1912" level="1" name="Disparition" race="darkelf" min_level="85"/>
+			<skill id="1913" level="1" name="Life Siphon" race="darkelf" min_level="85"/>
+			<!--orc-->
+			<skill id="1914" level="1" name="Savage" race="orc" min_level="85"/>
+			<skill id="1915" level="1" name="Fire Blessing" race="orc" min_level="85"/>
+			<skill id="1916" level="1" name="Energetic" race="orc" min_level="85"/>
+			<skill id="1917" level="1" name="Undying Will" race="orc" min_level="85"/>
+			<!--dwarf-->
+			<skill id="1919" level="1" name="Dexterity" race="dwarf" min_level="85"/>
+			<skill id="1920" level="1" name="Endurance" race="dwarf" min_level="85"/>
+			<skill id="1921" level="1" name="Earth Blessing" race="dwarf" min_level="85"/>
+			<skill id="1922" level="1" name="Earth Tremor" race="dwarf" min_level="85"/>
+			<skill id="19088" level="1" name="Summon Siege Golem" race="dwarf" min_level="85"/>
+			<skill id="19089" level="1" name="Summon Wild Hog Cannon" race="dwarf" min_level="85"/>
+			<skill id="19090" level="1" name="Summon Swoop Cannon" race="dwarf" min_level="85"/>
+			<skill id="1321" level="1" name="Dwarven Craft" race="dwarf" min_level="85"/>
+			<skill id="172" level="11" name="Create Item" min_level="85" race="dwarf"/>
+			<skill id="172" level="12" name="Create Item" min_level="90" race="dwarf"/>
+			<skill id="172" level="13" name="Create Item" min_level="95" race="dwarf"/>
+			<skill id="172" level="14" name="Create Item" min_level="99" race="dwarf"/>
+			<!--kamael-->
+			<skill id="1923" level="1" name="Battle Instinct" race="kamael" min_level="85"/>
+			<skill id="1924" level="1" name="Dark Blessing" race="kamael" min_level="85"/>
+			<skill id="1925" level="1" name="Soul Protection" race="kamael" min_level="85"/>
+			<skill id="1926" level="1" name="Body Reinforcement" race="kamael" min_level="85"/>
+			<skill id="1954" level="1" name="Flying Body Reinforcement" race="kamael" min_level="85"/>
+			<!--Default by level skills-->
+			<skill id="194" level="1" name="Lucky" min_level="1"/>
 			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85" />
 			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95" />
 			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
-			<skill id="1935" level="1" cost="0" name="Feoh Aura" min_level="85" />
-			<skill id="8604" level="1" cost="10000000" name="Summon Blue Phantom" min_level="85" />
-		</class>
-		<class id="144">
+			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
+			<skill id="1322" level="1" name="Common Craft" min_level="1"/>
+			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
+			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
+			<skill id="1405" level="3" cost="0" name="Divine Inspiration" min_level="76" item_id="8620" item_count="1" clicked="false" />
+			<skill id="1405" level="4" cost="0" name="Divine Inspiration" min_level="76" item_id="8621" item_count="1" clicked="false" />
+			<skill id="1951" level="1" name="Block Iss Force" min_level="85"/>
+			<skill id="1571" level="1" name="Each Class Inventory Increase" min_level="85"/>
+			<skill id="1597" level="1" name="Each Class Weight Increase" min_level="85"/>
+			<skill id="8606" level="1" cost="10000000" name="Summon Swift Melody" min_level="85" />
+			<!--Default by level skills-->
 			<skill id="11501" level="1" cost="10000000" name="Superior Dual Weapon Mastery" min_level="85" />
 			<skill id="11502" level="1" cost="10000000" name="Superior Robe Mastery" min_level="85" />
 			<skill id="11503" level="1" cost="10000000" name="Superior Light Armor Mastery" min_level="85" />
@@ -18721,13 +19039,66 @@
 			<skill id="11567" level="1" cost="10000000" name="Mental Protection" min_level="85" />
 			<skill id="11570" level="1" cost="10000000" name="Healing Melody" min_level="85" />
 			<skill id="11571" level="1" cost="10000000" name="Recovery Melody" min_level="85" />
-			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
+		</class>
+		<class id="145">
+			<!--Race Skills-->
+			<!--Human-->
+			<skill id="1901" level="1" name="Aim" race="human" min_level="85"/>
+			<skill id="1902" level="1" name="Mental Fortress" race="human" min_level="85"/>
+			<skill id="1903" level="1" name="Fitness" race="human" min_level="85"/>
+			<skill id="1904" level="1" name="Unbind" race="human" min_level="85"/>
+			<!--Elf-->
+			<skill id="1905" level="1" name="Swiftness" race="elf" min_level="85"/>
+			<skill id="1906" level="1" name="Water Blessing" race="elf" min_level="85"/>
+			<skill id="1907" level="1" name="Prevision" race="elf" min_level="85"/>
+			<skill id="1908" level="1" name="Delicacy" race="elf" min_level="85"/>
+			<!--Dark Elf-->
+			<skill id="1909" level="1" name="Sharpness" race="darkelf" min_level="85"/>
+			<skill id="1910" level="1" name="Dark Presence" race="darkelf" min_level="85"/>
+			<skill id="1911" level="1" name="Wind Blessing" race="darkelf" min_level="85"/>
+			<skill id="1912" level="1" name="Disparition" race="darkelf" min_level="85"/>
+			<skill id="1913" level="1" name="Life Siphon" race="darkelf" min_level="85"/>
+			<!--orc-->
+			<skill id="1914" level="1" name="Savage" race="orc" min_level="85"/>
+			<skill id="1915" level="1" name="Fire Blessing" race="orc" min_level="85"/>
+			<skill id="1916" level="1" name="Energetic" race="orc" min_level="85"/>
+			<skill id="1917" level="1" name="Undying Will" race="orc" min_level="85"/>
+			<!--dwarf-->
+			<skill id="1919" level="1" name="Dexterity" race="dwarf" min_level="85"/>
+			<skill id="1920" level="1" name="Endurance" race="dwarf" min_level="85"/>
+			<skill id="1921" level="1" name="Earth Blessing" race="dwarf" min_level="85"/>
+			<skill id="1922" level="1" name="Earth Tremor" race="dwarf" min_level="85"/>
+			<skill id="19088" level="1" name="Summon Siege Golem" race="dwarf" min_level="85"/>
+			<skill id="19089" level="1" name="Summon Wild Hog Cannon" race="dwarf" min_level="85"/>
+			<skill id="19090" level="1" name="Summon Swoop Cannon" race="dwarf" min_level="85"/>
+			<skill id="1321" level="1" name="Dwarven Craft" race="dwarf" min_level="85"/>
+			<skill id="172" level="11" name="Create Item" min_level="85" race="dwarf"/>
+			<skill id="172" level="12" name="Create Item" min_level="90" race="dwarf"/>
+			<skill id="172" level="13" name="Create Item" min_level="95" race="dwarf"/>
+			<skill id="172" level="14" name="Create Item" min_level="99" race="dwarf"/>
+			<!--kamael-->
+			<skill id="1923" level="1" name="Battle Instinct" race="kamael" min_level="85"/>
+			<skill id="1924" level="1" name="Dark Blessing" race="kamael" min_level="85"/>
+			<skill id="1925" level="1" name="Soul Protection" race="kamael" min_level="85"/>
+			<skill id="1926" level="1" name="Body Reinforcement" race="kamael" min_level="85"/>
+			<skill id="1954" level="1" name="Flying Body Reinforcement" race="kamael" min_level="85"/>
+			<!--Default by level skills-->
+			<skill id="194" level="1" name="Lucky" min_level="1"/>
 			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85" />
 			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95" />
 			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
-			<skill id="8606" level="1" cost="10000000" name="Summon Swift Melody" min_level="85" />
-		</class>
-		<class id="145">
+			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
+			<skill id="1322" level="1" name="Common Craft" min_level="1"/>
+			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
+			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
+			<skill id="1405" level="3" cost="0" name="Divine Inspiration" min_level="76" item_id="8620" item_count="1" clicked="false" />
+			<skill id="1405" level="4" cost="0" name="Divine Inspiration" min_level="76" item_id="8621" item_count="1" clicked="false" />
+			<skill id="1937" level="1" name="Wynn Aura" min_level="85"/>
+			<skill id="1952" level="1" name="Block Wynn Force" min_level="85"/>
+			<skill id="1571" level="1" name="Each Class Inventory Increase" min_level="85"/>
+			<skill id="1597" level="1" name="Each Class Weight Increase" min_level="85"/>
+			<skill id="8605" level="1" cost="10000000" name="Summon White Wing" min_level="85" />
+			<!--Default by level skills-->
 			<skill id="1937" level="1" cost="0" name="Wynn Aura" min_level="85" />
 			<skill id="11308" level="1" cost="0" name="Mass Servitor Wind Walk" min_level="85" />
 			<skill id="11303" level="1" cost="0" name="Mass Servitor Magic Barrier" min_level="85" />
@@ -18880,13 +19251,66 @@
 			<skill id="11309" level="1" cost="10000000" name="Mass Servitor Cleanse" min_level="85" />
 			<skill id="11310" level="1" cost="10000000" name="Mass Servitor Ultimate Defense" min_level="85" />
 			<skill id="11316" level="1" cost="10000000" name="Summon Soulshots" min_level="85" />
-			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
+		</class>
+		<class id="146">
+			<!--Race Skills-->
+			<!--Human-->
+			<skill id="1901" level="1" name="Aim" race="human" min_level="85"/>
+			<skill id="1902" level="1" name="Mental Fortress" race="human" min_level="85"/>
+			<skill id="1903" level="1" name="Fitness" race="human" min_level="85"/>
+			<skill id="1904" level="1" name="Unbind" race="human" min_level="85"/>
+			<!--Elf-->
+			<skill id="1905" level="1" name="Swiftness" race="elf" min_level="85"/>
+			<skill id="1906" level="1" name="Water Blessing" race="elf" min_level="85"/>
+			<skill id="1907" level="1" name="Prevision" race="elf" min_level="85"/>
+			<skill id="1908" level="1" name="Delicacy" race="elf" min_level="85"/>
+			<!--Dark Elf-->
+			<skill id="1909" level="1" name="Sharpness" race="darkelf" min_level="85"/>
+			<skill id="1910" level="1" name="Dark Presence" race="darkelf" min_level="85"/>
+			<skill id="1911" level="1" name="Wind Blessing" race="darkelf" min_level="85"/>
+			<skill id="1912" level="1" name="Disparition" race="darkelf" min_level="85"/>
+			<skill id="1913" level="1" name="Life Siphon" race="darkelf" min_level="85"/>
+			<!--orc-->
+			<skill id="1914" level="1" name="Savage" race="orc" min_level="85"/>
+			<skill id="1915" level="1" name="Fire Blessing" race="orc" min_level="85"/>
+			<skill id="1916" level="1" name="Energetic" race="orc" min_level="85"/>
+			<skill id="1917" level="1" name="Undying Will" race="orc" min_level="85"/>
+			<!--dwarf-->
+			<skill id="1919" level="1" name="Dexterity" race="dwarf" min_level="85"/>
+			<skill id="1920" level="1" name="Endurance" race="dwarf" min_level="85"/>
+			<skill id="1921" level="1" name="Earth Blessing" race="dwarf" min_level="85"/>
+			<skill id="1922" level="1" name="Earth Tremor" race="dwarf" min_level="85"/>
+			<skill id="19088" level="1" name="Summon Siege Golem" race="dwarf" min_level="85"/>
+			<skill id="19089" level="1" name="Summon Wild Hog Cannon" race="dwarf" min_level="85"/>
+			<skill id="19090" level="1" name="Summon Swoop Cannon" race="dwarf" min_level="85"/>
+			<skill id="1321" level="1" name="Dwarven Craft" race="dwarf" min_level="85"/>
+			<skill id="172" level="11" name="Create Item" min_level="85" race="dwarf"/>
+			<skill id="172" level="12" name="Create Item" min_level="90" race="dwarf"/>
+			<skill id="172" level="13" name="Create Item" min_level="95" race="dwarf"/>
+			<skill id="172" level="14" name="Create Item" min_level="99" race="dwarf"/>
+			<!--kamael-->
+			<skill id="1923" level="1" name="Battle Instinct" race="kamael" min_level="85"/>
+			<skill id="1924" level="1" name="Dark Blessing" race="kamael" min_level="85"/>
+			<skill id="1925" level="1" name="Soul Protection" race="kamael" min_level="85"/>
+			<skill id="1926" level="1" name="Body Reinforcement" race="kamael" min_level="85"/>
+			<skill id="1954" level="1" name="Flying Body Reinforcement" race="kamael" min_level="85"/>
+			<!--Default by level skills-->
+			<skill id="194" level="1" name="Lucky" min_level="1"/>
 			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85" />
 			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95" />
 			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
-			<skill id="8605" level="1" cost="10000000" name="Summon White Wing" min_level="85" />
-		</class>
-		<class id="146">
+			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
+			<skill id="1322" level="1" name="Common Craft" min_level="1"/>
+			<skill id="1939" level="1" cost="0" name="Aeore Aura" min_level="85" />
+			<skill id="1953" level="1" name="Block Aeore Force" min_level="85"/>
+			<skill id="8607" level="1" cost="10000000" name="Summon Silver Saint" min_level="85" />
+			<skill id="1571" level="1" name="Each Class Inventory Increase" min_level="85"/>
+			<skill id="1597" level="1" name="Each Class Weight Increase" min_level="85"/>
+			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
+			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
+			<skill id="1405" level="3" cost="0" name="Divine Inspiration" min_level="76" item_id="8620" item_count="1" clicked="false" />
+			<skill id="1405" level="4" cost="0" name="Divine Inspiration" min_level="76" item_id="8621" item_count="1" clicked="false" />
+			<!--Default by level skills-->
 			<skill id="11751" level="1" cost="10000000" name="Superior Weapon Mastery" min_level="85" />
 			<skill id="11752" level="1" cost="10000000" name="Sustain" min_level="85" />
 			<skill id="11752" level="2" cost="50000000" name="Sustain" min_level="87" />
@@ -19057,12 +19481,6 @@
 			<skill id="11832" level="4" cost="50000000" name="Mass Fatal Sleep" min_level="92" />
 			<skill id="11832" level="5" cost="50000000" name="Mass Fatal Sleep" min_level="95" />
 			<skill id="11832" level="6" cost="50000000" name="Mass Fatal Sleep" min_level="98" />
-			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
-			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85" />
-			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95" />
-			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
-			<skill id="1939" level="1" cost="0" name="Aeore Aura" min_level="85" />
-			<skill id="8607" level="1" cost="10000000" name="Summon Silver Saint" min_level="85" />
 		</class>
 	</normal_skill_tree>
 </list>
