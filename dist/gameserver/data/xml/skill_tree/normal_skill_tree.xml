@@ -17918,6 +17918,7 @@
 			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85"/>
 			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95"/>
 			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99"/>
+			<skill id="248" level="6" cost="0" name="Crystallize" min_level="85" />
 			<skill id="1322" level="1" cost="0" name="Common Craft" min_level="1"/>
 			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
 			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
@@ -18103,6 +18104,7 @@
 			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99"/>
 			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85"/>
 			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95"/>
+			<skill id="248" level="6" cost="0" name="Crystallize" min_level="85" />
 			<skill id="1322" level="1" name="Common Craft" min_level="1"/>
 			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
 			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
@@ -18280,6 +18282,7 @@
 			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
 			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85" />
 			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95" />
+			<skill id="248" level="6" cost="0" name="Crystallize" min_level="85" />
 			<skill id="1322" level="1" name="Common Craft" min_level="1"/>
 			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
 			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
@@ -18478,6 +18481,7 @@
 			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85" />
 			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95" />
 			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
+			<skill id="248" level="6" cost="0" name="Crystallize" min_level="85" />
 			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
 			<skill id="1322" level="1" name="Common Craft" min_level="1"/>
 			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
@@ -18676,6 +18680,7 @@
 			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85" />
 			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95" />
 			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
+			<skill id="248" level="6" cost="0" name="Crystallize" min_level="85" />
 			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
 			<skill id="1322" level="1" name="Common Craft" min_level="1"/>
 			<skill id="1571" level="1" name="Each Class Inventory Increase" min_level="85"/>
@@ -18878,15 +18883,16 @@
 			<skill id="239" level="8" cost="0" name="Expertise R" min_level="85" />
 			<skill id="239" level="9" cost="0" name="Expertise R95" min_level="95" />
 			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
+			<skill id="248" level="6" cost="0" name="Crystallize" min_level="85" />
 			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
 			<skill id="1322" level="1" name="Common Craft" min_level="1"/>
 			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
 			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
 			<skill id="1405" level="3" cost="0" name="Divine Inspiration" min_level="76" item_id="8620" item_count="1" clicked="false" />
 			<skill id="1405" level="4" cost="0" name="Divine Inspiration" min_level="76" item_id="8621" item_count="1" clicked="false" />
-			<skill id="1951" level="1" name="Block Iss Force" min_level="85"/>
 			<skill id="1571" level="1" name="Each Class Inventory Increase" min_level="85"/>
 			<skill id="1597" level="1" name="Each Class Weight Increase" min_level="85"/>
+			<skill id="1951" level="1" name="Block Iss Force" min_level="85"/>
 			<skill id="8606" level="1" cost="10000000" name="Summon Swift Melody" min_level="85" />
 			<!--Default by level skills-->
 			<skill id="11501" level="1" cost="10000000" name="Superior Dual Weapon Mastery" min_level="85" />
@@ -19093,10 +19099,10 @@
 			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
 			<skill id="1405" level="3" cost="0" name="Divine Inspiration" min_level="76" item_id="8620" item_count="1" clicked="false" />
 			<skill id="1405" level="4" cost="0" name="Divine Inspiration" min_level="76" item_id="8621" item_count="1" clicked="false" />
-			<skill id="1937" level="1" name="Wynn Aura" min_level="85"/>
-			<skill id="1952" level="1" name="Block Wynn Force" min_level="85"/>
 			<skill id="1571" level="1" name="Each Class Inventory Increase" min_level="85"/>
 			<skill id="1597" level="1" name="Each Class Weight Increase" min_level="85"/>
+			<skill id="1937" level="1" name="Wynn Aura" min_level="85"/>
+			<skill id="1952" level="1" name="Block Wynn Force" min_level="85"/>
 			<skill id="8605" level="1" cost="10000000" name="Summon White Wing" min_level="85" />
 			<!--Default by level skills-->
 			<skill id="1937" level="1" cost="0" name="Wynn Aura" min_level="85" />
@@ -19301,15 +19307,15 @@
 			<skill id="239" level="10" cost="0" name="Expertise R99" min_level="99" />
 			<skill id="1320" level="1" cost="10000000" name="Create Common Item" min_level="85" />
 			<skill id="1322" level="1" name="Common Craft" min_level="1"/>
-			<skill id="1939" level="1" cost="0" name="Aeore Aura" min_level="85" />
-			<skill id="1953" level="1" name="Block Aeore Force" min_level="85"/>
-			<skill id="8607" level="1" cost="10000000" name="Summon Silver Saint" min_level="85" />
-			<skill id="1571" level="1" name="Each Class Inventory Increase" min_level="85"/>
-			<skill id="1597" level="1" name="Each Class Weight Increase" min_level="85"/>
 			<skill id="1405" level="1" cost="0" name="Divine Inspiration" min_level="52" item_id="8618" item_count="1" clicked="false" />
 			<skill id="1405" level="2" cost="0" name="Divine Inspiration" min_level="61" item_id="8619" item_count="1" clicked="false" />
 			<skill id="1405" level="3" cost="0" name="Divine Inspiration" min_level="76" item_id="8620" item_count="1" clicked="false" />
 			<skill id="1405" level="4" cost="0" name="Divine Inspiration" min_level="76" item_id="8621" item_count="1" clicked="false" />
+			<skill id="1571" level="1" name="Each Class Inventory Increase" min_level="85"/>
+			<skill id="1597" level="1" name="Each Class Weight Increase" min_level="85"/>
+			<skill id="1939" level="1" cost="0" name="Aeore Aura" min_level="85" />
+			<skill id="1953" level="1" name="Block Aeore Force" min_level="85"/>
+			<skill id="8607" level="1" cost="10000000" name="Summon Silver Saint" min_level="85" />
 			<!--Default by level skills-->
 			<skill id="11751" level="1" cost="10000000" name="Superior Weapon Mastery" min_level="85" />
 			<skill id="11752" level="1" cost="10000000" name="Sustain" min_level="85" />
