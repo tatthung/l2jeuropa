@@ -424,12 +424,14 @@ public final class SkillAcquireHolder extends AbstractHolder
 		
 		for (SkillLearn temp : skills)
 		{
-			if ((temp.getLevel() == level) && (temp.getId() == id))
+			if (temp.isOfRace(player.getRace()))
 			{
-				return temp;
+				if ((temp.getLevel() == level) && (temp.getId() == id))
+				{
+					return temp;
+				}
 			}
 		}
-		
 		return null;
 	}
 	
@@ -493,7 +495,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 				return false;
 		}
 		
-		return isSkillPossible(skills, skill);
+		return isSkillPossible(skills, skill, player);
 	}
 	
 	/**
@@ -502,13 +504,16 @@ public final class SkillAcquireHolder extends AbstractHolder
 	 * @param skill Skill
 	 * @return boolean
 	 */
-	private boolean isSkillPossible(final Collection<SkillLearn> skills, Skill skill)
+	private boolean isSkillPossible(final Collection<SkillLearn> skills, Skill skill, Player player)
 	{
 		for (SkillLearn learn : skills)
 		{
-			if ((learn.getId() == skill.getId()) && (learn.getLevel() <= skill.getLevel()))
-			{
-				return true;
+			if (learn.isOfRace(player.getRace()))
+			{ 
+				if ((learn.getId() == skill.getId()) && (learn.getLevel() <= skill.getLevel()))
+				{
+					return true;
+				}
 			}
 		}
 		return false;

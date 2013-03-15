@@ -3426,7 +3426,10 @@ public final class Player extends Playable implements PlayerGroup
 				{
 					Skill sk = SkillTable.getInstance().getInfo(skill.getId(), skill.getLevel());
 					addSkill(sk, true);
-					if ((getAllShortCuts().size() > 0) && (sk.getLevel() > 1))
+					if (
+							(getAllShortCuts().size() > 0) && 
+							(sk.getLevel() > 1)
+						)
 					{
 						for (ShortCut sc : getAllShortCuts())
 						{
@@ -7081,7 +7084,12 @@ public final class Player extends Playable implements PlayerGroup
 					_log.info("Problem! RestoreSkill Id: " + id + " level: " + level);
 					continue;
 				}
-				if (((!isAwaking() && !SkillAcquireHolder.getInstance().isSkillPossible(this, skill)) || (isAwaking() && Config.ALT_DELETE_SKILL_PROF && !SkillAcquireHolder.getInstance().isSkillPossible(this, skill))))
+				if (
+						(
+								(!isAwaking() && !SkillAcquireHolder.getInstance().isSkillPossible(this, skill)) || 
+								(isAwaking() && Config.ALT_DELETE_SKILL_PROF && !SkillAcquireHolder.getInstance().isSkillPossible(this, skill))
+						)
+					)
 				{
 					removeSkill(skill, true);
 					removeSkillFromShortCut(skill.getId());
@@ -7095,8 +7103,6 @@ public final class Player extends Playable implements PlayerGroup
 					{
 						_relationSkillToRemove.add(_k);
 					}
-					if (isAwaking())
-						AwakingManager.getInstance().AwakingRemoveSkills(this);
 				}
 				super.addSkill(skill);
 			}
@@ -7140,6 +7146,8 @@ public final class Player extends Playable implements PlayerGroup
 						_log.info("SkillRelation: Removed skill: " + s.getId() + " - " + s.getName() + " to the player " + getName());
 					}
 				}
+				if (isAwaking())
+					AwakingManager.getInstance().AwakingRemoveSkills(this);
 			}
 		}
 		catch (final Exception e)

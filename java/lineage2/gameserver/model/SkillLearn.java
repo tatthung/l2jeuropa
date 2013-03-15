@@ -157,12 +157,12 @@ public final class SkillLearn implements Comparable<SkillLearn>
 	
 	public Race getRace()
 	{
-		return this._race;
+		return _race;
 	}
 
 	public boolean isOfRace(Race race)
 	{
-		return (this._race == null) || (this._race == race);
+		return (_race == null) || (_race == race);
 	}
 
 	/**

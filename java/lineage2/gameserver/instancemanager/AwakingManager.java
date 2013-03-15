@@ -292,7 +292,6 @@ public class AwakingManager implements OnPlayerEnterListener
 		player.broadcastPacket(new SocialAction(player.getObjectId(), (_CA.get(_oldId) - 119)));
 		AwakingRemoveSkills(player);
 		giveItems(player);
-		//getRaceSkill(player);
 	}
 	
 	/**
