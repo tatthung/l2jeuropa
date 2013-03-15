@@ -438,7 +438,7 @@ public class AwakingManager implements OnPlayerEnterListener
 			if( level > 0)
 			{
 				Skill skill = SkillTable.getInstance().getInfo(i, level);
-				_log.info("Awaking" +  getClass().getSimpleName() + ":" + player.getName() + ":remove skill:" + skill.getName() + " " + skill.getId()); 
+				_log.info(getClass().getSimpleName() + ":" + player.getName() + ":remove skill:" + skill.getName() + " " + skill.getId()); 
 				player.removeSkill(skill);
 			}
 		}

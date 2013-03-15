@@ -22,6 +22,7 @@ import lineage2.commons.data.xml.AbstractDirParser;
 import lineage2.gameserver.Config;
 import lineage2.gameserver.data.xml.holder.SkillAcquireHolder;
 import lineage2.gameserver.model.SkillLearn;
+import lineage2.gameserver.model.base.Race;
 
 import org.dom4j.Element;
 
@@ -174,7 +175,9 @@ public final class SkillAcquireParser extends AbstractDirParser<SkillAcquireHold
 			int item_id = element.attributeValue("item_id") == null ? 0 : Integer.parseInt(element.attributeValue("item_id"));
 			long item_count = element.attributeValue("item_count") == null ? 1 : Long.parseLong(element.attributeValue("item_count"));
 			boolean clicked = (element.attributeValue("clicked") != null) && Boolean.parseBoolean(element.attributeValue("clicked"));
-			skillLearns.add(new SkillLearn(id, level, min_level, cost, item_id, item_count, clicked, new HashMap<Integer, Long>(), new ArrayList<Integer>()));
+			Race race = element.attributeValue("race") == null ? null : Race.valueOf(element.attributeValue("race"));
+			
+			skillLearns.add(new SkillLearn(id, level, min_level, cost, item_id, item_count, clicked, race, new HashMap<Integer, Long>(), new ArrayList<Integer>()));
 		}
 		return skillLearns;
 	}

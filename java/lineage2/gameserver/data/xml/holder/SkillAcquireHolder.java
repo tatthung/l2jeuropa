@@ -27,6 +27,7 @@ import lineage2.gameserver.model.Skill;
 import lineage2.gameserver.model.SkillLearn;
 import lineage2.gameserver.model.base.AcquireType;
 import lineage2.gameserver.model.base.ClassId;
+import lineage2.gameserver.model.base.Race;
 import lineage2.gameserver.model.pledge.Clan;
 import lineage2.gameserver.model.pledge.SubUnit;
 
@@ -168,7 +169,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 					info("skill tree for class " + player.getActiveClassId() + " is not defined !");
 					return Collections.emptyList();
 				}
-				return getAvaliableList(skills, player.getAllSkillsArray(), player.getLevel());
+				return getAvaliableList(skills, player.getAllSkillsArray(), player.getLevel(), player.getRace());
 			}
 			case COLLECTION:
 				skills.addAll(_collectionSkillTree);
@@ -177,7 +178,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 					info("skill tree for class " + player.getActiveClassId() + " is not defined !");
 					return Collections.emptyList();
 				}
-				return getAvaliableList(skills, player.getAllSkillsArray(), player.getLevel());
+				return getAvaliableList(skills, player.getAllSkillsArray(), player.getLevel(), player.getRace());
 			case TRANSFORMATION:
 				skills.addAll(_transformationSkillTree.get(player.getRace().ordinal()));
 				if (skills.isEmpty())
@@ -185,7 +186,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 					info("skill tree for race " + player.getRace().ordinal() + " is not defined !");
 					return Collections.emptyList();
 				}
-				return getAvaliableList(skills, player.getAllSkillsArray(), player.getLevel());
+				return getAvaliableList(skills, player.getAllSkillsArray(), player.getLevel(), player.getRace());
 			case TRANSFER_EVA_SAINTS:
 			case TRANSFER_SHILLIEN_SAINTS:
 			case TRANSFER_CARDINAL:
@@ -219,22 +220,22 @@ public final class SkillAcquireHolder extends AbstractHolder
 					info("skill tree for race " + player.getRace().ordinal() + " is not defined !");
 					return Collections.emptyList();
 				}
-				return getAvaliableList(skills, player.getAllSkillsArray(), player.getLevel());
+				return getAvaliableList(skills, player.getAllSkillsArray(), player.getLevel(), player.getRace());
 			case CLAN:
 				skills.addAll(_pledgeSkillTree);
 				Collection<Skill> skls = player.getClan().getSkills();
-				return getAvaliableList(skills, skls.toArray(new Skill[skls.size()]), player.getClan().getLevel());
+				return getAvaliableList(skills, skls.toArray(new Skill[skls.size()]), player.getClan().getLevel(), player.getRace());
 			case SUB_UNIT:
 				skills.addAll(_subUnitSkillTree);
 				Collection<Skill> st = subUnit.getSkills();
-				return getAvaliableList(skills, st.toArray(new Skill[st.size()]), player.getClan().getLevel());
+				return getAvaliableList(skills, st.toArray(new Skill[st.size()]), player.getClan().getLevel(), player.getRace());
 			case CERTIFICATION:
 				skills.addAll(_certificationSkillTree);
 				if (player == null)
 				{
 					return skills;
 				}
-				return getAvaliableList(skills, player.getAllSkillsArray(), player.getLevel());
+				return getAvaliableList(skills, player.getAllSkillsArray(), player.getLevel(), player.getRace());
 			default:
 				return Collections.emptyList();
 		}
@@ -328,40 +329,43 @@ public final class SkillAcquireHolder extends AbstractHolder
 	 * @param level int
 	 * @return Collection<SkillLearn>
 	 */
-	private Collection<SkillLearn> getAvaliableList(final Collection<SkillLearn> skillLearns, Skill[] skills, int level)
+	private Collection<SkillLearn> getAvaliableList(final Collection<SkillLearn> skillLearns, Skill[] skills, int level, Race race)
 	{
 		Set<SkillLearn> skillLearnMap = new HashSet<>();
 		for (SkillLearn temp : skillLearns)
 		{
-			if (temp.getMinLevel() <= level)
+			if (temp.isOfRace(race))
 			{
-				boolean knownSkill = false;
-				m:
-				for (int j = 0; (j < skills.length) && !knownSkill; j++)
+				if (temp.getMinLevel() <= level)
 				{
-					if (skills[j].isRelationSkill())
-					{
-						for (int _k : skills[j].getRelationSkills())
+					boolean knownSkill = false;
+					m:
+						for (int j = 0; (j < skills.length) && !knownSkill; j++)
 						{
-							if (temp.getId() == _k)
+							if (skills[j].isRelationSkill())
+							{
+								for (int _k : skills[j].getRelationSkills())
+								{
+									if (temp.getId() == _k)
+									{
+										knownSkill = true;
+										break m;
+									}
+								}
+							}
+							if (skills[j].getId() == temp.getId())
 							{
 								knownSkill = true;
-								break m;
+								if (skills[j].getLevel() == (temp.getLevel() - 1))
+								{
+									skillLearnMap.add(temp);
+								}
 							}
 						}
-					}
-					if (skills[j].getId() == temp.getId())
+					if (!knownSkill && (temp.getLevel() == 1))
 					{
-						knownSkill = true;
-						if (skills[j].getLevel() == (temp.getLevel() - 1))
-						{
-							skillLearnMap.add(temp);
-						}
+						skillLearnMap.add(temp);
 					}
-				}
-				if (!knownSkill && (temp.getLevel() == 1))
-				{
-					skillLearnMap.add(temp);
 				}
 			}
 		}
