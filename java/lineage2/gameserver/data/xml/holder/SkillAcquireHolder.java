@@ -256,7 +256,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 			info("skill tree for class " + player.getActiveClassId() + " is not defined !");
 			return Collections.emptyList();
 		}
-		return getAvaliableAllList(skills, player.getAllSkillsArray(), player.getLevel());
+		return getAvaliableAllList(skills, player.getAllSkillsArray(), player.getLevel(), player.getRace());
 	}
 	
 	/**
@@ -275,7 +275,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 			info("skill tree for class " + newClassId + " is not defined !");
 			return Collections.emptyList();
 		}
-		return getAvaliableAllList(skills, player.getAllSkillsArray(), player.getLevel());
+		return getAvaliableAllList(skills, player.getAllSkillsArray(), player.getLevel(), player.getRace());
 	}
 	
 	/**
@@ -283,45 +283,48 @@ public final class SkillAcquireHolder extends AbstractHolder
 	 * @param skillLearns Collection<SkillLearn>
 	 * @param skills Skill[]
 	 * @param level int
+	 * @param race 
 	 * @return Collection<SkillLearn>
 	 */
-	private Collection<SkillLearn> getAvaliableAllList(Collection<SkillLearn> skillLearns, Skill[] skills, int level)
+	private Collection<SkillLearn> getAvaliableAllList(Collection<SkillLearn> skillLearns, Skill[] skills, int level, Race race)
 	{
 		Set<SkillLearn> skillLearnMap = new HashSet<>();
 		loop:
 		for (SkillLearn temp : skillLearns)
 		{
-			for (Skill s : skills)
+			if (temp.isOfRace(race))
 			{
-				if (temp.getId() == s.getId())
+				for (Skill s : skills)
 				{
-					if ((temp.getLevel() - 1) == s.getLevel())
+					if (temp.getId() == s.getId())
 					{
-						skillLearnMap.add(temp);
-					}
-					continue loop;
-				}
-				if (s.isRelationSkill())
-				{
-					for (int ds : s.getRelationSkills())
-					{
-						if (temp.getId() == ds)
+						if ((temp.getLevel() - 1) == s.getLevel())
 						{
-							continue loop;
+							skillLearnMap.add(temp);
+						}
+						continue loop;
+					}
+					if (s.isRelationSkill())
+					{
+						for (int ds : s.getRelationSkills())
+						{
+							if (temp.getId() == ds)
+							{
+								continue loop;
+							}
 						}
 					}
 				}
-				
-			}
-			if (temp.getLevel() == 1)
-			{
-				skillLearnMap.add(temp);
+				if (temp.getLevel() == 1)
+				{
+					skillLearnMap.add(temp);
+				}
 			}
 		}
 		
 		return skillLearnMap;
 	}
-	
+
 	/**
 	 * Method getAvaliableList.
 	 * @param skillLearns Collection<SkillLearn>

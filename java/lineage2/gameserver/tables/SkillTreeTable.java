@@ -122,6 +122,12 @@ public class SkillTreeTable
 		}
 		if (player.isAwaking())
 		{
+			//RACE SKILL CHECK
+			if (!learn.isOfRace(player.getRace()))
+			{
+				player.removeSkill(skill);
+				_log.info("CheckSkill:" + skill.getItemConsume() +" removed to "+ player.getName());
+			}
 			return;
 		}
 		if (learn.getMinLevel() > (player.getLevel() + 10))
