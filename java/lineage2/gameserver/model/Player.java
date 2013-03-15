@@ -7107,6 +7107,7 @@ public final class Player extends Playable implements PlayerGroup
 							//TODO change to removeSkill(skill, true) when sure all is ok.
 							removeSkill(skill);
 							_log.info("RaceSkill: Removed skill: " + skill.getId() + " - " + skill.getName() + " to the player " + getName());
+							continue;
 						}
 					}
 				}
