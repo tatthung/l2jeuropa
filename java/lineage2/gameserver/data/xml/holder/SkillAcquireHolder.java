@@ -391,7 +391,6 @@ public final class SkillAcquireHolder extends AbstractHolder
 		{
 			case NORMAL:
 				skills.addAll(_normalSkillTree.get(player.getActiveClassId()));
-				
 				break;
 			case COLLECTION:
 				skills.addAll(_collectionSkillTree);

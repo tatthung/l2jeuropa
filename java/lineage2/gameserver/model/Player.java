@@ -7096,6 +7096,20 @@ public final class Player extends Playable implements PlayerGroup
 					_log.info("SkillTree: Removed skill: " + skill.getId() + " - " + skill.getName() + " to the player " + getName());
 					continue;
 				}
+				if (isAwaking())
+				{
+					SkillLearn learn = SkillAcquireHolder.getInstance().getSkillLearn(this, skill.getId(), skill.getDisplayLevel() > 100 ? skill.getBaseLevel() : skill.getLevel(), AcquireType.NORMAL);
+					if (learn != null)
+					{
+						//RACE SKILL CHECK
+						if (!learn.isOfRace(getRace()))
+						{
+							//TODO change to removeSkill(skill, true) when sure all is ok.
+							removeSkill(skill);
+							_log.info("RaceSkill: Removed skill: " + skill.getId() + " - " + skill.getName() + " to the player " + getName());
+						}
+					}
+				}
 				if (Config.ALT_DELETE_SKILL_RELATION && skill.isRelationSkill())
 				{
 					int[] _ss = skill.getRelationSkills();
