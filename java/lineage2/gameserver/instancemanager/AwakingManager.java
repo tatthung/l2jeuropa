@@ -486,86 +486,26 @@ public class AwakingManager implements OnPlayerEnterListener
 			switch (race)
 			{
 				case 0:
-					skill = SkillTable.getInstance().getInfo(1901, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1902, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1903, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1904, 1);
-					player.addSkill(skill);
 					skill = SkillTable.getInstance().getInfo(248, 6);
 					player.addSkill(skill);
 					break;
 				case 1:
-					skill = SkillTable.getInstance().getInfo(1905, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1906, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1907, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1908, 1);
-					player.addSkill(skill);
 					skill = SkillTable.getInstance().getInfo(248, 6);
 					player.addSkill(skill);
 					break;
 				case 2:
-					skill = SkillTable.getInstance().getInfo(1909, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1910, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1911, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1912, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1913, 1);
-					player.addSkill(skill);
 					skill = SkillTable.getInstance().getInfo(248, 6);
 					player.addSkill(skill);
 					break;
 				case 3:
-					skill = SkillTable.getInstance().getInfo(1914, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1915, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1916, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1917, 1);
-					player.addSkill(skill);
 					skill = SkillTable.getInstance().getInfo(248, 6);
 					player.addSkill(skill);
 					break;
 				case 4:
-					skill = SkillTable.getInstance().getInfo(1919, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1920, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1921, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1922, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(19088, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(19089, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(19090, 1);
-					player.addSkill(skill);
 					skill = SkillTable.getInstance().getInfo(248, 6);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(172, 11);
 					player.addSkill(skill);
 					break;
 				case 5:
-					skill = SkillTable.getInstance().getInfo(1923, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1924, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1925, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1926, 1);
-					player.addSkill(skill);
-					skill = SkillTable.getInstance().getInfo(1954, 1);
-					player.addSkill(skill);
 					skill = SkillTable.getInstance().getInfo(248, 6);
 					player.addSkill(skill);
 					break;
