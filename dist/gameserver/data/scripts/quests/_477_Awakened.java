@@ -149,7 +149,7 @@ public class _477_Awakened extends Quest implements ScriptFile
 		{
 			return null;
 		}
-		if ((ArrayUtils.contains(Mobs, npc.getNpcId())) && (Rnd.chance(10)))
+		if ((ArrayUtils.contains(Mobs, npc.getNpcId())) && (Rnd.chance(50)))
 		{
 			st.giveItems(19496, 1L);
 		}
