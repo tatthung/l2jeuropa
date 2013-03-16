@@ -155,6 +155,19 @@ public final class SkillAcquireParser extends AbstractDirParser<SkillAcquireHold
 				getHolder().addAllTransformationLearns(race, learns);
 			}
 		}
+		for (Iterator<Element> iterator = rootElement.elementIterator("awakening_remove_skill_tree"); iterator.hasNext();)
+		{
+			HashMap <Integer, List<Integer> > map = new HashMap<Integer, List<Integer>>();
+			Element nxt = iterator.next();
+			for (Iterator<Element> classIterator = nxt.elementIterator("classToAwaken"); classIterator.hasNext();)
+			{
+				Element classElement = classIterator.next();
+				int classId = Integer.parseInt(classElement.attributeValue("id"));
+				List <Integer> remove = parseRemoveSkill(classElement);
+				map.put(classId, remove);
+			}
+			getHolder().addClassToRemove(map);
+		}
 	}
 	
 	/**
@@ -181,4 +194,21 @@ public final class SkillAcquireParser extends AbstractDirParser<SkillAcquireHold
 		}
 		return skillLearns;
 	}
+	
+	/**
+	 * Method parseRemoveSkill
+	 * @param tree Element
+	 * @return List<Integer>
+	 */
+	private List<Integer> parseRemoveSkill(Element tree)
+	{
+		List <Integer> skillRemove = new ArrayList<Integer>();
+		for (Iterator<Element> iterator = tree.elementIterator("skillremove"); iterator.hasNext();)
+		{
+			Element element = iterator.next();
+			int id = Integer.parseInt(element.attributeValue("id"));
+			skillRemove.add(id);
+		}
+		return skillRemove;
+	}	
 }

@@ -27,6 +27,7 @@ import lineage2.gameserver.model.Skill;
 import lineage2.gameserver.model.SkillLearn;
 import lineage2.gameserver.model.base.AcquireType;
 import lineage2.gameserver.model.base.ClassId;
+import lineage2.gameserver.model.base.ClassLevel;
 import lineage2.gameserver.model.base.Race;
 import lineage2.gameserver.model.pledge.Clan;
 import lineage2.gameserver.model.pledge.SubUnit;
@@ -50,6 +51,10 @@ public final class SkillAcquireHolder extends AbstractHolder
 	{
 		return _instance;
 	}
+	/**
+	 * Field _normalSkillTree.
+	 */
+	private static HashMap<Integer, List<Integer>> _AwakenClassSkillRemove = new HashMap<Integer,List<Integer>>();
 	
 	/**
 	 * Field _normalSkillTree.
@@ -640,6 +645,42 @@ public final class SkillAcquireHolder extends AbstractHolder
 			}
 		}
 	}
+
+	/**
+	 * Method getSkillRemoveByClass.
+	 * @param List <Integer> 
+	 */
+	public List<Integer> getSkillRemoveByClass(int cId)
+	{
+		List<Integer> ListSkills = new ArrayList<Integer>();
+		ListSkills = _AwakenClassSkillRemove.get(cId);
+		return ListSkills;
+	}
+
+	/**
+	 * Method addClassToRemove.
+	 * @param HashMap<Integer, List<Integer>>
+	 */
+	
+	public void addClassToRemove(HashMap<Integer,List<Integer>> map)
+	{
+		int ClassID;
+		for(ClassId classId : ClassId.VALUES)//Check all classes on the game
+		{
+			if(classId.getClassLevel() != ClassLevel.Fourth)//Only Loads classes on Third Profession Change (The delete not are only on 3rd class)
+			{
+				continue;
+			}
+			ClassID = classId.getId();
+			List <Integer> temp;
+			temp = map.get(ClassID);
+			if (temp == null)
+			{
+				continue;
+			}
+			_AwakenClassSkillRemove.put(ClassID,temp);			
+		}	
+	}
 	
 	/**
 	 * Method addAllFishingLearns.
@@ -717,6 +758,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 		info("load " + sizeHashMap(_transferSkillTree) + " transfer learns for " + _transferSkillTree.size() + " classes.");
 		info("load " + sizeHashMap(_transformationSkillTree) + " transformation learns for " + _transformationSkillTree.size() + " races.");
 		info("load " + sizeHashMap(_fishingSkillTree) + " fishing learns for " + _fishingSkillTree.size() + " races.");
+		info("load " + sizeHashMapInt(_AwakenClassSkillRemove) + " fishing learns for " +_AwakenClassSkillRemove.size() + " races.");
 		info("load " + _certificationSkillTree.size() + " certification learns.");
 		info("load " + _collectionSkillTree.size() + " collection learns.");
 		info("load " + _pledgeSkillTree.size() + " pledge learns.");
@@ -747,6 +789,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 		_collectionSkillTree.clear();
 		_pledgeSkillTree.clear();
 		_subUnitSkillTree.clear();
+		_AwakenClassSkillRemove.clear();
 	}
 	
 	/**
@@ -758,6 +801,22 @@ public final class SkillAcquireHolder extends AbstractHolder
 	{
 		int i = 0;
 		for (List<SkillLearn> iterator : a.values())
+		{
+			i += iterator.size();
+		}
+		
+		return i;
+	}
+	
+	/**
+	 * Method sizeHashMapInt.
+	 * @param a HashMap<Integer,List<SkillLearn>>
+	 * @return int
+	 */
+	private int sizeHashMapInt(HashMap<Integer, List<Integer>> a)
+	{
+		int i = 0;
+		for (List<Integer> iterator : a.values())
 		{
 			i += iterator.size();
 		}

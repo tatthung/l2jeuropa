@@ -14,6 +14,7 @@ package lineage2.gameserver.instancemanager;
 
 import gnu.trove.map.hash.TIntIntHashMap;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -61,11 +62,11 @@ public class AwakingManager implements OnPlayerEnterListener
 	 */
 	private static TIntIntHashMap _CA = new TIntIntHashMap(36);
 
-	public int[] autoRemoveSkills = {
+	/*public int[] autoRemoveSkills = {
 			2,10,13,15,21,27,33,44,46,58,61,67,69,70,72,78,82,94,97,102,103,112,122,123,129,139,141,143,196,213,222,223,227,230,231,234,254,262,279,287,288,289,291,296,299,302,312,314,315,320,322,323,324,328,329,334,335,336,338,339,340,341,342,346,348,350,353,355,356,357,361,368,405,412,416,417,419,420,421,424,428,429,430,431,435,438,439,440,445,448,450,454,456,457,458,459,460,461,462,466,467,470,471,482,483,484,485,493,494,495,499,500,502,504,505,510,513,514,515,517,519,520,527,528,531,532,533,534,535,536,537,538,579,620,621,623,624,625,626,755,756,757,758,759,760,761,762,763,764,765,766,767,768,769,770,771,772,773,774,776,777,778,784,786,788,790,791,792,810,818,819,820,825,826,827,828,829,830,831,832,834,836,912,913,914,915,917,918,919,920,922,923,924,929,930,931,939,945,946,947,948,949,984,985,1018,1020,1044,1049,1071,1072,1074,1078,1083,1095,1102,1108,1129,1151,1154,1170,1182,1210,1213,1223,1224,1243,1250,1256,1257,1258,1268,1279,1280,1281,1285,1286,1287,1288,1289,1300,1304,1305,1307,1328,1329,1330,1334,1340,1346,1347,1348,1350,1351,1366,1367,1380,1398,1399,1400,
 			/* 1405, */ //TODO: Awakening use divine inspiration or not ??? 
-			1416,1424,1426,1429,1435,1441,1443,1444,1445,1460,1467,1468,1470,1478,1479,1480,1482,1483,1486,1487,1493,1494,1495,1496,1497,1498,1499,1500,1501,1502,1503,1504,1505,1506,1507,1509,1510,1514,1515,1516,1517,1518,1519,1520,1526,1532,1535,1536,1537,1538,1539,1540,1542,1543,1547,1551,1552,1557,1560,1598,1599,1600
-			};
+		/*	1416,1424,1426,1429,1435,1441,1443,1444,1445,1460,1467,1468,1470,1478,1479,1480,1482,1483,1486,1487,1493,1494,1495,1496,1497,1498,1499,1500,1501,1502,1503,1504,1505,1506,1507,1509,1510,1514,1515,1516,1517,1518,1519,1520,1526,1532,1535,1536,1537,1538,1539,1540,1542,1543,1547,1551,1552,1557,1560,1598,1599,1600
+			};*/
 	/**
 	 * Field count30T.
 	 */
@@ -434,16 +435,68 @@ public class AwakingManager implements OnPlayerEnterListener
 	
 	public void AwakingRemoveSkills(Player player)
 	{
-		for(int i : autoRemoveSkills)
+		List<Integer> skillsRemove = new ArrayList<Integer>();
+		switch (player.getClassId().getId())// This Checks if any of the skills of other class transfer are in character skill tree On Relogin
 		{
-			int level = player.getSkillLevel(i);
-			if( level > 0)
+			case 139://Sigel Knight
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.HELL_KNIGHT.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.PHOENIX_KNIGHT.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.EVAS_TEMPLAR.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.SHILLIEN_TEMPLAR.getId()));
+				break;
+			case 140://Tyrr Warrior
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.TITAN.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.GRAND_KHAVATARI.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.DREADNOUGHT.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.DUELIST.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.DOOMBRINGER.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.MAESTRO.getId()));
+				break;
+			case 141://Othell Rogue
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.WIND_RIDER.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.GHOST_HUNTER.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.ADVENTURER.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.FORTUNE_SEEKER.getId()));
+				break;
+			case 142://Yul Archer
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.MOONLIGHT_SENTINEL.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.GHOST_SENTINEL.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.SAGITTARIUS.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.TRICKSTER.getId()));
+				break;
+			case 143://Feoh Wizard
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.MYSTIC_MUSE.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.STORM_SCREAMER.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.ARCHMAGE.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.SOULTAKER.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.F_SOUL_HOUND.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.M_SOUL_HOUND.getId()));
+			case 144://Iss Enchanter
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.DOMINATOR.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.DOOMCRYER.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.SPECTRAL_DANCER.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.SWORD_MUSE.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.HIEROPHANT.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.JUDICATOR.getId())); //Not Implemented yet, need functional dual class system
+				break;
+			case 145://Wynn Summoner
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.ELEMENTAL_MASTER.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.SPECTRAL_MASTER.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.ARCANA_LORD.getId()));
+			case 146://Aerore Healer
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.SHILLIEN_SAINT.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.EVAS_SAINT.getId()));
+				skillsRemove.addAll(SkillAcquireHolder.getInstance().getSkillRemoveByClass(ClassId.CARDINAL.getId()));
+		}
+		for(Integer skillId : skillsRemove)
+		{
+			int level = player.getSkillLevel(skillId);
+			if(level > 0)
 			{
-				Skill skill = SkillTable.getInstance().getInfo(i, level);
+				Skill skill = SkillTable.getInstance().getInfo(skillId, level);
 				_log.info(getClass().getSimpleName() + ":" + player.getName() + ":remove skill:" + skill.getName() + " " + skill.getId());
 				//TODO UPDATE TO removeSkill(skill, true) if all is ok 
 				player.removeSkill(skill);
-				
 			}
 		}
 		player.sendSkillList();
