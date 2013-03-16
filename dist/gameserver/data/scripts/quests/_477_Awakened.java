@@ -89,10 +89,6 @@ public class _477_Awakened extends Quest implements ScriptFile
 		{
 			if (state == 1)
 			{
-				if ((cond == 0) && (isAvailableFor(st.getPlayer())))
-				{
-					return "33463-lvl.htm";
-				}
 				if (!st.isNowAvailableByTime())
 				{
 					return "33463-comp.htm";
