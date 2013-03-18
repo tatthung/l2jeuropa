@@ -94,6 +94,7 @@ import lineage2.gameserver.instancemanager.CursedWeaponsManager;
 import lineage2.gameserver.instancemanager.MatchingRoomManager;
 import lineage2.gameserver.instancemanager.QuestManager;
 import lineage2.gameserver.instancemanager.ReflectionManager;
+import lineage2.gameserver.instancemanager.WorldStatisticsManager;
 import lineage2.gameserver.instancemanager.games.HandysBlockCheckerManager;
 import lineage2.gameserver.instancemanager.games.HandysBlockCheckerManager.ArenaParticipantsHolder;
 import lineage2.gameserver.listener.actor.player.OnAnswerListener;
@@ -186,6 +187,7 @@ import lineage2.gameserver.model.pledge.UnitMember;
 import lineage2.gameserver.model.quest.Quest;
 import lineage2.gameserver.model.quest.QuestEventType;
 import lineage2.gameserver.model.quest.QuestState;
+import lineage2.gameserver.model.worldstatistics.CategoryType;
 import lineage2.gameserver.network.GameClient;
 import lineage2.gameserver.network.serverpackets.AbnormalStatusUpdate;
 import lineage2.gameserver.network.serverpackets.ActionFail;
@@ -203,7 +205,6 @@ import lineage2.gameserver.network.serverpackets.ExBR_ExtraUserInfo;
 import lineage2.gameserver.network.serverpackets.ExBasicActionList;
 import lineage2.gameserver.network.serverpackets.ExDominionWarStart;
 import lineage2.gameserver.network.serverpackets.ExDuelUpdateUserInfo;
-import lineage2.gameserver.network.serverpackets.ExLoadStatUser;
 import lineage2.gameserver.network.serverpackets.ExNewSkillToLearnByLevelUp;
 import lineage2.gameserver.network.serverpackets.ExOlympiadMatchEnd;
 import lineage2.gameserver.network.serverpackets.ExOlympiadMode;
@@ -529,6 +530,8 @@ public final class Player extends Playable implements PlayerGroup
 	 * Field _deleteTimer.
 	 */
 	private int _deleteTimer;
+	private long _startingTimeInFullParty = 0L;
+	private long _startingTimeInParty = 0L;
 	/**
 	 * Field _ping.
 	 */
@@ -3385,6 +3388,7 @@ public final class Player extends Playable implements PlayerGroup
 			_pet.setExp(_pet.getExpForNextLevel());
 			_pet.broadcastStatusUpdate();
 		}
+		WorldStatisticsManager.getInstance().updateStat(this, CategoryType.EXP_ADDED, addToExp);
 		updateStats();
 	}
 	
@@ -4688,6 +4692,13 @@ public final class Player extends Playable implements PlayerGroup
 				processQuestEvent(q.getName(), "CE" + item.getItemId(), null);
 			}
 		}
+		if ((item.getItemId() == ItemTemplate.ITEM_ID_ADENA))
+		{
+			if (item.getOwnerId() == 0)
+			{
+				WorldStatisticsManager.getInstance().updateStat(this, CategoryType.ADENA_ADDED, item.getCount());
+			}
+		}
 		Log.LogItem(this, log, item);
 		sendPacket(SystemMessage2.obtainItems(item));
 		getInventory().addItem(item);
@@ -4864,6 +4875,9 @@ public final class Player extends Playable implements PlayerGroup
 		}
 		if (attacker.isPlayer() && (Math.abs(attacker.getLevel() - getLevel()) > 10))
 		{
+			WorldStatisticsManager.getInstance().updateStat(attacker.getPlayer(), CategoryType.DAMAGE_TO_PC, (long) damage);
+			WorldStatisticsManager.getInstance().updateStat(attacker.getPlayer(), CategoryType.DAMAGE_TO_PC_MAX, getActiveClassId(), (long) damage);
+			WorldStatisticsManager.getInstance().updateStat(this, CategoryType.DAMAGE_FROM_PC, (long) damage);
 			if ((attacker.getKarma() > 0) && (getEffectList().getEffectsBySkillId(5182) != null) && !isInZone(ZoneType.SIEGE))
 			{
 				return;
@@ -4874,6 +4888,9 @@ public final class Player extends Playable implements PlayerGroup
 			}
 		}
 		super.reduceCurrentHp(damage, reflectableDamage, attacker, skill, awake, standUp, directHp, canReflect, transferDamage, isDot, sendMessage);
+
+		if (attacker.getPlayer() == null)
+			WorldStatisticsManager.getInstance().updateStat(this, CategoryType.DAMAGE_FROM_MONSTERS, getClassId().getId(), (long) damage);
 	}
 	
 	/**
@@ -4999,6 +5016,8 @@ public final class Player extends Playable implements PlayerGroup
 		final int pkCountMulti = Math.max(killer.getPkKills() / 2, 1);
 		killer.decreaseKarma(Config.KARMA_MIN_KARMA * pkCountMulti);
 		killer.setPkKills(killer.getPkKills() + 1);
+		WorldStatisticsManager.getInstance().updateStat(killer, CategoryType.PK_COUNT, 1);
+		WorldStatisticsManager.getInstance().updateStat(this, CategoryType.KILLED_BY_PK_COUNT, 1);
 	}
 	
 	/**
@@ -5018,6 +5037,7 @@ public final class Player extends Playable implements PlayerGroup
 				killer.increaseKarma(Config.REPUTATION_COUNT);
 			}
 			killer.setNameColor(Config.PK_KILLER_NAME_COLOUR);
+			WorldStatisticsManager.getInstance().updateStat(killer, CategoryType.PVP_COUNT, 1);
 		}
 	}
 	
@@ -5092,6 +5112,8 @@ public final class Player extends Playable implements PlayerGroup
 			if ((_pvpFlag > 0) || war)
 			{
 				pk.setPvpKills(pk.getPvpKills() + 1);
+				WorldStatisticsManager.getInstance().updateStat(pk, CategoryType.PVP_COUNT, 1);
+				WorldStatisticsManager.getInstance().updateStat(this, CategoryType.KILLED_IN_PVP_COUNT, 1);
 			}
 			else
 			{
@@ -5268,6 +5290,11 @@ public final class Player extends Playable implements PlayerGroup
 			{
 				processQuestEvent(q.getName(), "CE30", null);
 			}
+		}
+		WorldStatisticsManager.getInstance().updateStat(this, CategoryType.DIE_COUNT, 1);
+		if (killer != null && killer.getPlayer() == null)
+		{
+			WorldStatisticsManager.getInstance().updateStat(this, CategoryType.KILLED_BY_MONSTER_COUNT, 1);
 		}
 		super.onDeath(killer);
 	}
@@ -6614,7 +6641,6 @@ public final class Player extends Playable implements PlayerGroup
 				player.restoreVitality();
 				player.getInventory().restore();
 				player._menteeList.restore();
-				player.restoreCharMuseumData();
 				try
 				{
 					String var = player.getVar("ExpandInventory");
@@ -6896,6 +6922,10 @@ public final class Player extends Playable implements PlayerGroup
 				statement.setLong(20, getDeleteClanTime() / 1000L);
 				statement.setLong(21, _NoChannel > 0 ? getNoChannelRemained() / 1000 : _NoChannel);
 				statement.setInt(22, (int) (_onlineBeginTime > 0 ? ((_onlineTime + System.currentTimeMillis()) - _onlineBeginTime) / 1000L : _onlineTime / 1000L));
+				
+				if (_onlineBeginTime > 0L)
+					WorldStatisticsManager.getInstance().updateStat(this, CategoryType.TIME_PLAYED, (System.currentTimeMillis() - _onlineBeginTime) / 1000);
+
 				statement.setInt(23, getPledgeType());
 				statement.setInt(24, getPowerGrade());
 				statement.setInt(25, getLvlJoinedAcademy());
@@ -9741,6 +9771,8 @@ public final class Player extends Playable implements PlayerGroup
 			pkt.addName(reviver).addString(Math.round(percent) + " percent");
 			ask(pkt, new ReviveAnswerListener(this, percent, pet));
 		}
+		WorldStatisticsManager.getInstance().updateStat(reviver, CategoryType.RESURRECTED_CHAR_COUNT, 1);
+		WorldStatisticsManager.getInstance().updateStat(this, CategoryType.RESURRECTED_BY_OTHER_COUNT, 1);
 	}
 	
 	/**
@@ -14441,270 +14473,6 @@ public final class Player extends Playable implements PlayerGroup
 	}
 	
 	/**
-	 * Field _museumTask.
-	 */
-	private ScheduledFuture<?> _museumTask;
-	
-	/**
-	 * @author Mobius
-	 */
-	private class MuseumTask implements Runnable
-	{
-		/**
-		 * Field player.
-		 */
-		private final Player player;
-		
-		/**
-		 * Constructor for MuseumTask.
-		 * @param _player Player
-		 */
-		protected MuseumTask(Player _player)
-		{
-			player = _player;
-		}
-		
-		/**
-		 * Method run.
-		 * @see java.lang.Runnable#run()
-		 */
-		@Override
-		public void run()
-		{
-			player.sendPacket(new ExLoadStatUser(player));
-			player.updateMuseumData();
-		}
-	}
-	
-	/**
-	 * Method startMuseumTask.
-	 */
-	public void startMuseumTask()
-	{
-		if ((_museumTask == null) && (15 > 0))
-		{
-			_museumTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(new MuseumTask(this), 15 * 60000, 15 * 60000);
-		}
-	}
-	
-	/**
-	 * Method stopMuseumTask.
-	 */
-	public void stopMuseumTask()
-	{
-		if (_museumTask != null)
-		{
-			_museumTask.cancel(false);
-			_museumTask = null;
-		}
-	}
-	
-	/**
-	 * Method createMuseumDb.
-	 * @return boolean
-	 */
-	private boolean createMuseumDb()
-	{
-		Connection con = null;
-		try
-		{
-			con = DatabaseFactory.getInstance().getConnection();
-			for (int i = 0; i < 2; i++)
-			{
-				String table = "";
-				if (i == 0)
-				{
-					table = "monthly";
-				}
-				else
-				{
-					table = "total";
-				}
-				String CreateMuseum = "INSERT INTO characters_museum_" + table + " (objectID, acquiredXP, acquiredAdena, onlineTime, partyDuration, fullPartyDuration, privateStoreSales, numberOfResurrectCast, numberOfResurrectReceived, numberOfDeaths, numberOfMonsterKillings, monsterKillXp, pkVictoryCount, pvpVictoryCount, pkDefeatCount, pvpDefeatCount) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
-				PreparedStatement statement = con.prepareStatement(CreateMuseum);
-				statement.setInt(1, getObjectId());
-				statement.setLong(2, getAcquiredItem(0, table.equals("total")));
-				statement.setLong(3, getAcquiredItem(1, table.equals("total")));
-				statement.setLong(4, getOnlineTime(table.equals("total")));
-				statement.setLong(5, getAcquiredItem(4, table.equals("total")));
-				statement.setLong(6, getAcquiredItem(5, table.equals("total")));
-				statement.setLong(7, getAcquiredItem(11, table.equals("total")));
-				statement.setLong(8, getAcquiredItem(18, table.equals("total")));
-				statement.setLong(9, getAcquiredItem(19, table.equals("total")));
-				statement.setLong(10, getAcquiredItem(20, table.equals("total")));
-				statement.setLong(11, getAcquiredItem(1000, table.equals("total")));
-				statement.setLong(12, getAcquiredItem(1001, table.equals("total")));
-				statement.setLong(13, getAcquiredItem(2004, table.equals("total")));
-				statement.setLong(14, getAcquiredItem(2005, table.equals("total")));
-				statement.setLong(15, getAcquiredItem(2001, table.equals("total")));
-				statement.setLong(16, getAcquiredItem(2002, table.equals("total")));
-				statement.executeUpdate();
-				statement.close();
-			}
-		}
-		catch (Exception e)
-		{
-			return false;
-		}
-		finally
-		{
-			DbUtils.closeQuietly(con);
-		}
-		return true;
-	}
-	
-	/**
-	 * Method updateMuseumData.
-	 */
-	public void updateMuseumData()
-	{
-		Connection con = null;
-		try
-		{
-			con = DatabaseFactory.getInstance().getConnection();
-			for (int i = 0; i < 2; i++)
-			{
-				String table = "";
-				if (i == 0)
-				{
-					table = "monthly";
-				}
-				else
-				{
-					table = "total";
-				}
-				PreparedStatement statement = con.prepareStatement("UPDATE characters_museum_" + table + " SET acquiredXP=?, acquiredAdena=?, onlineTime=?, partyDuration=?, fullPartyDuration=?, privateStoreSales=?, numberOfResurrectCast=?, numberOfResurrectReceived=?, numberOfDeaths=?, numberOfMonsterKillings=?, monsterKillXp=?, pkVictoryCount=?, pvpVictoryCount=?, pkDefeatCount=?, pvpDefeatCount=? WHERE objectID=?");
-				statement.setLong(1, getAcquiredItem(0, table.equals("total")));
-				statement.setLong(2, getAcquiredItem(1, table.equals("total")));
-				statement.setLong(3, getOnlineTime(table.equals("total")));
-				statement.setLong(4, getAcquiredItem(4, table.equals("total")));
-				statement.setLong(5, getAcquiredItem(5, table.equals("total")));
-				statement.setLong(6, getAcquiredItem(11, table.equals("total")));
-				statement.setLong(7, getAcquiredItem(18, table.equals("total")));
-				statement.setLong(8, getAcquiredItem(19, table.equals("total")));
-				statement.setLong(9, getAcquiredItem(20, table.equals("total")));
-				statement.setLong(10, getAcquiredItem(1000, table.equals("total")));
-				statement.setLong(11, getAcquiredItem(1001, table.equals("total")));
-				statement.setLong(12, getAcquiredItem(2004, table.equals("total")));
-				statement.setLong(13, getAcquiredItem(2005, table.equals("total")));
-				statement.setLong(14, getAcquiredItem(2001, table.equals("total")));
-				statement.setLong(15, getAcquiredItem(2002, table.equals("total")));
-				statement.setInt(16, getObjectId());
-				statement.execute();
-				statement.close();
-			}
-		}
-		catch (Exception e)
-		{
-		}
-		finally
-		{
-			DbUtils.closeQuietly(con);
-		}
-	}
-	
-	/**
-	 * Method restoreCharMuseumData.
-	 */
-	private void restoreCharMuseumData()
-	{
-		Connection con = null;
-		boolean createMuseumInfo = true;
-		try
-		{
-			con = DatabaseFactory.getInstance().getConnection();
-			for (int i = 0; i < 2; i++)
-			{
-				String table = "";
-				if (i == 0)
-				{
-					table = "monthly";
-				}
-				else
-				{
-					table = "total";
-				}
-				PreparedStatement statement = con.prepareStatement("SELECT * FROM characters_museum_" + table + " WHERE objectID=?");
-				statement.setInt(1, getObjectId());
-				ResultSet rset = statement.executeQuery();
-				while (rset.next())
-				{
-					if (rset.getLong("acquiredXP") != 0)
-					{
-						setAcquiredItem(0, rset.getLong("acquiredXP"), table.equals("total"));
-					}
-					if (rset.getLong("acquiredAdena") != 0)
-					{
-						setAcquiredItem(1, rset.getLong("acquiredAdena"), table.equals("total"));
-					}
-					if (rset.getLong("partyDuration") != 0)
-					{
-						setAcquiredItem(4, rset.getLong("partyDuration"), table.equals("total"));
-					}
-					if (rset.getLong("fullPartyDuration") != 0)
-					{
-						setAcquiredItem(5, rset.getLong("acquiredAdena"), table.equals("total"));
-					}
-					if (rset.getLong("privateStoreSales") != 0)
-					{
-						setAcquiredItem(11, rset.getLong("privateStoreSales"), table.equals("total"));
-					}
-					if (rset.getLong("numberOfResurrectCast") != 0)
-					{
-						setAcquiredItem(18, rset.getLong("numberOfResurrectCast"), table.equals("total"));
-					}
-					if (rset.getLong("numberOfResurrectReceived") != 0)
-					{
-						setAcquiredItem(19, rset.getLong("numberOfResurrectReceived"), table.equals("total"));
-					}
-					if (rset.getLong("numberOfDeaths") != 0)
-					{
-						setAcquiredItem(20, rset.getLong("numberOfDeaths"), table.equals("total"));
-					}
-					if (rset.getLong("numberOfMonsterKillings") != 0)
-					{
-						setAcquiredItem(1000, rset.getLong("numberOfMonsterKillings"), table.equals("total"));
-					}
-					if (rset.getLong("monsterKillXp") != 0)
-					{
-						setAcquiredItem(1001, rset.getLong("monsterKillXp"), table.equals("total"));
-					}
-					if (rset.getLong("pkVictoryCount") != 0)
-					{
-						setAcquiredItem(2004, rset.getLong("pkVictoryCount"), table.equals("total"));
-					}
-					if (rset.getLong("pvpVictoryCount") != 0)
-					{
-						setAcquiredItem(2005, rset.getLong("pvpVictoryCount"), table.equals("total"));
-					}
-					if (rset.getLong("pkDefeatCount") != 0)
-					{
-						setAcquiredItem(2001, rset.getLong("pkDefeatCount"), table.equals("total"));
-					}
-					if (rset.getLong("pvpDefeatCount") != 0)
-					{
-						setAcquiredItem(2002, rset.getLong("pvpDefeatCount"), table.equals("total"));
-					}
-					createMuseumInfo = false;
-				}
-				rset.close();
-				statement.close();
-			}
-		}
-		catch (Exception e)
-		{
-		}
-		finally
-		{
-			DbUtils.closeQuietly(con);
-		}
-		if (createMuseumInfo)
-		{
-			createMuseumDb();
-		}
-	}
-	
-	/**
 	 * Method getStablePoint.
 	 * @return Location
 	 */
@@ -14943,4 +14711,25 @@ public final class Player extends Playable implements PlayerGroup
 	{
 		_ping = ping;
 	}
+
+	public long getStartingTimeInFullParty()
+	{
+		return _startingTimeInFullParty;
+	}
+
+	public void setStartingTimeInFullParty(long time)
+	{
+		_startingTimeInFullParty = time;
+	}
+
+	public long getStartingTimeInParty()
+	{
+		return _startingTimeInParty;
+	}
+
+	public void setStartingTimeInParty(long time)
+	{
+		_startingTimeInParty = time;
+	}
+
 }

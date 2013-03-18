@@ -1,109 +1,57 @@
-/*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
 package lineage2.gameserver.network.serverpackets;
 
-import lineage2.gameserver.dao.CharacterDAO;
-import lineage2.gameserver.instancemanager.MuseumManager;
-import lineage2.gameserver.instancemanager.MuseumManager.Museum;
+import java.util.List;
 
-/**
- * @author Mobius
- * @version $Revision: 1.0 $
- */
+import lineage2.gameserver.model.worldstatistics.CharacterStatistic;
+
 public class ExLoadStatHotLink extends L2GameServerPacket
 {
-	/**
-	 * Field _S__FE_102_EXLOADSTATHOTLINK. (value is ""[S] FE:101 ExLoadStatHotLink"")
-	 */
-	private static final String _S__FE_102_EXLOADSTATHOTLINK = "[S] FE:101 ExLoadStatHotLink";
-	/**
-	 * Field category2. Field category1.
-	 */
-	int category1, category2;
-	/**
-	 * Field mm.
-	 */
-	MuseumManager mm;
-	/**
-	 * Field loadWorldRank.
-	 */
-	boolean loadWorldRank;
-	
-	/**
-	 * Constructor for ExLoadStatHotLink.
-	 * @param _category1 int
-	 * @param _category2 int
-	 */
-	public ExLoadStatHotLink(int _category1, int _category2)
+	private final int categoryId;
+	private final int subCatId;
+	private List<CharacterStatistic> globalStatistic;
+	private List<CharacterStatistic> monthlyStatistic;
+	public ExLoadStatHotLink(int categoryId, int subCatId, List<CharacterStatistic> globalStatistic, List<CharacterStatistic> monthlyStatistic)
 	{
-		mm = MuseumManager.getInstance();
-		category1 = _category1;
-		category2 = _category2;
-		loadWorldRank = false;
-		for (String[] categories : mm.getLoadingInfo())
-		{
-			if (categories[2].contains("" + category1))
-			{
-				loadWorldRank = true;
-			}
-		}
+		this.categoryId = categoryId;
+		this.subCatId = subCatId;
+		this.globalStatistic = globalStatistic;
+		this.monthlyStatistic = monthlyStatistic;
 	}
-	
-	/**
-	 * Method writeImpl.
-	 */
+
 	@Override
-	protected void writeImpl()
+	protected final void writeImpl()
 	{
-		writeC(0xFE);
-		writeH(0x102);
-		writeD(category1);
-		writeD(category2);
-		if (loadWorldRank)
+		//writeEx(0x103);
+	    writeC(254);
+	    writeH(258);
+
+		writeD(categoryId); // catId
+		writeD(subCatId); // subCatId
+		// Monthly
+		writeD(monthlyStatistic.size()); // loop count (always 5)
+		for (int i = 0; i < monthlyStatistic.size(); i++)
 		{
-			for (int i = 0; i < 2; i++)
-			{
-				boolean isTotal = i == 1;
-				writeD(!mm.getMuseums(category1, isTotal).isEmpty() ? mm.getMuseums(category1, isTotal).size() : 0x00);
-				if (!mm.getMuseums(category1, isTotal).isEmpty())
-				{
-					for (Museum player : mm.getMuseums(category1, isTotal))
-					{
-						writeH(0x00);
-						writeD(player.getObjectId());
-						writeS(CharacterDAO.getInstance().getNameByObjectId(player.getObjectId()));
-						writeQ(player.getAcquiredItem());
-						writeH(0x00);
-						writeD(0x00);
-						writeD(0x00);
-					}
-				}
-			}
-		}
-		else
-		{
+			CharacterStatistic statistic = monthlyStatistic.get(i);
+			writeH(i + 1); // rating pos
+			writeD(statistic.getObjId()); // objId
+			writeS(statistic.getName()); // CharName
+			writeQ(statistic.getValue()); // Value
+			writeH(0x00);// TODO:
 			writeD(0x00);
 			writeD(0x00);
 		}
-	}
-	
-	/**
-	 * Method getType.
-	 * @return String
-	 */
-	@Override
-	public String getType()
-	{
-		return _S__FE_102_EXLOADSTATHOTLINK;
+		// General
+		writeD(globalStatistic.size()); // loop count (always 5)
+		for (int i = 0; i < globalStatistic.size(); i++)
+		{
+			CharacterStatistic statistic = globalStatistic.get(i);
+			writeH(i + 1); // rating pos
+			writeD(statistic.getObjId()); // objId
+			writeS(statistic.getName()); // CharName
+			writeQ(statistic.getValue()); // Value
+			writeH(0x00);// TODO:
+			writeD(0x00);
+			writeD(0x00);
+		}
 	}
 }

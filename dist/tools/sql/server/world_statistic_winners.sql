@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `world_statistic` (
+CREATE TABLE IF NOT EXISTS world_statistic_winners (
     `objId`         INT        NOT NULL,
     `categoryId`    INT        NOT NULL,
     `subCategoryId` INT        NOT NULL,
