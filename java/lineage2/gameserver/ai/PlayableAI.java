@@ -33,6 +33,7 @@ import lineage2.gameserver.model.Skill;
 import lineage2.gameserver.model.Skill.NextAction;
 import lineage2.gameserver.model.Skill.SkillType;
 import lineage2.gameserver.model.Summon;
+import lineage2.gameserver.model.ClonePlayer;
 import lineage2.gameserver.network.serverpackets.MyTargetSelected;
 import lineage2.gameserver.network.serverpackets.components.SystemMsg;
 import lineage2.gameserver.utils.Location;
@@ -476,9 +477,13 @@ public class PlayableAI extends CharacterAI
 			Playable actor = getActor();
 			if (getIntention() != AI_INTENTION_FOLLOW)
 			{
-				if ((actor.isPet() || actor.isServitor() || actor.isClone()) && (getIntention() == AI_INTENTION_ACTIVE))
+				if ((actor.isPet() || actor.isServitor()) && (getIntention() == AI_INTENTION_ACTIVE))
 				{
 					((Summon) actor).setFollowMode(false);
+				}
+				else if (actor.isClone() && getIntention() == AI_INTENTION_ACTIVE)
+				{
+					((ClonePlayer) actor).setFollowMode(false);
 				}
 				return;
 			}
