@@ -616,12 +616,12 @@
 			<skill id="4442" level="4"/>	<!--Greater Resist Hand-to-hand Weapons-->
 			<skill id="4444" level="4"/>	<!--Higher Resist Bow/Crossbow Weapons-->
 			<skill id="4448" level="4"/>	<!--Higher resist Daggers/Rapier Weapon-->
-			<skill id="4449" level="4&#13;&#10;"/>	<!--Greater Resist Two-handed Weapons-->
+			<skill id="4449" level="4"/>	<!--Greater Resist Two-handed Weapons-->
 			<skill id="4458" level="4"/>	<!--Spear Weapon Weak Point-->
 			<skill id="4560" level="9"/>	<!--NPC Fire Burn-->
 			<skill id="5467" level="1"/>	<!--Dark Attacks-->
 			<skill id="5620" level="9"/>	<!--Short-Range Physical Attack Weakness-->
-		<skill id="4414" level="1"/>
+			<skill id="4414" level="1"/>
 		</skills>
 		<rewardlist type="RATED_GROUPED">
 			<group chance="70.0">
@@ -719,7 +719,7 @@
 			<skill id="4449" level="4"/>	<!--Greater Resist Two-handed Weapons-->
 			<skill id="5467" level="1"/>	<!--Dark Attacks-->
 			<skill id="5620" level="9"/>	<!--Short-Range Physical Attack Weakness-->
-		<skill id="4414" level="1"/>
+			<skill id="4414" level="1"/>
 		</skills>
 		<rewardlist type="RATED_GROUPED">
 			<group chance="70.0">
@@ -4471,7 +4471,7 @@
 			<skill id="6381" level="1"/>	<!--Bistakon Soul Beam-->
 			<skill id="6386" level="1"/>	<!--Bistakon Earth Rise-->
 			<skill id="6387" level="1"/>	<!--Bistakon Earthquake-->
-		<skill id="4435" level="4"/>
+			<skill id="4435" level="4"/>
 		</skills>
 		<rewardlist type="RATED_GROUPED">
 			<group chance="70.0">
@@ -4862,7 +4862,7 @@
 			<skill id="6381" level="1"/>	<!--Bistakon Soul Beam-->
 			<skill id="6386" level="1"/>	<!--Bistakon Earth Rise-->
 			<skill id="6387" level="1"/>	<!--Bistakon Earthquake-->
-		<skill id="4435" level="4"/>
+			<skill id="4435" level="4"/>
 		</skills>
 		<rewardlist type="RATED_GROUPED">
 			<group chance="70.0">
@@ -5032,7 +5032,7 @@
 			<skill id="6409" level="1"/>	<!--Reptilikon Earthquake-->
 			<skill id="6411" level="1"/>	<!--Reptilikon Summon-->
 			<skill id="6412" level="1"/>	<!--Reptilikon Critical Blow-->
-		<skill id="4435" level="4"/>
+			<skill id="4435" level="4"/>
 		</skills>
 		<rewardlist type="RATED_GROUPED">
 			<group chance="70.0">
@@ -5339,7 +5339,7 @@
 			<skill id="6409" level="1"/>	<!--Reptilikon Earthquake-->
 			<skill id="6411" level="1"/>	<!--Reptilikon Summon-->
 			<skill id="6412" level="1"/>	<!--Reptilikon Critical Blow-->
-		<skill id="4435" level="4"/>
+			<skill id="4435" level="4"/>
 		</skills>
 		<rewardlist type="RATED_GROUPED">
 			<group chance="70.0">
@@ -5810,7 +5810,7 @@
 			<skill id="6399" level="1"/>	<!--Cokrakon Dreadful Piercing-->
 			<skill id="6400" level="1"/>	<!--Cokrakon Dwindling Velocity-->
 			<skill id="6401" level="1"/>	<!--Cokrakon Wheeling Clow-->
-		<skill id="4435" level="4"/>
+			<skill id="4435" level="4"/>
 		</skills>
 		<rewardlist type="RATED_GROUPED">
 			<group chance="70.0">
@@ -6104,7 +6104,7 @@
 			<skill id="6399" level="1"/>	<!--Cokrakon Dreadful Piercing-->
 			<skill id="6400" level="1"/>	<!--Cokrakon Dwindling Velocity-->
 			<skill id="6401" level="1"/>	<!--Cokrakon Wheeling Clow-->
-		<skill id="4435" level="4"/>
+			<skill id="4435" level="4"/>
 		</skills>
 		<rewardlist type="RATED_GROUPED">
 			<group chance="70.0">
