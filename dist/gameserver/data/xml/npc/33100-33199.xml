@@ -282,7 +282,7 @@
 		<set name="collision_radius" value="12.0"/>
 		<set name="collision_height" value="25.0"/>
 		<set name="level" value="80"/>
-		<set name="type" value="NpcWalker"/>
+		<set name="ai_type" value="WalkerAI" />
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseHpRate" value="1"/>
