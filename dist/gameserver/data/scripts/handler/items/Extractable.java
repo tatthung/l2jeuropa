@@ -9,9 +9,11 @@ import lineage2.gameserver.cache.Msg;
 import lineage2.gameserver.model.Player;
 import lineage2.gameserver.model.items.ItemInstance;
 import lineage2.gameserver.network.serverpackets.SystemMessage;
+import lineage2.gameserver.network.serverpackets.components.SystemMsg;
 import lineage2.gameserver.scripts.Functions;
 
-public class Extractable extends SimpleItemHandler {
+public class Extractable extends SimpleItemHandler
+{
 	private static final int[] ITEM_IDS = new int[] { 8534, 8535, 8536, 8537, 8538, 8539, 8540, 5916, 5944, 14841,
 			5955, 14847, 5966, 5967, 5968, 5969, 6007, 6008, 6009, 6010, 7725, 7637, 7636, 7629, 7630, 7631, 7632,
 			7633, 7634, 7635, 10408, 10473, 9599, 20069, 20070, 20071, 20072, 20073, 20074, 20210, 20211, 20215, 20216,
@@ -122,12 +124,14 @@ public class Extractable extends SimpleItemHandler {
 
 	// TODO 
 	@Override
-	public int[] getItemIds() {
+	public int[] getItemIds()
+	{
 		return ITEM_IDS;
 	}
 
 	@Override
-	protected boolean useItemImpl(Player player, ItemInstance item, boolean ctrl) {
+	protected boolean useItemImpl(Player player, ItemInstance item, boolean ctrl)
+	{
 		int itemId = item.getItemId();
 
 		if (!canBeExtracted(player, item))
@@ -3635,7 +3639,7 @@ public class Extractable extends SimpleItemHandler {
 			use34930(player, ctrl);
 			break;
 		case 34931: // 
-			use34930(player, ctrl);
+			use34931(player, ctrl);
 			break;
 		case 34932: // 	
 			use34932(player, ctrl);
@@ -3650,21 +3654,24 @@ public class Extractable extends SimpleItemHandler {
 		return true;
 	}
 
-	private void use17086(Player player, boolean ctrl) {
+	private void use17086(Player player, boolean ctrl)
+	{
 		/**
 		 * @Author: 4ipolino
 		 */
 		Functions.addItem(player, 9201, 1);
 	}
 
-	private void use17085(Player player, boolean ctrl) {
+	private void use17085(Player player, boolean ctrl)
+	{
 		/**
 		 * @Author: 4ipolino
 		 */
 		Functions.addItem(player, 9194, 1);
 	}
 
-	private void use17084(Player player, boolean ctrl) {
+	private void use17084(Player player, boolean ctrl)
+	{
 		/**
 		 * @Author: 4ipolino
 		 */
@@ -11936,14 +11943,15 @@ public class Extractable extends SimpleItemHandler {
 	}
 
 	// Steam Beatle Mounting Bracelet 7 Day Pack
-	private void use14232(Player player, boolean ctrl) {
+	private void use14232(Player player, boolean ctrl)
+	{
 		Functions.addItem(player, 14054, 1);
 	}
 
 	// Olympiad Treasure Chest
-	private void use17169(Player player, boolean ctrl) {
-		int[][] items = new int[][] { { 13750, 1 }, { 13751, 1 }, { 13754, 1 }, { 13753, 1 }, { 13752, 1 },
-				{ 6622, 1 }, { 8621, 1 } };
+	private void use17169(Player player, boolean ctrl)
+	{
+		int[][] items = new int[][] { { 13750, 1 }, { 13751, 1 }, { 13754, 1 }, { 13753, 1 }, { 13752, 1 }, { 6622, 1 }, { 8621, 1 } };
 		double[] chances = new double[] { 34.7, 12.3, 2.65, 1.2, 1.98, 46.5, 5.4 };
 		if (Rnd.chance(60))
 			extractRandomOneItem(player, items, chances);
@@ -11952,16 +11960,19 @@ public class Extractable extends SimpleItemHandler {
 	}
 
 	// Birthday Present Pack
-	private void use21169(Player player, boolean ctrl) {
+	private void use21169(Player player, boolean ctrl)
+	{
 		Functions.addItem(player, 21170, 3);
 		Functions.addItem(player, 21595, 1);
 		Functions.addItem(player, 13488, 1);
 	}
 
 	// Pablo's Box
-	private void use21753(Player player, boolean ctrl) {
+	private void use21753(Player player, boolean ctrl)
+	{
 		int category = Rnd.get(7);
-		switch (category) {
+		switch (category)
+		{
 		case 0:
 			Functions.addItem(player, 21122, 1);
 			break;
@@ -11987,7 +11998,8 @@ public class Extractable extends SimpleItemHandler {
 	}
 
 	// Rune Jewelry Box - Talisman
-	private void use21752(Player player, boolean ctrl) {
+	private void use21752(Player player, boolean ctrl)
+	{
 		final List<Integer> talismans = new ArrayList<Integer>();
 
 		// 9914-9965
@@ -13557,7 +13569,8 @@ public class Extractable extends SimpleItemHandler {
 		extractRandomOneItem(player, list, chances);
 	}
 	
-	private void use34931(Player player, boolean ctrl) {
+	private void use34931(Player player, boolean ctrl)
+	{
 		int[][] list = new int[][] { { 18552, 1 }, { 18551, 1 }, { 9555, 1 }, { 9553, 1 }, { 9554, 1 },
 				{ 9552, 1 }, { 9557, 1 }, { 9556, 1 }, { 34651, 1 }, { 34650, 1 }, { 34652, 1 }, { 34649, 1 },
 				{ 34653, 1 }, { 34654, 1 }, { 9549, 1 }, { 9547, 1 }, { 9548, 1 }, { 9546, 1 }, { 9551, 1 },
@@ -13586,11 +13599,12 @@ public class Extractable extends SimpleItemHandler {
 			player.sendPacket(Msg.THERE_WAS_NOTHING_FOUND_INSIDE_OF_THAT);
 	}
 
-	private static void capsulate(Player player, int[][] items, double[] chances) {
+	private static void capsulate(Player player, int[][] items, double[] chances)
+	{
 		int c = 0;
 		boolean empty = true;
-		for (int[] i : items) {
-			//  < 0, min <= 0, max <= 0 или max < min
+		for (int[] i : items)
+		{
 			if (chances[c] <= 0 || i[1] <= 0 || i[2] <= 0 || i[2] < i[1])
 				continue;
 
@@ -13599,14 +13613,14 @@ public class Extractable extends SimpleItemHandler {
 				empty = false;
 			}
 		}
-
-		// if(empty)
-		// {
-		// player.sendPacket(SystemMsg.THERE_WAS_NOTHING_FOUND_INSIDE);
-		// }
+		if(empty)
+		{
+			player.sendPacket(SystemMsg.THERE_WAS_NOTHING_FOUND_INSIDE);
+		}
 	}
 
-	private static void extract_item(int[] list, int[] counts, Player player) {
+	private static void extract_item(int[] list, int[] counts, Player player)
+	{
 		int index = Rnd.get(list.length);
 		int id = list[index];
 		int count = counts[index];
