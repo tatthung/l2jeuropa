@@ -17,8 +17,11 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+import java.util.Map.Entry;
 
 import lineage2.commons.collections.GArray;
 import lineage2.commons.data.xml.AbstractHolder;
@@ -33,7 +36,7 @@ import lineage2.gameserver.model.pledge.Clan;
 import lineage2.gameserver.model.pledge.SubUnit;
 
 /**
- * @author Mobius
+ * @author L2JEuropa
  * @version $Revision: 1.0 $
  */
 public final class SkillAcquireHolder extends AbstractHolder
@@ -52,42 +55,47 @@ public final class SkillAcquireHolder extends AbstractHolder
 		return _instance;
 	}
 	/**
-	 * Field _normalSkillTree.
+	 * Field _AwakenClassKeepSkills.
 	 */
-	private static HashMap<Integer, List<Integer>> _AwakenClassSkillRemove = new HashMap<Integer,List<Integer>>();
+	private static List<Integer> _AwakenGeneralKeepSkills = new ArrayList<Integer>();
+	
+	/**
+	 * Field _AwakenClassKeepSkills.
+	 */
+	private static HashMap<Integer,HashMap<Integer,List<Integer>>> _AwakenClassKeepSkills = new HashMap<Integer,HashMap<Integer,List<Integer>>>();
 	
 	/**
 	 * Field _normalSkillTree.
 	 */
-	private static HashMap<Integer, List<SkillLearn>> _normalSkillTree = new HashMap<>();
+	private static HashMap<Integer, List<SkillLearn>> _normalSkillTree = new HashMap<Integer, List<SkillLearn>>();
 	/**
 	 * Field _transferSkillTree.
 	 */
-	private static HashMap<Integer, List<SkillLearn>> _transferSkillTree = new HashMap<>();
+	private static HashMap<Integer, List<SkillLearn>> _transferSkillTree = new HashMap<Integer, List<SkillLearn>>();
 	/**
 	 * Field _fishingSkillTree.
 	 */
-	private static HashMap<Integer, List<SkillLearn>> _fishingSkillTree = new HashMap<>();
+	private static HashMap<Integer, List<SkillLearn>> _fishingSkillTree = new HashMap<Integer, List<SkillLearn>>();
 	/**
 	 * Field _transformationSkillTree.
 	 */
-	private static HashMap<Integer, List<SkillLearn>> _transformationSkillTree = new HashMap<>();
+	private static HashMap<Integer, List<SkillLearn>> _transformationSkillTree = new HashMap<Integer, List<SkillLearn>>();
 	/**
 	 * Field _certificationSkillTree.
 	 */
-	private static GArray<SkillLearn> _certificationSkillTree = new GArray<>();
+	private static GArray<SkillLearn> _certificationSkillTree = new GArray<SkillLearn>();
 	/**
 	 * Field _collectionSkillTree.
 	 */
-	private static GArray<SkillLearn> _collectionSkillTree = new GArray<>();
+	private static GArray<SkillLearn> _collectionSkillTree = new GArray<SkillLearn>();
 	/**
 	 * Field _pledgeSkillTree.
 	 */
-	private static GArray<SkillLearn> _pledgeSkillTree = new GArray<>();
+	private static GArray<SkillLearn> _pledgeSkillTree = new GArray<SkillLearn>();
 	/**
 	 * Field _subUnitSkillTree.
 	 */
-	private static GArray<SkillLearn> _subUnitSkillTree = new GArray<>();
+	private static GArray<SkillLearn> _subUnitSkillTree = new GArray<SkillLearn>();
 	
 	/**
 	 * Method getMinLevelForNewSkill.
@@ -97,7 +105,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 	 */
 	public int getMinLevelForNewSkill(Player player, AcquireType type)
 	{
-		GArray<SkillLearn> skills = new GArray<>();
+		GArray<SkillLearn> skills = new GArray<SkillLearn>();
 		switch (type)
 		{
 			case NORMAL:
@@ -163,7 +171,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 	 */
 	public Collection<SkillLearn> getAvailableSkills(Player player, AcquireType type, SubUnit subUnit)
 	{
-		GArray<SkillLearn> skills = new GArray<>();
+		GArray<SkillLearn> skills = new GArray<SkillLearn>();
 		switch (type)
 		{
 			case NORMAL:
@@ -205,7 +213,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 				{
 					return skills;
 				}
-				List<SkillLearn> skillLearnMap = new ArrayList<>();
+				List<SkillLearn> skillLearnMap = new ArrayList<SkillLearn>();
 				for (SkillLearn temp : skills)
 				{
 					if (temp.getMinLevel() <= player.getLevel())
@@ -253,7 +261,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 	 */
 	public Collection<SkillLearn> getAvailableAllSkills(Player player)
 	{
-		GArray<SkillLearn> skills = new GArray<>();
+		GArray<SkillLearn> skills = new GArray<SkillLearn>();
 		skills.addAll(_normalSkillTree.get(player.getActiveClassId()));
 		
 		if (skills.isEmpty())
@@ -272,7 +280,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 	 */
 	public Collection<SkillLearn> getAvailableAllSkillsForDellet(Player player, int newClassId)
 	{
-		GArray<SkillLearn> skills = new GArray<>();
+		GArray<SkillLearn> skills = new GArray<SkillLearn>();
 		skills.addAll(_normalSkillTree.get(newClassId));
 		
 		if (skills.isEmpty())
@@ -293,7 +301,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 	 */
 	private Collection<SkillLearn> getAvaliableAllList(Collection<SkillLearn> skillLearns, Skill[] skills, int level, Race race)
 	{
-		Set<SkillLearn> skillLearnMap = new HashSet<>();
+		Set<SkillLearn> skillLearnMap = new HashSet<SkillLearn>();
 		loop:
 		for (SkillLearn temp : skillLearns)
 		{
@@ -339,7 +347,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 	 */
 	private Collection<SkillLearn> getAvaliableList(final Collection<SkillLearn> skillLearns, Skill[] skills, int level, Race race)
 	{
-		Set<SkillLearn> skillLearnMap = new HashSet<>();
+		Set<SkillLearn> skillLearnMap = new HashSet<SkillLearn>();
 		for (SkillLearn temp : skillLearns)
 		{
 			if (temp.isOfRace(race))
@@ -391,7 +399,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 	 */
 	public SkillLearn getSkillLearn(Player player, int id, int level, AcquireType type)
 	{
-		GArray<SkillLearn> skills = new GArray<>();
+		GArray<SkillLearn> skills = new GArray<SkillLearn>();
 		switch (type)
 		{
 			case NORMAL:
@@ -452,7 +460,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 	public boolean isSkillPossible(Player player, Skill skill, AcquireType type)
 	{
 		Clan clan = null;
-		GArray<SkillLearn> skills = new GArray<>();
+		GArray<SkillLearn> skills = new GArray<SkillLearn>();
 		switch (type)
 		{
 			case NORMAL:
@@ -559,7 +567,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 			return Collections.emptyList();
 		}
 		
-		List<SkillLearn> l = new ArrayList<>(1);
+		List<SkillLearn> l = new ArrayList<SkillLearn>(1);
 		for (SkillLearn $i : learns)
 		{
 			if ($i.getItemId() == itemId)
@@ -577,7 +585,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 	 */
 	public List<SkillLearn> getAllNormalSkillTreeWithForgottenScrolls()
 	{
-		List<SkillLearn> a = new ArrayList<>();
+		List<SkillLearn> a = new ArrayList<SkillLearn>();
 		for (List<SkillLearn> i : _normalSkillTree.values())
 		{
 			for (SkillLearn learn : i.toArray(new SkillLearn[i.size()]))
@@ -646,40 +654,95 @@ public final class SkillAcquireHolder extends AbstractHolder
 		}
 	}
 
+
 	/**
-	 * Method getSkillRemoveByClass.
-	 * @param List <Integer> 
+	 * Method getAwakenGeneralKeepSkillList()
 	 */
-	public List<Integer> getSkillRemoveByClass(int cId)
+	public List<Integer> getAwakenGeneralKeepSkillList()
+	{
+		return _AwakenGeneralKeepSkills;
+	}
+
+	/**
+	 * Method getAllAwakenSkillsByClass.
+	 * @param int classId 
+	 */
+	public List<Integer> getAllAwakenSkillsByClass(int classId)
 	{
 		List<Integer> ListSkills = new ArrayList<Integer>();
-		ListSkills = _AwakenClassSkillRemove.get(cId);
+		List <SkillLearn> awakenSkills = _normalSkillTree.get(classId);
+		for(SkillLearn skill : awakenSkills)
+		{
+			int skillId = skill.getId();
+			ListSkills.add(skillId);
+		}
+		return ListSkills;
+	}
+	/**
+	 * Method getAwakenClassSkillForCheck.
+	 * @param int 
+	 */
+	public List<Integer> getAwakenClassSkillForCheck(int classId)
+	{
+		List<Integer> ListSkills = new ArrayList<Integer>();
+		HashMap<Integer,List<Integer>> AllTransferClass = _AwakenClassKeepSkills.get(classId);
+		for(Iterator <Entry<Integer,List<Integer>>> iterator = AllTransferClass.entrySet().iterator();iterator.hasNext();)
+		{
+			Map.Entry<Integer,List <Integer>> e = iterator.next();
+			ListSkills.addAll(e.getValue());
+		}
+		return ListSkills;
+	}
+	/**
+	 * Method getMaintainSkillOnAwake.
+	 * @param List <Integer> 
+	 */
+	public List<Integer> getMaintainSkillOnAwake(int prevCID, int awakeCID)
+	{
+		List<Integer> ListSkills = new ArrayList<Integer>();
+		HashMap<Integer,List<Integer>> AllTransferClass = _AwakenClassKeepSkills.get(awakeCID);
+		ListSkills = AllTransferClass.get(prevCID);
 		return ListSkills;
 	}
 
 	/**
-	 * Method addClassToRemove.
+	 * Method addSkillsToMaintain.
 	 * @param HashMap<Integer, List<Integer>>
 	 */
 	
-	public void addClassToRemove(HashMap<Integer,List<Integer>> map)
+	public void addSkillsToMaintain(HashMap<Integer,HashMap<Integer,List<Integer>>> map)
 	{
 		int ClassID;
 		for(ClassId classId : ClassId.VALUES)//Check all classes on the game
 		{
-			if(classId.getClassLevel() != ClassLevel.Fourth)//Only Loads classes on Third Profession Change (The delete not are only on 3rd class)
+			if(classId.getClassLevel() != ClassLevel.Awaking)//Only Loads classes on Third Profession Change (The delete not are only on 3rd class)
 			{
 				continue;
 			}
 			ClassID = classId.getId();
-			List <Integer> temp;
-			temp = map.get(ClassID);
-			if (temp == null)
+			HashMap<Integer,List<Integer>> ClassRelations;
+			ClassRelations = map.get(ClassID);
+			if (ClassRelations == null)
 			{
 				continue;
 			}
-			_AwakenClassSkillRemove.put(ClassID,temp);			
+			HashMap <Integer,List<Integer>> classAndSkills = new HashMap<Integer,List<Integer>>();
+			for(Iterator<Entry<Integer, List<Integer>>> iteratorClass = ClassRelations.entrySet().iterator();iteratorClass.hasNext();)
+			{
+				Map.Entry <Integer,List <Integer>> e = iteratorClass.next();
+				classAndSkills.put(e.getKey(), e.getValue());	
+			}	
+			_AwakenClassKeepSkills.put(ClassID,classAndSkills);					
 		}	
+	}
+	/**
+	 * Method addClassToRemove.
+	 * @param List <Integer>
+	 */
+	
+	public void addSkillsToMaintain(List<Integer> skillList)
+	{
+		_AwakenGeneralKeepSkills.addAll(skillList);
 	}
 	
 	/**
@@ -758,7 +821,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 		info("load " + sizeHashMap(_transferSkillTree) + " transfer learns for " + _transferSkillTree.size() + " classes.");
 		info("load " + sizeHashMap(_transformationSkillTree) + " transformation learns for " + _transformationSkillTree.size() + " races.");
 		info("load " + sizeHashMap(_fishingSkillTree) + " fishing learns for " + _fishingSkillTree.size() + " races.");
-		info("load " + sizeHashMapInt(_AwakenClassSkillRemove) + " fishing learns for " +_AwakenClassSkillRemove.size() + " races.");
+		info("load " + (sizeHashMapInt(_AwakenClassKeepSkills) + _AwakenGeneralKeepSkills.size()) + " Skill to mantain on Awakening for " +_AwakenClassKeepSkills.size() + " awaken classes.");
 		info("load " + _certificationSkillTree.size() + " certification learns.");
 		info("load " + _collectionSkillTree.size() + " collection learns.");
 		info("load " + _pledgeSkillTree.size() + " pledge learns.");
@@ -789,7 +852,8 @@ public final class SkillAcquireHolder extends AbstractHolder
 		_collectionSkillTree.clear();
 		_pledgeSkillTree.clear();
 		_subUnitSkillTree.clear();
-		_AwakenClassSkillRemove.clear();
+		_AwakenClassKeepSkills.clear();
+		_AwakenGeneralKeepSkills.clear();
 	}
 	
 	/**
@@ -813,12 +877,17 @@ public final class SkillAcquireHolder extends AbstractHolder
 	 * @param a HashMap<Integer,List<SkillLearn>>
 	 * @return int
 	 */
-	private int sizeHashMapInt(HashMap<Integer, List<Integer>> a)
+	private int sizeHashMapInt(HashMap<Integer,HashMap<Integer,List<Integer>>> a)
 	{
 		int i = 0;
-		for (List<Integer> iterator : a.values())
+		for (Iterator<Entry<Integer, HashMap<Integer, List<Integer>>>> iterator = a.entrySet().iterator(); iterator.hasNext();) //Iterates all Awaken Classes
 		{
-			i += iterator.size();
+			Map.Entry<Integer,HashMap<Integer,List<Integer>>> e = iterator.next();
+			for(Iterator<Entry<Integer,List<Integer>>> iterateClass = e.getValue().entrySet().iterator();iterateClass.hasNext();)//Iterate Class of third Profession
+			{
+				Map.Entry<Integer,List<Integer>> f = iterateClass.next();
+				i = i + f.getValue().size();
+			}
 		}
 		
 		return i;

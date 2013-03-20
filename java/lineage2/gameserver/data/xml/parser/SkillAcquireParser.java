@@ -133,7 +133,7 @@ public final class SkillAcquireParser extends AbstractDirParser<SkillAcquireHold
 		}
 		for (Iterator<Element> iterator = rootElement.elementIterator("normal_skill_tree"); iterator.hasNext();)
 		{
-			HashMap<Integer, List<SkillLearn>> map = new HashMap<>();
+			HashMap<Integer, List<SkillLearn>> map = new HashMap<Integer, List<SkillLearn>>();
 			Element nxt = iterator.next();
 			for (Iterator<Element> classIterator = nxt.elementIterator("class"); classIterator.hasNext();)
 			{
@@ -155,18 +155,36 @@ public final class SkillAcquireParser extends AbstractDirParser<SkillAcquireHold
 				getHolder().addAllTransformationLearns(race, learns);
 			}
 		}
-		for (Iterator<Element> iterator = rootElement.elementIterator("awakening_remove_skill_tree"); iterator.hasNext();)
+		for (Iterator<Element> iterator = rootElement.elementIterator("awakening_keep_skill_tree"); iterator.hasNext();)
 		{
-			HashMap <Integer, List<Integer> > map = new HashMap<Integer, List<Integer>>();
+			HashMap <Integer, HashMap<Integer,List<Integer>> > map = new HashMap<Integer, HashMap<Integer,List<Integer>>>();
 			Element nxt = iterator.next();
-			for (Iterator<Element> classIterator = nxt.elementIterator("classToAwaken"); classIterator.hasNext();)
+			for (Iterator<Element> awakenClassIterator = nxt.elementIterator("awakenClass"); awakenClassIterator.hasNext();)
+			{
+				Element awakenClass = awakenClassIterator.next();
+				int awakenClassId = Integer.parseInt(awakenClass.attributeValue("id"));
+				HashMap<Integer,List<Integer>> transferClassList = new HashMap<Integer,List<Integer>>();
+				for(Iterator <Element> fromClassIterator = awakenClass.elementIterator("fromClass"); fromClassIterator.hasNext();)
+				{
+					Element fromClass = fromClassIterator.next();
+					int fromClassId = Integer.parseInt(fromClass.attributeValue("id"));
+					List <Integer> keepSkill = parseKeepSkill(fromClass);
+					transferClassList.put(fromClassId, keepSkill);
+				}
+				map.put(awakenClassId, transferClassList);
+			}
+			getHolder().addSkillsToMaintain(map);
+		}
+		for (Iterator<Element> iterator = rootElement.elementIterator("awakening_general_keep_skill_tree"); iterator.hasNext();)
+		{
+			Element nxt = iterator.next();
+			for (Iterator<Element> classIterator = nxt.elementIterator("general_keep_skill"); classIterator.hasNext();)
 			{
 				Element classElement = classIterator.next();
-				int classId = Integer.parseInt(classElement.attributeValue("id"));
-				List <Integer> remove = parseRemoveSkill(classElement);
-				map.put(classId, remove);
+				List<Integer> keepSkill = parseKeepSkill(classElement);
+				getHolder().addSkillsToMaintain(keepSkill);
 			}
-			getHolder().addClassToRemove(map);
+			
 		}
 	}
 	
@@ -177,7 +195,7 @@ public final class SkillAcquireParser extends AbstractDirParser<SkillAcquireHold
 	 */
 	private List<SkillLearn> parseSkillLearn(Element tree)
 	{
-		List<SkillLearn> skillLearns = new ArrayList<>();
+		List<SkillLearn> skillLearns = new ArrayList<SkillLearn>();
 		for (Iterator<Element> iterator = tree.elementIterator("skill"); iterator.hasNext();)
 		{
 			Element element = iterator.next();
@@ -200,10 +218,10 @@ public final class SkillAcquireParser extends AbstractDirParser<SkillAcquireHold
 	 * @param tree Element
 	 * @return List<Integer>
 	 */
-	private List<Integer> parseRemoveSkill(Element tree)
+	private List<Integer> parseKeepSkill(Element tree)
 	{
 		List <Integer> skillRemove = new ArrayList<Integer>();
-		for (Iterator<Element> iterator = tree.elementIterator("skillremove"); iterator.hasNext();)
+		for (Iterator<Element> iterator = tree.elementIterator("keepSkill"); iterator.hasNext();)
 		{
 			Element element = iterator.next();
 			int id = Integer.parseInt(element.attributeValue("id"));

@@ -2750,6 +2750,13 @@ public final class Player extends Playable implements PlayerGroup
 		setActiveSubClass(classId, true);
 		Skill skill = SkillTable.getInstance().getInfo(1570, 1);
 		skill.getEffects(this, this, false, false);
+		if(this.isAwaking()) //If the characters returns to Main, or dual Subclass and Delete Skills prof are active, do check of Correct skills
+		{
+			if(Config.ALT_CHECK_SKILLS_AWAKENING)
+			{
+				AwakingManager.getInstance().checkAwakenPlayerSkills(this);
+			}
+		}
 		sendPacket(new SystemMessage(SystemMessage.THE_TRANSFER_OF_SUB_CLASS_HAS_BEEN_COMPLETED).addClassName(oldClassId).addClassName(classId));
 		abortCast(true, true);
 	}
@@ -3410,7 +3417,7 @@ public final class Player extends Playable implements PlayerGroup
 				for (SkillLearn s : skills)
 				{
 					Skill sk = SkillTable.getInstance().getInfo(s.getId(), s.getLevel());
-					if ((sk == null) || (sk.getId() > 10000) || (isAwaking() ? !sk.getCanLearn(getClassId()) && !sk.getCanLearn(_cId) : !sk.getCanLearn(getClassId())) || (!Config.AUTO_LEARN_FORGOTTEN_SKILLS && s.isClicked()))
+					if ((sk == null) || (sk.getId() > 10000 && sk.getId() != 20006 && sk.getId() != 19088 && sk.getId() != 19089 && sk.getId() != 19090 ) || (isAwaking() ? !sk.getCanLearn(getClassId()) && !sk.getCanLearn(_cId) : !sk.getCanLearn(getClassId())) || (!Config.AUTO_LEARN_FORGOTTEN_SKILLS && s.isClicked()))
 					{
 						unLearnable++;
 						continue;
@@ -7116,8 +7123,7 @@ public final class Player extends Playable implements PlayerGroup
 				}
 				if (
 						(
-								(!isAwaking() && !SkillAcquireHolder.getInstance().isSkillPossible(this, skill)) || 
-								(isAwaking() && Config.ALT_DELETE_SKILL_PROF && !SkillAcquireHolder.getInstance().isSkillPossible(this, skill))
+								(!isAwaking() && !SkillAcquireHolder.getInstance().isSkillPossible(this, skill))							
 						)
 					)
 				{
@@ -7178,7 +7184,7 @@ public final class Player extends Playable implements PlayerGroup
 			}
 			if (Config.ALT_DELETE_SKILL_RELATION)
 			{
-				HashSet<Integer> _tmp = new HashSet<>();
+				HashSet<Integer> _tmp = new HashSet<Integer>();
 				_tmp.addAll(_relationSkillToRemove);
 				_relationSkillToRemove.clear();
 				_relationSkillToRemove.addAll(_tmp);
@@ -7191,8 +7197,6 @@ public final class Player extends Playable implements PlayerGroup
 						_log.info("SkillRelation: Removed skill: " + s.getId() + " - " + s.getName() + " to the player " + getName());
 					}
 				}
-				if (isAwaking())
-					AwakingManager.getInstance().AwakingRemoveSkills(this);
 			}
 		}
 		catch (final Exception e)

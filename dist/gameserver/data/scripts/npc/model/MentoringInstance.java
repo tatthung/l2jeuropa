@@ -24,16 +24,21 @@ public class MentoringInstance extends NpcInstance {
         if (!canBypassCheck(player, this))
             return;
         if (command.startsWith("changediploma")) {
-            if(player.isAwaking() && (player.getLevel() >= 85) && (ItemFunctions.getItemCount(player, MENTEE_CERTIFICATE) == 1)) 
+            if(player.isAwaking() && (player.getLevel() >= 85)) 
 			{
+				if(ItemFunctions.getItemCount(player, MENTEE_CERTIFICATE) == 1)
 				{
 					ItemFunctions.removeItem(player, MENTEE_CERTIFICATE, 1, true);
 					ItemFunctions.addItem(player, DIPLOMA, 40, true);
 				} 
-				else if(ItemFunctions.getItemCount(player, MENTEE_CERTIFICATE) < 1)
+				else
 				{
                     showChatWindow(player, "mentoring/menthelper-no-diploma.htm");
 				}
+			}
+			else
+			{
+                showChatWindow(player, "mentoring/menthelper-no-diploma.htm");
 			}
         } else
             super.onBypassFeedback(player, command);
