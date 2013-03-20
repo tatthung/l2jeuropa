@@ -12,12 +12,16 @@
  */
 package npc.model;
 
+import java.util.List;
+
 import gnu.trove.map.hash.TIntIntHashMap;
 import lineage2.commons.util.Rnd;
+import lineage2.gameserver.data.xml.holder.SkillAcquireHolder;
 import lineage2.gameserver.instancemanager.AwakingManager;
 import lineage2.gameserver.model.Player;
 import lineage2.gameserver.model.instances.NpcInstance;
 import lineage2.gameserver.network.serverpackets.NpcHtmlMessage;
+import lineage2.gameserver.tables.SkillTable;
 import lineage2.gameserver.templates.npc.NpcTemplate;
 
 /**
@@ -54,6 +58,34 @@ public class PowerfulDeviceInstance extends NpcInstance
 		_NPC.put(33404, 146);
 	}
 	
+	private String obtainIcon(int skillId)
+	{
+		String format = " ";
+		if(skillId == 4)
+			format = "0004";
+		else if(skillId > 9 && skillId < 100)
+			format = "00" + skillId;
+		else if(skillId > 99 && skillId < 1000)
+			format = "0" + skillId;
+		else if(skillId == 1517)
+			format = "1536";
+		else if(skillId == 1518)
+			format = "1537";
+		else if(skillId == 1547)
+			format = "0065";
+		else if(skillId > 4550 && skillId < 4555)
+			format = "5739";
+		else if(skillId < 4698 && skillId < 4701)
+			format = "1331";
+		else if(skillId > 4701 && skillId < 4704)
+			format = "1332";
+		else if(skillId == 6049)
+			format = "0094";
+		else
+			format = Integer.toString(skillId);
+		return format;		
+	}
+	
 	/**
 	 * Method onBypassFeedback.
 	 * @param player Player
@@ -78,7 +110,19 @@ public class PowerfulDeviceInstance extends NpcInstance
 		else if (command.equalsIgnoreCase("Awaken1"))
 		{
 			NpcHtmlMessage htmlMessage = new NpcHtmlMessage(getObjectId());
-			htmlMessage.replace("%SKILLIST%", "");
+			String skillList = new String();
+			skillList = skillList + "<table border=0 cellpading=8 cellspacing=4>";
+			int oldClassId = player.getClassId().getId();			
+			int newClassId = AwakingManager.getInstance().childOf(player.getClassId());
+			List <Integer> skillListId = SkillAcquireHolder.getInstance().getMaintainSkillOnAwake(oldClassId, newClassId);
+			for(int sId : skillListId)
+			{
+				String format = obtainIcon(sId);
+				String name = (SkillTable.getInstance().getInfo(sId, SkillTable.getInstance().getBaseLevel(sId))).getName();
+				skillList = skillList + "<tr><td width=34 height=34><img src=icon.skill"+ format +" width=32 height=32></td><td width=200> " + name + " </td></tr><tr><td colspan=2><br></td></tr>";
+			}
+			skillList = skillList +"</table>";
+			htmlMessage.replace("%SKILLIST%", skillList);
 			htmlMessage.setFile("default/" + getNpcId() + "-5.htm");
 			player.sendPacket(htmlMessage);
 		}
