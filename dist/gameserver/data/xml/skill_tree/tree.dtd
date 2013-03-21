@@ -32,14 +32,3 @@
 	<!ELEMENT general_keep_skill (keepSkill)*>
 	<!ELEMENT keepSkill (#PCDATA)*>
 		<!ATTLIST keepSkill id CDATA #REQUIRED>
-	<!ELEMENT awakenClass (fromClass)*>
-		<!ATTLIST awakenClass id CDATA #REQUIRED>
-	<!ELEMENT fromClass (keepSkill)*>
-		<!ATTLIST fromClass id CDATA #REQUIRED>
-	<!ELEMENT general_keep_skill (keepSkill)*>
-	<!ELEMENT keepSkill (#PCDATA)*>
-		<!ATTLIST keepSkill id CDATA #REQUIRED>
-	<!ELEMENT classToAwaken (skillremove)*>
-		<!ATTLIST classToAwaken id CDATA #REQUIRED>
-	<!ELEMENT skillremove (#PCDATA)>
-		<!ATTLIST skillremove id CDATA #REQUIRED>
