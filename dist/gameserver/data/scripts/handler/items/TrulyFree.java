@@ -124,6 +124,7 @@ public class TrulyFree extends SimpleItemHandler
 	Functions.addItem(player,13722, 250);
 	}
 	
+	@SuppressWarnings("unused")
 	private void use32741(Player player, boolean ctrl)
 //	http://l2central.info/wiki/%D0%9A%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B0_%D0%AD%D0%BB%D0%B8%D0%BA%D1%81%D0%B8%D1%80%D0%BE%D0%B2_(A)
 	{

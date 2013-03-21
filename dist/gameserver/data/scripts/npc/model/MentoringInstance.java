@@ -2,7 +2,6 @@ package npc.model;
 
 import lineage2.gameserver.model.Player;
 import lineage2.gameserver.model.instances.NpcInstance;
-import lineage2.gameserver.network.serverpackets.components.SystemMsg;
 import lineage2.gameserver.templates.npc.NpcTemplate;
 import lineage2.gameserver.utils.ItemFunctions;
 
