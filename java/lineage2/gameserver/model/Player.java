@@ -3089,7 +3089,7 @@ public final class Player extends Playable implements PlayerGroup
 	public synchronized void setClassId(final int id, boolean noban, boolean bity)
 	{
 		ClassId classId = ClassId.VALUES[id];
-		if (!noban && !classId.equalsOrChildOf(ClassId.VALUES[getActiveClassId()]) && !(getPlayerAccess().CanChangeClass || Config.EVERYBODY_HAS_ADMIN_RIGHTS))
+		if (!noban && !classId.equalsOrChildOf(ClassId.VALUES[getActiveClassId()]) && !getVarB("awakenByStoneOfDestiny",false) && !(getPlayerAccess().CanChangeClass || Config.EVERYBODY_HAS_ADMIN_RIGHTS))
 		{
 			Thread.dumpStack();
 			return;
