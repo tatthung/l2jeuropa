@@ -420,10 +420,6 @@ public class _10331_StartofFate extends Quest implements ScriptFile
 				else if ((cond >= 6) && (cond <= 11))
 				{
 					Race race = player.getRace();
-					if ((cond == 0) && (qs.getPlayer().getLevel() < 18))
-					{
-						htmltext = "Only characters under level 18 can accept this quest";
-					}
 					else if (player.isMageClass())
 					{
 						if (race == Race.human)
