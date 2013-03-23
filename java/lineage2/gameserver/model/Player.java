@@ -7121,11 +7121,8 @@ public final class Player extends Playable implements PlayerGroup
 					_log.info("Problem! RestoreSkill Id: " + id + " level: " + level);
 					continue;
 				}
-				if (
-						(
-								(!isAwaking() && !SkillAcquireHolder.getInstance().isSkillPossible(this, skill))							
-						)
-					)
+				if (!isAwaking() && 
+					!SkillAcquireHolder.getInstance().isSkillPossible(this, skill))
 				{
 					removeSkill(skill, true);
 					removeSkillFromShortCut(skill.getId());
@@ -7140,8 +7137,7 @@ public final class Player extends Playable implements PlayerGroup
 						//RACE SKILL CHECK
 						if (!learn.isOfRace(getRace()))
 						{
-							//TODO change to removeSkill(skill, true) when sure all is ok.
-							removeSkill(skill);
+							removeSkill(skill, true);
 							_log.info("RaceSkill: Removed skill: " + skill.getId() + " - " + skill.getName() + " to the player " + getName());
 							continue;
 						}

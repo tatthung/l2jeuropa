@@ -535,7 +535,7 @@ public class AwakingManager implements OnPlayerEnterListener
 			int skId = skl.getId();
 			if(SkillsCheck.contains(skId) || skl.isClanSkill() || skl.isItemSkill() || skl.isHeroic() || skl.isSetSkill())
 			{
-				_log.info(getClass().getSimpleName() + ":" + player.getName() + ":maintain the skill:" + skl.getName() + " " + skl.getId());
+				//_log.info(getClass().getSimpleName() + ":" + player.getName() + ":maintain the skill:" + skl.getName() + " " + skl.getId());
 				continue;
 			}
 			else				
