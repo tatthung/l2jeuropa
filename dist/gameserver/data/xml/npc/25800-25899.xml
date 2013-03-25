@@ -4076,7 +4076,7 @@
     </npc>
     <npc id="25875" name="Queen of Darkness" title="Raid Boss">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+        <set name="ai_type" value="Mystic"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="43"/>
         <set name="baseCritRate" value="40"/>
@@ -4265,7 +4265,7 @@
     </npc>
     <npc id="25878" name="Arbitor of Darkness" title="Raid Fighter">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+        <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="43"/>
         <set name="baseCritRate" value="40"/>
