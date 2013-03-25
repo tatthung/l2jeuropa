@@ -367,7 +367,7 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field _classlist.
 	 */
-	public Map<Integer, SubClass> _classlist = new HashMap<>(4);
+	public Map<Integer, SubClass> _classlist = new HashMap<Integer, SubClass>(4);
 	/**
 	 * Field OBSERVER_NONE. (value is 0)
 	 */
@@ -603,19 +603,19 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field _recipebook.
 	 */
-	private final Map<Integer, RecipeTemplate> _recipebook = new TreeMap<>();
+	private final Map<Integer, RecipeTemplate> _recipebook = new TreeMap<Integer, RecipeTemplate>();
 	/**
 	 * Field _commonrecipebook.
 	 */
-	private final Map<Integer, RecipeTemplate> _commonrecipebook = new TreeMap<>();
+	private final Map<Integer, RecipeTemplate> _commonrecipebook = new TreeMap<Integer, RecipeTemplate>();
 	/**
 	 * Field _premiumItems.
 	 */
-	private final Map<Integer, PremiumItem> _premiumItems = new TreeMap<>();
+	private final Map<Integer, PremiumItem> _premiumItems = new TreeMap<Integer, PremiumItem>();
 	/**
 	 * Field _quests.
 	 */
-	private final Map<String, QuestState> _quests = new HashMap<>();
+	private final Map<String, QuestState> _quests = new HashMap<String, QuestState>();
 	/**
 	 * Field _shortCuts.
 	 */
@@ -727,7 +727,7 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field _chars.
 	 */
-	private Map<Integer, String> _chars = new HashMap<>(8);
+	private Map<Integer, String> _chars = new HashMap<Integer, String>(8);
 	/**
 	 * Field expertiseIndex.
 	 */
@@ -759,7 +759,7 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field _activeSoulShots.
 	 */
-	private final Set<Integer> _activeSoulShots = new CopyOnWriteArraySet<>();
+	private final Set<Integer> _activeSoulShots = new CopyOnWriteArraySet<Integer>();
 	/**
 	 * Field _observerRegion.
 	 */
@@ -795,7 +795,7 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field _blockList.
 	 */
-	private final Map<Integer, String> _blockList = new ConcurrentSkipListMap<>();
+	private final Map<Integer, String> _blockList = new ConcurrentSkipListMap<Integer, String>();
 	/**
 	 * Field _friendList.
 	 */
@@ -923,7 +923,7 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field _transformationSkills.
 	 */
-	Map<Integer, Skill> _transformationSkills = new HashMap<>();
+	Map<Integer, Skill> _transformationSkills = new HashMap<Integer, Skill>();
 	/**
 	 * Field _expandInventory.
 	 */
@@ -955,7 +955,7 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field _blockedActions.
 	 */
-	private final List<String> _blockedActions = new ArrayList<>();
+	private final List<String> _blockedActions = new ArrayList<String>();
 	/**
 	 * Field _notShowBuffAnim.
 	 */
@@ -979,7 +979,7 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field _sharedGroupReuses.
 	 */
-	private final IntObjectMap<TimeStamp> _sharedGroupReuses = new CHashIntObjectMap<>();
+	private final IntObjectMap<TimeStamp> _sharedGroupReuses = new CHashIntObjectMap<TimeStamp>();
 	/**
 	 * Field _askDialog.
 	 */
@@ -995,7 +995,7 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field _instancesReuses.
 	 */
-	private final Map<Integer, Long> _instancesReuses = new ConcurrentHashMap<>();
+	private final Map<Integer, Long> _instancesReuses = new ConcurrentHashMap<Integer, Long>();
 	/**
 	 * Field _currentJumpTrack.
 	 */
@@ -1008,7 +1008,7 @@ public final class Player extends Playable implements PlayerGroup
 	 * Field _summons.
 	 */
 	@SuppressWarnings("unused")
-	private ConcurrentHashMap<Integer, Summon> _summons = new ConcurrentHashMap<>(4);
+	private ConcurrentHashMap<Integer, Summon> _summons = new ConcurrentHashMap<Integer, Summon>(4);
 	/**
 	 * Field _tree.
 	 */
@@ -1678,7 +1678,7 @@ public final class Player extends Playable implements PlayerGroup
 	 */
 	public Quest[] getAllActiveQuests()
 	{
-		List<Quest> quests = new ArrayList<>(_quests.size());
+		List<Quest> quests = new ArrayList<Quest>(_quests.size());
 		questRead.lock();
 		try
 		{
@@ -1723,7 +1723,7 @@ public final class Player extends Playable implements PlayerGroup
 	 */
 	public List<QuestState> getQuestsForEvent(NpcInstance npc, QuestEventType event, boolean forNpcQuestList)
 	{
-		List<QuestState> states = new ArrayList<>();
+		List<QuestState> states = new ArrayList<QuestState>();
 		Quest[] quests = npc.getTemplate().getEventQuests(event);
 		QuestState qs;
 		if (quests != null)
@@ -2750,7 +2750,7 @@ public final class Player extends Playable implements PlayerGroup
 		setActiveSubClass(classId, true);
 		Skill skill = SkillTable.getInstance().getInfo(1570, 1);
 		skill.getEffects(this, this, false, false);
-		if(this.isAwaking()) //If the characters returns to Main, or dual Subclass and Delete Skills prof are active, do check of Correct skills
+		if(isAwaking()) //If the characters returns to Main, or dual Subclass and Delete Skills prof are active, do check of Correct skills
 		{
 			if(Config.ALT_CHECK_SKILLS_AWAKENING)
 			{
@@ -4402,7 +4402,7 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			return;
 		}
-		List<L2GameServerPacket> packets = new ArrayList<>(withPet ? 4 : 1);
+		List<L2GameServerPacket> packets = new ArrayList<L2GameServerPacket>(withPet ? 4 : 1);
 		if (withPet)
 		{
 			for (Summon summon : getSummonList())
@@ -5175,7 +5175,7 @@ public final class Player extends Playable implements PlayerGroup
 				}
 			}
 		}
-		List<ItemInstance> drop = new LazyArrayList<>(), dropItem = new LazyArrayList<>(), dropEquip = new LazyArrayList<>(), dropWeapon = new LazyArrayList<>();
+		List<ItemInstance> drop = new LazyArrayList<ItemInstance>(), dropItem = new LazyArrayList<ItemInstance>(), dropEquip = new LazyArrayList<ItemInstance>(), dropWeapon = new LazyArrayList<ItemInstance>();
 		getInventory().writeLock();
 		try
 		{
@@ -5521,7 +5521,7 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			return Collections.emptyList();
 		}
-		List<L2GameServerPacket> list = new ArrayList<>();
+		List<L2GameServerPacket> list = new ArrayList<L2GameServerPacket>();
 		if (forPlayer.getObjectId() != getObjectId())
 		{
 			list.add(isPolymorphed() ? new NpcInfoPoly(this) : new CharInfo(this));
@@ -6720,7 +6720,7 @@ public final class Player extends Playable implements PlayerGroup
 				}
 				DbUtils.close(statement3, rset3);
 				{
-					List<Zone> zones = new ArrayList<>();
+					List<Zone> zones = new ArrayList<Zone>();
 					World.getZones(zones, player.getLoc(), player.getReflection());
 					if (!zones.isEmpty())
 					{
@@ -7110,7 +7110,7 @@ public final class Player extends Playable implements PlayerGroup
 			statement.setInt(1, getObjectId());
 			statement.setInt(2, getActiveClassId());
 			rset = statement.executeQuery();
-			List<Integer> _relationSkillToRemove = new ArrayList<>();
+			List<Integer> _relationSkillToRemove = new ArrayList<Integer>();
 			while (rset.next())
 			{
 				final int id = rset.getInt("skill_id");
@@ -7917,7 +7917,7 @@ public final class Player extends Playable implements PlayerGroup
 	{
 		if (_cubics == null)
 		{
-			_cubics = new ConcurrentHashMap<>(3);
+			_cubics = new ConcurrentHashMap<Integer, EffectCubic>(3);
 		}
 		_cubics.put(cubic.getId(), cubic);
 	}
@@ -11851,6 +11851,16 @@ public final class Player extends Playable implements PlayerGroup
 		for (int shotId : getAutoSoulShot())
 		{
 			sendPacket(new ExAutoSoulShot(shotId, true));
+		}
+		if(transformationId == 0)
+		{
+			if(isAwaking())
+			{
+				if(Config.ALT_CHECK_SKILLS_AWAKENING)//When you untransform, checks for awakening skills
+				{
+					AwakingManager.getInstance().checkAwakenPlayerSkills(this);
+				}
+			}
 		}
 		broadcastUserInfo(true);
 	}

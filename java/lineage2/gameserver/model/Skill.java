@@ -1825,7 +1825,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		}
 		else
 		{
-			_canLearn = new ArrayList<>();
+			_canLearn = new ArrayList<ClassId>();
 			st = new StringTokenizer(canLearn, " \r\n\t,;");
 			while (st.hasMoreTokens())
 			{
@@ -1840,7 +1840,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		}
 		else
 		{
-			_teachers = new ArrayList<>();
+			_teachers = new ArrayList<Integer>();
 			st = new StringTokenizer(teachers, " \r\n\t,;");
 			while (st.hasMoreTokens())
 			{
@@ -2393,11 +2393,11 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		List<Creature> targets;
 		if (oneTarget())
 		{
-			targets = new LazyArrayList<>(1);
+			targets = new LazyArrayList<Creature>(1);
 			targets.add(aimingTarget);
 			return targets;
 		}
-		targets = new LazyArrayList<>();
+		targets = new LazyArrayList<Creature>();
 		switch (_targetType)
 		{
 			case TARGET_EVENT:
@@ -2718,7 +2718,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 						continue;
 					}
 					Creature character = et._applyOnCaster || (et._isReflectable && skillReflected) ? effector : effected;
-					List<Creature> targets = new LazyArrayList<>(1);
+					List<Creature> targets = new LazyArrayList<Creature>(1);
 					targets.add(character);
 					if (et._applyOnSummon && character.isPlayer())
 					{
@@ -4063,10 +4063,10 @@ public abstract class Skill extends StatTemplate implements Cloneable
 
 	
 	/**
-	 * Method isItemSkill.
+	 * Method isMaintainedBeforeAwaken.
 	 * @return boolean
 	 */
-	public boolean isSetSkill()
+	public boolean isMaintainedBeforeAwaken()
 	{
 		String[] nameIndicator = {
 				"Special Ability",
@@ -4112,6 +4112,10 @@ public abstract class Skill extends StatTemplate implements Cloneable
 				"Belt",
 				"Cloak",
 				"Call",
+				"Transform",
+				"Territory Benefaction",
+				"Residence",
+				"Squad",
 				"Shirt"			
 		};
 		for(String iterateName : nameIndicator)
