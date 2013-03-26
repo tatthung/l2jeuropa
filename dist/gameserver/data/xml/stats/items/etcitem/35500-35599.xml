@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
+	<etcitem id="35548" name="Engineer Zofan's Supply Box">
+		<!--gorodetskiy-->
+		<set name="icon" value="icon.etc_pi_gift_box_i01" />
+		<set name="crystal_type" value="NONE"/>
+		<set name="weight" value="100"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="ex_type" value="OTHER_ITEMS"/>
+	</etcitem>
 	<etcitem id="35556" name="Билет в Лабиринт Картии - Ур. 85 (соло)">
 		<set name="icon" value="icon.etc_ticket_red_i00"/>
         <set name="class" value="OTHER"/>

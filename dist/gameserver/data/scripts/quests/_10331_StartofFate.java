@@ -111,7 +111,7 @@ public class _10331_StartofFate extends Quest implements ScriptFile
 		else if ((cond == 3) && (lob.getInstanceCond() == 4) && event.equalsIgnoreCase("sixth_door"))
 		{
 			htmltext = "";
-			lob.activateGenerator();
+			lob.activateGenerator(qs.getPlayer());
 			lob.makeOnEvent(State.AI_ATTACK_GENERATOR, SIXTH_DOOR);
 			onEvent("attack_officer", qs, null);
 		}
