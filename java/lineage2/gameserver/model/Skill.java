@@ -1194,6 +1194,10 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	 */
 	public static final int SKILL_DUAL_CAST = 11068;
 	/**
+	 * Field _isAlterSkill.
+	 */
+	protected boolean _isAlterSkill;
+	/**
 	 * Field _isAltUse.
 	 */
 	protected boolean _isAltUse;
@@ -1713,6 +1717,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		_referenceItemMpConsume = set.getInteger("referenceItemMpConsume", 0);
 		_isItemHandler = set.getBool("isHandler", false);
 		_isCommon = set.getBool("isCommon", false);
+		_isAlterSkill= set.getBool("isAlterSkill", false);
 		_isSaveable = set.getBool("isSaveable", true);
 		_coolTime = set.getInteger("coolTime", 0);
 		_skillInterruptTime = set.getInteger("hitCancelTime", 0);
@@ -4195,6 +4200,14 @@ public abstract class Skill extends StatTemplate implements Cloneable
 				return false;
 		}
 	}
+	/**
+	 * Method isAlterSkill.
+	 * @return boolean
+	 */
+	public boolean isAlterSkill()
+	{
+		return _isAlterSkill;
+	}
 	
 	/**
 	 * Method isOffensive.
@@ -4408,7 +4421,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	 */
 	public boolean isClanSkill()
 	{
-		return ((_id >= 370) && (_id <= 391)) || ((_id >= 611) && (_id <= 616));
+		return ((_id >= 370) && (_id <= 391)) || ((_id >= 611) && (_id <= 616)) || ((_id >= 19003) && (_id <= 19076));
 	}
 	
 	/**

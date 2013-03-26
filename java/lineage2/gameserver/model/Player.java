@@ -9418,7 +9418,7 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field user_variables.
 	 */
-	private final Map<String, String> user_variables = new ConcurrentHashMap<>();
+	private final Map<String, String> user_variables = new ConcurrentHashMap<String, String>();
 	
 	/**
 	 * Method setVar.
@@ -11637,7 +11637,7 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field _tamedBeasts.
 	 */
-	private final Map<Integer, TamedBeastInstance> _tamedBeasts = new ConcurrentHashMap<>();
+	private final Map<Integer, TamedBeastInstance> _tamedBeasts = new ConcurrentHashMap<Integer, TamedBeastInstance>();
 	
 	/**
 	 * Method getTrainedBeasts.
@@ -11894,7 +11894,7 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			return super.getAllSkills();
 		}
-		Map<Integer, Skill> tempSkills = new HashMap<>();
+		Map<Integer, Skill> tempSkills = new HashMap<Integer, Skill>();
 		for (Skill s : super.getAllSkills())
 		{
 			if ((s != null) && !s.isActive() && !s.isToggle())
@@ -12118,7 +12118,7 @@ public final class Player extends Playable implements PlayerGroup
 		var = getVar("selllist");
 		if (var != null)
 		{
-			_sellList = new CopyOnWriteArrayList<>();
+			_sellList = new CopyOnWriteArrayList<TradeItem>();
 			String[] items = var.split(":");
 			for (String item : items)
 			{
@@ -12157,7 +12157,7 @@ public final class Player extends Playable implements PlayerGroup
 		var = getVar("packageselllist");
 		if (var != null)
 		{
-			_packageSellList = new CopyOnWriteArrayList<>();
+			_packageSellList = new CopyOnWriteArrayList<TradeItem>();
 			String[] items = var.split(":");
 			for (String item : items)
 			{
@@ -12196,7 +12196,7 @@ public final class Player extends Playable implements PlayerGroup
 		var = getVar("buylist");
 		if (var != null)
 		{
-			_buyList = new CopyOnWriteArrayList<>();
+			_buyList = new CopyOnWriteArrayList<TradeItem>();
 			String[] items = var.split(":");
 			for (String item : items)
 			{
@@ -12224,7 +12224,7 @@ public final class Player extends Playable implements PlayerGroup
 		var = getVar("createlist");
 		if (var != null)
 		{
-			_createList = new CopyOnWriteArrayList<>();
+			_createList = new CopyOnWriteArrayList<ManufactureItem>();
 			String[] items = var.split(":");
 			for (String item : items)
 			{
@@ -12906,13 +12906,13 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			if (bypasses_bbs == null)
 			{
-				bypasses_bbs = new LazyArrayList<>();
+				bypasses_bbs = new LazyArrayList<String>();
 			}
 			return bypasses_bbs;
 		}
 		if (bypasses == null)
 		{
-			bypasses = new LazyArrayList<>();
+			bypasses = new LazyArrayList<String>();
 		}
 		return bypasses;
 	}
@@ -13107,7 +13107,7 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			return null;
 		}
-		Collection<TrapInstance> result = new ArrayList<>(getTrapsCount());
+		Collection<TrapInstance> result = new ArrayList<TrapInstance>(getTrapsCount());
 		TrapInstance trap;
 		for (Integer trapId : _traps.keySet())
 		{
@@ -13140,7 +13140,7 @@ public final class Player extends Playable implements PlayerGroup
 	{
 		if (_traps == null)
 		{
-			_traps = new HashMap<>();
+			_traps = new HashMap<Integer, Long>();
 		}
 		_traps.put(trap.getObjectId(), trap.getStoredId());
 	}
@@ -13191,7 +13191,7 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			return;
 		}
-		List<TrapInstance> toRemove = new ArrayList<>();
+		List<TrapInstance> toRemove = new ArrayList<TrapInstance>();
 		for (Integer trapId : traps.keySet())
 		{
 			toRemove.add((TrapInstance) GameObjectsStorage.get(traps.get(trapId)));
@@ -13387,7 +13387,7 @@ public final class Player extends Playable implements PlayerGroup
 	{
 		if (_userSession == null)
 		{
-			_userSession = new ConcurrentHashMap<>();
+			_userSession = new ConcurrentHashMap<String, String>();
 		}
 		if ((val == null) || val.isEmpty())
 		{
@@ -13762,7 +13762,7 @@ public final class Player extends Playable implements PlayerGroup
 			return;
 		}
 		int rnd = Rnd.nextInt();
-		_askDialog = new ImmutablePair<>(rnd, listener);
+		_askDialog = new ImmutablePair<Integer, OnAnswerListener>(rnd, listener);
 		dlg.setRequestId(rnd);
 		sendPacket(dlg);
 	}
@@ -14364,11 +14364,11 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field _acquiredItemMonthly.
 	 */
-	HashMap<Integer, Long> _acquiredItemMonthly = new HashMap<>();
+	HashMap<Integer, Long> _acquiredItemMonthly = new HashMap<Integer, Long>();
 	/**
 	 * Field _acquiredItemTotal.
 	 */
-	HashMap<Integer, Long> _acquiredItemTotal = new HashMap<>();
+	HashMap<Integer, Long> _acquiredItemTotal = new HashMap<Integer, Long>();
 	
 	/**
 	 * Method getAcquiredItem.
@@ -14691,7 +14691,7 @@ public final class Player extends Playable implements PlayerGroup
 		hero.set(Olympiad.CHAR_ID, player.getObjectId());
 		hero.set(Olympiad.CHAR_NAME, player.getName());
 		hero.set(Hero.ACTIVE, 1);
-		List<StatsSet> heroesToBe = new ArrayList<>();
+		List<StatsSet> heroesToBe = new ArrayList<StatsSet>();
 		heroesToBe.add(hero);
 		Hero.getInstance().computeNewHeroes(heroesToBe);
 		player.setHero(true);

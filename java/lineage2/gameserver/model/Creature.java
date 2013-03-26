@@ -404,7 +404,7 @@ public abstract class Creature extends GameObject
 	 * Field _isAttackAborted.
 	 */
 	
-	private final FastList<Integer> _aveList = new FastList<>();
+	private final FastList<Integer> _aveList = new FastList<Integer>();
 	
 	protected boolean _isAttackAborted;
 	/**
@@ -434,7 +434,7 @@ public abstract class Creature extends GameObject
 	/**
 	 * Field _skills.
 	 */
-	protected final Map<Integer, Skill> _skills = new ConcurrentSkipListMap<>();
+	protected final Map<Integer, Skill> _skills = new ConcurrentSkipListMap<Integer, Skill>();
 	/**
 	 * Field _triggers.
 	 */
@@ -442,7 +442,7 @@ public abstract class Creature extends GameObject
 	/**
 	 * Field _skillReuses.
 	 */
-	protected final IntObjectMap<TimeStamp> _skillReuses = new CHashIntObjectMap<>();
+	protected final IntObjectMap<TimeStamp> _skillReuses = new CHashIntObjectMap<TimeStamp>();
 	/**
 	 * Field _effectList.
 	 */
@@ -634,7 +634,7 @@ public abstract class Creature extends GameObject
 	/**
 	 * Field _targetRecorder.
 	 */
-	private final List<List<Location>> _targetRecorder = new ArrayList<>();
+	private final List<List<Location>> _targetRecorder = new ArrayList<List<Location>>();
 	/**
 	 * Field _followTimestamp.
 	 */
@@ -696,9 +696,13 @@ public abstract class Creature extends GameObject
 	 */
 	public boolean _isEnabledDoubleCast = false;
 	/**
+	 * Field _isKnockedDown.
+	 */
+	public boolean _isKnockedDown = false;
+	/**
 	 * Field _zones.
 	 */
-	private final List<Zone> _zones = new LazyArrayList<>();
+	private final List<Zone> _zones = new LazyArrayList<Zone>();
 	/**
 	 * Field zonesLock.
 	 */
@@ -1088,7 +1092,7 @@ public abstract class Creature extends GameObject
 	{
 		if (_blockedStats == null)
 		{
-			_blockedStats = new ArrayList<>();
+			_blockedStats = new ArrayList<Stats>();
 		}
 		_blockedStats.addAll(stats);
 	}
@@ -1454,7 +1458,7 @@ public abstract class Creature extends GameObject
 		{
 			if (_statusListeners == null)
 			{
-				_statusListeners = new LazyArrayList<>();
+				_statusListeners = new LazyArrayList<Player>();
 			}
 			if (!_statusListeners.contains(cha))
 			{
@@ -2279,6 +2283,14 @@ public abstract class Creature extends GameObject
 		{
 			sendPacket(new SetupGauge(this, SetupGauge.BLUE_DUAL, skillTime));
 		}
+		/*if (skill.isAlterSkill())
+		{
+			if(target.getEffectList().getEffectByType(EffectType.HellBinding).isActive() || target.getEffectList().getEffectByType(EffectType.KnockDown).isActive())
+			{
+				target.stopKnockDown(true);
+				target.getEffectList().stopEffects(EffectType.KnockDown);
+			}
+		}*/
 		_scheduledCastCount = skill.getCastCount();
 		_scheduledCastInterval = skill.getCastCount() > 0 ? skillTime / _scheduledCastCount : skillTime;
 		if (!isDoubleCastingNow() && IsEnabledDoubleCast())
@@ -4885,12 +4897,12 @@ public abstract class Creature extends GameObject
 	{
 		if (_triggers == null)
 		{
-			_triggers = new ConcurrentHashMap<>();
+			_triggers = new ConcurrentHashMap<TriggerType, Set<TriggerInfo>>();
 		}
 		Set<TriggerInfo> hs = _triggers.get(t.getType());
 		if (hs == null)
 		{
-			hs = new CopyOnWriteArraySet<>();
+			hs = new CopyOnWriteArraySet<TriggerInfo>();
 			_triggers.put(t.getType(), hs);
 		}
 		hs.add(t);
@@ -5272,7 +5284,7 @@ public abstract class Creature extends GameObject
 	{
 		if (_skillMastery == null)
 		{
-			_skillMastery = new HashMap<>();
+			_skillMastery = new HashMap<Integer, Integer>();
 		}
 		_skillMastery.put(skill, mastery);
 	}
@@ -7406,22 +7418,31 @@ public abstract class Creature extends GameObject
 	{
 		return _isEnabledDoubleCast;
 	}
+
+	/**
+	 * Method isKnockedDown.
+	 * @return boolean
+	 */
+	public boolean IsKnockedDown()
+	{
+		return _isKnockedDown;
+	}
 	
 	/**
 	 * Method startKnockDown.
 	 */
 	public final void startKnockDown()
 	{
-		AbnormalStatusUpdate mi = new AbnormalStatusUpdate();
+		this.startAbnormalEffect(AbnormalEffect.getByName("s_51"));
 		abortAttack(true, true);
 		abortCast(true, true);
-		stopMove(true);
+		startParalyzed();
+		_isKnockedDown = true;
 		getAI().notifyEvent(CtrlEvent.EVT_KNOCK_DOWN);
 		if (!isServitor())
 		{
 			getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		}
-		sendPacket(mi);
 	}
 	
 	/**
@@ -7430,7 +7451,9 @@ public abstract class Creature extends GameObject
 	 */
 	public final void stopKnockDown(boolean removeEffects)
 	{
-		AbnormalStatusUpdate mi = new AbnormalStatusUpdate();
+		stopParalyzed();
+		this.stopAbnormalEffect(AbnormalEffect.getByName("s_51"));
+		_isKnockedDown = false;
 		if (removeEffects)
 		{
 			getEffectList().stopEffects(EffectType.KnockDown);
@@ -7439,7 +7462,6 @@ public abstract class Creature extends GameObject
 		{
 			getAI().notifyEvent(CtrlEvent.EVT_THINK);
 		}
-		sendPacket(mi);
 	}
 	
 	/**

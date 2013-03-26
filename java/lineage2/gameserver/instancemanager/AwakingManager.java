@@ -471,17 +471,11 @@ public class AwakingManager implements OnPlayerEnterListener
 		if(Config.ALT_DELETE_AWAKEN_SKILL_FROM_DB)
 			delete = true;
 		List <Integer> skillsToMantain = SkillAcquireHolder.getInstance().getMaintainSkillOnAwake(previousClassId,newClassId);
-		List <Integer> generalKeepSkill = SkillAcquireHolder.getInstance().getAwakenGeneralKeepSkillList();
+		List <Integer> allSkillsId = SkillAcquireHolder.getInstance().getAllClassSkillId();
 		for(Skill skl : player.getAllSkills())
 		{
-			if(generalKeepSkill.contains(skl.getId()) || skl.isClanSkill() || skl.isItemSkill() || skl.isHeroic() || skl.isMaintainedBeforeAwaken())
+			if(allSkillsId.contains(skl.getId()))
 			{
-				//only for information _log.info(getClass().getSimpleName() + ":" + player.getName() + ":maintain the skill:" + skl.getName() + " " + skl.getId()); 
-				continue;
-			}
-			else
-			{
-				//only for information _log.info(getClass().getSimpleName() + ":" + player.getName() + ":remove the skill:" + skl.getName() + " " + skl.getId());
 				player.removeSkill(skl,delete);
 			}
 		}
@@ -489,7 +483,7 @@ public class AwakingManager implements OnPlayerEnterListener
 		{
 			int skillLv = SkillTable.getInstance().getBaseLevel(skillId);
 			Skill newSkill = SkillTable.getInstance().getInfo(skillId, skillLv);
-			player.addSkill(newSkill,delete);
+			player.addSkill(newSkill,true);
 		}		
 		player.sendSkillList();
 	}
@@ -499,18 +493,12 @@ public class AwakingManager implements OnPlayerEnterListener
 		boolean delete = false;
 		if(Config.ALT_DELETE_AWAKEN_SKILL_FROM_DB)
 			delete = true;
+		List <Integer> allSkillsId = SkillAcquireHolder.getInstance().getAllClassSkillId();
 		List <Integer> skillsToMantain = SkillAcquireHolder.getInstance().getMaintainSkillOnAwake(mayKeepSkills,toFinalClass);
-		List <Integer> generalKeepSkill = SkillAcquireHolder.getInstance().getAwakenGeneralKeepSkillList();
 		for(Skill skl : player.getAllSkills())
 		{
-			if(generalKeepSkill.contains(skl.getId()) || skl.isClanSkill() || skl.isItemSkill() || skl.isHeroic() || skl.isMaintainedBeforeAwaken())
+			if(allSkillsId.contains(skl.getId()))
 			{
-				//only for information _log.info(getClass().getSimpleName() + ":" + player.getName() + ":maintain the skill:" + skl.getName() + " " + skl.getId()); 
-				continue;
-			}
-			else
-			{
-				//only for information _log.info(getClass().getSimpleName() + ":" + player.getName() + ":remove the skill:" + skl.getName() + " " + skl.getId());
 				player.removeSkill(skl,delete);
 			}
 		}
@@ -518,7 +506,7 @@ public class AwakingManager implements OnPlayerEnterListener
 		{
 			int skillLv = SkillTable.getInstance().getBaseLevel(skillId);
 			Skill newSkill = SkillTable.getInstance().getInfo(skillId, skillLv);
-			player.addSkill(newSkill,delete);
+			player.addSkill(newSkill,true);
 		}		
 		player.sendSkillList();
 	}
@@ -526,7 +514,11 @@ public class AwakingManager implements OnPlayerEnterListener
 	public void checkAwakenPlayerSkills(Player player) //For check on subclass change and logon
 	{
 		int classId = player.getActiveClassId();
+		boolean delete = false;
+		if(Config.ALT_DELETE_AWAKEN_SKILL_FROM_DB)
+			delete = true;
 		List <Integer> SkillsCheck = new ArrayList<Integer>();
+		List <Integer> allSkillsId = SkillAcquireHolder.getInstance().getAllClassSkillId();
 		SkillsCheck.addAll(SkillAcquireHolder.getInstance().getAwakenGeneralKeepSkillList());
 		SkillsCheck.addAll(SkillAcquireHolder.getInstance().getAwakenClassSkillForCheck(classId));
 		SkillsCheck.addAll(SkillAcquireHolder.getInstance().getAllAwakenSkillsByClass(classId));
@@ -534,18 +526,8 @@ public class AwakingManager implements OnPlayerEnterListener
 		{
 			for(Skill skl : player.getAllSkills())
 			{
-				int skId = skl.getId();
-				if(SkillsCheck.contains(skId) || skl.isClanSkill() || skl.isItemSkill() || skl.isHeroic() || skl.isMaintainedBeforeAwaken())
+				if(!SkillsCheck.contains(skl.getId()) && allSkillsId.contains(skl.getId()))
 				{
-					//_log.info(getClass().getSimpleName() + ":" + player.getName() + ":maintain the skill:" + skl.getName() + " " + skl.getId());
-					continue;
-				}
-				else				
-				{
-					boolean delete = false;
-					if(Config.ALT_DELETE_AWAKEN_SKILL_FROM_DB)
-						delete = true;
-					//_log.info(getClass().getSimpleName() + ":" + player.getName() + ":remove the skill:" + skl.getName() + " " + skl.getId());
 					player.removeSkill(skl,delete);
 				}
 			}
@@ -555,17 +537,8 @@ public class AwakingManager implements OnPlayerEnterListener
 			for(Skill skl : player.getAllSkills())
 			{
 				int skId = skl.getId();
-				if((SkillsCheck.contains(skId) || skl.isClanSkill() || skl.isItemSkill() || skl.isMaintainedBeforeAwaken()) && skl.isPassive())//Only the passive skill may be keep when you logon transformed.
+				if(!SkillsCheck.contains(skId) && SkillsCheck.contains(skId))
 				{
-					//_log.info(getClass().getSimpleName() + ":" + player.getName() + ":maintain the skill:" + skl.getName() + " " + skl.getId());
-					continue;
-				}
-				else				
-				{
-					boolean delete = false;
-					if(Config.ALT_DELETE_AWAKEN_SKILL_FROM_DB)
-						delete = true;
-					//_log.info(getClass().getSimpleName() + ":" + player.getName() + ":remove the skill:" + skl.getName() + " " + skl.getId());
 					player.removeSkill(skl,delete);
 				}
 			}
