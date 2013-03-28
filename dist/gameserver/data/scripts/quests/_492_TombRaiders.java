@@ -76,7 +76,7 @@ public class _492_TombRaiders extends Quest implements ScriptFile
 					return "32140-6.htm";
 				if(cond == 2)
 				{
-					st.addExpAndSp(9009000, 8997060); //Unknown!!!!!
+					st.addExpAndSp(25000000, 28500000); //Retail EXP & SP
 					st.takeItems(ANCIENT_REL, -1);
 					st.unset("cond");
 					st.playSound(SOUND_FINISH);
