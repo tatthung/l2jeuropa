@@ -2,8 +2,6 @@ package quests;
 
 import org.apache.commons.lang3.ArrayUtils;
 import lineage2.commons.util.Rnd;
-import lineage2.gameserver.model.Player;
-import lineage2.gameserver.model.base.ClassLevel;
 import lineage2.gameserver.model.instances.NpcInstance;
 import lineage2.gameserver.model.quest.Quest;
 import lineage2.gameserver.model.quest.QuestState;
@@ -44,8 +42,7 @@ public class _492_TombRaiders extends Quest implements ScriptFile
 	@Override
 	public String onEvent(String event, QuestState st, NpcInstance npc)
 	{
-		Player player = st.getPlayer();
-		String htmltext = event;
+		st.getPlayer();
 		if(event.equalsIgnoreCase("32140-5.htm"))
 		{
 			st.setCond(1);
@@ -58,7 +55,7 @@ public class _492_TombRaiders extends Quest implements ScriptFile
 	@Override
 	public String onTalk(NpcInstance npc, QuestState st)
 	{
-		Player player = st.getPlayer();
+		st.getPlayer();
 		int npcId = npc.getNpcId();
 		int state = st.getState();
 		int cond = st.getCond();

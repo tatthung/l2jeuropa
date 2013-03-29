@@ -20,7 +20,6 @@ import lineage2.gameserver.model.Creature;
 import lineage2.gameserver.model.Skill;
 import lineage2.gameserver.network.serverpackets.SystemMessage;
 import lineage2.gameserver.stats.Formulas;
-import lineage2.gameserver.stats.Stats;
 import lineage2.gameserver.templates.StatsSet;
 
 /**
