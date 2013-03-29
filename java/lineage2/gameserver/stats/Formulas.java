@@ -527,8 +527,8 @@ public class Formulas
 		if (info.crit)
 		{
 			//TODO CHECK MAGIC CRITICAL DAMAGE
-			//info.damage *= attacker.calcStat(Stats.MCRITICAL_DAMAGE, attacker.isPlayable() && target.isPlayable() ? 1.5 : 2., target, skill);
 			info.damage *= 2.0;
+			info.damage += attacker.getMagicCriticalDmg(target, skill);
 		}
 		info.damage = attacker.calcStat(Stats.MAGIC_DAMAGE, info.damage, target, skill);
 		if (info.shld)

@@ -76,7 +76,6 @@ import lineage2.gameserver.model.quest.QuestEventType;
 import lineage2.gameserver.model.quest.QuestState;
 import lineage2.gameserver.model.reference.L2Reference;
 import lineage2.gameserver.model.worldstatistics.CategoryType;
-import lineage2.gameserver.network.serverpackets.AbnormalStatusUpdate;
 import lineage2.gameserver.network.serverpackets.ActionFail;
 import lineage2.gameserver.network.serverpackets.Attack;
 import lineage2.gameserver.network.serverpackets.AutoAttackStart;
@@ -2596,7 +2595,18 @@ public abstract class Creature extends GameObject
 	{
 		return (int) calcStat(Stats.CRITICAL_BASE, _template.getBaseCritRate(), target, skill);
 	}
-	
+
+	/**
+	 * Method getCriticalDmg.
+	 * @param target Creature
+	 * @param skill Skill
+	 * @return int
+	 */
+	public int getCriticalDmg(Creature target, Skill skill)
+	{
+		return (int) calcStat(Stats.CRITICAL_DAMAGE, target, skill);
+	}
+
 	/**
 	 * Method getMagicCriticalRate.
 	 * @param target Creature
@@ -2607,7 +2617,18 @@ public abstract class Creature extends GameObject
 	{
 		return calcStat(Stats.MCRITICAL_RATE, target, skill);
 	}
-	
+
+	/**
+	 * Method getMagicCriticalRate.
+	 * @param target Creature
+	 * @param skill Skill
+	 * @return double
+	 */
+	public double getMagicCriticalDmg(Creature target, Skill skill)
+	{
+		return calcStat(Stats.MCRITICAL_DAMAGE, target, skill);
+	}
+
 	/**
 	 * Method getCurrentCp.
 	 * @return double
