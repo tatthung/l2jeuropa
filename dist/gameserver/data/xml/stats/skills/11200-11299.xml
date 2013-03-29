@@ -872,7 +872,7 @@
 		    <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant2>
 		<for>
-			<effect name="HellBinding" time="10" val="0" abnormal="hellbinding" stackType="paralyze" stackOrder="1"/>
+			<effect name="HellBinding" time="10" val="0" stackType="paralyze" stackOrder="1"/>
 		</for>
 	</skill>
     <skill id="11277" levels="1" name="Sense of Royalty">

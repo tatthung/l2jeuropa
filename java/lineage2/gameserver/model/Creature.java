@@ -102,6 +102,7 @@ import lineage2.gameserver.network.serverpackets.components.SystemMsg;
 import lineage2.gameserver.skills.AbnormalEffect;
 import lineage2.gameserver.skills.EffectType;
 import lineage2.gameserver.skills.TimeStamp;
+import lineage2.gameserver.skills.effects.EffectTemplate;
 import lineage2.gameserver.stats.Calculator;
 import lineage2.gameserver.stats.Env;
 import lineage2.gameserver.stats.Formulas;
@@ -698,6 +699,10 @@ public abstract class Creature extends GameObject
 	 * Field _isKnockedDown.
 	 */
 	public boolean _isKnockedDown = false;
+	/**
+	 * Field _isKnockedDown.
+	 */
+	public boolean _isAirBind = false;
 	/**
 	 * Field _zones.
 	 */
@@ -1722,6 +1727,14 @@ public abstract class Creature extends GameObject
 						continue;
 					}
 				}
+				for(EffectTemplate ef : skill.getEffectTemplates())
+				{
+					if((target.IsAirBind() ||target.IsKnockedDown()) && (ef.getEffectType() == EffectType.KnockDown || ef.getEffectType() == EffectType.HellBinding ))
+					{
+						itr.remove();
+						continue;
+					}
+				}
 				target.getListeners().onMagicHit(skill, this);
 				if (pl != null)
 				{
@@ -2255,6 +2268,45 @@ public abstract class Creature extends GameObject
 			{
 				sendPacket(new SystemMessage(SystemMessage.YOU_USE_S1).addItemName(skill.getItemConsumeId()[0]));
 			}
+			if(skill.isAlterSkill())
+			{
+				if(target.IsAirBind())
+				{
+					final Creature targetStop = target;
+					ThreadPoolManager.getInstance().schedule(new Runnable()
+			        { 
+			    	    @Override
+			            public void run()
+			            {    	
+							targetStop.stopAirBind(true);		
+			            }     
+
+			        }, 2000L);
+				}
+				else if(target.IsKnockedDown())
+				{
+					final Creature targetStop = target;
+					long stopKnockTime = 0L;					
+					if(((Player)this).getClassId().getId() == 139 || ((Player)this).getClassId().getId() == 140 || ((Player)this).getClassId().getId() == 141 || ((Player)this).getClassId().getId() == 144)
+					{
+						stopKnockTime = 1400L;
+					}
+					else
+					{
+						stopKnockTime = 2000L;	
+					}
+					ThreadPoolManager.getInstance().schedule(new Runnable()
+			        { 
+			    	    @Override
+			            public void run()
+			            {    	
+							targetStop.stopKnockDown(true);		
+			            }     
+
+			        }, stopKnockTime);
+				}
+					
+			}
 		}
 		if (skill.getTargetType() == SkillTargetType.TARGET_HOLY)
 		{
@@ -2282,14 +2334,6 @@ public abstract class Creature extends GameObject
 		{
 			sendPacket(new SetupGauge(this, SetupGauge.BLUE_DUAL, skillTime));
 		}
-		/*if (skill.isAlterSkill())
-		{
-			if(target.getEffectList().getEffectByType(EffectType.HellBinding).isActive() || target.getEffectList().getEffectByType(EffectType.KnockDown).isActive())
-			{
-				target.stopKnockDown(true);
-				target.getEffectList().stopEffects(EffectType.KnockDown);
-			}
-		}*/
 		_scheduledCastCount = skill.getCastCount();
 		_scheduledCastInterval = skill.getCastCount() > 0 ? skillTime / _scheduledCastCount : skillTime;
 		if (!isDoubleCastingNow() && IsEnabledDoubleCast())
@@ -7453,6 +7497,54 @@ public abstract class Creature extends GameObject
 	}
 	
 	/**
+	 * Method isAirBind.
+	 * @return boolean
+	 */
+	public boolean IsAirBind()
+	{
+		return _isAirBind;
+	}
+	
+	/**
+	 * Method startAirBind.
+	 */
+	public final void startAirBind()
+	{
+		if(!isParalyzed())
+			startParalyzed();
+		this.startAbnormalEffect(AbnormalEffect.getByName("hellbinding"));
+		abortAttack(true, true);
+		abortCast(true, true);
+		_isAirBind = true;
+		getAI().notifyEvent(CtrlEvent.EVT_KNOCK_DOWN);
+		if (!isServitor())
+		{
+			getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
+		}
+	}
+
+	
+	/**
+	 * Method stopAirBind.
+	 * @param removeEffects boolean
+	 */
+	public final void stopAirBind(boolean removeEffects)
+	{
+		if(isParalyzed())
+			stopParalyzed();
+		this.stopAbnormalEffect(AbnormalEffect.getByName("hellbinding"));
+		_isAirBind = false;
+		if (removeEffects)
+		{
+			getEffectList().stopEffects(EffectType.HellBinding);
+		}
+		if (!isPlayer())
+		{
+			getAI().notifyEvent(CtrlEvent.EVT_THINK);
+		}
+	}
+	
+	/**
 	 * Method startKnockDown.
 	 */
 	public final void startKnockDown()
@@ -7460,7 +7552,8 @@ public abstract class Creature extends GameObject
 		this.startAbnormalEffect(AbnormalEffect.getByName("s_51"));
 		abortAttack(true, true);
 		abortCast(true, true);
-		startParalyzed();
+		if(!isParalyzed())
+			startParalyzed();
 		_isKnockedDown = true;
 		getAI().notifyEvent(CtrlEvent.EVT_KNOCK_DOWN);
 		if (!isServitor())
@@ -7475,7 +7568,8 @@ public abstract class Creature extends GameObject
 	 */
 	public final void stopKnockDown(boolean removeEffects)
 	{
-		stopParalyzed();
+		if(isParalyzed())
+			stopParalyzed();
 		this.stopAbnormalEffect(AbnormalEffect.getByName("s_51"));
 		_isKnockedDown = false;
 		if (removeEffects)
