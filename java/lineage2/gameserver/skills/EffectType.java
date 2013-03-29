@@ -258,7 +258,7 @@ public enum EffectType
 	/**
 	 * Field HellBinding.
 	 */
-	HellBinding(EffectHellBinding.class, null, true),
+	HellBinding(EffectHellBinding.class, null, false),
 	/**
 	 * Field HPDamPercent.
 	 */
