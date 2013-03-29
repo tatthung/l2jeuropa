@@ -12,6 +12,7 @@
  */
 package lineage2.gameserver.skills.effects;
 
+import lineage2.gameserver.geodata.GeoEngine;
 import lineage2.gameserver.model.Effect;
 import lineage2.gameserver.network.serverpackets.FlyToLocation;
 import lineage2.gameserver.network.serverpackets.FlyToLocation.FlyType;
@@ -68,9 +69,13 @@ public class EffectKnockDown extends Effect
 		_x = (tagetLoc.x - (int) (offset * cos));
 		_y = (tagetLoc.y - (int) (offset * sin));
 		_z = tagetLoc.z;
+		
+		Location loc = new Location(_x, _y, _z);
+		loc = GeoEngine.moveCheck(tagetLoc.x, tagetLoc.y, tagetLoc.z, _x, _y, _effected.getGeoIndex());
+
 		_effected.startKnockDown();
-		_effected.broadcastPacket(new FlyToLocation(_effected, new Location(_x, _y, _z), FlyType.PUSH_DOWN_HORIZONTAL, getSkill().getFlySpeed()));
-		_effected.setXYZ(_x, _y, _z);
+		_effected.broadcastPacket(new FlyToLocation(_effected, loc, FlyType.PUSH_DOWN_HORIZONTAL, getSkill().getFlySpeed()));
+		_effected.setXYZ(loc.getX(), loc.getY(), loc.getZ());
 		_effected.broadcastPacket(new ValidateLocation(_effected));
 	}
 	

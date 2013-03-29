@@ -4543,8 +4543,11 @@ public abstract class Creature extends GameObject
 				for (Creature target : targets)
 				{
 					flyLoc = target.getFlyLocation(null, skill);
-					target.setLoc(flyLoc);
-					broadcastPacket(new FlyToLocation(target, flyLoc, skill.getFlyType(), 0));
+					if (flyLoc != null)
+					{
+						target.setLoc(flyLoc);
+						broadcastPacket(new FlyToLocation(target, flyLoc, skill.getFlyType(), 0));
+					}
 				}
 				break;
 			// CASTER FLYTYPE
