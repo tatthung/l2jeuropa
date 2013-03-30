@@ -569,7 +569,6 @@
     <!-- Strikes down at the ground with a fist to Knock Down nearby enemies for 3 seconds. Requires a sword, blunt, spear, fist, dual blunt weapon, or dual sword weapon to be equipped. -->
 		<table name="#mpConsume2">76 79 81 84 87 90 92 95</table>
 		<table name="#magicLevel">85 87 89 91 93 95 97 99</table>
-		<table name="#reuseDelay">120000</table>
         <table name="#activateRate">50</table>
 		<set name="mpConsume2" val="#mpConsume2"/>
 		<set name="magicLvl" val="#magicLevel"/>
