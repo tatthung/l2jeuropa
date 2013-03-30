@@ -56,7 +56,8 @@ public class EffectTargetToMe extends Effect
             public void run()
             {    			
     			Location flyLoc = _effected.getFlyLocation(getEffector(), getSkill());
-    	    	_effected.startStunning();
+    			if(!_effected.isStunned())
+    					_effected.startStunning();
     			_effected.abortCast(true, true);
     			_effected.broadcastPacket(new FlyToLocation(_effected, flyLoc, getSkill().getFlyType(),getSkill().getFlySpeed()));
     			_x = flyLoc.getX();
@@ -89,7 +90,8 @@ public class EffectTargetToMe extends Effect
 		_effected.broadcastPacket(new ValidateLocation(_effected));
 		try
 		{
-			_effected.stopStunning();
+			if(_effected.isStunned())
+				_effected.stopStunning();
 		}
 		catch (Throwable ex)
 		{
