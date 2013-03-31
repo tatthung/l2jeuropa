@@ -2329,7 +2329,7 @@ public class Clan implements Iterable<UnitMember>
 			_clanLeaderSkillIncreaseTask.cancel(false);
 		}
 		ClanLeaderSkillIncreaseTask clsit = new ClanLeaderSkillIncreaseTask();
-		_clanLeaderSkillIncreaseTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(clsit, 100, 600000);
+		_clanLeaderSkillIncreaseTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(clsit, 100, 100000);
 	}
 	
 	/**
