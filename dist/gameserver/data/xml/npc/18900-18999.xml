@@ -3674,7 +3674,7 @@
 		<set name="baseMAtk" value="780"/>
 		<set name="baseMDef" value="382"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpMax" value="2169"/>
 		<set name="baseMpReg" value="2.7"/>
 		<set name="basePAtk" value="1303"/>
 		<set name="basePDef" value="471"/>
@@ -3683,7 +3683,7 @@
 		<set name="baseShldRate" value="0"/>
 		<set name="baseWIT" value="20"/>
 		<set name="castle_id" value="1"/>
-		<set name="level" value="70"/>
+		<set name="level" value="94"/>
 		<set name="rewardExp" value="1770537"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="37520"/>
@@ -3691,8 +3691,8 @@
 		<set name="texture" value=""/>
 		<set name="type" value="Monster"/>
 		<skills>
-			<skill id="4416" level="5"/>	<!--Растения-->
-			<skill id="5465" level="1"/>	<!--Защита Земли-->
+			<skill id="4416" level="5"/>	<!-- Plants -->
+			<skill id="5465" level="1"/>	<!-- Earth Attacks -->
 		</skills>
 		<attributes>
 			<defence attribute="fire" value="150"/>
