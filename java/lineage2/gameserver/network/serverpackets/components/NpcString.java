@@ -1180,6 +1180,8 @@ public enum NpcString
 	CREATURES_RESURECTED_DEFEND_YOURSELF(1034105),
 	// Message: Creatures have stopped their attack. Rest and then speak with Adolph.
 	CREATURES_HAVE_STOPPER_THEIR_ATTACK_REST_AND_THEN_SPEEAK_WITH_ADOLPH(1034113),
+	// Message: Use the Firecracker of Fear to the bat colony
+	USE_THE_FIRECRACKER_OF_FEAR_ON_THE_BAT_COLONY(1811344),
 	// Message: I, Death Wound... Champion of Shilen, shall end your world.
 	I_DEATH_WOUND_CHAMPION_OF_SHILEN_SHALL_END_YOUR_WORLD(1034116),
 	// Message: Agh... humans... ha... it does not matter, your world will end anyways.

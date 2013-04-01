@@ -13,40 +13,28 @@
 package lineage2.gameserver.network.clientpackets;
 
 import lineage2.gameserver.model.Player;
+import lineage2.gameserver.model.quest.campaign.DynamicQuestController;
 
-/**
- * @author Mobius
- * @version $Revision: 1.0 $
- */
 public class RequestDynamicQuestScoreBoard extends L2GameClientPacket
 {
-	/**
-	 * Field _unk0. Field _unk2. Field _unk1.
-	 */
-	private int _unk1, _unk2, _unk0;
-	
-	/**
-	 * Method readImpl.
-	 */
+	private int id;
+	private int step;
+
 	@Override
 	protected void readImpl()
 	{
-		_unk0 = readC();
-		_unk1 = readD();
-		_unk2 = readD();
+		id = readD();
+		step = readD();
 	}
-	
-	/**
-	 * Method runImpl.
-	 */
+
 	@Override
 	protected void runImpl()
 	{
-		Player activeChar = getClient().getActiveChar();
-		if (activeChar == null)
-		{
+		Player player = getClient().getActiveChar();
+
+		if (player == null)
 			return;
-		}
-		activeChar.sendMessage("RequestDynamicQuestScoreBoard: С[" + _unk0 + "] D[" + _unk1 + "] D[" + _unk2 + "]");
+
+		DynamicQuestController.getInstance().requestScoreBoard(id, step, player);
 	}
 }

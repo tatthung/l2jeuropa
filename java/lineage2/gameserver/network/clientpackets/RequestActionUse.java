@@ -1529,6 +1529,7 @@ public class RequestActionUse extends L2GameClientPacket
 					ThreadPoolManager.getInstance().schedule(new SocialTask(activeChar), 2600);
 					activeChar.startParalyzed();
 				}
+				activeChar.getListeners().onSocialAction(action); // DynamicQuest
 				break;
 			case COUPLE_ACTION:
 				if (activeChar.isOutOfControl() || activeChar.isActionsDisabled() || activeChar.isSitting())
