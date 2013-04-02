@@ -2905,22 +2905,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30448,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30447,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30446,
 				1,
-				32.99
+				31.66
 			},
 			{
 				84,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31591, new double[][]
@@ -2941,22 +2941,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30453,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30452,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30451,
 				1,
-				32.99
+				31.66
 			},
 			{
 				200,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31593, new double[][]
@@ -3081,22 +3081,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30466,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30465,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30464,
 				1,
-				32.99
+				31.66
 			},
 			{
 				243,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31603, new double[][]
@@ -3117,22 +3117,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30475,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30474,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30473,
 				1,
-				32.99
+				31.66
 			},
 			{
 				91,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31605, new double[][]
@@ -3166,22 +3166,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30481,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30480,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30479,
 				1,
-				32.99
+				31.66
 			},
 			{
 				191,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31608, new double[][]
@@ -3189,22 +3189,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30485,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30484,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30483,
 				1,
-				32.99
+				31.66
 			},
 			{
 				194,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31609, new double[][]
@@ -3212,22 +3212,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30489,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30488,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30487,
 				1,
-				32.99
+				31.66
 			},
 			{
 				6372,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31610, new double[][]
@@ -3287,22 +3287,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30497,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30496,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30495,
 				1,
-				32.99
+				31.66
 			},
 			{
 				98,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31615, new double[][]
@@ -3362,22 +3362,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30505,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30504,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30503,
 				1,
-				32.99
+				31.66
 			},
 			{
 				287,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31620, new double[][]
@@ -3497,22 +3497,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30518,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30517,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30516,
 				1,
-				32.99
+				31.66
 			},
 			{
 				265,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31630, new double[][]
@@ -3727,22 +3727,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30545,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30544,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30543,
 				1,
-				32.99
+				31.66
 			},
 			{
 				71,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31650, new double[][]
@@ -3953,22 +3953,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30569,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30568,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30567,
 				1,
-				32.99
+				31.66
 			},
 			{
 				95,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31667, new double[][]
@@ -3976,22 +3976,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30573,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30572,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30571,
 				1,
-				32.99
+				31.66
 			},
 			{
 				6364,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31668, new double[][]
@@ -3999,22 +3999,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30581,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30580,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30579,
 				1,
-				32.99
+				31.66
 			},
 			{
 				197,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31669, new double[][]
@@ -4035,22 +4035,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30586,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30585,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30584,
 				1,
-				32.99
+				31.66
 			},
 			{
 				199,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31671, new double[][]
@@ -4058,22 +4058,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30590,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30589,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30588,
 				1,
-				32.99
+				31.66
 			},
 			{
 				203,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31672, new double[][]
@@ -4094,22 +4094,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30595,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30594,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30593,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7899,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31674, new double[][]
@@ -4117,22 +4117,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30599,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30598,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30597,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7889,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31675, new double[][]
@@ -4280,22 +4280,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30615,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30614,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30613,
 				1,
-				32.99
+				31.66
 			},
 			{
 				80,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31686, new double[][]
@@ -4342,22 +4342,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30626,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30625,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30624,
 				1,
-				32.99
+				31.66
 			},
 			{
 				305,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31690, new double[][]
@@ -4443,22 +4443,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30636,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30635,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30634,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9288,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31697, new double[][]
@@ -4492,22 +4492,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30642,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30641,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30640,
 				1,
-				32.99
+				31.66
 			},
 			{
 				1301,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31700, new double[][]
@@ -4515,22 +4515,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30648,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30647,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30646,
 				1,
-				32.99
+				31.66
 			},
 			{
 				142,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31701, new double[][]
@@ -4603,22 +4603,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30657,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30656,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30655,
 				1,
-				32.99
+				31.66
 			},
 			{
 				192,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31707, new double[][]
@@ -4626,22 +4626,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30661,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30660,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30659,
 				1,
-				32.99
+				31.66
 			},
 			{
 				228,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31708, new double[][]
@@ -4649,22 +4649,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30665,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30664,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30663,
 				1,
-				32.99
+				31.66
 			},
 			{
 				229,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31709, new double[][]
@@ -4828,22 +4828,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30685,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30684,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30683,
 				1,
-				32.99
+				31.66
 			},
 			{
 				74,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31722, new double[][]
@@ -4864,22 +4864,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30690,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30689,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30688,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7893,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31724, new double[][]
@@ -4900,22 +4900,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30695,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30694,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30693,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7898,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31726, new double[][]
@@ -4923,22 +4923,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30699,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30698,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30697,
 				1,
-				32.99
+				31.66
 			},
 			{
 				1298,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31727, new double[][]
@@ -4998,22 +4998,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30707,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30706,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30705,
 				1,
-				32.99
+				31.66
 			},
 			{
 				288,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31732, new double[][]
@@ -5021,22 +5021,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30711,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30710,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30709,
 				1,
-				32.99
+				31.66
 			},
 			{
 				77,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31733, new double[][]
@@ -5148,22 +5148,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30723,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30722,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30721,
 				1,
-				32.99
+				31.66
 			},
 			{
 				263,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31742, new double[][]
@@ -5296,22 +5296,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30737,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30736,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30735,
 				1,
-				32.99
+				31.66
 			},
 			{
 				92,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31753, new double[][]
@@ -5332,22 +5332,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30742,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30741,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30740,
 				1,
-				32.99
+				31.66
 			},
 			{
 				226,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31755, new double[][]
@@ -5381,22 +5381,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30748,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30747,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30746,
 				1,
-				32.99
+				31.66
 			},
 			{
 				195,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31758, new double[][]
@@ -5586,22 +5586,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30766,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30765,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30764,
 				1,
-				32.99
+				31.66
 			},
 			{
 				6366,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31773, new double[][]
@@ -5609,22 +5609,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30770,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30769,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30768,
 				1,
-				32.99
+				31.66
 			},
 			{
 				198,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31774, new double[][]
@@ -5632,22 +5632,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30774,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30773,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30772,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7884,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31775, new double[][]
@@ -5691,22 +5691,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30780,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30779,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30778,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9284,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31778, new double[][]
@@ -5714,22 +5714,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30784,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30783,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30782,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7891,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31779, new double[][]
@@ -5758,22 +5758,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30792,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30791,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30790,
 				1,
-				32.99
+				31.66
 			},
 			{
 				303,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31782, new double[][]
@@ -5781,22 +5781,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30796,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30795,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30794,
 				1,
-				32.99
+				31.66
 			},
 			{
 				161,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31783, new double[][]
@@ -5804,22 +5804,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30800,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30799,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30798,
 				1,
-				32.99
+				31.66
 			},
 			{
 				162,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31784, new double[][]
@@ -5853,22 +5853,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30806,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30805,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30804,
 				1,
-				32.99
+				31.66
 			},
 			{
 				299,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31787, new double[][]
@@ -5876,22 +5876,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30810,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30809,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30808,
 				1,
-				32.99
+				31.66
 			},
 			{
 				298,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31788, new double[][]
@@ -5959,22 +5959,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30819,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30818,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30817,
 				1,
-				32.99
+				31.66
 			},
 			{
 				289,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31794, new double[][]
@@ -5982,22 +5982,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30823,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30822,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30821,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7894,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31795, new double[][]
@@ -6321,22 +6321,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30849,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30848,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30847,
 				1,
-				32.99
+				31.66
 			},
 			{
 				164,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31818, new double[][]
@@ -6344,22 +6344,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30853,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30852,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30851,
 				1,
-				32.99
+				31.66
 			},
 			{
 				150,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31819, new double[][]
@@ -6367,22 +6367,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30857,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30856,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30855,
 				1,
-				32.99
+				31.66
 			},
 			{
 				282,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31820, new double[][]
@@ -6403,22 +6403,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30862,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30861,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30860,
 				1,
-				32.99
+				31.66
 			},
 			{
 				6367,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31822, new double[][]
@@ -6470,22 +6470,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30869,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30868,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30867,
 				1,
-				32.99
+				31.66
 			},
 			{
 				286,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31826, new double[][]
@@ -6493,22 +6493,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30873,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30872,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30871,
 				1,
-				32.99
+				31.66
 			},
 			{
 				281,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31827, new double[][]
@@ -6555,22 +6555,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30884,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30883,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30882,
 				1,
-				32.99
+				31.66
 			},
 			{
 				2503,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31831, new double[][]
@@ -6672,22 +6672,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30901,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30900,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30899,
 				1,
-				32.99
+				31.66
 			},
 			{
 				134,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31840, new double[][]
@@ -6747,22 +6747,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30911,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30910,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30909,
 				1,
-				32.99
+				31.66
 			},
 			{
 				206,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31845, new double[][]
@@ -6837,22 +6837,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30923,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30922,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30921,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7834,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31850, new double[][]
@@ -6958,22 +6958,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30933,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30932,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30931,
 				1,
-				32.99
+				31.66
 			},
 			{
 				283,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31857, new double[][]
@@ -6981,22 +6981,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30937,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30936,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30935,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7900,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31858, new double[][]
@@ -7017,22 +7017,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30942,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30941,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30940,
 				1,
-				32.99
+				31.66
 			},
 			{
 				267,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31860, new double[][]
@@ -7144,22 +7144,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30958,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30957,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30956,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9292,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31869, new double[][]
@@ -7180,22 +7180,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30963,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30962,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30961,
 				1,
-				32.99
+				31.66
 			},
 			{
 				6579,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31871, new double[][]
@@ -7294,22 +7294,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30974,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30973,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30972,
 				1,
-				32.99
+				31.66
 			},
 			{
 				135,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31879, new double[][]
@@ -7343,22 +7343,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30980,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30979,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30978,
 				1,
-				32.99
+				31.66
 			},
 			{
 				193,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31882, new double[][]
@@ -7439,22 +7439,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30990,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30989,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30988,
 				1,
-				32.99
+				31.66
 			},
 			{
 				131,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31889, new double[][]
@@ -7462,22 +7462,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				30994,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30993,
 				1,
-				32.99
+				31.66
 			},
 			{
 				30992,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7892,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31890, new double[][]
@@ -7602,22 +7602,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31007,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31006,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31005,
 				1,
-				32.99
+				31.66
 			},
 			{
 				227,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31900, new double[][]
@@ -7718,22 +7718,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31020,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31019,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31018,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7901,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31907, new double[][]
@@ -7741,22 +7741,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31024,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31023,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31022,
 				1,
-				32.99
+				31.66
 			},
 			{
 				301,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31908, new double[][]
@@ -7803,22 +7803,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31031,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31030,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31029,
 				1,
-				32.99
+				31.66
 			},
 			{
 				173,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31912, new double[][]
@@ -7852,22 +7852,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31040,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31039,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31038,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9240,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31915, new double[][]
@@ -7875,22 +7875,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31043,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31042,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31041,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9244,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31916, new double[][]
@@ -7898,22 +7898,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31046,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31045,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31044,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9248,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31917, new double[][]
@@ -7921,22 +7921,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31049,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31048,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31047,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9252,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31918, new double[][]
@@ -7944,22 +7944,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31053,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31052,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31051,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9232,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31919, new double[][]
@@ -8205,22 +8205,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31077,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31076,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31075,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9228,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31936, new double[][]
@@ -8228,22 +8228,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31081,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31080,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31079,
 				1,
-				32.99
+				31.66
 			},
 			{
 				236,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31937, new double[][]
@@ -8251,22 +8251,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31089,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31088,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31087,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7882,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31938, new double[][]
@@ -8274,22 +8274,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31093,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31092,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31091,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7888,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31939, new double[][]
@@ -8310,22 +8310,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31098,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31097,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31096,
 				1,
-				32.99
+				31.66
 			},
 			{
 				148,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31941, new double[][]
@@ -8346,22 +8346,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31103,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31102,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31101,
 				1,
-				32.99
+				31.66
 			},
 			{
 				151,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31943, new double[][]
@@ -8395,22 +8395,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31109,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31108,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31107,
 				1,
-				32.99
+				31.66
 			},
 			{
 				6370,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31946, new double[][]
@@ -8418,22 +8418,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31113,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31112,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31111,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9296,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31947, new double[][]
@@ -8597,22 +8597,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31129,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31128,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31127,
 				1,
-				32.99
+				31.66
 			},
 			{
 				213,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31960, new double[][]
@@ -8672,22 +8672,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31137,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31136,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31135,
 				1,
-				32.99
+				31.66
 			},
 			{
 				73,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31965, new double[][]
@@ -8695,22 +8695,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31141,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31140,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31139,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9300,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31966, new double[][]
@@ -8868,22 +8868,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31155,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31154,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31153,
 				1,
-				32.99
+				31.66
 			},
 			{
 				171,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31977, new double[][]
@@ -8953,22 +8953,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31163,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31162,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31161,
 				1,
-				32.99
+				31.66
 			},
 			{
 				96,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31982, new double[][]
@@ -8976,22 +8976,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31171,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31170,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31169,
 				1,
-				32.99
+				31.66
 			},
 			{
 				210,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31983, new double[][]
@@ -9064,22 +9064,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31184,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31183,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31182,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9264,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31989, new double[][]
@@ -9087,22 +9087,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31187,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31186,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31185,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9268,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31990, new double[][]
@@ -9110,22 +9110,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31190,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31189,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31188,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9272,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31991, new double[][]
@@ -9133,22 +9133,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31193,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31192,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31191,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9276,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31992, new double[][]
@@ -9156,22 +9156,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31196,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31195,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31194,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9280,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31993, new double[][]
@@ -9192,22 +9192,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31201,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31200,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31199,
 				1,
-				32.99
+				31.66
 			},
 			{
 				235,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31995, new double[][]
@@ -9215,22 +9215,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31205,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31204,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31203,
 				1,
-				32.99
+				31.66
 			},
 			{
 				269,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(31996, new double[][]
@@ -9438,22 +9438,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31224,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31223,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31222,
 				1,
-				32.99
+				31.66
 			},
 			{
 				268,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32012, new double[][]
@@ -9461,22 +9461,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31228,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31227,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31226,
 				1,
-				32.99
+				31.66
 			},
 			{
 				5286,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32013, new double[][]
@@ -9484,22 +9484,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31232,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31231,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31230,
 				1,
-				32.99
+				31.66
 			},
 			{
 				160,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32014, new double[][]
@@ -9507,22 +9507,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31236,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31235,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31234,
 				1,
-				32.99
+				31.66
 			},
 			{
 				1302,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32015, new double[][]
@@ -9530,22 +9530,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31241,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31240,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31239,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9256,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32016, new double[][]
@@ -9553,22 +9553,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31244,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31243,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31242,
 				1,
-				32.99
+				31.66
 			},
 			{
 				9260,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32017, new double[][]
@@ -9693,22 +9693,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31257,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31256,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31255,
 				1,
-				32.99
+				31.66
 			},
 			{
 				6365,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32027, new double[][]
@@ -9716,22 +9716,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31261,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31260,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31259,
 				1,
-				32.99
+				31.66
 			},
 			{
 				302,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32028, new double[][]
@@ -9752,22 +9752,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31266,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31265,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31264,
 				1,
-				32.99
+				31.66
 			},
 			{
 				76,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32030, new double[][]
@@ -9775,22 +9775,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31270,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31269,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31268,
 				1,
-				32.99
+				31.66
 			},
 			{
 				2504,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32031, new double[][]
@@ -9824,22 +9824,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31276,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31275,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31274,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7887,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32034, new double[][]
@@ -10186,22 +10186,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31303,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31302,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31301,
 				1,
-				32.99
+				31.66
 			},
 			{
 				202,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32058, new double[][]
@@ -10261,22 +10261,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31311,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31310,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31309,
 				1,
-				32.99
+				31.66
 			},
 			{
 				204,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32063, new double[][]
@@ -10401,22 +10401,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31328,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31327,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31326,
 				1,
-				32.99
+				31.66
 			},
 			{
 				242,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32073, new double[][]
@@ -10584,22 +10584,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31347,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31346,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31345,
 				1,
-				32.99
+				31.66
 			},
 			{
 				133,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32089, new double[][]
@@ -10641,22 +10641,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31358,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31357,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31356,
 				1,
-				32.99
+				31.66
 			},
 			{
 				1303,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32093, new double[][]
@@ -10729,22 +10729,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31375,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31374,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31373,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7897,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32099, new double[][]
@@ -10830,22 +10830,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31385,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31384,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31383,
 				1,
-				32.99
+				31.66
 			},
 			{
 				2502,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32106, new double[][]
@@ -10918,22 +10918,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31394,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31393,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31392,
 				1,
-				32.99
+				31.66
 			},
 			{
 				6369,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32112, new double[][]
@@ -10941,22 +10941,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31398,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31397,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31396,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7895,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32113, new double[][]
@@ -10964,22 +10964,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31402,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31401,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31400,
 				1,
-				32.99
+				31.66
 			},
 			{
 				81,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32114, new double[][]
@@ -10987,22 +10987,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31406,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31405,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31404,
 				1,
-				32.99
+				31.66
 			},
 			{
 				270,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32115, new double[][]
@@ -11010,22 +11010,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31410,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31409,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31408,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7575,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32116, new double[][]
@@ -11124,22 +11124,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31421,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31420,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31419,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7902,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32124, new double[][]
@@ -11186,22 +11186,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31436,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31435,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31434,
 				1,
-				32.99
+				31.66
 			},
 			{
 				4905,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32128, new double[][]
@@ -11237,22 +11237,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31448,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31447,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31446,
 				1,
-				32.99
+				31.66
 			},
 			{
 				6371,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32130, new double[][]
@@ -11260,22 +11260,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31452,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31451,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31450,
 				1,
-				32.99
+				31.66
 			},
 			{
 				201,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32131, new double[][]
@@ -11296,22 +11296,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31457,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31456,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31455,
 				1,
-				32.99
+				31.66
 			},
 			{
 				284,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32133, new double[][]
@@ -11319,22 +11319,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31461,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31460,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31459,
 				1,
-				32.99
+				31.66
 			},
 			{
 				233,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32134, new double[][]
@@ -11446,22 +11446,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31477,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31476,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31475,
 				1,
-				32.99
+				31.66
 			},
 			{
 				232,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32143, new double[][]
@@ -11469,22 +11469,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31481,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31480,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31479,
 				1,
-				32.99
+				31.66
 			},
 			{
 				2500,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32144, new double[][]
@@ -11492,22 +11492,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31488,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31487,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31486,
 				1,
-				32.99
+				31.66
 			},
 			{
 				79,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32145, new double[][]
@@ -11523,22 +11523,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31497,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31496,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31495,
 				1,
-				32.99
+				31.66
 			},
 			{
 				4233,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32147, new double[][]
@@ -11546,22 +11546,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31501,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31500,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31499,
 				1,
-				32.99
+				31.66
 			},
 			{
 				174,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32148, new double[][]
@@ -11735,22 +11735,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31517,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31516,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31515,
 				1,
-				32.99
+				31.66
 			},
 			{
 				132,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32161, new double[][]
@@ -11758,22 +11758,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31525,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31524,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31523,
 				1,
-				32.99
+				31.66
 			},
 			{
 				266,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32162, new double[][]
@@ -11794,22 +11794,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31530,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31529,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31528,
 				1,
-				32.99
+				31.66
 			},
 			{
 				300,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32164, new double[][]
@@ -11817,22 +11817,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31534,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31533,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31532,
 				1,
-				32.99
+				31.66
 			},
 			{
 				1299,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32165, new double[][]
@@ -11840,22 +11840,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31538,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31537,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31536,
 				1,
-				32.99
+				31.66
 			},
 			{
 				231,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32166, new double[][]
@@ -11876,22 +11876,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31547,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31546,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31545,
 				1,
-				32.99
+				31.66
 			},
 			{
 				196,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32168, new double[][]
@@ -11899,22 +11899,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31551,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31550,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31549,
 				1,
-				32.99
+				31.66
 			},
 			{
 				205,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32169, new double[][]
@@ -11922,22 +11922,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31555,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31554,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31553,
 				1,
-				32.99
+				31.66
 			},
 			{
 				285,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(32170, new double[][]
@@ -12172,22 +12172,22 @@ public class UnidentifiedEquipment extends SimpleItemHandler
 			{
 				31578,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31577,
 				1,
-				32.99
+				31.66
 			},
 			{
 				31576,
 				1,
-				32.99
+				31.66
 			},
 			{
 				7883,
 				1,
-				5.03
+				5.02
 			}
 		});
 		rewards.put(33544, new double[][]
