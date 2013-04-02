@@ -1009,20 +1009,18 @@
 	</skill>
 	<skill id="11539" levels="8" name="Petrify">
     <!-- Petrifies the target for 15 seconds. -->
-		<table name="#runSpd">0</table>
 		<set name="magicLevel" val="85"/>
 		<set name="power" val="300"/>
 		<set name="operateType" val="OP_ACTIVE"/>
-		<set name="skillType" val="DEBUFF"/>
+		<set name="skillType" val="PARALYZE"/>
 		<set name="target" val="TARGET_ONE"/>
-		<set name="npcId" val="13338"/>		
 		<set name="relationSkillsId" val="437;1097"/>
 		<enchant1 levels="10" name="mpConsume"/>
 		<enchant2 levels="10" name="Chance"/>
 		<for>
-			<effect count="1" name="Transformation" time="15" val="505">
-			<mul order="0x90" stat="runSpd" val="#runSpd"/>
-			</effect>
+		<effect count="1" name="Petrification" stackOrder="-1" stackType="paralyze" time="15" val="0">
+			<set order="0x80" stat="regHp" val="0"/>
+		</effect>
 		</for>
 	</skill>
 	<skill id="11540" levels="4" name="Quick Escape">
