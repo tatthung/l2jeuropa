@@ -352,7 +352,7 @@
 		<set name="operateType" val="OP_ACTIVE"/>
 	</skill>	
 	<skill id="19088" levels="4" name="Summon Siege Golem">
-    <!-- Summons a siege weapon. Requires 400 R-grade crystals. Automatically acquired by dwarves at level 85. -->
+		<!-- Summons a siege weapon. Requires 400 R-grade crystals. Automatically acquired by dwarves at level 85. -->
 		<table name="#npcId">15054 15055 15056 15057</table>
 		<set name="mpConsume2" val="530"/>
 		<set name="itemConsumeId" val="17371"/>
@@ -362,36 +362,48 @@
 		<set name="hitTime" val="180000"/>
 		<set name="skillType" val="SUMMON"/>
 		<set name="operateType" val="OP_ACTIVE"/>
-		  <set name="lifeTime" val="1200000"/>
+		<set name="lifeTime" val="1200000"/>
 		<set name="npcId" val="#npcId"/>
+		<set name="summonType" val="SIEGE_SUMMON"/>
+		<cond msgId="16">
+			<player summon_siege_golem=""/>
+		</cond>
 	 </skill>		
 	<skill id="19089" levels="4" name="Summon Wild Hog Cannon">
     <!-- Summons a siege weapon. Can only move in normal mode. During siege mode, it cannot move, and it can inflict long-range attacks. Switching modes takes 30 seconds. Requires 600 R-grade crystals. Automatically acquired by dwarves at level 85. -->
-		  <table name="#npcId">15058 15059 15060 15061</table>
-		  <set name="mpConsume2" val="530"/>
-		  <set name="itemConsumeId" val="17371"/>
-		  <set name="itemConsumeCount" val="600"/>
-		  <set name="target" val="TARGET_SELF"/>
-		  <set name="reuseDelay" val="7200000"/>
-		  <set name="hitTime" val="180000"/>
-		  <set name="skillType" val="SUMMON"/>
-		  <set name="operateType" val="OP_ACTIVE"/>
-		  <set name="lifeTime" val="1200000"/>
-		  <set name="npcId" val="#npcId"/>
+		<table name="#npcId">15058 15059 15060 15061</table>
+		<set name="mpConsume2" val="530"/>
+		<set name="itemConsumeId" val="17371"/>
+		<set name="itemConsumeCount" val="600"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="reuseDelay" val="7200000"/>
+		<set name="hitTime" val="180000"/>
+		<set name="skillType" val="SUMMON"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="lifeTime" val="1200000"/>
+		<set name="npcId" val="#npcId"/>
+		<set name="summonType" val="SIEGE_SUMMON"/>
+		<cond msgId="16">
+			<player summon_siege_golem=""/>
+		</cond>
 	</skill>		
 	<skill id="19090" levels="4" name="Summon Swoop Cannon">
     <!-- Summons a Swoop Cannon. Requires 500 R-grade crystals. Automatically acquired by dwarves at level 85. -->
-		  <table name="#npcId">15062 15063 15064 15065</table>
-		  <set name="mpConsume2" val="530"/>
-		  <set name="itemConsumeCount" val="500"/>
-		  <set name="itemConsumeId" val="17371"/>
-		  <set name="target" val="TARGET_SELF"/>
-		  <set name="reuseDelay" val="7200000"/>
-		  <set name="hitTime" val="180000"/>
-		  <set name="skillType" val="SUMMON"/>
-		  <set name="operateType" val="OP_ACTIVE"/>
-		  <set name="lifeTime" val="1200000"/>
-		  <set name="npcId" val="#npcId"/>
+		<table name="#npcId">15062 15063 15064 15065</table>
+		<set name="mpConsume2" val="530"/>
+		<set name="itemConsumeCount" val="500"/>
+		<set name="itemConsumeId" val="17371"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="reuseDelay" val="7200000"/>
+		<set name="hitTime" val="180000"/>
+		<set name="skillType" val="SUMMON"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="lifeTime" val="1200000"/>
+		<set name="npcId" val="#npcId"/>
+		<set name="summonType" val="SIEGE_SUMMON"/>
+		<cond msgId="16">
+			<player summon_siege_golem=""/>
+		</cond>
 	</skill>
 	<skill id="19092" levels="1" name="Mass Return">
     <!-- Teleports party members to a nearby village to safe area. -->
