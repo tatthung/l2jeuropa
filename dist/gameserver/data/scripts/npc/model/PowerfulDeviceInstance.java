@@ -109,20 +109,26 @@ public class PowerfulDeviceInstance extends NpcInstance
 			format = "0793";
 		else if(skillId == 331)
 			format = "0330";
+		else if(skillId == 626)
+			format = "0312";
+		else if(skillId == 926 || skillId == 934 || skillId == 935)
+			format = "0925";
 		else if(skillId > 778 && skillId < 784)
 			format = "0779";
 		else if(skillId == 933)
 			format = "0470";
 		else if(skillId > 99 && skillId < 1000)
 			format = "0" + skillId;
-		else if(skillId > 999 && skillId < 2000)
-			format = String.valueOf(skillId);
+		else if(skillId == 1565)
+			format = "0213";
 		else if(skillId == 1517)
 			format = "1536";
 		else if(skillId == 1518)
 			format = "1537";
 		else if(skillId == 1547)
 			format = "0065";
+		else if(skillId > 999 && skillId < 2000)
+			format = String.valueOf(skillId);
 		else if(skillId > 4550 && skillId < 4555)
 			format = "5739";
 		else if(skillId < 4698 && skillId < 4701)

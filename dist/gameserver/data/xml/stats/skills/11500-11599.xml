@@ -703,7 +703,7 @@
 		</enchant2>
 		<enchant3 levels="10" name="Recycle"/>
 		<for>
-			<effect name="Buff" time="#time" val="0" stackOrder="4" stackType="shieldProbUp;sDef;Harmony_isa;Great;HarmonyGuardian_1;HarmonyGuardian_2;song_of_hunter;dance_of_fire;dance_of_warrior;song_of_earth;rhythm_of_critical;rhythm_of_combat;">
+			<effect name="Buff" time="#time" val="0" stackOrder="4" stackType="shieldProbUp;sDef;Harmony_isa;Great;HarmonyGuardian_1;HarmonyGuardian_2;song_of_hunter;dance_of_fire;dance_of_warrior;song_of_earth;rhythm_of_critical;rhythm_of_combat;berserk;">
 				<mul order="0x30" stat="pAtk" val="1.12"/>
 				<mul order="0x30" stat="pDef" val="1.45"/>
 				<add order="0x40" stat="rShld" val="30"/>
@@ -732,7 +732,7 @@
 		</enchant2>
 		<enchant3 levels="10" name="Recycle"/>
 		<for>
-			<effect name="Buff" time="#time" val="0" stackOrder="4" stackType="Great;Harmony;Harmony_isa;HarmonyBerserk_1;HarmonyBerserk_2;dance_of_warrior;song_of_earth;rhythm_of_combat;dance_of_fire;song_of_hunter;rhythm_of_critical">
+			<effect name="Buff" time="#time" val="0" stackOrder="4" stackType="Great;Harmony;Harmony_isa;HarmonyBerserk_1;HarmonyBerserk_2;dance_of_warrior;song_of_earth;rhythm_of_combat;dance_of_fire;song_of_hunter;rhythm_of_critical;berserk;">
 				<mul order="0x30" stat="pAtk" val="1.35"/>
 				<mul order="0x30" stat="mAtk" val="1.16"/>
 				<mul order="0x30" stat="mAtkSpd" val="1.08"/>
@@ -765,7 +765,7 @@
 		</enchant2>
 		<enchant3 levels="10" name="Recycle"/>
 		<for>
-			<effect name="Buff" time="#time" val="0" stackOrder="4" stackType="concentration;Harmony_isa;buff_one;HarmonyMage_1;HarmonyMage_2;HarmonyMage_3;rhythm_of_magic;dance_of_mystic;song_of_warding;dance_of_siren;song_of_renewal;rhythm_of_start">
+			<effect name="Buff" time="#time" val="0" stackOrder="4" stackType="concentration;Harmony_isa;buff_one;HarmonyMage_1;HarmonyMage_2;HarmonyMage_3;rhythm_of_magic;dance_of_mystic;song_of_warding;dance_of_siren;song_of_renewal;rhythm_of_start;berserk;">
 				<mul order="0x30" stat="pAtk" val="1.08"/>
 				<mul order="0x30" stat="mAtk" val="1.40"/>
 				<mul order="0x30" stat="mAtkSpd" val="1.08"/>

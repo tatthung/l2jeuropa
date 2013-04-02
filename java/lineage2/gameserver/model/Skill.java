@@ -1194,6 +1194,10 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	 */
 	public static final int SKILL_DUAL_CAST = 11068;
 	/**
+	 * Field _isAuraSkill.
+	 */
+	protected boolean _isAuraSkill;
+	/**
 	 * Field _isAlterSkill.
 	 */
 	protected boolean _isAlterSkill;
@@ -1717,6 +1721,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		_referenceItemMpConsume = set.getInteger("referenceItemMpConsume", 0);
 		_isItemHandler = set.getBool("isHandler", false);
 		_isCommon = set.getBool("isCommon", false);
+		_isAuraSkill= set.getBool("isAuraSkill", false);
 		_isAlterSkill= set.getBool("isAlterSkill", false);
 		_isSaveable = set.getBool("isSaveable", true);
 		_coolTime = set.getInteger("coolTime", 0);
@@ -4133,6 +4138,15 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	public boolean isAlterSkill()
 	{
 		return _isAlterSkill;
+	}
+
+	/**
+	 * Method isAuraSkill.
+	 * @return boolean
+	 */
+	public boolean isAuraSkill()
+	{
+		return _isAuraSkill;
 	}
 	
 	/**

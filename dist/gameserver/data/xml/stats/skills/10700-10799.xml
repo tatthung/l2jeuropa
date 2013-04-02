@@ -354,13 +354,13 @@
         <table name="#element">none</table>
         <set name="elementPower" val="#elementPower"/>
         <set name="element" val="#element"/>
-        <set name="flyType" val="THROW_HORIZONTAL"/>
-        <set name="flyRadius" val="-200"/>
         <set name="magicLevel" val="#magicLevel"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
         <set name="power" val="#power"/>
         <set name="skillType" val="PDAM"/>
+        <set name="trait" val="KNOCKBACK"/>
+        <set name="activateRate" val="60"/>
         <set name="target" val="TARGET_ONE"/>
         <cond msgId="113" addName="1">
             <using kind="Bow,Crossbow"/>
@@ -394,6 +394,9 @@
             <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
         </enchant8>
         <enchant9 levels="10" name="Recycle"/>
+        <for>
+            <effect count="1" name="KnockBack" stackOrder="-1" stackType="KnockBack" time="5" val="0"/>
+        </for>
     </skill>
     <skill id="10762" levels="8" name="Quick Shot">
     <!-- Attacks the target with 15634 Power added to P. Atk. Bow/crossbow required. Over-hit. Critical. -->
@@ -623,13 +626,13 @@
         <set name="elementPower" val="#elementPower"/>
         <set name="element" val="#element"/>
         <set name="magicLevel" val="#magicLevel"/>
-        <set name="flyType" val="THROW_HORIZONTAL"/>
-        <set name="flyRadius" val="-200"/>
         <set name="relationSkillsId" val="990;"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
         <set name="power" val="#power"/>
         <set name="skillType" val="PDAM"/>
+        <set name="trait" val="KNOCKBACK"/>
+        <set name="activateRate" val="60"/>
         <set name="target" val="TARGET_ONE"/>
         <set name="cancelTarget" val="50"/>
         <cond msgId="113" addName="1">
@@ -664,6 +667,9 @@
             <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
         </enchant8>
         <enchant9 levels="10" name="Recycle"/>
+        <for>
+            <effect count="1" name="KnockBack" stackOrder="-1" stackType="KnockBack" time="5" val="0"/>
+        </for>        
     </skill>
     <skill id="10771" levels="8" name="Multiple Arrow">
     <!-- Attacks frontal enemies with 23391 Power added to P. Atk. Bow/crossbow required. Over-hit. Critical. -->

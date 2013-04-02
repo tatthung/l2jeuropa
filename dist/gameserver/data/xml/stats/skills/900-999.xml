@@ -1747,17 +1747,15 @@
 		<set name="coolTime" val="200"/>
 		<set name="magicLevel" val="40"/>
 		<set name="castRange" val="400"/>
-		<set name="hitTime" val="800"/>
-		<set name="reuseDelay" val="3000"/>
 		<set name="hitCancelTime" val="500"/>
 		<set name="mpConsume1" val="38"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="DEBUFF"/>
 		<set name="flyType" val="CHARGE"/>
 		<set name="flyRadius" val="400"/>
-		<set name="flyToBack" val="true"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="nextAction" val="attack"/>
+		<set name="isSkillTimePermanent" val="true"/> 
 		<cond msgId="113" addName="1">
 			<not>
 				<using kind="Bow, Crossbow"/>
@@ -1767,13 +1765,11 @@
 	<skill id="995" levels="1" name="Rush Impact">
     <!-- Rushes forward to attack the enemies in front with 4224 Power added to P. Atk. and inflicts Shock for 9 seconds. Cannot be used when a bow/crossbow is equipped. -->
 		<set name="icon" val="icon.skill0793"/>
-		<set name="coolTime" val="200"/>
+		<set name="coolTime" val="800"/>
 		<set name="power" val="4224"/>
 		<set name="magicLevel" val="83"/>
 		<set name="castRange" val="600"/>
-		<set name="hitTime" val="800"/>
 		<set name="reuseDelay" val="20000"/>
-		<set name="hitCancelTime" val="500"/>
 		<set name="mpConsume1" val="82"/>
 		<set name="activateRate" val="60"/>
 		<set name="target" val="TARGET_TUNNEL"/>
@@ -1781,10 +1777,10 @@
 		<set name="skillType" val="PDAM"/>
 		<set name="flyType" val="CHARGE"/>
 		<set name="flyRadius" val="600"/>
-		<set name="flyToBack" val="true"/>
 		<set name="trait" val="SHOCK"/>
 		<set name="saveVs" val="CON"/>
 		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isSkillTimePermanent" val="true"/> 
 		<cond msgId="113" addName="1">
 			<using kind="Sword, Big Sword, Blunt, Big Blunt, Dagger, Pole, Fist, Dual Sword, Dual Dagger"/>
 		</cond>

@@ -50,14 +50,14 @@ public class EffectTargetToMe extends Effect
 	public void onStart()
 	{
 		super.onStart();
+		if(!_effected.isStunned())
+			_effected.startStunning();
         ThreadPoolManager.getInstance().schedule(new Runnable()
         { 
     	    @Override
             public void run()
             {    			
     			Location flyLoc = _effected.getFlyLocation(getEffector(), getSkill());
-    			if(!_effected.isStunned())
-    					_effected.startStunning();
     			_effected.abortCast(true, true);
     			_effected.broadcastPacket(new FlyToLocation(_effected, flyLoc, getSkill().getFlyType(),getSkill().getFlySpeed()));
     			_x = flyLoc.getX();
@@ -68,15 +68,6 @@ public class EffectTargetToMe extends Effect
             }     
 
         }, 500L);
-		Location flyLoc = _effected.getFlyLocation(getEffector(), getSkill());
-		_effected.startStunning();
-		_effected.abortCast(true, true);
-		_effected.broadcastPacket(new FlyToLocation(_effected, flyLoc, getSkill().getFlyType(),getSkill().getFlySpeed()));
-		_x = flyLoc.getX();
-		_y = flyLoc.getY();
-		_z = flyLoc.getZ();
-		_effected.setXYZ(flyLoc.getX(),flyLoc.getY(),flyLoc.getZ());
-		_effected.broadcastPacket(new ValidateLocation(_effected));
 	}
 	
 	/**

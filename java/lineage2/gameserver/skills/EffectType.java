@@ -27,6 +27,7 @@ import lineage2.gameserver.skills.effects.EffectBluff;
 import lineage2.gameserver.skills.effects.EffectBuff;
 import lineage2.gameserver.skills.effects.EffectCPDamPercent;
 import lineage2.gameserver.skills.effects.EffectCallSkills;
+import lineage2.gameserver.skills.effects.EffectCannotTarget;
 import lineage2.gameserver.skills.effects.EffectCharge;
 import lineage2.gameserver.skills.effects.EffectChargesOverTime;
 import lineage2.gameserver.skills.effects.EffectCharmOfCourage;
@@ -258,7 +259,7 @@ public enum EffectType
 	/**
 	 * Field HellBinding.
 	 */
-	HellBinding(EffectHellBinding.class, null, false),
+	HellBinding(EffectHellBinding.class, AbnormalEffect.S_HELLBINDING, true),
 	/**
 	 * Field HPDamPercent.
 	 */
@@ -368,6 +369,10 @@ public enum EffectType
 	 */
 	Relax(EffectRelax.class, null, true),
 	/**
+	 * Field CannotTarget.
+	 */
+	CannotTarget(EffectCannotTarget.class, null, true),
+	/**
 	 * Field RemoveTarget.
 	 */
 	RemoveTarget(EffectRemoveTarget.class, null, true),
@@ -470,11 +475,11 @@ public enum EffectType
 	/**
 	 * Field KnockDown.
 	 */
-	KnockDown(EffectKnockDown.class, null, true),
+	KnockDown(EffectKnockDown.class, AbnormalEffect.S_51, Stats.KNOCKDOWN_RESIST, Stats.KNOCKDOWN_POWER, true),
 	/**
 	 * Field KnockBack.
 	 */
-	KnockBack(EffectKnockBack.class, null, true),
+	KnockBack(EffectKnockBack.class, null, Stats.KNOCKBACK_RESIST, Stats.KNOCKBACK_POWER, true),
 	/**
 	 * Field ShadowStep
 	 */

@@ -510,8 +510,8 @@
     </skill>
     <skill id="10514" levels="5" name="Dark Paralysis">
     <!-- Seals an enemy with the power of darkness. Causes the enemy's body to go completely rigid for 10 seconds and causes paralysis for 5 seconds. -->
-        <table name="#magicLevel">85 88 97 94 98</table>
-        <table name="#activateRate">50</table>
+        	<table name="#magicLevel">85 88 97 94 98</table>
+        	<table name="#activateRate">50</table>
 		<table name="#mpConsume2">38 42 44 48 54</table>
 		<set name="mpConsume2" val="#mpConsume2"/>
 		<set name="castRange" val="40"/>
@@ -519,41 +519,44 @@
 		<set name="hitTime" val="1130"/>
 		<table name="#reuseDelay">10000</table>
 		<set name="reuseDelay" val="#reuseDelay"/>
-        <set name="magicLevel" val="#magicLevel"/>
-        <set name="activateRate" val="#activateRate"/>
-        <set name="target" val="TARGET_ONE"/>
-        <set name="saveVs" val="MEN"/>
-        <set name="relationSkillsId" val="122;"/>
-        <set name="skillType" val="PARALYZE"/>
-        <set name="isDebuff" val="true"/>
-        <set name="lvlDepend" val="1"/>
-        <set name="operateType" val="OP_ACTIVE"/>
-        <set name="addSkills" val="10515;6"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="activateRate" val="#activateRate"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="saveVs" val="MEN"/>
+		<set name="relationSkillsId" val="122;"/>
+		<set name="skillType" val="PARALYZE"/>
+		<set name="trait" val="PARALYZE"/>
+		<set name="isDebuff" val="true"/>
+		<set name="lvlDepend" val="1"/>
+		<set name="operateType" val="OP_ACTIVE"/>
 		<enchant1 levels="10" name="Cost">		
 			<table name="#mpConsume2">39 37 34 22 29 27 14 12 9 7</table>
 		</enchant1>
-        <enchant2 levels="10" name="Chance">
-            <table name="#activateRate">53 56 59 62 65 68 71 74 77 80</table>
-        </enchant2>
-        <enchant9 levels="10" name="Recycle">		
+		<enchant2 levels="10" name="Chance">
+			<table name="#activateRate">53 56 59 62 65 68 71 74 77 80</table>
+		</enchant2>
+		<enchant9 levels="10" name="Recycle">		
 			<table name="#reuseDelay">8900 8700 7500 7000 6500 6000 5500 5000 4500 4000</table>
 		</enchant9>
-        <for>
-            <effect name="Petrification" time="10" val="0" stackOrder="2" stackType="turn_stone"/>
-            <effect count="1" name="AddSkills" time="5" val="0"/>
-        </for>
+		<for>
+		    <effect count="0x7fffffff" name="CallSkills" time="0" val="0" chance="#activateRate">		    
+			<def name="skillIds" val="10515"/>
+			<def name="skillLevels" val="6"/>
+		    </effect>
+		</for>
     </skill>
     <skill id="10515" levels="6" name="Paralyzed">
-    <!-- Your body is paralyzed. -->
-        <table name="#magicLevel">85 86 87 88 89 90</table>
-        <set name="magicType" val="SPECIAL"/>
+    		<!-- Your body is paralyzed. -->
+        	<table name="#magicLevel">85 86 87 88 89 90</table>
+        	<set name="magicType" val="SPECIAL"/>
 		<set name="hitCancelTime" val="500"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="DEBUFF"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="trait" val="PARALYZE"/>
 		<for>
-			<effect count="1" name="Paralyze" stackOrder="1" stackType="paralyze" time="5" val="0"/>
+			<effect count="1" name="Paralyze" stackOrder="1" stackType="turn_stone" time="15" val="0"/>
+		    	<effect name="Petrification" time="10" val="0" stackOrder="2" stackType="turn_stone"/>
 		</for>
     </skill>
     <skill id="10516" levels="6" name="Shadow Chase">
@@ -701,18 +704,20 @@
         <set name="target" val="TARGET_AURA"/>
         <set name="skillRadius" val="200"/>
         <set name="isDebuff" val="true"/>
-		<set name="isOffensive" val="true"/>
-		<set name="reuseDelay" val="2000"/>
+	<set name="isOffensive" val="true"/>
+	<set name="reuseDelay" val="2000"/>
         <set name="skillType" val="DEBUFF"/>
         <set name="power" val="80"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <for>
-			<effect count="2" name="DamOverTime" time="1" val="#dmg" abnormal="poison" stackOrder="#abnormal_lv"/>
-            <effect name="Debuff" time="15" val="0" stackOrder="1" stackType="ultimate_debuff">
-                <mul order="0x30" stat="pAtk" val="0.75"/>
-                <mul order="0x30" stat="runSpd" val="0.75"/>
-                <mul order="0x30" stat="sDef" val="0.75"/>
-            </effect>
+		<effect count="15" name="DamOverTime" time="1" val="#dmg" abnormal="poison" stackOrder="#abnormal_lv"/>
+		<effect name="Debuff" time="15" val="0" stackOrder="1" stackType="ultimate_debuff">
+		        <mul order="0x30" stat="pAtk" val="0.75"/>
+		        <mul order="0x30" stat="runSpd" val="0.75"/>
+		        <mul order="0x30" stat="sDef" val="0.75"/>
+		        <mul order="0x30" stat="pDef" val="0.75"/>
+		        <mul order="0x30" stat="mDef" val="0.75"/>
+		</effect>
         </for>
     </skill>
     <skill id="10524" levels="3" name="Evasive Counterstrike">
@@ -811,7 +816,7 @@
         </enchant2>
         <enchant3 levels="10" name="Recycle"/>
         <for>
-            <effect count="1" name="RemoveTarget" stackOrder="-1" stackType="RemoveTarget" time="5" val="0" chance="#activateRate"/>
+            <effect count="1" name="CannotTarget" stackOrder="-1" stackType="CannotTarget" time="3" val="0" chance="#activateRate"/>
         </for>
     </skill>
     <skill id="10528" levels="1" name="Shadow Fake Death">
@@ -847,8 +852,9 @@
         <set name="flyRadius" val="600"/>
         <set name="flyToBack" val="true"/>
         <for>
-            <effect name="Stun" time="3" val="0" stackOrder="1" stackType="stun" effectPower="40" effectType="STUN"/>
-            <add order="0x40" stat="cAtkStatic" val="40"/>
+            <effect name="Stun" time="3" val="0" stackOrder="1" stackType="stun" effectPower="40" effectType="STUN">
+	            <add order="0x40" stat="cAtkStatic" val="40"/>
+	    </effect>
         </for>
     </skill>
     <skill id="10530" levels="1" name="Blind Spot">
@@ -1223,7 +1229,6 @@
         <table name="#magicLevel">85 86 87 88</table>
         <table name="#mpConsume2">60 62 64 66</table>
         <table name="#activateRate">50</table>
-        <set name="activateRate" val="#activateRate"/>
         <set name="reuseDelay" val="30000"/>
         <set name="hitTime" val="1800"/>
         <set name="castRange" val="40"/>
@@ -1234,6 +1239,8 @@
         <set name="target" val="TARGET_ONE"/>
         <set name="coolTime" val="300"/>
         <set name="skillType" val="DEBUFF"/>
+        <set name="trait" val="KNOCKDOWN"/>
+        <set name="activateRate" val="#activateRate"/>        
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="levelModifier" val="2"/>
         <set name="nextAction" val="attack"/>
@@ -1253,7 +1260,7 @@
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant3>
         <for>
-            <effect count="1" name="Stun" stackOrder="-1" stackType="Stun" time="2" val="0"/>
+            <effect count="1" name="KnockDown" stackOrder="1" stackType="KnockDown" time="2" val="0"/>
         </for>
     </skill>
     <skill id="10547" levels="1" name="Shadow Attack">
@@ -1289,6 +1296,7 @@
     <!-- Powerfully Knock Back the target with a kick. -->
         <table name="#magicLevel">85 86 87 88 89</table>
         <table name="#mpConsume2">60 62 64 66 68</table>
+        <table name="#activateRate">50</table>
         <set name="reuseDelay" val="60000"/>
         <set name="hitTime" val="800"/>
         <set name="castRange" val="40"/>
@@ -1299,6 +1307,8 @@
         <set name="overHit" val="true"/>
         <set name="relationSkillsId" val="21;61;223;34;"/>
         <set name="skillType" val="PDAM"/>
+        <set name="trait" val="KNOCKBACK"/>
+        <set name="activateRate" val="#activateRate"/>
         <set name="target" val="TARGET_ONE"/>
         <enchant1 levels="10" name="Cost">
             <table name="#mpConsume">44 42 40 38 36 34 33 31 29 27</table>
@@ -1335,26 +1345,30 @@
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="nextAction" val="attack"/>
         <for>
-            <effect count="1" name="Debuff" val="0"/>
-            <mul order="0x30" stat="runSpd" val="0.77"/>
+            <effect count="1" name="Debuff" val="0" time="7">
+	            <mul order="0x30" stat="runSpd" val="0.77"/>
+	    </effect>
         </for>
     </skill>
     <skill id="10551" levels="4" name="Illusion Trick">
     <!-- Cancels the enemy's target and stops him from targeting for 1 second. -->
         <table name="#magicLevel">85 86 87 88</table>
         <table name="#mpConsume2">60 62 64 66</table>
+        <table name="#activateRate">70 72 74 76</table>
         <set name="reuseDelay" val="4000"/>
         <set name="hitTime" val="1200"/>
         <set name="castRange" val="600"/>
         <set name="mpConsume2" val="#mpConsume2"/>
         <set name="magicLevel" val="#magicLevel"/>
         <set name="target" val="TARGET_ONE"/>
-        <set name="activateRate" val="70"/>
-        <set name="skillType" val="AGGRESSION"/>
-        <set name="unaggroing" val="true"/>
+        <set name="skillType" val="DELETE_HATE_OF_ME"/>
+        <set name="activateRate" val="#activateRate"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="cancelTarget" val="70"/>
-        <for/>
+        <for>
+            <effect count="1" name="RemoveTarget" stackOrder="-1" stackType="RemoveTarget" time="1" val="0"/>
+            <effect count="1" name="CannotTarget" stackOrder="-1" stackType="CannotTarget" time="3" val="0"/>
+        </for>
     </skill>
     <skill id="10552" levels="1" name="Superior Resistance">
     <!-- STR + 2, M. Def. + 199, and resistance to Fire/Water/Wind/Earth + 20. When receiving damage, M. Def. and resistance to all attributes momentarily increase. -->
@@ -1438,7 +1452,7 @@
         </cond>
         <for>
             <effect count="1" name="Bluff" stackOrder="-1" stackType="Bluff" time="0" val="0" chance="80" isReflectable="false"/>
-            <effect count="1" name="Stun" stackOrder="-1" stackType="Stun" time="9" val="0"/>
+            <effect count="1" name="Stun" abnormal="stun" stackOrder="-1" stackType="Stun" time="3" val="0"/>
             <effect count="1" name="RemoveTarget" stackOrder="-1" stackType="RemoveTarget" time="0" val="0" chance="80" isReflectable="false"/>
         </for>
     </skill>

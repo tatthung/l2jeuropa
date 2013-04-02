@@ -16,6 +16,7 @@ import gnu.trove.map.hash.TIntIntHashMap;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
 
 import javolution.util.FastList;
@@ -62,6 +63,79 @@ public class AwakingManager implements OnPlayerEnterListener
 	 */
 	private static TIntIntHashMap _CA = new TIntIntHashMap(36);
 
+	/**
+	 * Field _AlterSigel.
+	 */
+	private static final Integer [] _AlterSigel =
+	{
+		10250,
+		10249
+	};
+
+	/**
+	 * Field _AlterTyrr.
+	 */
+	private static final Integer [] _AlterTyrr =
+	{
+		10500,
+		10499
+	};
+
+	/**
+	 * Field _AlterOthell.
+	 */
+	private static final Integer [] _AlterOthell =
+	{
+		10750,
+		10749
+	};
+
+	/**
+	 * Field _AlterYul.
+	 */
+	private static final Integer [] _AlterYul =
+	{
+		11000,
+		10999
+	};
+
+	/**
+	 * Field _AlterFeoh.
+	 */
+	private static final Integer [] _AlterFeoh =
+	{
+		11249,
+		11247
+	};
+
+	/**
+	 * Field _AlterIss.
+	 */
+	private static final Integer [] _AlterIss =
+	{
+		11750,
+		11749
+	};
+
+	/**
+	 * Field _AlterWynn.
+	 */
+	private static final Integer [] _AlterWynn =
+	{
+		11500,
+		11499
+	};
+
+	/**
+	 * Field _AlterAerore.
+	 */
+	private static final Integer [] _AlterAerore =
+	{
+		12000,
+		11999
+	};
+	
+	private static final HashMap <Integer, Integer[]> _AlterSkills = new HashMap<Integer, Integer []>();
 	/**
 	 * Field count30T.
 	 */
@@ -191,6 +265,7 @@ public class AwakingManager implements OnPlayerEnterListener
 			CharListenerList.addGlobal(this);
 		}
 		_CA.clear();
+		_AlterSkills.clear();
 		/***************************************************************************************************
 		* 139 H_PhoenixKnight, H_HellKnight, E_EvaTemplar, DE_ShillienTemplar
 		* 140 H_Duelist, H_Dreadnought, O_Titan, O_GrandKhauatari, D_Maestro, K_Male_Doombringer
@@ -209,7 +284,9 @@ public class AwakingManager implements OnPlayerEnterListener
 		_CA.put(98, 144);		_CA.put(116, 144);		_CA.put(115, 144);		_CA.put(100, 144);		_CA.put(107, 144);		_CA.put(136, 144);
 		_CA.put(96, 145);		_CA.put(104, 145);		_CA.put(111, 145);
 		_CA.put(97, 146);		_CA.put(105, 146);		_CA.put(112, 146);
-		
+		_AlterSkills.put(139,_AlterSigel);		_AlterSkills.put(140,_AlterTyrr);		_AlterSkills.put(141,_AlterOthell);
+		_AlterSkills.put(142,_AlterYul);		_AlterSkills.put(143,_AlterFeoh);		_AlterSkills.put(144,_AlterIss);
+		_AlterSkills.put(145,_AlterWynn);		_AlterSkills.put(146,_AlterAerore);
 		_log.info("AwakingManager: Loaded 8 Awaking class for " + _CA.size() + " normal class.");
 	}
 	
@@ -484,7 +561,13 @@ public class AwakingManager implements OnPlayerEnterListener
 			int skillLv = SkillTable.getInstance().getBaseLevel(skillId);
 			Skill newSkill = SkillTable.getInstance().getInfo(skillId, skillLv);
 			player.addSkill(newSkill,true);
-		}		
+		}
+		for(int alterSkill : _AlterSkills.get(newClassId))
+		{
+			int skillLv = SkillTable.getInstance().getBaseLevel(alterSkill);
+			Skill newSkillAlter = SkillTable.getInstance().getInfo(alterSkill, skillLv);			
+			player.addSkill(newSkillAlter,true);
+		}
 		player.sendSkillList();
 	}
 	
@@ -507,6 +590,12 @@ public class AwakingManager implements OnPlayerEnterListener
 			int skillLv = SkillTable.getInstance().getBaseLevel(skillId);
 			Skill newSkill = SkillTable.getInstance().getInfo(skillId, skillLv);
 			player.addSkill(newSkill,true);
+		}
+		for(int alterSkill : _AlterSkills.get(toFinalClass))
+		{
+			int skillLv = SkillTable.getInstance().getBaseLevel(alterSkill);
+			Skill newSkillAlter = SkillTable.getInstance().getInfo(alterSkill, skillLv);			
+			player.addSkill(newSkillAlter,true);
 		}		
 		player.sendSkillList();
 	}
@@ -543,9 +632,14 @@ public class AwakingManager implements OnPlayerEnterListener
 				}
 			}
 		}
+		for(int alterSkill : _AlterSkills.get(classId))
+		{
+			int skillLv = SkillTable.getInstance().getBaseLevel(alterSkill);
+			Skill newSkillAlter = SkillTable.getInstance().getInfo(alterSkill, skillLv);			
+			player.addSkill(newSkillAlter,true);
+		}
 		player.sendSkillList();
 	}
-
 	/**
 	 * Method onPlayerEnter.
 	 * @param player Player

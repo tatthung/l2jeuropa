@@ -76,6 +76,7 @@ import lineage2.gameserver.model.quest.QuestEventType;
 import lineage2.gameserver.model.quest.QuestState;
 import lineage2.gameserver.model.reference.L2Reference;
 import lineage2.gameserver.model.worldstatistics.CategoryType;
+import lineage2.gameserver.network.serverpackets.AbnormalStatusUpdate;
 import lineage2.gameserver.network.serverpackets.ActionFail;
 import lineage2.gameserver.network.serverpackets.Attack;
 import lineage2.gameserver.network.serverpackets.AutoAttackStart;
@@ -2250,6 +2251,10 @@ public abstract class Creature extends GameObject
 		Formulas.calcSkillMastery(skill, this);
 		long reuseDelay = Math.max(0, Formulas.calcSkillReuseDelay(this, skill));
 		broadcastPacket(new MagicSkillUse(this, target, skill.getDisplayId(), level, skillTime, reuseDelay, isDoubleCastingNow()));
+		if(skill.getFlyType() == FlyType.CHARGE)
+		{
+			skillTime = minCastTime;
+		}
 		if (!skill.isHandler())
 		{
 			disableSkill(skill, reuseDelay);
@@ -2260,7 +2265,7 @@ public abstract class Creature extends GameObject
 			{
 				sendPacket(Msg.SUMMON_A_PET);
 			}
-			else if (!skill.isHandler())
+			else if (!skill.isHandler() || !skill.isAlterSkill())
 			{
 				sendPacket(new SystemMessage(SystemMessage.YOU_USE_S1).addSkillName(magicId, level));
 			}
@@ -4587,15 +4592,22 @@ public abstract class Creature extends GameObject
 				for (Creature target : targets)
 				{
 					flyLoc = target.getFlyLocation(null, skill);
-					if (flyLoc != null)
-					{
-						target.setLoc(flyLoc);
-						broadcastPacket(new FlyToLocation(target, flyLoc, skill.getFlyType(), 0));
-					}
+					target.setLoc(flyLoc);
+					broadcastPacket(new FlyToLocation(target, flyLoc, skill.getFlyType(), 0));
 				}
 				break;
 			// CASTER FLYTYPE
 			case CHARGE:
+				Location flyLocCharge;
+				for(Creature target : targets)
+				{
+					double radian = PositionUtils.convertHeadingToRadian(this.getHeading());
+					flyLocCharge = target.getLoc();
+					flyLocCharge.set(flyLocCharge.getX() + (int) (Math.sin(radian) * 40), flyLocCharge.getY() - (int) (Math.cos(radian) * 40), flyLocCharge.getZ());
+					setLoc(flyLocCharge);
+					broadcastPacket(new FlyToLocation(this, flyLocCharge, skill.getFlyType(), 0));
+				}
+				break;
 			case DUMMY:
 			case WARP_BACK:
 			case WARP_FORWARD:
@@ -4626,7 +4638,14 @@ public abstract class Creature extends GameObject
 			}
 			return;
 		}
-		int skillCoolTime = Formulas.calcMAtkSpd(this, skill, skill.getCoolTime());
+		int skillCoolTime = 0;
+		int chargeAddition = 0;
+		if(skill.getFlyType() == FlyType.CHARGE)
+			chargeAddition = skill.getHitTime();
+		if(!skill.isSkillTimePermanent())
+			skillCoolTime = Formulas.calcMAtkSpd(this, skill, skill.getCoolTime() + chargeAddition);
+		else				
+			skillCoolTime = skill.getCoolTime() + chargeAddition;
 		if (skillCoolTime > 0)
 		{
 			ThreadPoolManager.getInstance().schedule(new CastEndTimeTask(this), skillCoolTime);
@@ -7512,7 +7531,7 @@ public abstract class Creature extends GameObject
 	{
 		if(!isParalyzed())
 			startParalyzed();
-		this.startAbnormalEffect(AbnormalEffect.getByName("hellbinding"));
+		//this.startAbnormalEffect(AbnormalEffect.getByName("hellbinding"));
 		abortAttack(true, true);
 		abortCast(true, true);
 		_isAirBind = true;
@@ -7532,7 +7551,7 @@ public abstract class Creature extends GameObject
 	{
 		if(isParalyzed())
 			stopParalyzed();
-		this.stopAbnormalEffect(AbnormalEffect.getByName("hellbinding"));
+		//this.stopAbnormalEffect(AbnormalEffect.getByName("hellbinding"));
 		_isAirBind = false;
 		if (removeEffects)
 		{
@@ -7549,7 +7568,7 @@ public abstract class Creature extends GameObject
 	 */
 	public final void startKnockDown()
 	{
-		this.startAbnormalEffect(AbnormalEffect.getByName("s_51"));
+		//this.startAbnormalEffect(AbnormalEffect.getByName("s_51"));
 		abortAttack(true, true);
 		abortCast(true, true);
 		if(!isParalyzed())
@@ -7570,7 +7589,7 @@ public abstract class Creature extends GameObject
 	{
 		if(isParalyzed())
 			stopParalyzed();
-		this.stopAbnormalEffect(AbnormalEffect.getByName("s_51"));
+		//this.stopAbnormalEffect(AbnormalEffect.getByName("s_51"));
 		_isKnockedDown = false;
 		if (removeEffects)
 		{

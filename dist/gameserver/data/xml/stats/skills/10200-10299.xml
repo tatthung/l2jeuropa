@@ -337,8 +337,6 @@
 		<set name="hitTime" val="1490"/>
 		<table name="#reuseDelay">7000</table>
 		<set name="reuseDelay" val="#reuseDelay"/>
-		<set name="flyType" val="CHARGE"/>
-		<set name="flyRadius" val="40"/>
 		<set name="magicLevel" val="#magicLevel"/>
 		<set name="nextActionAttack" val="true"/>
 		<set name="power" val="#power"/>
@@ -388,7 +386,7 @@
 			<table name="#element">unholy</table>
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
 		</enchant8>
-        <enchant9 levels="10" name="Recycle">		
+        	<enchant9 levels="10" name="Recycle">		
 			<table name="#reuseDelay">6500 6000 5500 5000 4500 4000 3500 3000 2500 2000</table>
 		</enchant9>
 	</skill>
@@ -410,6 +408,8 @@
 		<set name="critRate" val="10"/>
 		<set name="relationSkillsId" val="81;315;498;261;"/> 
 		<set name="skillType" val="PDAM"/>
+		<set name="trait" val="KNOCKDOWN"/>
+		<set name="activateRate" val="50"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="ignoreShield" val="true"/>
 		<set name="max_charges" val="5"/>
@@ -449,7 +449,7 @@
 		</enchant8>
 		<enchant9 levels="10" name="Recycle"/>
 		<for>
-		<effect count="1" name="KnockDown" stackOrder="-1" stackType="KnockDown" time="2" val="0"/>
+			<effect count="1" name="KnockDown" stackOrder="-1" stackType="KnockDown" time="2" val="0"/>
 		</for>
 	</skill>
     <skill id="10263" levels="8" name="Hurricane Blaster">
@@ -569,7 +569,8 @@
     <!-- Strikes down at the ground with a fist to Knock Down nearby enemies for 3 seconds. Requires a sword, blunt, spear, fist, dual blunt weapon, or dual sword weapon to be equipped. -->
 		<table name="#mpConsume2">76 79 81 84 87 90 92 95</table>
 		<table name="#magicLevel">85 87 89 91 93 95 97 99</table>
-        <table name="#activateRate">50</table>
+		<table name="#reuseDelay">120000</table>
+        	<table name="#activateRate">50</table>
 		<set name="mpConsume2" val="#mpConsume2"/>
 		<set name="magicLvl" val="#magicLevel"/>
 		<set name="nextActionAttack" val="true"/>
@@ -580,8 +581,9 @@
 		<set name="skillRadius" val="500"/>
 		<set name="skillType" val="PDAM"/>
 		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="trait" val="KNOCKDOWN"/>
+       	 	<set name="activateRate" val="#activateRate"/>
 		<set name="effectRange" val="400"/>
-        <set name="activateRate" val="#activateRate"/>
 		<set name="relationSkillsId" val="452;477;497;95;260;48;"/>
 		<enchant1 levels="10" name="Cost">
 			<table name="#mpConsume2">91 87 83 79 76 72 68 64 60 57</table>
@@ -607,15 +609,13 @@
 		<table name="#mpConsume2">38 39 41 43 44 47</table>
 		<table name="#magicLevel">85 87 90 93 96 99</table>
 		<table name="#reuseDelay">15000</table>
-        <table name="#activateRate">50</table>
+       		<table name="#activateRate">50</table>
 		<set name="nextAction" val="attack"/>
 		<set name="castRange" val="600"/>
-		<set name="coolTime" val="200"/>
+		<set name="coolTime" val="1100"/>
 		<set name="effectRange" val="600"/>
 		<set name="flyType" val="CHARGE"/>
 		<set name="flyRadius" val="600"/>
-		<set name="flyToBack" val="true"/>
-		<set name="hitTime" val="600"/>
 		<set name="isDebuff" val="true"/>
 		<set name="lvlDepend" val="1"/>
 		<set name="magicLvl" val="#magicLevel"/>
@@ -627,7 +627,8 @@
 		<set name="skillType" val="DEBUFF"/>
 		<set name="SSBoost" val="2.0"/>
 		<set name="target" val="TARGET_TUNNEL"/>
-        <set name="activateRate" val="#activateRate"/>
+        	<set name="activateRate" val="#activateRate"/>
+		<set name="isSkillTimePermanent" val="true"/> 
 		<cond msg="Requires Pole, Sword, Blunt, Dual Sword, Big Blunt, Big Sword, Dual Fist.">
 			<using kind="Pole, Sword, Blunt, Dual Sword, Big Blunt, Big Sword, Dual Fist"/>
 			<and>
@@ -675,13 +676,12 @@
     <!-- Jumps to attack frontal enemies with 10508 power added to P. Atk. and decreases their Speed by 70% for 5 seconds. The more Momentum used the more damage inflicted, up to a maximum of 5 Momentum levels. Requires a sword, blunt, spear, fist, dual blunt weapon, or dual sword weapon to be equipped. Over-hit. Critical. -->
 		<table name="#pwr">10508 11190 11872 12554 13236 13918 14600</table>
 		<table name="#magicLevel">87 89 91 93 95 97 99</table>
-		<set name="relationSkillsId" val="793"/> 
+		<set name="relationSkillsId" val="793;995"/> 
+		<set name="isSkillTimePermanent" val="true"/> 
 		<set name="magicLevel" val="#magicLevel"/>
 		<set name="flyType" val="CHARGE"/>
 		<set name="flyRadius" val="600"/>
-		<set name="flyToBack" val="true"/>
-		<set name="trait" val="SHOCK"/>
-		<set name="saveVs" val="CON"/>
+		<set name="coolTime" val="1100"/>
 		<table name="#activateRate">50</table>
 		<set name="activateRate" val="#activateRate"/>
 		<set name="nextAction" val="attack"/>
@@ -927,7 +927,6 @@
 			<effect abnormal="invul2" count="1" name="Invulnerable" stackOrder="-1" stackType="Invulnerable" time="10" val="0" cancelOnAction="true">
 				<mul order="0x30" stat="runSpd" val="1.3"/>
 			</effect>
-			<effect name="Petrification" time="10" val="0"/>
 		</for>
 	</skill>
     <skill id="10280" levels="1" name="Momentum Charge">
@@ -1079,17 +1078,34 @@
 	</skill>
     <skill id="10289" levels="4" name="Boost">
     <!-- Increases skills' effect by 30% for 60 seconds and normal/skill attack damage by 5% during PVP. -->
+	  	<table name="#skillPower">1.3 1.35 1.4 1.45</table>
+	  	<table name="#pvpPhysPower">1.05 1.10 1.15 1.20</table>
+	  	<table name="#Time">60 60 60 60</table>
+	  	<table name="#Stun">0 0 0 0</table>
+	  	<table name="#Knockdown">0 0 0 0</table>
 		<set name="aggroPoints" val="597"/>
 		<set name="magicLevel" val="85"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="relationSkillsId" val="485;440;536;"/>
+		<enchant1 levels="10" name="Cost"/>
+		<enchant2 levels="10" name="Time">
+			<table name="#Time">61 62 63 64 65 66 67 68 69 70</table> 
+		</enchant2>
+		<enchant3 levels="10" name="Chance Shock">
+			<table name="#Stun">1 2 3 4 5 6 7 8 9 10</table> 
+		</enchant3>
+		<enchant4 levels="10" name="Chance Knockdown">
+			<table name="#Knockdown">1 2 3 4 5 6 7 8 9 10</table> 
+		</enchant4>
 		<for>
-			<effect name="Buff" time="60" val="0" stackOrder="1" stackType="final_secret">
-				<mul order="0x30" stat="physDamage" val="1.05">
-					<target pvp="true"/>
-				</mul>
+			<effect name="Buff" time="#Time" val="0" stackOrder="1" stackType="final_secret">
+				<mul order="0x30" stat="pvpPhysDmgBonus" val="#pvpPhysPower"/>
+				<div order="0x30" stat="pvpPhysSkillDmgBonus" val="1.25"/><!-- Wrong: skillPower + PvpPhysSkillDmgBonus. skillPower is for PvE and PvP, you need to equalize them to do correct -->
+				<mul order="0x30" stat="skillPower" val="#skillPower"/>
+				<add order="0x40" stat="knockDownPower" val="#Knockdown"/>
+				<add order="0x40" stat="stunPower" val="#Stun"/>
 			</effect>
 		</for>
 	</skill>
@@ -1111,7 +1127,7 @@
 		<for>
 			<effect name="Buff" time="300" val="0" stackOrder="1" stackType="possession">
 				<mul order="0x30" stat="pAtk" val="1.3"/>
-				<mul order="0x40" stat="rCrit" val="1.3"/>
+				<mul order="0x30" stat="cAtk" val="1.3"/>
 			</effect>
 		</for>
 	</skill>

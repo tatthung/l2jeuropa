@@ -167,14 +167,14 @@
         <set name="SummonMaxCount" val="1900"/>
     </skill>
 	<skill id="13317" levels="1" name="Earth Wyrm Heart Ring">
-    <!-- Increases resistance to wind/water attacks, resistance to physical/mental/poison attacks, resistance to knock back/knock down/pulling, poison attack bonus, Critical Damage, Accuracy/Atk. Spd./Casting Spd./and MP recovery speed. -->
+    	<!-- Increases resistance to wind/water attacks, resistance to physical/mental/poison attacks, resistance to knock back/knock down/pulling, poison attack bonus, Critical Damage, Accuracy/Atk. Spd./Casting Spd./and MP recovery speed. -->
 		<set name="magicLvl" val="85"/>
 		<set name="operateType" val="OP_PASSIVE"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="target" val="TARGET_SELF"/>
 		<for>
-			<sub order="0x40" stat="knockBackResist" val="10"/>
-			<sub order="0x40" stat="knockDownResist" val="10"/>
+			<add order="0x40" stat="knockBackResist" val="20"/>
+			<add order="0x40" stat="knockDownResist" val="20"/>
 			<add order="0x40" stat="magicResist" val="2"/>
 			<add order="0x40" stat="physResist" val="2"/>
 			<add order="0x40" stat="poisonPower" val="50"/>

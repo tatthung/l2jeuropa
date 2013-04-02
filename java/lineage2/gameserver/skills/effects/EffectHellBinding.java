@@ -48,14 +48,14 @@ public final class EffectHellBinding extends Effect
 		_ChainedAirSkills.put(144, 11749);
 		_ChainedAirSkills.put(145, 11499);
 		_ChainedAirSkills.put(146, 11999);
-		_ChainedTemporalReplace.put(10249, 10009);
+		_ChainedTemporalReplace.put(10249, 10008);
 		_ChainedTemporalReplace.put(10499, 10258);
 		_ChainedTemporalReplace.put(10749, 10508);
 		_ChainedTemporalReplace.put(10999, 10760); //Confirmed by lineage forum
-		_ChainedTemporalReplace.put(11247, 11011);
-		_ChainedTemporalReplace.put(11749, 11510);
-		_ChainedTemporalReplace.put(11499, 11273);
-		_ChainedTemporalReplace.put(11999, 11766);
+		_ChainedTemporalReplace.put(11247, 11017);
+		_ChainedTemporalReplace.put(11749, 11509);
+		_ChainedTemporalReplace.put(11499, 11263);
+		_ChainedTemporalReplace.put(11999, 11814);
 	}
 	
 	/**
