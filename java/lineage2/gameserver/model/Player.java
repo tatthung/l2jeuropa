@@ -9973,6 +9973,11 @@ public final class Player extends Playable implements PlayerGroup
 			statement.setInt(4, oldclass);
 			statement.executeUpdate();
 			DbUtils.close(statement);
+			statement = con.prepareStatement("UPDATE olympiad_nobles SET class_id=? WHERE char_obj_id=?");
+			statement.setInt(1, newclass);
+			statement.setInt(2, getObjectId());
+			statement.executeUpdate();
+			DbUtils.close(statement);
 			statement = con.prepareStatement("DELETE FROM character_hennas WHERE char_obj_id=? AND class_index=?");
 			statement.setInt(1, getObjectId());
 			statement.setInt(2, newclass);
