@@ -36,6 +36,7 @@ import lineage2.gameserver.handler.items.ItemHandler;
 import lineage2.gameserver.handler.usercommands.UserCommandHandler;
 import lineage2.gameserver.handler.voicecommands.VoicedCommandHandler;
 import lineage2.gameserver.idfactory.IdFactory;
+import lineage2.gameserver.instancemanager.ArcanManager;
 import lineage2.gameserver.instancemanager.AwakingManager;
 import lineage2.gameserver.instancemanager.BloodAltarManager;
 import lineage2.gameserver.instancemanager.CastleManorManager;
@@ -43,6 +44,7 @@ import lineage2.gameserver.instancemanager.CoupleManager;
 import lineage2.gameserver.instancemanager.CursedWeaponsManager;
 import lineage2.gameserver.instancemanager.DelusionChamberManager;
 import lineage2.gameserver.instancemanager.FindPartyManager;
+import lineage2.gameserver.instancemanager.HarnakUndegroundManager;
 import lineage2.gameserver.instancemanager.HellboundManager;
 import lineage2.gameserver.instancemanager.L2TopManager;
 import lineage2.gameserver.instancemanager.MMOTopManager;
@@ -51,8 +53,10 @@ import lineage2.gameserver.instancemanager.PlayerMessageStack;
 import lineage2.gameserver.instancemanager.RaidBossSpawnManager;
 import lineage2.gameserver.instancemanager.SMSWayToPay;
 import lineage2.gameserver.instancemanager.SoDManager;
+import lineage2.gameserver.instancemanager.SoHManager;
 import lineage2.gameserver.instancemanager.SoIManager;
 import lineage2.gameserver.instancemanager.SpawnManager;
+import lineage2.gameserver.instancemanager.WorldStatisticsManager;
 import lineage2.gameserver.instancemanager.commission.CommissionShopManager;
 import lineage2.gameserver.instancemanager.games.FishingChampionShipManager;
 import lineage2.gameserver.instancemanager.games.LotteryManager;
@@ -291,13 +295,20 @@ public class GameServer
 		NaiaCoreManager.getInstance();
 		SoDManager.getInstance();
 		SoIManager.getInstance();
-		BloodAltarManager.getInstance();
+        SoHManager.getInstance();
+        HarnakUndegroundManager.getInstance();
+
+        BloodAltarManager.getInstance();
 		L2TopManager.getInstance();
 		MMOTopManager.getInstance();
 		SMSWayToPay.getInstance();
 		MiniGameScoreManager.getInstance();
 		AwakingManager.getInstance();
 		FindPartyManager.getInstance().load();
+		
+        ArcanManager.getInstance();
+        WorldStatisticsManager.getInstance();
+
 		SubClassTable.getInstance();
 		if (Config.GARBAGE_COLLECTOR_INTERVAL > 0)
 		{
