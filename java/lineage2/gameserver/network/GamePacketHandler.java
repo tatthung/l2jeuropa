@@ -1173,7 +1173,7 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 								case 0x95:
 									break;
 								case 0x96:
-									int id6 = buf.get();
+									int id6 = buf.getInt();
 									switch (id6)
 									{
 										case 0x02:

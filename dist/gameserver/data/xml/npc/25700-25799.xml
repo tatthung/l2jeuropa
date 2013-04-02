@@ -6973,8 +6973,6 @@
 			</group>
 		</rewardlist>
 		<minions>
-			<!--Teredor-->
-			<minion npc_id="25785" count="1"/>
 			<!--Son-in-law of the King-->
 			<!--Lachikios-->
 			<minion npc_id="25786" count="3"/>
@@ -6989,8 +6987,8 @@
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="11740.948"/>
-		<set name="baseMpMax" value="417.6"/>
+		<set name="baseHpMax" value="2602735.948"/>
+		<set name="baseMpMax" value="45645.6"/>
 		<set name="baseHpReg" value="28.064"/>
 		<set name="baseMpReg" value="1.8"/>
 		<set name="basePAtk" value="62971"/>
@@ -7014,14 +7012,14 @@
 		<set name="collision_radius" value="90.0"/>
 		<set name="collision_height" value="190.0"/>
 		<!--Npc specific-->
-		<set name="type" value="Minion"/>
+		<set name="type" value="RaidBoss"/>
 		<set name="ai_type" value="teredor.Teredor"/>
-		<set name="level" value="87"/>
+		<set name="level" value="88"/>
 		<set name="baseHpRate" value="1.0"/>
 		<set name="rewardExp" value="305082624"/>
 		<set name="rewardSp" value="8588328"/>
 		<set name="rewardRp" value="0"/>
-		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="600"/>
 		<set name="shots" value="NONE"/>
 		<attributes>
 			<defence attribute="fire" value="20"/>

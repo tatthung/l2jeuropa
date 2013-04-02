@@ -2403,8 +2403,8 @@
         <set name="baseShldRate" value="0"/>
         <set name="baseWIT" value="20"/>
         <set name="baseWalkSpd" value="30"/>
-        <set name="collision_height" value="30.1"/>
-        <set name="collision_radius" value="10.1"/>
+        <set name="collision_height" value="0.1"/>
+        <set name="collision_radius" value="0.1"/>
         <set name="level" value="80"/>
         <set name="rewardExp" value="0"/>
         <set name="rewardRp" value="0"/>
@@ -2447,8 +2447,8 @@
         <set name="baseShldRate" value="0"/>
         <set name="baseWIT" value="20"/>
         <set name="baseWalkSpd" value="30"/>
-        <set name="collision_height" value="30.1"/>
-        <set name="collision_radius" value="10.1"/>
+        <set name="collision_height" value="0.1"/>
+        <set name="collision_radius" value="0.1"/>
         <set name="level" value="80"/>
         <set name="rewardExp" value="0"/>
         <set name="rewardRp" value="0"/>
@@ -2702,7 +2702,7 @@
         <set name="baseMEN" value="20"/>
         <set name="baseMpMax" value="1674.8"/>
         <set name="baseMpReg" value="3"/>
-        <set name="basePAtk" value="17"/>
+        <set name="basePAtk" value="1799"/>
         <set name="basePAtkSpd" value="253"/>
         <set name="basePDef" value="577"/>
         <set name="baseRunSpd" value="120"/>
@@ -2711,15 +2711,15 @@
         <set name="baseShldRate" value="0"/>
         <set name="baseWIT" value="20"/>
         <set name="baseWalkSpd" value="30"/>
-        <set name="collision_height" value="30.1"/>
-        <set name="collision_radius" value="10.1"/>
-        <set name="level" value="40"/>
+        <set name="collision_height" value="0.1"/>
+        <set name="collision_radius" value="0.1"/>
+        <set name="level" value="80"/>
         <set name="rewardExp" value="0"/>
         <set name="rewardRp" value="0"/>
         <set name="rewardSp" value="0"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Monster"/>
+        <set name="type" value="Npc"/>
         <attributes>
             <defence attribute="fire" value="20"/>
             <defence attribute="water" value="20"/>

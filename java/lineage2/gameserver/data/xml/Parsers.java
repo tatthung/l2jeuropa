@@ -45,6 +45,7 @@ import lineage2.gameserver.data.xml.parser.SoulCrystalParser;
 import lineage2.gameserver.data.xml.parser.SpawnParser;
 import lineage2.gameserver.data.xml.parser.SpawnsData;
 import lineage2.gameserver.data.xml.parser.StaticObjectParser;
+import lineage2.gameserver.data.xml.parser.StatuesSpawnParser;
 import lineage2.gameserver.data.xml.parser.WalkerRoutesParser;
 import lineage2.gameserver.data.xml.parser.WeaponItemParser;
 import lineage2.gameserver.data.xml.parser.ZoneParser;
@@ -104,5 +105,7 @@ public abstract class Parsers
 		PetitionGroupParser.getInstance().load();
 		PlayerTemplateParser.getInstance().load();
 		LevelBonusParser.getInstance().load();
+
+		StatuesSpawnParser.getInstance().load();
 	}
 }
