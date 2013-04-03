@@ -377,12 +377,12 @@ public class AwakingManager implements OnPlayerEnterListener
 	public void SetAwakingId(Player player)
 	{
 		int _oldId = player.getClassId().getId();
+		giveGiantEssences(player, false);
 		if (Config.ALT_DELETE_SKILL_PROF) // its important part of correct skill assignment this If sentence, removed from player.java
 		{
 			onTransferOnlyRemoveSkills(player);
 		}
 		player.setClassId(_CA.get(_oldId), false, false);
-		giveGiantEssences(player, false);
 		player.broadcastUserInfo(true);
 		player.broadcastPacket(new SocialAction(player.getObjectId(), (_CA.get(_oldId) - 119)));
 		giveItems(player);
@@ -395,12 +395,12 @@ public class AwakingManager implements OnPlayerEnterListener
 	 */
 	public void SetAwakingId(Player player, int toClass, int classIdSkills)
 	{
+		giveGiantEssences(player, false);
 		if (Config.ALT_DELETE_SKILL_PROF) // its important part of correct skill assignment this If sentence, removed from player.java
 		{
 			onTransferOnlyRemoveSkills(player,toClass,classIdSkills);
 		}
 		player.setClassId(toClass, false, false);
-		giveGiantEssences(player, false);
 		player.broadcastUserInfo(true);
 		player.broadcastPacket(new SocialAction(player.getObjectId(), (toClass - 119)));
 		giveItems(player);

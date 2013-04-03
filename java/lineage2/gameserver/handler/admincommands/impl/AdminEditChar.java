@@ -225,7 +225,7 @@ public class AdminEditChar implements IAdminCommandHandler
 						return false;
 					}
 					Player player = target.getPlayer();
-					player.setClassId(id, false, false);
+					player.setClassId(id, true, false);
 					player.sendMessage("Your class has been changed by a GM");
 					player.broadcastCharInfo();
 					return true;
