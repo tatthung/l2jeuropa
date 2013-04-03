@@ -16,10 +16,11 @@ import java.util.HashMap;
 import java.util.List;
 
 import gnu.trove.map.hash.TIntIntHashMap;
-import lineage2.commons.util.Rnd;
+import lineage2.commons.util.Rnd; 
 import lineage2.gameserver.data.xml.holder.SkillAcquireHolder;
 import lineage2.gameserver.instancemanager.AwakingManager;
 import lineage2.gameserver.model.Player;
+import lineage2.gameserver.model.Skill;
 import lineage2.gameserver.model.instances.NpcInstance;
 import lineage2.gameserver.network.serverpackets.NpcHtmlMessage;
 import lineage2.gameserver.tables.SkillTable;
@@ -208,7 +209,16 @@ public class PowerfulDeviceInstance extends NpcInstance
 			for(int sId : skillListId)
 			{
 				String iconData = obtainIcon(sId);
-				String name = (SkillTable.getInstance().getInfo(sId, SkillTable.getInstance().getBaseLevel(sId))).getName();
+				String name = new String();
+				Skill skl = SkillTable.getInstance().getInfo(sId, SkillTable.getInstance().getBaseLevel(sId));
+				if(skl != null)
+				{
+					name = skl.getName();
+				}
+				else
+				{
+					continue;
+				}
 				skillList = skillList + "<tr><td width=34 height=34><img src="+ iconData +" width=32 height=32></td><td width=200> " + name + " </td></tr><tr><td colspan=2><br></td></tr>";
 			}
 			skillList = skillList +"</table>";
