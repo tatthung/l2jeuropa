@@ -526,7 +526,6 @@ public class Formulas
 		info.crit = calcMCrit(attacker.getMagicCriticalRate(target, skill));
 		if (info.crit)
 		{
-			//TODO CHECK MAGIC CRITICAL DAMAGE
 			info.damage *= 2.0;
 			info.damage += attacker.getMagicCriticalDmg(target, skill);
 		}
@@ -687,7 +686,7 @@ public class Formulas
 	 */
 	public static boolean calcMCrit(double mRate)
 	{
-		return (Rnd.get() * 100) <= Math.min(Config.LIM_MCRIT, mRate);
+		return mRate > Rnd.get(1000);
 	}
 	
 	/**
