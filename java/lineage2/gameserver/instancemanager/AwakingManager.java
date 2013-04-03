@@ -174,43 +174,6 @@ public class AwakingManager implements OnPlayerEnterListener
 		83
 	};
 	/**
-	 * Field count30.
-	 */
-	private static final int[] count30 =
-	{
-		0,
-		0,
-		0,
-		0,
-		1,
-		1,
-		1,
-		1,
-		2,
-		2,
-		2,
-		3,
-		3,
-		3,
-		4,
-		4,
-		5,
-		6,
-		6,
-		7,
-		8,
-		9,
-		9,
-		10,
-		11,
-		13,
-		14,
-		15,
-		19,
-		21,
-		25
-	};
-	/**
 	 * Field count15T.
 	 */
 	private static final int[] count15T =
@@ -231,28 +194,6 @@ public class AwakingManager implements OnPlayerEnterListener
 		19,
 		24,
 		35
-	};
-	/**
-	 * Field count15.
-	 */
-	private static final int[] count15 =
-	{
-		0,
-		0,
-		0,
-		0,
-		1,
-		1,
-		1,
-		1,
-		2,
-		2,
-		3,
-		3,
-		3,
-		6,
-		8,
-		11
 	};
 	
 	/**
@@ -497,29 +438,13 @@ public class AwakingManager implements OnPlayerEnterListener
 				{
 					if (sl.getMaxLevel() == 15)
 					{
-						if (player.isTautiClient())
-						{
-							elevel = Math.min(count15T.length, elevel);
-							count += count15T[elevel];
-						}
-						else
-						{
-							elevel = Math.min(count15.length, elevel);
-							count += count15[elevel];
-						}
+						elevel = Math.min(count15T.length, elevel);
+						count += count15T[elevel];
 					}
 					else
 					{
-						if (player.isTautiClient())
-						{
-							elevel = Math.min(count30T.length, elevel);
-							count += count30T[elevel];
-						}
-						else
-						{
-							elevel = Math.min(count30.length, elevel);
-							count += count30[elevel];
-						}
+						elevel = Math.min(count30T.length, elevel);
+						count += count30T[elevel];
 					}
 				}
 			}

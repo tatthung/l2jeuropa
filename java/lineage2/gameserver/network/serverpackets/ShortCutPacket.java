@@ -128,10 +128,7 @@ public abstract class ShortCutPacket extends L2GameServerPacket
 			p.writeD(_currentReuse);
 			p.writeD(_basicReuse);
 			p.writeD(_augmentationId);
-			if (p.getClient().getActiveChar().isTautiClient())
-			{
-				p.writeD(0x00);
-			}
+			p.writeD(0x00);
 		}
 	}
 	

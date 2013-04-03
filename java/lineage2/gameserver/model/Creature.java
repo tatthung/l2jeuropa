@@ -76,7 +76,6 @@ import lineage2.gameserver.model.quest.QuestEventType;
 import lineage2.gameserver.model.quest.QuestState;
 import lineage2.gameserver.model.reference.L2Reference;
 import lineage2.gameserver.model.worldstatistics.CategoryType;
-import lineage2.gameserver.network.serverpackets.AbnormalStatusUpdate;
 import lineage2.gameserver.network.serverpackets.ActionFail;
 import lineage2.gameserver.network.serverpackets.Attack;
 import lineage2.gameserver.network.serverpackets.AutoAttackStart;

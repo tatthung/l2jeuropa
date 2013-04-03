@@ -3977,15 +3977,6 @@ public final class Player extends Playable implements PlayerGroup
 	}
 	
 	/**
-	 * Method isTautiClient.
-	 * @return boolean
-	 */
-	public boolean isTautiClient()
-	{
-		return getRevision() >= 448 ? true : false;
-	}
-	
-	/**
 	 * Method setNetConnection.
 	 * @param connection GameClient
 	 */
