@@ -1573,9 +1573,6 @@ public class StatFunctions
 		}
 	}
 	
-	/**
-	 * @author Mobius
-	 */
 	private static class FuncMCritLimit extends Func
 	{
 		/**

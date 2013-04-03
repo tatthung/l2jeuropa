@@ -139,7 +139,7 @@ public enum Stats
 	/**
 	 * Field MCRITICAL_RATE.
 	 */
-	MCRITICAL_RATE("mCritRate", 0., Double.POSITIVE_INFINITY, 10.),
+	MCRITICAL_RATE("mCritRate", 0., Double.POSITIVE_INFINITY, 80.),
 	/**
 	 * Field MCRITICAL_DAMAGE.
 	 */
