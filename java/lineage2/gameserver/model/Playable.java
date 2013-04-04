@@ -669,7 +669,7 @@ public abstract class Playable extends Creature
 							}
 						}
 						//Notify Attack also on skill
-						if (target.isServitor() && skill.isOffensive())
+						if ((target.isServitor() || target.isPlayer()) && skill.isOffensive())
 						{
 							if (!skill.isAI())
 							{
