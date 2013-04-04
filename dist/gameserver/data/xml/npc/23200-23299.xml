@@ -2,7 +2,6 @@
 <!DOCTYPE list SYSTEM "npc.dtd">
 <list>
 	<npc id="23200" name="Turan the Severed Ghost" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="17.5"/>
@@ -10,10 +9,10 @@
 		<set name="level" value="97"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="1198919"/>
+		<set name="baseHpMax" value="693017"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="34542"/>
+		<set name="baseMpMax" value="22800"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -49,8 +48,7 @@
 			<skill id="5467" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23201" name="Nagdu the deformed Merman" title="">
-		<!--L2WT Tauti Confirmed-->
+	<npc id="23201" name="Nagdu the Deformed Merman" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="30.0"/>
@@ -58,10 +56,10 @@
 		<set name="level" value="95"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="1084381"/>
+		<set name="baseHpMax" value="626810"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="33417"/>
+		<set name="baseMpMax" value="22058"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -98,7 +96,6 @@
 		</skills>
 	</npc>
 	<npc id="23202" name="Hakal the Butchered" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="25.0"/>
@@ -106,10 +103,10 @@
 		<set name="level" value="96"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="1086370"/>
+		<set name="baseHpMax" value="627960"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="33978"/>
+		<set name="baseMpMax" value="22428"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -145,7 +142,6 @@
 		</skills>
 	</npc>
 	<npc id="23203" name="Centa the Standing Beast" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="40.0"/>
@@ -153,10 +149,10 @@
 		<set name="level" value="95"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="1084381"/>
+		<set name="baseHpMax" value="626810"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="33417"/>
+		<set name="baseMpMax" value="22058"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -192,7 +188,6 @@
 		</skills>
 	</npc>
 	<npc id="23204" name="Adidaiu of the Killer Fangs" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="34.0"/>
@@ -200,10 +195,10 @@
 		<set name="level" value="95"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="1084381"/>
+		<set name="baseHpMax" value="626810"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="33417"/>
+		<set name="baseMpMax" value="22058"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -239,7 +234,6 @@
 		</skills>
 	</npc>
 	<npc id="23205" name="Haskal the Floating Ghost" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="20.0"/>
@@ -247,10 +241,10 @@
 		<set name="level" value="97"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="1198919"/>
+		<set name="baseHpMax" value="693017"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="34542"/>
+		<set name="baseMpMax" value="22800"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -287,7 +281,6 @@
 		</skills>
 	</npc>
 	<npc id="23206" name="Samita the Ex-Torture Expert" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="46.0"/>
@@ -295,10 +288,10 @@
 		<set name="level" value="97"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="1198919"/>
+		<set name="baseHpMax" value="693017"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="34542"/>
+		<set name="baseMpMax" value="22800"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -334,7 +327,6 @@
 		</skills>
 	</npc>
 	<npc id="23207" name="Gazem" title="Fortress Scout">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Ranger"/>
 		<set name="collision_radius" value="18.0"/>
@@ -342,10 +334,10 @@
 		<set name="level" value="96"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="1100"/>
-		<set name="baseHpMax" value="1086370"/>
+		<set name="baseHpMax" value="627960"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="33978"/>
+		<set name="baseMpMax" value="22428"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -382,7 +374,6 @@
 		</skills>
 	</npc>
 	<npc id="23208" name="Rosenia's Divine Spirit" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="24.0"/>
@@ -390,10 +381,10 @@
 		<set name="level" value="96"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="1086370"/>
+		<set name="baseHpMax" value="627960"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="33978"/>
+		<set name="baseMpMax" value="22428"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -429,8 +420,7 @@
 			<skill id="5467" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23209" name="Kelbara the Dual-Sword Slaughterer" title="">
-		<!--L2WT Tauti Confirmed-->
+	<npc id="23209" name="Kelbara the Dualsword Slaughterer" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="14.0"/>
@@ -438,10 +428,10 @@
 		<set name="level" value="97"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="1198919"/>
+		<set name="baseHpMax" value="693017"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="34542"/>
+		<set name="baseMpMax" value="22800"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -478,7 +468,6 @@
 		</skills>
 	</npc>
 	<npc id="23210" name="Mandragora of Joy and Sorrow" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="14.0"/>
@@ -486,10 +475,10 @@
 		<set name="level" value="95"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="556923"/>
+		<set name="baseHpMax" value="321920"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="33417"/>
+		<set name="baseMpMax" value="22058"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -526,7 +515,6 @@
 		</skills>
 	</npc>
 	<npc id="23211" name="Mandragora of Prayer" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="15.0"/>
@@ -534,10 +522,10 @@
 		<set name="level" value="95"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="556923"/>
+		<set name="baseHpMax" value="321920"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="33417"/>
+		<set name="baseMpMax" value="22058"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -573,8 +561,7 @@
 			<skill id="5465" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23212" name="Scaldisect of Hellfire" title="">
-		<!--L2WT Tauti Confirmed-->
+	<npc id="23212" name="Scaldisect the Furious" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="35.0"/>
@@ -621,8 +608,7 @@
 			<skill id="5467" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23213" name="Beggar Couch" title="">
-		<!--L2WT Tauti Confirmed-->
+	<npc id="23213" name="Beggar Zofan" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="24.0"/>
@@ -670,8 +656,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23214" name="Beggar Couch" title="">
-		<!--L2WT Tauti Confirmed-->
+	<npc id="23214" name="Beggar Zofan" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="24.0"/>
@@ -719,19 +704,18 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23215" name="Couch" title="">
-		<!--L2WT Tauti Confirmed-->
+	<npc id="23215" name="Zofan" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="20.0"/>
 		<set name="collision_height" value="40.0"/>
-		<set name="level" value="99"/>
+		<set name="level" value="98"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="621600000"/>
+		<set name="baseHpMax" value="443641"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="2025740"/>
+		<set name="baseMpMax" value="23174"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -739,9 +723,9 @@
 		<set name="baseINT" value="11"/>
 		<set name="baseWIT" value="115"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="0"/>
+		<set name="rewardExp" value="8750732"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="0"/>
+		<set name="rewardSp" value="121450"/>
 		<set name="basePAtk" value="86080"/>
 		<set name="basePDef" value="7227"/>
 		<set name="baseMAtk" value="3202"/>
@@ -769,19 +753,18 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23216" name="Couch" title="">
-		<!--L2WT Tauti Confirmed-->
+	<npc id="23216" name="Zofan" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="14.0"/>
 		<set name="collision_height" value="37.0"/>
-		<set name="level" value="99"/>
+		<set name="level" value="98"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="621600000"/>
+		<set name="baseHpMax" value="443641"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="2025740"/>
+		<set name="baseMpMax" value="23174"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="98"/>
 		<set name="baseCON" value="87"/>
@@ -789,9 +772,9 @@
 		<set name="baseINT" value="11"/>
 		<set name="baseWIT" value="115"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="0"/>
+		<set name="rewardExp" value="8330573"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="0"/>
+		<set name="rewardSp" value="115619"/>
 		<set name="basePAtk" value="86080"/>
 		<set name="basePDef" value="7227"/>
 		<set name="baseMAtk" value="3202"/>
@@ -818,8 +801,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23217" name="Children's Couch" title="">
-		<!--L2WT Tauti Confirmed-->
+	<npc id="23217" name="Young Zofan" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="24.0"/>
@@ -867,8 +849,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23218" name="Children's Couch" title="">
-		<!--L2WT Tauti Confirmed-->
+	<npc id="23218" name="Young Zofan" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="24.0"/>
@@ -916,8 +897,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23219" name="Engineer Couch" title="">
-		<!--L2WT Tauti Confirmed-->
+	<npc id="23219" name="Engineer Zofan" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="24.0"/>
@@ -968,7 +948,6 @@
 		</skills>
 	</npc>
 	<npc id="23220" name="Kunda Watchman" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="22.0"/>
@@ -1324,7 +1303,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23227" name="Beggar Couch" title="">
+	<npc id="23227" name="Beggar Zofan" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1374,7 +1353,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23228" name="Beggar Couch" title="">
+	<npc id="23228" name="Beggar Zofan" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1424,7 +1403,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23229" name="Couch" title="">
+	<npc id="23229" name="Zofan" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1474,7 +1453,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23230" name="Couch" title="">
+	<npc id="23230" name="Zofan" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1524,7 +1503,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23231" name="Children's Couch" title="">
+	<npc id="23231" name="Children's Zofan" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1574,7 +1553,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23232" name="Children's Couch" title="">
+	<npc id="23232" name="Children's Zofan" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1624,7 +1603,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23233" name="Engineer Couch" title="">
+	<npc id="23233" name="Engineer Zofan" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1675,7 +1654,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23234" name="Engineer Couch" title="">
+	<npc id="23234" name="Engineer Zofan" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1825,7 +1804,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23237" name="Engineer Couch" title="">
+	<npc id="23237" name="Engineer Zofan" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>

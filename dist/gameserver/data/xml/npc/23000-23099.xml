@@ -2,17 +2,16 @@
 <!DOCTYPE list SYSTEM "npc.dtd">
 <list>
 	<npc id="23000" name="Porslov" title="">
-		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="30.0"/>
 		<set name="collision_height" value="24.0"/>
 		<set name="level" value="34"/>
 		<set name="type" value="Npc"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="40330"/>
+		<set name="baseHpMax" value="736"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="17.535"/>
-		<set name="baseMpMax" value="231"/>
+		<set name="baseMpMax" value="387"/>
 		<set name="baseMpReg" value="1"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -41,22 +40,25 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 		<skills>
-			<skill id="4416" level="4"/>
+			<skill id="4416" level="4"/>	<!-- Animals -->
+			<skill id="4412" level="15"/>	<!-- Strong P. Def. -->
+			<skill id="4413" level="15"/> 	<!-- Strong M. Def. -->
+			<skill id="4410" level="15"/> 	<!-- Strong P. Atk. -->
+			<skill id="4411" level="13"/>	<!-- Slightly Strong M. Atk. -->
 		</skills>
 	</npc>
 	<npc id="23001" name="Sakum" title="">
-		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="31.0"/>
 		<set name="collision_height" value="22.0"/>
 		<set name="level" value="40"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="100"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="40330"/>
+		<set name="baseHpMax" value="3064"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="17.535"/>
-		<set name="baseMpMax" value="231"/>
+		<set name="baseMpMax" value="590"/>
 		<set name="baseMpReg" value="1"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -85,7 +87,11 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 		<skills>
-			<skill id="4416" level="4"/>
+			<skill id="4416" level="4"/>	<!-- Animals -->
+			<skill id="4410" level="15"/> 	<!-- Strong P. Atk. -->
+			<skill id="4411" level="15"/> 	<!-- Strong M. Atk. -->
+			<skill id="4412" level="13"/>	<!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13"/>	<!-- Slightly Strong M. Def. -->
 		</skills>
 	</npc>
 	<npc id="23002" name="Male Larchikion" title="">

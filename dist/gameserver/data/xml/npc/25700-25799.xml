@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "npc.dtd">
 <list>
-	<!--ru title: Главный Рыцарь Ледяного Лабиринта-->
-	<!--ru name: Клакиес-->
 	<npc id="25700" name="Glakias" title="Archery Knight Captain">
 		<!--Base character specific-->
 		<set name="baseSTR" value="78"/>
@@ -125,8 +123,6 @@
 			</group>
 		</rewardlist>
 	</npc>
-	<!--ru title: Правитель Флиндов-->
-	<!--ru name: Анаис-->
 	<npc id="25701" name="Anais" title="Lord of Splendor">
 		<!--Base character specific-->
 		<set name="baseSTR" value="78"/>

@@ -2,7 +2,6 @@
 <!DOCTYPE list SYSTEM "npc.dtd">
 <list>
 	<npc id="23100" name="Ant Warrior Captain" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="35.0"/>
@@ -10,10 +9,10 @@
 		<set name="level" value="39"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="925"/>
+		<set name="baseHpMax" value="2934"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="463"/>
+		<set name="baseMpMax" value="571"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -21,9 +20,9 @@
 		<set name="baseINT" value="31"/>
 		<set name="baseWIT" value="65"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="3778"/>
+		<set name="rewardExp" value="3765"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="228"/>
+		<set name="rewardSp" value="794"/>
 		<set name="basePAtk" value="971"/>
 		<set name="basePDef" value="341"/>
 		<set name="baseMAtk" value="663"/>
@@ -73,7 +72,6 @@
 		</rewardlist>
 	</npc>
 	<npc id="23101" name="Slaughter Bathin" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="14.5"/>
@@ -81,10 +79,10 @@
 		<set name="level" value="61"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="1985"/>
+		<set name="baseHpMax" value="25176"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="1066"/>
+		<set name="baseMpMax" value="1315"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -92,9 +90,9 @@
 		<set name="baseINT" value="31"/>
 		<set name="baseWIT" value="65"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="57748"/>
+		<set name="rewardExp" value="114184"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="4849"/>
+		<set name="rewardSp" value="33494"/>
 		<set name="basePAtk" value="971"/>
 		<set name="basePDef" value="341"/>
 		<set name="baseMAtk" value="663"/>
@@ -144,18 +142,17 @@
 		</rewardlist>
 	</npc>
 	<npc id="23102" name="Bathin's Knight" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="10.0"/>
 		<set name="collision_height" value="25.0"/>
-		<set name="level" value="60"/>
+		<set name="level" value="62"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="1933"/>
+		<set name="baseHpMax" value="6459"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="1036"/>
+		<set name="baseMpMax" value="1352"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -163,9 +160,9 @@
 		<set name="baseINT" value="31"/>
 		<set name="baseWIT" value="65"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="49260"/>
+		<set name="rewardExp" value="39638"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="4072"/>
+		<set name="rewardSp" value="12354"/>
 		<set name="basePAtk" value="971"/>
 		<set name="basePDef" value="341"/>
 		<set name="baseMAtk" value="663"/>
@@ -192,18 +189,17 @@
 		</skills>
 	</npc>
 	<npc id="23103" name="Bathin's Wizard" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="23.0"/>
-		<set name="level" value="60"/>
+		<set name="level" value="62"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="1933"/>
+		<set name="baseHpMax" value="6459"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="1036"/>
+		<set name="baseMpMax" value="1352"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -211,9 +207,9 @@
 		<set name="baseINT" value="31"/>
 		<set name="baseWIT" value="65"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="50108"/>
+		<set name="rewardExp" value="38416"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="4145"/>
+		<set name="rewardSp" value="11984"/>
 		<set name="basePAtk" value="971"/>
 		<set name="basePDef" value="341"/>
 		<set name="baseMAtk" value="663"/>
@@ -242,7 +238,6 @@
 		</skills>
 	</npc>
 	<npc id="23104" name="Elmoreden's Lady" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="13.5"/>
@@ -250,10 +245,10 @@
 		<set name="level" value="65"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="2193"/>
+		<set name="baseHpMax" value="27812"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="1188"/>
+		<set name="baseMpMax" value="1465"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -261,9 +256,9 @@
 		<set name="baseINT" value="31"/>
 		<set name="baseWIT" value="65"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="62284"/>
+		<set name="rewardExp" value="125998"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="5506"/>
+		<set name="rewardSp" value="38954"/>
 		<set name="basePAtk" value="971"/>
 		<set name="basePDef" value="341"/>
 		<set name="baseMAtk" value="663"/>
@@ -307,7 +302,6 @@
 		</rewardlist>
 	</npc>
 	<npc id="23105" name="Elmoreden's Archer" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="11.0"/>
@@ -315,10 +309,10 @@
 		<set name="level" value="64"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="2141"/>
+		<set name="baseHpMax" value="16973"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="1158"/>
+		<set name="baseMpMax" value="1427"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -326,9 +320,9 @@
 		<set name="baseINT" value="31"/>
 		<set name="baseWIT" value="65"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="55154"/>
+		<set name="rewardExp" value="111662"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="4804"/>
+		<set name="rewardSp" value="34020"/>
 		<set name="basePAtk" value="971"/>
 		<set name="basePDef" value="341"/>
 		<set name="baseMAtk" value="663"/>
@@ -372,7 +366,6 @@
 		</rewardlist>
 	</npc>
 	<npc id="23106" name="Elmoreden's Maid" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="6.0"/>
@@ -380,10 +373,10 @@
 		<set name="level" value="64"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="2141"/>
+		<set name="baseHpMax" value="16973"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="1158"/>
+		<set name="baseMpMax" value="1427"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -391,9 +384,9 @@
 		<set name="baseINT" value="31"/>
 		<set name="baseWIT" value="65"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="53809"/>
+		<set name="rewardExp" value="110168"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="4682"/>
+		<set name="rewardSp" value="33544"/>
 		<set name="basePAtk" value="971"/>
 		<set name="basePDef" value="341"/>
 		<set name="baseMAtk" value="663"/>
@@ -438,7 +431,6 @@
 		</rewardlist>
 	</npc>
 	<npc id="23107" name="Elmoreden's Warrior" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="10.0"/>
@@ -446,10 +438,10 @@
 		<set name="level" value="64"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="2141"/>
+		<set name="baseHpMax" value="16973"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="1158"/>
+		<set name="baseMpMax" value="1427"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -457,9 +449,9 @@
 		<set name="baseINT" value="31"/>
 		<set name="baseWIT" value="65"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="57729"/>
+		<set name="rewardExp" value="114524"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="5040"/>
+		<set name="rewardSp" value="34936"/>
 		<set name="basePAtk" value="971"/>
 		<set name="basePDef" value="341"/>
 		<set name="baseMAtk" value="663"/>
@@ -501,7 +493,6 @@
 		</rewardlist>
 	</npc>
 	<npc id="23108" name="Binder" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="19.0"/>
@@ -509,10 +500,10 @@
 		<set name="level" value="69"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="2395"/>
+		<set name="baseHpMax" value="30374"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="1314"/>
+		<set name="baseMpMax" value="1620"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -520,9 +511,9 @@
 		<set name="baseINT" value="31"/>
 		<set name="baseWIT" value="65"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="76850"/>
+		<set name="rewardExp" value="149388"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="7187"/>
+		<set name="rewardSp" value="48768"/>
 		<set name="basePAtk" value="971"/>
 		<set name="basePDef" value="341"/>
 		<set name="baseMAtk" value="663"/>
@@ -568,7 +559,6 @@
 		</rewardlist>
 	</npc>
 	<npc id="23109" name="Bound Warrior" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="15.0"/>
@@ -576,10 +566,10 @@
 		<set name="level" value="68"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="2345"/>
+		<set name="baseHpMax" value="18590"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="1282"/>
+		<set name="baseMpMax" value="1581"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -587,9 +577,9 @@
 		<set name="baseINT" value="31"/>
 		<set name="baseWIT" value="65"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="63602"/>
+		<set name="rewardExp" value="127544"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="5852"/>
+		<set name="rewardSp" value="41026"/>
 		<set name="basePAtk" value="971"/>
 		<set name="basePDef" value="341"/>
 		<set name="baseMAtk" value="663"/>
@@ -634,7 +624,6 @@
 		</rewardlist>
 	</npc>
 	<npc id="23110" name="Bound Archer" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="13.0"/>
@@ -642,10 +631,10 @@
 		<set name="level" value="68"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="2345"/>
+		<set name="baseHpMax" value="18590"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="1282"/>
+		<set name="baseMpMax" value="1581"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -653,9 +642,9 @@
 		<set name="baseINT" value="31"/>
 		<set name="baseWIT" value="65"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="62264"/>
+		<set name="rewardExp" value="126056"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="5724"/>
+		<set name="rewardSp" value="40522"/>
 		<set name="basePAtk" value="971"/>
 		<set name="basePDef" value="341"/>
 		<set name="baseMAtk" value="663"/>
@@ -700,7 +689,6 @@
 		</rewardlist>
 	</npc>
 	<npc id="23111" name="Heaven's Palace Seraphim" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="13.0"/>
@@ -708,10 +696,10 @@
 		<set name="level" value="74"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="2632"/>
+		<set name="baseHpMax" value="33376"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="1475"/>
+		<set name="baseMpMax" value="1818"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -719,9 +707,9 @@
 		<set name="baseINT" value="31"/>
 		<set name="baseWIT" value="65"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="86144"/>
+		<set name="rewardExp" value="169326"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="8573"/>
+		<set name="rewardSp" value="58856"/>
 		<set name="basePAtk" value="971"/>
 		<set name="basePDef" value="341"/>
 		<set name="baseMAtk" value="663"/>
@@ -764,7 +752,6 @@
 		</rewardlist>
 	</npc>
 	<npc id="23112" name="Heaven's Palace Seraphim Escort" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="14.0"/>
@@ -772,10 +759,10 @@
 		<set name="level" value="73"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseHpMax" value="2586"/>
+		<set name="baseHpMax" value="20499"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="8.5"/>
-		<set name="baseMpMax" value="1442"/>
+		<set name="baseMpMax" value="1778"/>
 		<set name="baseMpReg" value="3"/>
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -783,9 +770,9 @@
 		<set name="baseINT" value="31"/>
 		<set name="baseWIT" value="65"/>
 		<set name="baseMEN" value="5"/>
-		<set name="rewardExp" value="71112"/>
+		<set name="rewardExp" value="144560"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="6961"/>
+		<set name="rewardSp" value="49490"/>
 		<set name="basePAtk" value="971"/>
 		<set name="basePDef" value="341"/>
 		<set name="baseMAtk" value="663"/>
