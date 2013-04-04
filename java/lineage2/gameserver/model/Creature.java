@@ -2663,8 +2663,7 @@ public abstract class Creature extends GameObject
 	 */
 	public double getMagicCriticalRate(Creature target, Skill skill)
 	{
-		// CT2: The magic critical rate has been increased to 10 times.
-		return (int) calcStat(Stats.MCRITICAL_RATE, 80, target, skill);
+		return (int) calcStat(Stats.MCRITICAL_RATE, target, skill);
 	}
 
 	/**
