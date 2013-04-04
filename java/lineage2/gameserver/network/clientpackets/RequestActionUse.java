@@ -665,11 +665,11 @@ public class RequestActionUse extends L2GameClientPacket
 		/**
 		 * Field ACTION1103.
 		 */
-		ACTION1103(1103, 1, 0, 0),
+		ACTION1103(1103, SERVITOR_GROUP_ACTION, 0, 0),
 		/**
 		 * Field ACTION1104.
 		 */
-		ACTION1104(1104, 1, 0, 0),
+		ACTION1104(1104, SERVITOR_GROUP_ACTION, 0, 0),
 		/**
 		 * Field ACTION1106.
 		 */
@@ -1497,6 +1497,18 @@ public class RequestActionUse extends L2GameClientPacket
 						else
 						{
 							activeChar.getSummonList().unsummonAllServitors();
+						}
+						break;
+					case 1103:
+						for (Summon summon : servitors)
+						{
+							summon.setDefendMode(false);
+						}
+						break;
+					case 1104:
+						for (Summon summon : servitors)
+						{
+							summon.setDefendMode(true);
 						}
 						break;
 				}

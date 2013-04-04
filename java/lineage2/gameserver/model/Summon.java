@@ -95,9 +95,9 @@ public abstract class Summon extends Playable
 	 */
 	private int _maxLoad, _spsCharged;
 	/**
-	 * Field _ssCharged. Field _depressed. Field _follow.
+	 * Field _ssCharged. Field _depressed. Field _follow. Field _defend.
 	 */
-	private boolean _follow = true, _depressed = false, _ssCharged = false;
+	private boolean _follow = true, _depressed = false, _ssCharged = false, _defend = false;
 	/**
 	 * Field _decayTask.
 	 */
@@ -553,7 +553,16 @@ public abstract class Summon extends Playable
 			getAI().setIntention(CtrlIntention.AI_INTENTION_ACTIVE);
 		}
 	}
-	
+
+	/**
+	 * Method setDefendMode.
+	 * @param state boolean
+	 */
+	public void setDefendMode(boolean state)
+	{
+		_defend = state;
+	}
+
 	/**
 	 * Method isFollowMode.
 	 * @return boolean
@@ -562,7 +571,16 @@ public abstract class Summon extends Playable
 	{
 		return _follow;
 	}
-	
+
+	/**
+	 * Method isFollowMode.
+	 * @return boolean
+	 */
+	public boolean isDefendMode()
+	{
+		return _defend;
+	}
+
 	/**
 	 * Field _updateEffectIconsTask.
 	 */

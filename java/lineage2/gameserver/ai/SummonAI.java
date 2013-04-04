@@ -81,6 +81,12 @@ public class SummonAI extends PlayableAI
 		{
 			Attack(attacker, false, false);
 		}
+		if (actor.getPlayer().isDebug())
+			actor.getPlayer().sendMessage("SummonAI onEvtAttacked isDefendMode:" + actor.isDefendMode() + " isDepressed:" + actor.isDepressed() + " " + attacker.getName());
+		if ((attacker != null) && actor.isDefendMode() && !actor.isDepressed())
+		{
+			Attack(attacker, false, false);
+		}
 		super.onEvtAttacked(attacker, damage);
 	}
 	
