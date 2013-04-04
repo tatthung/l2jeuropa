@@ -1119,10 +1119,10 @@
 		<table name="#mpConsume2">970</table>
 		<set name="reuseDelay" val="600000"/>
 		<set name="hitTime" val="2000"/>		
-		<set name="castRange" val="900"/>
 		<set name="mpConsume2" val="#mpConsume2"/>
 		<set name="magicLevel" val="89"/>
 		<set name="target" val="TARGET_PARTY"/>
+		<set name="skillRadius" val="1000"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="isMagic" val="true"/>
 		<set name="operateType" val="OP_ACTIVE"/>
@@ -1167,6 +1167,7 @@
 		<set name="power" val="13629"/>	
 		<set name="magicLevel" val="99"/>
 		<set name="target" val="TARGET_AREA"/>
+		<set name="skillRadius" val="600"/>
 		<set name="nextAction" val="attack"/>
 		<set name="skillType" val="PDAM"/>
 		<set name="operateType" val="OP_ACTIVE"/>		
