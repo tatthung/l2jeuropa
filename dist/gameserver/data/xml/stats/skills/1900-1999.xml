@@ -40,6 +40,7 @@
         <set name="target" val="TARGET_SELF"/>
         <set name="skillType" val="NEGATE_EFFECTS"/>
         <set name="operateType" val="OP_ACTIVE"/>
+        <set name="castOverStun" val="true"/>
         <set name="negateEffects" val="Poison;Root;Stun;Bleed"/>
         <for>
             <effect abnormal="invul2" count="1" name="Invulnerable" stackOrder="-1" stackType="Invulnerable" time="10" val="0" cancelOnAction="true"/>

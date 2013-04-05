@@ -516,6 +516,22 @@ public abstract class Creature extends GameObject
 	 */
 	private final AtomicState _amuted = new AtomicState();
 	/**
+	 * Field _pulled.
+	 */
+	private final AtomicState _pulled = new AtomicState();
+	/**
+	 * Field _airbinded.
+	 */
+	private final AtomicState _airbinded = new AtomicState();
+	/**
+	 * Field _knockbacked.
+	 */
+	private final AtomicState _knockedback = new AtomicState();
+	/**
+	 * Field _knockdowned.
+	 */
+	private final AtomicState _knockeddown = new AtomicState();
+	/**
 	 * Field _paralyzed.
 	 */
 	private final AtomicState _paralyzed = new AtomicState();
@@ -1622,7 +1638,7 @@ public abstract class Creature extends GameObject
 				}
 				for(EffectTemplate ef : skill.getEffectTemplates())
 				{
-					if((target.IsAirBind() ||target.IsKnockedDown()) && (ef.getEffectType() == EffectType.KnockDown || ef.getEffectType() == EffectType.HellBinding ))
+					if((target.isAirBinded() ||target.isKnockedDown()) && (ef.getEffectType() == EffectType.KnockDown || ef.getEffectType() == EffectType.HellBinding ))
 					{
 						itr.remove();
 						continue;
@@ -2167,7 +2183,7 @@ public abstract class Creature extends GameObject
 			}
 			if(skill.isAlterSkill())
 			{
-				if(target.IsAirBind())
+				if(target.isAirBinded())
 				{
 					final Creature targetStop = target;
 					ThreadPoolManager.getInstance().schedule(new Runnable()
@@ -2175,12 +2191,12 @@ public abstract class Creature extends GameObject
 			    	    @Override
 			            public void run()
 			            {    	
-							targetStop.stopAirBind(true);		
+							targetStop.stopAirbinding();		
 			            }     
 
 			        }, 2000L);
 				}
-				else if(target.IsKnockedDown())
+				else if(target.isKnockedDown())
 				{
 					final Creature targetStop = target;
 					long stopKnockTime = 0L;					
@@ -2197,7 +2213,7 @@ public abstract class Creature extends GameObject
 			    	    @Override
 			            public void run()
 			            {    	
-							targetStop.stopKnockDown(true);		
+							targetStop.stopKnockingdown();		
 			            }     
 
 			        }, stopKnockTime);
@@ -5748,6 +5764,79 @@ public abstract class Creature extends GameObject
 	}
 	
 	/**
+	 * Method startAirbinding.
+	 * @return boolean
+	 */
+	public boolean startAirbinding()
+	{
+		return _airbinded.getAndSet(true);
+	}
+	
+	/**
+	 * Method stopAirbinding.
+	 * @return boolean
+	 */
+	public boolean stopAirbinding()
+	{
+		return _airbinded.setAndGet(false);
+	}
+
+	/**
+	 * Method startKnockingback.
+	 * @return boolean
+	 */
+	public boolean startKnockingback()
+	{
+		return _knockedback.getAndSet(true);
+	}
+	
+	/**
+	 * Method stopKnockingback.
+	 * @return boolean
+	 */
+	public boolean stopKnockingback()
+	{
+		return _knockedback.setAndGet(false);
+	}
+
+	/**
+	 * Method startKnockingback.
+	 * @return boolean
+	 */
+	public boolean startKnockingdown()
+	{
+		return _knockeddown.getAndSet(true);
+	}
+	
+	/**
+	 * Method stopKnockingback.
+	 * @return boolean
+	 */
+	public boolean stopKnockingdown()
+	{
+		return _knockeddown.setAndGet(false);
+	}
+
+
+	/**
+	 * Method startPulling For chain skills.
+	 * @return boolean
+	 */
+	public boolean startPulling()
+	{
+		return _pulled.getAndSet(true);
+	}
+	
+	/**
+	 * Method stopKnockingback for chain skill.
+	 * @return boolean
+	 */
+	public boolean stopPulling()
+	{
+		return _pulled.setAndGet(false);
+	}
+	
+	/**
 	 * Method startStunning.
 	 * @return boolean
 	 */
@@ -6103,6 +6192,41 @@ public abstract class Creature extends GameObject
 	}
 	
 	/**
+	 * Method isAirBinded.
+	 * @return boolean
+	 */
+	public boolean isAirBinded()
+	{
+		return _airbinded.get();
+	}
+	
+	/**
+	 * Method isKnockedBack.
+	 * @return boolean
+	 */
+	public boolean isKnockedBack()
+	{
+		return _knockedback.get();
+	}
+	
+	/**
+	 * Method isKnockedDown.
+	 * @return boolean
+	 */
+	public boolean isKnockedDown()
+	{
+		return _knockeddown.get();
+	}
+	
+	/**
+	 * Method isPulledNow.
+	 * @return boolean
+	 */
+	public boolean isPulledNow()
+	{
+		return _pulled.get();
+	}
+	/**
 	 * Method isMeditated.
 	 * @return boolean
 	 */
@@ -6207,7 +6331,7 @@ public abstract class Creature extends GameObject
 	 */
 	public boolean isMovementDisabled()
 	{
-		return isBlocked() || isRooted() || isImmobilized() || isAlikeDead() || isStunned() || isSleeping() || isParalyzed() || isAttackingNow() || isCastingNow() || isFrozen();
+		return isBlocked() || isRooted() || isImmobilized() || isAlikeDead() || isStunned() || isSleeping() || isParalyzed() || isAttackingNow() || isCastingNow() || isFrozen() || isAirBinded() || isKnockedBack() || isKnockedDown() || isPulledNow();
 	}
 	
 	/**
@@ -6216,7 +6340,7 @@ public abstract class Creature extends GameObject
 	 */
 	public boolean isActionsDisabled()
 	{
-		return isBlocked() || isAlikeDead() || isStunned() || isSleeping() || isParalyzed() || isAttackingNow() || isCastingNow() || isFrozen();
+		return isBlocked() || isAlikeDead() || isStunned() || isSleeping() || isParalyzed() || isAttackingNow() || isCastingNow() || isFrozen() || isAirBinded() || isKnockedBack() || isKnockedDown() || isPulledNow();
 	}
 	
 	/**
@@ -7396,101 +7520,6 @@ public abstract class Creature extends GameObject
 	public boolean IsEnabledDoubleCast()
 	{
 		return _isEnabledDoubleCast;
-	}
-
-	/**
-	 * Method isKnockedDown.
-	 * @return boolean
-	 */
-	public boolean IsKnockedDown()
-	{
-		return _isKnockedDown;
-	}
-	
-	/**
-	 * Method isAirBind.
-	 * @return boolean
-	 */
-	public boolean IsAirBind()
-	{
-		return _isAirBind;
-	}
-	
-	/**
-	 * Method startAirBind.
-	 */
-	public final void startAirBind()
-	{
-		if(!isParalyzed())
-			startParalyzed();
-		//this.startAbnormalEffect(AbnormalEffect.getByName("hellbinding"));
-		abortAttack(true, true);
-		abortCast(true, true);
-		_isAirBind = true;
-		getAI().notifyEvent(CtrlEvent.EVT_KNOCK_DOWN);
-		if (!isServitor())
-		{
-			getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
-		}
-	}
-
-	
-	/**
-	 * Method stopAirBind.
-	 * @param removeEffects boolean
-	 */
-	public final void stopAirBind(boolean removeEffects)
-	{
-		if(isParalyzed())
-			stopParalyzed();
-		//this.stopAbnormalEffect(AbnormalEffect.getByName("hellbinding"));
-		_isAirBind = false;
-		if (removeEffects)
-		{
-			getEffectList().stopEffects(EffectType.HellBinding);
-		}
-		if (!isPlayer())
-		{
-			getAI().notifyEvent(CtrlEvent.EVT_THINK);
-		}
-	}
-	
-	/**
-	 * Method startKnockDown.
-	 */
-	public final void startKnockDown()
-	{
-		//this.startAbnormalEffect(AbnormalEffect.getByName("s_51"));
-		abortAttack(true, true);
-		abortCast(true, true);
-		if(!isParalyzed())
-			startParalyzed();
-		_isKnockedDown = true;
-		getAI().notifyEvent(CtrlEvent.EVT_KNOCK_DOWN);
-		if (!isServitor())
-		{
-			getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
-		}
-	}
-	
-	/**
-	 * Method stopKnockDown.
-	 * @param removeEffects boolean
-	 */
-	public final void stopKnockDown(boolean removeEffects)
-	{
-		if(isParalyzed())
-			stopParalyzed();
-		//this.stopAbnormalEffect(AbnormalEffect.getByName("s_51"));
-		_isKnockedDown = false;
-		if (removeEffects)
-		{
-			getEffectList().stopEffects(EffectType.KnockDown);
-		}
-		if (!isPlayer())
-		{
-			getAI().notifyEvent(CtrlEvent.EVT_THINK);
-		}
 	}
 	
 	/**

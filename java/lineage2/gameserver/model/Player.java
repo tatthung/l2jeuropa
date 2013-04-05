@@ -3762,7 +3762,7 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			return;
 		}
-		if (isStunned() || isSleeping() || isParalyzed() || isAttackingNow() || isCastingNow() || isMoving)
+		if (isStunned() || isSleeping() || isParalyzed() || isAttackingNow() || isCastingNow() || isMoving || isAirBinded() || isKnockedBack() || isKnockedDown() || isPulledNow())
 		{
 			getAI().setNextAction(nextAction.REST, null, null, false, false);
 			return;

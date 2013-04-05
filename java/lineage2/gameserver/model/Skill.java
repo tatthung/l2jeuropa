@@ -1226,6 +1226,10 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	 */
 	protected boolean _isCommon;
 	/**
+	 * Field _castOverStun.
+	 */
+	protected boolean _castOverStun;
+	/**
 	 * Field _isItemHandler.
 	 */
 	protected boolean _isItemHandler;
@@ -1719,6 +1723,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		}
 		_referenceItemId = set.getInteger("referenceItemId", 0);
 		_referenceItemMpConsume = set.getInteger("referenceItemMpConsume", 0);
+		_castOverStun = set.getBool("castOverStun", false);
 		_isItemHandler = set.getBool("isHandler", false);
 		_isCommon = set.getBool("isCommon", false);
 		_isAuraSkill= set.getBool("isAuraSkill", false);
@@ -3724,7 +3729,15 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	{
 		return _isItemHandler;
 	}
-	
+
+	/**
+	 * Method castOverStun.
+	 * @return boolean
+	 */
+	public final boolean isCastOverStun()
+	{
+		return _castOverStun;
+	}
 	/**
 	 * Method isMagic.
 	 * @return boolean

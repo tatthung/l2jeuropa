@@ -92,7 +92,7 @@ public class EffectKnockDown extends Effect
 	@Override
 	public boolean checkCondition()
 	{
-		if (_effected.IsAirBind() || _effected.IsKnockedDown())
+		if (_effected.isAirBinded() || _effected.isKnockedDown())
 		{
 			return false;
 		}
@@ -131,7 +131,8 @@ public class EffectKnockDown extends Effect
 		Location loc = new Location(_x, _y, _z);
 		loc = GeoEngine.moveCheck(tagetLoc.x, tagetLoc.y, tagetLoc.z, _x, _y, _effected.getGeoIndex());
 
-		_effected.startKnockDown();
+		if(!_effected.isKnockedDown())
+			_effected.startKnockingdown();
 		for(Player playerNearEffected : World.getAroundPlayers(_effected, 1200, 400))//Need to check: When the target has been hitted by another Knock Down skill, don't trigger chain skill
 		{
 			if(playerNearEffected.getTarget() == _effected && playerNearEffected.isAwaking())
@@ -153,9 +154,10 @@ public class EffectKnockDown extends Effect
 	public void onExit()
 	{
 		super.onExit();
-		_effected.setXYZ(_x, _y, _z);
-		_effected.broadcastPacket(new ValidateLocation(_effected));
-		_effected.stopKnockDown(true);
+		//_effected.setXYZ(_x, _y, _z);
+		//_effected.broadcastPacket(new ValidateLocation(_effected));
+		if(_effected.isKnockedDown())
+			_effected.stopKnockingdown();
 	}
 	
 	/**

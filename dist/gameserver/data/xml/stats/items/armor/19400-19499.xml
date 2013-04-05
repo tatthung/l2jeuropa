@@ -269,6 +269,7 @@
         <set name="ex_type" value="EARRING"/>
         <skills>
             <skill id="13313" level="1"/>
+            <skill id="13314" level="1"/>
         </skills>
         <for>
             <add stat="mDef" order="0x10" value="170"/>
@@ -291,6 +292,7 @@
         <set name="ex_type" value="NECKLACE"/>
         <skills>
             <skill id="13315" level="1"/>
+            <skill id="13316" level="1"/>
         </skills>
         <for>
             <add stat="mDef" order="0x10" value="226"/>

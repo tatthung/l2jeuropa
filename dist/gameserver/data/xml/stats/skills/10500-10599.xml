@@ -1323,7 +1323,7 @@
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant3>
         <for>
-            <effect count="1" name="KnockBack" stackOrder="-1" stackType="KnockBack" time="5" val="0"/>
+            <effect count="1" name="KnockBack" stackOrder="-1" stackType="KnockBack" time="1" val="0"/>
         </for>
     </skill>
     <skill id="10550" levels="4" name="Illusion Strike">

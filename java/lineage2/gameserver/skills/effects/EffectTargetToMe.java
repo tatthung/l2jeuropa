@@ -16,6 +16,7 @@ import lineage2.gameserver.ThreadPoolManager;
 import lineage2.gameserver.model.Effect;
 import lineage2.gameserver.network.serverpackets.FlyToLocation;
 import lineage2.gameserver.network.serverpackets.ValidateLocation;
+import lineage2.gameserver.skills.EffectType;
 import lineage2.gameserver.stats.Env;
 import lineage2.gameserver.utils.Location;
 
@@ -50,8 +51,8 @@ public class EffectTargetToMe extends Effect
 	public void onStart()
 	{
 		super.onStart();
-		if(!_effected.isStunned())
-			_effected.startStunning();
+		if(!_effected.isPulledNow())
+			_effected.startPulling();
         ThreadPoolManager.getInstance().schedule(new Runnable()
         { 
     	    @Override
@@ -79,14 +80,8 @@ public class EffectTargetToMe extends Effect
 		super.onExit();
 		_effected.setXYZ(_x, _y, _z);
 		_effected.broadcastPacket(new ValidateLocation(_effected));
-		try
-		{
-			if(_effected.isStunned())
-				_effected.stopStunning();
-		}
-		catch (Throwable ex)
-		{
-		}
+		if(_effected.isPulledNow())
+			_effected.stopPulling();
 	}
 	
 	/**

@@ -65,7 +65,7 @@ public final class EffectHellBinding extends Effect
 	@Override
 	public boolean checkCondition()
 	{
-		if (_effected.isParalyzeImmune() || _effected.IsAirBind() || _effected.IsKnockedDown())
+		if (_effected.isParalyzeImmune() || _effected.isAirBinded() || _effected.isKnockedDown())
 		{
 			return false;
 		}
@@ -88,7 +88,8 @@ public final class EffectHellBinding extends Effect
 				playerNearEffected.sendPacket(new ExAlterSkillRequest(chainSkill,temporalReplaceSkill,5));	
 			}
 		}
-		_effected.startAirBind();
+		if(!_effected.isAirBinded())
+			_effected.startAirbinding();
 	}
 	
 	/**
@@ -98,7 +99,8 @@ public final class EffectHellBinding extends Effect
 	public void onExit()
 	{
 		super.onExit();
-		_effected.stopAirBind(true);
+		if(_effected.isAirBinded())
+			_effected.stopAirbinding();			
 	}
 	
 	/**

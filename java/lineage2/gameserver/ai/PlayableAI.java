@@ -934,7 +934,7 @@ public class PlayableAI extends CharacterAI
 		Playable actor = getActor();
 		if (skill.altUse() || skill.isToggle())
 		{
-			if ((skill.isToggle() || skill.isHandler()) && (actor.isOutOfControl() || actor.isStunned() || actor.isSleeping() || actor.isParalyzed() || actor.isAlikeDead()))
+			if ((skill.isToggle() || skill.isHandler()) && (actor.isOutOfControl() || actor.isStunned() || actor.isSleeping() || actor.isParalyzed() || actor.isAlikeDead() || actor.isAirBinded() || actor.isKnockedBack() || actor.isKnockedDown() || actor.isPulledNow()))
 			{
 				clientActionFailed();
 			}
