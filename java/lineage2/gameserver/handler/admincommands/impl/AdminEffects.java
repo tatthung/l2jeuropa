@@ -150,7 +150,7 @@ public class AdminEffects implements IAdminCommandHandler
 				else
 				{
 					activeChar.setInvisibleType(InvisibleType.NORMAL);
-					activeChar.sendUserInfo(true);
+					activeChar.sendUserInfo();
 					World.removeObjectFromPlayers(activeChar);
 				}
 				break;

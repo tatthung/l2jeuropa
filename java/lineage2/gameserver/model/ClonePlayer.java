@@ -16,12 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.Future;
-import java.util.concurrent.ScheduledFuture;
-
-import lineage2.commons.threading.RunnableImpl;
 import lineage2.commons.util.Rnd;
 import lineage2.gameserver.Config;
-import lineage2.gameserver.ThreadPoolManager;
 import lineage2.gameserver.ai.ClonePlayerAI;
 import lineage2.gameserver.ai.CtrlIntention;
 import lineage2.gameserver.instancemanager.ReflectionManager;
@@ -310,56 +306,14 @@ public class ClonePlayer extends Playable
 	}
 
 	/**
-	 * Field _updateEffectIconsTask.
-	 */
-	Future<?> _updateEffectIconsTask;
-	
-	/**
-	 * @author Mobius
-	 */
-	private class UpdateEffectIcons extends RunnableImpl
-	{
-		/**
-		 * Constructor for UpdateEffectIcons.
-		 */
-		public UpdateEffectIcons()
-		{
-			// TODO Auto-generated constructor stub
-		}
-		
-		/**
-		 * Method runImpl.
-		 */
-		@Override
-		public void runImpl()
-		{
-			updateEffectIconsImpl();
-			_updateEffectIconsTask = null;
-		}
-	}
-	
-	/**
 	 * Method updateEffectIcons.
 	 */
 	@Override
 	public void updateEffectIcons()
 	{
 		super.updateEffectIcons();
-		if (Config.USER_INFO_INTERVAL == 0)
-		{
-			if (_updateEffectIconsTask != null)
-			{
-				_updateEffectIconsTask.cancel(false);
-				_updateEffectIconsTask = null;
-			}
-			updateEffectIconsImpl();
-			return;
-		}
-		if (_updateEffectIconsTask != null)
-		{
-			return;
-		}
-		_updateEffectIconsTask = ThreadPoolManager.getInstance().schedule(new UpdateEffectIcons(), Config.USER_INFO_INTERVAL);
+		updateEffectIconsImpl();
+		return;
 	}
 	
 	/**
@@ -516,43 +470,9 @@ public class ClonePlayer extends Playable
 	}
 
 	/**
-	 * Field _broadcastCharInfoTask.
-	 */
-	ScheduledFuture<?> _broadcastCharInfoTask;
-
-	/**
-	 * @author Mobius
-	 */
-	public class BroadcastCharInfoTask extends RunnableImpl
-	{
-		/**
-		 * Method runImpl.
-		 */
-		@Override
-		public void runImpl()
-		{
-			broadcastCharInfoImpl();
-			_broadcastCharInfoTask = null;
-		}
-	}
-	
-	/**
 	 * Method broadcastCharInfo.
 	 */
-	@Override
 	public void broadcastCharInfo()
-	{
-		if (_broadcastCharInfoTask != null)
-		{
-			return;
-		}
-		_broadcastCharInfoTask = ThreadPoolManager.getInstance().schedule(new BroadcastCharInfoTask(), Config.BROADCAST_CHAR_INFO_INTERVAL);
-	}
-
-	/**
-	 * Method broadcastCharInfoImpl.
-	 */
-	public void broadcastCharInfoImpl()
 	{
 		for (Player player : World.getAroundPlayers(this))
 		{

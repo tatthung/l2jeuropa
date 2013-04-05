@@ -114,6 +114,6 @@ public class NoblessSell extends Functions
 		player.updatePledgeClass();
 		player.updateNobleSkills();
 		player.sendSkillList();
-		player.broadcastUserInfo(true);
+		player.broadcastUserInfo();
 	}
 }

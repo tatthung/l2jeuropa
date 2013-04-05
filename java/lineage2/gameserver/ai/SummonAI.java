@@ -12,6 +12,7 @@
  */
 package lineage2.gameserver.ai;
 
+import static lineage2.gameserver.ai.CtrlIntention.AI_INTENTION_ACTIVE;
 import lineage2.gameserver.Config;
 import lineage2.gameserver.model.Creature;
 import lineage2.gameserver.model.Summon;
@@ -49,6 +50,10 @@ public class SummonAI extends PlayableAI
 		{
 			changeIntention(CtrlIntention.AI_INTENTION_FOLLOW, actor.getPlayer(), Config.FOLLOW_RANGE);
 			thinkFollow();
+		}
+		else if (!actor.isFollowMode() && getIntention() == AI_INTENTION_ACTIVE)
+		{
+			actor.setFollowMode(true);
 		}
 		super.thinkActive();
 	}

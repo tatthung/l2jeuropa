@@ -294,7 +294,7 @@ public class EnterWorld extends L2GameClientPacket
 			}
 		}
 		activeChar.entering = false;
-		activeChar.sendUserInfo(true);
+		activeChar.sendUserInfo();
 		if (activeChar.isSitting())
 		{
 			activeChar.sendPacket(new ChangeWaitType(activeChar, ChangeWaitType.WT_SITTING));

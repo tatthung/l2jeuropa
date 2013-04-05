@@ -120,7 +120,7 @@ public class TerritoryManagerInstance extends NpcInstance
 				player.updatePledgeClass();
 				player.updateNobleSkills();
 				player.sendSkillList();
-				player.broadcastUserInfo(true);
+				player.broadcastUserInfo();
 			}
 			else
 			{

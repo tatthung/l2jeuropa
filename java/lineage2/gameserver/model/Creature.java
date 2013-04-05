@@ -728,14 +728,6 @@ public abstract class Creature extends GameObject
 	 */
 	protected boolean _deathImmune = false;
 	/**
-	 * Field _statusListeners.
-	 */
-	private List<Player> _statusListeners;
-	/**
-	 * Field statusListenersLock.
-	 */
-	private final Lock statusListenersLock = new ReentrantLock();
-	/**
 	 * Field _walkerRoutesTemplate.
 	 */
 	protected WalkerRouteTemplate _walkerRoutesTemplate = null;
@@ -1418,105 +1410,6 @@ public abstract class Creature extends GameObject
 	}
 	
 	/**
-	 * Method broadcastToStatusListeners.
-	 * @param packets L2GameServerPacket[]
-	 */
-	public void broadcastToStatusListeners(L2GameServerPacket... packets)
-	{
-		if (!isVisible() || (packets.length == 0))
-		{
-			return;
-		}
-		statusListenersLock.lock();
-		try
-		{
-			if ((_statusListeners == null) || _statusListeners.isEmpty())
-			{
-				return;
-			}
-			Player player;
-			for (int i = 0; i < _statusListeners.size(); i++)
-			{
-				player = _statusListeners.get(i);
-				player.sendPacket(packets);
-			}
-		}
-		finally
-		{
-			statusListenersLock.unlock();
-		}
-	}
-	
-	/**
-	 * Method addStatusListener.
-	 * @param cha Player
-	 */
-	public void addStatusListener(Player cha)
-	{
-		if (cha == this)
-		{
-			return;
-		}
-		statusListenersLock.lock();
-		try
-		{
-			if (_statusListeners == null)
-			{
-				_statusListeners = new LazyArrayList<Player>();
-			}
-			if (!_statusListeners.contains(cha))
-			{
-				_statusListeners.add(cha);
-			}
-		}
-		finally
-		{
-			statusListenersLock.unlock();
-		}
-	}
-	
-	/**
-	 * Method removeStatusListener.
-	 * @param cha Creature
-	 */
-	public void removeStatusListener(Creature cha)
-	{
-		statusListenersLock.lock();
-		try
-		{
-			if (_statusListeners == null)
-			{
-				return;
-			}
-			_statusListeners.remove(cha);
-		}
-		finally
-		{
-			statusListenersLock.unlock();
-		}
-	}
-	
-	/**
-	 * Method clearStatusListeners.
-	 */
-	public void clearStatusListeners()
-	{
-		statusListenersLock.lock();
-		try
-		{
-			if (_statusListeners == null)
-			{
-				return;
-			}
-			_statusListeners.clear();
-		}
-		finally
-		{
-			statusListenersLock.unlock();
-		}
-	}
-	
-	/**
 	 * Method makeStatusUpdate.
 	 * @param fields int[]
 	 * @return StatusUpdate
@@ -1581,7 +1474,7 @@ public abstract class Creature extends GameObject
 			return;
 		}
 		StatusUpdate su = makeStatusUpdate(StatusUpdate.MAX_HP, StatusUpdate.MAX_MP, StatusUpdate.CUR_HP, StatusUpdate.CUR_MP);
-		broadcastToStatusListeners(su);
+		broadcastPacket(su);
 	}
 	
 	/**
@@ -1595,7 +1488,7 @@ public abstract class Creature extends GameObject
 			return;
 		}
 		StatusUpdate su = makeHPStatusUpdate(_id);
-		broadcastToStatusListeners(su);
+		broadcastPacket(su);
 	}
 	
 	/**
@@ -4786,7 +4679,7 @@ public abstract class Creature extends GameObject
 	{
 		if (getTransformation() != 0)
 		{
-		List<Effect> effects = getEffectList().getAllEffects();
+			List<Effect> effects = getEffectList().getAllEffects();
 			for (Effect effect : effects)
 				if (effect.getSkill().isDispelOnDamage())
 					getEffectList().stopEffect(effect.getSkill());
@@ -4817,6 +4710,7 @@ public abstract class Creature extends GameObject
 			return;
 		}
 		setCurrentHp(Math.max(getCurrentHp() - damage, 0), false, attacker.getObjectId());
+		broadcastStatusUpdate();
 		if (getCurrentHp() < 0.5)
 		{
 			doDie(attacker);
@@ -6843,7 +6737,7 @@ public abstract class Creature extends GameObject
 				effect.addIcon(packet);
 			}
 		}
-		broadcastToStatusListeners(packet);
+		broadcastPacket(packet);
 	}
 	
 	/**
@@ -7092,7 +6986,6 @@ public abstract class Creature extends GameObject
 		stopAttackStanceTask();
 		stopRegeneration();
 		updateZones();
-		clearStatusListeners();
 		super.onDespawn();
 	}
 	

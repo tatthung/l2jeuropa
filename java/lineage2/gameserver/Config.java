@@ -88,9 +88,6 @@ public class Config
 	public static String DATABASE_LOGIN;
 	public static String DATABASE_PASSWORD;
 	public static boolean AUTOSAVE;
-	public static long USER_INFO_INTERVAL;
-	public static boolean BROADCAST_STATS_INTERVAL;
-	public static long BROADCAST_CHAR_INFO_INTERVAL;
 	public static int EFFECT_TASK_MANAGER_COUNT;
 	public static int MAXIMUM_ONLINE_USERS;
 	public static boolean DONTLOADSPAWN;
@@ -926,9 +923,6 @@ public class Config
 		DATABASE_URL = serverSettings.getProperty("URL", "jdbc:mysql://localhost/l2sdb");
 		DATABASE_LOGIN = serverSettings.getProperty("Login", "root");
 		DATABASE_PASSWORD = serverSettings.getProperty("Password", "");
-		USER_INFO_INTERVAL = serverSettings.getProperty("UserInfoInterval", 100L);
-		BROADCAST_STATS_INTERVAL = serverSettings.getProperty("BroadcastStatsInterval", true);
-		BROADCAST_CHAR_INFO_INTERVAL = serverSettings.getProperty("BroadcastCharInfoInterval", 100L);
 		EFFECT_TASK_MANAGER_COUNT = serverSettings.getProperty("EffectTaskManagers", 2);
 		SCHEDULED_THREAD_POOL_SIZE = serverSettings.getProperty("ScheduledThreadPoolSize", NCPUS * 4);
 		EXECUTOR_THREAD_POOL_SIZE = serverSettings.getProperty("ExecutorThreadPoolSize", NCPUS * 2);

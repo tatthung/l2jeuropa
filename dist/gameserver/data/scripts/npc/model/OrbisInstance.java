@@ -42,15 +42,13 @@ private final int _weaponId;
   {
     if (isAlikeDead())
       return;
-
-	  
     setRHandId(0);
-    broadcastCharInfoImpl();
+    broadcastCharInfo();
   }
 
   private void equipWeapon()
   {
 	setRHandId(_weaponId);
-    broadcastCharInfoImpl();
+    broadcastCharInfo();
   }
 }

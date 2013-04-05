@@ -28,7 +28,6 @@ import java.util.concurrent.ScheduledFuture;
 
 import lineage2.commons.collections.MultiValueSet;
 import lineage2.commons.lang.reference.HardReference;
-import lineage2.commons.threading.RunnableImpl;
 import lineage2.gameserver.Config;
 import lineage2.gameserver.ThreadPoolManager;
 import lineage2.gameserver.ai.CharacterAI;
@@ -1042,41 +1041,9 @@ public class NpcInstance extends Creature
 	}
 	
 	/**
-	 */
-	public class BroadcastCharInfoTask extends RunnableImpl
-	{
-		/**
-		 * Method runImpl.
-		 */
-		@Override
-		public void runImpl()
-		{
-			broadcastCharInfoImpl();
-			_broadcastCharInfoTask = null;
-		}
-	}
-	
-	/**
 	 * Method broadcastCharInfo.
 	 */
-	@Override
 	public void broadcastCharInfo()
-	{
-		if (!isVisible())
-		{
-			return;
-		}
-		if (_broadcastCharInfoTask != null)
-		{
-			return;
-		}
-		_broadcastCharInfoTask = ThreadPoolManager.getInstance().schedule(new BroadcastCharInfoTask(), Config.BROADCAST_CHAR_INFO_INTERVAL);
-	}
-	
-	/**
-	 * Method broadcastCharInfoImpl.
-	 */
-	public void broadcastCharInfoImpl()
 	{
 		for (Player player : World.getAroundPlayers(this))
 		{

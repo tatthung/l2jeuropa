@@ -2113,7 +2113,7 @@ public final class Player extends Playable implements PlayerGroup
 		}
 		setRecomLeft(getRecomLeft() + recoms);
 		setRecomLeftToday(getRecomLeftToday() + recoms);
-		sendUserInfo(true);
+		sendUserInfo();
 		return recoms;
 	}
 	
@@ -2151,7 +2151,7 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			setRecomLeft(getRecomLeft() - 1);
 		}
-		sendUserInfo(true);
+		sendUserInfo();
 	}
 	
 	/**
@@ -2161,7 +2161,7 @@ public final class Player extends Playable implements PlayerGroup
 	public void addRecomHave(final int val)
 	{
 		setRecomHave(getRecomHave() + val);
-		broadcastUserInfo(true);
+		broadcastUserInfo();
 		sendVoteSystemInfo();
 	}
 	
@@ -2387,30 +2387,6 @@ public final class Player extends Playable implements PlayerGroup
 	}
 	
 	/**
-	 * @author Mobius
-	 */
-	private class UpdateEffectIcons extends RunnableImpl
-	{
-		/**
-		 * Constructor for UpdateEffectIcons.
-		 */
-		public UpdateEffectIcons()
-		{
-			// TODO Auto-generated constructor stub
-		}
-		
-		/**
-		 * Method runImpl.
-		 */
-		@Override
-		public void runImpl()
-		{
-			updateEffectIconsImpl();
-			_updateEffectIconsTask = null;
-		}
-	}
-	
-	/**
 	 * Method updateEffectIcons.
 	 */
 	@Override
@@ -2421,21 +2397,8 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			return;
 		}
-		if (Config.USER_INFO_INTERVAL == 0)
-		{
-			if (_updateEffectIconsTask != null)
-			{
-				_updateEffectIconsTask.cancel(false);
-				_updateEffectIconsTask = null;
-			}
-			updateEffectIconsImpl();
-			return;
-		}
-		if (_updateEffectIconsTask != null)
-		{
-			return;
-		}
-		_updateEffectIconsTask = ThreadPoolManager.getInstance().schedule(new UpdateEffectIcons(), Config.USER_INFO_INTERVAL);
+		updateEffectIconsImpl();
+		return;
 	}
 	
 	/**
@@ -4106,65 +4069,38 @@ public final class Player extends Playable implements PlayerGroup
 	}
 	
 	/**
-	 * Field _broadcastCharInfoTask.
-	 */
-	ScheduledFuture<?> _broadcastCharInfoTask;
-	
-	/**
-	 * @author Mobius
-	 */
-	public class BroadcastCharInfoTask extends RunnableImpl
-	{
-		/**
-		 * Method runImpl.
-		 */
-		@Override
-		public void runImpl()
-		{
-			broadcastCharInfoImpl();
-			_broadcastCharInfoTask = null;
-		}
-	}
-	
-	/**
 	 * Method broadcastCharInfo.
 	 */
 	@Override
 	public void broadcastCharInfo()
 	{
-		broadcastUserInfo(false);
+		broadcastUserInfo();
 	}
 	
 	/**
 	 * Method broadcastUserInfo.
 	 * @param force boolean
 	 */
-	public void broadcastUserInfo(boolean force)
+	public void broadcastUserInfo()
 	{
-		sendUserInfo(force);
+		sendUserInfo();
 		if (!isVisible() || isInvisible())
 		{
 			return;
 		}
-		if (Config.BROADCAST_CHAR_INFO_INTERVAL == 0)
+		L2GameServerPacket ci = isPolymorphed() ? new NpcInfoPoly(this) : new CharInfo(this);
+		L2GameServerPacket exCi = new ExBR_ExtraUserInfo(this);
+		L2GameServerPacket dominion = getEvent(DominionSiegeEvent.class) != null ? new ExDominionWarStart(this) : null;
+		for (Player player : World.getAroundPlayers(this))
 		{
-			force = true;
-		}
-		if (force)
-		{
-			if (_broadcastCharInfoTask != null)
+			player.sendPacket(ci, exCi);
+			player.sendPacket(RelationChanged.update(player, this, player));
+			if (dominion != null)
 			{
-				_broadcastCharInfoTask.cancel(false);
-				_broadcastCharInfoTask = null;
+				player.sendPacket(dominion);
 			}
-			broadcastCharInfoImpl();
-			return;
 		}
-		if (_broadcastCharInfoTask != null)
-		{
-			return;
-		}
-		_broadcastCharInfoTask = ThreadPoolManager.getInstance().schedule(new BroadcastCharInfoTask(), Config.BROADCAST_CHAR_INFO_INTERVAL);
+		return;
 	}
 	
 	/**
@@ -4180,7 +4116,7 @@ public final class Player extends Playable implements PlayerGroup
 	{
 		_polyNpcId = polyid;
 		teleToLocation(getLoc());
-		broadcastUserInfo(true);
+		broadcastUserInfo();
 	}
 	
 	/**
@@ -4199,29 +4135,6 @@ public final class Player extends Playable implements PlayerGroup
 	public int getPolyId()
 	{
 		return _polyNpcId;
-	}
-	
-	/**
-	 * Method broadcastCharInfoImpl.
-	 */
-	void broadcastCharInfoImpl()
-	{
-		if (!isVisible() || isInvisible())
-		{
-			return;
-		}
-		L2GameServerPacket ci = isPolymorphed() ? new NpcInfoPoly(this) : new CharInfo(this);
-		L2GameServerPacket exCi = new ExBR_ExtraUserInfo(this);
-		L2GameServerPacket dominion = getEvent(DominionSiegeEvent.class) != null ? new ExDominionWarStart(this) : null;
-		for (Player player : World.getAroundPlayers(this))
-		{
-			player.sendPacket(ci, exCi);
-			player.sendPacket(RelationChanged.update(player, this, player));
-			if (dominion != null)
-			{
-				player.sendPacket(dominion);
-			}
-		}
 	}
 	
 	/**
@@ -4252,80 +4165,22 @@ public final class Player extends Playable implements PlayerGroup
 	}
 	
 	/**
-	 * Field _userInfoTask.
+	 * Method sendUserInfo.
+	 * @param force boolean
 	 */
-	Future<?> _userInfoTask;
-	
-	/**
-	 * @author Mobius
-	 */
-	private class UserInfoTask extends RunnableImpl
+	public void sendUserInfo()
 	{
-		/**
-		 * Constructor for UserInfoTask.
-		 */
-		public UserInfoTask()
+		if (!isVisible() || entering || isLogoutStarted())
 		{
-			// TODO Auto-generated constructor stub
+			return;
 		}
-		
-		/**
-		 * Method runImpl.
-		 */
-		@Override
-		public void runImpl()
-		{
-			sendUserInfoImpl();
-			_userInfoTask = null;
-		}
-	}
-	
-	/**
-	 * Method sendUserInfoImpl.
-	 */
-	void sendUserInfoImpl()
-	{
 		sendPacket(new UserInfo(this), new ExBR_ExtraUserInfo(this));
 		DominionSiegeEvent siegeEvent = getEvent(DominionSiegeEvent.class);
 		if (siegeEvent != null)
 		{
 			sendPacket(new ExDominionWarStart(this));
 		}
-	}
-	
-	/**
-	 * Method sendUserInfo.
-	 */
-	public void sendUserInfo()
-	{
-		sendUserInfo(false);
-	}
-	
-	/**
-	 * Method sendUserInfo.
-	 * @param force boolean
-	 */
-	public void sendUserInfo(boolean force)
-	{
-		if (!isVisible() || entering || isLogoutStarted())
-		{
-			return;
-		}
-		if ((Config.USER_INFO_INTERVAL == 0) || force)
-		{
-			if (_userInfoTask != null)
-			{
-				_userInfoTask.cancel(false);
-				_userInfoTask = null;
-			}
-			sendUserInfoImpl();
-			return;
-		}
-		if (_userInfoTask != null)
-		{
-			return;
-		}
-		_userInfoTask = ThreadPoolManager.getInstance().schedule(new UserInfoTask(), Config.USER_INFO_INTERVAL);
+		return;
 	}
 	
 	/**
@@ -4753,18 +4608,10 @@ public final class Player extends Playable implements PlayerGroup
 			{
 				return;
 			}
-			if (oldTarget.isCreature())
-			{
-				((Creature) oldTarget).removeStatusListener(this);
-			}
 			broadcastPacket(new TargetUnselected(this));
 		}
 		if (newTarget != null)
 		{
-			if (newTarget.isCreature())
-			{
-				((Creature) newTarget).addStatusListener(this);
-			}
 			sendPacket(new MyTargetSelected(newTarget.getObjectId(), 0));
 			broadcastPacket(new TargetSelected(getObjectId(), newTarget.getObjectId(), getLoc()));
 		}
@@ -7409,7 +7256,7 @@ public final class Player extends Playable implements PlayerGroup
 		}
 		recalcHennaStats();
 		sendPacket(new HennaInfo(this));
-		sendUserInfo(true);
+		sendUserInfo();
 		ItemFunctions.addItem(this, dyeID, henna.getDrawCount() / 2, true);
 		return true;
 	}
@@ -7461,7 +7308,7 @@ public final class Player extends Playable implements PlayerGroup
 					}
 				}
 				sendPacket(new HennaInfo(this));
-				sendUserInfo(true);
+				sendUserInfo();
 				return true;
 			}
 		}
@@ -7750,9 +7597,9 @@ public final class Player extends Playable implements PlayerGroup
 		_mountNpcId = npcId;
 		_mountObjId = obj_id;
 		_mountLevel = level;
-		broadcastUserInfo(true);
+		broadcastUserInfo();
 		broadcastPacket(new Ride(this));
-		broadcastUserInfo(true);
+		broadcastUserInfo();
 		sendSkillList();
 	}
 	
@@ -8265,7 +8112,7 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			sendPacket(new MyTargetSelected(getTarget().getObjectId(), 0));
 		}
-		sendUserInfo(true);
+		sendUserInfo();
 		for (Summon summon : getSummonList())
 		{
 			summon.teleportToOwner();
@@ -9855,7 +9702,7 @@ public final class Player extends Playable implements PlayerGroup
 		setRecomHave(getRecomHave() - 20);
 		stopRecomBonusTask(false);
 		startRecomBonusTask();
-		sendUserInfo(true);
+		sendUserInfo();
 		sendVoteSystemInfo();
 	}
 	
@@ -10231,7 +10078,7 @@ public final class Player extends Playable implements PlayerGroup
 			getDeathPenalty().restore(this);
 			setIncreasedForce(0);
 			startHourlyTask();
-			sendUserInfo(true);
+			sendUserInfo();
 			sendSkillList();
 			broadcastCharInfo();
 			updateEffectIcons();
@@ -11858,7 +11705,7 @@ public final class Player extends Playable implements PlayerGroup
 				}
 			}
 		}
-		broadcastUserInfo(true);
+		broadcastUserInfo();
 	}
 	
 	/**
@@ -14697,7 +14544,7 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			player.broadcastPacket(new SocialAction(player.getObjectId(), 16));
 		}
-		player.broadcastUserInfo(true);
+		player.broadcastUserInfo();
 	}
 	
 	/**

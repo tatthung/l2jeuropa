@@ -36,12 +36,12 @@ private final int _weaponId;
 
 	  
     setRHandId(0);
-    broadcastCharInfoImpl();
+    broadcastCharInfo();
   }
 
   private void equipWeapon()
   {
 	setRHandId(_weaponId);
-    broadcastCharInfoImpl();
+    broadcastCharInfo();
   }
 }

@@ -324,7 +324,7 @@ public class AwakingManager implements OnPlayerEnterListener
 			onTransferOnlyRemoveSkills(player);
 		}
 		player.setClassId(_CA.get(_oldId), false, false);
-		player.broadcastUserInfo(true);
+		player.broadcastUserInfo();
 		player.broadcastPacket(new SocialAction(player.getObjectId(), (_CA.get(_oldId) - 119)));
 		giveItems(player);
 	}
@@ -342,7 +342,7 @@ public class AwakingManager implements OnPlayerEnterListener
 			onTransferOnlyRemoveSkills(player,toClass,classIdSkills);
 		}
 		player.setClassId(toClass, false, false);
-		player.broadcastUserInfo(true);
+		player.broadcastUserInfo();
 		player.broadcastPacket(new SocialAction(player.getObjectId(), (toClass - 119)));
 		giveItems(player);
 	}

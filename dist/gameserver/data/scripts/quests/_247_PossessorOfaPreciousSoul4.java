@@ -109,7 +109,7 @@ public class _247_PossessorOfaPreciousSoul4 extends Quest implements ScriptFile
 					st.getPlayer().updatePledgeClass();
 					st.getPlayer().updateNobleSkills();
 					st.getPlayer().sendSkillList();
-					st.getPlayer().broadcastUserInfo(true);
+					st.getPlayer().broadcastUserInfo();
 				}
 				else
 				{
