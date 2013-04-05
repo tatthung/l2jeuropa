@@ -16,7 +16,6 @@ import lineage2.gameserver.ThreadPoolManager;
 import lineage2.gameserver.model.Effect;
 import lineage2.gameserver.network.serverpackets.FlyToLocation;
 import lineage2.gameserver.network.serverpackets.ValidateLocation;
-import lineage2.gameserver.skills.EffectType;
 import lineage2.gameserver.stats.Env;
 import lineage2.gameserver.utils.Location;
 
