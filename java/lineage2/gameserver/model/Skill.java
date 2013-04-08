@@ -126,6 +126,7 @@ import lineage2.gameserver.stats.funcs.Func;
 import lineage2.gameserver.stats.funcs.FuncTemplate;
 import lineage2.gameserver.tables.SkillTable;
 import lineage2.gameserver.templates.StatsSet;
+import lineage2.gameserver.utils.Location;
 import lineage2.gameserver.utils.PositionUtils;
 
 import org.apache.commons.lang3.math.NumberUtils;
@@ -425,7 +426,11 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		/**
 		 * Field TARGET_SUMMON_AURA.
 		 */
-		TARGET_SUMMON_AURA
+		TARGET_SUMMON_AURA,
+		/**
+		 * Field TARGET_GROUND.
+		 */
+		TARGET_GROUND
 	}
 	
 	/**
@@ -2295,6 +2300,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 			case TARGET_SELF:
 				return activeChar;
 			case TARGET_AURA:
+			case TARGET_GROUND:
 			case TARGET_COMMCHANNEL:
 			case TARGET_MULTIFACE_AURA:
 				return activeChar;
@@ -2572,6 +2578,17 @@ public abstract class Skill extends StatTemplate implements Cloneable
 				}
 				break;
 			}
+			case TARGET_GROUND:
+			{
+				Player player = activeChar.getPlayer();
+				if (player == null)
+				{
+					break;
+				}
+				Location loc = player.getGroundSkillLoc();
+				addTargetsToList(targets, loc, activeChar, forceUse);
+				break;
+			}
 		}
 		return targets;
 	}
@@ -2651,6 +2668,42 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		}
 	}
 	
+	/**
+	 * Method addTargetsToList.
+	 * @param targets List<Creature>
+	 * @param loc Location
+	 * @param activeChar Creature
+	 * @param forceUse boolean
+	 */
+	private void addTargetsToList(List<Creature> targets, Location loc, Creature activeChar, boolean forceUse)
+	{
+		int count = 0;
+		for (Creature target : activeChar.getAroundCharacters(1600, 300))
+		{
+			if ((target == null) || (activeChar == target) || ((activeChar.getPlayer() != null) && (activeChar.getPlayer() == target.getPlayer())))
+			{
+				continue;
+			}
+			if (target.getDistance(loc) < getSkillRadius())
+			{
+				if (checkTarget(activeChar, target, target, forceUse, false) != null)
+				{
+					continue;
+				}
+				if (!(activeChar instanceof DecoyInstance) && activeChar.isNpc() && target.isNpc())
+				{
+					continue;
+				}
+				targets.add(target);
+			}
+			count++;
+			if (isOffensive() && (count >= 20) && !activeChar.isRaid())
+			{
+				break;
+			}
+		}
+	}
+
 	/**
 	 * Method getEffects.
 	 * @param effector Creature
@@ -4113,6 +4166,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 			case TARGET_AREA:
 			case TARGET_AREA_AIM_CORPSE:
 			case TARGET_AURA:
+			case TARGET_GROUND:
 			case TARGET_PET_AURA:
 			case TARGET_MULTIFACE:
 			case TARGET_MULTIFACE_AURA:
@@ -4132,6 +4186,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		switch (_targetType)
 		{
 			case TARGET_AURA:
+			case TARGET_GROUND:
 			case TARGET_MULTIFACE_AURA:
 			case TARGET_ALLY:
 			case TARGET_CLAN:
