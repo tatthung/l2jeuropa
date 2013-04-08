@@ -69,7 +69,7 @@
 			<set name="coolTime" val="300"/>
 			<set name="skillType" val="PDAM"/>
 			<set name="target" val="TARGET_ONE"/>
-			<set name="overHit" val="true"/>>
+			<set name="overHit" val="true"/>&gt;
 			<set name="operateType" val="OP_ACTIVE"/>
 			<set name="nextAction" val="attack"/>
 			<set name="isSkillTimePermanent" val="true"/>
@@ -167,7 +167,7 @@
 		<set name="magicLevel" val="85"/>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="BUFF"/>
-		<set name="relationSkillsId" val="832;231;171;148;227;225;319;173;229;"/> 
+		<set name="relationSkillsId" val="832;231;171;148;227;225;319;173;229;233;"/> 
 		<set name="operateType" val="OP_PASSIVE"/>
 		<enchant1 levels="10" name="Power">
 			<table name="#pDef">94 100 106 112 118 123 129 135 141 147</table>
@@ -676,7 +676,7 @@
     <!-- Jumps to attack frontal enemies with 10508 power added to P. Atk. and decreases their Speed by 70% for 5 seconds. The more Momentum used the more damage inflicted, up to a maximum of 5 Momentum levels. Requires a sword, blunt, spear, fist, dual blunt weapon, or dual sword weapon to be equipped. Over-hit. Critical. -->
 		<table name="#pwr">10508 11190 11872 12554 13236 13918 14600</table>
 		<table name="#magicLevel">87 89 91 93 95 97 99</table>
-		<set name="relationSkillsId" val="793;995"/> 
+		<set name="relationSkillsId" val="995;"/> 
 		<set name="isSkillTimePermanent" val="true"/> 
 		<set name="magicLevel" val="#magicLevel"/>
 		<set name="flyType" val="CHARGE"/>

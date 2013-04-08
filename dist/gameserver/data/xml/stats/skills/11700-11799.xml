@@ -11,7 +11,7 @@
 			<set name="coolTime" val="300"/>
 			<set name="skillType" val="PDAM"/>
 			<set name="target" val="TARGET_ONE"/>
-			<set name="overHit" val="true"/>>
+			<set name="overHit" val="true"/>&gt;
 			<set name="operateType" val="OP_ACTIVE"/>
 			<set name="nextAction" val="attack"/>
 			<set name="isSkillTimePermanent" val="true"/>
@@ -586,7 +586,7 @@
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="levelModifier" val="2"/>
 		<set name="delayedEffect" val="11779"/>
-		<set name="relationSkillsId" val="1201;1394;981;"/>
+		<set name="relationSkillsId" val="1201;1394;1069;"/>
 		<enchant1 levels="10" name="Cost"> 
 			<table name="#mpConsume2">24 23 21 20 18 16 15 13 12 10</table>
 			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table> 

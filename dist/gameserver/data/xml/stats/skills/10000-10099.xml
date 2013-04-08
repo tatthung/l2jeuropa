@@ -7,7 +7,7 @@
         <set name="target" val="TARGET_SELF"/>
         <set name="skillType" val="BUFF"/>
         <set name="operateType" val="OP_PASSIVE"/>
-        <set name="relationSkillsId" val="205;"/>
+        <set name="relationSkillsId" val="217;"/>
         <enchant1 levels="10" name="Power">
             <table name="#pAtk">218 232 245 259 272 286 299 313 326 340</table>
         </enchant1>
@@ -31,7 +31,7 @@
         <set name="target" val="TARGET_SELF"/>
         <set name="skillType" val="BUFF"/>
         <set name="operateType" val="OP_PASSIVE"/>
-        <set name="relationSkillsId" val="229;291;191;231;429;"/>
+        <set name="relationSkillsId" val="229;291;191;232;429;"/>
         <enchant1 levels="10" name="Power">
             <table name="#pDef">335 356 377 397 418 439 459 480 501 522</table>
             <table name="#pDefBonus">298 316 334 353 371 389 408 426 444 463</table>
@@ -1306,7 +1306,7 @@
 		<set name="target" val="TARGET_SELF"/>
         <set name="cancelable" val="false"/>
 		<set name="isCubic" val="true"/>
-        <set name="relationSkillsId" val="97;779;"/>
+        <set name="relationSkillsId" val="97;779;780;"/>
         <for>
             <effect name="Cubic" stackType="knight_cubic" stackOrder="1" time="900">
                 <def name="cubicId" val="15"/>

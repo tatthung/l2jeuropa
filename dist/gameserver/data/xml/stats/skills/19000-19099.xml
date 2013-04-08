@@ -240,8 +240,8 @@
 	<skill id="19018" levels="1" name="Clan Guardian Recovery">
     <!-- Restores HP/MP/CP. -->
 		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
 	</skill>
 	<skill id="19034" levels="1" name="Imprint of Light">
 		<set name="reuseDelay" val="5000"/>
@@ -279,7 +279,7 @@
 	</skill>
 	<skill id="19074" levels="1" name="Academy Precept">
     <!-- For 60 minutes, increases academy members' P. Atk. by 10%, M. Atk. by 10%, Critical Rate by 10%, and M. Critical Rate by 10%. -->
-		<set name="isClanSkill" val="true" />
+		<set name="isClanSkill" val="true"/>
 		<table name="#mpConsume2">100</table>
 		<set name="reuseDelay" val="43200000"/>
 		<set name="hitTime" val="4000"/>

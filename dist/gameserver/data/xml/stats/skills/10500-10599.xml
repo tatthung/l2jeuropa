@@ -936,7 +936,7 @@
         <set name="lifeTime" val="120"/>
         <set name="target" val="TARGET_SELF"/>
         <set name="skillType" val="SUMMON"/>
-		<set name="summonType" val="CLONE" />
+		<set name="summonType" val="CLONE"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <cond msgId="113" addName="1">
             <using kind="Dagger,Dual Dagger"/>

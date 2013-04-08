@@ -75,7 +75,7 @@
 		<set name="skillType" val="MDAM"/>
 		<set name="isMagic" val="true"/>
 		<set name="target" val="TARGET_ONE"/>
-		<set name="overHit" val="true"/>>
+		<set name="overHit" val="true"/>&gt;
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="nextAction" val="attack"/>
 		<set name="isSkillTimePermanent" val="true"/>
@@ -119,7 +119,7 @@
 		<set name="skillType" val="MDAM"/>
 		<set name="isMagic" val="true"/>
 		<set name="target" val="TARGET_ONE"/>
-		<set name="overHit" val="true"/>>
+		<set name="overHit" val="true"/>&gt;
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="nextAction" val="attack"/>
 		<set name="isSkillTimePermanent" val="true"/>
@@ -159,7 +159,7 @@
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="operateType" val="OP_PASSIVE"/>
-		<set name="relationSkillsId" val="228;141;925;330"/> 
+		<set name="relationSkillsId" val="228;925;330;331;"/> 
         <enchant1 levels="10" name="Power">
             <table name="#pAtk">88.3 93.7 99.2 104.6 110 115.4 120.8 126.3 131.7 137.1</table>
             <table name="#mAtk">110.5 117.2 124 130.8 137.6 144.3 151.1 157.9 164.6 171.4</table>
@@ -645,7 +645,7 @@
 		<set name="hitCancelTime" val="500"/>
 		<set name="mpConsume1" val="15"/>
 		<set name="mpConsume2" val="58"/>
-		<set name="relationSkillsId" val="779;"/> 
+		<set name="relationSkillsId" val="779;781;"/> 
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="operateType" val="OP_ACTIVE"/>
@@ -1295,7 +1295,7 @@
 		<set name="hitTime" val="3360"/>
 		<set name="mpConsume2" val="#mpConsume2"/>		
 		<set name="castRange" val="600"/>
-		<set name="relationSkillsId" val="1148;"/> 
+		<set name="relationSkillsId" val="1148;1530;"/> 
 		<set name="magicLevel" val="#magicLevel"/>
         <set name="effectPoint" val="#effectPoint"/>        
 		<set name="activateRate" val="#activateRate"/>
