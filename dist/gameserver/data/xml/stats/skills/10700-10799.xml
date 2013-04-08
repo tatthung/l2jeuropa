@@ -972,7 +972,7 @@
     </skill>
     <skill id="10781" levels="2" name="Phoenix Arrow">
     <!-- Shoots a magical arrow to obliterate an area. Attacks targets within the skill's range with 120000 power. -->
-        <table name="#power">12000 14000</table>
+        <table name="#power">120000 140000</table>
         <table name="#magicLevel">95 99</table>
         <table name="#mpConsume2">210 220</table>
         <table name="#powerPvP">0</table>
@@ -985,9 +985,9 @@
         <set name="power" val="#power"/>
 		<set name="symbolId" val="13025"/>
 		<set name="addSkills" val="10782;1"/>
-        <set name="target" val="TARGET_AREA"/>
-        <set name="skillRadius" val="200"/>
-        <set name="skillType" val="BUFF"/>
+        <set name="target" val="TARGET_GROUND"/>
+        <set name="skillRadius" val="300"/>
+        <set name="skillType" val="PDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
 		<cond msgId="1509">
 			<not>
