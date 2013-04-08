@@ -131,7 +131,8 @@
 		<set name="skillType" val="HEAL_HP_CP"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="relationSkillsId" val="1217;1401"/>
-		<enchant1 name="Power">
+		<enchant1 levels="10" name="Power">
+            <table name="#magicLevel">98 98 98 98 98 99 99 99 99 99</table>
 			<table name="#power">1583 1589 1596 1602 1615 1629 1642 1656 1670 1684</table>
 		</enchant1>
 	</skill>
@@ -146,7 +147,8 @@
 		<set name="skillType" val="HEAL_HP_CP"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="relationSkillsId" val="1218;"/>
-		<enchant1 name="Power">
+		<enchant1 levels="10" name="Power">
+            <table name="#magicLevel">98 98 98 98 98 99 99 99 99 99</table>
 			<table name="#power">1583 1589 1596 1602 1615 1629 1642 1656 1670 1684</table>
 		</enchant1>
 	</skill>
@@ -162,8 +164,9 @@
 		<set name="skillType" val="HEAL_HP_CP"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="relationSkillsId" val="1402;1219;"/>
-		<enchant1 name="Power">
-			<table name="#power">1269 1278 1286 1295 1304 1312 1321 1329  1347</table>
+		<enchant1 levels="10" name="Power">
+            <table name="#magicLevel">98 98 98 98 98 99 99 99 99 99</table>
+			<table name="#power">1269 1278 1286 1295 1304 1312 1321 1329 1338 1347</table>
 		</enchant1>
 	</skill>
 	<skill id="11758" levels="1" name="Celestial Protection">

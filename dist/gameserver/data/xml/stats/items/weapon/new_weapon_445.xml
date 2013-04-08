@@ -6,10 +6,10 @@
 		<!-- 타우티의 조각을 제련해서 만든 무기. 착용 시 타우티의 분노 스킬을 사용할 수 있다. 착용 시 공격 속도가 약 15%, 크리티컬이 150, 최대 HP가 25%, 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. 인챈트, 속성, 집혼, 제련 불가. -->
 		<set name="icon" value="icon.weapon_tauti_one_hand_axe_i01" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -37,10 +37,10 @@
 		<!-- 타우티의 조각을 제련해서 만든 무기. 착용 시 타우티의 분노 스킬을 사용할 수 있다. 착용 시 공격 속도가 약 15%, 크리티컬이 150, 최대 HP가 25%, 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. 인챈트, 속성, 집혼, 제련 불가. -->
 		<set name="icon" value="icon.weapon_tauti_one_hand_magic_axe_i01" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -67,10 +67,10 @@
 		<!-- 타우티의 조각을 제련해서 만든 무기. 착용 시 타우티의 분노 스킬을 사용할 수 있다. 착용 시 공격 속도가 약 15%, 크리티컬이 150, 최대 HP가 25%, 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. 인챈트, 속성, 집혼, 제련 불가. -->
 		<set name="icon" value="icon.weapon_tauti_two_hand_pole_i01" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -98,8 +98,8 @@
 		<set name="icon" value="icon.weapon_tauti_dual_axe_i01" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -126,10 +126,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. 가이던스, 헤이스트, 포커스 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i10" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -156,10 +156,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. 헤이스트, 포커스, 헬스 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i10" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -186,10 +186,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. 포커스, 대미지업, 헤이스트 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i10" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -216,10 +216,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. 헤이스트, Crt. 대미지, 포커스 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i10" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -247,10 +247,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. 포커스, 대미지업, 헤이스트 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i10" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -277,10 +277,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. HP 드레인, 가이던스, 대미지업 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i10" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -307,10 +307,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. 대미지업, 포커스, 롱블로 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i10" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -337,10 +337,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. 포커스, Crt. 슬로우, 헤이스트 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i10" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -367,10 +367,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. 아큐멘, 매직홀드, 마나업 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i10" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -397,10 +397,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. 엠파워, 아큐멘, 매직홀드 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i10" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -429,10 +429,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. MP 리제네레이션, 아큐멘, 엠파워 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i10" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -461,10 +461,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. 헤이스트, 대미지업, 헬스 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i10" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -491,10 +491,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. 대미지업, 포커스, 가이던스 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i10" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -522,8 +522,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i10" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -551,10 +551,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n명중이 7.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i11" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -581,10 +581,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i11" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -611,10 +611,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 81.9 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i11" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -641,10 +641,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i11" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -671,10 +671,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i11" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -701,10 +701,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n최대 HP가 25% 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i11" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -731,10 +731,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i11" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -761,10 +761,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i11" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -791,10 +791,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i11" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -821,10 +821,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i11" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -852,10 +852,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬 시 공격력이 1232 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i11" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -883,10 +883,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i11" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -914,10 +914,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 75.5 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i11" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -944,10 +944,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i11" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -974,10 +974,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i11" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1004,10 +1004,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n일반 물리공격으로 적에게 준 대미지의 4%만큼 HP회복하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i11" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -1034,10 +1034,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n명중이 7.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i11" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -1064,10 +1064,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i11" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -1094,10 +1094,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i11" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -1124,10 +1124,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i11" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -1154,10 +1154,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n사거리가 길어지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i11" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -1184,10 +1184,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i11" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1214,10 +1214,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬 시 일정 확률로 슬로우 효과를 주는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i11" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1244,10 +1244,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i11" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1274,10 +1274,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법시전속도가 15% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i11" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1304,10 +1304,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n타겟에게 마법 스킬을 사용할 때 20%의 확률로 드라이어드 루트를 걸어주는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i11" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1334,10 +1334,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n최대 MP가 30% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i11" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1364,10 +1364,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법력이 460 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i11" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1396,10 +1396,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법시전속도가 15% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i11" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1428,10 +1428,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n타겟에게 마법 스킬을 사용할 때 20%의 확률로 드라이어드 루트를 걸어주는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i11" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1460,10 +1460,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\nMP의 회복속도가 향상되는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i11" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1492,10 +1492,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법시전속도가 15% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i11" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1524,10 +1524,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법력이 460 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i11" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1556,10 +1556,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i11" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1586,10 +1586,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i11" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1616,10 +1616,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n최대 HP가 25% 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i11" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1646,10 +1646,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i11" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1676,10 +1676,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i11" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1706,10 +1706,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n명중이 7.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i11" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1737,8 +1737,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i11" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1767,8 +1767,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i11" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1797,8 +1797,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i11" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1826,10 +1826,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n명중이 8 증가하는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i11" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1856,10 +1856,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 크리티컬이 81.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i11" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1886,10 +1886,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 79.2 증가하는 기능이 부여됨. 명중이 7.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i11" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1916,10 +1916,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 크리티컬이 78.7 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i11" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1946,10 +1946,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 75.4 증가하는 기능이 부여됨. 최대 HP가 25% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i11" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -1976,10 +1976,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n최대 HP가 25% 증가하는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i11" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2006,10 +2006,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨. 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i11" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2036,10 +2036,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i11" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2066,10 +2066,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 크리티컬이 78.7 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i11" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2096,10 +2096,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 크리티컬 시 공격력이 1232 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i11" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2127,10 +2127,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬 시 공격력이 1232 증가하는 기능이 부여됨. 크리티컬이 78.7 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i11" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2158,10 +2158,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i11" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2189,10 +2189,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 81.9 증가하는 기능이 부여됨. 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i11" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2219,10 +2219,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i11" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2249,10 +2249,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 크리티컬이 75.5 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i11" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2279,10 +2279,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n근접 일반 물리공격으로 적에게 준 대미지의 4%만큼 HP회복하는 기능이 부여됨. 명중이 7.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i11" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -2309,10 +2309,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n명중이 7.8 증가하는 기능이 부여됨. 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i11" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -2339,10 +2339,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 288 증가하는 기능이 부여됨. 근접 일반 물리공격으로 적에게 준 대미지의 4%만큼 HP회복하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i11" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -2369,10 +2369,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. 크리티컬이 78.7 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i11" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -2399,10 +2399,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨. 사거리가 길어지는 기능이 부여됨 . PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i11" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -2429,10 +2429,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n사거리가 길어지는 기능이 부여됨 . 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i11" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -2459,10 +2459,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨. 크리티컬 시 일정 확률로 슬로우 효과를 주는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i11" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2489,10 +2489,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬 시 일정 확률로 슬로우 효과를 주는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i11" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2519,10 +2519,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 크리티컬이 78.7 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i11" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2549,10 +2549,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법시전속도가 15% 증가하는 기능이 부여됨. 타겟에게 마법 스킬을 사용할 때 20%의 확률로 드라이어드 루트를 걸어주는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i11" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2579,10 +2579,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n타겟에게 마법 스킬을 사용할 때 20%의 확률로 드라이어드 루트를 걸어주는 기능이 부여됨. 최대 MP가 30% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i11" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2609,10 +2609,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n최대 MP가 30% 증가하는 기능이 부여됨. 마법시전속도가 15% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i11" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2639,10 +2639,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법력이 460 증가하는 기능이 부여됨. 마법시전속도가 15% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i11" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2671,10 +2671,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법시전속도가 15% 증가하는 기능이 부여됨. 타겟에게 마법 스킬을 사용할 때 20%의 확률로 드라이어드 루트를 걸어주는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i11" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2703,10 +2703,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n타겟에게 마법 스킬을 사용할 때 20%의 확률로 드라이어드 루트를 걸어주는 기능이 부여됨. 마법력이 460 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i11" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2735,10 +2735,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\nMP의 회복속도가 향상되는 기능이 부여됨. 마법시전속도가 15% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i11" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2767,10 +2767,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법시전속도가 15% 증가하는 기능이 부여됨. 마법력이 460 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i11" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2799,10 +2799,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법력이 322 증가하는 기능이 부여됨. MP의 회복속도가 향상되는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i11" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2831,10 +2831,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i11" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2861,10 +2861,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 457 증가하는 기능이 부여됨. 최대 HP가 25% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i11" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2891,10 +2891,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n최대 HP가 25% 증가하는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i11" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2921,10 +2921,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 377 증가하는 기능이 부여됨. 크리티컬이 78.7 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i11" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2951,10 +2951,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 79.2 증가하는 기능이 부여됨. 명중이 7.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i11" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -2981,10 +2981,10 @@
 		<!-- PVP강화형 아이템, PC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n명중이 7.9 증가하는 기능이 부여됨. 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i11" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3012,8 +3012,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i11" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3042,8 +3042,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i11" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3072,8 +3072,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i11" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3101,10 +3101,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. 가이던스, 헤이스트, 포커스 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i20" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3131,10 +3131,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. 헤이스트, 포커스, 헬스 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i20" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3161,10 +3161,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. 포커스, 대미지업, 헤이스트 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i20" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3191,10 +3191,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. 헤이스트, Crt. 대미지, 포커스 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i20" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3222,10 +3222,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. 포커스, 대미지업, 헤이스트 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i20" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3252,10 +3252,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. HP 드레인, 가이던스, 대미지업 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i20" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -3282,10 +3282,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. 대미지업, 포커스, 롱블로 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i20" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -3312,10 +3312,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. 포커스, Crt. 슬로우, 헤이스트 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i20" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3342,10 +3342,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. 아큐멘, 매직홀드, 마나업 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i20" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3372,10 +3372,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. 엠파워, 아큐멘, 매직홀드 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i20" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3404,10 +3404,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. MP 리제네레이션, 아큐멘, 엠파워 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i20" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3436,10 +3436,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. 헤이스트, 대미지업, 헬스 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i20" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3466,10 +3466,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. 대미지업, 포커스, 가이던스 중 하나의 기능을 부여할 수 있다. 레어 집혼을 통해 두 가지의 기능을 부여할 수도 있다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i20" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3497,8 +3497,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i20" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3526,10 +3526,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n명중이 7.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i21" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3556,10 +3556,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i21" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3586,10 +3586,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 81.9 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i21" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3616,10 +3616,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i21" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3646,10 +3646,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i21" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3676,10 +3676,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n최대 HP가 25% 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i21" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3706,10 +3706,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i21" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3736,10 +3736,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i21" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3766,10 +3766,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i21" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3796,10 +3796,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i21" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3827,10 +3827,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬 시 공격력이 1232 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i21" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3858,10 +3858,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i21" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3889,10 +3889,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 75.5 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i21" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3919,10 +3919,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i21" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3949,10 +3949,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i21" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -3979,10 +3979,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n일반 물리공격으로 적에게 준 대미지의 4%만큼 HP회복하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i21" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -4009,10 +4009,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n명중이 7.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i21" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -4039,10 +4039,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i21" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -4069,10 +4069,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i21" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -4099,10 +4099,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i21" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -4129,10 +4129,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n사거리가 길어지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i21" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -4159,10 +4159,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i21" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4189,10 +4189,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬 시 일정 확률로 슬로우 효과를 주는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i21" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4219,10 +4219,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i21" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4249,10 +4249,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법시전속도가 15% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i21" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4279,10 +4279,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n타겟에게 마법 스킬을 사용할 때 20%의 확률로 드라이어드 루트를 걸어주는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i21" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4309,10 +4309,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n최대 MP가 30% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i21" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4339,10 +4339,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법력이 460 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i21" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4371,10 +4371,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법시전속도가 15% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i21" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4403,10 +4403,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n타겟에게 마법 스킬을 사용할 때 20%의 확률로 드라이어드 루트를 걸어주는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i21" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4435,10 +4435,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\nMP의 회복속도가 향상되는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i21" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4467,10 +4467,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법시전속도가 15% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i21" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4499,10 +4499,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법력이 460 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i21" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4531,10 +4531,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i21" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4561,10 +4561,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i21" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4591,10 +4591,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n최대 HP가 25% 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i21" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4621,10 +4621,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i21" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4651,10 +4651,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨, PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i21" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4681,10 +4681,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n명중이 7.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i21" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4712,8 +4712,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i21" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4742,8 +4742,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i21" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4772,8 +4772,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i21" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4801,10 +4801,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n명중이 8 증가하는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i21" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4831,10 +4831,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 크리티컬이 81.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i21" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4861,10 +4861,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 79.2 증가하는 기능이 부여됨. 명중이 7.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_stanpid_i21" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4891,10 +4891,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 크리티컬이 78.7 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i21" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4921,10 +4921,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 75.4 증가하는 기능이 부여됨. 최대 HP가 25% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i21" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4951,10 +4951,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n최대 HP가 25% 증가하는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 명중률, 물리 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weapon_plenitas_i21" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -4981,10 +4981,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨. 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i21" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5011,10 +5011,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i21" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5041,10 +5041,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 크리티컬이 78.7 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_bauen_i21" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5071,10 +5071,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 크리티컬 시 공격력이 1232 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i21" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5102,10 +5102,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬 시 공격력이 1232 증가하는 기능이 부여됨. 크리티컬이 78.7 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i21" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5133,10 +5133,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_qutram_i21" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5164,10 +5164,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 81.9 증가하는 기능이 부여됨. 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i21" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5194,10 +5194,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i21" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5224,10 +5224,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 크리티컬이 75.5 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격속도가 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_durga_i21" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5254,10 +5254,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n근접 일반 물리공격으로 적에게 준 대미지의 4%만큼 HP회복하는 기능이 부여됨. 명중이 7.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i21" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -5284,10 +5284,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n명중이 7.8 증가하는 기능이 부여됨. 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i21" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -5314,10 +5314,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 288 증가하는 기능이 부여됨. 근접 일반 물리공격으로 적에게 준 대미지의 4%만큼 HP회복하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 멀티 어택이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_crabel_i21" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -5344,10 +5344,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 415 증가하는 기능이 부여됨. 크리티컬이 78.7 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i21" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -5374,10 +5374,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨. 사거리가 길어지는 기능이 부여됨 . PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i21" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -5404,10 +5404,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n사거리가 길어지는 기능이 부여됨 . 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 스킬 위력이 증가한다. -->
 		<set name="icon" value="icon.weapon_castron_i21" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -5434,10 +5434,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 78.7 증가하는 기능이 부여됨. 크리티컬 시 일정 확률로 슬로우 효과를 주는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i21" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5464,10 +5464,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬 시 일정 확률로 슬로우 효과를 주는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i21" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5494,10 +5494,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 크리티컬이 78.7 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 공격 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_stilla_i21" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5524,10 +5524,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법시전속도가 15% 증가하는 기능이 부여됨. 타겟에게 마법 스킬을 사용할 때 20%의 확률로 드라이어드 루트를 걸어주는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i21" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5554,10 +5554,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n타겟에게 마법 스킬을 사용할 때 20%의 확률로 드라이어드 루트를 걸어주는 기능이 부여됨. 최대 MP가 30% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i21" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5584,10 +5584,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n최대 MP가 30% 증가하는 기능이 부여됨. 마법시전속도가 15% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 확률이 증가한다. -->
 		<set name="icon" value="icon.weaon_serapear_i21" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5614,10 +5614,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법력이 460 증가하는 기능이 부여됨. 마법시전속도가 15% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i21" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5646,10 +5646,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법시전속도가 15% 증가하는 기능이 부여됨. 타겟에게 마법 스킬을 사용할 때 20%의 확률로 드라이어드 루트를 걸어주는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i21" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5678,10 +5678,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n타겟에게 마법 스킬을 사용할 때 20%의 확률로 드라이어드 루트를 걸어주는 기능이 부여됨. 마법력이 460 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법 적중과 마법 크리티컬 대미지가 증가한다. -->
 		<set name="icon" value="icon.weapon_pilia_i21" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5710,10 +5710,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\nMP의 회복속도가 향상되는 기능이 부여됨. 마법시전속도가 15% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i21" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5742,10 +5742,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법시전속도가 15% 증가하는 기능이 부여됨. 마법력이 460 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i21" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5774,10 +5774,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n마법력이 322 증가하는 기능이 부여됨. MP의 회복속도가 향상되는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 마법력과 마법 크리티컬 대미지, 마법 시전 속도가 증가한다. -->
 		<set name="icon" value="icon.weapon_shaelon_i21" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5806,10 +5806,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n공격 속도가 약 15% 빨라지는 기능이 부여됨. 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i21" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5836,10 +5836,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 457 증가하는 기능이 부여됨. 최대 HP가 25% 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i21" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5866,10 +5866,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n최대 HP가 25% 증가하는 기능이 부여됨. 공격 속도가 약 15% 빨라지는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 확률이 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualsword_i21" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5896,10 +5896,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n물리 공격력이 377 증가하는 기능이 부여됨. 크리티컬이 78.7 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i21" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5926,10 +5926,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n크리티컬이 79.2 증가하는 기능이 부여됨. 명중이 7.9 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i21" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5956,10 +5956,10 @@
 		<!-- PVE강화형 아이템, NPC에게 주는 데미지가 12% 증가한다. <집혼 옵션>\\n명중이 7.9 증가하는 기능이 부여됨. 물리 공격력이 415 증가하는 기능이 부여됨. PVP 시 가해지는 대미지가 증가한다. +4 인챈트 시 물리 크리티컬 대미지 증가, 공격력이 추가로 증가한다. -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i21" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -5987,8 +5987,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i21" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6017,8 +6017,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i21" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6047,8 +6047,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i21" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6076,10 +6076,10 @@
 		<!-- 혁명군을 육성하기 위해 만들어진 장검. 드롭, 교환, 거래 불가. -->
 		<set name="icon" value="icon.weapon_dynasty_blade_i00" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6105,10 +6105,10 @@
 		<!-- 혁명군을 육성하기 위해 만들어진 활. 드롭, 교환, 거래 불가. -->
 		<set name="icon" value="icon.weapon_dynasty_bow_i00" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -6134,10 +6134,10 @@
 		<!-- 혁명군을 육성하기 위해 만들어진 마법검. 드롭, 교환, 거래 불가. -->
 		<set name="icon" value="icon.weapon_dynasty_magic_sword_i00" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6163,10 +6163,10 @@
 		<!-- 혁명군을 육성하기 위해 만들어진 단검. 드롭, 교환, 거래 불가. -->
 		<set name="icon" value="icon.weapon_dynasty_dagger_i00" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6192,10 +6192,10 @@
 		<!-- 혁명군을 육성하기 위해 만들어진 이도류. 드롭, 교환, 거래 불가. -->
 		<set name="icon" value="icon.weapon_dual_sword_i00" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6221,10 +6221,10 @@
 		<!-- 혁명군을 육성하기 위해 만들어진 양손검. 드롭, 교환, 거래 불가. -->
 		<set name="icon" value="icon.weapon_dynasty_twohand_sword_i00" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6250,10 +6250,10 @@
 		<!-- 혁명군을 육성하기 위해 만들어진 격투무기. 드롭, 교환, 거래 불가. -->
 		<set name="icon" value="icon.weapon_dynasty_jamadhr_i00" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6273,10 +6273,10 @@
 		<!-- 혁명군을 육성하기 위해 만들어진 세검. 드롭, 교환, 거래 불가. -->
 		<set name="icon" value="icon.weapon_dynasty_rapier_i00" />
 		<set name="type" value="RAPIER"/>
-        <set name="ex_type" value="RAPIER"/>
+		<set name="ex_type" value="RAPIER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="40" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6296,10 +6296,10 @@
 		<!-- 혁명군을 육성하기 위해 만들어진 둔기. 드롭, 교환, 거래 불가. -->
 		<set name="icon" value="icon.weapon_dynasty_hammer_i00" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6320,10 +6320,10 @@
 		<!-- 테스트용 (GD2.0 업데이트 내용 아님) -->
 		<set name="icon" value="icon.weapon_stanpid_i10" />
 		<set name="type" value="DAGGER"/>
-        <set name="ex_type" value="DAGGER"/>
+		<set name="ex_type" value="DAGGER"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6344,10 +6344,10 @@
 		<!-- 테스트용 (GD2.0 업데이트 내용 아님) -->
 		<set name="icon" value="icon.weapon_plenitas_i10" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6368,10 +6368,10 @@
 		<!-- 테스트용 (GD2.0 업데이트 내용 아님) -->
 		<set name="icon" value="icon.weapon_bauen_i10" />
 		<set name="type" value="BIGSWORD"/>
-        <set name="ex_type" value="BIG_SWORD"/>
+		<set name="ex_type" value="BIG_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6392,10 +6392,10 @@
 		<!-- 테스트용 (GD2.0 업데이트 내용 아님) -->
 		<set name="icon" value="icon.weapon_qutram_i10" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6417,10 +6417,10 @@
 		<!-- 테스트용 (GD2.0 업데이트 내용 아님) -->
 		<set name="icon" value="icon.weapon_durga_i10" />
 		<set name="type" value="DUALFIST"/>
-        <set name="ex_type" value="HAND_TO_HAND"/>
+		<set name="ex_type" value="HAND_TO_HAND"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6441,10 +6441,10 @@
 		<!-- 테스트용 (GD2.0 업데이트 내용 아님) -->
 		<set name="icon" value="icon.weapon_crabel_i10" />
 		<set name="type" value="POLE"/>
-        <set name="ex_type" value="POLE"/>
+		<set name="ex_type" value="POLE"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="80" />
 		<set name="damage_range" value="0;0;66;120" />
@@ -6465,10 +6465,10 @@
 		<!-- 테스트용 (GD2.0 업데이트 내용 아님) -->
 		<set name="icon" value="icon.weapon_castron_i10" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -6489,10 +6489,10 @@
 		<!-- 테스트용 (GD2.0 업데이트 내용 아님) -->
 		<set name="icon" value="icon.weapon_stilla_i10" />
 		<set name="type" value="CROSSBOW"/>
-        <set name="ex_type" value="CROSSBOW"/>
+		<set name="ex_type" value="CROSSBOW"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6513,10 +6513,10 @@
 		<!-- 테스트용 (GD2.0 업데이트 내용 아님) -->
 		<set name="icon" value="icon.weaon_serapear_i10" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6537,10 +6537,10 @@
 		<!-- 테스트용 (GD2.0 업데이트 내용 아님) -->
 		<set name="icon" value="icon.weapon_pilia_i10" />
 		<set name="type" value="BLUNT"/>
-        <set name="ex_type" value="BLUNT_WEAPON"/>
+		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6563,10 +6563,10 @@
 		<!-- 테스트용 (GD2.0 업데이트 내용 아님) -->
 		<set name="icon" value="icon.weapon_shaelon_i10" />
 		<set name="type" value="BIGBLUNT"/>
-        <set name="ex_type" value="BIG_BLUNT_WEAPON"/>
+		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6589,10 +6589,10 @@
 		<!-- 테스트용 (GD2.0 업데이트 내용 아님) -->
 		<set name="icon" value="icon.weapon_r_dualsword_i10" />
 		<set name="type" value="DUAL"/>
-        <set name="ex_type" value="DUAL_SWORD"/>
+		<set name="ex_type" value="DUAL_SWORD"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6613,10 +6613,10 @@
 		<!-- 테스트용 (GD2.0 업데이트 내용 아님) -->
 		<set name="icon" value="icon.weapon_r_dualdagger_i10" />
 		<set name="type" value="DUALDAGGER"/>
-        <set name="ex_type" value="DUAL_DAGGER"/>
+		<set name="ex_type" value="DUAL_DAGGER"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6638,8 +6638,8 @@
 		<set name="icon" value="icon.weapon_r_dualblunt_i10" />
 		<set name="type" value="DUALBLUNT"/>
 		<equip>
-            <slot id="LEFT_RIGHT_HAND"/>
-        </equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="20" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6661,10 +6661,10 @@
 		<!-- 테스트용 무기. -->
 		<set name="icon" value="BranchSys2.icon.br_wp_Caladbulg_i00" />
 		<set name="type" value="SWORD"/>
-        <set name="ex_type" value="SWORD"/>
+		<set name="ex_type" value="SWORD"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="10" />
 		<set name="attack_range" value="40" />
 		<set name="damage_range" value="0;0;40;120" />
@@ -6681,10 +6681,10 @@
 		<!-- 루미 전용 무기 -->
 		<set name="icon" value="icon.weapon_monster_i00" />
 		<set name="type" value="BOW"/>
-        <set name="ex_type" value="BOW"/>
+		<set name="ex_type" value="BOW"/>
 		<equip>
-            <slot id="RIGHT_HAND"/>
-        </equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
 		<set name="rnd_dam" value="5" />
 		<set name="damage_range" value="0;0;10;0" />
 		<set name="attack_range" value="500" />
@@ -6697,6 +6697,6 @@
 		<set name="spiritshots" value="2" />
 		<set name="enchant_enabled" value="1" />
 		<for>
-        </for>
-    </weapon>
+		</for>
+	</weapon>
 </list>

@@ -1166,78 +1166,78 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2287" levels="6" name="Elixir of Life (No Grade)">
-    <!-- none -->
-		<table name="#itemConsumeId">8622 8623 8624 8625 8626 8627</table>
-		<table name="#levelMin">1 20 40 52 61 76</table>
-		<table name="#levelMax">19 39 51 60 75 84</table>
-		<table name="#power">250 650 1100 1500 1900 2300</table>
-		<set name="magicType" val="SPECIAL"/>
-		<set name="icon" val="icon.skill0000"/>
-		<set name="reuseDelay" val="600000"/>
-		<set name="power" val="#power"/>
-		<set name="magicLevel" val="1"/>
-		<set name="itemConsumeId" val="#itemConsumeId"/>
-		<set name="itemConsumeCount" val="1"/>
-		<set name="isHandler" val="true"/>
-		<set name="altUse" val="true"/>
-		<set name="target" val="TARGET_SELF"/>
-		<set name="skillType" val="HEAL"/>
-		<set name="operateType" val="OP_ACTIVE"/>
+	<skill id="2287" levels="7" name="Elixir of Life (No Grade)">
+		<!--gorodetskiy-->
+		<table name="#itemConsumeId">8622 8623 8624 8625 8626 8627 30357</table>
+		<table name="#levelMin">1 20 40 52 61 76 85</table>
+		<table name="#levelMax">19 39 51 60 75 84 99</table>
+		<table name="#power">250 650 1100 1500 1900 2300 2700</table>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuseDelay" val="600000" />
+		<set name="power" val="#power" />
+		<set name="magicLevel" val="1" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="altUse" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<cond msgId="1902">
 			<and>
-				<player minLevel="#levelMin"/>
-				<player maxLevel="#levelMax"/>
+				<player minLevel="#levelMin" />
+				<player maxLevel="#levelMax" />
 			</and>
 		</cond>
 	</skill>
-	<skill id="2288" levels="6" name="Elixir of Mental Strength (No Grade)">
-    <!-- none -->
-		<table name="#itemConsumeId">8628 8629 8630 8631 8632 8633</table>
-		<table name="#levelMin">1 20 40 52 61 76</table>
-		<table name="#levelMax">19 39 51 60 75 84</table>
-		<table name="#power">60 140 220 290 360 420</table>
-		<set name="magicType" val="SPECIAL"/>
-		<set name="icon" val="icon.skill0000"/>
-		<set name="reuseDelay" val="600000"/>
-		<set name="power" val="#power"/>
-		<set name="magicLevel" val="1"/>
-		<set name="itemConsumeId" val="#itemConsumeId"/>
-		<set name="itemConsumeCount" val="1"/>
-		<set name="isHandler" val="true"/>
-		<set name="altUse" val="true"/>
-		<set name="target" val="TARGET_SELF"/>
-		<set name="skillType" val="MANAHEAL"/>
-		<set name="operateType" val="OP_ACTIVE"/>
+	<skill id="2288" levels="7" name="Elixir of Mental Strength (No Grade)">
+		<!--gorodetskiy-->
+		<table name="#itemConsumeId">8628 8629 8630 8631 8632 8633 30358</table>
+		<table name="#levelMin">1 20 40 52 61 76 85</table>
+		<table name="#levelMax">19 39 51 60 75 84 99</table>
+		<table name="#power">60 140 220 290 360 420 480</table>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuseDelay" val="600000" />
+		<set name="power" val="#power" />
+		<set name="magicLevel" val="1" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="altUse" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="MANAHEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<cond msgId="1902">
 			<and>
-				<player minLevel="#levelMin"/>
-				<player maxLevel="#levelMax"/>
+				<player minLevel="#levelMin" />
+				<player maxLevel="#levelMax" />
 			</and>
 		</cond>
 	</skill>
-	<skill id="2289" levels="6" name="Elixir of CP (No Grade)">
-    <!-- none -->
-		<table name="#itemConsumeId">8634 8635 8636 8637 8638 8639</table>
-		<table name="#levelMin">1 20 40 52 61 76</table>
-		<table name="#levelMax">19 39 51 60 75 84</table>
-		<table name="#power">150 350 600 800 1000 1200</table>
-		<set name="magicType" val="SPECIAL"/>
-		<set name="icon" val="icon.skill0000"/>
-		<set name="reuseDelay" val="600000"/>
-		<set name="power" val="#power"/>
-		<set name="magicLevel" val="1"/>
-		<set name="itemConsumeId" val="#itemConsumeId"/>
-		<set name="itemConsumeCount" val="1"/>
-		<set name="isHandler" val="true"/>
-		<set name="altUse" val="true"/>
-		<set name="target" val="TARGET_SELF"/>
-		<set name="skillType" val="COMBATPOINTHEAL"/>
-		<set name="operateType" val="OP_ACTIVE"/>
+	<skill id="2289" levels="7" name="Elixir of CP (No Grade)">
+		<!--gorodetskiy-->
+		<table name="#itemConsumeId">8634 8635 8636 8637 8638 8639 30359</table>
+		<table name="#levelMin">1 20 40 52 61 76 85</table>
+		<table name="#levelMax">19 39 51 60 75 84 99</table>
+		<table name="#power">150 350 600 800 1000 1200 1400</table>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuseDelay" val="600000" />
+		<set name="power" val="#power" />
+		<set name="magicLevel" val="1" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="altUse" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="COMBATPOINTHEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<cond msgId="1902">
 			<and>
-				<player minLevel="#levelMin"/>
-				<player maxLevel="#levelMax"/>
+				<player minLevel="#levelMin" />
+				<player maxLevel="#levelMax" />
 			</and>
 		</cond>
 	</skill>
