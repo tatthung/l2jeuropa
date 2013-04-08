@@ -14,8 +14,12 @@ package lineage2.gameserver.model;
 
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.StringTokenizer;
+import java.util.Map.Entry;
 
 import lineage2.commons.collections.LazyArrayList;
 import lineage2.commons.geometry.Polygon;
@@ -1638,6 +1642,9 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	 * Field reuseGroupId.
 	 */
 	private final int reuseGroupId = -1;
+	protected boolean _isPowerModified = false;
+	private int _powerModCount;
+	private HashMap <List<String>, Double> _powerModifiers = new HashMap<List<String>, Double>();
 	
 	/**
 	 * Constructor for Skill.
@@ -1677,6 +1684,30 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		String s1 = set.getString("itemConsumeCount", "");
 		String s2 = set.getString("itemConsumeId", "");
 		String s3 = set.getString("relationSkillsId", "");
+		_powerModCount = set.getInteger("powerModCount",0);
+		if(!(_powerModCount == 0))
+		{
+			_isPowerModified = true;
+			for(int i = 0; i < _powerModCount; i++)
+			{
+				List <String> weaponsMod = new ArrayList<String>();
+				String sPowerMod = set.getString("powerModByWeapon"+String.valueOf(i+1),"");
+				double dPowerMod = set.getDouble("powerModPercent"+String.valueOf(i+1),1.);
+				if(sPowerMod.length() == 0)
+				{
+					weaponsMod.add("None");
+				}
+				else
+				{
+					String[] s = sPowerMod.split(";");
+					for(int j = 0; j < s.length; j++)
+					{
+						weaponsMod.add(s[j]);
+					}
+				}
+				_powerModifiers.put(weaponsMod,dPowerMod);
+			}
+		}
 		if (s1.length() == 0)
 		{
 			_itemConsume = new int[]
@@ -1899,6 +1930,48 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		activeChar.sendPacket(new SystemMessage(SystemMessage.S1_CANNOT_BE_USED_DUE_TO_UNSUITABLE_TERMS).addSkillName(_displayId, _displayLevel));
 		return false;
 	}
+	
+
+	/**
+	 * Method getWeaponModifiedPower.
+	 * @param activeChar Creature
+	 * @return boolean
+	 */
+	public double getWeaponModifiedPower(Creature activeChar)
+	{
+		if ((activeChar.getActiveWeaponInstance() != null) && (activeChar.getActiveWeaponItem() != null))
+		{		
+			
+			for(Iterator <Entry<List<String>,Double>> i = _powerModifiers.entrySet().iterator(); i.hasNext();)
+			{
+				Map.Entry<List<String>,Double> e = i.next();
+				for(String weaponName : e.getKey())
+				{
+					if(activeChar.getActiveWeaponItem().getItemType().toString().equals(weaponName))
+					{
+						return e.getValue();
+					}
+				}
+			}
+		}
+		if ((activeChar.getSecondaryWeaponInstance() != null) && (activeChar.getSecondaryWeaponItem() != null))
+		{			
+			for(Iterator <Entry<List<String>,Double>> i = _powerModifiers.entrySet().iterator(); i.hasNext();)
+			{
+				Map.Entry<List<String>,Double> e = i.next();
+				for(String weaponName : e.getKey())
+				{
+					if(activeChar.getActiveWeaponItem().getItemType().toString().equals(weaponName))
+					{
+						return e.getValue();
+					}
+				}
+			}			
+		}
+		return 1.;		
+	}
+
+
 	
 	/**
 	 * Method checkCondition.
@@ -4587,5 +4660,10 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	public int getFlySpeed()
 	{
 		return _flySpeed;
+	}
+
+	public boolean isPowerModified() 
+	{		
+		return _isPowerModified;
 	}
 }

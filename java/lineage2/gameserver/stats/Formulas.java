@@ -415,6 +415,11 @@ public class Formulas
 					attacker.sendPacket(SystemMsg.YOUR_LETHAL_STRIKE_WAS_SUCCESSFUL);
 				}
 			}
+			if(skill.isPowerModified())
+			{
+				double percentMod = skill.getWeaponModifiedPower(attacker);
+				info.damage *= percentMod;
+			}
 			if (info.damage > 0)
 			{
 				attacker.displayGiveDamageMessage(target, (int) info.damage, info.crit || blow, false, false, false);

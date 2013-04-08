@@ -269,19 +269,21 @@
 		<table name="#powerPvP">0</table>
 		<table name="#element">none</table>
 		<table name="#elementPower">0</table>
+		<set name="castRange" val="40"/>
 		<set name="relationSkillsId" val="116;362;284;1;920;501;190;281;"/>
 		<set name="magicLevel" val="#magicLevel"/>
 		<set name="activateRate" val="30"/>
 		<set name="nextAction" val="attack"/>
-		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="power" val="#Power"/>
 		<set name="powerPvP" val="#powerPvP"/>
 		<set name="element" val="#element"/>
 		<set name="elementPower" val="#elementPower"/>
+		<set name="criticalRate" val="10"/>
+		<set name="overHit" val="true"/>
 		<set name="saveVs" val="CON"/>
 		<set name="skillType" val="PDAM"/>
 		<set name="target" val="TARGET_ONE"/>
-		<set name="overHit" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="alterSkillsId" val="10499;10500;14579"/>
 		<cond msgId="113" addName="1">
 			<not>
@@ -345,6 +347,7 @@
 		<set name="element" val="#element"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="overHit" val="true"/>
+		<set name="criticalRate" val="10"/>
 		<set name="relationSkillsId" val="921;492;280;5;"/> 
 		<set name="skillType" val="PDAM"/>
 		<set name="operateType" val="OP_ACTIVE"/>
@@ -398,14 +401,14 @@
 		<table name="#elementPower">0</table>
 		<table name="#element">none</table>
 		<set name="magicLvl" val="#magicLevel"/>
-		<set name="nextActionAttack" val="true"/>
+		<set name="nextAction" val="attack"/>
 		<set name="powerPvP" val="#powerPvP"/>
 		<set name="power" val="#power"/>
 		<set name="elementPower" val="#elementPower"/>
 		<set name="element" val="#element"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="overHit" val="true"/>
-		<set name="critRate" val="10"/>
+		<set name="criticalRate" val="10"/>
 		<set name="relationSkillsId" val="81;315;498;261;"/> 
 		<set name="skillType" val="PDAM"/>
 		<set name="trait" val="KNOCKDOWN"/>
@@ -519,9 +522,15 @@
 		<set name="nextAction" val="attack"/>
 		<set name="power" val="#Power"/>
 		<set name="powerPvP" val="#powerPvP"/>
+		<set name="powerModCount" val="2"/>
+		<set name="powerModByWeapon1" val="Sword;Blunt;Dual Fist"/>
+		<set name="powerModPercent1" val="0.9"/>
+		<set name="powerModByWeapon2" val="Pole"/>
+		<set name="powerModPercent2" val="1.5"/>
 		<set name="element" val="#element"/>
 		<set name="elementPower" val="#elementPower"/>		
 		<set name="target" val="TARGET_AURA"/>
+		<set name="criticalRate" val="10"/>
 		<set name="overHit" val="true"/>
 		<set name="unaggroing" val="true"/>
 		<set name="skillRadius" val="500"/>
@@ -687,6 +696,7 @@
 		<set name="nextAction" val="attack"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="power" val="#pwr"/>
+		<set name="criticalRate" val="10"/>
 		<set name="skillType" val="PDAM"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="max_charges" val="5"/>
@@ -818,13 +828,14 @@
 	</skill>
     <skill id="10275" levels="1" name="Infinity Strike">
     <!-- Inflicts a powerful attack on the target with 34026 Power added to P. Atk. Requires a sword, blunt, spear, fist, dual blunt weapon, or dual sword weapon to be equipped. Over-hit. Critical. -->
-    	<table name="#power">34026</table>
-    	<table name="#powerPvP">0</table>
-    	<set name="magicLevel" val="99"/>
+	    	<table name="#power">34026</table>
+	    	<table name="#powerPvP">0</table>
+	    	<set name="magicLevel" val="99"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="power" val="#power"/>
 		<set name="powerPvP" val="#powerPvP"/>
 		<set name="skillType" val="PDAM"/>
+		<set name="criticalRate" val="10"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="overHit" val="true"/>
 		<cond msgId="113" addName="1">
@@ -950,6 +961,7 @@
 		<set name="nextAction" val="attack"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="power" val="#pwr"/>
+		<set name="criticalRate" val="10"/>
 		<set name="powerPvP" val="#powerPvP"/>
 		<set name="skillType" val="PDAM"/>
 		<set name="skillRadius" val="600"/>
@@ -1064,8 +1076,14 @@
 		<table name="#magicLevel">85 86 87 88 89 90 91 92</table>
 		<set name="nextAction" val="attack"/>
 		<set name="relationSkillsId" val="54;7;347;35;6;526;"/> 
-		<set name="power" val="#pwr"/>
+		<set name="power" val="#pwr"/> 
+		<set name="powerModCount" val="2"/> 
+		<set name="powerModByWeapon1" val="Sword;Blunt;Dual Fist"/>
+		<set name="powerModPercent1" val="0.9"/>
+		<set name="powerModByWeapon2" val="Pole"/>
+		<set name="powerModPercent2" val="1.5"/>
 		<set name="target" val="TARGET_MULTIFACE"/>
+		<set name="criticalRate" val="10"/>
 		<set name="skillRadius" val="85"/>
 		<set name="overHit" val="true"/>
 		<set name="skillType" val="PDAM"/>
@@ -1119,79 +1137,124 @@
 	</skill>
    <skill id="10291" levels="1" name="Feral Bear Cry">
     <!-- Shouts loudly to invoke the power of the Bear. For 5 minutes, increases your P. Atk. and P.Critical Damage by 30%. -->
+	  	<table name="#time">300</table>
+	  	<table name="#knockdown">0</table>
 		<set name="magicLevel" val="85"/>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="aggroPoints" val="624"/>
+		<enchant1 levels="10" name="Time">
+			<table name="#time">300 300 300 300 300 300 300 300 300 300</table> <!-- TODO: need to confirm official incremental values-->
+		</enchant1>
+		<enchant2 levels="10" name="Chance Knockdown">
+			<table name="#knockdown">1 2 3 4 5 6 7 8 9 10</table> 
+		</enchant2>
 		<for>
-			<effect name="Buff" time="300" val="0" stackOrder="1" stackType="possession">
+			<effect name="Buff" time="#time" val="0" stackOrder="1" stackType="possession">
 				<mul order="0x30" stat="pAtk" val="1.3"/>
 				<mul order="0x30" stat="cAtk" val="1.3"/>
+				<add order="0x40" stat="knockDownPower" val="#knockdown"/>
 			</effect>
 		</for>
 	</skill>
     <skill id="10292" levels="1" name="Feral Ogre Cry">
     <!-- Shouts loudly to invoke the power of the Ogre. For 5 minutes, increases your P. Atk., P. Def. And M. Def. by 35% and P. Critical Damage and Max HP by 10%. -->
+	  	<table name="#time">300</table>
+	  	<table name="#knockdown">0</table>
 		<set name="relationSkillsId" val="500;78;830;482;109;94;828;139;829;130;"/> 
 		<set name="magicLevel" val="85"/>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="aggroPoints" val="438"/>
+		<enchant1 levels="10" name="Time">
+			<table name="#time">300 300 300 300 300 300 300 300 300 300</table> <!-- TODO: need to confirm official incremental values-->
+		</enchant1>
+		<enchant2 levels="10" name="Chance Knockdown">
+			<table name="#knockdown">1 2 3 4 5 6 7 8 9 10</table> 
+		</enchant2>
 		<for>
-			<effect name="Buff" time="300" val="0" stackOrder="1" stackType="possession">
+			<effect name="Buff" time="#time" val="0" stackOrder="1" stackType="possession">
 				<mul order="0x30" stat="pAtk" val="1.35"/>
 				<mul order="0x30" stat="pDef" val="1.35"/>
 				<mul order="0x30" stat="mDef" val="1.35"/>
 				<mul order="0x30" stat="cAtk" val="1.1"/>
 				<mul order="0x30" stat="maxHp" val="1.1"/>
+				<add order="0x40" stat="knockDownPower" val="#knockdown"/>
 			</effect>
 		</for>
 	</skill>
     <skill id="10293" levels="1" name="Feral Puma Cry">
     <!-- Shouts loudly to invoke the power of the Puma. For 5 minutes, increases your P. Accuracy by 10 and Atk. Spd. by 20%, and decreases Critical Damage received by 40%. -->
+	  	<table name="#time">300</table>
+	  	<table name="#knockdown">0</table>
 		<set name="magicLevel" val="85"/>
 		<set name="relationSkillsId" val="282;130;500;78;822;482;823;94;824;139;"/> 
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="operateType" val="OP_ACTIVE"/>
+		<enchant1 levels="10" name="Time">
+			<table name="#time">300 300 300 300 300 300 300 300 300 300</table> <!-- TODO: need to confirm official incremental values-->
+		</enchant1>
+		<enchant2 levels="10" name="Chance Knockdown">
+			<table name="#knockdown">1 2 3 4 5 6 7 8 9 10</table> 
+		</enchant2>
 		<for>
-			<effect name="Buff" time="300" val="0" stackOrder="1" stackType="possession">
+			<effect name="Buff" time="#time" val="0" stackOrder="1" stackType="possession">
 				<add order="0x40" stat="accCombat" val="10"/>
 				<mul order="0x30" stat="pAtkSpd" val="1.2"/>
 				<mul order="0x30" stat="critDamRcpt" val="0.6"/>
+				<add order="0x40" stat="knockDownPower" val="#knockdown"/>
 			</effect>
 		</for>
 	</skill>
     <skill id="10294" levels="1" name="Feral Rabbit Cry">
     <!-- Shouts loudly to invoke the power of the Rabbit. For 5 minutes, increases your Atk. Spd. by 30%, Speed by 35% and P. Evasion by 15. -->
+	  	<table name="#time">300</table>
+	  	<table name="#knockdown">0</table>
 		<set name="relationSkillsId" val="451;823;298;"/> 
 		<set name="aggroPoints" val="582"/>
 		<set name="magicLevel" val="85"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="target" val="TARGET_SELF"/>
+		<enchant1 levels="10" name="Time">
+			<table name="#time">300 300 300 300 300 300 300 300 300 300</table> <!-- TODO: need to confirm official incremental values-->
+		</enchant1>
+		<enchant2 levels="10" name="Chance Knockdown">
+			<table name="#knockdown">1 2 3 4 5 6 7 8 9 10</table> 
+		</enchant2>
 		<for>
-			<effect name="Buff" time="300" val="0" stackOrder="1" stackType="possession">
+			<effect name="Buff" time="#time" val="0" stackOrder="1" stackType="possession">
 				<mul order="0x30" stat="pAtkSpd" val="1.3"/>
 				<mul order="0x30" stat="runSpd" val="1.35"/>
 				<add order="0x40" stat="rEvas" val="15"/>
+				<add order="0x40" stat="knockDownPower" val="#knockdown"/>
 			</effect>
 		</for>
 	</skill>
     <skill id="10295" levels="1" name="Hawk Cry">
     <!-- Shouts loudly to invoke the power of the Hawk. For 5 minutes, increases your P. Accuracy by 8, Critical Rate by 120 and Critical Damage by 30%. -->
+	  	<table name="#time">300</table>
+	  	<table name="#knockdown">0</table>
 		<set name="relationSkillsId" val="425;"/>
 		<set name="magicLevel" val="85"/>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="operateType" val="OP_ACTIVE"/>
+		<enchant1 levels="10" name="Time">
+			<table name="#time">300 300 300 300 300 300 300 300 300 300</table> <!-- TODO: need to confirm official incremental values-->
+		</enchant1>
+		<enchant2 levels="10" name="Chance Knockdown">
+			<table name="#knockdown">1 2 3 4 5 6 7 8 9 10</table> 
+		</enchant2>
 		<for>
-			<effect name="Buff" time="300" val="0" stackOrder="1" stackType="possession">
+			<effect name="Buff" time="#time" val="0" stackOrder="1" stackType="possession">
 				<add order="0x40" stat="accCombat" val="8"/>
 				<add order="0x40" stat="rCrit" val="120"/>
 				<mul order="0x30" stat="cAtk" val="1.3"/>
+				<add order="0x40" stat="knockDownPower" val="#knockdown"/>
 			</effect>
 		</for>
 	</skill>
