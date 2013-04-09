@@ -4074,7 +4074,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25875" name="Queen of Darkness" title="Raid Boss"> <!--Need retail stats -->
+    <npc id="25875" name="Queen of Darkness" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -4263,7 +4263,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25878" name="Arbitor of Darkness" title="Raid Fighter"> <!--Need retail stats -->
+    <npc id="25878" name="Arbitor of Darkness" title="Raid Fighter">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
