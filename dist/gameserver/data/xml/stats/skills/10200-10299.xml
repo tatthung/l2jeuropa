@@ -671,13 +671,15 @@
 		<set name="magicLevel" val="#magicLevel"/>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="relationSkillsId" val="423;"/> 
+		<set name="aggroPoints" val="597"/>
 		<set name="skillType" val="CONT"/>
 		<set name="operateType" val="OP_TOGGLE"/>
 			<for>
 				<effect count="0x7fffffff" abnormal="rollingThunder" name="LDManaDamOverTime" time="5" val="#mp"/>
-				<effect count="0x7fffffff" name="CallSkills" time="5" val="0">
+				<effect count="0x7fffffff" name="CallSkills" time="20" val="0">
 					<def name="skillIds" val="10287"/>
 					<def name="skillLevels" val="#level"/>
+					<def name="isRecursive" val="true"/>
 				</effect>
 			</for>
 	</skill>
@@ -1057,15 +1059,15 @@
 	</skill>
     <skill id="10287" levels="6" name="Rolling Thunder">
     <!-- HP decreases by 225 per second. -->
-        <table name="#magicLevel">89 91 93 95 97 99</table>
-        <table name="#dot">675 684 696 705 714 726</table>
-        <table name="#abnormalLvl">1 2 3 4 5 6</table>
+		<table name="#magicLevel">89 91 93 95 97 99</table>
+		<table name="#dot">675 684 696 705 714 726</table>
+		<table name="#abnormalLvl">1 2 3 4 5 6</table>
 		<set name="magicLevel" val="#magicLevel"/>
 		<set name="power" val="100"/>
-        <set name="target" val="TARGET_AURA"/>		
+	        <set name="target" val="TARGET_AURA"/>		
 		<set name="skillType" val="DEBUFF"/>
-        <set name="skillRadius" val="200"/>
-        <set name="operateType" val="OP_ACTIVE"/>
+		<set name="skillRadius" val="200"/>
+		<set name="operateType" val="OP_ACTIVE"/>
 		<for>
 			<effect abnormal="poison" count="5" name="Poison" stackOrder="#abnormalLvl" time="3" val="#dot"/>
 		</for>

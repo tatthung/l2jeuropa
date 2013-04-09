@@ -51,6 +51,7 @@ import lineage2.gameserver.skills.effects.EffectGrow;
 import lineage2.gameserver.skills.effects.EffectHPDamPercent;
 import lineage2.gameserver.skills.effects.EffectHate;
 import lineage2.gameserver.skills.effects.EffectHeal;
+import lineage2.gameserver.skills.effects.EffectHealAndDamage;
 import lineage2.gameserver.skills.effects.EffectHealBlock;
 import lineage2.gameserver.skills.effects.EffectHealCPPercent;
 import lineage2.gameserver.skills.effects.EffectHealHPCP;
@@ -58,6 +59,7 @@ import lineage2.gameserver.skills.effects.EffectHealOverTime;
 import lineage2.gameserver.skills.effects.EffectHealPercent;
 import lineage2.gameserver.skills.effects.EffectHellBinding;
 import lineage2.gameserver.skills.effects.EffectHourglass;
+import lineage2.gameserver.skills.effects.EffectHpToOne;
 import lineage2.gameserver.skills.effects.EffectImmobilize;
 import lineage2.gameserver.skills.effects.EffectIncreaseChargesOverTime;
 import lineage2.gameserver.skills.effects.EffectInterrupt;
@@ -237,6 +239,10 @@ public enum EffectType
 	 */
 	Heal(EffectHeal.class, null, false),
 	/**
+	 * Field Heal.
+	 */
+	HealAndDamage(EffectHealAndDamage.class, null, false),
+	/**
 	 * Field HealBlock.
 	 */
 	HealBlock(EffectHealBlock.class, null, true),
@@ -264,6 +270,10 @@ public enum EffectType
 	 * Field HPDamPercent.
 	 */
 	HPDamPercent(EffectHPDamPercent.class, null, true),
+	/**
+	 * Field HpToOne.
+	 */
+	HpToOne(EffectHpToOne.class, null, true),
 	/**
 	 * Field IncreaseChargesOverTime.
 	 */

@@ -62,6 +62,22 @@ public class EffectCallSkills extends Effect
 	@Override
 	public boolean onActionTime()
 	{
-		return false;
+		boolean isRecursive = getTemplate().getParam().getBool("isRecursive",false);
+		if(_effector.isDead() || !isRecursive)
+		{
+			return false;
+		}
+		int[] skillIds = getTemplate().getParam().getIntegerArray("skillIds");
+		int[] skillLevels = getTemplate().getParam().getIntegerArray("skillLevels");
+		for (int i = 0; i < skillIds.length; i++)
+		{
+			Skill skill = SkillTable.getInstance().getInfo(skillIds[i], skillLevels[i]);
+			for (Creature cha : skill.getTargets(getEffector(), getEffected(), false))
+			{
+				getEffector().broadcastPacket(new MagicSkillUse(getEffector(), cha, skillIds[i], skillLevels[i], 0, 0));
+			}
+			getEffector().callSkill(skill, skill.getTargets(getEffector(), getEffected(), false), false);
+		}
+		return true;
 	}
 }

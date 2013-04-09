@@ -1291,6 +1291,14 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	 */
 	protected boolean _isReuseDelayPermanent;
 	/**
+	 * Field _isHealDamageSkill.
+	 */
+	protected boolean _isHealDamageSkill = false;
+	/**
+	 * Field _lakcisHealStance.
+	 */
+	protected boolean _skillHealStance = false;
+	/**
 	 * Field _isReflectable.
 	 */
 	protected boolean _isReflectable;
@@ -1645,6 +1653,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	protected boolean _isPowerModified = false;
 	private int _powerModCount;
 	private HashMap <List<String>, Double> _powerModifiers = new HashMap<List<String>, Double>();
+	private double _power2;
 	
 	/**
 	 * Constructor for Skill.
@@ -1780,6 +1789,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		_isUndeadOnly = set.getBool("undeadOnly", false);
 		_isCorpse = set.getBool("corpse", false);
 		_power = set.getDouble("power", 0.);
+		_power2 = set.getDouble("power2", 0.);
 		_powerPvP = set.getDouble("powerPvP", 0.);
 		_powerPvE = set.getDouble("powerPvE", 0.);
 		_effectPoint = set.getInteger("effectPoint", 0);
@@ -1811,6 +1821,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		_levelModifier = set.getInteger("levelModifier", 1);
 		_isCancelable = set.getBool("cancelable", true);
 		_isReflectable = set.getBool("reflectable", true);
+		_isHealDamageSkill = set.getBool("isHealDamageSkill", false);
 		_isShieldignore = set.getBool("shieldignore", false);
 		_criticalRate = set.getInteger("criticalRate", 0);
 		_isOverhit = set.getBool("overHit", false);
@@ -2171,6 +2182,14 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		{
 			return SystemMsg.INVALID_TARGET;
 		}
+		if(target.isNpc() && (!_skillHealStance && _isHealDamageSkill))
+		{
+			return null;
+		}
+		if(!target.isPlayer() && (_skillHealStance && _isHealDamageSkill))
+		{
+			return SystemMsg.INVALID_TARGET;
+		}
 		if (_isAltUse || (_targetType == SkillTargetType.TARGET_FEEDABLE_BEAST) || (_targetType == SkillTargetType.TARGET_UNLOCKABLE) || (_targetType == SkillTargetType.TARGET_CHEST))
 		{
 			return null;
@@ -2197,7 +2216,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 				{
 					return null;
 				}
-				if (isOffensive())
+				if (isOffensive() ||(!_skillHealStance && _isHealDamageSkill))
 				{
 					if (player.isInOlympiadMode() && !player.isOlympiadCompStart())
 					{
@@ -2295,6 +2314,18 @@ public abstract class Skill extends StatTemplate implements Cloneable
 				{
 					return SystemMsg.INVALID_TARGET;
 				}
+				if ((player.getParty() == null) && (_skillHealStance && _isHealDamageSkill))
+				{
+					return SystemMsg.INVALID_TARGET;
+				}
+				if ((pcTarget == player) && (_skillHealStance && _isHealDamageSkill) && ((player.getParty() != null) && (player.getParty() != pcTarget.getParty())))
+				{
+					return SystemMsg.INVALID_TARGET;
+				}
+				if ((pcTarget == player) && (_skillHealStance && _isHealDamageSkill) && ((player.getParty() != null) && (player.getParty() == pcTarget.getParty())))
+				{
+					return null;
+				}
 				if (pcTarget == player)
 				{
 					return null;
@@ -2334,7 +2365,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 				return null;
 			}
 		}
-		if (isAoE() && isOffensive() && (getCastRange() < Integer.MAX_VALUE) && !GeoEngine.canSeeTarget(activeChar, target, activeChar.isFlying()))
+		if (isAoE() && isOffensive() && (!_skillHealStance && _isHealDamageSkill) && (getCastRange() < Integer.MAX_VALUE) && !GeoEngine.canSeeTarget(activeChar, target, activeChar.isFlying()))
 		{
 			return SystemMsg.CANNOT_SEE_TARGET;
 		}
@@ -2741,6 +2772,44 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		}
 	}
 	
+	/**
+	 * Method addTargetsToLakcisDamage.
+	 * @param targets List<Creature>
+	 * @param aimingTarget Creature
+	 * @param activeChar Creature
+	 * @param forceUse boolean
+	 */
+	public void addTargetsToLakcis(List<Creature> targets, Creature activeChar, boolean isHealTask)
+	{		
+		_skillHealStance = isHealTask;
+		int count = 0;
+		Polygon terr = null;
+		for (Creature target : activeChar.getAroundCharacters(_skillRadius, 300))
+		{
+			if ((terr != null) && !terr.isInside(target.getX(), target.getY(), target.getZ()))
+			{
+				continue;
+			}
+			if ((target == null) || (activeChar == target) || ((activeChar.getPlayer() != null) && (activeChar.getPlayer() == target.getPlayer())))
+			{
+				continue;
+			}
+			if (checkTarget(activeChar, target, activeChar, false, false) != null)
+			{
+				continue;
+			}
+			if (!(activeChar instanceof DecoyInstance) && activeChar.isNpc() && target.isNpc())
+			{
+				continue;
+			}
+			targets.add(target);
+			count++;
+			if (isOffensive() && (count >= 20) && !activeChar.isRaid())
+			{
+				break;
+			}
+		}
+	}
 	/**
 	 * Method addTargetsToList.
 	 * @param targets List<Creature>
@@ -3629,6 +3698,15 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	public final double getPower()
 	{
 		return _power;
+	}
+	
+	/**
+	 * Method getPower2.
+	 * @return double
+	 */
+	public final double getPower2()
+	{
+		return _power2;
 	}
 	
 	/**
