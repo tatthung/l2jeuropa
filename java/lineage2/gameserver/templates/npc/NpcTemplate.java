@@ -118,7 +118,7 @@ public final class NpcTemplate extends CharTemplate
 	/**
 	 * Field rewardSp.
 	 */
-	public final int rewardSp;
+	public final long rewardSp;
 	/**
 	 * Field rewardRp.
 	 */
@@ -261,7 +261,7 @@ public final class NpcTemplate extends CharTemplate
 		title = set.getString("title");
 		level = set.getInteger("level");
 		rewardExp = set.getLong("rewardExp");
-		rewardSp = set.getInteger("rewardSp");
+		rewardSp = set.getLong("rewardSp");
 		rewardRp = set.getInteger("rewardRp");
 		aggroRange = set.getInteger("aggroRange");
 		rhand = set.getInteger("rhand", 0);
