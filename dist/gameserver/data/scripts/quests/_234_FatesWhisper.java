@@ -12,6 +12,7 @@
  */
 package quests;
 
+import java.util.Arrays;
 import java.util.List;
 
 import lineage2.commons.util.Rnd;
@@ -78,9 +79,10 @@ public class _234_FatesWhisper extends Quest implements ScriptFile
 	private final static int KERNON = 25054;
 	private final static int LONGHORN = 25126;
 	private final static int BAIUM = 29020;
-	private final static int GUARDIAN_ANGEL = 20859;
-	private final static int SEAL_ANGEL = 20860;
+	//private final static int GUARDIAN_ANGEL = 20859;
+	//private final static int SEAL_ANGEL = 20860;
 	private final static int COND1 = 1;
+	private final static int[] MOBS = {23058,23059,23060,23061,23062,23063, 23064};
 	private final static int COND2 = 2;
 	private final static int COND3 = 3;
 	private final static int COND4 = 4;
@@ -124,7 +126,7 @@ public class _234_FatesWhisper extends Quest implements ScriptFile
 		addKillId(DEATH_LORD);
 		addKillId(KERNON);
 		addKillId(LONGHORN);
-		addKillId(GUARDIAN_ANGEL, SEAL_ANGEL);
+		addKillId(MOBS);
 		addAttackId(BAIUM);
 		addQuestItem(new int[]
 		{
@@ -550,7 +552,7 @@ public class _234_FatesWhisper extends Quest implements ScriptFile
 				st.startQuestTimer("CHEST_GOLKONDA_Fail", 120000);
 			}
 		}
-		if ((cond == COND8) && ((npcId == GUARDIAN_ANGEL) || (npcId == SEAL_ANGEL)))
+		if ((cond == COND8) && (Arrays.asList(MOBS).contains(npcId)))
 		{
 			long count = st.getQuestItemsCount(BloodStainedCloth);
 			if ((st.getQuestItemsCount(WhiteCloth) > 0) && (count < 30) && Rnd.chance(33))
