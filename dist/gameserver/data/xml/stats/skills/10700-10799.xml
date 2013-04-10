@@ -989,13 +989,16 @@
         <set name="hitTime" val="1500"/>
         <set name="castRange" val="900"/>
         <set name="mpConsume2" val="#mpConsume2"/>
+		<set name="icon" value="icon.skill10777"/>
         <set name="magicLevel" val="85"/>
         <set name="relationSkillsId" val="511;"/>
         <set name="target" val="TARGET_ONE"/>
         <set name="activateRate" val="70"/>
-        <set name="skillType" val="DELETE_HATE_OF_ME"/>
+        <set name="skillType" val="AGGRESSION"/>
         <set name="operateType" val="OP_ACTIVE"/>
-        <set name="cancelTarget" val="50"/>
+		<cond msgId="113" addName="1">
+            <using kind="Crossbow, Bow"/>
+        </cond>
         <for/>
     </skill>
     <skill id="10778" levels="1" name="Diversion">
@@ -1011,6 +1014,9 @@
         <set name="skillType" val="DELETE_HATE_OF_ME"/><!-- TODO: its the same effect for lure shot, and this is different -->
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="cancelTarget" val="50"/>
+		<cond msgId="113" addName="1">
+            <using kind="Crossbow, Bow"/>
+        </cond>
         <for/>
     </skill>
     <skill id="10779" levels="4" name="Quick Fire">
