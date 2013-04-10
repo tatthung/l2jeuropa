@@ -43,6 +43,7 @@ import lineage2.gameserver.skills.effects.EffectDestroySummon;
 import lineage2.gameserver.skills.effects.EffectDisarm;
 import lineage2.gameserver.skills.effects.EffectDiscord;
 import lineage2.gameserver.skills.effects.EffectDispelEffects;
+import lineage2.gameserver.skills.effects.EffectDispelOnHIt;
 import lineage2.gameserver.skills.effects.EffectEnervation;
 import lineage2.gameserver.skills.effects.EffectFakeDeath;
 import lineage2.gameserver.skills.effects.EffectFear;
@@ -422,6 +423,10 @@ public enum EffectType
 	 * Field Stun.
 	 */
 	Stun(EffectStun.class, AbnormalEffect.STUN, Stats.STUN_RESIST, Stats.STUN_POWER, true),
+	/**
+	 * Field DispelOnHit.
+	 */
+	DispelOnHit(EffectDispelOnHIt.class, null, true),
 	/**
 	 * Field SummonSkill.
 	 */

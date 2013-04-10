@@ -1333,7 +1333,7 @@ public abstract class Creature extends GameObject
 		int level = Math.max(1, getSkillDisplayLevel(magicId));
 		Formulas.calcSkillMastery(skill, this);
 		long reuseDelay = Formulas.calcSkillReuseDelay(this, skill);
-		if (!skill.isToggle())
+		if (!skill.isToggle() || skill.isAwakeningToggle())
 		{
 			broadcastPacket(new MagicSkillUse(this, target, skill.getDisplayId(), level, skill.getHitTime(), reuseDelay));
 		}
@@ -1670,6 +1670,10 @@ public abstract class Creature extends GameObject
 							e.exit();
 						}
 					}
+				}
+				if(target.getEffectList().getEffectByType(EffectType.DispelOnHit) != null)
+				{
+					target.getEffectList().getEffectByType(EffectType.DispelOnHit).onActionTime();
 				}
 				if (skill.getCancelTarget() > 0)
 				{
@@ -4357,6 +4361,10 @@ public abstract class Creature extends GameObject
 		if (target.isStunned() && Formulas.calcStunBreak(crit))
 		{
 			target.getEffectList().stopEffects(EffectType.Stun);
+		}
+		if(target.getEffectList().getEffectByType(EffectType.DispelOnHit) != null && !miss)
+		{
+			target.getEffectList().getEffectByType(EffectType.DispelOnHit).onActionTime();
 		}
 		displayGiveDamageMessage(target, damage, crit, miss, shld, false);
 		ThreadPoolManager.getInstance().execute(new NotifyAITask(target, CtrlEvent.EVT_ATTACKED, this, damage));

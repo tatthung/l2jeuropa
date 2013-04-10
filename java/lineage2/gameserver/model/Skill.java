@@ -1223,6 +1223,10 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	 */
 	protected int _scopeAngle;
 	/**
+	 * Field _maxHitCancelCount.
+	 */
+	protected int _maxHitCancelCount;
+	/**
 	 * Field _isCancelable.
 	 */
 	protected boolean _isCancelable;
@@ -1390,6 +1394,10 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	 * Field _isCubicSkill.
 	 */
 	protected boolean _isCubicSkill = false;
+	/**
+	 * Field _isAwakeningToggle.
+	 */
+	protected boolean _isAwakeningToggle = false;
 	/**
 	 * Field _isSelfDispellable.
 	 */
@@ -1671,10 +1679,12 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		_isNewbie = set.getBool("isNewbie", false);
 		_isSelfDispellable = set.getBool("isSelfDispellable", true);
 		_isPreservedOnDeath = set.getBool("isPreservedOnDeath", false);
+		_isAwakeningToggle = set.getBool("isAwakeningToggle", false);
 		_isHeroic = set.getBool("isHeroic", false);
 		_isAltUse = set.getBool("altUse", false);
 		_mpConsume1 = set.getInteger("mpConsume1", 0);
 		_mpConsume2 = set.getInteger("mpConsume2", 0);
+		_maxHitCancelCount = set.getInteger("maxHitCancelCount", 0);
 		_energyConsume = set.getInteger("energyConsume", 0);
 		_hpConsume = set.getInteger("hpConsume", 0);
 		_soulsConsume = set.getInteger("soulsConsume", 0);
@@ -3744,7 +3754,15 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	{
 		_reuseDelay = newReuseDelay;
 	}
-	
+
+	/**
+	 * Method getMaxHitCancelCount.
+	 * @return double
+	 */
+	public final int getMaxHitCancelCount()
+	{
+		return _maxHitCancelCount;
+	}
 	/**
 	 * Method getShieldIgnore.
 	 * @return boolean
@@ -3985,6 +4003,15 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	public final boolean isHeroic()
 	{
 		return _isHeroic;
+	}
+	
+	/**
+	 * Method isAwakeningToggle.
+	 * @return boolean
+	 */
+	public final boolean isAwakeningToggle()
+	{
+		return _isAwakeningToggle;
 	}
 	
 	/**

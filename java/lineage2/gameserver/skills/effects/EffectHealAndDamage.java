@@ -19,6 +19,7 @@ import lineage2.gameserver.ai.CtrlIntention;
 import lineage2.gameserver.model.Creature;
 import lineage2.gameserver.model.Effect;
 import lineage2.gameserver.model.instances.NpcInstance;
+import lineage2.gameserver.network.serverpackets.MagicSkillUse;
 import lineage2.gameserver.network.serverpackets.SystemMessage;
 import lineage2.gameserver.stats.Env;
 import lineage2.gameserver.stats.Stats;
@@ -38,18 +39,15 @@ public class EffectHealAndDamage extends Effect
 	{
 		super(env, template);
 	}
+
 	
 	/**
-	 * Method onActionTime.
-	 * @return boolean
+	 * Method onStart.
 	 */
 	@Override
-	public boolean onActionTime()
+	public void onStart()
 	{
-		if (_effected.isDead())
-		{
-			return false;
-		}
+		super.onStart();
 		List <Creature> targetsDamage = new ArrayList<Creature>();
 		List <Creature> targetsHeal = new ArrayList<Creature>();
 		getSkill().addTargetsToLakcis(targetsDamage, _effected, false);
@@ -67,7 +65,8 @@ public class EffectHealAndDamage extends Effect
 					_effected.sendPacket(new SystemMessage(SystemMessage.S1_HPS_HAVE_BEEN_RESTORED).addNumber(Math.round(hp)));
 				}
 				else
-				{				
+				{
+					getEffected().broadcastPacket(new MagicSkillUse(_effected, targetHeal, getSkill().getId(), getSkill().getLevel(), 0, 0));
 					targetHeal.sendPacket(new SystemMessage(SystemMessage.XS2S_HP_HAS_BEEN_RESTORED_BY_S1).addString(_effected.getName()).addNumber(Math.round(hp)));
 				}
 			}
@@ -78,7 +77,7 @@ public class EffectHealAndDamage extends Effect
 			damage = targetDamage.calcStat(Stats.MAGIC_DAMAGE, damage, _effected, getSkill());
 			if ((damage > (targetDamage.getCurrentHp() - 1)) && !targetDamage.isNpc())
 			{
-				return true;
+				return;
 			}
 			if(targetDamage.isNpc())
 			{
@@ -88,8 +87,25 @@ public class EffectHealAndDamage extends Effect
 				npcAggro.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, _effected);				
 			}
 			targetDamage.reduceCurrentHp(damage, 0, _effected, getSkill(), false, false, targetDamage.isNpc(), false, false, true, false);
+			getEffected().broadcastPacket(new MagicSkillUse(_effected, targetDamage, getSkill().getId(), getSkill().getLevel(), 0, 0));
 		}
-		return true;
-		
+	}
+	
+	/**
+	 * Method onExit.
+	 */
+	@Override
+	public void onExit()
+	{
+		super.onExit();
+	}
+	/**
+	 * Method onActionTime.
+	 * @return boolean
+	 */
+	@Override
+	public boolean onActionTime()
+	{
+		return false;	
 	}
 }

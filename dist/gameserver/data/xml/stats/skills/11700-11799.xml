@@ -278,14 +278,18 @@
 		<set name="target" val="TARGET_PARTY"/>
 		<set name="skillRadius" val="900"/>
 		<set name="skillType" val="BUFF"/>
-		<set name="dispelType" val="negative"/>
 		<set name="negateCount" val="5"/>
 		<set name="operateType" val="OP_ACTIVE"/>
-		<set name="isReuseDelayPermanent" val="true"/>
 		<set name="relationSkillsId" val="1550;"/>
+		<set name="isReuseDelayPermanent" val="true"/>
 		<for>
 			<effect count="1" name="Buff" time="7" val="0">
 				<add order="0x40" stat="debuffResist" val="100"/>
+			</effect>			
+			<effect count="1" name="DispelEffects" time="0" val="0">
+				<def name="dispelType" val="cleanse"/>
+				<def name="cancelRate" val="100"/>
+				<def name="negateCount" val="10"/>
 			</effect>
 		</for>
 	</skill>
@@ -447,10 +451,22 @@
 		</for>
 	</skill>
 	<skill id="11771" levels="1" name="Wise Retainer of Lights">
-		<!-- Finally! Causes Lakcis, the giant of light, to materialize. Protects allies near the giant and attacks the enemies. Continuously decreases HP. -->
-		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE"/>
+      	<!-- Finally! Causes Lakcis, the giant of light, to materialize. Protects allies near the giant and attacks the enemies. Continuously decreases HP. -->
+		<set name="magicType" val="MAGIC"/>
+		<set name="affectLimit" val="10;10"/>
+		<set name="reuseDelay" val="1000"/>
+		<set name="power" val="1250"/>
+		<set name="power2" val="850"/>
+		<set name="magicLevel" val="99"/>
+		<set name="isHealDamageSkill" val="true"/>
+		<set name="castRange" val="300"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillRadius" val="400"/>
+		<set name="skillType" val="CONT"/>
 		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="HealAndDamage" />
+		</for>   
 	</skill>
 	<skill id="11772" levels="4" name="Giant's Favor">
 		<!-- Performs an ancient secret technique of the Giants to increase P. Def., M. Def., and Healing power by 1000 for 15 seconds. -->
@@ -488,21 +504,21 @@
 	</skill>
 	<skill id="11773" levels="2" name="Lakcis Disc">
 		<!-- Directly manipulates the power of light to Heal nearby allies and damage nearby enemies. Continuously consumes MP. -->
-		<table name="#mp">1</table>
-		<table name="#magicLevel">95 99</table>		
-		<set name="magicLevel" val="#magicLevel"/>
-		<set name="power" val="1250"/><!-- Heal Power -->
-		<set name="power2" val="900"/><!-- Dot Damage -->
-		<set name="skillRadius" val="1100"/><!-- Dot Damage -->
-		<set name="isHealDamageSkill" val="true"/><!-- Dot Damage -->
-		<set name="target" val="TARGET_SELF"/>
-		<set name="skillType" val="CONT"/>
+         	<table name="#magicLevel">89 95</table>
+         	<table name="#mp">3 4</table>
+	        <set name="skillType" val="CONT"/>
+        	<set name="isAwakeningToggle" val="true"/>
+      		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target" val="TARGET_SELF"/> 
 		<set name="operateType" val="OP_TOGGLE"/>
-			<for>
-				<effect count="0x7fffffff" name="LDManaDamOverTime" time="5" val="#mp"/>
-				<effect count="0x7fffffff" name="HealAndDamage" time="5" val="0"/>
-			</for>
-		<for/>
+	        <for>
+			<effect count="0x7fffffff" name="LDManaDamOverTime" time="5" val="#mp"/>
+			<effect count="0x7fffffff" name="CallSkills" time="5" val="0">
+				<def name="skillIds" val="11771"/>
+				<def name="skillLevels" val="1"/>
+				<def name="isRecursive" val="true"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="11774" levels="4" name="Summon Tree of Life">
 		<!-- Summons a Tree of Life. The summoned tree heals nearby party members for 30 seconds. Can also cast a debuff canceling blessing. -->
@@ -670,6 +686,7 @@
 		<table name="#mpConsume2">50</table>
 		<set name="reuseDelay" val="30000"/>
 		<set name="hitTime" val="500"/>
+        	<set name="isAwakeningToggle" val="true"/>
 		<set name="mpConsume2" val="#mpConsume2"/>	
 		<set name="magicLevel" val="#magicLevel"/>
 		<set name="target" val="TARGET_SELF"/>

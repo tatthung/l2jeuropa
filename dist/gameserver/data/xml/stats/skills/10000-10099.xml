@@ -726,6 +726,7 @@
         <set name="magicLevel" val="85"/>
         <set name="skillType" val="CONT"/>
         <set name="operateType" val="OP_TOGGLE"/>
+        <set name="isAwakeningToggle" val="true"/>
         <set name="relationSkillsId" val="288;322;"/>
         <set name="target" val="TARGET_SELF"/>
         <for>
@@ -967,13 +968,14 @@
         <set name="skillType" val="CONT"/>
         <set name="skillRadius" val="1000"/>
         <set name="reuseDelay" val="5000"/>
+        <set name="isAwakeningToggle" val="true"/>
         <set name="operateType" val="OP_ACTIVE_TOGGLE"/>
 		<set name="relationSkillsId" val="982;"/>
         <cond msgId="113" addName="1">
             <using kind="Sword,Blunt"/>
         </cond>
         <for>
-            <effect count="0x7fffffff" name="GiantForceAura" time="5" val="10" stackType="SigelAura" stackOrder="1">
+            <effect count="0x7fffffff" name="GiantForceAura" time="5" val="10" stackType="SigelCombatAura" stackOrder="1">
                 <def name="forceSkillId" val="10029"/>
                 <mul order="0x30" stat="pAtk" val="1.10">
                     <using kind="Sword, Blunt"/>
@@ -1015,10 +1017,11 @@
         <set name="skillType" val="CONT"/>
         <set name="skillRadius" val="1000"/>
         <set name="reuseDelay" val="5000"/>
+        <set name="isAwakeningToggle" val="true"/>
         <set name="operateType" val="OP_ACTIVE_TOGGLE"/>
 		<set name="relationSkillsId" val="982;"/>
         <for>
-            <effect count="0x7fffffff" name="GiantForceAura" time="5" val="10" stackType="SigelAura" stackOrder="1">
+            <effect count="0x7fffffff" name="GiantForceAura" time="5" val="10" stackType="SigelCombatAura" stackOrder="1">
                 <def name="forceSkillId" val="10031"/>
 				<mul order="0x30" stat="pAtk" val="1.05"/>
                 <mul order="0x30" stat="pAtkSpd" val="1.05"/>
@@ -1052,10 +1055,11 @@
         <set name="skillType" val="CONT"/>
         <set name="skillRadius" val="1000"/>
         <set name="reuseDelay" val="5000"/>
+        <set name="isAwakeningToggle" val="true"/>
         <set name="operateType" val="OP_ACTIVE_TOGGLE"/>
 		<set name="relationSkillsId" val="982;"/>
         <for>
-            <effect count="0x7fffffff" name="GiantForceAura" time="5" val="10" stackType="SigelAura" stackOrder="1">
+            <effect count="0x7fffffff" name="GiantForceAura" time="5" val="10" stackType="SigelCombatAura" stackOrder="1">
                 <def name="forceSkillId" val="10033"/>
 								<mul order="0x30" stat="pAtk" val="1.05"/>
                 <mul order="0x30" stat="pAtkSpd" val="1.05"/>
@@ -1123,10 +1127,11 @@
         <set name="skillType" val="CONT"/>
         <set name="skillRadius" val="1000"/>
         <set name="reuseDelay" val="5000"/>
+        <set name="isAwakeningToggle" val="true"/>
         <set name="operateType" val="OP_ACTIVE_TOGGLE"/>
 		<set name="relationSkillsId" val="982;"/>
         <for>
-            <effect count="0x7fffffff" name="GiantForceAura" time="5" val="10" stackType="SigelAura" stackOrder="1">
+            <effect count="0x7fffffff" name="GiantForceAura" time="5" val="10" stackType="SigelCombatAura" stackOrder="1">
                 <def name="forceSkillId" val="10035"/>
 				<mul order="0x30" stat="pAtk" val="1.05"/>
                 <mul order="0x30" stat="pAtkSpd" val="1.05"/>
@@ -1172,10 +1177,11 @@
         <set name="skillType" val="CONT"/>
         <set name="skillRadius" val="1000"/>
         <set name="reuseDelay" val="5000"/>
+        <set name="isAwakeningToggle" val="true"/>
         <set name="operateType" val="OP_ACTIVE_TOGGLE"/>
 		<set name="relationSkillsId" val="982;"/>
         <for>
-            <effect count="0x7fffffff" name="GiantForceAura" time="5" val="10" stackType="SigelAura" stackOrder="1">
+            <effect count="0x7fffffff" name="GiantForceAura" time="5" val="10" stackType="SigelCombatAura" stackOrder="1">
                 <def name="forceSkillId" val="10037"/>
 				<mul order="0x30" stat="pAtk" val="1.05"/>
                 <mul order="0x30" stat="pAtkSpd" val="1.05"/>
@@ -1215,10 +1221,11 @@
         <set name="skillType" val="CONT"/>
         <set name="skillRadius" val="1000"/>
         <set name="reuseDelay" val="5000"/>
+        <set name="isAwakeningToggle" val="true"/>
         <set name="operateType" val="OP_ACTIVE_TOGGLE"/>
 		<set name="relationSkillsId" val="982;"/>
         <for>
-            <effect count="0x7fffffff" name="GiantForceAura" time="5" val="10" stackType="SigelAura" stackOrder="1">
+            <effect count="0x7fffffff" name="GiantForceAura" time="5" val="10" stackType="SigelCombatAura" stackOrder="1">
                 <def name="forceSkillId" val="10039"/>
 				<mul order="0x30" stat="pAtk" val="1.05"/>
                 <mul order="0x30" stat="pAtkSpd" val="1.05"/>

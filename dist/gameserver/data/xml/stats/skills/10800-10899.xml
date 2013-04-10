@@ -138,13 +138,15 @@
 		<set name="hitTime" val="500"/>
 		<set name="mpConsume2" val="#mpConsume2"/>
 		<set name="magicLevel" val="85"/>
+		<set name="maxHitCancelCount" val="4"/>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="BUFF"/>
-		<set name="operateType" val="OP_PASSIVE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
 		<for>
-			<effect count="1" name="Buff" stackOrder="3" stackType="rEvas" time="2" val="0">
-					<add order="0x40" stat="rEvas" val="15"/>
+			<effect count="1" name="Buff" stackOrder="30" time="600" val="0">
+				<add order="0x40" stat="rEvas" val="15"/>
 			</effect>
+			<effect name="DispelOnHit" time="600" val="0"/>
 		</for>
 	</skill>
 </list>
