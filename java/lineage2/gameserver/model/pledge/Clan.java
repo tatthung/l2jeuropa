@@ -2321,7 +2321,28 @@ public class Clan implements Iterable<UnitMember>
 			_clanLeaderSkill = null;
 		}
 	}
-	
+
+	/**
+	 * Method startNotifyClanLogOut.
+	 * @param activeChar Player
+	 */
+	public void startNotifyClanLogOut(Player activeChar)
+	{
+		if (activeChar.isClanLeader())
+		{
+			if (_clanLeaderSkill != null)
+			{
+				for (Player member : getOnlineMembers(0))
+				{
+					member.getEffectList().stopEffect(_clanLeaderSkill);
+				}
+				_clanLeaderSkillIncreaseTask.cancel(false);
+				_clanLeaderSkillIncreaseTask = null;
+				_clanLeaderSkill = null;
+			}
+		}
+	}
+
 	/**
 	 * Method startLeaderSkillTask.
 	 */
@@ -2378,7 +2399,7 @@ public class Clan implements Iterable<UnitMember>
 						{
 							member.getEffectList().addEffect(effect);
 						}
-					}			
+					}		
 				}
 			}
 			else

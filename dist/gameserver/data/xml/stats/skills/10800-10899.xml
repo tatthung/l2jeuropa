@@ -131,7 +131,7 @@
         <set name="operateType" val="OP_ACTIVE"/> 
         <for/> 
     </skill>
-	<skill id="10809" levels="1" name="Survival Movement"> 
+	<skill id="10809" levels="1" name="Survival Movement">
     <!-- P. Evasion + 15. Disappears after 4 strikes. -->
        	<table name="#mpConsume2">54</table>
 		<set name="reuseDelay" val="30000"/>
