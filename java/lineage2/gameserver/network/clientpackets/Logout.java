@@ -71,7 +71,10 @@ public class Logout extends L2GameClientPacket
 			activeChar.sendActionFailed();
 			return;
 		}
-		activeChar.getClan().startNotifyClanLogOut(activeChar);
+		if (activeChar.getClan() != null)
+		{
+			activeChar.getClan().startNotifyClanLogOut(activeChar);
+		}
 		activeChar.kick();
 	}
 }
