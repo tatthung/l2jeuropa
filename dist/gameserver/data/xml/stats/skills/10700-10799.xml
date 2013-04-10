@@ -161,6 +161,11 @@
             <add order="0x40" stat="runSpd" val="17"/>
             <mul order="0x30" stat="maxLoad" val="#maxLoad"/>
             <mul order="0x30" stat="fall" val="#fall"/>
+			<triggers>
+				<trigger id="10809" level="1" type="CRIT" chance="100">
+					<player damage="1;0"/>
+				</trigger>
+			</triggers>
         </for>
     </skill>
     <skill id="10755" levels="1" name="Superior Mind Resistance">

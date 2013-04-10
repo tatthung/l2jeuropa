@@ -89,15 +89,16 @@
 	</skill>
 	<skill id="19009" levels="5" name="Clan Advent">
     <!-- Increases clan members' P. Atk., P. Def., M. Atk., and M. Def. by 1% and HP/MP recovery bonus by 1 when the clan leader logs in. Stage 1 effect is applied at the time of the clan leader's login and the level increases every 10 minutes up to level 5. -->
-		<set name="isClanSkill" val="true"/>
 		<table name="#px"> 1.02 1.03 1.04 1.05 1.06 </table>
 		<table name="#reg"> 1 2 3 4 5 </table>
+		<set name="magicType" val="MAGIC"/>
+		<set name="magicLevel" val="1"/>
 		<set name="reuseDelay" val="2000"/>
-		<set name="operateType" val="OP_PASSIVE"/> <!-- Пассив -->
-		<set name="skillType" val="BUFF"/>
 		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="clan_renewal">
+			<effect count="1" name="Buff" stackOrder="1" time="3600" val="0" stackType="clan_renewal">
 				<mul order="0x30" stat="pAtk" val="#px"/>
 				<mul order="0x30" stat="pDef" val="#px"/>
 				<add order="0x40" stat="regHp" val="#reg"/>

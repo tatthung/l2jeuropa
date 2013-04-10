@@ -32,6 +32,7 @@ import lineage2.gameserver.cache.Msg;
 import lineage2.gameserver.data.xml.holder.ResidenceHolder;
 import lineage2.gameserver.database.DatabaseFactory;
 import lineage2.gameserver.database.mysql;
+import lineage2.gameserver.model.Effect;
 import lineage2.gameserver.model.Player;
 import lineage2.gameserver.model.Skill;
 import lineage2.gameserver.model.entity.boat.ClanAirShip;
@@ -48,6 +49,8 @@ import lineage2.gameserver.network.serverpackets.PledgeShowMemberListDeleteAll;
 import lineage2.gameserver.network.serverpackets.PledgeSkillList;
 import lineage2.gameserver.network.serverpackets.PledgeSkillListAdd;
 import lineage2.gameserver.network.serverpackets.components.IStaticPacket;
+import lineage2.gameserver.skills.effects.EffectTemplate;
+import lineage2.gameserver.stats.Env;
 import lineage2.gameserver.tables.ClanTable;
 import lineage2.gameserver.tables.SkillTable;
 import lineage2.gameserver.utils.Log;
@@ -2329,7 +2332,7 @@ public class Clan implements Iterable<UnitMember>
 			_clanLeaderSkillIncreaseTask.cancel(false);
 		}
 		ClanLeaderSkillIncreaseTask clsit = new ClanLeaderSkillIncreaseTask();
-		_clanLeaderSkillIncreaseTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(clsit, 100, 100000);
+		_clanLeaderSkillIncreaseTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(clsit, 100, 600000);
 	}
 	
 	/**
@@ -2368,7 +2371,14 @@ public class Clan implements Iterable<UnitMember>
 				}
 				for (Player member : getOnlineMembers(0))
 				{
-					member.addSkill(SkillTable.getInstance().getInfo(_clanLeaderSkill.getId(), _clanLeaderSkill.getLevel()), false);
+					for (EffectTemplate et : _clanLeaderSkill.getEffectTemplates())
+					{
+						Effect effect = et.getEffect(new Env(member, member, _clanLeaderSkill));
+						if (effect != null)
+						{
+							member.getEffectList().addEffect(effect);
+						}
+					}			
 				}
 			}
 			else
