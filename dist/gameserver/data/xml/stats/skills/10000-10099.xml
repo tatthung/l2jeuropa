@@ -38,6 +38,9 @@
         </enchant1>
         <for>
             <add order="0x10" stat="STR" val="2"/>
+            <add order="0x40" stat="maxHp" val="6883">
+                <using armor="Heavy"/>
+            </add>
             <add order="0x40" stat="pDef" val="#pDef">
                 <using armor="Heavy"/>
             </add>

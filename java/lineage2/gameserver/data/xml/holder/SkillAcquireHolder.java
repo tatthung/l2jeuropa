@@ -554,6 +554,31 @@ public final class SkillAcquireHolder extends AbstractHolder
 	}
 	
 	/**
+	 * Method isSkillRacePossible.
+	 * @param player Player
+	 * @param skill Skill
+	 * @return boolean
+	 */
+	public boolean isSkillRacePossible(Player player, Skill skill)
+	{
+		for (SkillLearn skilllearn : SkillAcquireHolder.getInstance().getAllClassSkillLearn())
+		{
+			if (skilllearn.getId() == skill.getId())
+			{
+				if (skilllearn.isOfRace(player.getRace()))
+				{
+					return true;
+				}
+				else
+				{
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+	
+	/**
 	 * Method getSkillLearnListByItemId.
 	 * @param player Player
 	 * @param itemId int
@@ -676,6 +701,24 @@ public final class SkillAcquireHolder extends AbstractHolder
 			for(SkillLearn skill : e.getValue())
 			{
 				ListSkills.add(skill.getId());
+			}
+		}
+		return ListSkills;
+	}
+
+	/**
+	 * Method getAllClassSkillId.
+	 * @param int classId 
+	 */
+	public List<SkillLearn> getAllClassSkillLearn()
+	{
+		List<SkillLearn> ListSkills = new ArrayList<SkillLearn>();
+		for(Iterator<Entry<Integer, List<SkillLearn>>> allClassSkills = _normalSkillTree.entrySet().iterator(); allClassSkills.hasNext();)
+		{
+			Map.Entry<Integer, List<SkillLearn>> e = (Map.Entry<Integer,List<SkillLearn>>) allClassSkills.next();
+			for(SkillLearn skill : e.getValue())
+			{
+				ListSkills.add(skill);
 			}
 		}
 		return ListSkills;

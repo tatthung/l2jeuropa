@@ -160,11 +160,11 @@
 		<set name="skillType" val="BUFF"/>
 		<set name="operateType" val="OP_PASSIVE"/>
 		<set name="relationSkillsId" val="228;925;330;331;"/> 
-        <enchant1 levels="10" name="Power">
-            <table name="#pAtk">88.3 93.7 99.2 104.6 110 115.4 120.8 126.3 131.7 137.1</table>
-            <table name="#mAtk">110.5 117.2 124 130.8 137.6 144.3 151.1 157.9 164.6 171.4</table>
-            <table name="#magicLevel">86 87 88 90 91 92 93 95 97 99</table>
-        </enchant1>
+		<enchant1 levels="10" name="Power">
+		    <table name="#pAtk">88.3 93.7 99.2 104.6 110 115.4 120.8 126.3 131.7 137.1</table>
+		    <table name="#mAtk">110.5 117.2 124 130.8 137.6 144.3 151.1 157.9 164.6 171.4</table>
+		    <table name="#magicLevel">86 87 88 90 91 92 93 95 97 99</table>
+		</enchant1>
 		<for>
 			<add order="0x10" stat="INT" val="2"/>
 			<add order="0x40" stat="pAtk" val="#pAtk"/>
@@ -185,17 +185,20 @@
 		<set name="skillType" val="BUFF"/>
 		<set name="relationSkillsId" val="1206;1386;234"/>
 		<set name="operateType" val="OP_PASSIVE"/>
-        <enchant1 levels="10" name="Power">
-            <table name="#pDef">143 152 161 170 179 187 196 205 214 223</table>
-            <table name="#magicLevel">86 87 88 90 91 92 93 95 97 99</table>
-        </enchant1>
+		<enchant1 levels="10" name="Power">
+		    <table name="#pDef">143 152 161 170 179 187 196 205 214 223</table>
+		    <table name="#magicLevel">86 87 88 90 91 92 93 95 97 99</table>
+		</enchant1>
 		<for>
 			<add order="0x10" stat="INT" val="2"/>
+			<add order="0x40" stat="maxHp" val="4151">
+				<using armor="Magic"/>
+			</add>
 			<add order="0x40" stat="pDef" val="#pDef">
-				<using armor="Light"/>
+				<using armor="Magic"/>
 			</add>
 			<add order="0x40" stat="mAtkSpd" val="1.05">
-				<using armor="Light"/>
+				<using armor="Magic"/>
 			</add>
 		</for>
    </skill>
@@ -208,11 +211,11 @@
 		<set name="skillType" val="BUFF"/>
 		<set name="relationSkillsId" val="213;146;229;212;164;"/> 
 		<set name="operateType" val="OP_PASSIVE"/>
-        <enchant1 levels="10" name="Power">
-            <table name="#mDef">147 156 165 174 183 192 201 210 219 228</table>
-            <table name="#maxMp">333 353 374 394 415 435 455 476 496 517</table>
-            <table name="#magicLevel">86 87 88 90 91 92 93 95 97 99</table>
-        </enchant1>
+		<enchant1 levels="10" name="Power">
+		    <table name="#mDef">147 156 165 174 183 192 201 210 219 228</table>
+		    <table name="#maxMp">333 353 374 394 415 435 455 476 496 517</table>
+		    <table name="#magicLevel">86 87 88 90 91 92 93 95 97 99</table>
+		</enchant1>
 		<for>
 			<add order="0x10" stat="INT" val="2"/>
 			<add order="0x40" stat="mDef" val="#mDef"/>
@@ -1070,16 +1073,21 @@
     <skill id="11287" levels="1" name="Superior Resistance">
     <!-- INT + 2, M. Def. + 199, and resistance to Fire/Water/Wind/Earth + 20. When receiving damage, there is a chance of M. Def. and resistance to attributes momentarily increasing. -->
 		<set name="magicLevel" val="85"/>
-        <table name="#vuln">20</table>
-        <table name="#mDef">199</table>
+		<table name="#vuln">20</table>
+		<table name="#mDef">199</table>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="BUFF"/>
-		<set name="operateType" val="OP_PASSIVE"/>
-        <enchant1 levels="10" name="Power">
-            <table name="#vuln">21 22 23 24 25 26 27 28 29 30</table>
-            <table name="#mDef">206 213 220 227 234 241 248 255 262 270</table>
-            <table name="#magicLevel">86 87 88 90 91 92 93 95 97 99</table>
-        </enchant1>
+		<set name="operateType" val="OP_PASSIVE"/>		
+		<triggers>
+		    <trigger id="10058" level="1" type="RECEIVE_DAMAGE" chance="50">
+		        <player damage="50;0"/>
+		    </trigger>
+		</triggers>
+		<enchant1 levels="10" name="Power">
+		    <table name="#vuln">21 22 23 24 25 26 27 28 29 30</table>
+		    <table name="#mDef">206 213 220 227 234 241 248 255 262 270</table>
+		    <table name="#magicLevel">86 87 88 90 91 92 93 95 97 99</table>
+		</enchant1>
 		<for>
 			<add order="0x10" stat="INT" val="2"/>
 			<add order="0x40" stat="defenceWater" val="#vuln"/>
@@ -1205,18 +1213,21 @@
     <skill id="11295" levels="1" name="Superior Light Armor Mastery">
     <!-- INT + 2. Max HP + 4151 and P. Def. + 132 when equipped with a Light Armor. -->
 		<set name="magicLevel" val="85"/>
-        <table name="#pDef">132</table>
+        	<table name="#pDef">132</table>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="operateType" val="OP_PASSIVE"/>
 		<set name="relationSkillsId" val="173;171;832;233;148;227;236;252;258;465;142;264;464"/> 
-        <enchant1 levels="10" name="Power">
-            <table name="#pDef">140 149 157 166 175 183 192 200 209 218</table>
-            <table name="#magicLevel">86 87 88 90 91 92 93 95 97 99</table>
-        </enchant1>
+		<enchant1 levels="10" name="Power">
+		    <table name="#pDef">140 149 157 166 175 183 192 200 209 218</table>
+		    <table name="#magicLevel">86 87 88 90 91 92 93 95 97 99</table>
+		</enchant1>
 		<for>
 			<add order="0x10" stat="INT" val="2"/>
 			<add order="0x40" stat="pDef" val="#pDef">
+				<using armor="Light"/>
+			</add>
+			<add order="0x40" stat="maxHp" val="4151">
 				<using armor="Light"/>
 			</add>
 		</for>

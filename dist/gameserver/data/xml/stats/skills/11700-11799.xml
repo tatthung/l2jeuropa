@@ -768,25 +768,36 @@
 		<!-- INT + 2. Max HP + 4299 and M. Def. + 300 when equipped with a Light Armor or Robe. P. Def. + 109 when equipped with a Robe, and P. Def. + 73 when equipped with a Light Armor. Recovery Bonus + 2.8 and MP Recovery Bonus + 3.6. -->
 		<set name="target" val="TARGET_SELF"/>
 		<set name="magicLevel" val="85"/>
-		<set name="#pDef" val="109"/>
+		<table name="#pDef">109</table>
+		<table name="#mDef">300</table>
 		<set name="skillType" val="BUFF"/>
 		<set name="operateType" val="OP_PASSIVE"/>
 		<set name="relationSkillsId" val="229;212;227;234;"/>
-		<enchant1 levels="10" name="pDef">
+		<enchant1 levels="10" name="power">
 			<table name="#pDef">116 123 130 137 144 151 158 165 172 180</table>
+			<table name="#mDef">320 340 360 380 400 420 440 460 480 500</table>
 		</enchant1>
 		<for>
 			<add order="0x10" stat="INT" val="2"/>
-			<add order="0x10" stat="maxHp" val="4299"/>
-			<add order="0x10" stat="mDef" val="300"/>
-			<mul order="0x30" stat="regHp" val="2.8"/>
-			<mul order="0x30" stat="regMp" val="3.6"/>
-			<using kind="Robe">
-				<add order="0x40" stat="pDef" val="#pDef"/>
-			</using>
-			<using kind="Light">
-				<add order="0x40" stat="pDef" val="73"/>
-			</using>
+			<add order="0x10" stat="maxHp" val="4299">
+				<using kind="Magic, Light"/>
+			</add>
+			<add order="0x10" stat="mDef" val="#mDef">
+				<using kind="Magic, Light"/>
+			</add>
+			<mul order="0x30" stat="regHp" val="2.8">
+				<using kind="Light"/>
+			</mul>
+			<mul order="0x30" stat="regMp" val="3.6">
+				<using kind="Light"/>
+			</mul>
+			<add order="0x40" stat="pDef" val="#pDef">
+				<using kind="Light"/>
+			</add>
+			<add order="0x40" stat="pDef" val="73">
+				<using kind="Magic"/>
+			</add>
+			
 		</for>
 	</skill>
 	<skill id="11788" levels="1" name="Superior Casting Mastery">
@@ -820,6 +831,11 @@
 		<set name="operateType" val="OP_PASSIVE"/>
 		<set name="#mDef" val="139"/>
 		<set name="relationSkillsId" val="146"/>
+		<triggers>
+		    <trigger id="10058" level="1" type="RECEIVE_DAMAGE" chance="50">
+			<player damage="50;0"/>
+		    </trigger>
+		</triggers>
 		<enchant1 levels="10" name="Power">
 			<table name="#mDef">146 154 162 170 178 186 194 202 210 218</table>
 			<table name="#magicLevel">86 87 88 90 91 92 93 95 97 99</table> 
@@ -858,7 +874,12 @@
 		<set name="relationSkillsId" val="926"/>
 		<for>
 			<add order="0x10" stat="INT" val="2"/>
-			<add order="0x40" stat="mpEff" val="20"/>
+			<add order="0x40" stat="mpEff" val="40">
+				<using kind="Sigil"/>
+			</add>
+			<mul order="0x30" stat="regMp" val="1.2">
+				<using kind="Sigil"/>
+			</mul>
 		</for>
 	</skill>
 	<skill id="11792" levels="1" name="Superior Mind Resistance">
@@ -878,7 +899,9 @@
 			<add order="0x10" stat="INT" val="2"/>
 			<sub order="0x40" stat="rootResist" val="#power"/>
 			<sub order="0x40" stat="sleepResist" val="#power"/>
-			<sub order="0x40" stat="mentalResist" val="#power"/>
+			<sub order="0x40" stat="mentalResist" val="#power"/>			
+			<add order="0x40" stat="reflectPhysicDebuff" val="5"/>
+			<add order="0x40" stat="reflectMagicDebuff" val="5"/>
 		</for>
 	</skill>
 </list>

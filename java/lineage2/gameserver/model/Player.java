@@ -6938,6 +6938,33 @@ public final class Player extends Playable implements PlayerGroup
 	 */
 	private void restoreSkills()
 	{
+		//----------------------------------------------
+		List<Integer> keepskill = new ArrayList<Integer>();
+		//Nobless Skills
+		keepskill.add(325);
+		keepskill.add(326);
+		keepskill.add(327);
+		keepskill.add(1323);
+		keepskill.add(1324);
+		keepskill.add(1325);
+		keepskill.add(1326);
+		keepskill.add(1327);
+		//Common Craft Skills
+		keepskill.add(1320);
+		//Mentor Skills
+		keepskill.add(9227);
+		keepskill.add(9228);
+		keepskill.add(9229);
+		keepskill.add(9230);
+		keepskill.add(9231);
+		keepskill.add(9232);
+		keepskill.add(9233);
+		keepskill.add(9256);
+		keepskill.add(9376);
+		keepskill.add(9377);
+		keepskill.add(9378);
+		keepskill.add(9379);
+		//------------------------------------------------
 		Connection con = null;
 		PreparedStatement statement = null;
 		ResultSet rset = null;
@@ -6959,28 +6986,41 @@ public final class Player extends Playable implements PlayerGroup
 					_log.info("Problem! RestoreSkill Id: " + id + " level: " + level);
 					continue;
 				}
-				if (!isAwaking() && 
-					!SkillAcquireHolder.getInstance().isSkillPossible(this, skill))
+				if (!isAwaking() && !SkillAcquireHolder.getInstance().isSkillPossible(this, skill))
+				{
+					if (!keepskill.contains(skill.getId()))
+					{
+						removeSkill(skill, true);
+						removeSkillFromShortCut(skill.getId());
+						_log.info("SkillTree: Removed skill: " + skill.getId() + " - " + skill.getName() + " to the player " + getName());
+						continue;
+					}
+				}
+				//-------------------
+				//SKILL RACE CHECK
+				//-------------------
+				if (isAwaking() && !SkillAcquireHolder.getInstance().isSkillRacePossible(this, skill))
 				{
 					removeSkill(skill, true);
-					removeSkillFromShortCut(skill.getId());
-					_log.info("SkillTree: Removed skill: " + skill.getId() + " - " + skill.getName() + " to the player " + getName());
+					_log.info("Race Skill Removed: " + skill.getId() + " - " + skill.getName() + " to the player " + getName());
 					continue;
 				}
-				if (isAwaking())
+				//-------------------
+				//SKILL DB CHECK
+				//-------------------
+				if (!SkillAcquireHolder.getInstance().isSkillPossible(this, skill))
 				{
-					SkillLearn learn = SkillAcquireHolder.getInstance().getSkillLearn(this, skill.getId(), skill.getDisplayLevel() > 100 ? skill.getBaseLevel() : skill.getLevel(), AcquireType.NORMAL);
-					if (learn != null)
+					if (!SkillAcquireHolder.getInstance().getAllClassSkillId().contains(skill.getId()))
 					{
-						//RACE SKILL CHECK
-						if (!learn.isOfRace(getRace()))
+						if (!keepskill.contains(skill.getId()))
 						{
 							removeSkill(skill, true);
-							_log.info("RaceSkill: Removed skill: " + skill.getId() + " - " + skill.getName() + " to the player " + getName());
+							_log.info("Removed Skill: " + skill.getId() + " - " + skill.getName() + " to the player " + getName());
 							continue;
 						}
 					}
 				}
+				//-------------------
 				if (Config.ALT_DELETE_SKILL_RELATION && skill.isRelationSkill())
 				{
 					int[] _ss = skill.getRelationSkills();

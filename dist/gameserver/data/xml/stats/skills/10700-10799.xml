@@ -114,6 +114,9 @@
         </enchant1>
         <for><!-- TODO: Need to add P. Skill Critical Rate depending of DEX feature and HP stat-->
             <add order="0x10" stat="STR" val="2"/>
+            <add order="0x40" stat="maxHp" val="4783">
+                <using kind="Light"/>
+            </add>
             <add order="0x40" stat="pDef" val="#pDef">
                 <using kind="Light"/>
             </add>
@@ -966,10 +969,10 @@
             <table name="#stunPow">1 2 3 4 5 6 7 8 9 10</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant4>
-        <enchant9 levels="10" name="Recovery">
+        <enchant5 levels="10" name="Recovery" enchRoute="9">
             <table name="#reuseDelay">899500 889500 878500 868500 858000 848000 837500 827500 817000 806000</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant9>
+        </enchant5>
         <for>
             <effect name="Buff" time="#time" val="0" stackOrder="1" stackType="avoid_up_special">
                 <add order="0x40" stat="rEvas" val="#rEvas"/>
@@ -1052,10 +1055,10 @@
             <table name="#rootPow">1 2 3 4 5 6 7 8 9 10</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant4>
-        <enchant9 levels="10" name="Recycle">
+        <enchant5 levels="10" name="Recovery" enchRoute="9">
             <table name="#reuseDelay">110500 100500 99500 99500 98000 98000 97500 97500 97000 96000</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant9>
+        </enchant5>
         <for>
             <effect name="Buff" time="#time" val="0" stackOrder="1" stackType="QuickFire">
                 <mul order="0x30" stat="pAtkSpd" val="#pAtkSpd">
@@ -1212,10 +1215,10 @@
             <table name="#rootPow">1 2 3 4 5 6 7 8 9 10</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant4>
-        <enchant9 levels="10" name="Recycle">
+        <enchant5 levels="10" name="Recovery" enchRoute="9">
             <table name="#reuseDelay">59500 59500 59500 58500 57000 57000 56500 56500 56000 55000</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant9>
+        </enchant5>
         <for>
             <effect name="Buff" time="#time" val="0">
                 <add order="0x40" stat="accCombat" val="#accCombat"/>
@@ -1294,10 +1297,10 @@
             <table name="#activateRate">71 72 73 74 75 76 77 78 79 80</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant2>
-        <enchant9 levels="10" name="Recycle">
+        <enchant5 levels="10" name="Recovery" enchRoute="9">
             <table name="#reuseDelay">1400 1400 1300 1300 1200 1200 1100 1100 1000 1000</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant9>
+        </enchant5>
         <for><!-- TODO: this is immediate effect, and skill description says until past 10 seconds.-->
             <effect count="1" name="DamOverTime" time="1" val="30000"/>
         </for>

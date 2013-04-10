@@ -82,6 +82,9 @@
         </enchant1>
         <for>
             <add order="0x10" stat="STR" val="2"/>
+            <add order="0x40" stat="maxHp" val="4880">
+                <using armor="Light"/>
+            </add>
             <add order="0x40" stat="pDef" val="#pDef">
                 <using armor="Light"/>
             </add>
@@ -1372,33 +1375,38 @@
     </skill>
     <skill id="10552" levels="1" name="Superior Resistance">
     <!-- STR + 2, M. Def. + 199, and resistance to Fire/Water/Wind/Earth + 20. When receiving damage, M. Def. and resistance to all attributes momentarily increase. -->
-        <table name="#magicLevel">85</table>
-        <table name="#mDef">199</table>
-        <table name="#defenceFire">20</table>
-        <table name="#defenceWater">20</table>
-        <table name="#defenceWind">20</table>
-        <table name="#defenceEarth">20</table>
-        <set name="magicLevel" val="#magicLevel"/>
-        <set name="relationSkillsId" val="329;328"/>
-        <set name="target" val="TARGET_SELF"/>
-        <set name="skillType" val="BUFF"/>
-        <set name="operateType" val="OP_PASSIVE"/>
-        <enchant1 levels="10" name="Power">
-            <table name="#mDef">206 213 220 227 234 241 248 255 262 270</table>
-            <table name="#defenceFire">21 22 23 24 25 26 27 28 29 30</table>
-            <table name="#defenceWater">21 22 23 24 25 26 27 28 29 30</table>
-            <table name="#defenceWind">21 22 23 24 25 26 27 28 29 30</table>
-            <table name="#defenceEarth">21 22 23 24 25 26 27 28 29 30</table>
-            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant1>
-        <for>
-            <add order="0x10" stat="STR" val="2"/>
-            <add order="0x40" stat="mDef" val="#mDef"/>
-            <add order="0x40" stat="defenceFire" val="#defenceFire"/>
-            <add order="0x40" stat="defenceWater" val="#defenceWater"/>
-            <add order="0x40" stat="defenceWind" val="#defenceWind"/>
-            <add order="0x40" stat="defenceEarth" val="#defenceEarth"/>
-        </for>
+		<table name="#magicLevel">85</table>
+		<table name="#mDef">199</table>
+		<table name="#defenceFire">20</table>
+		<table name="#defenceWater">20</table>
+		<table name="#defenceWind">20</table>
+		<table name="#defenceEarth">20</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="relationSkillsId" val="329;328"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<triggers>
+		    <trigger id="10058" level="1" type="RECEIVE_DAMAGE" chance="50">
+		        <player damage="50;0"/>
+		    </trigger>
+		</triggers>
+		<enchant1 levels="10" name="Power">
+		    <table name="#mDef">206 213 220 227 234 241 248 255 262 270</table>
+		    <table name="#defenceFire">21 22 23 24 25 26 27 28 29 30</table>
+		    <table name="#defenceWater">21 22 23 24 25 26 27 28 29 30</table>
+		    <table name="#defenceWind">21 22 23 24 25 26 27 28 29 30</table>
+		    <table name="#defenceEarth">21 22 23 24 25 26 27 28 29 30</table>
+		    <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant1>
+		<for>
+		    <add order="0x10" stat="STR" val="2"/>
+		    <add order="0x40" stat="mDef" val="#mDef"/>
+		    <add order="0x40" stat="defenceFire" val="#defenceFire"/>
+		    <add order="0x40" stat="defenceWater" val="#defenceWater"/>
+		    <add order="0x40" stat="defenceWind" val="#defenceWind"/>
+		    <add order="0x40" stat="defenceEarth" val="#defenceEarth"/>
+		</for>
     </skill>
     <skill id="10553" levels="8" name="Dagger Storm">
     <!-- Attack nearby enemies with 6871 Power added to P. Atk. Over-hit. -->

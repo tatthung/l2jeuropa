@@ -55,6 +55,9 @@
 			<table name="#pDef">97 103 109 115 121 127 133 139 145 151</table>
 		</enchant1>
 		<for>
+			<add order="0x40" stat="maxHp" val="4636">
+				<using armor="Magic"/>
+			</add>
 			<add order="0x40" stat="pDef" val="#pDef">
 				<using armor="Magic"/>
 			</add>
@@ -72,6 +75,9 @@
 			<table name="#pDef">78 82 87 92 97 101 106 111 115 120</table>
 		</enchant1>
 		<for>
+			<add order="0x40" stat="maxHp" val="4634">
+				<using armor="Light"/>
+			</add>
 			<add order="0x40" stat="pDef" val="#pDef">
 				<using armor="Light"/>
 			</add>
@@ -92,6 +98,9 @@
 			<table name="#pDef">78 82 87 92 97 101 106 111 115 120</table>
 		</enchant1>
 		<for>
+			<add order="0x40" stat="maxHp" val="4636">
+				<using armor="Heavy"/>
+			</add>
 			<add order="0x40" stat="pDef" val="#pDef">
 				<using armor="Heavy"/>
 			</add>
@@ -105,6 +114,11 @@
 		<set name="magicLevel" val="85"/>
 		<set name="operateType" val="OP_PASSIVE"/>
 		<set name="relationSkillsId" val="146;466;147;9094;756;2442"/>
+		<triggers>
+		    <trigger id="10058" level="1" type="RECEIVE_DAMAGE" chance="50">
+		        <player damage="50;0"/>
+		    </trigger>
+		</triggers>
 		<enchant1 levels="10" name="Power">
 			<table name="#mDef">146 154 162 170 178 186 194 202 210 218</table>
 		</enchant1>
