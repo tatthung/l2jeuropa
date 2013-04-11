@@ -395,6 +395,12 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
+        <for>
+            <effect count="1" name="CallSkills" time="0" val="0">
+                <def name="skillIds" val="11082"/>
+                <def name="skillLevels" val="1"/>
+            </effect>
+        </for>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">175 177 179 181 183 186 188 190 192 194</table>
@@ -415,6 +421,12 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
+        <for>
+            <effect count="1" name="CallSkills" time="0" val="0">
+                <def name="skillIds" val="11083"/>
+                <def name="skillLevels" val="1"/>
+            </effect>
+        </for>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">175 177 179 181 183 186 188 190 192 194</table>
@@ -435,15 +447,21 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
+        <for>
+            <effect count="1" name="CallSkills" time="0" val="0">
+                <def name="skillIds" val="11084"/>
+                <def name="skillLevels" val="1"/>
+            </effect>
+        </for>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">175 177 179 181 183 186 188 190 192 194</table>
         </enchant2>
         <enchant3 levels="10" name="Recycle"/>
-    </skill>
-    <skill id="11021" levels="8" name="Elemental Crash (earth)">
-    <!-- Inflicts a magic attack imbued with elemental properties on the target with 144 power added to attribute damage. In addition, Fire inflicts fear, Water decreases Speed, Wind causes Knock Back, and Earth inflicts hold. Double Casting inflicts stun. Over-hit. -->
-        <table name="#powerPvP">0</table>
+	</skill>
+	<skill id="11021" levels="8" name="Elemental Crash (earth)">
+	<!-- Inflicts a magic attack imbued with elemental properties on the target with 144 power added to attribute damage. In addition, Fire inflicts fear, Water decreases Speed, Wind causes Knock Back, and Earth inflicts hold. Double Casting inflicts stun. Over-hit. -->
+		<table name="#powerPvP">0</table>
         <table name="#pwr">144 146 150 154 159 163 167 171</table>
         <table name="#magicLevel">85 86 88 90 92 94 96 98</table>
         <set name="relationSkillsId" val="1342;1343;1160;1236;1234;1555;1437"/>
@@ -455,17 +473,17 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
+        <for>
+            <effect count="1" name="CallSkills" time="0" val="0">
+                <def name="skillIds" val="11085"/>
+                <def name="skillLevels" val="1"/>
+            </effect>
+        </for>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">175 177 179 181 183 186 188 190 192 194</table>
         </enchant2>
         <enchant3 levels="10" name="Recycle"/>
-        <for>
-            <effect count="1" name="CallSkills" time="0" val="0">
-                <def name="skillIds" val="11090"/>
-                <def name="skillLevels" val="1"/>
-            </effect>
-        </for>
     </skill>
     <skill id="11022" levels="8" name="Elemental Crash (4 attributes)">
     <!-- Inflicts a magic attack imbued with elemental properties on the target with 144 power added to attribute damage. In addition, Fire inflicts fear, Water decreases Speed, Wind causes Knock Back, and Earth inflicts hold. Double Casting inflicts stun. Over-hit. -->
@@ -1773,31 +1791,49 @@
     </skill>
     <skill id="11082" levels="1" name="Fire - Elemental Crash">
     <!-- The target is inflicted with Fear. -->
-        <set name="target" val="TARGET_NONE"/>
-        <set name="skillType" val="NOTDONE"/>
-        <set name="operateType" val="OP_ACTIVE"/>
-        <for/>
+		<set name="magicLevel" val="97"/>
+        <set name="reuseDelay" val="20000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="DEBUFF"/>
+		<for>
+			<effect name="Fear" time="3" val="0" stackTypes="turn_flee" stackOrder="1" effectPower="20"/>
+		</for>
     </skill>
     <skill id="11083" levels="1" name="Water - Elemental Crash">
     <!-- The target's Speed is reduced. -->
-        <set name="target" val="TARGET_NONE"/>
-        <set name="skillType" val="NOTDONE"/>
-        <set name="operateType" val="OP_ACTIVE"/>
-        <for/>
+		<set name="magicLevel" val="97"/>
+        <set name="reuseDelay" val="20000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="skillType" val="DEBUFF"/>
+		<set name="target" val="TARGET_ONE"/>
+		<for>
+			<effect name="Debuff" time="3" val="0" stackTypes="speed_down" stackOrder="1" effectPower="20">
+				<mul stat="runSpd" order="0x30" value="0.8"/>
+			</effect>
+		</for>
     </skill>
     <skill id="11084" levels="1" name="Wind - Elemental Crash">
     <!-- The target is Knocked Back. -->
-        <set name="target" val="TARGET_NONE"/>
-        <set name="skillType" val="NOTDONE"/>
+		<set name="magicLevel" val="97"/>
+        <set name="reuseDelay" val="20000"/>
         <set name="operateType" val="OP_ACTIVE"/>
-        <for/>
+        <set name="skillType" val="DEBUFF"/>
+        <set name="target" val="TARGET_ONE"/>
+        <for>
+            <effect count="1" name="KnockBack" stackOrder="-1" stackType="KnockBack" time="1" val="0" effectPower="20"/>
+        </for>
     </skill>
     <skill id="11085" levels="1" name="Earth - Elemental Crash">
     <!-- The target is inflicted with Hold. -->
-        <set name="target" val="TARGET_NONE"/>
-        <set name="skillType" val="NOTDONE"/>
-        <set name="operateType" val="OP_ACTIVE"/>
-        <for/>
+		<set name="magicLevel" val="97"/>
+        <set name="reuseDelay" val="20000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="skillType" val="DEBUFF"/>
+		<set name="target" val="TARGET_ONE"/>
+		<for>
+			<effect name="Root" time="3" val="0" stackTypes="root_magically" stackOrder="1" effectPower="20"/>
+		</for>
     </skill>
     <skill id="11086" levels="1" name="Double Casting - Elemental Crash">
     <!-- The target is inflicted with Stun. -->
@@ -1806,42 +1842,51 @@
         <set name="operateType" val="OP_ACTIVE"/>
         <for/>
     </skill>
-    <skill id="11087" levels="1" name="Elemental Crash (fire)">
+    <skill id="11087" levels="3" name="Elemental Crash (fire)">
     <!-- Inflicts fear and hold on the target. -->
-        <set name="target" val="TARGET_NONE"/>
-        <set name="skillType" val="NOTDONE"/>
-        <set name="operateType" val="OP_ACTIVE"/>
-        <for/>
-    </skill>
-    <skill id="11088" levels="1" name="Elemental Crash (water)">
+		<set name="magicLevel" val="97"/>
+        <set name="reuseDelay" val="20000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="DEBUFF"/>
+		<for>
+			<effect name="Fear" time="3" val="0" stackTypes="turn_flee" stackOrder="1" effectPower="20"/>
+		</for>
+	</skill>
+    <skill id="11088" levels="3" name="Elemental Crash (water)">
     <!-- Decreases the target's Speed. -->
-        <set name="target" val="TARGET_NONE"/>
-        <set name="skillType" val="NOTDONE"/>
-        <set name="operateType" val="OP_ACTIVE"/>
-        <for/>
+		<set name="magicLevel" val="97"/>
+        <set name="reuseDelay" val="20000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="skillType" val="DEBUFF"/>
+		<set name="target" val="TARGET_ONE"/>
+		<for>
+			<effect name="Debuff" time="3" val="0" stackTypes="speed_down" stackOrder="1" effectPower="20">
+				<mul stat="runSpd" order="0x30" value="0.8"/>
+			</effect>
+		</for>
     </skill>
-    <skill id="11089" levels="1" name="Elemental Crash (wind)">
+    <skill id="11089" levels="3" name="Elemental Crash (wind)">
     <!-- Knock Back the target. -->
-        <set name="target" val="TARGET_NONE"/>
-        <set name="skillType" val="NOTDONE"/>
+		<set name="magicLevel" val="97"/>
+        <set name="reuseDelay" val="20000"/>
         <set name="operateType" val="OP_ACTIVE"/>
-        <for/>
-    </skill><skill id="11090" levels="3" name="Elemental Crash (Earth)">
-      <set name="magicLevel" val="97"/>
-      <set name="icon" val="icon.skill11017"/>
-      <set name="operateType" val="OP_ACTIVE"/>
-      <set name="target" val="TARGET_ONE"/>
-      <set name="skillType" val="DEBUFF"/>
-      <set name="saveVs" val="MEN"/>
-      <set name="trait" val="HOLD"/>
-      <set name="castRange" val="900"/>
-      <set name="effectRange" val="1000"/>
-      <set name="isDebuff" val="true"/>
-      <set name="isMagic" val="true"/>
+        <set name="skillType" val="DEBUFF"/>
+        <set name="target" val="TARGET_ONE"/>
         <for>
-		<effect count="1" name="Root" stackOrder="-1" stackType="Root" time="5" val="0" chance="100"/>
+            <effect count="1" name="KnockBack" stackOrder="-1" stackType="KnockBack" time="1" val="0" effectPower="20"/>
         </for>
-   </skill>
+    </skill>
+	<skill id="11090" levels="3" name="Elemental Crash (Earth)">
+		<set name="magicLevel" val="97"/>
+        <set name="reuseDelay" val="20000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="skillType" val="DEBUFF"/>
+		<set name="target" val="TARGET_ONE"/>
+		<for>
+			<effect name="Root" time="3" val="0" stackTypes="root_magically" stackOrder="1" effectPower="20"/>
+		</for>
+	</skill>
     <skill id="11091" levels="1" name="Elemental Crash (4 attributes)">
     <!-- Inflicts stun on the target. -->
         <set name="target" val="TARGET_NONE"/>
