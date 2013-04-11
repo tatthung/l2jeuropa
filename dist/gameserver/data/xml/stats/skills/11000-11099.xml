@@ -1577,7 +1577,7 @@
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="aggroPoints" val="#aggroPoints"/>
         <for>
-            <effect name="Buff" time="30" val="0" stackOrder="1" stackType="mp_up">
+            <effect name="Buff" time="30" val="0" stackOrder="1" stackType="double_casting">
                 <mul order="0x40" stat="mReuse" val="#reuse"/>
                 <mul order="0x40" stat="mpConsum" val="#consume"/>
             </effect>

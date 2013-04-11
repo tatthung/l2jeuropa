@@ -532,6 +532,7 @@ public class AwakingManager implements OnPlayerEnterListener
 		if(Config.ALT_DELETE_AWAKEN_SKILL_FROM_DB)
 			delete = true;
 		List <Integer> SkillsCheck = new ArrayList<Integer>();
+		List <Integer> SkillsToRemove = new ArrayList<Integer>();
 		List <Integer> allSkillsId = SkillAcquireHolder.getInstance().getAllClassSkillId();
 		SkillsCheck.addAll(SkillAcquireHolder.getInstance().getAwakenGeneralKeepSkillList());
 		SkillsCheck.addAll(SkillAcquireHolder.getInstance().getAwakenClassSkillForCheck(classId));
@@ -542,7 +543,8 @@ public class AwakingManager implements OnPlayerEnterListener
 			{
 				if(!SkillsCheck.contains(skl.getId()) && allSkillsId.contains(skl.getId()))
 				{
-					player.removeSkill(skl,delete);
+					//player.removeSkill(skl,delete);
+					SkillsToRemove.add(skl.getId());
 				}
 			}
 		}
@@ -550,13 +552,14 @@ public class AwakingManager implements OnPlayerEnterListener
 		{
 			for(Skill skl : player.getAllSkills())
 			{
-				int skId = skl.getId();
-				if(!SkillsCheck.contains(skId) && SkillsCheck.contains(skId))
+				if(!SkillsCheck.contains(skl.getId()) && SkillsCheck.contains(skl.getId()))
 				{
-					player.removeSkill(skl,delete);
+					//player.removeSkill(skl,delete);
+					SkillsToRemove.add(skl.getId());
 				}
 			}
 		}
+		player.removeSkills(SkillsToRemove, delete);
 		for(int alterSkill : _AlterSkills.get(classId))
 		{
 			int skillLv = SkillTable.getInstance().getBaseLevel(alterSkill);

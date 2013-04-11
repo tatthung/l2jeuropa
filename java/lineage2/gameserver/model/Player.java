@@ -6828,11 +6828,17 @@ public final class Player extends Playable implements PlayerGroup
 		}
 		if (newSkill.isRelationSkill())
 		{
+			//New Method
+			List<Integer> lst = Arrays.asList(ArrayUtils.toObject(newSkill.getRelationSkills()));
+			removeSkills(lst, true);
+			/*
+			//Old Method
 			int[] _ss = newSkill.getRelationSkills();
-			for (int _k : _ss)
+	 		for (int _k : _ss)
 			{
 				removeSkill(_k, true);
 			}
+			 */
 		}
 		Skill oldSkill = super.addSkill(newSkill);
 		if (newSkill.equals(oldSkill))
@@ -6867,6 +6873,7 @@ public final class Player extends Playable implements PlayerGroup
 	 * @param fromDB boolean
 	 * @return Skill
 	 */
+	//Must be used for single skill to remove don't use into loop cycle!
 	public Skill removeSkill(int id, boolean fromDB)
 	{
 		Skill oldSkill = super.removeSkillById(id);
@@ -6898,7 +6905,46 @@ public final class Player extends Playable implements PlayerGroup
 		}
 		return oldSkill;
 	}
-	
+
+	/**
+	 * Method removeSkills.
+	 * @param _SkillToRemove List<Integer>
+	 * @param fromDB boolean
+	 */
+	//Lighter removeSkills query by passing list of skill to remove.
+	public void removeSkills(List<Integer> SkillToRemove, boolean fromDB)
+	{
+		Iterator<Integer> iterator = SkillToRemove.iterator();
+		while (iterator.hasNext())
+		{
+			super.removeSkillById(iterator.next());
+		}
+		if (SkillToRemove.size() > 0 && fromDB)
+		{
+			String SkillList = SkillToRemove.toString();
+			SkillList = SkillList.replace('[', '(');
+			SkillList = SkillList.replace(']', ')');
+			Connection con = null;
+			PreparedStatement statement = null;
+			try
+			{
+				con = DatabaseFactory.getInstance().getConnection();
+				statement = con.prepareStatement("DELETE FROM character_skills WHERE skill_id IN " + SkillList + " AND char_obj_id=? AND class_index=?");
+				statement.setInt(1, getObjectId());
+				statement.setInt(2, getActiveClassId());
+				statement.execute();
+			}
+			catch (final Exception e)
+			{
+				_log.error("Could not delete skill!", e);
+			}
+			finally
+			{
+				DbUtils.closeQuietly(con, statement);
+			}
+		}
+	}
+
 	/**
 	 * Method storeSkill.
 	 * @param newSkill Skill
@@ -6942,13 +6988,6 @@ public final class Player extends Playable implements PlayerGroup
 		List<Integer> keepskill = new ArrayList<Integer>();
 		//Nobless Skills
 		keepskill.add(325);
-		keepskill.add(326);
-		keepskill.add(327);
-		keepskill.add(1323);
-		keepskill.add(1324);
-		keepskill.add(1325);
-		keepskill.add(1326);
-		keepskill.add(1327);
 		//Common Craft Skills
 		keepskill.add(1320);
 		//Mentor Skills
@@ -6976,6 +7015,7 @@ public final class Player extends Playable implements PlayerGroup
 			statement.setInt(2, getActiveClassId());
 			rset = statement.executeQuery();
 			List<Integer> _relationSkillToRemove = new ArrayList<Integer>();
+			List<Integer> _SkillToRemove = new ArrayList<Integer>();
 			while (rset.next())
 			{
 				final int id = rset.getInt("skill_id");
@@ -6990,7 +7030,8 @@ public final class Player extends Playable implements PlayerGroup
 				{
 					if (!keepskill.contains(skill.getId()))
 					{
-						removeSkill(skill, true);
+						_SkillToRemove.add(skill.getId());
+						//removeSkill(skill, true);
 						removeSkillFromShortCut(skill.getId());
 						_log.info("SkillTree: Removed skill: " + skill.getId() + " - " + skill.getName() + " to the player " + getName());
 						continue;
@@ -7001,7 +7042,8 @@ public final class Player extends Playable implements PlayerGroup
 				//-------------------
 				if (isAwaking() && !SkillAcquireHolder.getInstance().isSkillRacePossible(this, skill))
 				{
-					removeSkill(skill, true);
+					_SkillToRemove.add(skill.getId());
+					//removeSkill(skill, true);
 					_log.info("Race Skill Removed: " + skill.getId() + " - " + skill.getName() + " to the player " + getName());
 					continue;
 				}
@@ -7014,7 +7056,8 @@ public final class Player extends Playable implements PlayerGroup
 					{
 						if (!keepskill.contains(skill.getId()))
 						{
-							removeSkill(skill, true);
+							_SkillToRemove.add(skill.getId());
+							//removeSkill(skill, true);
 							_log.info("Removed Skill: " + skill.getId() + " - " + skill.getName() + " to the player " + getName());
 							continue;
 						}
@@ -7031,6 +7074,9 @@ public final class Player extends Playable implements PlayerGroup
 				}
 				super.addSkill(skill);
 			}
+			
+			removeSkills(_SkillToRemove, true);
+
 			if (isNoble())
 			{
 				updateNobleSkills();
