@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-	    <skill id="11500" levels="1" name="Wynn Chain Air Blow">
-	    		<!-- Inflicts a powerful blow on the target. -->
-			<set name="reuseDelay" val="10000"/>
-			<set name="hitTime" val="0"/>
-			<set name="mpConsume2" val="40"/>
-			<set name="castRange" val="700"/>
-			<set name="power" val="17803"/>
-			<set name="magicLevel" val="85"/>
-			<set name="coolTime" val="300"/>
-			<set name="skillType" val="PDAM"/>
-			<set name="target" val="TARGET_ONE"/>
-			<set name="overHit" val="true"/>&gt;
-			<set name="isSkillTimePermanent" val="true"/>
-			<set name="operateType" val="OP_ACTIVE"/>
-			<set name="nextAction" val="attack"/>
-			<set name="isSkillTimePermanent" val="true"/>
-			<set name="isAlterSkill" val="true"/>
-	    </skill>
+	<skill id="11500" levels="1" name="Wynn Chain Air Blow">
+	<!-- Inflicts a powerful blow on the target. -->
+		<set name="reuseDelay" val="10000"/>
+		<set name="hitTime" val="0"/>
+		<set name="mpConsume2" val="40"/>
+		<set name="castRange" val="700"/>
+		<set name="power" val="17803"/>
+		<set name="magicLevel" val="85"/>
+		<set name="coolTime" val="300"/>
+		<set name="skillType" val="PDAM"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="overHit" val="true"/>&gt;
+		<set name="isSkillTimePermanent" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="attack"/>
+		<set name="isSkillTimePermanent" val="true"/>
+		<set name="isAlterSkill" val="true"/>
+	</skill>
 	<skill id="11501" levels="1" name="Superior Dual Weapon Mastery">
     <!-- When a Dual sword or Dual Blunt Weapon is equipped, increases P. Atk. by 235, M. Atk. by 104, and Atk. Spd. by 10%. There is a chance of increasing physical skill power and Critical Rate when attacking. Additionally, there is a chance the cooldown of skills will reset or the duration double depending on your STR. -->
 		<table name="#pAtk">235</table>
@@ -984,7 +984,6 @@
 			<effect name="Transformation" time="15" val="104" cancelOnAttacked="true">
 				<mul order="0x30" stat="runSpd" val="#spd"/>
 			</effect>	
-
 		</for>
 	</skill>
 	<skill id="11538" levels="4" name="Mass Giant Root">

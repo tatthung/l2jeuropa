@@ -182,7 +182,6 @@
 	</skill>
 	<skill id="909" levels="6" name="Ice Fog">
     <!-- Inflicts continuous damage on nearby enemies with 348 Power, decreasing their Speed, Atk. Spd. and Casting Spd. -->
-
 		<table name="#power">348 351 355 358 361 364</table>
 		<table name="#mpConsume2">58 58 59 59 60 60</table>
 		<table name="#magicLevel">80 81 82 83 84 85</table>
