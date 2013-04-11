@@ -974,6 +974,7 @@
 		<set name="icon" val="icon.skilltransform3"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="DEBUFF"/>
+		<set name="trait" val="MUTATE"/>
 		<set name="isHandler" val="true"/>
 		<set name="npcId" val="13093"/>
 		<set name="operateType" val="OP_ACTIVE"/>	

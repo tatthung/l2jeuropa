@@ -865,6 +865,7 @@
 		<set name="skillType" val="MDAM"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="nextAction" val="attack"/>
+        <set name="trait" val="AIRJOKE"/>
 		<set name="delayedEffect" val="5459"/>
 		<enchant1 levels="10" name="Cost">
 		    <table name="#mpConsume2">89 85 81 78 74 70 66 63 59 55</table>

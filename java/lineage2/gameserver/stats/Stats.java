@@ -269,6 +269,22 @@ public enum Stats
 	 */
 	MAGIC_RESIST("magicResist", -200., 300.),
 	/**
+	 * Field AIRJOKE_RESIST.
+	 */
+	AIRJOKE_RESIST("airjokeResist", Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY),
+	/**
+	 * Field MUTATE_RESIST.
+	 */
+	MUTATE_RESIST("mutateResist", Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY),
+	/**c
+	 * Field DISARM_RESIST.
+	 */
+	DISARM_RESIST("disarmResist", Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY),
+	/**
+	 * Field PULL_RESIST.
+	 */
+	PULL_RESIST("pullResist", Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY),
+	/**
 	 * Field KNOCKBACK_RESIST.
 	 */
 	KNOCKBACK_RESIST("knockBackResist", Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY),
@@ -316,6 +332,22 @@ public enum Stats
 	 * Field MAGIC_POWER.
 	 */
 	MAGIC_POWER("magicPower", -200., 200.),
+	/**
+	 * Field TRANSFORM_POWER.
+	 */
+	MUTATE_POWER("mutatePower", -200., 200.),
+	/**
+	 * Field PULL_POWER.
+	 */
+	AIRJOKE_POWER("airjokePower", -200., 200.),
+	/**
+	 * Field PULL_POWER.
+	 */
+	DISARM_POWER("disarmPower", -200., 200.),
+	/**
+	 * Field PULL_POWER.
+	 */
+	PULL_POWER("pullPower", -200., 200.),
 	/**
 	 * Field KNOCKBACK_POWER.
 	 */

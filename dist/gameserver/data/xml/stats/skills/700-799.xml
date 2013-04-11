@@ -1679,6 +1679,7 @@
 		<set name="activateRate" val="70"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="DEBUFF"/>
+		<set name="trait" val="DISARM"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="num_charges" val="2"/>
 		<set name="charge_skill_id" val="8"/>
@@ -2218,6 +2219,7 @@
 		<set name="activateRate" val="#activateRate"/>
 		<set name="target" val="TARGET_AURA"/>
 		<set name="skillRadius" val="200"/>
+		<set name="trait" val="DISARM"/>
 		<set name="skillType" val="DEBUFF"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="saveVs" val="STR"/>

@@ -206,7 +206,7 @@ public enum EffectType
 	/**
 	 * Field Disarm.
 	 */
-	Disarm(EffectDisarm.class, null, true),
+	Disarm(EffectDisarm.class, null, Stats.DISARM_RESIST, Stats.DISARM_POWER, true),
 	/**
 	 * Field Discord.
 	 */
@@ -438,7 +438,7 @@ public enum EffectType
 	/**
 	 * Field Transformation.
 	 */
-	Transformation(EffectTransformation.class, null, true),
+	Transformation(EffectTransformation.class, null, Stats.MUTATE_RESIST, Stats.MUTATE_POWER, true),
 	/**
 	 * Field UnAggro.
 	 */
@@ -454,7 +454,7 @@ public enum EffectType
 	/**
 	 * Field TargetToMe.
 	 */
-	TargetToMe(EffectTargetToMe.class, null, true),
+	TargetToMe(EffectTargetToMe.class, null, Stats.PULL_RESIST, Stats.PULL_POWER, true),
 	/**
 	 * Field TargetToOwner.
 	 */
