@@ -191,7 +191,7 @@ public class _246_PossessorOfaPreciousSoul3 extends Quest implements ScriptFile
 	@Override
 	public String onKill(NpcInstance npc, QuestState st)
 	{
-		if (!st.getPlayer().isBaseClassActive())
+		if (st.getPlayer().isBaseClassActive())
 		{
 			return null;
 		}
