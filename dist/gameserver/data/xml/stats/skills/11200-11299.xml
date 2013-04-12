@@ -403,7 +403,7 @@
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant3>
 		<for>
-			<effect abnormal="bleeding" count="4" name="Bleed" time="2" val="#DOT"/>
+			<effect abnormal="bleeding" count="4" name="Bleed" time="1" val="#DOT"/>
 		</for>
    </skill>
     <skill id="11261" levels="6" name="Mark of Plague">
