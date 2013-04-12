@@ -1189,8 +1189,8 @@
         <set name="isDebuff" val="true"/>
         <set name="isMagic" val="true"/>
         <set name="lvlDepend" val="2"/>
-        <set name="flyRadius" val="-90"/>
-        <set name="flyType" val="THROW_HORIZONTAL"/>
+        <set name="flyRadius" val="30"/>
+        <set name="flyType" val="THROW_UP"/>
         <set name="mpInitialConsume" val="22"/>
         <set name="trait" val="AIRJOKE"/>
         <set name="operateType" val="OP_ACTIVE"/>
@@ -1213,9 +1213,9 @@
         <set name="mpConsume2" val="#mpConsume2"/>
         <set name="magicLevel" val="#magicLevel"/>
         <set name="coolTime" val="3000"/>
-        <set name="flyRadius" val="-80"/>
         <set name="relationSkillsId" val="1072;1298;"/>
-        <set name="flyType" val="THROW_HORIZONTAL"/>
+        <set name="flyRadius" val="30"/>
+        <set name="flyType" val="THROW_UP"/>
         <set name="isDebuff" val="true"/>
         <set name="isMagic" val="true"/>
         <set name="trait" val="AIRJOKE"/>
@@ -1241,8 +1241,8 @@
         <set name="mpConsume2" val="#mpConsume2"/>
         <set name="magicLevel" val="#magicLevel"/>
         <set name="coolTime" val="3000"/>
-        <set name="flyRadius" val="-80"/>
-        <set name="flyType" val="THROW_HORIZONTAL"/>
+        <set name="flyRadius" val="30"/>
+        <set name="flyType" val="THROW_UP"/>
         <set name="isDebuff" val="true"/>
         <set name="isMagic" val="true"/>
         <set name="trait" val="AIRJOKE"/>
@@ -1270,9 +1270,9 @@
         <set name="isDebuff" val="true"/>
         <set name="magicType" val="MAGIC"/>
         <set name="lvlDepend" val="2"/>
-        <set name="flyRadius" val="-90"/>
         <set name="trait" val="AIRJOKE"/>
-        <set name="flyType" val="THROW_HORIZONTAL"/>
+        <set name="flyRadius" val="30"/>
+        <set name="flyType" val="THROW_UP"/>
         <set name="mpInitialConsume" val="22"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="power" val="500"/>

@@ -127,12 +127,13 @@ public class EffectKnockDown extends Effect
 		_x = (tagetLoc.x - (int) (offset * cos));
 		_y = (tagetLoc.y - (int) (offset * sin));
 		_z = tagetLoc.z;
-
 		Location loc = new Location(_x, _y, _z);
 		loc = GeoEngine.moveCheck(tagetLoc.x, tagetLoc.y, tagetLoc.z, _x, _y, _effected.getGeoIndex());
-
 		if(!_effected.isKnockedDown())
 			_effected.startKnockingdown();
+		_effected.abortAttack(true, true);
+		_effected.abortCast(true, true);
+		_effected.stopMove();
 		for(Player playerNearEffected : World.getAroundPlayers(_effected, 1200, 400))//Need to check: When the target has been hitted by another Knock Down skill, don't trigger chain skill
 		{
 			if(playerNearEffected.getTarget() == _effected && playerNearEffected.isAwaking())

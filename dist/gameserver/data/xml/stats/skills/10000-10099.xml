@@ -1096,7 +1096,6 @@
 		<set name="magicLevel" val="#magicLevel"/>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="CONT"/>
-		<set name="skillRadius" val="1000"/>
 		<set name="reuseDelay" val="5000"/>
 		<set name="isAwakeningToggle" val="true"/>
 		<set name="operateType" val="OP_ACTIVE_TOGGLE"/>
@@ -1123,17 +1122,16 @@
 		<set name="magicLevel" val="#magicLevel"/>
 		<set name="target" val="TARGET_AURA"/>
 		<set name="skillType" val="DEBUFF"/>
-		<set name="operateType" val="OP_TOGGLE"/>
-		<set name="skillRadius" val="200"/>
-		<set name="effectRange" val="200"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="skillRadius" val="1000"/>
 		<set name="isDebuff" val="true"/>
 		<for>
-			<effect count="0x7fffffff" name="GiantForceAura" time="5" val="10">
-			<def name="auraSkillId" val="10028"/>
-			<mul order="0x30" stat="pAtk" val="#amount"/>
-			<mul order="0x30" stat="pAtkSpd" val="#amount"/>
-		</effect>
-	</for>
+			<effect count="0x7fffffff" name="GiantForceAura" time="9" val="10" stackType="SigelCombatAura" stackOrder="1">
+				<def name="auraSkillId" val="10028"/>
+				<mul order="0x30" stat="pAtk" val="#amount"/>
+				<mul order="0x30" stat="pAtkSpd" val="#amount"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="10030" levels="1" name="Challenge Aura">
 	<!-- When a sword or blunt weapon is equipped, increases aggression power. Additionally, increases party members' P. Atk. and Atk. Spd. by 5% and decreases skill MP Consumption by 20%. Only one Sigel Knight's Aura can be active at any time. -->

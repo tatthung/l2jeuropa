@@ -629,13 +629,12 @@
 		<set name="magicLevel" val="#magicLevel"/>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="TRANSFORMATION"/>
-		<set name="addSkills" val="580;3;581;3;582;3;583;3"/>
+		<set name="addSkills" val="580;3;581;3;582;3;583;3;619;1"/>
 		<set name="npcId" val="#npc"/>
 		<set name="isCommon" val="true"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<for>
-			<effect count="1" name="Transformation" time="#time" val="509">
-			</effect>
+			<effect count="1" name="Transformation" time="#time" val="509"/>
 		</for>
 	</skill>
     <skill id="11268" levels="8" name="Summon Avenging Cubic">
@@ -861,6 +860,8 @@
 		<set name="magicLevel" val="#magicLevel"/>
 		<set name="activateRate" val="#activateRate"/>
 		<set name="save" val="3"/>
+        <set name="flyRadius" val="30"/>
+        <set name="flyType" val="THROW_UP"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="MDAM"/>
 		<set name="operateType" val="OP_ACTIVE"/>
@@ -1183,14 +1184,13 @@
    </skill>
     <skill id="11293" levels="8" name="Cubic Cancellation">
     <!-- Cancels the enemy's buff. -->
-       <table name="#magicLevel">85 86 87 89 92 93 95 98</table>
+		<table name="#magicLevel">85 86 87 89 92 93 95 98</table>
         <set name="magicLevel" val="#magicLevel"/>
-       <set name="magicType" val="MAGIC"/>
-		<set name="target" val="TARGET_SELF"/>
-		<set name="skillType" val="BUFF"/>
+		<set name="magicType" val="MAGIC"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="DEBUFF"/>
 		<set name="operateType" val="OP_ACTIVE"/>
-		<set name="isOffensive" val="false"/>
-		<set name="effectPoint" val="408"/>
+		<set name="isOffensive" val="true"/>
 		<set name="castRange" val="1000"/>
 		<set name="hitTime" val="3000"/>
 		<set name="useSS" val="false"/>
@@ -1199,17 +1199,27 @@
 			<effect count="1" name="DispelEffects" time="0" val="0">
 				<def name="dispelType" val="cancellation"/>
 				<def name="cancelRate" val="100"/>
-				<def name="negateCount" val="1"/>
+				<def name="negateCount" val="5"/>
 			</effect>
 		</for>
 	</skill>
     <skill id="11294" levels="8" name="Cubic Root">
     <!-- Temporarily stops the enemy from moving. -->
-       <set name="operateType" val="OP_PASSIVE"/>
-       <set name="skillType" val="NOTDONE"/>
-       <set name="target" val="TARGET_SELF"/>
-       <for>
-       </for>
+		<table name="#magicLevel">85 86 87 89 92 93 95 98</table>
+        <set name="magicLevel" val="#magicLevel"/>
+		<set name="magicType" val="MAGIC"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="isOffensive" val="true"/>
+		<set name="skillType" val="ROOT"/>
+		<set name="trait" val="HOLD"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="1000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="useSS" val="false"/>
+		<set name="isHideUseMessage" val="true"/>
+		<for>
+			<effect count="1" name="Root" stackOrder="-1" stackType="Root" time="3" val="0"/>
+		</for>
    </skill>
     <skill id="11295" levels="1" name="Superior Light Armor Mastery">
     <!-- INT + 2. Max HP + 4151 and P. Def. + 132 when equipped with a Light Armor. -->

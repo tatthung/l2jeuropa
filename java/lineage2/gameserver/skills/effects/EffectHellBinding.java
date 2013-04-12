@@ -90,6 +90,9 @@ public final class EffectHellBinding extends Effect
 		}
 		if(!_effected.isAirBinded())
 			_effected.startAirbinding();
+		_effected.abortAttack(true, true);
+		_effected.abortCast(true, true);
+		_effected.stopMove();
 	}
 	
 	/**
