@@ -696,7 +696,9 @@ public class Config
 	public static int LIM_CRIT;
 	public static int LIM_MCRIT;
 	public static int LIM_ACCURACY;
+	public static int LIM_MACCURACY;
 	public static int LIM_EVASION;
+	public static int LIM_MEVASION;
 	public static int LIM_MOVE;
 	public static int GM_LIM_MOVE;
 	public static int LIM_FAME;
@@ -1312,8 +1314,10 @@ public class Config
 		LIM_CRIT_DAM = formulasSettings.getProperty("LimitCriticalDamage", 2000);
 		LIM_CRIT = formulasSettings.getProperty("LimitCritical", 500);
 		LIM_MCRIT = formulasSettings.getProperty("LimitMCritical", 200);
-		LIM_ACCURACY = formulasSettings.getProperty("LimitAccuracy", 200);
-		LIM_EVASION = formulasSettings.getProperty("LimitEvasion", 200);
+		LIM_ACCURACY = formulasSettings.getProperty("LimitAccuracy", 300);
+		LIM_MACCURACY = formulasSettings.getProperty("LimitMAccuracy", 300);
+		LIM_MEVASION = formulasSettings.getProperty("LimitMEvasion", 300);
+		LIM_EVASION = formulasSettings.getProperty("LimitEvasion", 300);
 		LIM_MOVE = formulasSettings.getProperty("LimitMove", 250);
 		GM_LIM_MOVE = formulasSettings.getProperty("GmLimitMove", 1500);
 		LIM_FAME = formulasSettings.getProperty("LimitFame", 3000000);

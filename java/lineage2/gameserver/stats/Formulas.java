@@ -455,7 +455,9 @@ public class Formulas
 	{
 		AttackInfo info = new AttackInfo();
 		boolean isPvP = attacker.isPlayable() && target.isPlayable();
+		info.crit_static = attacker.calcStat(Stats.MCRITICAL_DAMAGE_STATIC, target, skill);
 		info.shld = skill.getShieldIgnore() && calcShldUse(attacker, target);
+		info.miss = false;
 		double mAtk = attacker.getMAtk(target, skill);
 		if (sps == 2)
 		{
@@ -531,8 +533,8 @@ public class Formulas
 		info.crit = calcMCrit(attacker.getMagicCriticalRate(target, skill));
 		if (info.crit)
 		{
-			info.damage *= 2.0;
-			info.damage += attacker.getMagicCriticalDmg(target, skill);
+			info.damage *= attacker.getMagicCriticalDmg(target, skill);
+			info.damage += info.crit_static;
 		}
 		info.damage = attacker.calcStat(Stats.MAGIC_DAMAGE, info.damage, target, skill);
 		if (info.shld)
@@ -586,6 +588,12 @@ public class Formulas
 				attacker.sendPacket(msg);
 				target.sendPacket(msg);
 			}
+		}
+		if ((info.damage > 1) && skill.isMagic() && calcMagicMiss(attacker,target))
+		{
+			attacker.sendPacket(new SystemMessage(SystemMessage.C1S_ATTACK_WENT_ASTRAY).addName(attacker));
+			target.sendPacket(new SystemMessage(SystemMessage.C1_HAS_EVADED_C2S_ATTACK).addName(target).addName(attacker));
+			info.damage = 0;
 		}
 		if (info.damage > 0)
 		{
@@ -794,6 +802,20 @@ public class Formulas
 				chanceToHit *= 1.1;
 				break;
 		}
+		return !Rnd.chance(chanceToHit);
+	}
+
+	/**
+	 * Method calcMagicMiss.
+	 * @param attacker Creature
+	 * @param target Creature
+	 * @return boolean
+	 */
+	public static boolean calcMagicMiss(Creature attacker, Creature target)
+	{
+		int chanceToHit = 88 + (2 * (attacker.getMAccuracy() - target.getMEvasionRate((attacker))));
+		chanceToHit = Math.max(chanceToHit, 28);
+		chanceToHit = Math.min(chanceToHit, 98);
 		return !Rnd.chance(chanceToHit);
 	}
 	

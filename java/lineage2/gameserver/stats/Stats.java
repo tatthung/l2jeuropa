@@ -143,7 +143,11 @@ public enum Stats
 	/**
 	 * Field MCRITICAL_DAMAGE.
 	 */
-	MCRITICAL_DAMAGE("mCritDamage", 0., 10., 2.5),
+	MCRITICAL_DAMAGE("mCritDamage", 0., 10., 2),
+	/**
+	 * Field CRITICAL_DAMAGE_STATIC.
+	 */
+	MCRITICAL_DAMAGE_STATIC("mCAtkStatic"),
 	/**
 	 * Field PHYSICAL_DAMAGE.
 	 */
@@ -520,10 +524,6 @@ public enum Stats
 	 * Field PSKILL_EVASION.
 	 */
 	PSKILL_EVASION("pSkillEvasion", 0., 100.),
-	/**
-	 * Field MSKILL_EVASION.
-	 */
-	MSKILL_EVASION("mSkillEvasion", 0., 100.),
 	/**
 	 * Field COUNTER_ATTACK.
 	 */
