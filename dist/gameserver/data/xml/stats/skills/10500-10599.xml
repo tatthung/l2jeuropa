@@ -652,6 +652,7 @@
     <!-- For 30 seconds, increases P. Evasion by 60, M. Evasion by 60, M. Def. by 20%, P. Skill Evasion Rate by 60% and resistance to debuffs. Has a 40% chance of canceling the enemy's targeting when attacked. -->
         <table name="#magicLevel">85 90 95 99</table>
         <table name="#rEvas">60 65 70 75</table>
+		<table name="#mEvas">60 70 80 90</table>
         <table name="#time">30</table>
 		<table name="#mpConsume2">38 41 45 47</table>
 		<set name="mpConsume2" val="#mpConsume2"/>
@@ -676,6 +677,7 @@
 				<mul order="0x30" stat="mDef" val="1.2"/>
 				<add order="0x40" stat="reflectMagicDebuff" val="60"/>
                 <add order="0x40" stat="rEvas" val="#rEvas"/>
+				<add order="0x40" stat="mEvas" val="#mEvas"/>
                 <add order="0x40" stat="debuffResist" val="40"/>
             </effect>
         </for>
