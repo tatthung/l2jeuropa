@@ -30,7 +30,7 @@ public class EffectKnockBack extends Effect
 	 * Field _z. Field _y. Field _x.
 	 */
 	private int _x, _y, _z;
-	
+	private Location _loc = new Location(_x, _y, _z);
 	/**
 	 * Constructor for EffectKnockBack.
 	 * @param env Env
@@ -70,13 +70,12 @@ public class EffectKnockBack extends Effect
 		_y = (tagetLoc.y - (int) (offset * sin));
 		_z = tagetLoc.z;
 		
-		Location loc = new Location(_x, _y, _z);
-		loc = GeoEngine.moveCheck(tagetLoc.x, tagetLoc.y, tagetLoc.z, _x, _y, _effected.getGeoIndex());
+		_loc = GeoEngine.moveCheck(tagetLoc.x, tagetLoc.y, tagetLoc.z, _x, _y, _effected.getGeoIndex());
 		if(!_effected.isKnockedBack())
 			_effected.startKnockingback();
 		_effected.abortCast(true, true);
-		_effected.broadcastPacket(new FlyToLocation(_effected, loc, FlyType.PUSH_HORIZONTAL, getSkill().getFlySpeed()));
-		_effected.setXYZ(loc.getX(), loc.getY(), loc.getZ());
+		_effected.broadcastPacket(new FlyToLocation(_effected, _loc, FlyType.PUSH_HORIZONTAL, getSkill().getFlySpeed()));
+		_effected.setXYZ(_loc.getX(), _loc.getY(), _loc.getZ());
 		_effected.broadcastPacket(new ValidateLocation(_effected));
 	}
 	
@@ -87,7 +86,7 @@ public class EffectKnockBack extends Effect
 	public void onExit()
 	{
 		super.onExit();
-		_effected.setXYZ(_x, _y, _z);
+		_effected.setXYZ(_loc.getX(), _loc.getY(), _loc.getZ());
 		_effected.broadcastPacket(new ValidateLocation(_effected));
 		if(_effected.isKnockedBack())
 			_effected.stopKnockingback();

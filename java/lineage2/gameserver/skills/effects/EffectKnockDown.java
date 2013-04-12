@@ -154,8 +154,6 @@ public class EffectKnockDown extends Effect
 	public void onExit()
 	{
 		super.onExit();
-		//_effected.setXYZ(_x, _y, _z);
-		//_effected.broadcastPacket(new ValidateLocation(_effected));
 		if(_effected.isKnockedDown())
 			_effected.stopKnockingdown();
 	}
