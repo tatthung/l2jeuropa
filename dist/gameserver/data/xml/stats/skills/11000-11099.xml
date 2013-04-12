@@ -1212,7 +1212,6 @@
         <set name="castRange" val="900"/>
         <set name="mpConsume2" val="#mpConsume2"/>
         <set name="magicLevel" val="#magicLevel"/>
-        <set name="coolTime" val="3000"/>
         <set name="relationSkillsId" val="1072;1298;"/>
         <set name="flyRadius" val="30"/>
         <set name="flyType" val="THROW_UP"/>
@@ -1220,15 +1219,15 @@
         <set name="isMagic" val="true"/>
         <set name="trait" val="AIRJOKE"/>
         <set name="lvlDepend" val="1"/>
-        <set name="operateType" val="OP_ACTIVE"/>
-        <set name="power" val="146"/>
         <set name="skillRadius" val="350"/>
-        <set name="skillType" val="MDAM"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="skillType" val="DEBUFF"/>
+        <set name="target" val="TARGET_AREA"/>
         <set name="saveVs" val="CON"/>
-        <set name="target" val="TARGET_AURA"/>
+		<set name="isUsingWhileCasting" val="true"/>
         <for>
-            <effect name="HellBinding" time="10" stackType="paralyze" stackOrder="1"/>
-            <effect abnormal="bleeding" count="5" name="Bleed" stackType="Bleed" time="2" val="200"/>
+            <effect name="HellBinding" time="8" stackType="paralyze" stackOrder="1"/>
+            <effect abnormal="bleeding" count="8" name="Bleed" stackType="Bleed" time="1" val="100"/>
         </for>
     </skill>
     <skill id="11053" levels="4" name="Mass Hell Binding">
@@ -1240,7 +1239,6 @@
         <set name="castRange" val="900"/>
         <set name="mpConsume2" val="#mpConsume2"/>
         <set name="magicLevel" val="#magicLevel"/>
-        <set name="coolTime" val="3000"/>
         <set name="flyRadius" val="30"/>
         <set name="flyType" val="THROW_UP"/>
         <set name="isDebuff" val="true"/>
@@ -1248,14 +1246,14 @@
         <set name="trait" val="AIRJOKE"/>
         <set name="lvlDepend" val="1"/>
         <set name="operateType" val="OP_ACTIVE"/>
-        <set name="power" val="146"/>
         <set name="skillRadius" val="350"/>
-        <set name="skillType" val="MDAM"/>
-        <set name="saveVs" val="CON"/>
+        <set name="skillType" val="DEBUFF"/>
         <set name="target" val="TARGET_AURA"/>
+        <set name="saveVs" val="CON"/>
+		<set name="isUsingWhileCasting" val="true"/>
         <for>
-            <effect name="HellBinding" time="10" stackType="paralyze" stackOrder="1"/>
-            <effect abnormal="bleeding" count="5" name="Bleed" stackType="Bleed" time="2" val="200"/>
+            <effect name="HellBinding" time="8" stackType="paralyze" stackOrder="1"/>
+            <effect abnormal="bleeding" count="8" name="Bleed" stackType="Bleed" time="1" val="100"/>
         </for>
     </skill>
     <skill id="11054" levels="1" name="Yoke Status">
