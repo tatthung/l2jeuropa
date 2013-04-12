@@ -293,7 +293,7 @@
         <set name="target" val="TARGET_SELF"/>
         <set name="skillType" val="SUMMON"/>
         <set name="operateType" val="OP_ACTIVE"/>
-        <table name="#npcIds">14954 14955 14956 14957 14958 14959 14960 14972</table>
+        <table name="#npcIds">14930 14954 14955 14956 14957 14958 14959 14960</table>
         <set name="npcId" val="#npcIds"/>
         <enchant1 levels="10" name="Power">
             <table name="#npcIds">15032 15033 15034 15035 15036 15037 15038 15039 15040 15041</table>
@@ -857,7 +857,6 @@
 		<set name="mpConsume2" val="#mpConsume2"/>		
 		<set name="castRange" val="900"/>
 		<set name="magicLevel" val="#magicLevel"/>
-		<set name="activateRate" val="#activateRate"/>
 		<set name="save" val="3"/>
         <set name="flyRadius" val="30"/>
         <set name="flyType" val="THROW_UP"/>
