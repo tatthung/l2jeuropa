@@ -1642,6 +1642,8 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	 * Field _icon.
 	 */
 	protected String _icon;
+
+	protected boolean _isMarkDamage;
 	/**
 	 * Field _skillToCast.
 	 */
@@ -1862,6 +1864,8 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		_lethal2 = set.getDouble("lethal2", 0.);
 		_absorbPart = set.getDouble("absorbPart", 0.);
 		_icon = set.getString("icon", "");
+		_isMarkDamage = set.getBool("isMarkDamage", false);
+
 		StringTokenizer st = new StringTokenizer(set.getString("addSkills", ""), ";");
 		while (st.hasMoreTokens())
 		{
@@ -4702,6 +4706,11 @@ public abstract class Skill extends StatTemplate implements Cloneable
 	public String getIcon()
 	{
 		return _icon;
+	}
+	
+	public Boolean isMarkDamage()
+	{
+		return _isMarkDamage;
 	}
 	
 	/**

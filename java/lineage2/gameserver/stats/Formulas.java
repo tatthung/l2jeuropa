@@ -610,6 +610,22 @@ public class Formulas
 			info.reflectableDamage = info.damage - receiveDamageLimit;
 			info.damage = receiveDamageLimit;
 		}
+		if (skill.isMarkDamage())
+		{
+			int boost = 1;
+			//TODO ADD INTO XML LIST OF SKILL TO CHECK
+			// name="dependOnTargetEffectId" value="11259,11261,11262"
+			int[] list = {11259,11261,11262};
+			for (int id : list)
+			{
+				if (target.getEffectList().containEffectFromSkillId(id, true))
+				{
+					boost += 1;
+				}
+			}
+			//TODO CHECK RETAIL INFO ABOUT BOOST DAMAGE
+			info.damage *= boost;
+		}
 		return info;
 	}
 	
