@@ -2019,23 +2019,23 @@
 	</npc>
 	<!--ru name: Саблезубый Кугуар-->
 	<npc id="14930" name="Saber Tooth Cougar" title="">
-		<!--Base character specific-->
+		<!--Tauti Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="13859"/>
+		<set name="baseHpMax" value="12142"/>
 		<set name="baseMpMax" value="1115.814696485623"/>
 		<set name="baseHpReg" value="9.7"/>
 		<set name="baseMpReg" value="9.7"/>
-		<set name="basePAtk" value="1154"/>
-		<set name="baseMAtk" value="599"/>
-		<set name="basePDef" value="1260"/>
-		<set name="baseMDef" value="2922"/>
-		<set name="basePAtkSpd" value="447"/>
-		<set name="baseMAtkSpd" value="327"/>
+		<set name="basePAtk" value="2213"/>
+		<set name="baseMAtk" value="1367"/>
+		<set name="basePDef" value="1524"/>
+		<set name="baseMDef" value="4436"/>
+		<set name="basePAtkSpd" value="491"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -2043,11 +2043,11 @@
 		<set name="baseWalkSpd" value="26"/>
 		<set name="baseRunSpd" value="180"/>
 		<set name="rndDam" value="30"/>
-		<set name="baseEvasionRate" value="23"/>
-		<set name="baseAccuracyRate" value="29"/>
+		<set name="baseEvasionRate" value="0"/>
+		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="19.0"/>
 		<set name="collision_height" value="12.25"/>
 		<!--Npc specific-->
@@ -3231,7 +3231,7 @@
 	</npc>
 	<!--ru name: Саблезубый Кугуар-->
 	<npc id="14954" name="Saber Tooth Cougar" title="">
-		<!--Base character specific-->
+		<!--Tauti Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
@@ -3242,12 +3242,12 @@
 		<set name="baseMpMax" value="1159.744408945687"/>
 		<set name="baseHpReg" value="9.7"/>
 		<set name="baseMpReg" value="9.7"/>
-		<set name="basePAtk" value="1255"/>
-		<set name="baseMAtk" value="662"/>
-		<set name="basePDef" value="1335"/>
-		<set name="baseMDef" value="3136"/>
-		<set name="basePAtkSpd" value="447"/>
-		<set name="baseMAtkSpd" value="327"/>
+		<set name="basePAtk" value="2374"/>
+		<set name="baseMAtk" value="1494"/>
+		<set name="basePDef" value="1603"/>
+		<set name="baseMDef" value="4715"/>
+		<set name="basePAtkSpd" value="491"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -3255,11 +3255,11 @@
 		<set name="baseWalkSpd" value="26"/>
 		<set name="baseRunSpd" value="180"/>
 		<set name="rndDam" value="30"/>
-		<set name="baseEvasionRate" value="26"/>
-		<set name="baseAccuracyRate" value="31"/>
+		<set name="baseEvasionRate" value="0"/>
+		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0.0"/>
 		<set name="collision_radius" value="19.0"/>
 		<set name="collision_height" value="12.25"/>
 		<!--Npc specific-->
@@ -3283,7 +3283,7 @@
 	</npc>
 	<!--ru name: Саблезубый Кугуар-->
 	<npc id="14955" name="Saber Tooth Cougar" title="">
-		<!--Base character specific-->
+		<!--Tauti Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
@@ -3294,12 +3294,12 @@
 		<set name="baseMpMax" value="1203.6741214057508"/>
 		<set name="baseHpReg" value="9.7"/>
 		<set name="baseMpReg" value="9.7"/>
-		<set name="basePAtk" value="1357"/>
-		<set name="baseMAtk" value="725"/>
-		<set name="basePDef" value="1410"/>
-		<set name="baseMDef" value="3350"/>
-		<set name="basePAtkSpd" value="447"/>
-		<set name="baseMAtkSpd" value="327"/>
+		<set name="basePAtk" value="2547"/>
+		<set name="baseMAtk" value="1619"/>
+		<set name="basePDef" value="1687"/>
+		<set name="baseMDef" value="5007"/>
+		<set name="basePAtkSpd" value="491"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -3307,11 +3307,11 @@
 		<set name="baseWalkSpd" value="26"/>
 		<set name="baseRunSpd" value="180"/>
 		<set name="rndDam" value="30"/>
-		<set name="baseEvasionRate" value="29"/>
-		<set name="baseAccuracyRate" value="33"/>
+		<set name="baseEvasionRate" value="0"/>
+		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="19.0"/>
 		<set name="collision_height" value="12.25"/>
 		<!--Npc specific-->
@@ -3335,23 +3335,23 @@
 	</npc>
 	<!--ru name: Саблезубый Кугуар-->
 	<npc id="14956" name="Saber Tooth Cougar" title="">
-		<!--Base character specific-->
+		<!--Tauti Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="20128"/>
+		<set name="baseHpMax" value="13014"/>
 		<set name="baseMpMax" value="1247.6038338658147"/>
 		<set name="baseHpReg" value="9.7"/>
 		<set name="baseMpReg" value="9.7"/>
-		<set name="basePAtk" value="1459"/>
-		<set name="baseMAtk" value="788"/>
-		<set name="basePDef" value="1485"/>
-		<set name="baseMDef" value="3564"/>
-		<set name="basePAtkSpd" value="447"/>
-		<set name="baseMAtkSpd" value="327"/>
+		<set name="basePAtk" value="2734"/>
+		<set name="baseMAtk" value="1755"/>
+		<set name="basePDef" value="1774"/>
+		<set name="baseMDef" value="5321"/>
+		<set name="basePAtkSpd" value="491"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -3359,11 +3359,11 @@
 		<set name="baseWalkSpd" value="26"/>
 		<set name="baseRunSpd" value="180"/>
 		<set name="rndDam" value="30"/>
-		<set name="baseEvasionRate" value="32"/>
-		<set name="baseAccuracyRate" value="35"/>
+		<set name="baseEvasionRate" value="0"/>
+		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="19.0"/>
 		<set name="collision_height" value="12.25"/>
 		<!--Npc specific-->
@@ -3387,7 +3387,7 @@
 	</npc>
 	<!--ru name: Саблезубый Кугуар-->
 	<npc id="14957" name="Saber Tooth Cougar" title="">
-		<!--Base character specific-->
+		<!--Tauti Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
@@ -3398,12 +3398,12 @@
 		<set name="baseMpMax" value="1291.5335463258787"/>
 		<set name="baseHpReg" value="9.7"/>
 		<set name="baseMpReg" value="9.7"/>
-		<set name="basePAtk" value="1560"/>
-		<set name="baseMAtk" value="851"/>
-		<set name="basePDef" value="1560"/>
-		<set name="baseMDef" value="3778"/>
-		<set name="basePAtkSpd" value="447"/>
-		<set name="baseMAtkSpd" value="327"/>
+		<set name="basePAtk" value="2933"/>
+		<set name="baseMAtk" value="1906"/>
+		<set name="basePDef" value="1867"/>
+		<set name="baseMDef" value="5653"/>
+		<set name="basePAtkSpd" value="491"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -3411,11 +3411,11 @@
 		<set name="baseWalkSpd" value="26"/>
 		<set name="baseRunSpd" value="180"/>
 		<set name="rndDam" value="30"/>
-		<set name="baseEvasionRate" value="35"/>
-		<set name="baseAccuracyRate" value="37"/>
+		<set name="baseEvasionRate" value="0"/>
+		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="19.0"/>
 		<set name="collision_height" value="12.25"/>
 		<!--Npc specific-->
@@ -3439,7 +3439,7 @@
 	</npc>
 	<!--ru name: Саблезубый Кугуар-->
 	<npc id="14958" name="Saber Tooth Cougar" title="">
-		<!--Base character specific-->
+		<!--Tauti Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
@@ -3450,12 +3450,12 @@
 		<set name="baseMpMax" value="1333.8658146964856"/>
 		<set name="baseHpReg" value="9.7"/>
 		<set name="baseMpReg" value="9.7"/>
-		<set name="basePAtk" value="1662"/>
-		<set name="baseMAtk" value="914"/>
-		<set name="basePDef" value="1635"/>
-		<set name="baseMDef" value="3993"/>
-		<set name="basePAtkSpd" value="447"/>
-		<set name="baseMAtkSpd" value="327"/>
+		<set name="basePAtk" value="4194"/>
+		<set name="baseMAtk" value="3674"/>
+		<set name="basePDef" value="2290"/>
+		<set name="baseMDef" value="7003"/>
+		<set name="basePAtkSpd" value="491"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -3463,11 +3463,11 @@
 		<set name="baseWalkSpd" value="26"/>
 		<set name="baseRunSpd" value="180"/>
 		<set name="rndDam" value="30"/>
-		<set name="baseEvasionRate" value="36"/>
-		<set name="baseAccuracyRate" value="41"/>
+		<set name="baseEvasionRate" value="0"/>
+		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="19.0"/>
 		<set name="collision_height" value="12.25"/>
 		<!--Npc specific-->
