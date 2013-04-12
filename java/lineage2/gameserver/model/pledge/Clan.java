@@ -2336,7 +2336,10 @@ public class Clan implements Iterable<UnitMember>
 				{
 					member.getEffectList().stopEffect(_clanLeaderSkill);
 				}
-				_clanLeaderSkillIncreaseTask.cancel(false);
+				if (_clanLeaderSkillIncreaseTask != null)
+				{
+					_clanLeaderSkillIncreaseTask.cancel(false);
+				}
 				_clanLeaderSkillIncreaseTask = null;
 				_clanLeaderSkill = null;
 			}
