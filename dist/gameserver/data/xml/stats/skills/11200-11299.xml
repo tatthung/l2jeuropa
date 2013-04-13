@@ -330,7 +330,7 @@
 		<table name="#DOT">269 272 276 280 283 287 290 294</table>
 		<table name="#magicLevel">85 86 87 88 89 90 91 92</table>
 		<table name="#mpConsume2">65</table>
-		<table name="#activateRate">60</table>
+		<table name="#activateRate">80 81 82 83 84 85 86 87</table>
 		<set name="activateRate" val="#activateRate"/>
 		<set name="reuseDelay" val="30000"/>
 		<set name="hitTime" val="1200"/>
@@ -372,7 +372,8 @@
 		<table name="#DOT">335 343 350 356 363</table>
 		<table name="#magicLevel">85 86 87 88 89</table>
 		<table name="#mpConsume2">65</table>
-		<set name="activateRate" val="60"/>
+		<table name="#activateRate">80 81 82 83 84</table>
+		<set name="activateRate" val="#activateRate"/>
 		<set name="reuseDelay" val="60000"/>
 		<set name="hitTime" val="1200"/>
 		<set name="mpConsume2" val="#mpConsume2"/>		
@@ -412,7 +413,8 @@
        <table name="#DOT">370 375 382 389 397 404</table>
 		<table name="#magicLevel">85 86 87 88 89 90</table>
 		<table name="#mpConsume2">65</table>
-		<set name="activateRate" val="60"/>
+		<table name="#activateRate">80 81 82 83 84 85</table>
+		<set name="activateRate" val="#activateRate"/>
 		<set name="reuseDelay" val="30000"/>
 		<set name="hitTime" val="1500"/>
 		<set name="mpConsume2" val="#mpConsume2"/>		
@@ -450,7 +452,8 @@
        <table name="#DOT">303 305 311 317 322 328</table>
 		<table name="#magicLevel">85 86 87 88 89 90</table>
 		<table name="#mpConsume2">65</table>
-		<set name="activateRate" val="60"/>
+		<table name="#activateRate">80 81 82 83 84 85</table>
+		<set name="activateRate" val="#activateRate"/>
 		<set name="reuseDelay" val="30000"/>
 		<set name="hitTime" val="1500"/>
 		<set name="mpConsume2" val="#mpConsume2"/>		
