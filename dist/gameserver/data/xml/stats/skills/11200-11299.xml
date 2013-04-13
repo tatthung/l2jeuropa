@@ -362,7 +362,7 @@
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant3>
 		<for>
-			<effect count="10" name="DamOverTime" time="1" val="#DOT" stackOrder="7" stackType="poison" abnormal="poison">
+			<effect count="10" name="DamOverTime" time="1" val="#DOT" stackOrder="7" abnormal="poison">
 				<mul order="0x30" stat="debuffResist" val="5"/>
 			</effect>
 		</for>
@@ -405,7 +405,7 @@
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant3>
 		<for>
-			<effect count="4" name="DamOverTime" time="1" val="#DOT" stackType="Bleed" abnormal="bleeding"/>
+			<effect count="4" name="DamOverTime" time="1" val="#DOT" abnormal="bleeding"/>
 		</for>
    </skill>
     <skill id="11261" levels="6" name="Mark of Plague">
@@ -444,7 +444,7 @@
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant3>
 		<for>
-			<effect count="15" name="DamOverTime" time="1" val="#DOT" stackOrder="7" stackType="poison" abnormal="poison"/>
+			<effect count="15" name="DamOverTime" time="1" val="#DOT" stackOrder="7" abnormal="poison"/>
 		</for>
    </skill>
     <skill id="11262" levels="6" name="Mark of Trick">
@@ -482,7 +482,7 @@
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant3>
 		<for>
-			<effect count="5" name="DamOverTime" time="1" val="#DOT" stackOrder="7" stackType="poison" abnormal="poison"/>
+			<effect count="5" name="DamOverTime" time="1" val="#DOT" stackOrder="7" abnormal="poison"/>
 			<effect name="Mute" time="5" val="0" stackOrder="1" stackType="silence"/>
 		</for>
 	</skill>
