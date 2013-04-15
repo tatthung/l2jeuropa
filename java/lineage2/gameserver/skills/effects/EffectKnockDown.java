@@ -57,28 +57,10 @@ public class EffectKnockDown extends Effect
 		_ChainKnockSkills.put(144, 11750);
 		_ChainKnockSkills.put(145, 11500);
 		_ChainKnockSkills.put(146, 12000);
-		_ChainedTemporalReplace.put(10250, 10008);
-		_ChainedTemporalReplace.put(10500, 10258);
-		_ChainedTemporalReplace.put(10750, 10508);
-		_ChainedTemporalReplace.put(11000, 10760); 
-		_ChainedTemporalReplace.put(11249, 11017);
-		_ChainedTemporalReplace.put(11750, 11509);
-		_ChainedTemporalReplace.put(11500, 11263);
-		_ChainedTemporalReplace.put(12000, 11814);
-		_ChainKnockSkills.clear();
-		_ChainedTemporalReplace.clear();
-		_ChainKnockSkills.put(139, 10250);
-		_ChainKnockSkills.put(140, 10500);
-		_ChainKnockSkills.put(141, 10750);
-		_ChainKnockSkills.put(142, 11000);
-		_ChainKnockSkills.put(143, 11249);
-		_ChainKnockSkills.put(144, 11750);
-		_ChainKnockSkills.put(145, 11500);
-		_ChainKnockSkills.put(146, 12000);
 		_ChainedTemporalReplace.put(10250, 10009);
 		_ChainedTemporalReplace.put(10500, 10258);
 		_ChainedTemporalReplace.put(10750, 10508);
-		_ChainedTemporalReplace.put(11000, 10760); //Confirmed by lineage forum
+		_ChainedTemporalReplace.put(11000, 10760);
 		_ChainedTemporalReplace.put(11249, 11011);
 		_ChainedTemporalReplace.put(11750, 11510);
 		_ChainedTemporalReplace.put(11500, 11273);
@@ -131,8 +113,6 @@ public class EffectKnockDown extends Effect
 		loc = GeoEngine.moveCheck(tagetLoc.x, tagetLoc.y, tagetLoc.z, _x, _y, _effected.getGeoIndex());
 		if(!_effected.isKnockedDown())
 			_effected.startKnockingdown();
-		_effected.abortAttack(true, true);
-		_effected.abortCast(true, true);
 		for(Player playerNearEffected : World.getAroundPlayers(_effected, 1200, 400))//Need to check: When the target has been hitted by another Knock Down skill, don't trigger chain skill
 		{
 			if(playerNearEffected.getTarget() == _effected && playerNearEffected.isAwaking())
@@ -143,6 +123,8 @@ public class EffectKnockDown extends Effect
 			}
 		}
 		_effected.broadcastPacket(new FlyToLocation(_effected, loc, FlyType.PUSH_DOWN_HORIZONTAL, getSkill().getFlySpeed()));//need to check: if the effected is already knocked down, move the target again?
+		_effected.abortAttack(true, true);
+		_effected.abortCast(true, true);
 		_effected.setXYZ(loc.getX(), loc.getY(), loc.getZ());
 		_effected.broadcastPacket(new ValidateLocation(_effected));
 	}

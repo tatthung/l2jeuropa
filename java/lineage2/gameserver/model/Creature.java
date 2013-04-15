@@ -2177,7 +2177,7 @@ public abstract class Creature extends GameObject
 			{
 				sendPacket(Msg.SUMMON_A_PET);
 			}
-			else if (!skill.isHandler() || !skill.isAlterSkill())
+			else if (!skill.isHandler() || skill.isAlterSkill())
 			{
 				sendPacket(new SystemMessage(SystemMessage.YOU_USE_S1).addSkillName(magicId, level));
 			}
@@ -2185,6 +2185,7 @@ public abstract class Creature extends GameObject
 			{
 				sendPacket(new SystemMessage(SystemMessage.YOU_USE_S1).addItemName(skill.getItemConsumeId()[0]));
 			}
+			/*
 			if(skill.isAlterSkill())
 			{
 				if(target.isAirBinded())
@@ -2224,6 +2225,7 @@ public abstract class Creature extends GameObject
 				}
 					
 			}
+			*/
 		}
 		if (skill.getTargetType() == SkillTargetType.TARGET_HOLY)
 		{
@@ -4583,6 +4585,19 @@ public abstract class Creature extends GameObject
 		if (getCastingSkill() != null)
 		{
 			skillId = getCastingSkill().getId();
+			// TODO: CHAIN SKILL MINOR FIX
+			if(getCastingSkill().isAlterSkill())
+			{
+				if(getCastingTarget().isAirBinded())
+				{
+					getCastingTarget().getEffectList().stopEffects(EffectType.HellBinding);
+				}
+				else if(getCastingTarget().isKnockedDown())
+				{
+					getCastingTarget().getEffectList().stopEffects(EffectType.KnockDown);
+				}
+			}
+			//----------------
 		}
 		clearCastVars();
 		getAI().notifyEvent(CtrlEvent.EVT_FINISH_CASTING, skillId, success);
