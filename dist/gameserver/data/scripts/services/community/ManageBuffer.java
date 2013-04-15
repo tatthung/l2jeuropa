@@ -213,7 +213,7 @@ public class ManageBuffer extends Functions implements ScriptFile, ICommunityBoa
 			}
 			if (!player.getVarB("isPlayerBuff"))
 			{
-				if ((player.getSummonList() != null) && Config.BUFFER_SUMMON_ENABLE)
+				if (player.getSummonList().getServitors() != null)
 				{
 					for (Summon summon : player.getSummonList())
 					{
