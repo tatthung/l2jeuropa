@@ -75,7 +75,6 @@ public class EffectKnockBack extends Effect
 			_effected.startKnockingback();
 		_effected.abortAttack(true, true);
 		_effected.abortCast(true, true);
-		_effected.stopMove();
 		_effected.broadcastPacket(new FlyToLocation(_effected, _loc, FlyType.PUSH_HORIZONTAL, getSkill().getFlySpeed()));
 		_effected.setXYZ(_loc.getX(), _loc.getY(), _loc.getZ());
 		_effected.broadcastPacket(new ValidateLocation(_effected));

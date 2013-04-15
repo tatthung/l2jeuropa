@@ -133,7 +133,6 @@ public class EffectKnockDown extends Effect
 			_effected.startKnockingdown();
 		_effected.abortAttack(true, true);
 		_effected.abortCast(true, true);
-		_effected.stopMove();
 		for(Player playerNearEffected : World.getAroundPlayers(_effected, 1200, 400))//Need to check: When the target has been hitted by another Knock Down skill, don't trigger chain skill
 		{
 			if(playerNearEffected.getTarget() == _effected && playerNearEffected.isAwaking())
