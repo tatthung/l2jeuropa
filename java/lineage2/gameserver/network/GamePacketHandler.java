@@ -1287,6 +1287,9 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 								case 0xc0:
 									msg = new RequestMenteeSearch();
 									break;
+								case 0xc2:
+									msg = new RequestInstanceZone();
+									break;
 								default:
 									_log.info("0xd0=" + id3);
 									client.onUnknownPacket();
