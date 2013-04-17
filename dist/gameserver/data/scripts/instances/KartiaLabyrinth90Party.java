@@ -28,7 +28,7 @@ import lineage2.gameserver.network.serverpackets.SystemMessage;
 import lineage2.gameserver.network.serverpackets.components.NpcString;
 import lineage2.gameserver.utils.Location;
 
-public class KartiaLabyrinth90Solo extends Reflection
+public class KartiaLabyrinth90Party extends Reflection
 {
 	private ScheduledFuture<?> firstStageGuardSpawn;
 	DeathListener _deathListener;
@@ -41,12 +41,12 @@ public class KartiaLabyrinth90Solo extends Reflection
 	private static final int DOOR1_ID = 16170002;
 	private static final int DOOR2_ID = 16170003;
 
-	private int KartiaGuard = 19223;
-	private int KartiaWatchman = 19224;
-	private int DimensionalWatchman = 19225;
-	private int LordOfKartia = 19254;
+	private int KartiaGuard = 19232;
+	private int KartiaWatchman = 19233;
+	private int DimensionalWatchman = 19234;
+	private int LordOfKartia = 25883;
 	
-	public KartiaLabyrinth90Solo()
+	public KartiaLabyrinth90Party()
 	{
 		_deathListener = new DeathListener();
 		_epicZoneListener = new ZoneListener();
@@ -91,7 +91,7 @@ public class KartiaLabyrinth90Solo extends Reflection
 		{
 			if (!_landingentered)
 			{
-				ThreadPoolManager.getInstance().schedule(new KartiaLabyrinth90Solo.TwoCycleStart(), 17999L);
+				ThreadPoolManager.getInstance().schedule(new TwoCycleStart(), 17999L);
 				_landingentered = true;
 			}
 		}
@@ -120,7 +120,7 @@ public class KartiaLabyrinth90Solo extends Reflection
 			{
 				return;
 			}
-			ThreadPoolManager.getInstance().schedule(new KartiaLabyrinth90Solo.StartKartiaSolo85(), 30000L);
+			ThreadPoolManager.getInstance().schedule(new StartKartiaParty85(), 30000L);
 			_startLaunched = true;
 		}
 		
@@ -141,12 +141,12 @@ public class KartiaLabyrinth90Solo extends Reflection
 		{
 			if ((self.isNpc()) && (self.getNpcId() == DimensionalWatchman))
 			{
-				ThreadPoolManager.getInstance().schedule(new KartiaLabyrinth90Solo.TwoCycle(), 17000L);
+				ThreadPoolManager.getInstance().schedule(new TwoCycle(), 17000L);
 				self.deleteMe();
 			}
 			else if ((self.isNpc()) && (self.getNpcId() == LordOfKartia))
 			{
-				ThreadPoolManager.getInstance().schedule(new KartiaLabyrinth90Solo.CloseInstance(), 9000L);
+				ThreadPoolManager.getInstance().schedule(new CloseInstance(), 9000L);
 				self.deleteMe();
 			}
 		}
@@ -166,7 +166,6 @@ public class KartiaLabyrinth90Solo extends Reflection
 			for (Player p : getPlayers())
 			{
 				p.sendPacket(new SystemMessage(2106).addNumber(5));
-				p.addExpAndSp(675185178, 5685456);
 			}
 		}
 	}
@@ -785,9 +784,9 @@ public class KartiaLabyrinth90Solo extends Reflection
 		}
 	}
 	
-	private class StartKartiaSolo85 extends RunnableImpl
+	private class StartKartiaParty85 extends RunnableImpl
 	{
-		StartKartiaSolo85()
+		StartKartiaParty85()
 		{
 		}
 		

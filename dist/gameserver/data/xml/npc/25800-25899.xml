@@ -54,7 +54,7 @@
 			<skill id="14716" level="1"/>	<!-- Raid Boss - Level 98 -->
 		<skill id="5467" level="1"/>
 		</skills>
-			<rewardlist type="RATED_GROUPED">
+		<rewardlist type="RATED_GROUPED">
 			<group chance="75.1439">
 				<reward item_id="18235" min="1" max="3" chance="2.0860"/>	<!-- Unidentified Eternal Sigil -->
 				<reward item_id="18224" min="1" max="3" chance="2.0320"/>	<!-- Unidentified Eternal Shield - Heavy Armor -->
@@ -4484,8 +4484,9 @@
         </attributes>
     </npc>
     <npc id="25882" name="Zellaka" title="Lord of Kartia">
-        <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Monster"/>
+		<set name="aggroRange" value="300"/>
+		<set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -4517,7 +4518,6 @@
         <set name="rewardSp" value="16936528"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
         <skills>
             <skill id="4416" level="9"/>
             <!-- Demons -->
@@ -4532,10 +4532,33 @@
             <defence attribute="holy" value="20"/>
             <defence attribute="unholy" value="20"/>
         </attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100">
+				<reward item_id="19306" min="1" max="3" chance="21.3"/>
+				<reward item_id="19307" min="1" max="1" chance="18.8"/>
+				<reward item_id="19305" min="1" max="1" chance="15.9"/>
+				<reward item_id="19510" min="1" max="1" chance="7.2"/>
+				<reward item_id="19509" min="1" max="1" chance="5.9"/>
+				<reward item_id="19508" min="1" max="1" chance="5.4"/>
+				<reward item_id="23232" min="1" max="1" chance="2.4"/>
+				<reward item_id="18106" min="1" max="1" chance="1.8"/>
+				<reward item_id="18107" min="1" max="1" chance="1.7"/>
+				<reward item_id="18104" min="1" max="1" chance="1.7"/>
+				<reward item_id="18103" min="1" max="1" chance="1.6"/>
+				<reward item_id="18108" min="1" max="1" chance="1.4"/>
+				<reward item_id="18109" min="1" max="1" chance="1.4"/>
+				<reward item_id="18105" min="1" max="1" chance="1.3"/>
+				<reward item_id="18111" min="1" max="1" chance="1.3"/>
+				<reward item_id="18110" min="1" max="1" chance="1.3"/>
+				<reward item_id="18113" min="1" max="1" chance="1.2"/>
+				<reward item_id="18112" min="1" max="1" chance="0.8"/>
+			</group>
+		</rewardlist>
     </npc>
     <npc id="25883" name="Pelline" title="Lord of Kartia">
-        <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Monster"/>
+		<set name="aggroRange" value="300"/>
+		<set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -4567,7 +4590,6 @@
         <set name="rewardSp" value="20140736"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
         <skills>
             <skill id="4416" level="9"/>
             <!-- Demons -->
@@ -4582,10 +4604,33 @@
             <defence attribute="holy" value="20"/>
             <defence attribute="unholy" value="20"/>
         </attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100">
+				<reward item_id="19306" min="1" max="3" chance="23.5"/>
+				<reward item_id="19307" min="1" max="1" chance="19.6"/>
+				<reward item_id="19305" min="1" max="1" chance="18.8"/>
+				<reward item_id="19509" min="1" max="1" chance="7.1"/>
+				<reward item_id="19508" min="1" max="1" chance="6.9"/>
+				<reward item_id="19510" min="1" max="1" chance="6.5"/>
+				<reward item_id="23232" min="1" max="1" chance="1.9"/>
+				<reward item_id="18144" min="1" max="1" chance="1.3"/>
+				<reward item_id="18141" min="1" max="1" chance="1.0"/>
+				<reward item_id="18138" min="1" max="1" chance="0.8"/>
+				<reward item_id="18140" min="1" max="1" chance="0.8"/>
+				<reward item_id="18143" min="1" max="1" chance="0.6"/>
+				<reward item_id="18147" min="1" max="1" chance="0.6"/>
+				<reward item_id="18145" min="1" max="1" chance="0.6"/>
+				<reward item_id="18142" min="1" max="1" chance="0.6"/>
+				<reward item_id="18146" min="1" max="1" chance="0.6"/>
+				<reward item_id="18139" min="1" max="1" chance="0.6"/>
+				<reward item_id="18137" min="1" max="1" chance="0.5"/>
+			</group>
+		</rewardlist>
     </npc>
     <npc id="25884" name="Kalios" title="Lord of Kartia">
-        <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Monster"/>
+		<set name="aggroRange" value="300"/>
+		<set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -4617,7 +4662,6 @@
         <set name="rewardSp" value="24031560"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
         <skills>
             <skill id="4416" level="9"/>
             <!-- Demons -->
@@ -4632,5 +4676,18 @@
             <defence attribute="holy" value="20"/>
             <defence attribute="unholy" value="20"/>
         </attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100">
+				<reward item_id="17526" min="1" max="1" chance="47.5"/>
+				<reward item_id="19305" min="1" max="1" chance="38.8"/>
+				<reward item_id="19306" min="3" max="9" chance="17.2"/>
+				<reward item_id="19307" min="2" max="6" chance="9.8"/>
+				<reward item_id="19447" min="1" max="1" chance="3.1"/>
+				<reward item_id="23232" min="1" max="1" chance="2.7"/>
+				<reward item_id="19513" min="1" max="1" chance="0.3"/>
+				<reward item_id="19512" min="1" max="1" chance="0.2"/>
+				<reward item_id="19511" min="1" max="1" chance="0.2"/>
+			</group>
+		</rewardlist>
     </npc>
 </list>

@@ -12,8 +12,11 @@
  */
 package npc.model;
 
+import instances.KartiaLabyrinth85Party;
 import instances.KartiaLabyrinth85Solo;
+import instances.KartiaLabyrinth90Party;
 import instances.KartiaLabyrinth90Solo;
+import instances.KartiaLabyrinth95Party;
 import instances.KartiaLabyrinth95Solo;
 import lineage2.gameserver.model.Player;
 import lineage2.gameserver.model.entity.Reflection;
@@ -54,6 +57,21 @@ public final class KartiaManagerInstance extends NpcInstance
 				ReflectionUtils.enterReflection(player, new KartiaLabyrinth85Solo(), 205);
 			}
 		}
+		if (command.equalsIgnoreCase("request_zellaka_party"))
+		{
+			Reflection r = player.getActiveReflection();
+			if (r != null)
+			{
+				if (player.canReenterInstance(208))
+				{
+					player.teleToLocation(r.getTeleportLoc(), r);
+				}
+			}
+			else if (player.canEnterInstance(208))
+			{
+				ReflectionUtils.enterReflection(player, new KartiaLabyrinth85Party(), 208);
+			}
+		}
 		if (command.equalsIgnoreCase("request_pelline_solo"))
 		{
 			Reflection r = player.getActiveReflection();
@@ -69,6 +87,21 @@ public final class KartiaManagerInstance extends NpcInstance
 				ReflectionUtils.enterReflection(player, new KartiaLabyrinth90Solo(), 206);
 			}
 		}
+		if (command.equalsIgnoreCase("request_pelline_party"))
+		{
+			Reflection r = player.getActiveReflection();
+			if (r != null)
+			{
+				if (player.canReenterInstance(209))
+				{
+					player.teleToLocation(r.getTeleportLoc(), r);
+				}
+			}
+			else if (player.canEnterInstance(209))
+			{
+				ReflectionUtils.enterReflection(player, new KartiaLabyrinth90Party(), 209);
+			}
+		}
 		if (command.equalsIgnoreCase("request_kalios_solo"))
 		{
 			Reflection r = player.getActiveReflection();
@@ -82,6 +115,21 @@ public final class KartiaManagerInstance extends NpcInstance
 			else if (player.canEnterInstance(207))
 			{
 				ReflectionUtils.enterReflection(player, new KartiaLabyrinth95Solo(), 207);
+			}
+		}
+		if (command.equalsIgnoreCase("request_kalios_party"))
+		{
+			Reflection r = player.getActiveReflection();
+			if (r != null)
+			{
+				if (player.canReenterInstance(210))
+				{
+					player.teleToLocation(r.getTeleportLoc(), r);
+				}
+			}
+			else if (player.canEnterInstance(210))
+			{
+				ReflectionUtils.enterReflection(player, new KartiaLabyrinth95Party(), 210);
 			}
 		}
 		if (command.startsWith("start_zellaka_solo"))
