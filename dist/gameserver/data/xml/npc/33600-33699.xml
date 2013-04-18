@@ -548,7 +548,7 @@
     <npc id="33612" name="Hayuk" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
-        <set name="baseAtkRange" value="40"/>
+        <set name="baseAtkRange" value="400"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
         <set name="baseDEX" value="41"/>
@@ -596,7 +596,7 @@
     <npc id="33613" name="Hayuk" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
-        <set name="baseAtkRange" value="40"/>
+        <set name="baseAtkRange" value="400"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
         <set name="baseDEX" value="41"/>
@@ -1076,7 +1076,7 @@
     <npc id="33623" name="Hayuk" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
-        <set name="baseAtkRange" value="40"/>
+        <set name="baseAtkRange" value="400"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
         <set name="baseDEX" value="41"/>
@@ -1124,7 +1124,7 @@
     <npc id="33624" name="Hayuk" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
-        <set name="baseAtkRange" value="40"/>
+        <set name="baseAtkRange" value="400"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
         <set name="baseDEX" value="41"/>
@@ -1604,7 +1604,7 @@
     <npc id="33634" name="Hayuk" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
-        <set name="baseAtkRange" value="40"/>
+        <set name="baseAtkRange" value="400"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
         <set name="baseDEX" value="41"/>
@@ -1652,7 +1652,7 @@
     <npc id="33635" name="Hayuk" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="KartiaGuard"/>
-        <set name="baseAtkRange" value="40"/>
+        <set name="baseAtkRange" value="400"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
         <set name="baseDEX" value="41"/>

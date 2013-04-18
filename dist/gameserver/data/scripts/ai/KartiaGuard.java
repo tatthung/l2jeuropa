@@ -12,24 +12,31 @@
  */
 package ai;
 
+import java.util.concurrent.ScheduledFuture;
+
+import lineage2.commons.util.Rnd;
+import lineage2.gameserver.Config;
 import lineage2.gameserver.ai.CtrlIntention;
-import lineage2.gameserver.ai.Guard;
-import lineage2.gameserver.data.htm.HtmCache;
+import lineage2.gameserver.ai.Fighter;
 import lineage2.gameserver.model.Creature;
-import lineage2.gameserver.model.Player;
 import lineage2.gameserver.model.instances.MonsterInstance;
 import lineage2.gameserver.model.instances.NpcInstance;
-import lineage2.gameserver.network.serverpackets.NpcHtmlMessage;
 import lineage2.gameserver.tables.SkillTable;
+import lineage2.gameserver.utils.Location;
 
 /**
  * @version $Revision: 1.0 $
  */
-public class KartiaGuard extends Guard
+public class KartiaGuard extends Fighter
 {
 	
 	private long _ReuseTimer = 0;
-
+	/**
+	 * Field _followTask.
+	 */
+	ScheduledFuture<?> _followTask;
+	Creature master = null;
+	
 	/**
 	 * Constructor for FollowNpc.
 	 * @param actor NpcInstance
@@ -40,13 +47,25 @@ public class KartiaGuard extends Guard
 	}
 	
 	/**
+	 * Method canAttackCharacter.
+	 * @param target Creature
+	 * @return boolean
+	 */
+	@Override
+	public boolean canAttackCharacter(Creature target)
+	{
+		return target.isMonster();
+	}
+
+	/**
 	 * Method onEvtThink.
 	 */
 	@Override
 	protected void onEvtThink()
 	{
 		final NpcInstance actor = getActor();
-		Creature master = getActor().getFollowTarget();
+		if (master == null)
+			master = getActor().getFollowTarget();
 		//Check for Heal
 		if (actor.getNpcId() == 33639 || actor.getNpcId() == 33628 || actor.getNpcId() == 33617)
 		{
@@ -59,7 +78,7 @@ public class KartiaGuard extends Guard
 				}
 			}
 		}
-		if (actor.getAI().getIntention() != CtrlIntention.AI_INTENTION_ATTACK)
+		if (getIntention() != CtrlIntention.AI_INTENTION_ATTACK)
 		{
 			//Check for Mobs to Attack
 			int mobscount = 0;
@@ -73,15 +92,23 @@ public class KartiaGuard extends Guard
 			}
 			if (mobscount > 0 && !actor.getAggroList().isEmpty())
 			{
-				Attack(actor.getAggroList().getRandomHated(), false, false);
+				Attack(actor.getAggroList().getRandomHated(), true, false);
 			}
 			//Check for Follow
-			else if (master != null && master.getDistance(actor.getLoc()) > 600)
+			else
 			{
-				actor.setRunning();
-				actor.followToCharacter(master, 120, false);
+				if (getIntention() == CtrlIntention.AI_INTENTION_ACTIVE)
+				{
+					setIntention(CtrlIntention.AI_INTENTION_FOLLOW);
+				}
+				if (master != null && actor.getDistance(master.getLoc()) > 300)
+				{
+					final Location loc = new Location(master.getX() + Rnd.get(-120, 120), master.getY() + Rnd.get(-120, 120), master.getZ());
+					actor.followToCharacter(loc, master, Config.FOLLOW_RANGE, false);
+					actor.setRunning();
+				}
 			}
 		}
+		super.onEvtThink();
 	}
-
 }
