@@ -30,6 +30,24 @@ public final class KartiaManagerInstance extends NpcInstance
 {
 	private static final Location TELEPORT_POSITION = new Location(-109032, -10440, -11949);
 	
+	private static final int Adolph88 = 33609;
+	private static final int Barton88 = 33611;
+	private static final int Hayuk88 = 33613;
+	private static final int Eliyah88 = 33615;
+	private static final int Elise88 = 33617;
+
+	private static final int Adolph93 = 33620;
+	private static final int Barton93 = 33622;
+	private static final int Hayuk93 = 33624;
+	private static final int Eliyah93 = 33626;
+	private static final int Elise93 = 33628;
+
+	private static final int Adolph98 = 33631;
+	private static final int Barton98 = 33633;
+	private static final int Hayuk98 = 33635;
+	private static final int Eliyah98 = 33637;
+	private static final int Elise98 = 33639;
+	
 	public KartiaManagerInstance(int objectId, NpcTemplate template)
 	{
 		super(objectId, template);
@@ -132,9 +150,100 @@ public final class KartiaManagerInstance extends NpcInstance
 				ReflectionUtils.enterReflection(player, new KartiaLabyrinth95Party(), 210);
 			}
 		}
-		if (command.startsWith("start_zellaka_solo"))
+		if (command.startsWith("start"))
 		{
-			player.teleToLocation(TELEPORT_POSITION);
+			String[] splited = command.split("\\s");
+			//w a s h
+			String param = splited[1];
+			Reflection r = player.getActiveReflection();
+			if (r != null)
+			{
+				//PARTY INSTANCE
+				if (r.getInstancedZoneId() > 207)
+				{
+					player.getParty().Teleport(TELEPORT_POSITION);
+				}
+				//SOLO INSTANCE
+				else
+				{
+					player.teleToLocation(TELEPORT_POSITION);
+					if (r.getInstancedZoneId() == 205)
+					{
+						NpcInstance adolph = r.addSpawnWithoutRespawn(Adolph88, TELEPORT_POSITION, 100);
+						adolph.setFollowTarget(player);
+						if (!param.equals("w"))
+						{
+							NpcInstance barton = r.addSpawnWithoutRespawn(Barton88, TELEPORT_POSITION, 100);
+							barton.setFollowTarget(player);
+						}
+						if (!param.equals("a"))
+						{	
+							NpcInstance hayuk = r.addSpawnWithoutRespawn(Hayuk88, TELEPORT_POSITION, 100);
+							hayuk.setFollowTarget(player);
+						}
+						if (!param.equals("s"))
+						{	
+							NpcInstance eliyah = r.addSpawnWithoutRespawn(Eliyah88, TELEPORT_POSITION, 100);
+							eliyah.setFollowTarget(player);
+						}
+						if (!param.equals("h"))
+						{	
+							NpcInstance elise = r.addSpawnWithoutRespawn(Elise88, TELEPORT_POSITION, 100);
+							elise.setFollowTarget(player);
+						}
+					}
+					if (r.getInstancedZoneId() == 206)
+					{
+						NpcInstance adolph = r.addSpawnWithoutRespawn(Adolph93, TELEPORT_POSITION, 100);
+						adolph.setFollowTarget(player);
+						if (!param.equals("w"))
+						{	
+							NpcInstance barton = r.addSpawnWithoutRespawn(Barton93, TELEPORT_POSITION, 100);
+							barton.setFollowTarget(player);
+						}
+						if (!param.equals("a"))
+						{	
+							NpcInstance hayuk = r.addSpawnWithoutRespawn(Hayuk93, TELEPORT_POSITION, 100);
+							hayuk.setFollowTarget(player);
+						}
+						if (!param.equals("s"))
+						{	
+							NpcInstance eliyah = r.addSpawnWithoutRespawn(Eliyah93, TELEPORT_POSITION, 100);
+							eliyah.setFollowTarget(player);
+						}
+						if (!param.equals("h"))
+						{	
+							NpcInstance elise = r.addSpawnWithoutRespawn(Elise93, TELEPORT_POSITION, 100);
+							elise.setFollowTarget(player);
+						}
+					}
+					if (r.getInstancedZoneId() == 207)
+					{
+						NpcInstance adolph = r.addSpawnWithoutRespawn(Adolph98, TELEPORT_POSITION, 100);
+						adolph.setFollowTarget(player);
+						if (!param.equals("w"))
+						{	
+							NpcInstance barton = r.addSpawnWithoutRespawn(Barton98, TELEPORT_POSITION, 100);
+							barton.setFollowTarget(player);
+						}
+						if (!param.equals("a"))
+						{	
+							NpcInstance hayuk = r.addSpawnWithoutRespawn(Hayuk98, TELEPORT_POSITION, 100);
+							hayuk.setFollowTarget(player);
+						}
+						if (!param.equals("s"))
+						{	
+							NpcInstance eliyah = r.addSpawnWithoutRespawn(Eliyah98, TELEPORT_POSITION, 100);
+							eliyah.setFollowTarget(player);
+						}
+						if (!param.equals("h"))
+						{
+							NpcInstance elise = r.addSpawnWithoutRespawn(Elise98, TELEPORT_POSITION, 100);
+							elise.setFollowTarget(player);
+						}
+					}
+				}
+			}
 		}
 		super.onBypassFeedback(player, command);
 	}
