@@ -73,6 +73,8 @@ public class EffectKnockBack extends Effect
 		_loc = GeoEngine.moveCheck(tagetLoc.x, tagetLoc.y, tagetLoc.z, _x, _y, _effected.getGeoIndex());
 		if(!_effected.isKnockedBack())
 			_effected.startKnockingback();
+		if (_loc == null)
+			_log.info("EffectKnockBack Loc null check this!");
 		_effected.broadcastPacket(new FlyToLocation(_effected, _loc, FlyType.PUSH_HORIZONTAL, getSkill().getFlySpeed()));
 		_effected.abortAttack(true, true);
 		_effected.abortCast(true, true);

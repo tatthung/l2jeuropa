@@ -4540,7 +4540,7 @@
 				<reward item_id="19510" min="1" max="1" chance="7.2"/>
 				<reward item_id="19509" min="1" max="1" chance="5.9"/>
 				<reward item_id="19508" min="1" max="1" chance="5.4"/>
-				<reward item_id="23232" min="1" max="1" chance="2.4"/>
+				<!-- <reward item_id="23232" min="1" max="1" chance="2.4"/> -->
 				<reward item_id="18106" min="1" max="1" chance="1.8"/>
 				<reward item_id="18107" min="1" max="1" chance="1.7"/>
 				<reward item_id="18104" min="1" max="1" chance="1.7"/>
@@ -4612,7 +4612,7 @@
 				<reward item_id="19509" min="1" max="1" chance="7.1"/>
 				<reward item_id="19508" min="1" max="1" chance="6.9"/>
 				<reward item_id="19510" min="1" max="1" chance="6.5"/>
-				<reward item_id="23232" min="1" max="1" chance="1.9"/>
+				<!-- <reward item_id="23232" min="1" max="1" chance="1.9"/> -->
 				<reward item_id="18144" min="1" max="1" chance="1.3"/>
 				<reward item_id="18141" min="1" max="1" chance="1.0"/>
 				<reward item_id="18138" min="1" max="1" chance="0.8"/>
@@ -4678,15 +4678,17 @@
         </attributes>
 		<rewardlist type="RATED_GROUPED">
 			<group chance="100">
-				<reward item_id="17526" min="1" max="1" chance="47.5"/>
 				<reward item_id="19305" min="1" max="1" chance="38.8"/>
 				<reward item_id="19306" min="3" max="9" chance="17.2"/>
 				<reward item_id="19307" min="2" max="6" chance="9.8"/>
 				<reward item_id="19447" min="1" max="1" chance="3.1"/>
-				<reward item_id="23232" min="1" max="1" chance="2.7"/>
+				<!-- <reward item_id="23232" min="1" max="1" chance="2.7"/> -->
 				<reward item_id="19513" min="1" max="1" chance="0.3"/>
 				<reward item_id="19512" min="1" max="1" chance="0.2"/>
 				<reward item_id="19511" min="1" max="1" chance="0.2"/>
+			</group>
+			<group chance="100">
+				<reward item_id="17526" min="1" max="1" chance="47.5"/>
 			</group>
 		</rewardlist>
     </npc>
