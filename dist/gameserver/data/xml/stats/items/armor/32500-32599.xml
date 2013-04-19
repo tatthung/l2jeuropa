@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="32525" name="Fantasy Dynasty Breastplate" add_name="Not in Use">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="S"/>
@@ -285,8 +286,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="32558" name="Fantasy Moirai Leather Breastplate"
-           add_name="Not in Use">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32558" name="Fantasy Moirai Leather Breastplate" add_name="Not in Use">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="S80"/>
 		<set name="icon" value="icon.armor_t101_u_i00"/>
 		<set name="type" value="LIGHT"/>
@@ -526,8 +526,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="32590" name="Fantasy Vesper Leather Breastplate"
-           add_name="Not in Use">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32590" name="Fantasy Vesper Leather Breastplate" add_name="Not in Use">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="S80"/>
 		<set name="icon" value="icon.armor_t95_u_i00"/>
 		<set name="type" value="LIGHT"/>

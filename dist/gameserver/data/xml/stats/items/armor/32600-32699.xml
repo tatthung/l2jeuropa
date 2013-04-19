@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="32600" name="Fantasy Vesper Leather Helmet" add_name="Not in Use">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="S80"/>
@@ -62,6 +63,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="32609" name="Immortal Shirt" add_name="MP">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -80,6 +82,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="32610" name="Immortal Shirt" add_name="CP">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -98,6 +101,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="32611" name="Twilight Shirt" add_name="HP">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -116,6 +120,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="32612" name="Twilight Shirt" add_name="MP">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -134,6 +139,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="32613" name="Twilight Shirt" add_name="CP">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -152,6 +158,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="32614" name="Seraph Shirt" add_name="HP">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -170,6 +177,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="32615" name="Seraph Shirt" add_name="MP">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -188,6 +196,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="32616" name="Seraph Shirt" add_name="CP">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -206,6 +215,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="32617" name="Eternal Shirt" add_name="HP">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -224,6 +234,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="32618" name="Eternal Shirt" add_name="MP">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -242,6 +253,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="32619" name="Eternal Shirt" add_name="CP">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -260,9 +272,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32620" name="Low-grade Magic Rune Clip Immortal Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32620" name="Low-grade Magic Rune Clip Immortal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -278,9 +290,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32621" name="Standard Magic Rune Clip Immortal Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32621" name="Standard Magic Rune Clip Immortal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -296,9 +308,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32622" name="High-grade Magic Rune Clip Immortal Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32622" name="High-grade Magic Rune Clip Immortal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -314,9 +326,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32623" name="Top-grade Magic Rune Clip Immortal Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32623" name="Top-grade Magic Rune Clip Immortal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -332,9 +344,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32624" name="Low-grade Magic Rune Clip Immortal Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32624" name="Low-grade Magic Rune Clip Immortal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -350,9 +362,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32625" name="Standard Magic Rune Clip Immortal Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32625" name="Standard Magic Rune Clip Immortal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -368,9 +380,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32626" name="High-grade Magic Rune Clip Immortal Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32626" name="High-grade Magic Rune Clip Immortal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -386,9 +398,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32627" name="Top-grade Magic Rune Clip Immortal Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32627" name="Top-grade Magic Rune Clip Immortal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -404,9 +416,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32628" name="Low-grade Magic Ornament Immortal Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32628" name="Low-grade Magic Ornament Immortal Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -422,9 +434,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32629" name="Standard Magic Ornament Immortal Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32629" name="Standard Magic Ornament Immortal Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -440,9 +452,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32630" name="High-grade Magic Ornament Immortal Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32630" name="High-grade Magic Ornament Immortal Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -458,9 +470,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32631" name="Top-grade Magic Ornament Immortal Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32631" name="Top-grade Magic Ornament Immortal Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -476,9 +488,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32632" name="Low-grade Magic Ornament Immortal Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32632" name="Low-grade Magic Ornament Immortal Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -494,9 +506,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32633" name="Standard Magic Ornament Immortal Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32633" name="Standard Magic Ornament Immortal Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -512,9 +524,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32634" name="High-grade Magic Ornament Immortal Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32634" name="High-grade Magic Ornament Immortal Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -530,9 +542,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32635" name="Top-grade Magic Ornament Immortal Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32635" name="Top-grade Magic Ornament Immortal Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -548,9 +560,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32636" name="Low-grade Magic Ornament Immortal Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32636" name="Low-grade Magic Ornament Immortal Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -566,9 +578,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32637" name="Standard Magic Ornament Immortal Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32637" name="Standard Magic Ornament Immortal Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -584,9 +596,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32638" name="High-grade Magic Ornament Immortal Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32638" name="High-grade Magic Ornament Immortal Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -602,9 +614,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32639" name="Top-grade Magic Ornament Immortal Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32639" name="Top-grade Magic Ornament Immortal Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -620,9 +632,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32640" name="Low-grade Magic Rune Clip Twilight Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32640" name="Low-grade Magic Rune Clip Twilight Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -638,9 +650,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32641" name="Ordinary Magic Rune Clip Twilight Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32641" name="Ordinary Magic Rune Clip Twilight Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -656,9 +668,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32642" name="High-grade Magic Rune Clip Twilight Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32642" name="High-grade Magic Rune Clip Twilight Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -674,9 +686,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32643" name="Top-grade Magic Rune Clip Twilight Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32643" name="Top-grade Magic Rune Clip Twilight Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -692,9 +704,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32644" name="Low-grade Magic Rune Clip Twilight Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32644" name="Low-grade Magic Rune Clip Twilight Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -710,9 +722,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32645" name="Ordinary Magic Rune Clip Twilight Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32645" name="Ordinary Magic Rune Clip Twilight Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -728,9 +740,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32646" name="High-grade Magic Rune Clip Twilight Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32646" name="High-grade Magic Rune Clip Twilight Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -746,9 +758,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32647" name="Top-grade Magic Rune Clip Twilight Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32647" name="Top-grade Magic Rune Clip Twilight Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -764,9 +776,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32648" name="Low-grade Magic Ornament Twilight Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32648" name="Low-grade Magic Ornament Twilight Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -782,9 +794,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32649" name="Ordinary Magic Ornament Twilight Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32649" name="Ordinary Magic Ornament Twilight Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -800,9 +812,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32650" name="High-grade Magic Ornament Twilight Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32650" name="High-grade Magic Ornament Twilight Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -818,9 +830,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32651" name="Top-grade Magic Ornament Twilight Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32651" name="Top-grade Magic Ornament Twilight Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -836,9 +848,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32652" name="Low-grade Magic Ornament Twilight Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32652" name="Low-grade Magic Ornament Twilight Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -854,9 +866,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32653" name="Ordinary Magic Ornament Twilight Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32653" name="Ordinary Magic Ornament Twilight Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -872,9 +884,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32654" name="High-grade Magic Ornament Twilight Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32654" name="High-grade Magic Ornament Twilight Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -890,9 +902,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32655" name="Top-grade Magic Ornament Twilight Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32655" name="Top-grade Magic Ornament Twilight Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -908,9 +920,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32656" name="Low-grade Magic Ornament Twilight Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32656" name="Low-grade Magic Ornament Twilight Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -926,9 +938,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32657" name="Ordinary Magic Ornament Twilight Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32657" name="Ordinary Magic Ornament Twilight Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -944,9 +956,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32658" name="High-grade Magic Ornament Twilight Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32658" name="High-grade Magic Ornament Twilight Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -962,9 +974,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32659" name="Top-grade Magic Ornament Twilight Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32659" name="Top-grade Magic Ornament Twilight Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1120"/>
@@ -980,9 +992,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32660" name="Low-grade Magic Rune Clip Seraph Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32660" name="Low-grade Magic Rune Clip Seraph Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -998,9 +1010,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32661" name="Standard Magic Rune Clip Seraph Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32661" name="Standard Magic Rune Clip Seraph Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1016,9 +1028,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32662" name="High-grade Magic Rune Clip Seraph Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32662" name="High-grade Magic Rune Clip Seraph Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1034,9 +1046,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32663" name="Top-grade Magic Rune Clip Seraph Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32663" name="Top-grade Magic Rune Clip Seraph Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1052,9 +1064,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32664" name="Low-grade Magic Rune Clip Seraph Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32664" name="Low-grade Magic Rune Clip Seraph Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1070,9 +1082,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32665" name="Standard Magic Rune Clip Seraph Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32665" name="Standard Magic Rune Clip Seraph Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1088,9 +1100,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32666" name="High-grade Magic Rune Clip Seraph Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32666" name="High-grade Magic Rune Clip Seraph Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1106,9 +1118,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32667" name="Top-grade Magic Rune Clip Seraph Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32667" name="Top-grade Magic Rune Clip Seraph Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1124,9 +1136,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32668" name="Low-grade Magic Ornament Seraph Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32668" name="Low-grade Magic Ornament Seraph Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1142,9 +1154,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32669" name="Standard Magic Ornament Seraph Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32669" name="Standard Magic Ornament Seraph Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1160,9 +1172,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32670" name="High-grade Magic Ornament Seraph Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32670" name="High-grade Magic Ornament Seraph Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1178,9 +1190,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32671" name="Top-grade Magic Ornament Seraph Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32671" name="Top-grade Magic Ornament Seraph Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1196,9 +1208,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32672" name="Low-grade Magic Ornament Seraph Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32672" name="Low-grade Magic Ornament Seraph Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1214,9 +1226,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32673" name="Standard Magic Ornament Seraph Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32673" name="Standard Magic Ornament Seraph Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1232,9 +1244,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32674" name="High-grade Magic Ornament Seraph Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32674" name="High-grade Magic Ornament Seraph Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1250,9 +1262,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32675" name="Top-grade Magic Ornament Seraph Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32675" name="Top-grade Magic Ornament Seraph Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1268,9 +1280,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32676" name="Low-grade Magic Ornament Seraph Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32676" name="Low-grade Magic Ornament Seraph Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1286,9 +1298,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32677" name="Standard Magic Ornament Seraph Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32677" name="Standard Magic Ornament Seraph Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1304,9 +1316,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32678" name="High-grade Magic Ornament Seraph Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32678" name="High-grade Magic Ornament Seraph Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1322,9 +1334,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32679" name="Top-grade Magic Ornament Seraph Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32679" name="Top-grade Magic Ornament Seraph Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1380"/>
@@ -1340,9 +1352,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32680" name="Low-grade Magic Rune Clip Eternal Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32680" name="Low-grade Magic Rune Clip Eternal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1358,9 +1370,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32681" name="Standard Magic Rune Clip Eternal Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32681" name="Standard Magic Rune Clip Eternal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1376,9 +1388,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32682" name="High-grade Magic Rune Clip Eternal Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32682" name="High-grade Magic Rune Clip Eternal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1394,9 +1406,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32683" name="Top-grade Magic Rune Clip Eternal Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32683" name="Top-grade Magic Rune Clip Eternal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1412,9 +1424,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32684" name="Low-grade Magic Rune Clip Eternal Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32684" name="Low-grade Magic Rune Clip Eternal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1430,9 +1442,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32685" name="Standard Magic Rune Clip Eternal Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32685" name="Standard Magic Rune Clip Eternal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1448,9 +1460,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32686" name="High-grade Magic Rune Clip Eternal Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32686" name="High-grade Magic Rune Clip Eternal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1466,9 +1478,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32687" name="Top-grade Magic Rune Clip Eternal Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32687" name="Top-grade Magic Rune Clip Eternal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1484,9 +1496,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32688" name="Low-grade Magic Ornament Eternal Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32688" name="Low-grade Magic Ornament Eternal Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1502,9 +1514,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32689" name="Standard Magic Ornament Eternal Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32689" name="Standard Magic Ornament Eternal Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1520,9 +1532,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32690" name="High-grade Magic Ornament Eternal Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32690" name="High-grade Magic Ornament Eternal Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1538,9 +1550,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32691" name="Top-grade Magic Ornament Eternal Belt"
-           add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32691" name="Top-grade Magic Ornament Eternal Belt" add_name="PvP Physical Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1556,9 +1568,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32692" name="Low-grade Magic Ornament Eternal Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32692" name="Low-grade Magic Ornament Eternal Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1574,9 +1586,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32693" name="Standard Magic Ornament Eternal Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32693" name="Standard Magic Ornament Eternal Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1592,9 +1604,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32694" name="High-grade Magic Ornament Eternal Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32694" name="High-grade Magic Ornament Eternal Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1610,9 +1622,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32695" name="Top-grade Magic Ornament Eternal Belt"
-           add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32695" name="Top-grade Magic Ornament Eternal Belt" add_name="PvP Skill Attack">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1628,9 +1640,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32696" name="Low-grade Magic Ornament Eternal Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32696" name="Low-grade Magic Ornament Eternal Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1646,9 +1658,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32697" name="Standard Magic Ornament Eternal Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32697" name="Standard Magic Ornament Eternal Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1664,9 +1676,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32698" name="High-grade Magic Ornament Eternal Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32698" name="High-grade Magic Ornament Eternal Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1682,9 +1694,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="32699" name="Top-grade Magic Ornament Eternal Belt"
-           add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32699" name="Top-grade Magic Ornament Eternal Belt" add_name="PVP Defense">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1600"/>
@@ -1700,5 +1712,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

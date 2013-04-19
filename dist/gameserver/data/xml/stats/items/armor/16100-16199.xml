@@ -133,6 +133,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16169" name="Elegia Leather Breastplate {PvP} ">
 		<set name="attributable" value="false"/>
@@ -156,6 +157,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16170" name="Elegia Tunic {PvP} ">
 		<set name="attributable" value="false"/>
@@ -180,6 +182,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16171" name="Vesper Breastplate {PvP} ">
 		<set name="attributable" value="false"/>
@@ -203,6 +206,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16172" name="Vesper Leather Breastplate {PvP} ">
 		<set name="attributable" value="false"/>
@@ -226,6 +230,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16173" name="Vesper Tunic {PvP} ">
 		<set name="attributable" value="false"/>
@@ -250,6 +255,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16174" name="Moirai Breastplate {PvP} ">
 		<set name="attributable" value="false"/>
@@ -273,6 +279,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16175" name="Moirai Leather Breastplate {PvP} ">
 		<set name="attributable" value="false"/>
@@ -296,6 +303,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16176" name="Moirai Tunic {PvP} ">
 		<set name="attributable" value="false"/>
@@ -320,5 +328,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

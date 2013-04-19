@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="17716" name="Agninoa dual sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -24,6 +23,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17717" name="Agninoa dual sword {PvP}">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -47,5 +47,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

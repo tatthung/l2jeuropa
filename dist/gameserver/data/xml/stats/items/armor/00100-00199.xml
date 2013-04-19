@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="112" name="Apprentice's Earring">
 		<set name="crystal_type" value="NONE"/>
@@ -97,6 +98,7 @@
 			<add stat="mDef" order="0x10" value="34"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="118" name="Necklace of Magic">
 		<set name="crystal_type" value="NONE"/>
@@ -129,5 +131,6 @@
 			<add stat="mDef" order="0x10" value="64"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

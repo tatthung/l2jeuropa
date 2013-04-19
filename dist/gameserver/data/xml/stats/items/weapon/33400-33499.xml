@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="33400" name="Vesper Retributer of Destiny (Holy)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -24,6 +23,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33401" name="Vesper Singer of Destiny (Holy)" add_name="Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -47,6 +47,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33402" name="Vesper Stormer of Destiny (Holy)" add_name="Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -70,6 +71,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33403" name="Vesper Fighter of Destiny (Holy)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -93,6 +95,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33404" name="Vesper Dual Sword of Destiny (Holy)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -116,6 +119,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33405" name="Vesper Shaper of Destiny (Dark)" add_name="Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -140,6 +144,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33406" name="Vesper Dual Daggers of Destiny (Dark)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -163,6 +168,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33407" name="Vesper Cutter of Destiny (Dark)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -186,6 +192,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33408" name="Vesper Buster of Destiny (Dark)" add_name="Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -209,6 +216,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33409" name="Vesper Pincer of Destiny (Dark)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -232,6 +240,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33410" name="Vesper Slasher of Destiny (Dark)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -255,6 +264,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33411" name="Vesper Nagan of Destiny (Dark)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -278,6 +288,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33412" name="Vesper Thrower of Destiny (Dark)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -303,6 +314,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33413" name="Vesper Shooter of Destiny (Dark)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -327,6 +339,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33414" name="Vesper Avenger of Destiny (Dark)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -350,6 +363,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33415" name="Vesper Caster of Destiny (Dark)" add_name="Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -373,6 +387,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33416" name="Vesper Retributer of Destiny (Dark)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -396,6 +411,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33417" name="Vesper Singer of Destiny (Dark)" add_name="Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -419,6 +435,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33418" name="Vesper Stormer of Destiny (Dark)" add_name="Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -442,6 +459,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33419" name="Vesper Fighter of Destiny (Dark)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -465,6 +483,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33420" name="Vesper Dual Sword of Destiny (Dark)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -488,6 +507,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33424" name="Vesper Shield of Destiny (Fire, Wind, Dark)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -503,6 +523,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="33441" name="Vesper Shield of Destiny (Water, Earth, Holy)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -518,5 +539,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

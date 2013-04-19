@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="30601" name="Bound Tunic of Zubei">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -18,6 +19,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30602" name="Bound Tunic of Doom">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -37,6 +39,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30606" name="Bound Tallum Stockings">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -56,6 +59,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30607" name="Bound Tallum Helmet">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -75,6 +79,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30608" name="Bound Tallum Plate Armor">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -94,6 +99,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30609" name="Bound Tallum Tunic">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -113,6 +119,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30616" name="Bound Tallum Boots" add_name="Heavy">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -132,6 +139,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30617" name="Bound Tallum Boots" add_name="Tans Armor Use">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -151,6 +159,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30618" name="Bound Tallum Boots" add_name="Robe">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -170,6 +179,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30619" name="Bound Tallum Leather Armor">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -189,6 +199,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30620" name="Bound Tallum Gloves" add_name="Heavy">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -208,6 +219,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30621" name="Bound Tallum Gloves" add_name="Tans Armor Use">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -227,6 +239,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30622" name="Bound Tallum Gloves" add_name="Robe">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -246,6 +259,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30627" name="Bound Tateossian Earring">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="S"/>
@@ -267,6 +281,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30628" name="Bound Tateossian Ring">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="S"/>
@@ -288,6 +303,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30629" name="Bound Tateossian Necklace">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="S"/>
@@ -308,6 +324,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30630" name="Bound Tiger's Eye">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -329,6 +346,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30631" name="Bound Tiger's Eye">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -350,6 +368,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30673" name="Bound Compound Armor">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -369,6 +388,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30674" name="Bound Compound Helmet">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -388,6 +408,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30676" name="Bound Compound Boots">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -407,5 +428,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

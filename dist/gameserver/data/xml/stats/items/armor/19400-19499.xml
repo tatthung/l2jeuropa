@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="19449" name="Giant's Bracelet">
 		<set name="crystal_type" value="R"/>
@@ -35,6 +36,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19452" name="Istina's Earring">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -58,6 +60,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19453" name="Istina's Necklace">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -80,6 +83,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19454" name="Istina's Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -100,6 +104,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19455" name="Istina's Bracelet">
 		<set name="crystal_type" value="R"/>
@@ -115,6 +120,7 @@
 		<skills>
 			<skill id="8779" level="1"/>
 		</skills>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19456" name="Istina's Shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -135,6 +141,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19457" name="Octavis's Ring">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -157,6 +164,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19458" name="Octavis's Earring">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -179,6 +187,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19459" name="Octavis's Necklace">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -200,6 +209,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19460" name="Octavis's Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -220,6 +230,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19461" name="Octavis's Bracelet">
 		<set name="crystal_type" value="R"/>
@@ -235,6 +246,7 @@
 		<skills>
 			<skill id="8780" level="1"/>
 		</skills>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19462" name="Octavis's Shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -253,9 +265,9 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="19463"
-           name="Blessed Earring of Antharas">		<!--          Дает следующие эффекты: MP +59, Сопротивление Кровотечению 50%, Шанс нанести кровоточащую рану 50%,          Эффективность Лечения, Ярость Вампира, Сопротивление Оглушению/Ментальным Атакам 40%,          шанс нанести Оглушение/Ментальную Атаку 40%, Снижает расход MP на Физ./Маг.          Умения, Увеличивает защиту от Земли/Святости, Увеличивает Физ./Маг. Защ., ВЫН +3, ДУХ +3.          Позволяет использовать умение, отменяющее Оглушение и моментально повышает сопротивление к оглушению на 100%.          Даже если носить 2 серьги, эффект будет исходить только от одной.      -->
+	<armor id="19463" name="Blessed Earring of Antharas">		<!--          Дает следующие эффекты: MP +59, Сопротивление Кровотечению 50%, Шанс нанести кровоточащую рану 50%,          Эффективность Лечения, Ярость Вампира, Сопротивление Оглушению/Ментальным Атакам 40%,          шанс нанести Оглушение/Ментальную Атаку 40%, Снижает расход MP на Физ./Маг.          Умения, Увеличивает защиту от Земли/Святости, Увеличивает Физ./Маг. Защ., ВЫН +3, ДУХ +3.          Позволяет использовать умение, отменяющее Оглушение и моментально повышает сопротивление к оглушению на 100%.          Даже если носить 2 серьги, эффект будет исходить только от одной.      -->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="906"/>
@@ -276,9 +288,9 @@
 			<add stat="maxMp" order="0x10" value="59"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="19464"
-           name="Blessed Necklace of Valakas">		<!--          Дает следующие эффекты: HP +625, MP +79,          Сопротивление Сну +50%, шанс Усыпить +50%,          Снижает задержку Физ./Маг. умений,          Физ. Атк. +10%, Маг. Атк. +20%,          Дикая Магия, Отражает часть урона,          Защита от Огня +30, Защита от Тьмы +20,          Мощность Физ. Умений +5%,          Позволяет использовать умения, отменяющее Удержание и моментально увеличивает сопротивление удержанию на 100%.      -->
+	<armor id="19464" name="Blessed Necklace of Valakas">		<!--          Дает следующие эффекты: HP +625, MP +79,          Сопротивление Сну +50%, шанс Усыпить +50%,          Снижает задержку Физ./Маг. умений,          Физ. Атк. +10%, Маг. Атк. +20%,          Дикая Магия, Отражает часть урона,          Защита от Огня +30, Защита от Тьмы +20,          Мощность Физ. Умений +5%,          Позволяет использовать умения, отменяющее Удержание и моментально увеличивает сопротивление удержанию на 100%.      -->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1205"/>
@@ -299,6 +311,7 @@
 			<add stat="maxMp" order="0x10" value="79"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19470" name="Immortal Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -316,6 +329,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19471" name="Immortal Bracelet">
 		<set name="crystal_type" value="R"/>
@@ -334,6 +348,7 @@
 	<for>
 		<add stat="maxMp" order="0x10" value="187"/>
 	</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19472" name="Immortal Shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -351,6 +366,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19473" name="Twilight Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -368,6 +384,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19474" name="Twilight Bracelet">
 		<set name="crystal_type" value="R"/>
@@ -386,6 +403,7 @@
 	<for>
 		<add stat="maxMp" order="0x10" value="204"/>
 	</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19475" name="Twilight Shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
@@ -403,6 +421,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19476" name="Seraph Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -420,6 +439,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19477" name="Seraph Bracelet">
 		<set name="crystal_type" value="R95"/>
@@ -438,6 +458,7 @@
 	<for>
 		<add stat="maxMp" order="0x10" value="216"/>
 	</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19478" name="Seraph Shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -455,6 +476,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19479" name="Eternal Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -472,6 +494,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19480" name="Eternal Bracelet">
 		<set name="crystal_type" value="R99"/>
@@ -490,6 +513,7 @@
 	<for>
 		<add stat="maxMp" order="0x10" value="225"/>
 	</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="19481" name="Eternal Shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -507,5 +531,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="19607" name="Bound Twilight Shield" add_name="Attack Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -18,6 +17,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19623" name="Bound Seraph Shield" add_name="Attack Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -35,6 +35,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19639" name="Bound Eternal Shield" add_name="Attack Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -52,6 +53,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19655" name="Blessed Immortal Shield" add_name="Attack Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -67,6 +69,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19671" name="Blessed Twilight Shield" add_name="Attack Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -82,6 +85,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19687" name="Blessed Specter Shield" add_name="Attack Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -97,5 +101,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

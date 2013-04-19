@@ -18,6 +18,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15573" name="Elegia Leather Helmet">
 		<set name="crystal_count" value="1205"/>
@@ -36,6 +37,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15574" name="Elegia Circlet">
 		<set name="crystal_count" value="1205"/>
@@ -54,6 +56,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15575" name="Elegia Breastplate">
 		<set name="crystal_count" value="3214"/>
@@ -72,6 +75,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15576" name="Elegia Leather Breastplate">
 		<set name="crystal_count" value="2410"/>
@@ -90,6 +94,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15577" name="Elegia Tunic">
 		<set name="crystal_count" value="2410"/>
@@ -109,6 +114,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15578" name="Elegia Gaiter">
 		<set name="crystal_count" value="2009"/>
@@ -127,6 +133,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15579" name="Elegia Leather Legging">
 		<set name="crystal_count" value="1506"/>
@@ -145,6 +152,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15580" name="Elegia Stockings">
 		<set name="crystal_count" value="1506"/>
@@ -164,6 +172,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15581" name="Elegia Gauntlet">
 		<set name="crystal_count" value="803"/>
@@ -182,6 +191,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15582" name="Elegia Leather Gloves">
 		<set name="crystal_count" value="803"/>
@@ -200,6 +210,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15583" name="Elegia Gloves">
 		<set name="crystal_count" value="803"/>
@@ -218,6 +229,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15584" name="Elegia Boots">
 		<set name="crystal_count" value="803"/>
@@ -236,6 +248,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15585" name="Elegia Leather Boots">
 		<set name="crystal_count" value="803"/>
@@ -254,6 +267,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15586" name="Elegia Shoes">
 		<set name="crystal_count" value="803"/>
@@ -272,6 +286,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15588" name="Elegia Sigil">
 		<set name="crystal_count" value="844"/>
@@ -291,6 +306,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15589" name="Vorpal Helmet">
 		<set name="crystal_count" value="1005"/>
@@ -309,6 +325,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15590" name="Vorpal Leather Helmet">
 		<set name="crystal_count" value="1005"/>
@@ -327,6 +344,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15591" name="Vorpal Circlet">
 		<set name="crystal_count" value="1005"/>
@@ -345,6 +363,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15592" name="Vorpal Breastplate">
 		<set name="crystal_count" value="2680"/>
@@ -363,6 +382,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15593" name="Vorpal Leather Breastplate">
 		<set name="crystal_count" value="2010"/>
@@ -381,6 +401,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15594" name="Vorpal Tunic">
 		<set name="crystal_count" value="2010"/>
@@ -400,6 +421,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15595" name="Vorpal Gaiter">
 		<set name="crystal_count" value="1675"/>
@@ -418,6 +440,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15596" name="Vorpal Leather Legging">
 		<set name="crystal_count" value="1256"/>
@@ -436,6 +459,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15597" name="Vorpal Stockings">
 		<set name="crystal_count" value="1256"/>
@@ -455,6 +479,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15598" name="Vorpal Gauntlet">
 		<set name="crystal_count" value="670"/>
@@ -473,6 +498,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="15599" name="Vorpal Leather Gloves">
 		<set name="crystal_count" value="670"/>
@@ -491,5 +517,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

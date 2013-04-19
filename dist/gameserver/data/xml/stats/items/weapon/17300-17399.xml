@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="17300" name="Requiem Retributer">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -14,7 +13,7 @@
 		<set name="type" value="BIGBLUNT"/>
 		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="599"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13301" level="3"/>
@@ -26,6 +25,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17301" name="Requiem Dual Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -38,7 +38,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="719"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13274" level="3"/>
@@ -50,6 +50,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17302" name="Requiem Dual Dagger">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -62,7 +63,7 @@
 		<set name="type" value="DUALDAGGER"/>
 		<set name="ex_type" value="DUAL_DAGGER"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="719"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13279" level="3"/>
@@ -74,6 +75,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17303" name="Requiem Dual Blunt Weapon">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -85,7 +87,7 @@
 		</equip>
 		<set name="type" value="DUALBLUNT"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="719"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13269" level="3"/>
@@ -97,6 +99,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17309" name="Immortal Shield" add_name="Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -107,11 +110,12 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="82"/>
 		<for>
 			<add stat="pDef" order="0x10" value="415"/>
 			<enchant stat="pDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17324" name="Apocalypse Shaper">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -124,7 +128,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1451"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -136,6 +140,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17325" name="Apocalypse Cutter">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -148,7 +153,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1451"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -159,6 +164,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17326" name="Apocalypse Slasher">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -171,7 +177,7 @@
 		<set name="type" value="BIGSWORD"/>
 		<set name="ex_type" value="BIG_SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1451"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -182,6 +188,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17327" name="Apocalypse Avenger">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -194,7 +201,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1451"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -205,6 +212,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17328" name="Apocalypse Fighter">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -217,7 +225,7 @@
 		<set name="type" value="DUALFIST"/>
 		<set name="ex_type" value="HAND_TO_HAND"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1451"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -228,6 +236,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17329" name="Apocalypse Stormer">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -240,7 +249,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1451"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -251,6 +260,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17330" name="Apocalypse Thrower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -263,7 +273,7 @@
 		<set name="type" value="BOW"/>
 		<set name="ex_type" value="BOW"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1451"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -275,6 +285,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17331" name="Apocalypse Shooter">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -287,7 +298,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1451"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -299,6 +310,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17332" name="Apocalypse Buster">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -311,7 +323,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1451"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -322,6 +334,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17333" name="Apocalypse Caster">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -345,6 +358,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17334" name="Apocalypse Retributer">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -357,7 +371,7 @@
 		<set name="type" value="BIGBLUNT"/>
 		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1451"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -368,6 +382,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17335" name="Apocalypse Dual sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -380,7 +395,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1741"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -391,6 +406,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17336" name="Apocalypse Dual Dagger">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -403,7 +419,7 @@
 		<set name="type" value="DUALDAGGER"/>
 		<set name="ex_type" value="DUAL_DAGGER"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1741"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -414,6 +430,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17337" name="Apocalypse Dual Blunt Weapon">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -425,7 +442,7 @@
 		</equip>
 		<set name="type" value="DUALBLUNT"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1741"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -436,6 +453,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17343" name="Twilight Shield" add_name="Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -446,11 +464,12 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="199"/>
 		<for>
 			<add stat="pDef" order="0x10" value="458"/>
 			<enchant stat="pDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17372" name="Hurler's Spear">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -475,6 +494,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17382" name="Specter Shaper">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -487,7 +507,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3130"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13282" level="3"/>
@@ -500,6 +520,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17383" name="Specter Cutter">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -512,7 +533,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3130"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -523,6 +544,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17384" name="Specter Slasher">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -535,7 +557,7 @@
 		<set name="type" value="BIGSWORD"/>
 		<set name="ex_type" value="BIG_SWORD"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3130"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -546,6 +568,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17385" name="Specter Avenger">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -569,6 +592,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17386" name="Specter Fighter">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -581,7 +605,7 @@
 		<set name="type" value="DUALFIST"/>
 		<set name="ex_type" value="HAND_TO_HAND"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3130"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -592,6 +616,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17387" name="Specter Stormer">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -604,7 +629,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3130"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -615,6 +640,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17388" name="Specter Thrower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -627,7 +653,7 @@
 		<set name="type" value="BOW"/>
 		<set name="ex_type" value="BOW"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3130"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -639,6 +665,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17389" name="Specter Shooter">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -651,7 +678,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3130"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -663,6 +690,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17390" name="Specter Buster">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -675,7 +703,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3130"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -686,6 +714,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17391" name="Specter Caster">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -698,7 +727,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3130"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -709,6 +738,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17392" name="Specter Retributer">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -721,7 +751,7 @@
 		<set name="type" value="BIGBLUNT"/>
 		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3130"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -732,6 +762,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17393" name="Specter Dual Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -744,7 +775,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3756"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -755,6 +786,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17394" name="Specter Dual Dagger">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -767,7 +799,7 @@
 		<set name="type" value="DUALDAGGER"/>
 		<set name="ex_type" value="DUAL_DAGGER"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3756"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -778,6 +810,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17395" name="Specter Dual Blunt Weapon">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -789,7 +822,7 @@
 		</equip>
 		<set name="type" value="DUALBLUNT"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3756"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -800,5 +833,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

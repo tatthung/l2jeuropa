@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="19703" name="Blessed Eternal Shield" add_name="Attack Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -16,6 +15,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19719" name="Blessed Celestial Shield" add_name="Attack Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -31,6 +31,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19735" name="Immortal Shield" add_name="Defense Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -46,6 +47,7 @@
 			<add stat="pDef" order="0x10" value="415"/>
 			<enchant stat="pDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19751" name="Twilight Shield" add_name="Defense Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -61,6 +63,7 @@
 			<add stat="pDef" order="0x10" value="458"/>
 			<enchant stat="pDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19767" name="Seraph Shield" add_name="Defense Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -76,6 +79,7 @@
 			<add stat="pDef" order="0x10" value="505"/>
 			<enchant stat="pDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19783" name="Eternal Shield" add_name="Defense Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -91,6 +95,7 @@
 			<add stat="pDef" order="0x10" value="526"/>
 			<enchant stat="pDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19799" name="Bound Immortal Shield" add_name="Defense Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -108,5 +113,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

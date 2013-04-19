@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="12200" name="Common Item - Blue Wolf Gloves" add_name="Robe Use">
 		<set name="enchantable" value="false"/>
@@ -18,6 +19,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12201" name="Common Item - Blue Wolf Tunic">
 		<set name="enchantable" value="false"/>
@@ -38,6 +40,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12202" name="Common Item - Blue Wolf Helmet">
 		<set name="enchantable" value="false"/>
@@ -57,6 +60,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12203" name="Common Item - Blue Wolf Stockings">
 		<set name="enchantable" value="false"/>
@@ -77,6 +81,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12204" name="Common Item - Blue Wolf Breastplate">
 		<set name="enchantable" value="false"/>
@@ -96,6 +101,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12205" name="Common Item - Stockings of Doom">
 		<set name="enchantable" value="false"/>
@@ -116,6 +122,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12206" name="Common Item - Dark Crystal Gaiters">
 		<set name="enchantable" value="false"/>
@@ -135,6 +142,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12207" name="Common Item - Dark Crystal Gloves" add_name="Heavy Armor Use">
 		<set name="enchantable" value="false"/>
@@ -154,6 +162,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12208" name="Common Item - Dark Crystal Gloves" add_name="Tans Armor Use">
 		<set name="enchantable" value="false"/>
@@ -173,6 +182,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12209" name="Common Item - Dark Crystal Gloves" add_name="Robe Use">
 		<set name="enchantable" value="false"/>
@@ -192,6 +202,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12210" name="Common Item - Dark Crystal Leather Armor">
 		<set name="enchantable" value="false"/>
@@ -211,6 +222,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12211" name="Common Item - Dark Crystal Robe">
 		<set name="enchantable" value="false"/>
@@ -231,6 +243,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12212" name="Common Item - Dark Crystal Boots" add_name="Heavy Armor Use">
 		<set name="enchantable" value="false"/>
@@ -250,6 +263,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12213" name="Common Item - Dark Crystal Boots" add_name="Tans Armor Use">
 		<set name="enchantable" value="false"/>
@@ -269,6 +283,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12214" name="Common Item - Dark Crystal Boots" add_name="Robe Use">
 		<set name="enchantable" value="false"/>
@@ -288,6 +303,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12216" name="Common Item - Dark Crystal Helmet">
 		<set name="enchantable" value="false"/>
@@ -307,6 +323,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12217" name="Common Item - Dark Crystal Breastplate">
 		<set name="enchantable" value="false"/>
@@ -326,6 +343,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12218" name="Common Item - Dark Crystal Leggings">
 		<set name="enchantable" value="false"/>
@@ -345,6 +363,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12219" name="Common Item - Barbed Shirt">
 		<set name="enchantable" value="false"/>
@@ -364,6 +383,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12220" name="Common Item - Sealed Dark Crystal Gaiters">
 		<set name="enchantable" value="false"/>
@@ -383,6 +403,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12221" name="Common Item - Sealed Dark Crystal Gloves">
 		<set name="enchantable" value="false"/>
@@ -402,6 +423,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12222" name="Common Item - Sealed Dark Crystal Leather Armor">
 		<set name="enchantable" value="false"/>
@@ -421,6 +443,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12223" name="Common Item - Sealed Dark Crystal Robe">
 		<set name="enchantable" value="false"/>
@@ -441,6 +464,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12224" name="Common Item - Sealed Dark Crystal Boots">
 		<set name="enchantable" value="false"/>
@@ -460,6 +484,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12226" name="Common Item - Sealed Dark Crystal Helmet">
 		<set name="enchantable" value="false"/>
@@ -479,6 +504,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12227" name="Common Item - Sealed Dark Crystal Breastplate">
 		<set name="enchantable" value="false"/>
@@ -498,6 +524,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12228" name="Common Item - Sealed Dark Crystal Leggings">
 		<set name="enchantable" value="false"/>
@@ -517,6 +544,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12229" name="Common Item - Sealed Tallum Gloves">
 		<set name="enchantable" value="false"/>
@@ -536,6 +564,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12230" name="Common Item - Sealed Tallum Leather Armor">
 		<set name="enchantable" value="false"/>
@@ -555,6 +584,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12231" name="Common Item - Sealed Tallum Boots">
 		<set name="enchantable" value="false"/>
@@ -574,6 +604,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12232" name="Common Item - Sealed Tallum Tunic">
 		<set name="enchantable" value="false"/>
@@ -594,6 +625,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12233" name="Common Item - Sealed Tallum Plate Armor">
 		<set name="enchantable" value="false"/>
@@ -613,6 +645,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12234" name="Common Item - Sealed Tallum Helmet">
 		<set name="enchantable" value="false"/>
@@ -632,6 +665,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12235" name="Common Item - Sealed Tallum Stockings">
 		<set name="enchantable" value="false"/>
@@ -652,6 +686,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12236" name="Common Item - Tallum Gloves" add_name="Heavy Armor Use">
 		<set name="enchantable" value="false"/>
@@ -671,6 +706,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12237" name="Common Item - Tallum Gloves" add_name="Tans Armor Use">
 		<set name="enchantable" value="false"/>
@@ -690,6 +726,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12238" name="Common Item - Tallum Gloves" add_name="Robe Use">
 		<set name="enchantable" value="false"/>
@@ -709,6 +746,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12239" name="Common Item - Tallum Leather Armor">
 		<set name="enchantable" value="false"/>
@@ -728,6 +766,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12240" name="Common Item - Tallum Boots" add_name="Heavy Armor Use">
 		<set name="enchantable" value="false"/>
@@ -747,6 +786,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12241" name="Common Item - Tallum Boots" add_name="Tans Armor Use">
 		<set name="enchantable" value="false"/>
@@ -766,6 +806,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12242" name="Common Item - Tallum Boots" add_name="Robe Use">
 		<set name="enchantable" value="false"/>
@@ -785,6 +826,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12243" name="Common Item - Tallum Tunic">
 		<set name="enchantable" value="false"/>
@@ -805,6 +847,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12244" name="Common Item - Tallum Plate Armor">
 		<set name="enchantable" value="false"/>
@@ -824,6 +867,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12245" name="Common Item - Tallum Helmet">
 		<set name="enchantable" value="false"/>
@@ -843,6 +887,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12246" name="Common Item - Tallum Stockings">
 		<set name="enchantable" value="false"/>
@@ -863,6 +908,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12247" name="Common Item - Majestic Gauntlet" add_name="Heavy Armor Use">
 		<set name="enchantable" value="false"/>
@@ -882,6 +928,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12248" name="Common Item - Majestic Gauntlet" add_name="Tans Armor Use">
 		<set name="enchantable" value="false"/>
@@ -901,6 +948,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12249" name="Common Item - Majestic Gauntlet" add_name="Robe Use">
 		<set name="enchantable" value="false"/>
@@ -920,6 +968,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12250" name="Common Item - Majestic Leather Armor">
 		<set name="enchantable" value="false"/>
@@ -939,6 +988,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12251" name="Common Item - Majestic Robe">
 		<set name="enchantable" value="false"/>
@@ -959,6 +1009,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12252" name="Common Item - Majestic Boots" add_name="Heavy Armor Use">
 		<set name="enchantable" value="false"/>
@@ -978,6 +1029,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12253" name="Common Item - Majestic Boots" add_name="Tans Armor Use">
 		<set name="enchantable" value="false"/>
@@ -997,6 +1049,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12254" name="Common Item - Majestic Boots" add_name="Robe Use">
 		<set name="enchantable" value="false"/>
@@ -1016,6 +1069,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12255" name="Common Item - Majestic Circlet">
 		<set name="enchantable" value="false"/>
@@ -1035,6 +1089,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12256" name="Common Item - Majestic Plate Armor">
 		<set name="enchantable" value="false"/>
@@ -1054,6 +1109,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12257" name="Common Item - Sealed Majestic Gauntlet">
 		<set name="enchantable" value="false"/>
@@ -1073,6 +1129,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12258" name="Common Item - Sealed Majestic Leather Armor">
 		<set name="enchantable" value="false"/>
@@ -1092,6 +1149,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12259" name="Common Item - Sealed Majestic Robe">
 		<set name="enchantable" value="false"/>
@@ -1112,6 +1170,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12260" name="Common Item - Sealed Majestic Boots">
 		<set name="enchantable" value="false"/>
@@ -1131,6 +1190,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12261" name="Common Item - Sealed Majestic Circlet">
 		<set name="enchantable" value="false"/>
@@ -1150,6 +1210,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12262" name="Common Item - Sealed Majestic Plate Armor">
 		<set name="enchantable" value="false"/>
@@ -1169,6 +1230,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12263" name="Common Item - Sealed Armor of Nightmare">
 		<set name="enchantable" value="false"/>
@@ -1188,6 +1250,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12264" name="Common Item - Sealed Gauntlet of Nightmare">
 		<set name="enchantable" value="false"/>
@@ -1207,6 +1270,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12265" name="Common Item - Sealed Leather Armor of Nightmare">
 		<set name="enchantable" value="false"/>
@@ -1226,6 +1290,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12266" name="Common Item - Sealed Nightmare Robe">
 		<set name="enchantable" value="false"/>
@@ -1246,6 +1311,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12267" name="Common Item - Sealed Boots of Nightmare">
 		<set name="enchantable" value="false"/>
@@ -1265,6 +1331,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12269" name="Common Item - Sealed Helm of Nightmare">
 		<set name="enchantable" value="false"/>
@@ -1284,6 +1351,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12270" name="Common Item - Armor of Nightmare">
 		<set name="enchantable" value="false"/>
@@ -1303,6 +1371,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12271" name="Common Item - Gauntlet of Nightmare" add_name="Heavy Armor Use">
 		<set name="enchantable" value="false"/>
@@ -1322,6 +1391,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12272" name="Common Item - Gauntlet of Nightmare" add_name="Tans Armor Use">
 		<set name="enchantable" value="false"/>
@@ -1341,6 +1411,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12273" name="Common Item - Gauntlet of Nightmare" add_name="Robe Use">
 		<set name="enchantable" value="false"/>
@@ -1360,6 +1431,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12274" name="Common Item - Nightmarish Leather Armor">
 		<set name="enchantable" value="false"/>
@@ -1379,6 +1451,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12275" name="Common Item - Nightmare Robe">
 		<set name="enchantable" value="false"/>
@@ -1399,6 +1472,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12276" name="Common Item - Boots of Nightmare" add_name="Heavy Armor Use">
 		<set name="enchantable" value="false"/>
@@ -1418,6 +1492,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12277" name="Common Item - Boots of Nightmare" add_name="Tans Armor Use">
 		<set name="enchantable" value="false"/>
@@ -1437,6 +1512,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12278" name="Common Item - Boots of Nightmare" add_name="Robe Use">
 		<set name="enchantable" value="false"/>
@@ -1456,6 +1532,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12280" name="Common Item - Helm of Nightmare">
 		<set name="enchantable" value="false"/>
@@ -1475,6 +1552,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12281" name="Common Item - Stripe Barbed Shirt">
 		<set name="enchantable" value="false"/>
@@ -1494,6 +1572,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12282" name="Common Item - Draconic Leather Gloves">
 		<set name="enchantable" value="false"/>
@@ -1513,6 +1592,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12283" name="Common Item - Draconic Leather Boots">
 		<set name="enchantable" value="false"/>
@@ -1532,6 +1612,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12284" name="Common Item - Draconic Leather Armor">
 		<set name="enchantable" value="false"/>
@@ -1551,6 +1632,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12285" name="Common Item - Draconic Leather Helmet">
 		<set name="enchantable" value="false"/>
@@ -1570,6 +1652,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12286" name="Common Item - Major Arcana Gloves">
 		<set name="enchantable" value="false"/>
@@ -1589,6 +1672,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12287" name="Common Item - Major Arcana Robe">
 		<set name="enchantable" value="false"/>
@@ -1609,6 +1693,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12288" name="Common Item - Major Arcana Boots">
 		<set name="enchantable" value="false"/>
@@ -1628,6 +1713,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12289" name="Common Item - Major Arcana Circlet">
 		<set name="enchantable" value="false"/>
@@ -1647,6 +1733,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12290" name="Common Item - Mithril Shirt">
 		<set name="enchantable" value="false"/>
@@ -1666,6 +1753,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12291" name="Common Item - Sealed Draconic Leather Gloves">
 		<set name="enchantable" value="false"/>
@@ -1685,6 +1773,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12292" name="Common Item - Sealed Draconic Leather Boots">
 		<set name="enchantable" value="false"/>
@@ -1704,6 +1793,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12293" name="Common Item - Sealed Draconic Leather Armor">
 		<set name="enchantable" value="false"/>
@@ -1723,6 +1813,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12294" name="Common Item - Sealed Draconic Leather Helmet">
 		<set name="enchantable" value="false"/>
@@ -1742,6 +1833,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12295" name="Common Item - Sealed Major Arcana Gloves">
 		<set name="enchantable" value="false"/>
@@ -1761,6 +1853,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12296" name="Common Item - Sealed Major Arcana Robe">
 		<set name="enchantable" value="false"/>
@@ -1781,6 +1874,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12297" name="Common Item - Sealed Major Arcana Boots">
 		<set name="enchantable" value="false"/>
@@ -1800,6 +1894,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12298" name="Common Item - Sealed Major Arcana Circlet">
 		<set name="enchantable" value="false"/>
@@ -1819,6 +1914,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="12299" name="Common Item - Sealed Imperial Crusader Gaiters">
 		<set name="enchantable" value="false"/>
@@ -1838,5 +1934,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

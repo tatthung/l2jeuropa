@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="32400" name="Fantasy Pa'agrian Hammer">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -24,6 +23,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32401" name="Fantasy Bec de Corbin">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -47,6 +47,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32402" name="Fantasy Pole Axe">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -70,6 +71,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32403" name="Fantasy Knuckle Duster">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -93,6 +95,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32404" name="Fantasy Fisted Blade">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -116,6 +119,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32405" name="Fantasy Sword of Revolution*Sword of Revolution">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -139,6 +143,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32406" name="Fantasy Stormbringer*Stormbringer">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -162,6 +167,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32420" name="Fantasy Compound Shield">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -177,6 +183,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32421" name="Fantasy Crys">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -201,6 +208,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32422" name="Fantasy Sword of Valhalla">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -224,6 +232,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32423" name="Fantasy Keshanberk">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -247,6 +256,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32424" name="Fantasy Military Fleuret">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -270,6 +280,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32425" name="Fantasy Great Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -293,6 +304,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32426" name="Fantasy Innominate Victory">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -316,6 +328,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32427" name="Fantasy Dismantler">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -339,6 +352,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32428" name="Fantasy Dark Elven Long Bow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -364,6 +378,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32429" name="Fantasy Peacemaker">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -388,6 +403,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32430" name="Fantasy Heavy War Axe">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -411,6 +427,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32431" name="Fantasy Sprite's Staff">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -434,6 +451,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32432" name="Fantasy Great Axe">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -457,6 +475,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32433" name="Fantasy Arthro Nail">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -480,6 +499,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32434" name="Fantasy Sword of Delusion*Sword of Delusion">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -503,6 +523,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32448" name="Fantasy Zubei's Shield">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -518,6 +539,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32449" name="Fantasy Bloody Orchid">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -542,6 +564,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32450" name="Fantasy Soul Separator">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -566,6 +589,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32451" name="Fantasy Sword of Miracles">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -589,6 +613,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32452" name="Fantasy Tallum Blade">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -612,6 +637,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32453" name="Fantasy Dark Legion's Edge">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -635,6 +661,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32454" name="Fantasy White Lightning">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -658,6 +685,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32455" name="Fantasy Lacerator">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -681,6 +709,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32456" name="Fantasy Infernal Master">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -704,6 +733,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32457" name="Fantasy Dragon Slayer">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -727,6 +757,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32458" name="Fantasy Divine Pain">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -750,6 +781,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32459" name="Fantasy Undertaker">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -773,6 +805,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32460" name="Fantasy Carnage Bow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -798,6 +831,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32461" name="Fantasy Soul Bow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -823,6 +857,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32462" name="Fantasy Doom Singer">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -847,6 +882,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32463" name="Fantasy Reaper">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -871,6 +907,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32464" name="Fantasy Meteor Shower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -894,6 +931,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32465" name="Fantasy Elysian">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -917,6 +955,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32466" name="Fantasy Dasparion's Staff">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -940,6 +979,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32467" name="Fantasy Branch of Worldtree">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -963,6 +1003,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32468" name="Fantasy Halberd">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -986,6 +1027,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32469" name="Fantasy Tallum Glaive">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1009,6 +1051,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32470" name="Fantasy Blood Tornado">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1032,6 +1075,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32471" name="Fantasy Dragon Grinder">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1055,6 +1099,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32472" name="Fantasy Keshanberk*Keshanberk">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1078,6 +1123,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32473" name="Fantasy Keshanberk*Damascus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1101,6 +1147,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32498" name="Fantasy Dark Crystal Shield">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1116,6 +1163,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32499" name="Fantasy Shield of Nightmare">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1131,5 +1179,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

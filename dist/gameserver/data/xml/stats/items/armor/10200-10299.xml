@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="10207" name="Enhanced Striped Scale Shirt">
 		<set name="crystal_count" value="59"/>
@@ -17,6 +18,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10208" name="Enhanced Striped Mithril Shirt">
 		<set name="crystal_count" value="122"/>
@@ -39,6 +41,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10209" name="Enhanced Steel Bracelet">
 		<set name="enchantable" value="false"/>
@@ -59,6 +62,7 @@
 		<for>
 			<add stat="maxMp" order="0x10" value="60"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10210" name="Enhanced Mithril Bracelet">
 		<set name="enchantable" value="false"/>
@@ -79,6 +83,7 @@
 		<for>
 			<add stat="maxMp" order="0x10" value="120"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10211" name="Blessed Ring of Resurrection">
 		<set name="crystal_type" value="NONE"/>
@@ -122,6 +127,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10227" name="Dynasty Platinum Plate">
 		<set name="crystal_count" value="1616"/>
@@ -140,6 +146,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10228" name="Dynasty Platinum Plate" add_name="Shield Master">
 		<set name="crystal_count" value="1616"/>
@@ -161,6 +168,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10229" name="Dynasty Platinum Plate" add_name="Weapon Master">
 		<set name="crystal_count" value="1616"/>
@@ -182,6 +190,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10230" name="Dynasty Platinum Plate" add_name="Force Master">
 		<set name="crystal_count" value="1616"/>
@@ -203,6 +212,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10231" name="Dynasty Platinum Plate" add_name="Bard">
 		<set name="crystal_count" value="1616"/>
@@ -224,6 +234,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10232" name="Dynasty Jewel Leather Mail">
 		<set name="crystal_count" value="1212"/>
@@ -242,6 +253,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10233" name="Dynasty Jewel Leather Mail" add_name="Dagger Master">
 		<set name="crystal_count" value="1212"/>
@@ -263,6 +275,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10234" name="Dynasty Jewel Leather Mail" add_name="Bow Master">
 		<set name="crystal_count" value="1212"/>
@@ -284,6 +297,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10235" name="Dynasty Silver Satin Tunic">
 		<set name="crystal_count" value="1212"/>
@@ -303,6 +317,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10236" name="Dynasty Silver Satin Tunic" add_name="Healer">
 		<set name="crystal_count" value="1212"/>
@@ -325,6 +340,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10237" name="Dynasty Silver Satin Tunic" add_name="Enchanter">
 		<set name="crystal_count" value="1212"/>
@@ -347,6 +363,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10238" name="Dynasty Silver Satin Tunic" add_name="Summoner">
 		<set name="crystal_count" value="1212"/>
@@ -369,6 +386,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10239" name="Dynasty Silver Satin Tunic" add_name="Wizard">
 		<set name="crystal_count" value="1212"/>
@@ -391,6 +409,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10240" name="Bird Nest">
 		<set name="crystal_type" value="NONE"/>

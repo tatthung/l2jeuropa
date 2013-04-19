@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="19100" name="Blessed Celestial Thrower" add_name="Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -29,6 +28,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19101" name="Blessed Celestial Thrower" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -57,6 +57,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19102" name="Blessed Celestial Thrower" add_name="Long Blow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -85,6 +86,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19103" name="Blessed Celestial Shooter" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -113,6 +115,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19104" name="Blessed Celestial Shooter" add_name="Critical Slow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -141,6 +144,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19105" name="Blessed Celestial Shooter" add_name="Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -169,6 +173,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19106" name="Blessed Celestial Buster" add_name="Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -196,6 +201,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19107" name="Blessed Celestial Buster" add_name="Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -223,6 +229,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19108" name="Blessed Celestial Buster" add_name="Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -250,6 +257,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19109" name="Blessed Celestial Caster" add_name="Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -277,6 +285,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19110" name="Blessed Celestial Caster" add_name="Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -304,6 +313,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19111" name="Blessed Celestial Caster" add_name="Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -331,6 +341,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19112" name="Blessed Celestial Retributer" add_name="MP Regeneration">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -358,6 +369,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19113" name="Blessed Celestial Retributer" add_name="Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -385,6 +397,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19114" name="Blessed Celestial Retributer" add_name="Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -412,6 +425,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19115" name="Blessed Celestial Dual Sword" add_name="Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -439,6 +453,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19116" name="Blessed Celestial Dual Sword" add_name="Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -466,6 +481,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19117" name="Blessed Celestial Dual Sword" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -493,6 +509,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19118" name="Blessed Celestial Dual Dagger" add_name="Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -520,6 +537,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19119" name="Blessed Celestial Dual Dagger" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -547,6 +565,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19120" name="Blessed Celestial Dual Dagger" add_name="Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -574,6 +593,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19121" name="Blessed Celestial Dual Blunt Weapon" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -600,6 +620,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19122" name="Blessed Celestial Dual Blunt Weapon" add_name="Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -626,6 +647,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19123" name="Blessed Celestial Dual Blunt Weapon" add_name="Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -652,6 +674,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19124" name="Blessed Celestial Shaper" add_name="Guidance + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -681,6 +704,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19125" name="Blessed Celestial Shaper" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -710,6 +734,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19126" name="Blessed Celestial Shaper" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -739,6 +764,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19127" name="Blessed Celestial Cutter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -767,6 +793,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19128" name="Blessed Celestial Cutter" add_name="Focus + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -795,6 +822,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19129" name="Blessed Celestial Cutter" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -823,6 +851,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19130" name="Blessed Celestial Slasher" add_name="Focus + Damage Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -851,6 +880,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19131" name="Blessed Celestial Slasher" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -879,6 +909,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19132" name="Blessed Celestial Slasher" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -907,6 +938,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19133" name="Blessed Celestial Avenger" add_name="Haste + Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -935,6 +967,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19134" name="Blessed Celestial Avenger" add_name="Critical Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -963,6 +996,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19135" name="Blessed Celestial Avenger" add_name="Focus + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -991,6 +1025,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19136" name="Blessed Celestial Fighter" add_name="Focus + Damage Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1019,6 +1054,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19137" name="Blessed Celestial Fighter" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1047,6 +1083,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19138" name="Blessed Celestial Fighter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1075,6 +1112,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19139" name="Blessed Celestial Stormer" add_name="HP Drain + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1103,6 +1141,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19140" name="Blessed Celestial Stormer" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1131,6 +1170,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19141" name="Blessed Celestial Stormer" add_name="Damage + HP Drain">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1159,6 +1199,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19142" name="Blessed Celestial Thrower" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1188,6 +1229,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19143" name="Blessed Celestial Thrower" add_name="Focus + Long Blow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1217,6 +1259,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19144" name="Blessed Celestial Thrower" add_name="Long Blow + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1246,6 +1289,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19145" name="Blessed Celestial Shooter" add_name="Focus + Critical Slow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1275,6 +1319,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19146" name="Blessed Celestial Shooter" add_name="Critical Slow + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1304,6 +1349,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19147" name="Blessed Celestial Shooter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1333,6 +1379,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19148" name="Blessed Celestial Buster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1361,6 +1408,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19149" name="Blessed Celestial Buster" add_name="Magic Hold + Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1389,6 +1437,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19150" name="Blessed Celestial Buster" add_name="Mana Up + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1417,6 +1466,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19151" name="Blessed Celestial Caster" add_name="Empower + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1445,6 +1495,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19152" name="Blessed Celestial Caster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1473,6 +1524,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19153" name="Blessed Celestial Caster" add_name="Magic Hold + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1501,6 +1553,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19154" name="Blessed Celestial Retributer" add_name="MP Regeneration + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1529,6 +1582,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19155" name="Blessed Celestial Retributer" add_name="Acumen + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1557,6 +1611,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19156" name="Blessed Celestial Retributer" add_name="Empower + MP Regeneration">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1585,6 +1640,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19157" name="Blessed Celestial Dual Sword" add_name="Haste + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1613,6 +1669,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19158" name="Blessed Celestial Dual Sword" add_name="Damage + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1641,6 +1698,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19159" name="Blessed Celestial Dual Sword" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1669,6 +1727,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19160" name="Blessed Celestial Dual Dagger" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1697,6 +1756,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19161" name="Blessed Celestial Dual Dagger" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1725,6 +1785,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19162" name="Blessed Celestial Dual Dagger" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1753,6 +1814,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19163" name="Blessed Celestial Dual Blunt Weapon" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1780,6 +1842,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19164" name="Blessed Celestial Dual Blunt Weapon" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1807,6 +1870,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19165" name="Blessed Celestial Dual Blunt Weapon" add_name="Damage + Focus ">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1834,5 +1898,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

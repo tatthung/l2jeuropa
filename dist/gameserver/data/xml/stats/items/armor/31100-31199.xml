@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="31142" name="Bound Shining Circlet">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -18,6 +19,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31145" name="Bound Salamander Skin Boots">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -37,6 +39,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31146" name="Bound Salamander Skin Boots">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -73,6 +76,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31148" name="Bound Salamander Skin Mail">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -109,6 +113,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31157" name="Bound Lion Skin Gaiters">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -128,6 +133,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31173" name="Bound Bone Helmet">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -147,6 +153,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31176" name="Bound Silk Shirt">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -166,6 +173,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31197" name="Bound Blast Plate">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -185,5 +193,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

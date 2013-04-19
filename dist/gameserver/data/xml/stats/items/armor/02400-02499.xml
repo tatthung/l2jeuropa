@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="2400" name="Tallum Tunic">
 		<set name="crystal_count" value="214"/>
@@ -18,6 +19,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2401" name="Elven Mithril Stockings">
 		<set name="crystal_count" value="199"/>
@@ -37,6 +39,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2402" name="Stockings of Zubei">
 		<set name="crystal_count" value="100"/>
@@ -56,6 +59,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2403" name="Blue Wolf Stockings">
 		<set name="crystal_count" value="155"/>
@@ -75,6 +79,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2404" name="Stockings of Doom">
 		<set name="crystal_count" value="155"/>
@@ -94,6 +99,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2405" name="Tallum Stockings">
 		<set name="crystal_count" value="134"/>
@@ -113,6 +119,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2406" name="Avadon Robe">
 		<set name="crystal_count" value="259"/>
@@ -132,6 +139,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2407" name="Dark Crystal Robe">
 		<set name="crystal_count" value="347"/>
@@ -151,6 +159,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2408" name="Nightmare Robe">
 		<set name="crystal_count" value="528"/>
@@ -170,6 +179,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2409" name="Majestic Robe">
 		<set name="crystal_count" value="528"/>
@@ -189,6 +199,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2410" name="Nightmarish Tattoo">
 		<set name="crystal_count" value="422"/>
@@ -207,6 +218,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2411" name="Brigandine Helmet">
 		<set name="crystal_count" value="159"/>
@@ -225,6 +237,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2412" name="Plate Helmet">
 		<set name="crystal_count" value="208"/>
@@ -243,6 +256,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2413" name="Chain Hood">
 		<set name="crystal_count" value="58"/>
@@ -261,6 +275,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2414" name="Full Plate Helmet">
 		<set name="crystal_count" value="165"/>
@@ -279,6 +294,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2415" name="Avadon Circlet">
 		<set name="crystal_count" value="80"/>
@@ -297,6 +313,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2416" name="Blue Wolf Helmet">
 		<set name="crystal_count" value="124"/>
@@ -315,6 +332,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2417" name="Doom Helmet">
 		<set name="crystal_count" value="124"/>
@@ -333,6 +351,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2418" name="Helm of Nightmare">
 		<set name="crystal_count" value="163"/>
@@ -351,6 +370,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2419" name="Majestic Circlet">
 		<set name="crystal_count" value="163"/>
@@ -369,6 +389,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2420" name="Dragon Headgear">
 		<set name="crystal_count" value="179"/>
@@ -387,6 +408,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2421" name="The Hood">
 		<set name="crystal_count" value="179"/>
@@ -405,6 +427,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2422" name="Reinforced Leather Boots">
 		<set name="crystal_count" value="72"/>
@@ -423,6 +446,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2423" name="Boots of Knowledge">
 		<set name="crystal_count" value="72"/>
@@ -441,6 +465,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2424" name="Manticore Skin Boots">
 		<set name="crystal_count" value="106"/>
@@ -459,6 +484,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2425" name="Brigandine Boots">
 		<set name="crystal_count" value="106"/>
@@ -477,6 +503,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2426" name="Elven Mithril Boots">
 		<set name="crystal_count" value="106"/>
@@ -495,6 +522,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2427" name="Salamander Skin Boots">
 		<set name="crystal_count" value="139"/>
@@ -513,6 +541,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2428" name="Plate Boots">
 		<set name="crystal_count" value="139"/>
@@ -531,6 +560,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2429" name="Chain Boots">
 		<set name="crystal_count" value="39"/>
@@ -549,6 +579,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2430" name="Karmian Boots">
 		<set name="crystal_count" value="39"/>
@@ -567,6 +598,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2431" name="Plated Leather Boots">
 		<set name="crystal_count" value="39"/>
@@ -585,6 +617,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2432" name="Dwarven Chain Boots">
 		<set name="crystal_count" value="39"/>
@@ -603,6 +636,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2433" name="Boots of Seal">
 		<set name="crystal_count" value="39"/>
@@ -621,6 +655,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2434" name="Rind Leather Boots">
 		<set name="crystal_count" value="50"/>
@@ -639,6 +674,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2435" name="Demon's Boots">
 		<set name="crystal_count" value="76"/>
@@ -657,6 +693,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2436" name="Theca Leather Boots">
 		<set name="crystal_count" value="85"/>
@@ -675,6 +712,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2437" name="Drake Leather Boots">
 		<set name="crystal_count" value="110"/>
@@ -693,6 +731,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2438" name="Full Plate Boots">
 		<set name="crystal_count" value="110"/>
@@ -711,6 +750,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2439" name="Blue Wolf Boots">
 		<set name="crystal_count" value="83"/>
@@ -729,6 +769,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2440" name="Boots of Nightmare">
 		<set name="crystal_count" value="140"/>
@@ -747,6 +788,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2441" name="Dark Legion Boots">
 		<set name="crystal_count" value="140"/>
@@ -765,6 +807,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2442" name="Dasparion's Boots">
 		<set name="crystal_count" value="140"/>
@@ -783,6 +826,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2443" name="Dragon Leather Boots">
 		<set name="crystal_count" value="119"/>
@@ -801,6 +845,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2444" name="The Boots">
 		<set name="crystal_count" value="119"/>
@@ -819,6 +864,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2445" name="Dragon Scale Boots">
 		<set name="crystal_count" value="140"/>
@@ -837,6 +883,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2446" name="Reinforced Leather Gloves">
 		<set name="crystal_count" value="72"/>
@@ -855,6 +902,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2447" name="Gloves of Knowledge">
 		<set name="crystal_count" value="72"/>
@@ -873,6 +921,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2448" name="Manticore Skin Gloves">
 		<set name="crystal_count" value="106"/>
@@ -891,6 +940,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2449" name="Brigandine Gauntlets">
 		<set name="crystal_count" value="106"/>
@@ -909,6 +959,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2450" name="Mithril Gloves">
 		<set name="crystal_count" value="106"/>
@@ -927,6 +978,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2451" name="Sage's Worn Gloves">
 		<set name="crystal_count" value="139"/>
@@ -945,6 +997,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2452" name="Reinforced Mithril Gloves">
 		<set name="crystal_count" value="39"/>
@@ -963,6 +1016,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2453" name="Chain Gloves">
 		<set name="crystal_count" value="39"/>
@@ -981,6 +1035,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2454" name="Karmian Gloves">
 		<set name="crystal_count" value="39"/>
@@ -999,6 +1054,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2455" name="Plated Leather Gloves">
 		<set name="crystal_count" value="46"/>
@@ -1017,6 +1073,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2456" name="Dwarven Chain Gloves">
 		<set name="crystal_count" value="50"/>
@@ -1035,6 +1092,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2457" name="Gloves of Seal">
 		<set name="crystal_count" value="50"/>
@@ -1053,6 +1111,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2458" name="Rind Leather Gloves">
 		<set name="crystal_count" value="50"/>
@@ -1071,6 +1130,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2459" name="Demon's Gloves">
 		<set name="crystal_count" value="76"/>
@@ -1089,6 +1149,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2460" name="Theca Leather Gloves">
 		<set name="crystal_count" value="85"/>
@@ -1107,6 +1168,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2461" name="Drake Leather Gloves">
 		<set name="crystal_count" value="110"/>
@@ -1125,6 +1187,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2462" name="Full Plate Gauntlets">
 		<set name="crystal_count" value="110"/>
@@ -1143,6 +1206,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2463" name="Divine Gloves">
 		<set name="crystal_count" value="110"/>
@@ -1161,6 +1225,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2464" name="Avadon Gloves">
 		<set name="crystal_count" value="53"/>
@@ -1179,6 +1244,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2465" name="Chain Gloves of Silence">
 		<set name="crystal_count" value="69"/>
@@ -1197,6 +1263,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2466" name="Guardian's Gloves">
 		<set name="crystal_count" value="69"/>
@@ -1215,6 +1282,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2467" name="Gloves of Blessing">
 		<set name="crystal_count" value="69"/>
@@ -1233,6 +1301,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2468" name="Blessed Gloves">
 		<set name="crystal_count" value="143"/>
@@ -1251,6 +1320,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2469" name="Gloves of the Underworld">
 		<set name="crystal_count" value="92"/>
@@ -1269,6 +1339,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2470" name="Gloves of Phantom">
 		<set name="crystal_count" value="140"/>
@@ -1287,6 +1358,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2471" name="Dark Legion Gloves">
 		<set name="crystal_count" value="140"/>
@@ -1305,6 +1377,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2472" name="Dark Crystal Gloves">
 		<set name="crystal_count" value="92"/>
@@ -1323,6 +1396,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2473" name="The Gloves">
 		<set name="crystal_count" value="119"/>
@@ -1341,6 +1415,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2474" name="Dasparion's Gloves">
 		<set name="crystal_count" value="140"/>
@@ -1359,6 +1434,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2475" name="Doom Gloves">
 		<set name="crystal_count" value="83"/>
@@ -1377,6 +1453,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2476" name="Dragon Gauntlets">
 		<set name="crystal_count" value="130"/>
@@ -1395,6 +1472,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2477" name="Dragon Leather Gloves">
 		<set name="crystal_count" value="119"/>
@@ -1413,6 +1491,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2478" name="Tallum Gloves">
 		<set name="crystal_count" value="92"/>
@@ -1431,6 +1510,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2479" name="Gauntlets of Nightmare">
 		<set name="crystal_count" value="140"/>
@@ -1449,6 +1529,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2480" name="Elemental Gloves">
 		<set name="crystal_count" value="107"/>
@@ -1467,6 +1548,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2481" name="Gloves of Grace">
 		<set name="crystal_count" value="107"/>
@@ -1485,6 +1567,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2482" name="Majestic Gauntlets">
 		<set name="crystal_count" value="140"/>
@@ -1503,6 +1586,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2483" name="Gust Bracer">
 		<set name="crystal_count" value="92"/>
@@ -1521,6 +1605,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2484" name="Cerberus Gloves">
 		<set name="crystal_count" value="140"/>
@@ -1539,6 +1624,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2485" name="Implosion Gauntlets">
 		<set name="crystal_count" value="107"/>
@@ -1557,6 +1643,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2486" name="Paradia Gloves">
 		<set name="crystal_count" value="107"/>
@@ -1575,6 +1662,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2487" name="Blue Wolf Gloves">
 		<set name="crystal_count" value="83"/>
@@ -1593,6 +1681,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2488" name="Phoenix Gloves">
 		<set name="crystal_count" value="92"/>
@@ -1611,6 +1700,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2489" name="Gloves of Black Ore">
 		<set name="crystal_count" value="92"/>
@@ -1629,6 +1719,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="2490" name="Cloak of Silence">
 		<set name="crystal_type" value="NONE"/>
@@ -1679,5 +1770,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

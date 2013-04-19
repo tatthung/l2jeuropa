@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="30000" name="Blessed Requiem Thrower" add_name="Long Blow + Damage Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -30,6 +29,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30001" name="Blessed Requiem Shooter" add_name="Focus + Critical Slow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -59,6 +59,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30002" name="Blessed Requiem Shooter" add_name="Critical Slow + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -88,6 +89,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30003" name="Blessed Requiem Shooter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -117,6 +119,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30004" name="Blessed Requiem Buster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -145,6 +148,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30005" name="Blessed Requiem Buster" add_name="Magic Hold + Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -173,6 +177,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30006" name="Blessed Requiem Buster" add_name="Mana Up + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -201,6 +206,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30007" name="Blessed Requiem Caster" add_name="Empower + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -229,6 +235,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30008" name="Blessed Requiem Caster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -257,6 +264,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30009" name="Blessed Requiem Caster" add_name="Magic Hold + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -285,6 +293,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30010" name="Blessed Requiem Retributer" add_name="MP Regeneration + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -314,6 +323,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30011" name="Blessed Requiem Retributer" add_name="Acumen + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -343,6 +353,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30012" name="Blessed Requiem Retributer" add_name="Empower + MP Regeneration">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -372,6 +383,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30013" name="Blessed Requiem Dual Sword" add_name="Haste + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -400,6 +412,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30014" name="Blessed Requiem Dual Sword" add_name="Damage + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -428,6 +441,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30015" name="Blessed Requiem Dual Sword" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -456,6 +470,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30016" name="Blessed Requiem Dual Dagger" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -484,6 +499,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30017" name="Blessed Requiem Dual Dagger" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -512,6 +528,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30018" name="Blessed Requiem Dual Dagger" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -540,6 +557,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30019" name="Blessed Requiem Dual Blunt Weapon" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -567,6 +585,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30020" name="Blessed Requiem Dual Blunt Weapon" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -594,6 +613,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30021" name="Blessed Requiem Dual Blunt Weapon" add_name="Damage + Focus ">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -621,6 +641,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30022" name="Apocalypse Shaper" add_name="Guidance + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -649,6 +670,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30023" name="Apocalypse Shaper" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -677,6 +699,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30024" name="Apocalypse Shaper" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -705,6 +728,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30025" name="Apocalypse Cutter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -732,6 +756,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30026" name="Apocalypse Cutter" add_name="Focus + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -759,6 +784,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30027" name="Apocalypse Cutter" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -786,6 +812,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30028" name="Apocalypse Slasher" add_name="Focus + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -812,6 +839,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30029" name="Apocalypse Slasher" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -839,6 +867,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30030" name="Apocalypse Slasher" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -866,6 +895,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30031" name="Apocalypse Avenger" add_name="Haste + Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -893,6 +923,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30032" name="Apocalypse Avenger" add_name="Critical Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -920,6 +951,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30033" name="Apocalypse Avenger" add_name="Focus + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -947,6 +979,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30034" name="Apocalypse Fighter" add_name="Focus + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -974,6 +1007,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30035" name="Apocalypse Fighter" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1001,6 +1035,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30036" name="Apocalypse Fighter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1028,6 +1063,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30037" name="Apocalypse Stormer" add_name="HP Drain + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1054,6 +1090,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30038" name="Apocalypse Stormer" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1081,6 +1118,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30039" name="Apocalypse Stormer" add_name="Damage + HP Drain">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1108,6 +1146,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30040" name="Apocalypse Thrower" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1136,6 +1175,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30041" name="Apocalypse Thrower" add_name="Focus + Long Blow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1163,6 +1203,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30042" name="Apocalypse Thrower" add_name="Long Blow + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1191,6 +1232,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30043" name="Apocalypse Shooter" add_name="Focus + Critical Slow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1219,6 +1261,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30044" name="Apocalypse Shooter" add_name="Critical Slow + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1247,6 +1290,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30045" name="Apocalypse Shooter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1275,6 +1319,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30046" name="Apocalypse Buster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1301,6 +1346,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30047" name="Apocalypse Buster" add_name="Magic Hold + Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1327,6 +1373,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30048" name="Apocalypse Buster" add_name="Mana Up + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1354,6 +1401,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30049" name="Apocalypse Caster" add_name="Empower + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1381,6 +1429,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30050" name="Apocalypse Caster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1407,6 +1456,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30051" name="Apocalypse Caster" add_name="Magic Hold + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1433,6 +1483,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30052" name="Apocalypse Retributer" add_name="MP Regeneration + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1459,6 +1510,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30053" name="Apocalypse Retributer" add_name="Acumen + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1486,6 +1538,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30054" name="Apocalypse Retributer" add_name="Empower + MP Regeneration">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1512,6 +1565,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30055" name="Apocalypse Dual sword" add_name="Haste + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1538,6 +1592,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30056" name="Apocalypse Dual sword" add_name="Damage + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1565,6 +1620,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30057" name="Apocalypse Dual sword" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1592,6 +1648,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30058" name="Apocalypse Dual Dagger" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1619,6 +1676,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30059" name="Apocalypse Dual Dagger" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1646,6 +1704,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30060" name="Apocalypse Dual Dagger" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1673,6 +1732,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30061" name="Apocalypse Dual Blunt Weapon" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1699,6 +1759,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30062" name="Apocalypse Dual Blunt Weapon" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1725,6 +1786,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30063" name="Apocalypse Dual Blunt Weapon" add_name="Damage + Focus ">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1751,6 +1813,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30064" name="Blessed Apocalypse Shaper" add_name="Guidance + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1779,6 +1842,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30065" name="Blessed Apocalypse Shaper" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1807,6 +1871,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30066" name="Blessed Apocalypse Shaper" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1835,6 +1900,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30067" name="Blessed Apocalypse Cutter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1862,6 +1928,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30068" name="Blessed Apocalypse Cutter" add_name="Focus + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1889,6 +1956,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30069" name="Blessed Apocalypse Cutter" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1916,6 +1984,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30070" name="Blessed Apocalypse Slasher" add_name="Focus + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1943,6 +2012,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30071" name="Blessed Apocalypse Slasher" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1970,6 +2040,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30072" name="Blessed Apocalypse Slasher" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1997,6 +2068,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30073" name="Blessed Apocalypse Avenger" add_name="Haste + Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2024,6 +2096,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30074" name="Blessed Apocalypse Avenger" add_name="Critical Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2051,6 +2124,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30075" name="Blessed Apocalypse Avenger" add_name="Focus + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2078,6 +2152,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30076" name="Blessed Apocalypse Fighter" add_name="Focus + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2105,6 +2180,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30077" name="Blessed Apocalypse Fighter" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2132,6 +2208,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30078" name="Blessed Apocalypse Fighter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2159,6 +2236,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30079" name="Blessed Apocalypse Stormer" add_name="HP Drain + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2185,6 +2263,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30080" name="Blessed Apocalypse Stormer" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2212,6 +2291,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30081" name="Blessed Apocalypse Stormer" add_name="Damage + HP Drain">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2239,6 +2319,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30082" name="Blessed Apocalypse Thrower" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2267,6 +2348,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30083" name="Blessed Apocalypse Thrower" add_name="Focus + Long Blow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2294,6 +2376,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30084" name="Blessed Apocalypse Thrower" add_name="Long Blow + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2322,6 +2405,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30085" name="Blessed Apocalypse Shooter" add_name="Focus + Critical Slow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2350,6 +2434,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30086" name="Blessed Apocalypse Shooter" add_name="Critical Slow + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2378,6 +2463,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30087" name="Blessed Apocalypse Shooter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2406,6 +2492,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30088" name="Blessed Apocalypse Buster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2432,6 +2519,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30089" name="Blessed Apocalypse Buster" add_name="Magic Hold + Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2458,6 +2546,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30090" name="Blessed Apocalypse Buster" add_name="Mana Up + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2485,6 +2574,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30091" name="Blessed Apocalypse Caster" add_name="Empower + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2512,6 +2602,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30092" name="Blessed Apocalypse Caster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2538,6 +2629,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30093" name="Blessed Apocalypse Caster" add_name="Magic Hold + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2564,6 +2656,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30094" name="Blessed Apocalypse Retributer" add_name="MP Regeneration + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2590,6 +2683,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30095" name="Blessed Apocalypse Retributer" add_name="Acumen + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2617,6 +2711,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30096" name="Blessed Apocalypse Retributer" add_name="Empower + MP Regeneration">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2643,6 +2738,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30097" name="Blessed Apocalypse Dual Sword" add_name="Haste + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2670,6 +2766,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30098" name="Blessed Apocalypse Dual Sword" add_name="Damage + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2697,6 +2794,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30099" name="Blessed Apocalypse Dual Sword" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2724,5 +2822,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

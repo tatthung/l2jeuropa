@@ -18,6 +18,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="22283" name="Жезл Трансформации в Трежера" add_name="7 дней (ивент)">
 		<!--Done by ALF-->
@@ -36,5 +37,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

@@ -21,6 +21,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16290" name="Moirai Leather Helmet">
 		<set name="crystal_count" value="606"/>
@@ -42,6 +43,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16291" name="Moirai Circlet">
 		<set name="crystal_count" value="606"/>
@@ -63,6 +65,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16292" name="Moirai Breastplate">
 		<set name="crystal_count" value="1616"/>
@@ -84,6 +87,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16293" name="Moirai Leather Breastplate">
 		<set name="crystal_count" value="1212"/>
@@ -105,6 +109,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16294" name="Moirai Tunic">
 		<set name="crystal_count" value="1212"/>
@@ -127,6 +132,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16295" name="Moirai Gaiter">
 		<set name="crystal_count" value="1010"/>
@@ -148,6 +154,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16296" name="Moirai Leather Legging">
 		<set name="crystal_count" value="758"/>
@@ -169,6 +176,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16297" name="Moirai Stockings">
 		<set name="crystal_count" value="758"/>
@@ -191,6 +199,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16298" name="Moirai Gauntlet">
 		<set name="crystal_count" value="404"/>
@@ -212,6 +221,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="16299" name="Moirai Leather Gloves">
 		<set name="crystal_count" value="404"/>
@@ -233,5 +243,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

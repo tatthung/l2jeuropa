@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="30100" name="Blessed Apocalypse Dual Dagger" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -28,6 +27,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30101" name="Blessed Apocalypse Dual Dagger" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -55,6 +55,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30102" name="Blessed Apocalypse Dual Dagger" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -82,6 +83,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30103" name="Blessed Apocalypse Dual Blunt Weapon" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -108,6 +110,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30104" name="Blessed Apocalypse Dual Blunt Weapon" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -134,6 +137,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30105" name="Blessed Apocalypse Dual Blunt Weapon" add_name="Damage + Focus ">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -160,6 +164,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30106" name="Specter Shaper" add_name="Guidance + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -189,6 +194,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30107" name="Specter Shaper" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -218,6 +224,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30108" name="Specter Shaper" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -247,6 +254,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30109" name="Specter Cutter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -274,6 +282,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30110" name="Specter Cutter" add_name="Focus + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -301,6 +310,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30111" name="Specter Cutter" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -328,6 +338,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30112" name="Specter Slasher" add_name="Focus + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -355,6 +366,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30113" name="Specter Slasher" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -382,6 +394,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30114" name="Specter Slasher" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -409,6 +422,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30115" name="Specter Avenger" add_name="Haste + Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -436,6 +450,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30116" name="Specter Avenger" add_name="Critical Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -463,6 +478,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30117" name="Specter Avenger" add_name="Focus + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -490,6 +506,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30118" name="Specter Fighter" add_name="Focus + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -517,6 +534,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30119" name="Specter Fighter" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -544,6 +562,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30120" name="Specter Fighter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -571,6 +590,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30121" name="Specter Stormer" add_name="HP Drain + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -597,6 +617,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30122" name="Specter Stormer" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -624,6 +645,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30123" name="Specter Stormer" add_name="Damage + HP Drain">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -651,6 +673,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30124" name="Specter Thrower" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -678,6 +701,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30125" name="Specter Thrower" add_name="Focus + Long Blow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -705,6 +729,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30126" name="Specter Thrower" add_name="Long Blow + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -729,6 +754,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30127" name="Specter Shooter" add_name="Focus + Critical Slow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -757,6 +783,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30128" name="Specter Shooter" add_name="Critical Slow + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -785,6 +812,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30129" name="Specter Shooter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -813,6 +841,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30130" name="Specter Buster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -839,6 +868,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30131" name="Specter Buster" add_name="Magic Hold + Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -865,6 +895,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30132" name="Specter Buster" add_name="Mana Up + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -892,6 +923,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30133" name="Specter Caster" add_name="Empower + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -919,6 +951,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30134" name="Specter Caster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -945,6 +978,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30135" name="Specter Caster" add_name="Magic Hold + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -971,6 +1005,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30136" name="Specter Retributer" add_name="MP Regeneration + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -997,6 +1032,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30137" name="Specter Retributer" add_name="Acumen + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1024,6 +1060,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30138" name="Specter Retributer" add_name="Empower + MP Regeneration">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1050,6 +1087,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30139" name="Specter Dual Sword" add_name="Haste + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1076,6 +1114,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30140" name="Specter Dual Sword" add_name="Damage + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1102,6 +1141,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30141" name="Specter Dual Sword" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1129,6 +1169,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30142" name="Specter Dual Dagger" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1156,6 +1197,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30143" name="Specter Dual Dagger" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1183,6 +1225,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30144" name="Specter Dual Dagger" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1210,6 +1253,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30145" name="Specter Dual Blunt Weapon" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1236,6 +1280,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30146" name="Specter Dual Blunt Weapon" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1262,6 +1307,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30147" name="Specter Dual Blunt Weapon" add_name="Damage + Focus ">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1287,6 +1333,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30148" name="Blessed Specter Shaper" add_name="Guidance + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1316,6 +1363,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30149" name="Blessed Specter Shaper" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1344,6 +1392,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30150" name="Blessed Specter Shaper" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1372,6 +1421,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30151" name="Blessed Specter Cutter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1399,6 +1449,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30152" name="Blessed Specter Cutter" add_name="Focus + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1426,6 +1477,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30153" name="Blessed Specter Cutter" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1453,6 +1505,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30154" name="Blessed Specter Slasher" add_name="Focus + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1480,6 +1533,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30155" name="Blessed Specter Slasher" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1507,6 +1561,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30156" name="Blessed Specter Slasher" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1534,6 +1589,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30157" name="Blessed Specter Avenger" add_name="Haste + Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1561,6 +1617,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30158" name="Blessed Specter Avenger" add_name="Critical Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1588,6 +1645,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30159" name="Blessed Specter Avenger" add_name="Focus + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1615,6 +1673,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30160" name="Blessed Specter Fighter" add_name="Focus + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1642,6 +1701,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30161" name="Blessed Specter Fighter" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1669,6 +1729,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30162" name="Blessed Specter Fighter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1696,6 +1757,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30163" name="Blessed Specter Stormer" add_name="HP Drain + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1722,6 +1784,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30164" name="Blessed Specter Stormer" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1749,6 +1812,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30165" name="Blessed Specter Stormer" add_name="Damage + HP Drain">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1776,6 +1840,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30166" name="Blessed Specter Thrower" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1804,6 +1869,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30167" name="Blessed Specter Thrower" add_name="Focus + Long Blow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1831,6 +1897,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30168" name="Blessed Specter Thrower" add_name="Long Blow + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1859,6 +1926,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30169" name="Blessed Specter Shooter" add_name="Focus + Critical Slow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1887,6 +1955,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30170" name="Blessed Specter Shooter" add_name="Critical Slow + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1915,6 +1984,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30171" name="Blessed Specter Shooter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1943,6 +2013,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30172" name="Blessed Specter Buster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1969,6 +2040,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30173" name="Blessed Specter Buster" add_name="Magic Hold + Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1995,6 +2067,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30174" name="Blessed Specter Buster" add_name="Mana Up + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2022,6 +2095,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30175" name="Blessed Specter Caster" add_name="Empower + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2049,6 +2123,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30176" name="Blessed Specter Caster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2075,6 +2150,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30177" name="Blessed Specter Caster" add_name="Magic Hold + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2101,6 +2177,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30178" name="Blessed Specter Retributer" add_name="MP Regeneration + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2127,6 +2204,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30179" name="Blessed Specter Retributer" add_name="Acumen + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2154,6 +2232,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30180" name="Blessed Specter Retributer" add_name="Empower + MP Regeneration">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2180,6 +2259,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30181" name="Blessed Specter Dual Sword" add_name="Haste + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2207,6 +2287,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30182" name="Blessed Specter Dual Sword" add_name="Damage + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2234,6 +2315,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30183" name="Blessed Specter Dual Sword" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2261,6 +2343,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30184" name="Blessed Specter Dual Dagger" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2288,6 +2371,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30185" name="Blessed Specter Dual Dagger" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2315,6 +2399,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30186" name="Blessed Specter Dual Dagger" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2342,6 +2427,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30187" name="Blessed Specter Dual Blunt Weapon" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2368,6 +2454,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30188" name="Blessed Specter Dual Blunt Weapon" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2394,6 +2481,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30189" name="Blessed Specter Dual Blunt Weapon" add_name="Damage + Focus ">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2420,6 +2508,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30190" name="Amaranthine Shaper" add_name="Guidance + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2449,6 +2538,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30191" name="Amaranthine Shaper" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2478,6 +2568,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30192" name="Amaranthine Shaper" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2507,6 +2598,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30193" name="Amaranthine Cutter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2535,6 +2627,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30194" name="Amaranthine Cutter" add_name="Focus + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2563,6 +2656,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30195" name="Amaranthine Cutter" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2591,6 +2685,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30196" name="Amaranthine Slasher" add_name="Focus + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2619,6 +2714,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30197" name="Amaranthine Slasher" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2647,6 +2743,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30198" name="Amaranthine Slasher" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2675,6 +2772,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30199" name="Amaranthine Avenger" add_name="Haste + Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2703,5 +2801,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

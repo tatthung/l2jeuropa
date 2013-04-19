@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="17831" name="Bound Requiem Shaper">
 		<!--Done By Darvin (c)Java /Updated by Maleiva2013 - Team 2012-->
@@ -385,11 +384,12 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="5"/>
 		<for>
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17865" name="Bound Apocalypse Shaper">
 		<!--Done By Darvin (c)Java /Updated by Maleiva2013 - Team 2012-->
@@ -768,11 +768,12 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="12"/>
 		<for>
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17899" name="Bound Specter Shaper">
 		<!--Done By Darvin (c)Java /Updated by Maleiva2013 - Team 2012-->

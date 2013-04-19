@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="17290" name="Requiem Shaper">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -14,7 +13,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="599"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -26,6 +25,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17291" name="Requiem Cutter">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -50,6 +50,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17292" name="Requiem Slasher">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -63,7 +64,7 @@
 		<set name="type" value="BIGSWORD"/>
 		<set name="ex_type" value="BIG_SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="499"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -74,6 +75,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17293" name="Requiem Avenger">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -86,7 +88,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="599"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13253" level="3"/>
@@ -98,6 +100,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17294" name="Requiem Fighter">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -122,6 +125,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17295" name="Requiem Stormer">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -134,7 +138,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="599"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13263" level="3"/>
@@ -146,6 +150,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17296" name="Requiem Thrower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -158,7 +163,7 @@
 		<set name="type" value="BOW"/>
 		<set name="ex_type" value="BOW"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="599"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13289" level="3"/>
@@ -171,6 +176,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17297" name="Requiem Shooter">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -183,7 +189,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="599"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13294" level="3"/>
@@ -196,6 +202,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17298" name="Requiem Buster">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -209,7 +216,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="599"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13295" level="3"/>
@@ -221,6 +228,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="17299" name="Requiem Caster">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -233,7 +241,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="599"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13296" level="3"/>
@@ -245,5 +253,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

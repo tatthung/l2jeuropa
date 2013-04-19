@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="13137" name="Vesper Helmet">
 		<set name="crystal_count" value="840"/>
@@ -17,6 +18,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13138" name="Vesper Leather Helmet">
 		<set name="crystal_count" value="840"/>
@@ -35,6 +37,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13139" name="Vesper Circlet">
 		<set name="crystal_count" value="840"/>
@@ -53,6 +56,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13140" name="Vesper Noble Helmet">
 		<set name="crystal_count" value="840"/>
@@ -71,6 +75,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13141" name="Vesper Noble Leather Helmet">
 		<set name="crystal_count" value="840"/>
@@ -89,6 +94,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13142" name="Vesper Noble Circlet">
 		<set name="crystal_count" value="840"/>
@@ -107,6 +113,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13143" name="Sealed Vesper Helmet">
 		<set name="crystal_count" value="840"/>
@@ -125,6 +132,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13144" name="Sealed Vesper Leather Helmet">
 		<set name="crystal_count" value="840"/>
@@ -143,6 +151,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13145" name="Sealed Vesper Circlet">
 		<set name="crystal_count" value="840"/>
@@ -161,6 +170,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13146" name="Sealed Vesper Noble Helmet">
 		<set name="crystal_count" value="840"/>
@@ -179,6 +189,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13147" name="Sealed Vesper Noble Leather Helmet">
 		<set name="crystal_count" value="840"/>
@@ -197,6 +208,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13148" name="Sealed Vesper Noble Circlet">
 		<set name="crystal_count" value="840"/>
@@ -215,5 +227,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

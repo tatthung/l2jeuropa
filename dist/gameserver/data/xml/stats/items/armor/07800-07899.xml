@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="7836" name="Santa's Hat">
 		<set name="crystal_type" value="NONE"/>
@@ -185,6 +186,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="7851" name="Clan Oath Armor">
 		<set name="crystal_count" value="469"/>
@@ -203,6 +205,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="7852" name="Clan Oath Gauntlets" add_name="Heavy Armor">
 		<set name="crystal_count" value="72"/>
@@ -221,6 +224,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="7853" name="Clan Oath Sabaton" add_name="Heavy Armor">
 		<set name="crystal_count" value="72"/>
@@ -239,6 +243,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="7854" name="Clan Oath Brigandine">
 		<set name="crystal_count" value="352"/>
@@ -257,6 +262,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="7855" name="Clan Oath Leather Gloves" add_name="Light Armor">
 		<set name="crystal_count" value="72"/>
@@ -275,6 +281,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="7856" name="Clan Oath Boots" add_name="Light Armor">
 		<set name="crystal_count" value="72"/>
@@ -293,6 +300,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="7857" name="Clan Oath Aketon">
 		<set name="crystal_count" value="352"/>
@@ -312,6 +320,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="7858" name="Clan Oath Padded Gloves" add_name="Robe">
 		<set name="crystal_count" value="72"/>
@@ -330,6 +339,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="7859" name="Clan Oath Sandals" add_name="Robe">
 		<set name="crystal_count" value="72"/>
@@ -348,6 +358,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="7860" name="Apella Helm">
 		<set name="crystal_type" value="A"/>

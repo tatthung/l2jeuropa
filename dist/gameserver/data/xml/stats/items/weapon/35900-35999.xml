@@ -19,5 +19,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

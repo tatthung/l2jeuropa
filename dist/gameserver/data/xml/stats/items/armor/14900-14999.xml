@@ -21,6 +21,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14923" name="Ordinary Magic Rune Clip Iron Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -42,6 +43,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14924" name="High-grade Magic Rune Clip Iron Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -63,6 +65,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14925" name="Top-grade Magic Rune Clip Iron Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -84,6 +87,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14926" name="Low-grade Magic Rune Clip Mithril Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -105,6 +109,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14927" name="Ordinary Magic Rune Clip Mithril Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -126,6 +131,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14928" name="High-grade Magic Rune Clip Mithril Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -147,6 +153,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14929" name="Top-grade Magic Rune Clip Mithril Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -168,6 +175,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14930" name="Low-grade Magic Rune Clip Iron Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -189,6 +197,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14931" name="Ordinary Magic Rune Clip Iron Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -210,6 +219,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14932" name="High-grade Magic Rune Clip Iron Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -231,6 +241,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14933" name="Top-grade Magic Rune Clip Iron Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -252,6 +263,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14934" name="Low-grade Magic Rune Clip Mithril Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -273,6 +285,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14935" name="Ordinary Magic Rune Clip Mithril Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -294,6 +307,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14936" name="High-grade Magic Rune Clip Mithril Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -315,6 +329,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14937" name="Top-grade Magic Rune Clip Mithril Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -336,6 +351,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14938" name="Low-grade Magic Ornament Iron Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="30"/>
@@ -357,6 +373,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14939" name="Regular Magic Ornament Iron Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="30"/>
@@ -378,6 +395,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14940" name="High-grade Magic Ornament Iron Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="30"/>
@@ -399,6 +417,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14941" name="Top-grade Magic Ornament Iron Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="30"/>
@@ -420,6 +439,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14942" name="Low-grade Magic Ornament Iron Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="30"/>
@@ -441,6 +461,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14943" name="Regular Magic Ornament Iron Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="30"/>
@@ -462,6 +483,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14944" name="High-grade Magic Ornament Iron Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="30"/>
@@ -483,6 +505,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14945" name="Top-grade Magic Ornament Iron Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="30"/>
@@ -504,6 +527,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14946" name="Low-grade Magic Ornament Iron Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="30"/>
@@ -525,6 +549,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14947" name="Regular Magic Ornament Iron Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="30"/>
@@ -546,6 +571,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14948" name="High-grade Magic Ornament Iron Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="30"/>
@@ -567,6 +593,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14949" name="Top-grade Magic Ornament Iron Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="30"/>
@@ -588,6 +615,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14950" name="Low-grade Magic Ornament Mithril Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="92"/>
@@ -609,6 +637,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14951" name="Regular Magic Ornament Mithril Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="92"/>
@@ -630,6 +659,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14952" name="High-grade Magic Ornament Mithril Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="92"/>
@@ -651,6 +681,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14953" name="Top-grade Magic Ornament Mithril Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="92"/>
@@ -672,6 +703,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14954" name="Low-grade Magic Ornament Mithril Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="92"/>
@@ -693,6 +725,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14955" name="Regular Magic Ornament Mithril Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="92"/>
@@ -714,6 +747,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14956" name="High-grade Magic Ornament Mithril Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="92"/>
@@ -735,6 +769,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14957" name="Top-grade Magic Ornament Mithril Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="92"/>
@@ -756,6 +791,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14958" name="Low-grade Magic Ornament Mithril Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="92"/>
@@ -777,6 +813,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14959" name="Regular Magic Ornament Mithril Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="92"/>
@@ -798,6 +835,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14960" name="High-grade Magic Ornament Mithril Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="92"/>
@@ -819,6 +857,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14961" name="Top-grade Magic Ornament Mithril Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="92"/>
@@ -840,6 +879,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14962" name="Gold Skeleton Circlet">
 		<set name="crystal_type" value="NONE"/>

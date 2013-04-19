@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="30507" name="Bound Compound Scale Mail">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -18,6 +19,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30508" name="Bound Compound Scale Gaiters">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -37,6 +39,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30509" name="Bound Half Plate">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -56,6 +59,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30510" name="Bound Half Plate">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -94,6 +98,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30524" name="Bound Phoenix Ring">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -115,6 +120,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30525" name="Bound Phoenix Necklace">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -135,6 +141,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30530" name="Bound Plated Gaiters">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -154,6 +161,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30531" name="Bound Plated Gaiters">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -190,6 +198,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30533" name="Bound Plated Helmet">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -226,6 +235,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30537" name="Bound Plated Boots">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -262,6 +272,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30539" name="Bound Plated Leather Boots">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -281,6 +292,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30540" name="Bound Plated Leather Gloves">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -300,6 +312,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30541" name="Bound Plated Leather Gaiters">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -319,6 +332,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30546" name="Bound Puma Skin Shirt">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -338,6 +352,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30547" name="Bound Puma Skin Gaiters">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -357,6 +372,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30548" name="Bound Full Plate Helmet">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -376,6 +392,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30549" name="Bound Full Plate Armor">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -395,6 +412,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30551" name="Bound Full Plate Boots">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -414,6 +432,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30552" name="Bound Full Plate Gauntlet">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -433,6 +452,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30553" name="Bound Blue Buckskin Boots">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -452,6 +472,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30554" name="Bound Blue Wolf Breastplate">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -471,6 +492,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30555" name="Bound Blue Wolf Stockings">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -490,6 +512,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30556" name="Bound Blue Wolf Helmet">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -509,6 +532,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30557" name="Bound Blue Wolf Tunic">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -528,6 +552,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30558" name="Bound Blue Wolf Gloves" add_name="Heavy">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -547,6 +572,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30559" name="Bound Blue Wolf Gloves" add_name="Tans Armor Use">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -566,6 +592,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30560" name="Bound Blue Wolf Gloves" add_name="Robe">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -585,6 +612,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30561" name="Bound Blue Wolf Boots" add_name="Heavy">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -604,6 +632,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30562" name="Bound Blue Wolf Boots" add_name="Tans Armor Use">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -623,6 +652,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30563" name="Bound Blue Wolf Boots" add_name="Robe">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -642,6 +672,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30564" name="Bound Blue Wolf Leather Armor">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -661,6 +692,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="30565" name="Bound Blue Wolf Gaiters">		<!--Done By Darvin (c)Java-Team/updated by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -680,5 +712,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

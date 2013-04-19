@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="32817" name="Sword Breaker of Destiny (Fire)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1203,6 +1202,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32890" name="Elven Long Sword of Destiny (Fire)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1226,6 +1226,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32891" name="Grand Epee of Destiny (Fire)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1249,6 +1250,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32892" name="Claymore of Destiny (Fire)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1272,6 +1274,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32893" name="General's Katzbalger of Destiny (Fire)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1295,6 +1298,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32894" name="Light Crossbow of Destiny (Fire)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1320,6 +1324,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32895" name="Cranequin of Destiny (Fire)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1344,6 +1349,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32896" name="Bonebreaker of Destiny (Fire)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1367,6 +1373,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32897" name="Staff of Life of Destiny (Fire)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1390,6 +1397,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32898" name="Atuba Hammer of Destiny (Fire)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1413,6 +1421,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32899" name="Glaive of Destiny (Fire)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1436,5 +1445,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

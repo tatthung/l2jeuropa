@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="31500" name="Bound Nirvana Axe" add_name="Magic Poison">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -26,6 +25,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31501" name="Bound Nirvana Axe" add_name="Magic Weakness">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -51,6 +51,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31502" name="Bound Shilen Knife">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -77,6 +78,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31503" name="Bound Knight's Sword*Sword of Revolution">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -102,6 +104,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31504" name="Bound Knight's Sword*Crimson Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -127,6 +130,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31505" name="Bound Knight's Sword*Elven Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -152,6 +156,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31506" name="Bound Knight's Sword*Elven Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -174,6 +179,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31507" name="Bound Knight's Sword*Elven Long Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -199,6 +205,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31508" name="Bound Knight's Sword*Knight's Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -224,6 +231,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31509" name="Bound Knight's Shield">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -241,6 +249,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31510" name="Bound Knight's Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -266,6 +275,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31512" name="Bound Mace of Prayer">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -291,6 +301,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31513" name="Bound Glaive">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -316,6 +327,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31514" name="Bound Sword of Limit">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -341,6 +353,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31515" name="Bound Sword of Limit" add_name="Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -369,6 +382,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31516" name="Bound Sword of Limit" add_name="Critical Drain">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -394,6 +408,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31517" name="Bound Sword of Limit" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -422,6 +437,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31518" name="Bound Lacerator">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -447,6 +463,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31519" name="Bound Lacerator" add_name="Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -475,6 +492,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31520" name="Bound Lacerator" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -503,6 +521,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31521" name="Bound Lacerator" add_name="Rsk. Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -528,6 +547,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31522" name="Bound Great Pata">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -553,6 +573,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31523" name="Bound Great Pata" add_name="Critical Drain">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -578,6 +599,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31524" name="Bound Great Pata" add_name="Critical Poison">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -603,6 +625,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31525" name="Bound Great Pata" add_name="Rsk. Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -628,6 +651,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31527" name="Bound Great Axe">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -653,6 +677,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31528" name="Bound Great Axe" add_name="Anger">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -678,6 +703,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31529" name="Bound Great Axe" add_name="Critical Stun">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -703,6 +729,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31530" name="Bound Great Axe" add_name="Light">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -728,6 +755,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31531" name="Bound Great Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -753,6 +781,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31532" name="Bound Great Sword" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -781,6 +810,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31533" name="Bound Great Sword" add_name="Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -809,6 +839,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31534" name="Bound Great Sword" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -837,6 +868,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31535" name="Bound Grace Dagger">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -863,6 +895,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31536" name="Bound Grace Dagger" add_name="Evasion">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -889,6 +922,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31537" name="Bound Grace Dagger" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -918,6 +952,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31538" name="Bound Grace Dagger" add_name="Back Blow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -944,6 +979,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31539" name="Bound Grand Epee">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -969,6 +1005,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31540" name="Bound Gram">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -994,6 +1031,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31541" name="Bound Gram" add_name="Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1022,6 +1060,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31542" name="Bound Gram" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1050,6 +1089,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31543" name="Bound Gram" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1078,6 +1118,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31544" name="Bound Stick of Eternity">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1103,6 +1144,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31545" name="Bound Stick of Eternity" add_name="Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1131,6 +1173,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31546" name="Bound Stick of Eternity" add_name="Rsk. Evasion">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1156,6 +1199,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31547" name="Bound Stick of Eternity" add_name="Blessed Body">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1181,6 +1225,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31548" name="Bound Ghoul's Staff">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1206,6 +1251,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31549" name="Bound Ghoul's Staff" add_name="Rsk. Evasion">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1231,6 +1277,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31550" name="Bound Ghoul's Staff" add_name="Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1259,6 +1306,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31551" name="Bound Ghoul's Staff" add_name="Blessed Body">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1284,6 +1332,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31552" name="Bound Noble Elven Bow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1311,6 +1360,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31553" name="Bound Noble Elven Bow" add_name="Evasion">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1338,6 +1388,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31554" name="Bound Noble Elven Bow" add_name="Miser">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1365,6 +1416,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31555" name="Bound Noble Elven Bow" add_name="Cheap Shot">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1392,6 +1444,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31559" name="Bound Reinforced Long Bow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1419,6 +1472,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31560" name="Bound Reinforced Bow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1446,6 +1500,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31569" name="Bound Steel Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1471,6 +1526,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31574" name="Bound Gastraphetes">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1498,6 +1554,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31575" name="Bound Guardian Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1523,6 +1580,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31576" name="Bound Guardian Sword" add_name="Critical Drain">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1548,6 +1606,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31577" name="Bound Guardian Sword" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1576,6 +1635,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="31578" name="Bound Guardian Sword" add_name="Critical Bleed">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1601,5 +1661,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

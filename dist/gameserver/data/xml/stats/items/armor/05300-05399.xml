@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="5300" name="Sealed Boots of the Underworld">
 		<set name="crystal_count" value="92"/>
@@ -17,6 +18,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5301" name="Sealed Tallum Leather Armor">
 		<set name="crystal_count" value="347"/>
@@ -35,6 +37,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5302" name="Sealed Gust Bracer">
 		<set name="crystal_count" value="92"/>
@@ -53,6 +56,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5303" name="Sealed Gust Boots">
 		<set name="crystal_count" value="92"/>
@@ -71,6 +75,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5304" name="Sealed Tallum Tunic">
 		<set name="crystal_count" value="214"/>
@@ -90,6 +95,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5305" name="Sealed Tallum Stockings">
 		<set name="crystal_count" value="134"/>
@@ -109,6 +115,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5306" name="Sealed Gloves of Black Ore">
 		<set name="crystal_count" value="92"/>
@@ -127,6 +134,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5307" name="Sealed Red Flame Boots">
 		<set name="crystal_count" value="92"/>
@@ -145,6 +153,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5308" name="Sealed Dark Crystal Robe">
 		<set name="crystal_count" value="347"/>
@@ -164,6 +173,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5309" name="Sealed Phoenix Gloves">
 		<set name="crystal_count" value="92"/>
@@ -182,6 +192,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5310" name="Sealed Phoenix Boots">
 		<set name="crystal_count" value="92"/>
@@ -200,6 +211,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5311" name="Sealed Armor of Nightmare">
 		<set name="crystal_count" value="704"/>
@@ -218,6 +230,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5312" name="Sealed Helm of Nightmare">
 		<set name="crystal_count" value="163"/>
@@ -236,6 +249,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5313" name="Sealed Gauntlets of Nightmare">
 		<set name="crystal_count" value="108"/>
@@ -254,6 +268,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5314" name="Sealed Boots of Nightmare">
 		<set name="crystal_count" value="108"/>
@@ -272,6 +287,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5316" name="Sealed Majestic Plate Armor">
 		<set name="crystal_count" value="704"/>
@@ -290,6 +306,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5317" name="Sealed Majestic Circlet">
 		<set name="crystal_count" value="163"/>
@@ -308,6 +325,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5318" name="Sealed Majestic Gauntlets">
 		<set name="crystal_count" value="108"/>
@@ -326,6 +344,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5319" name="Sealed Majestic Boots">
 		<set name="crystal_count" value="108"/>
@@ -344,6 +363,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5320" name="Sealed Leather Armor of Nightmare">
 		<set name="crystal_count" value="528"/>
@@ -362,6 +382,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5321" name="Sealed Dark Legion Gloves">
 		<set name="crystal_count" value="140"/>
@@ -380,6 +401,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5322" name="Sealed Dark Legion Boots">
 		<set name="crystal_count" value="140"/>
@@ -398,6 +420,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5323" name="Sealed Majestic Leather Armor">
 		<set name="crystal_count" value="528"/>
@@ -416,6 +439,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5324" name="Sealed Gloves of Phantom">
 		<set name="crystal_count" value="140"/>
@@ -434,6 +458,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5325" name="Sealed Boots of Phantom">
 		<set name="crystal_count" value="140"/>
@@ -452,6 +477,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5326" name="Sealed Nightmare Robe">
 		<set name="crystal_count" value="528"/>
@@ -471,6 +497,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5327" name="Sealed Cerberus Gloves">
 		<set name="crystal_count" value="140"/>
@@ -489,6 +516,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5328" name="Sealed Cerberus Boots">
 		<set name="crystal_count" value="140"/>
@@ -507,6 +535,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5329" name="Sealed Majestic Robe">
 		<set name="crystal_count" value="528"/>
@@ -526,6 +555,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5330" name="Sealed Dasparion's Gloves">
 		<set name="crystal_count" value="140"/>
@@ -544,6 +574,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="5331" name="Sealed Dasparion's Boots">
 		<set name="crystal_count" value="140"/>
@@ -562,5 +593,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

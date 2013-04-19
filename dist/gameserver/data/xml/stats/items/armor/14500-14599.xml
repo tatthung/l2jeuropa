@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="14520" name="Vesper Breastplate {PvP}">
 		<set name="attributable" value="false"/>
@@ -22,6 +23,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14521" name="Vesper Leather Breastplate {PvP}">
 		<set name="attributable" value="false"/>
@@ -45,6 +47,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14522" name="Vesper Tunic {PvP}">
 		<set name="attributable" value="false"/>
@@ -69,6 +72,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14523" name="Vesper Noble Breastplate {PvP}">
 		<set name="attributable" value="false"/>
@@ -92,6 +96,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14524" name="Vesper Noble Leather Breastplate {PvP}">
 		<set name="attributable" value="false"/>
@@ -115,6 +120,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14525" name="Vesper Noble Tunic {PvP}">
 		<set name="attributable" value="false"/>
@@ -139,6 +145,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14582" name="Apella Combat Helmet">
 		<set name="crystal_type" value="A"/>

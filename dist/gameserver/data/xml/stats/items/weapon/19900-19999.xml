@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="19911" name="Blessed Eternal Shield" add_name="Defense Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -16,6 +15,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19927" name="Blessed Celestial Shield" add_name="Defense Type / Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -31,6 +31,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19938" name="Requiem Shaper" add_name="Guidance + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -60,6 +61,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19939" name="Requiem Shaper" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -89,6 +91,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19940" name="Requiem Shaper" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -118,6 +121,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19941" name="Requiem Cutter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -146,6 +150,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19942" name="Requiem Cutter" add_name="Focus + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -174,6 +179,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19943" name="Requiem Cutter" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -202,6 +208,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19944" name="Requiem Slasher" add_name="Focus + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -230,6 +237,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19945" name="Requiem Slasher" add_name="Damage Up + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -258,6 +266,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19946" name="Requiem Slasher" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -286,6 +295,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19947" name="Requiem Avenger" add_name="Haste + Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -314,6 +324,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19948" name="Requiem Avenger" add_name="Critical Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -342,6 +353,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19949" name="Requiem Avenger" add_name="Focus + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -370,6 +382,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19950" name="Requiem Fighter" add_name="Focus + Damage Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -398,6 +411,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19951" name="Requiem Fighter" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -426,6 +440,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19952" name="Requiem Fighter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -454,6 +469,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19953" name="Requiem Stormer" add_name="HP Drain + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -482,6 +498,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19954" name="Requiem Stormer" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -510,6 +527,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19955" name="Requiem Stormer" add_name="Damage + HP Drain">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -538,6 +556,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19956" name="Requiem Thrower" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -567,6 +586,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19957" name="Requiem Thrower" add_name="Focus + Long Blow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -596,6 +616,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19958" name="Requiem Thrower" add_name="Long Blow + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -625,6 +646,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19959" name="Requiem Shooter" add_name="Focus + Critical Slow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -654,6 +676,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19960" name="Requiem Shooter" add_name="Critical Slow + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -683,6 +706,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19961" name="Requiem Shooter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -712,6 +736,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19962" name="Requiem Buster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -740,6 +765,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19963" name="Requiem Buster" add_name="Magic Hold + Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -768,6 +794,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19964" name="Requiem Buster" add_name="Mana Up + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -796,6 +823,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19965" name="Requiem Caster" add_name="Empower + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -824,6 +852,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19966" name="Requiem Caster" add_name="Acumen + Magic Hold">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -852,6 +881,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19967" name="Requiem Caster" add_name="Magic Hold + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -880,6 +910,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19968" name="Requiem Retributer" add_name="MP Regeneration + Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -909,6 +940,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19969" name="Requiem Retributer" add_name="Acumen + Empower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -938,6 +970,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19970" name="Requiem Retributer" add_name="Empower + MP Regeneration">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -967,6 +1000,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19971" name="Requiem Dual Sword" add_name="Haste + Damage Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -995,6 +1029,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19972" name="Requiem Dual Sword" add_name="Damage + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1023,6 +1058,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19973" name="Requiem Dual Sword" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1051,6 +1087,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19974" name="Requiem Dual Dagger" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1079,6 +1116,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19975" name="Requiem Dual Dagger" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1107,6 +1145,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19976" name="Requiem Dual Dagger" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1135,6 +1174,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19977" name="Requiem Dual Blunt Weapon" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1162,6 +1202,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19978" name="Requiem Dual Blunt Weapon" add_name="Guidance + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1189,6 +1230,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19979" name="Requiem Dual Blunt Weapon" add_name="Damage + Focus ">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1216,6 +1258,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19980" name="Blessed Requiem Shaper" add_name="Guidance + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1245,6 +1288,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19981" name="Blessed Requiem Shaper" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1274,6 +1318,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19982" name="Blessed Requiem Shaper" add_name="Focus + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1303,6 +1348,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19983" name="Blessed Requiem Cutter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1331,6 +1377,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19984" name="Blessed Requiem Cutter" add_name="Focus + Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1359,6 +1406,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19985" name="Blessed Requiem Cutter" add_name="Health + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1387,6 +1435,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19986" name="Blessed Requiem Slasher" add_name="Focus + Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1415,6 +1464,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19987" name="Blessed Requiem Slasher" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1443,6 +1493,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19988" name="Blessed Requiem Slasher" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1471,6 +1522,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19989" name="Blessed Requiem Avenger" add_name="Haste + Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1499,6 +1551,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19990" name="Blessed Requiem Avenger" add_name="Critical Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1527,6 +1580,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19991" name="Blessed Requiem Avenger" add_name="Focus + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1555,6 +1609,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19992" name="Blessed Requiem Fighter" add_name="Focus + Damage Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1583,6 +1638,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19993" name="Blessed Requiem Fighter" add_name="Damage + Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1611,6 +1667,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19994" name="Blessed Requiem Fighter" add_name="Haste + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1639,6 +1696,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19995" name="Blessed Requiem Stormer" add_name="HP Drain + Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1665,6 +1723,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19996" name="Blessed Requiem Stormer" add_name="Guidance + Damage Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1692,6 +1751,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19997" name="Blessed Requiem Stormer" add_name="Damage + HP Drain">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1719,6 +1779,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19998" name="Blessed Requiem Thrower" add_name="Damage + Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1748,6 +1809,7 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="19999" name="Blessed Requiem Thrower" add_name="Focus + Long Blow">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1777,5 +1839,6 @@
 			<enchant stat="pAtk" order="0x0C" value="0"/>
 			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 </list>

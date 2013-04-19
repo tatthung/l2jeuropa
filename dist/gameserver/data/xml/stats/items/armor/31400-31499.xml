@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="31411" name="Bound Draconic Leather Helmet">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="S"/>
@@ -18,6 +19,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31412" name="Bound Draconic Leather Armor">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="S"/>
@@ -37,6 +39,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31413" name="Bound Draconic Leather Boots">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="S"/>
@@ -56,6 +59,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31414" name="Bound Draconic Leather Gloves">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="S"/>
@@ -75,6 +79,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31416" name="Bound Doom Helmet">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -94,6 +99,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31417" name="Bound Doom Plate Armor">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -113,6 +119,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31427" name="Bound Doom Boots" add_name="Heavy">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -132,6 +139,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31428" name="Bound Doom Boots" add_name="Tans Armor Use">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -151,6 +159,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31429" name="Bound Doom Boots" add_name="Robe">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -170,6 +179,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31430" name="Bound Doom Gloves" add_name="Heavy">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -189,6 +199,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31431" name="Bound Doom Gloves" add_name="Tans Armor Use">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -208,6 +219,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31432" name="Bound Doom Gloves" add_name="Robe">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -227,6 +239,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31462" name="Bound Dark Crystal Breastplate">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -246,6 +259,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31463" name="Bound Dark Crystal Helmet">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -265,6 +279,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31465" name="Bound Dark Crystal Boots" add_name="Heavy">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -284,6 +299,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31466" name="Bound Dark Crystal Boots" add_name="Tans Armor Use">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -303,6 +319,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31467" name="Bound Dark Crystal Boots" add_name="Robe">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -322,6 +339,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31468" name="Bound Dark Crystal Robe">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -341,6 +359,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31469" name="Bound Dark Crystal Leather Armor">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -360,6 +379,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31470" name="Bound Dark Crystal Gloves" add_name="Heavy">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -379,6 +399,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31471" name="Bound Dark Crystal Gloves" add_name="Tans Armor Use">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -398,6 +419,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31472" name="Bound Dark Crystal Gloves" add_name="Robe">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -417,6 +439,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31473" name="Bound Dark Crystal Gaiters">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -436,5 +459,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

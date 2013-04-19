@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="31304" name="Bound Manticore Skin Gloves">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -18,6 +19,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31305" name="Bound Manticore Skin Shirt">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -37,6 +39,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31306" name="Bound Manticore Skin Boots">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -56,6 +59,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31307" name="Bound Manticore Skin Gaiters">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -75,6 +79,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31312" name="Bound Majestic Plate Armor">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -94,6 +99,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31313" name="Bound Majestic Earring">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -115,6 +121,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31314" name="Bound Majestic Circlet">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -134,6 +141,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31315" name="Bound Majestic Boots" add_name="Heavy">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -153,6 +161,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31316" name="Bound Majestic Boots" add_name="Tans Armor Use">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -172,6 +181,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31317" name="Bound Majestic Boots" add_name="Robe">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -191,6 +201,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31318" name="Bound Majestic Ring">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -212,6 +223,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31319" name="Bound Majestic Robe">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -231,6 +243,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31320" name="Bound Majestic Leather Armor">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -250,6 +263,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31321" name="Bound Majestic Necklace">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -270,6 +284,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31322" name="Bound Majestic Gauntlet" add_name="Heavy">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -289,6 +304,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31323" name="Bound Majestic Gauntlet" add_name="Tans Armor Use">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -308,6 +324,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31324" name="Bound Majestic Gauntlet" add_name="Robe">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -327,6 +344,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31329" name="Bound Mystic's Stockings">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -346,6 +364,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31330" name="Bound Mystic's Tunic">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -365,6 +384,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31332" name="Bound Enchanted Ring">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -386,6 +406,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31333" name="Bound Enchanted Ring">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -407,6 +428,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31334" name="Bound Enchanted Necklace">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -427,6 +449,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31335" name="Bound Enchanted Necklace">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -447,6 +470,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31336" name="Bound Enchanted Earring">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -468,6 +492,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31337" name="Bound Enchanted Earring">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -489,6 +514,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31340" name="Bound Ring Mail Breastplate">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -508,6 +534,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31352" name="Bound Red Crescent">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -529,6 +556,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31353" name="Bound Leather Armor of Doom">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="B"/>
@@ -548,6 +576,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31354" name="Bound Dark Crystal Leggings">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="A"/>
@@ -567,6 +596,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31359" name="Bound Rind Leather Boots">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -586,6 +616,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31360" name="Bound Rind Leather Armor">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -605,6 +636,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31361" name="Bound Rind Leather Gloves">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -624,6 +656,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31362" name="Bound Rind Leather Gaiters">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -643,6 +676,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31377" name="Bound Dwarven Chain Mail Shirt">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -662,6 +696,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31378" name="Bound Dwarven Chain Gaiters">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -681,6 +716,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31380" name="Bound Dwarven Chain Boots">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -700,6 +736,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31381" name="Bound Dwarven Chain Gloves">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -719,6 +756,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31386" name="Bound Dwarven Scale Mail">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -738,6 +776,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31387" name="Bound Dwarven Scale Gaiters">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="D"/>
@@ -757,6 +796,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31388" name="Bound Drake Leather Boots">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -776,6 +816,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31389" name="Bound Drake Leather Armor">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -795,6 +836,7 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31390" name="Bound Drake Leather Gloves">		<!--Done By Darvin (c)Java-Team/Updated by maleiva2013-->
 		<set name="crystal_type" value="C"/>
@@ -814,5 +856,6 @@
 			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>
