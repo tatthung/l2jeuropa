@@ -887,7 +887,7 @@
 		<set name="collision_height" value="14.0"/>
 		<set name="level" value="88"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="4396"/>
@@ -913,6 +913,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="180"/>
 			<defence attribute="water" value="180"/>
@@ -931,7 +932,7 @@
 		<set name="collision_height" value="40.48"/>
 		<set name="level" value="88"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="4522"/>
@@ -957,6 +958,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="180"/>
 			<defence attribute="water" value="180"/>
@@ -975,7 +977,7 @@
 		<set name="collision_height" value="34.0"/>
 		<set name="level" value="88"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="217088"/>
@@ -1001,6 +1003,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="180"/>
 			<defence attribute="water" value="180"/>
@@ -1019,7 +1022,7 @@
 		<set name="collision_height" value="33.0"/>
 		<set name="level" value="93"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="4396"/>
@@ -1045,6 +1048,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="240"/>
 			<defence attribute="water" value="240"/>
@@ -1064,7 +1068,7 @@
 		<set name="collision_height" value="40.0"/>
 		<set name="level" value="93"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="4822"/>
@@ -1090,6 +1094,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="240"/>
 			<defence attribute="water" value="240"/>
@@ -1109,7 +1114,7 @@
 		<set name="collision_height" value="38.0"/>
 		<set name="level" value="93"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="231480"/>
@@ -1135,6 +1140,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="240"/>
 			<defence attribute="water" value="240"/>
@@ -1154,7 +1160,7 @@
 		<set name="collision_height" value="42.0"/>
 		<set name="level" value="98"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="5253"/>
@@ -1180,6 +1186,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="340"/>
 			<defence attribute="water" value="255"/>
@@ -1199,7 +1206,7 @@
 		<set name="collision_height" value="34.5"/>
 		<set name="level" value="98"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="5253"/>
@@ -1225,6 +1232,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="340"/>
 			<defence attribute="water" value="255"/>
@@ -1244,7 +1252,7 @@
 		<set name="collision_height" value="46.5"/>
 		<set name="level" value="98"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="252188"/>
@@ -1270,6 +1278,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="340"/>
 			<defence attribute="water" value="255"/>
@@ -1289,7 +1298,7 @@
 		<set name="collision_height" value="14.0"/>
 		<set name="level" value="88"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="287430"/>
@@ -1315,6 +1324,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="180"/>
 			<defence attribute="water" value="180"/>
@@ -1335,7 +1345,7 @@
 		<set name="collision_height" value="40.48"/>
 		<set name="level" value="88"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="287430"/>
@@ -1361,6 +1371,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="180"/>
 			<defence attribute="water" value="180"/>
@@ -1381,7 +1392,7 @@
 		<set name="collision_height" value="34.0"/>
 		<set name="level" value="88"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="287430"/>
@@ -1407,6 +1418,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="180"/>
 			<defence attribute="water" value="180"/>
@@ -1429,7 +1441,7 @@
 		<set name="collision_height" value="33.0"/>
 		<set name="level" value="93"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="312844"/>
@@ -1455,6 +1467,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="240"/>
 			<defence attribute="water" value="240"/>
@@ -1476,7 +1489,7 @@
 		<set name="collision_height" value="40.0"/>
 		<set name="level" value="93"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="312844"/>
@@ -1502,6 +1515,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="240"/>
 			<defence attribute="water" value="240"/>
@@ -1523,7 +1537,7 @@
 		<set name="collision_height" value="38.0"/>
 		<set name="level" value="93"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="312844"/>
@@ -1549,6 +1563,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="240"/>
 			<defence attribute="water" value="240"/>
@@ -1572,7 +1587,7 @@
 		<set name="collision_height" value="42.0"/>
 		<set name="level" value="98"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="356012"/>
@@ -1598,6 +1613,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="340"/>
 			<defence attribute="water" value="255"/>
@@ -1619,7 +1635,7 @@
 		<set name="collision_height" value="34.5"/>
 		<set name="level" value="98"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="356012"/>
@@ -1645,6 +1661,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="340"/>
 			<defence attribute="water" value="255"/>
@@ -1666,7 +1683,7 @@
 		<set name="collision_height" value="46.5"/>
 		<set name="level" value="98"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="356012"/>
@@ -1692,6 +1709,7 @@
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseRunSpd" value="186"/>
 		<set name="baseWalkSpd" value="50"/>
+		<faction name="kartia_clan" range="600"/>
 		<attributes>
 			<defence attribute="fire" value="340"/>
 			<defence attribute="water" value="255"/>

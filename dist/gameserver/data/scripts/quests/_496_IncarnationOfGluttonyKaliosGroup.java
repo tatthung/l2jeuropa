@@ -24,11 +24,11 @@ public class _496_IncarnationOfGluttonyKaliosGroup extends Quest implements Scri
 
 	public String onEvent(String event, QuestState st, NpcInstance npc)
 	{
-		if (event.equalsIgnoreCase("33647-4.htm"))
+		if (event.equalsIgnoreCase("33647-2.htm"))
 		{
 			st.setCond(1);
-			st.setState(2);
-			st.playSound("ItemSound.quest_accept");
+			st.setState(STARTED);
+			st.playSound(SOUND_ACCEPT);
 		}
 		return event;
 	}
@@ -38,7 +38,7 @@ public class _496_IncarnationOfGluttonyKaliosGroup extends Quest implements Scri
 		int npcId = npc.getNpcId();
 		int state = st.getState();
 		int cond = st.getCond();
-		if (npcId == 33647)
+		if (npcId == KARTIA_RESEARCH)
 		{
 			if (state == 1)
 			{

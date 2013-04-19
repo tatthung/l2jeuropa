@@ -26,9 +26,9 @@ public class _495_IncarnationOfJealousyPellineGroup extends Quest implements Scr
 	{
 	     if (event.equalsIgnoreCase("33647-2.htm"))
 	     {
-	    	 st.setCond(1);
-	    	 st.setState(2);
-	    	 st.playSound("ItemSound.quest_accept");
+			st.setCond(1);
+			st.setState(STARTED);
+			st.playSound(SOUND_ACCEPT);
 	     }
 	     return event;
 	}
@@ -38,7 +38,7 @@ public class _495_IncarnationOfJealousyPellineGroup extends Quest implements Scr
 		int npcId = npc.getNpcId();
 		int state = st.getState();
 		int cond = st.getCond();
-		if (npcId == 33647)
+		if (npcId == KARTIA_RESEARCH)
 		{
 			if (state == 1)
 			{
