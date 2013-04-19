@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="9910" name="Blood Oath">
 		<set name="class" value="OTHER"/>
@@ -350,6 +349,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="2335" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="9998" name="Water Potion">
 		<set name="class" value="CONSUMABLE"/>
@@ -365,6 +367,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="2336" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="9999" name="Earth Potion">
 		<set name="class" value="CONSUMABLE"/>
@@ -380,5 +385,8 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="2338" level="1"/>
+		</skills>
 	</etcitem>
 </list>

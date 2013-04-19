@@ -1204,6 +1204,7 @@ public enum SystemMsg implements IStaticPacket
 	// will surely meet his favor again sometime soon.
 	NEVITS_BLESSING_HAS_ENDED_CONTINUE_YOUR_JOURNEY_AND_YOU_WILL_SURELY_MEET_HIS_FAVOR_AGAIN_SOMETIME_SOON(3275),
 	// Message: You cannor change an attribute while using a private shop or workshop.
+	THE_CORRESPONDING_WORK_CANNOT_BE_PROCEEDED_BECAUSE_THE_INVENTORY_WEIGHTQUANTITY_LIMIT_HAS_BEEN_EXCEEDED(3646), 
 	YOU_CANNOT_CHANGE_AN_ATTRIBUTE_WHILE_USING_A_PRIVATE_SHOP_OR_WORKSHOP(3659),
 	// Message: Enchantment or attribute enchantment is in progress.
 	ENCHANTMENT_OR_ATTRIBUTE_ENCHANTMENT_IS_IN_PROGRESS(3660),

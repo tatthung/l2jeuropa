@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="16400" name="Teddy Girl Summon Bracelet" add_name="Permanent Use">
 		<set name="class" value="OTHER"/>
@@ -72,6 +71,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9080" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="16408" name="Santa's Buff Scroll" add_name="Event">
 		<set name="reuse_delay" value="3000"/>

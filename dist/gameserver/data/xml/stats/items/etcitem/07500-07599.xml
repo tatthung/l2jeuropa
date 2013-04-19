@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="7500" name="Halisha's Mark">
 		<set name="class" value="OTHER"/>
@@ -679,6 +678,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="2048" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="7583" name="Pet Exchange Ticket: Buffalo">
 		<set name="class" value="OTHER"/>

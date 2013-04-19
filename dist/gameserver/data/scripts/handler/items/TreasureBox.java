@@ -38,12 +38,6 @@ public class TreasureBox extends SimpleItemHandler
 									32740,
 									32741,
 									33477,
-									34693,
-									34694,
-									34695,
-									34696,
-									34697,
-									34698,
 									32264,
 									32265,
 									32266,
@@ -137,24 +131,6 @@ public class TreasureBox extends SimpleItemHandler
 				use32729(player, ctrl);
 				break;
 			// -------------Hair Accessory end
-			// -------------Attribute
-			case 34693:
-				use34693(player, ctrl);
-				break;
-			case 34698:
-				use34698(player, ctrl);
-				break;
-			// -------------Attribute end
-			// -------------Hero's Bind Removing Scroll Box
-			case 34697:
-				use34697(player, ctrl);
-				break;
-			// -------------Hero's Bind Removing Scroll Box end
-			// -------------Hero's Enhance Backup Stone Box
-			case 34694:
-				use34694(player, ctrl);
-				break;
-			// -------------Hero's Enhance Backup Stone Box end
 			// -------------Awakening Chest
 			case 32264:
 				use32264(player, ctrl);
@@ -207,7 +183,7 @@ public class TreasureBox extends SimpleItemHandler
 	// A Treasure Box
 	private void use32727(Player player, boolean ctrl)
 	{
-		int[][] list = new int[][]{{32730, 1}, {32731, 1}, {32732, 1}, {32733, 1}, {32734, 1}, {32735, 1}, {32736, 1}, {32737, 1}, {32738, 1}, {32739, 1}, {32740, 1}, {32741, 1}, {32728, 1}, {32729, 1}, {34693, 1}};
+		int[][] list = new int[][]{{32730, 1}, {32731, 1}, {32732, 1}, {32733, 1}, {32734, 1}, {32735, 1}, {32736, 1}, {32737, 1}, {32738, 1}, {32739, 1}, {32740, 1}, {32741, 1}, {32728, 1}, {32729, 1}};
 		double[] chances = new double[]{9.55555, 3.01515, 33.16666, 26.86999, 19.19444, 13.38888, 7.75, 4, 28.33333, 23.94444, 16, 12.6666, 25.38888, 9.77777, 8.77777};
 		extractRandomOneItem(player, list, chances);
 	}
@@ -355,43 +331,6 @@ public class TreasureBox extends SimpleItemHandler
 		extractRandomOneItem(player, list, chances);
 	}
 	// --------------------------------------------------Hair Accessory end
-
-	// --------------------------------------------------Attribute
-	// Attribute Stone Fragment Box
-	private void use34693(Player player, boolean ctrl)
-	{
-		int[][] list = new int[][]{{34649, 1}, {34650, 1}, {34651, 1}, {34652, 1}, {34653, 1}, {34654, 1}};
-		double[] chances = new double[]{40.01515, 20.16666, 40.86999, 20.16666, 40.16666, 20.16666};
-		extractRandomOneItem(player, list, chances);
-	}
-	
-	// Hero's Attribute Crystal Box
-	private void use34698(Player player, boolean ctrl)
-	{
-		int[][] list = new int[][]{{9552, 1}, {9553, 1}, {9554, 1}, {9555, 1}, {9556, 1}, {9557, 1}};
-		double[] chances = new double[]{40.01515, 20.16666, 40.86999, 20.16666, 40.16666, 20.16666};
-		extractRandomOneItem(player, list, chances);
-	}
-	//
-	// --------------------------------------------------Attribute end
-
-	// --------------------------------------------------Hero's Bind Removing Scroll Box
-	private void use34697(Player player, boolean ctrl)
-	{
-		int[][] list = new int[][]{{19444, 1}, {19445, 1}, {19446, 1}};
-		double[] chances = new double[]{40.01515, 31.16666, 15.86999};
-		extractRandomOneItem(player, list, chances);
-	}
-	// --------------------------------------------------Hero's Bind Removing Scroll Box end
-	
-	// --------------------------------------------------Hero's Enhance Backup Stone Box
-	private void use34694(Player player, boolean ctrl)
-	{
-		int[][] list = new int[][]{{30381, 1}, {30382, 1}, {12366, 1}, {12371, 1}, {12365, 1}, {12370, 1}};
-		double[] chances = new double[]{5.01515, 9.16666, 9.86999, 13.86999, 23.86999, 37.86999};
-		extractRandomOneItem(player, list, chances);
-	}
-	// --------------------------------------------------Hero's Enhance Backup Stone Box end
 	
 	// --------------------------------------------------Awakening Chest
 	private void use32264(Player player, boolean ctrl)

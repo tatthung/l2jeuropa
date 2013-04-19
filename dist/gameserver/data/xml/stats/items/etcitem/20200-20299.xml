@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="20210" name="Charming Valentine Gift Set">
 		<set name="freightable" value="true"/>
@@ -362,6 +361,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="22033" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="20278" name="Gold Afro Hair Pack">
 		<set name="freightable" value="true"/>

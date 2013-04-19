@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="20000" name="Spicy Kimchee">
 		<set name="class" value="OTHER"/>
@@ -717,5 +716,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
+		<skills>
+			<skill id="22010" level="1"/>
+		</skills>
 	</etcitem>
 </list>

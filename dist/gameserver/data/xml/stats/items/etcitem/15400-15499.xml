@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="15404" name="6th Anniversary Party Gift Box (2003)" add_name="Event">
 		<set name="freightable" value="true"/>
@@ -234,6 +233,9 @@
 		<set name="icon" value="icon.event_six_party_cube_i00"/>
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="9042" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15419" name="Sixth Anniversary Party Cube Manage - Event" add_name="25 day limited period">
 		<set name="class" value="OTHER"/>
@@ -243,6 +245,9 @@
 		<set name="icon" value="icon.event_six_party_cube_i00"/>
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="9043" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15420" name="Sixth Anniversary Party Cube Manage - Event" add_name="20 day limited period">
 		<set name="class" value="OTHER"/>
@@ -252,6 +257,9 @@
 		<set name="icon" value="icon.event_six_party_cube_i00"/>
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="9044" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15421" name="Sixth Anniversary Party Cube Manage - Event" add_name="15 day limited period">
 		<set name="class" value="OTHER"/>
@@ -261,6 +269,9 @@
 		<set name="icon" value="icon.event_six_party_cube_i00"/>
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="9045" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15422" name="Sixth Anniversary Party Cube Manage - Event" add_name="10 day limited period">
 		<set name="class" value="OTHER"/>
@@ -270,6 +281,9 @@
 		<set name="icon" value="icon.event_six_party_cube_i00"/>
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="9046" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15423" name="Sixth Anniversary Party Cube Manage - Event" add_name="5 day limited period">
 		<set name="class" value="OTHER"/>
@@ -279,6 +293,9 @@
 		<set name="icon" value="icon.event_six_party_cube_i00"/>
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="9047" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15424" name="Sixth Anniversary Party Cube Manage - Event" add_name="3 day limited period">
 		<set name="class" value="OTHER"/>
@@ -288,6 +305,9 @@
 		<set name="icon" value="icon.event_six_party_cube_i00"/>
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="9048" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15425" name="Hero's Treasure Box" add_name="Event">
 		<set name="class" value="OTHER"/>
@@ -396,6 +416,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9064" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15435" name="Shiny Halloween Toy Chest">
 		<set name="class" value="OTHER"/>
@@ -411,6 +434,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9065" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15436" name="Halloween Transformation Stick" add_name="7 day limited period">
 		<set name="freightable" value="true"/>
@@ -431,6 +457,9 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="9066" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15438" name="10 minute Energy Maintaining Potion">
 		<set name="class" value="CONSUMABLE"/>
@@ -564,6 +593,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9070" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15462" name="Halloween King Pumpkin" add_name="Event">
 		<set name="class" value="OTHER"/>
@@ -594,6 +626,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9072" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15465" name="Halloween Nectar Pumpkin Pack - event" add_name="Event">
 		<set name="freightable" value="true"/>
@@ -630,6 +665,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9071" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15468" name="Halloween King Pumpkin - event" add_name="Event">
 		<set name="class" value="OTHER"/>
@@ -855,6 +893,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9055" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15483" name="Crystal Spice Crate">
 		<set name="class" value="OTHER"/>
@@ -870,6 +911,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9056" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15485" name="Torch">
 		<set name="class" value="OTHER"/>

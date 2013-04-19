@@ -1808,7 +1808,7 @@
 		<set name="target" val="TARGET_ONE"/>
 		<for>
 			<effect name="Debuff" time="3" val="0" stackTypes="speed_down" stackOrder="1" effectPower="20">
-				<mul stat="runSpd" order="0x30" value="0.8"/>
+				<mul stat="runSpd" order="0x30" val="0.8"/>
 			</effect>
 		</for>
     </skill>
@@ -1861,7 +1861,7 @@
 		<set name="target" val="TARGET_ONE"/>
 		<for>
 			<effect name="Debuff" time="3" val="0" stackTypes="speed_down" stackOrder="1" effectPower="20">
-				<mul stat="runSpd" order="0x30" value="0.8"/>
+				<mul stat="runSpd" order="0x30" val="0.8"/>
 			</effect>
 		</for>
     </skill>

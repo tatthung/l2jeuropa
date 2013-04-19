@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="8600" name="Herb of Life">
 		<set name="class" value="OTHER"/>
@@ -783,6 +782,9 @@
 		<set name="icon" value="icon.etc_box_of_adventure_1_i00"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2290" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8663" name="Mystery Potion (Event)">
 		<set name="reuse_delay" value="500"/>

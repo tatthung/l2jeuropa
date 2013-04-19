@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="13300" name="Feather of Blessing (Event)">
 		<set name="class" value="OTHER"/>
@@ -588,6 +587,9 @@
 		<set name="temporal" value="true"/>
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2606" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="13383" name="Hunting Helper Exchange Coupon - 5 hours (Event)">
 		<set name="class" value="OTHER"/>

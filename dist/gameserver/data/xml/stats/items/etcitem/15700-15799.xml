@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="15711" name="War Veteran Voucher">
 		<set name="class" value="OTHER"/>
@@ -86,6 +85,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9077" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15769" name="Sealed Vesper Ring Gem">
 		<set name="price" value="19100"/>

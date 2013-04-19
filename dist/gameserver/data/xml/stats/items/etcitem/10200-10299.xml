@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="10200" name="Alternative Blue Coda Seed">
 		<set name="class" value="OTHER"/>
@@ -61,6 +60,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="SEED"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2420" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="10206" name="Black Seed of Evil Lump">
 		<set name="class" value="OTHER"/>
@@ -71,6 +73,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="SEED"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2421" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="10213" name="Inventory">
 		<set name="class" value="OTHER"/>
@@ -88,6 +93,9 @@
 		<set name="icon" value="icon.etc_treasure_sack_1_i00"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2422" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="10255" name="2nd Place Treasure Sack">
 		<set name="class" value="OTHER"/>
@@ -96,6 +104,9 @@
 		<set name="icon" value="icon.etc_treasure_sack_2_i00"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2423" level="2"/>
+		</skills>
 	</etcitem>
 	<etcitem id="10256" name="3rd Place Treasure Sack">
 		<set name="class" value="OTHER"/>
@@ -104,6 +115,9 @@
 		<set name="icon" value="icon.etc_treasure_sack_3_i00"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2424" level="3"/>
+		</skills>
 	</etcitem>
 	<etcitem id="10257" name="4th Place Treasure Sack">
 		<set name="class" value="OTHER"/>
@@ -112,6 +126,9 @@
 		<set name="icon" value="icon.etc_treasure_sack_4_i00"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2425" level="4"/>
+		</skills>
 	</etcitem>
 	<etcitem id="10258" name="5th Place Treasure Sack">
 		<set name="class" value="OTHER"/>
@@ -120,6 +137,9 @@
 		<set name="icon" value="icon.etc_treasure_sack_5_i00"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2426" level="5"/>
+		</skills>
 	</etcitem>
 	<etcitem id="10259" name="6th Place Treasure Sack">
 		<set name="class" value="OTHER"/>
@@ -128,6 +148,9 @@
 		<set name="icon" value="icon.etc_treasure_sack_6_i00"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2427" level="6"/>
+		</skills>
 	</etcitem>
 	<etcitem id="10260" name="Haste Juice">
 		<set name="reuse_delay" value="3000"/>

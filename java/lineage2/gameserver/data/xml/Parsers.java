@@ -39,6 +39,7 @@ import lineage2.gameserver.data.xml.parser.PlayerTemplateParser;
 import lineage2.gameserver.data.xml.parser.RecipeParser;
 import lineage2.gameserver.data.xml.parser.ResidenceParser;
 import lineage2.gameserver.data.xml.parser.RestartPointParser;
+import lineage2.gameserver.data.xml.parser.RestorationInfoParser;
 import lineage2.gameserver.data.xml.parser.ShuttleTemplateParser;
 import lineage2.gameserver.data.xml.parser.SkillAcquireParser;
 import lineage2.gameserver.data.xml.parser.SoulCrystalParser;
@@ -68,6 +69,7 @@ public abstract class Parsers
 		HtmCache.getInstance().reload();
 		StringHolder.getInstance().load();
 		SkillTable.getInstance().load();
+		RestorationInfoParser.getInstance().load();
 		OptionDataParser.getInstance().load();
 		EtcItemParser.getInstance().load();
 		WeaponItemParser.getInstance().load();

@@ -99,6 +99,7 @@ import lineage2.gameserver.skills.skillclasses.Recall;
 import lineage2.gameserver.skills.skillclasses.ReelingPumping;
 import lineage2.gameserver.skills.skillclasses.Refill;
 import lineage2.gameserver.skills.skillclasses.Replace;
+import lineage2.gameserver.skills.skillclasses.Restoration;
 import lineage2.gameserver.skills.skillclasses.Resurrect;
 import lineage2.gameserver.skills.skillclasses.Ride;
 import lineage2.gameserver.skills.skillclasses.SPHeal;
@@ -794,6 +795,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		 * Field SUMMON_ITEM.
 		 */
 		SUMMON_ITEM(SummonItem.class),
+		RESTORATION(Restoration.class), 
 		/**
 		 * Field SUMMON_MENTOR.
 		 */

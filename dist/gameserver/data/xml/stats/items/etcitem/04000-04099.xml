@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="4000" name="Mercenary Posting Ticket (Spear/Stationary)">
 		<set name="class" value="OTHER"/>
@@ -395,6 +394,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="2063" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="4039" name="Mold Glue">
 		<set name="class" value="MATHERIALS"/>

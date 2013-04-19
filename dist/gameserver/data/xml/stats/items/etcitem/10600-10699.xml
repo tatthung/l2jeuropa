@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="10600" name="Battle Manual - Soul Barrier">
 		<set name="class" value="SPELLBOOKS"/>
@@ -164,6 +163,9 @@
 		<set name="tradeable" value="false"/>
 		<set name="reuse_type" value="EVERY_DAY_AT_6_30"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2510" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="10633" name="Rough Blue Cubic Piece">
 		<set name="class" value="OTHER"/>

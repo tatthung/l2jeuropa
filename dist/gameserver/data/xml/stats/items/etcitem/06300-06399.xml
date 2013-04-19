@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="6300" name="Nephilim Shaman Posting Ticket">
 		<set name="class" value="OTHER"/>
@@ -93,6 +92,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="2180" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="6317" name="Mixing Manual">
 		<set name="class" value="OTHER"/>

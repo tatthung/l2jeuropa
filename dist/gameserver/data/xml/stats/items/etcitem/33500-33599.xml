@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="33500" name="Mark of a Lord">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -192,6 +191,9 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="stackable" value="false"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="12900" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="33546" name="Unidentified Tallum Blade*Damascus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -200,5 +202,8 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="stackable" value="false"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="12901" level="1"/>
+		</skills>
 	</etcitem>
 </list>

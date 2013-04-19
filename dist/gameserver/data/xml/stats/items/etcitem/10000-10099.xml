@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="10000" name="Wind Potion">
 		<set name="class" value="CONSUMABLE"/>
@@ -16,6 +15,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="2337" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="10001" name="Dark Potion">
 		<set name="class" value="CONSUMABLE"/>
@@ -31,6 +33,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="2340" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="10002" name="Divine Potion">
 		<set name="class" value="CONSUMABLE"/>
@@ -46,6 +51,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="2339" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="10012" name="Scorpion Poison Stinger">
 		<set name="class" value="OTHER"/>

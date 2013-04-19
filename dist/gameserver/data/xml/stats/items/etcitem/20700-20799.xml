@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="20700" name="Bamboo Panda Hat Pack">
 		<set name="freightable" value="true"/>
@@ -145,6 +144,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="22108" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="20717" name="Shiny Halloween Toy Box - Event">
 		<set name="class" value="OTHER"/>
@@ -160,6 +162,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="22109" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="20728" name="Lucky Sky Lantern Summon Scroll">
 		<set name="reuse_delay" value="14400000"/>
@@ -229,8 +234,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="20734" name="Golden Jack O'Lantern Mask 7 Day Pack"
-             add_name="Authority of Golden Jack O'Lantern Mask.">
+	<etcitem id="20734" name="Golden Jack O'Lantern Mask 7 Day Pack" add_name="Authority of Golden Jack O'Lantern Mask.">
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -299,6 +303,9 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="22114" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="20740" name="Cocktail Pack">
 		<set name="class" value="OTHER"/>
@@ -481,6 +488,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="22115" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="20760" name="Rudolph Necklace - Event">
 		<set name="class" value="OTHER"/>

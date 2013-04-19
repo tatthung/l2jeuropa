@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="15307" name="Holy Pomander - Cardinal">
 		<set name="class" value="OTHER"/>
@@ -389,6 +388,9 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="2"/>
+		<skills>
+			<skill id="9027" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15359" name="100,000 PC Cafe points wining lottery" add_name="30 day limited period">
 		<set name="class" value="OTHER"/>
@@ -564,6 +566,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9036" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15373" name="July 7th Parcel">
 		<set name="class" value="OTHER"/>
@@ -626,6 +631,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9037" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="15377" name="July 7th Parcel (Event)">
 		<set name="class" value="OTHER"/>

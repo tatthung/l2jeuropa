@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="17100" name="Nevit's Hourglass - 1 hour" add_name="20~39">
 		<set name="delay_share_group" value="16"/>
@@ -562,6 +561,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9158" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="17139" name="Transformation Scroll - Anakim">
 		<set name="class" value="OTHER"/>
@@ -632,6 +634,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9164" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="17162" name="Shards of Golem">
 		<set name="class" value="OTHER"/>
@@ -737,6 +742,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="9177" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="17184" name="500,000 SP scroll">
 		<set name="icon" value="icon.etc_sp_scroll3_i00"/>

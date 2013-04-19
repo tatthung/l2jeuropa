@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="8400" name="Spellbook: Turn Undead">
 		<set name="class" value="SPELLBOOKS"/>
@@ -41,6 +40,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2261" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8404" name="Small Ugly Green Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -51,6 +53,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2261" level="2"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8405" name="Small Pudgy Green Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -61,6 +66,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2261" level="3"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8406" name="Nimble Green Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -71,6 +79,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2261" level="4"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8407" name="Ugly Green Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -81,6 +92,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2261" level="5"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8408" name="Pudgy Green Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -91,6 +105,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2261" level="6"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8409" name="Large Nimble Green Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -101,6 +118,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2261" level="7"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8410" name="Large Ugly Green Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -111,6 +131,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2261" level="8"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8411" name="Large Pudgy Green Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -121,6 +144,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2261" level="9"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8412" name="Small Jade Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -131,6 +157,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2262" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8413" name="Small Jade Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -141,6 +170,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2262" level="2"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8414" name="Small Jade Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -151,6 +183,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2262" level="3"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8415" name="Jade Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -161,6 +196,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2262" level="4"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8416" name="Jade Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -171,6 +209,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2262" level="5"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8417" name="Jade Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -181,6 +222,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2262" level="6"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8418" name="Large Jade Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -191,6 +235,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2262" level="7"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8419" name="Large Jade Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -201,6 +248,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2262" level="8"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8420" name="Large Jade Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -211,6 +261,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2262" level="9"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8421" name="Small Blue Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -221,6 +274,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2263" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8422" name="Small Blue Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -231,6 +287,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2263" level="2"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8423" name="Small Blue Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -241,6 +300,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2263" level="3"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8424" name="Blue Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -251,6 +313,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2263" level="4"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8425" name="Blue Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -261,6 +326,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2263" level="5"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8426" name="Blue Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -271,6 +339,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2263" level="6"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8427" name="Large Blue Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -281,6 +352,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2263" level="7"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8428" name="Large Blue Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -291,6 +365,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2263" level="8"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8429" name="Large Blue Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -301,6 +378,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2263" level="9"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8430" name="Small Yellow Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -311,6 +391,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2264" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8431" name="Small Yellow Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -321,6 +404,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2264" level="2"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8432" name="Small Yellow Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -331,6 +417,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2264" level="3"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8433" name="Yellow Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -341,6 +430,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2264" level="4"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8434" name="Yellow Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -351,6 +443,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2264" level="5"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8435" name="Yellow Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -361,6 +456,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2264" level="6"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8436" name="Large Yellow Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -371,6 +469,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2264" level="7"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8437" name="Large Yellow Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -381,6 +482,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2264" level="8"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8438" name="Large Yellow Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -391,6 +495,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2264" level="9"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8439" name="Small Orange Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -401,6 +508,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2265" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8440" name="Small Orange Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -411,6 +521,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2265" level="2"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8441" name="Small Orange Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -421,6 +534,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2265" level="3"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8442" name="Orange Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -431,6 +547,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2265" level="4"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8443" name="Orange Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -441,6 +560,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2265" level="5"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8444" name="Orange Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -451,6 +573,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2265" level="6"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8445" name="Large Orange Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -461,6 +586,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2265" level="7"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8446" name="Large Orange Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -471,6 +599,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2265" level="8"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8447" name="Large Orange Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -481,6 +612,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2265" level="9"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8448" name="Small Purple Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -491,6 +625,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2266" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8449" name="Small Purple Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -501,6 +638,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2266" level="2"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8450" name="Small Purple Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -511,6 +651,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2266" level="3"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8451" name="Purple Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -521,6 +664,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2266" level="4"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8452" name="Purple Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -531,6 +677,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2266" level="5"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8453" name="Purple Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -541,6 +690,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2266" level="6"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8454" name="Large Purple Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -551,6 +703,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2266" level="7"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8455" name="Large Purple Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -561,6 +716,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2266" level="8"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8456" name="Large Purple Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -571,6 +729,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2266" level="9"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8457" name="Small Red Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -581,6 +742,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2267" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8458" name="Small Red Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -591,6 +755,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2267" level="2"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8459" name="Small Red Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -601,6 +768,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2267" level="3"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8460" name="Red Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -611,6 +781,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2267" level="4"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8461" name="Red Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -621,6 +794,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2267" level="5"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8462" name="Red Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -631,6 +807,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2267" level="6"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8463" name="Large Red Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -641,6 +820,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2267" level="7"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8464" name="Large Red Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -651,6 +833,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2267" level="8"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8465" name="Large Red Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -661,6 +846,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2267" level="9"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8466" name="Small White Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -671,6 +859,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2268" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8467" name="Small White Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -681,6 +872,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2268" level="2"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8468" name="Small White Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -691,6 +885,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2268" level="3"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8469" name="White Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -701,6 +898,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2268" level="4"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8470" name="White Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -711,6 +911,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2268" level="5"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8471" name="White Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -721,6 +924,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2268" level="6"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8472" name="High Grade - Large White Nimble Fish">
 		<set name="class" value="OTHER"/>
@@ -731,6 +937,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2268" level="7"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8473" name="Large White Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -741,6 +950,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2268" level="8"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8474" name="Large White Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -751,6 +963,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2268" level="9"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8475" name="Small Black Nimble Fish: Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -761,6 +976,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2269" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8476" name="Small Black Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -771,6 +989,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2269" level="2"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8477" name="Small Black Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -781,6 +1002,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2269" level="3"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8478" name="Black Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -791,6 +1015,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2269" level="4"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8479" name="Black Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -801,6 +1028,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2269" level="5"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8480" name="Black Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -811,6 +1041,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2269" level="6"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8481" name="Large Black Nimble Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -821,6 +1054,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2269" level="7"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8482" name="Large Black Ugly Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -831,6 +1067,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2269" level="8"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8483" name="Large Black Fat Fish - Upper Grade">
 		<set name="class" value="OTHER"/>
@@ -841,6 +1080,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
+		<skills>
+			<skill id="2269" level="9"/>
+		</skills>
 	</etcitem>
 	<etcitem id="8484" name="Prize-Winning Fishing Lure">
 		<set name="class" value="CONSUMABLE"/>

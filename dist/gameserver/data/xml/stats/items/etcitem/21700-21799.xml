@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="21700" name="Olf's T-shirt Pack">
 		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
@@ -189,6 +188,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="22272" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="21748" name="Experienced Adventurer's Treasure Sack">
 		<set name="icon" value="BranchSys2.icon.etc_ancient_treasure_sack_i00"/>
@@ -202,6 +204,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="22273" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="21749" name="Great Adventurer's Treasure Sack">
 		<set name="icon" value="BranchSys2.icon.etc_ancient_treasure_sack_i00"/>
@@ -215,6 +220,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="22274" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="21750" name="Blue Elmore Coin">
 		<set name="icon" value="icon.etc_coins_blue_i00"/>
@@ -242,6 +250,9 @@
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="22276" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="21753" name="Pablo's Box">
 		<set name="icon" value="icon.etc_treasure_box_i01"/>
@@ -250,6 +261,9 @@
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="22277" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="21759" name="Illumination - Red">
 		<set name="icon" value="BranchSys2.icon.g_illumination_red"/>

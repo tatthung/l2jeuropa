@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="5100" name="Mature Desert Coda">
 		<set name="class" value="OTHER"/>
@@ -651,6 +650,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="2101" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="5169" name="Deluxe Food for Strider">
 		<set name="class" value="OTHER"/>
@@ -666,6 +668,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="2102" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="5192" name="Rope of Magic: D-Grade">
 		<set name="class" value="MATHERIALS"/>

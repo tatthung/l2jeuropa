@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="20502" name="Gold Maned Lion Mounting Bracelet ">
 		<set name="freightable" value="true"/>
@@ -235,6 +234,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="22071" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="20516" name="Huge Fortuna Cube">
 		<set name="freightable" value="true"/>
@@ -251,6 +253,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="22072" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="20517" name="Weapon Enchant Scroll - S Grade">
 		<set name="freightable" value="true"/>
@@ -976,6 +981,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="22092" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="20574" name="Large Scroll Chest (Event)">
 		<set name="class" value="OTHER"/>

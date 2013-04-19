@@ -319,8 +319,8 @@
 		</enchant9>
 		<for>
 			<effect applyOnCaster="true" count="1" name="Buff" time="10" val="0">
-			    <add order="0x40" stat="runSpd" value="40"/>
-				<add order="0x40" stat="rEvas" value="5"/>
+			    <add order="0x40" stat="runSpd" val="40"/>
+				<add order="0x40" stat="rEvas" val="5"/>
 			</effect>
 		</for>
     </skill>

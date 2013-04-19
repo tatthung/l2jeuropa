@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="2508" name="Cursed Bone">
 		<set name="class" value="CONSUMABLE"/>
@@ -79,5 +78,8 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="2048" level="1"/>
+		</skills>
 	</etcitem>
 </list>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<etcitem id="12700" name="Foundation Sealed Dynasty Leather Boots">
 		<set name="class" value="ARMOR"/>
@@ -386,6 +385,9 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<skills>
+			<skill id="2525" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="12754" name="Accessory Life Stone - level 46">
 		<set name="class" value="MISC"/>
