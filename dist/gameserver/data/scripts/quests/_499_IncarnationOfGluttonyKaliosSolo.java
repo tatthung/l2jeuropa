@@ -59,7 +59,7 @@ public class _499_IncarnationOfGluttonyKaliosSolo extends Quest implements Scrip
 		{
 			if(state == 1)
 			{			
-				if(!st.isNowAvailableByTime())
+				if (!isAvailableFor(st.getPlayer()) || !st.isNowAvailableByTime())
 					return "33647-5.htm";			
 				return "33647.htm";
 			}

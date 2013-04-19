@@ -42,7 +42,7 @@ public class _495_IncarnationOfJealousyPellineGroup extends Quest implements Scr
 		{
 			if (state == 1)
 			{
-				if (!st.isNowAvailableByTime())
+				if (!isAvailableFor(st.getPlayer()) || !st.isNowAvailableByTime())
 					return "33647-3.htm";
 				return "33647.htm";
 			}

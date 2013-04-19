@@ -12,6 +12,7 @@
  */
 package instances;
 
+import java.util.Arrays;
 import java.util.concurrent.ScheduledFuture;
 
 import lineage2.commons.threading.RunnableImpl;
@@ -45,6 +46,8 @@ public class KartiaLabyrinth85Solo extends Reflection
 	private int KartiaWatchman = 19221;
 	private int DimensionalWatchman = 19222;
 	private int LordOfKartia = 19253;
+
+	private static final int[] supporter = {33609,33611,33613,33615,33617};
 
 	public KartiaLabyrinth85Solo()
 	{
@@ -337,7 +340,10 @@ public class KartiaLabyrinth85Solo extends Reflection
 			}
 			for(NpcInstance n : getNpcs())
 			{
-				n.deleteMe();
+				if (!Arrays.asList(supporter).contains(n.getNpcId()))
+				{
+					n.deleteMe();
+				}
 			}
 			openDoor(DOOR2_ID);
 			addSpawnWithoutRespawn(KartiaGuard, new Location(-111848, -15560, -11445), 0);

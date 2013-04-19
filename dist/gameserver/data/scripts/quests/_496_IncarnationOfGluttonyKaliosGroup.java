@@ -42,7 +42,7 @@ public class _496_IncarnationOfGluttonyKaliosGroup extends Quest implements Scri
 		{
 			if (state == 1)
 			{
-				if (!st.isNowAvailableByTime())
+				if (!isAvailableFor(st.getPlayer()) || !st.isNowAvailableByTime())
 					return "33647-3.htm";
 				return "33647.htm";
 			}

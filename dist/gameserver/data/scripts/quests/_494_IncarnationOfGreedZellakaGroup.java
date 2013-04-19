@@ -42,7 +42,7 @@ public class _494_IncarnationOfGreedZellakaGroup extends Quest implements Script
 		{
 			if (state == 1)
 			{
-				if (!st.isNowAvailableByTime())
+				if (!isAvailableFor(st.getPlayer()) || !st.isNowAvailableByTime())
 					return "33647-3.htm";
 				return "33647.htm";
 			}
