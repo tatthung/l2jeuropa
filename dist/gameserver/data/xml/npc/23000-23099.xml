@@ -4427,7 +4427,7 @@
 		<set name="collision_height" value="41.5"/>
 		<set name="level" value="92"/>
 		<set name="type" value="Monster"/>
-			<set name="aggroRange" value="1500"/>
+		<set name="aggroRange" value="1500"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="526745"/>
@@ -4444,15 +4444,15 @@
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
-		<set name="basePAtk" value="971"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="baseMDef" value="250"/>
+		<set name="basePAtk" value="2799"/>
+		<set name="basePDef" value="1177"/>
+		<set name="baseMAtk" value="2145"/>
+		<set name="baseMDef" value="969"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="220"/>
 			<defence attribute="water" value="220"/>
@@ -4489,15 +4489,15 @@
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
-		<set name="basePAtk" value="971"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="baseMDef" value="250"/>
+		<set name="basePAtk" value="2799"/>
+		<set name="basePDef" value="1177"/>
+		<set name="baseMAtk" value="1145"/>
+		<set name="baseMDef" value="969"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="220"/>
 			<defence attribute="water" value="220"/>
@@ -4534,15 +4534,15 @@
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
-		<set name="basePAtk" value="971"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="baseMDef" value="250"/>
+		<set name="basePAtk" value="2799"/>
+		<set name="basePDef" value="1177"/>
+		<set name="baseMAtk" value="2145"/>
+		<set name="baseMDef" value="969"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="240"/>
 			<defence attribute="water" value="240"/>
@@ -4579,15 +4579,15 @@
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
-		<set name="basePAtk" value="971"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="baseMDef" value="250"/>
+		<set name="basePAtk" value="2799" />
+		<set name="basePDef" value="1177" />
+		<set name="baseMAtk" value="2145" />
+		<set name="baseMDef" value="969" />
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="240"/>
 			<defence attribute="water" value="240"/>
@@ -4631,8 +4631,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="240"/>
 			<defence attribute="water" value="240"/>
@@ -4721,8 +4721,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="260"/>
 			<defence attribute="water" value="260"/>
@@ -4767,8 +4767,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="260"/>
 			<defence attribute="water" value="260"/>
@@ -4813,8 +4813,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="260"/>
 			<defence attribute="water" value="260"/>
@@ -4859,8 +4859,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="260"/>
 			<defence attribute="water" value="260"/>
@@ -4950,8 +4950,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="160"/>
 			<defence attribute="water" value="160"/>
@@ -4995,8 +4995,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="160"/>
 			<defence attribute="water" value="160"/>
@@ -5040,8 +5040,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="160"/>
 			<defence attribute="water" value="160"/>
@@ -5085,8 +5085,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="280"/>
 			<defence attribute="water" value="280"/>
@@ -5151,8 +5151,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="280"/>
 			<defence attribute="water" value="280"/>
@@ -5216,8 +5216,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="280"/>
 			<defence attribute="water" value="280"/>
@@ -5280,8 +5280,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="280"/>
 			<defence attribute="water" value="280"/>
@@ -5345,8 +5345,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="-5"/>
 			<defence attribute="water" value="20"/>
@@ -5414,8 +5414,8 @@
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>
-		<set name="baseRunSpd" value="1"/>
-		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseWalkSpd" value="60"/>
 		<attributes>
 			<defence attribute="fire" value="-5"/>
 			<defence attribute="water" value="20"/>

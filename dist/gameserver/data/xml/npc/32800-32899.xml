@@ -4128,7 +4128,7 @@
 		<set name="collision_radius" value="29.0"/>
 		<set name="collision_height" value="25.5"/>
 		<!--Npc specific-->
-		<set name="type" value="Npc"/>
+		<set name="type" value="IzaelManager"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="level" value="85"/>
 		<set name="baseHpRate" value="1.0"/>

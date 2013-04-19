@@ -403,7 +403,7 @@
     </npc>
     <npc id="33609" name="Adolph" title="Aden Vanguard Captain">
         <set name="aggroRange" value="500"/>
-        <set name="ai_type" value="FollowNpc"/>
+        <set name="ai_type" value="KartiaGuard"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -435,7 +435,7 @@
         <set name="rewardSp" value="0"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
+        <set name="type" value="Guard"/>
         <skills>
             <skill id="4416" level="14"/>
             <!--Люди-->
@@ -499,7 +499,7 @@
     </npc>
     <npc id="33611" name="Barton" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="FollowNpc"/>
+        <set name="ai_type" value="KartiaGuard"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -531,7 +531,7 @@
         <set name="rewardSp" value="0"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
+        <set name="type" value="Guard"/>
         <skills>
             <skill id="4416" level="17"/>
             <!--Орки-->
@@ -595,7 +595,7 @@
     </npc>
     <npc id="33613" name="Hayuk" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+        <set name="ai_type" value="KartiaGuard"/>
         <set name="baseAtkRange" value="400"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -627,7 +627,7 @@
         <set name="rewardSp" value="0"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
+        <set name="type" value="Guard"/>
         <skills>
             <skill id="4416" level="15"/>
             <!--Эльфы-->
@@ -691,7 +691,7 @@
     </npc>
     <npc id="33615" name="Eliyah" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+        <set name="ai_type" value="KartiaGuard"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -723,7 +723,7 @@
         <set name="rewardSp" value="0"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
+        <set name="type" value="Guard"/>
         <skills>
             <skill id="4416" level="14"/>
             <!--Люди-->
@@ -787,7 +787,7 @@
     </npc>
     <npc id="33617" name="Elise" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+        <set name="ai_type" value="KartiaGuard"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -819,7 +819,7 @@
         <set name="rewardSp" value="0"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
+        <set name="type" value="Guard"/>
         <skills>
             <skill id="4416" level="14"/>
             <!--Люди-->
@@ -931,7 +931,7 @@
     </npc>
     <npc id="33620" name="Adolph" title="Aden Vanguard Captain">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+        <set name="ai_type" value="KartiaGuard"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -963,7 +963,7 @@
         <set name="rewardSp" value="0"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
+        <set name="type" value="Guard"/>
         <skills>
             <skill id="4416" level="14"/>
             <!--Люди-->
@@ -1027,7 +1027,7 @@
     </npc>
     <npc id="33622" name="Barton" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+        <set name="ai_type" value="KartiaGuard"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -1059,7 +1059,7 @@
         <set name="rewardSp" value="0"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
+        <set name="type" value="Guard"/>
         <skills>
             <skill id="4416" level="17"/>
             <!--Орки-->
@@ -1123,7 +1123,7 @@
     </npc>
     <npc id="33624" name="Hayuk" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+        <set name="ai_type" value="KartiaGuard"/>
         <set name="baseAtkRange" value="400"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -1155,7 +1155,7 @@
         <set name="rewardSp" value="0"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
+        <set name="type" value="Guard"/>
         <skills>
             <skill id="4416" level="15"/>
             <!--Эльфы-->
@@ -1219,7 +1219,7 @@
     </npc>
     <npc id="33626" name="Eliyah" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+        <set name="ai_type" value="KartiaGuard"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -1251,7 +1251,7 @@
         <set name="rewardSp" value="0"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
+        <set name="type" value="Guard"/>
         <skills>
             <skill id="4416" level="14"/>
             <!--Люди-->
@@ -1315,7 +1315,7 @@
     </npc>
     <npc id="33628" name="Elise" title="Aden Vanguard">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+        <set name="ai_type" value="KartiaGuard"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -1347,7 +1347,7 @@
         <set name="rewardSp" value="0"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
+        <set name="type" value="Guard"/>
         <skills>
             <skill id="4416" level="14"/>
             <!--Люди-->
