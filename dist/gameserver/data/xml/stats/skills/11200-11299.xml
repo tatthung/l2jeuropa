@@ -1281,7 +1281,7 @@
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant3>
 		<for>
-			<effect name="Buff" time="#time" stackOrder="1" stackType="buff">
+			<effect name="Buff" time="#time" stackOrder="1">
 				<mul order="0x30" stat="pAtk" val="1.2"/>
 				<mul order="0x30" stat="pDef" val="1.2"/>
 				<mul order="0x30" stat="mDef" val="1.2"/>
