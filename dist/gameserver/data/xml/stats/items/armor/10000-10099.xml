@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="10018" name="Agathion Seal Bracelet - Fortress">
 		<set name="crystal_type" value="NONE"/>
@@ -40,9 +41,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="77"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10020" name="Iron Plate Gaiters">
 		<set name="enchantable" value="false"/>
@@ -62,9 +64,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="48"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10021" name="Puma Skin Shirt">
 		<set name="enchantable" value="false"/>
@@ -84,9 +87,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="58"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10022" name="Puma Skin Gaiters">
 		<set name="enchantable" value="false"/>
@@ -106,9 +110,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="36"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10023" name="Cursed Tunic">
 		<set name="enchantable" value="false"/>
@@ -129,9 +134,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="39"/>
 			<add stat="maxMp" order="0x10" value="106"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10024" name="Cursed Stockings">
 		<set name="enchantable" value="false"/>
@@ -152,8 +158,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="24"/>
 			<add stat="maxMp" order="0x10" value="66"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="13415" name="Frog Hat">
 		<set name="crystal_type" value="NONE"/>
@@ -79,9 +80,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="250"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13433" name="Vesper Leather Breastplate">
 		<set name="crystal_count" value="1680"/>
@@ -97,9 +99,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="187"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13434" name="Vesper Tunic">
 		<set name="crystal_count" value="1680"/>
@@ -116,9 +119,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="125"/>
 			<add stat="maxMp" order="0x10" value="637"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13435" name="Vesper Noble Breastplate">
 		<set name="crystal_count" value="2680"/>
@@ -134,9 +138,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="250"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13436" name="Vesper Noble Leather Breastplate">
 		<set name="crystal_count" value="2010"/>
@@ -152,9 +157,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="187"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13437" name="Vesper Noble Tunic">
 		<set name="crystal_count" value="2010"/>
@@ -171,9 +177,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="125"/>
 			<add stat="maxMp" order="0x10" value="637"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13438" name="Vesper Gaiters">
 		<set name="crystal_count" value="1400"/>
@@ -189,9 +196,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="156"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13439" name="Vesper Gauntlet">
 		<set name="crystal_count" value="560"/>
@@ -207,9 +215,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="68"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13440" name="Vesper Boots">
 		<set name="crystal_count" value="560"/>
@@ -225,9 +234,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="68"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13441" name="Vesper Leather Leggings">
 		<set name="crystal_count" value="1050"/>
@@ -243,9 +253,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="117"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13442" name="Vesper Leather Gloves">
 		<set name="crystal_count" value="560"/>
@@ -261,9 +272,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="68"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13443" name="Vesper Leather Boots">
 		<set name="crystal_count" value="560"/>
@@ -279,9 +291,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="68"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13444" name="Vesper Stockings">
 		<set name="crystal_count" value="1050"/>
@@ -298,9 +311,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="78"/>
 			<add stat="maxMp" order="0x10" value="415"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13445" name="Vesper Gloves">
 		<set name="crystal_count" value="560"/>
@@ -316,9 +330,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="68"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13446" name="Vesper Shoes">
 		<set name="crystal_count" value="560"/>
@@ -334,9 +349,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="68"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13448" name="Vesper Noble Gaiters">
 		<set name="crystal_count" value="1675"/>
@@ -352,9 +368,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="156"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13449" name="Vesper Noble Gauntlet">
 		<set name="crystal_count" value="670"/>
@@ -370,9 +387,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="68"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13450" name="Vesper Noble Boots">
 		<set name="crystal_count" value="670"/>
@@ -388,9 +406,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="68"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13451" name="Vesper Noble Leather Leggings">
 		<set name="crystal_count" value="1256"/>
@@ -406,9 +425,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="117"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13452" name="Vesper Noble Leather Gloves">
 		<set name="crystal_count" value="670"/>
@@ -424,9 +444,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="68"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13453" name="Vesper Noble Leather Boots">
 		<set name="crystal_count" value="670"/>
@@ -442,9 +463,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="68"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13454" name="Vesper Noble Stockings">
 		<set name="crystal_count" value="1256"/>
@@ -461,9 +483,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="78"/>
 			<add stat="maxMp" order="0x10" value="415"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13455" name="Vesper Noble Gloves">
 		<set name="crystal_count" value="670"/>
@@ -479,9 +502,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="68"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13456" name="Vesper Noble Shoes">
 		<set name="crystal_count" value="670"/>
@@ -497,9 +521,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="68"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13472" name="Circlet of Innadril Valor">
 		<set name="crystal_type" value="NONE"/>

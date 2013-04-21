@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="11349" name="Sealed Zubei's Gauntlet">
 		<set name="crystal_count" value="53"/>
@@ -14,9 +15,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11350" name="Sealed Zubei's Boots">
 		<set name="crystal_count" value="53"/>
@@ -32,9 +34,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11351" name="Sealed Avadon Gloves">
 		<set name="crystal_count" value="53"/>
@@ -50,9 +53,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11352" name="Sealed Avadon Boots">
 		<set name="crystal_count" value="53"/>
@@ -68,9 +72,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11353" name="Zubei's Leather Gaiters">
 		<set name="crystal_count" value="100"/>
@@ -89,9 +94,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="73"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11354" name="Zubei's Leather Shirt">
 		<set name="crystal_count" value="160"/>
@@ -110,9 +116,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="117"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11355" name="Zubei's Gaiters">
 		<set name="crystal_count" value="133"/>
@@ -131,9 +138,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="98"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11356" name="Zubei's Gauntlet" add_name="Heavy Armor Use">
 		<set name="crystal_count" value="53"/>
@@ -152,9 +160,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11357" name="Zubei's Gauntlet" add_name="Light Armor Use">
 		<set name="crystal_count" value="53"/>
@@ -173,9 +182,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11358" name="Zubei's Gauntlet" add_name="Robe Use">
 		<set name="crystal_count" value="53"/>
@@ -194,9 +204,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11359" name="Zubei's Boots" add_name="Heavy Armor Use">
 		<set name="crystal_count" value="53"/>
@@ -215,9 +226,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11360" name="Zubei's Boots" add_name="Light Armor Use">
 		<set name="crystal_count" value="53"/>
@@ -236,9 +248,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11361" name="Zubei's Boots" add_name="Robe Use">
 		<set name="crystal_count" value="53"/>
@@ -257,9 +270,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11363" name="Zubei's Helmet" add_name="Heavy Armor Use">
 		<set name="crystal_count" value="80"/>
@@ -278,9 +292,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="62"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11364" name="Zubei's Breastplate">
 		<set name="crystal_count" value="213"/>
@@ -299,9 +314,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="157"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11365" name="Avadon Gloves" add_name="Heavy Armor Use">
 		<set name="crystal_count" value="53"/>
@@ -320,9 +336,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11366" name="Avadon Gloves" add_name="Light Armor Use">
 		<set name="crystal_count" value="53"/>
@@ -341,9 +358,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11367" name="Avadon Gloves" add_name="Robe Use">
 		<set name="crystal_count" value="53"/>
@@ -362,9 +380,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11368" name="Avadon Leather Armor">
 		<set name="crystal_count" value="259"/>
@@ -383,9 +402,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="191"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11369" name="Avadon Robe">
 		<set name="crystal_count" value="259"/>
@@ -405,9 +425,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="127"/>
 			<add stat="maxMp" order="0x10" value="561"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11370" name="Avadon Boots" add_name="Heavy Armor Use">
 		<set name="crystal_count" value="53"/>
@@ -426,9 +447,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11371" name="Avadon Boots" add_name="Light Armor Use">
 		<set name="crystal_count" value="53"/>
@@ -447,9 +469,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11372" name="Avadon Boots" add_name="Robe Use">
 		<set name="crystal_count" value="53"/>
@@ -468,9 +491,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11373" name="Avadon Circlet" add_name="Heavy Armor Use">
 		<set name="crystal_count" value="80"/>
@@ -489,9 +513,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="62"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11375" name="Avadon Gaiters">
 		<set name="crystal_count" value="133"/>
@@ -510,9 +535,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="98"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11376" name="Avadon Breastplate">
 		<set name="crystal_count" value="213"/>
@@ -531,9 +557,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="157"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11377" name="Tunic of Zubei">
 		<set name="crystal_count" value="160"/>
@@ -553,9 +580,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="78"/>
 			<add stat="maxMp" order="0x10" value="345"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11378" name="Stockings of Zubei">
 		<set name="crystal_count" value="100"/>
@@ -575,9 +603,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
 			<add stat="maxMp" order="0x10" value="216"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11379" name="Doom Gloves" add_name="Heavy Armor Use">
 		<set name="crystal_count" value="83"/>
@@ -596,9 +625,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11380" name="Doom Gloves" add_name="Light Armor Use">
 		<set name="crystal_count" value="83"/>
@@ -617,9 +647,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11381" name="Doom Gloves" add_name="Robe Use">
 		<set name="crystal_count" value="83"/>
@@ -638,9 +669,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11382" name="Doom Boots" add_name="Heavy Armor Use">
 		<set name="crystal_count" value="83"/>
@@ -659,9 +691,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11383" name="Doom Boots" add_name="Light Armor Use">
 		<set name="crystal_count" value="83"/>
@@ -680,9 +713,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11384" name="Doom Boots" add_name="Robe Use">
 		<set name="crystal_count" value="83"/>
@@ -701,9 +735,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11386" name="Doom Plate Armor">
 		<set name="crystal_count" value="536"/>
@@ -722,9 +757,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="270"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11387" name="Doom Helmet" add_name="Heavy Armor Use">
 		<set name="crystal_count" value="124"/>
@@ -743,9 +779,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="66"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11388" name="Leather Armor of Doom">
 		<set name="crystal_count" value="402"/>
@@ -764,9 +801,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="202"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11389" name="Sealed Doom Gloves">
 		<set name="crystal_count" value="83"/>
@@ -782,9 +820,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11390" name="Sealed Boots of Doom">
 		<set name="crystal_count" value="83"/>
@@ -800,9 +839,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11391" name="Sealed Blue Wolf Boots">
 		<set name="crystal_count" value="83"/>
@@ -818,9 +858,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11392" name="Sealed Blue Wolf Gloves">
 		<set name="crystal_count" value="83"/>
@@ -836,9 +877,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11393" name="Tunic of Doom">
 		<set name="crystal_count" value="248"/>
@@ -858,9 +900,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="83"/>
 			<add stat="maxMp" order="0x10" value="377"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11394" name="Blue Wolf Gaiters">
 		<set name="crystal_count" value="206"/>
@@ -879,9 +922,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="104"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11395" name="Blue Wolf Leather Armor">
 		<set name="crystal_count" value="402"/>
@@ -900,9 +944,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="202"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11396" name="Blue Wolf Boots" add_name="Heavy Armor Use">
 		<set name="crystal_count" value="83"/>
@@ -921,9 +966,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11397" name="Blue Wolf Boots" add_name="Light Armor Use">
 		<set name="crystal_count" value="83"/>
@@ -942,9 +988,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11398" name="Blue Wolf Boots" add_name="Robe Use">
 		<set name="crystal_count" value="83"/>
@@ -963,9 +1010,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11399" name="Blue Wolf Gloves" add_name="Heavy Armor Use">
 		<set name="crystal_count" value="83"/>
@@ -984,8 +1032,9 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

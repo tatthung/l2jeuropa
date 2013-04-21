@@ -23,8 +23,8 @@
 			<add stat="mAtk" order="0x10" value="26"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11606" name="Common Item - Strengthened Bow">
@@ -51,8 +51,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11607" name="Common Item - Rapier">
@@ -80,8 +80,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11608" name="Common Item - Bagh-Nakh">
@@ -106,8 +106,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11609" name="Common Item - Proof of Revenge">
@@ -131,8 +131,8 @@
 			<add stat="mAtk" order="0x10" value="35"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11610" name="Common Item - Bone Staff">
@@ -158,8 +158,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11611" name="Common Item - Priest Sword">
@@ -184,8 +184,8 @@
 			<add stat="mAtk" order="0x10" value="35"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11612" name="Common Item - Branch of Life">
@@ -209,8 +209,8 @@
 			<add stat="mAtk" order="0x10" value="35"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11613" name="Common Item - Crafted Dagger">
@@ -235,8 +235,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11614" name="Common Item - Saber">
@@ -261,8 +261,8 @@
 			<add stat="mAtk" order="0x10" value="26"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11615" name="Common Item - Scalpel">
@@ -287,8 +287,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11616" name="Common Item - Temptation of Abyss">
@@ -312,8 +312,8 @@
 			<add stat="mAtk" order="0x10" value="35"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11617" name="Common Item - Assassin Knife">
@@ -338,8 +338,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11618" name="Common Item - Work Hammer">
@@ -364,8 +364,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11619" name="Common Item - Scroll of Wisdom">
@@ -389,8 +389,8 @@
 			<add stat="mAtk" order="0x10" value="35"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11620" name="Common Item - Talwar">
@@ -416,8 +416,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<add stat="accCombat" order="0x10" value="2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11621" name="Common Item - Talwar">
@@ -443,8 +443,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<add stat="accCombat" order="0x10" value="2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11622" name="Common Item - Trident">
@@ -472,8 +472,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11623" name="Common Item - Hand Axe">
@@ -498,8 +498,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11624" name="Common Item - Field Gun">
@@ -525,8 +525,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11625" name="Common Item - Heavy Sword">
@@ -551,8 +551,8 @@
 			<add stat="mAtk" order="0x10" value="26"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11626" name="Common Item - Heavy Mace">
@@ -577,8 +577,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11627" name="Common Item - Mace of Prayer">
@@ -604,8 +604,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11628" name="Common Item - Knight's Sword">
@@ -630,8 +630,8 @@
 			<add stat="mAtk" order="0x10" value="32"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11629" name="Common Item - Dark Elven Bow">
@@ -658,8 +658,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11630" name="Common Item - Doom Hammer">
@@ -685,8 +685,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11631" name="Common Item - Dwarven Trident">
@@ -714,8 +714,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11632" name="Common Item - Long Bow">
@@ -742,8 +742,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="227"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11633" name="Common Item - Staff of Mana">
@@ -769,8 +769,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11634" name="Common Item - Mystic Staff">
@@ -796,8 +796,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11635" name="Common Item - Bastard Sword">
@@ -822,8 +822,8 @@
 			<add stat="mAtk" order="0x10" value="32"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11636" name="Common Item - Spinebone Sword">
@@ -848,8 +848,8 @@
 			<add stat="mAtk" order="0x10" value="32"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11637" name="Common Item - Divine Tome">
@@ -873,8 +873,8 @@
 			<add stat="mAtk" order="0x10" value="43"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11638" name="Common Item - Mace of Judgment">
@@ -900,8 +900,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11639" name="Common Item - Military Talwar">
@@ -926,8 +926,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<add stat="accCombat" order="0x10" value="2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11640" name="Common Item - Elven Bow">
@@ -954,8 +954,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11641" name="Common Item - Mace of Miracle">
@@ -981,8 +981,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11642" name="Common Item - Single-Edged Jamadhr">
@@ -1007,8 +1007,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11643" name="Common Item - Artisan's Sword">
@@ -1033,8 +1033,8 @@
 			<add stat="mAtk" order="0x10" value="32"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11644" name="Common Item - Conjuror's Staff">
@@ -1060,8 +1060,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11645" name="Common Item - Tomahawk">
@@ -1086,8 +1086,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11646" name="Common Item - Poniard Dagger">
@@ -1112,8 +1112,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11647" name="Common Item - Pike">
@@ -1141,8 +1141,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11648" name="Common Item - Fleuret">
@@ -1170,8 +1170,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11649" name="Common Item - Fleuret">
@@ -1199,8 +1199,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11650" name="Common Item - Fleuret">
@@ -1228,8 +1228,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11651" name="Common Item - Fleuret">
@@ -1257,8 +1257,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11652" name="Common Item - Hand Crossbow">
@@ -1284,8 +1284,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11653" name="Common Item - Hand Crossbow">
@@ -1311,8 +1311,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11654" name="Common Item - Hand Crossbow">
@@ -1338,8 +1338,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11655" name="Common Item - Sword of Magic">
@@ -1364,8 +1364,8 @@
 			<add stat="mAtk" order="0x10" value="45"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11656" name="Common Item - Sword of Mystic">
@@ -1390,8 +1390,8 @@
 			<add stat="mAtk" order="0x10" value="45"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11657" name="Common Item - Sword of Occult">
@@ -1416,8 +1416,8 @@
 			<add stat="mAtk" order="0x10" value="45"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11658" name="Common Item - Saber*Saber">
@@ -1441,8 +1441,8 @@
 			<add stat="mAtk" order="0x10" value="37"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11659" name="Common Item - Gastraphetes">
@@ -1469,8 +1469,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11660" name="Common Item - Shilen Knife">
@@ -1496,8 +1496,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11661" name="Common Item - Dwarven Pike">
@@ -1525,8 +1525,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11662" name="Common Item - Dagger of Mana">
@@ -1552,8 +1552,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11663" name="Common Item - Staff of Magic">
@@ -1579,8 +1579,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11664" name="Common Item - Mystic Knife">
@@ -1606,8 +1606,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11665" name="Common Item - Triple-Edged Jamadhr">
@@ -1632,8 +1632,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11666" name="Common Item - Spiked Club">
@@ -1658,8 +1658,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11667" name="Common Item - Two-Handed Sword">
@@ -1684,8 +1684,8 @@
 			<add stat="mAtk" order="0x10" value="39"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11668" name="Common Item - Estoc">
@@ -1713,8 +1713,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11669" name="Common Item - Estoc">
@@ -1742,8 +1742,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11670" name="Common Item - Elven Sword">
@@ -1768,8 +1768,8 @@
 			<add stat="mAtk" order="0x10" value="39"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11671" name="Common Item - War Hammer">
@@ -1797,8 +1797,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11672" name="Common Item - Conjuror's Knife">
@@ -1824,8 +1824,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11673" name="Common Item - Kukuri">
@@ -1850,8 +1850,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11674" name="Common Item - Crossbow">
@@ -1877,8 +1877,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11675" name="Common Item - Crimson Sword">
@@ -1903,8 +1903,8 @@
 			<add stat="mAtk" order="0x10" value="39"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11676" name="Common Item - Tome of Blood">
@@ -1928,8 +1928,8 @@
 			<add stat="mAtk" order="0x10" value="52"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11677" name="Common Item - Field Sword">
@@ -1955,8 +1955,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<add stat="accCombat" order="0x10" value="2.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11678" name="Common Item - Blood of Saints">
@@ -1980,8 +1980,8 @@
 			<add stat="mAtk" order="0x10" value="52"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11679" name="Common Item - Saber*Knight's Sword">
@@ -2005,8 +2005,8 @@
 			<add stat="mAtk" order="0x10" value="41"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11680" name="Common Item - Saber*Bastard Sword">
@@ -2030,8 +2030,8 @@
 			<add stat="mAtk" order="0x10" value="41"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11681" name="Common Item - Saber*Spinebone Sword">
@@ -2055,8 +2055,8 @@
 			<add stat="mAtk" order="0x10" value="41"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11682" name="Common Item - Saber*Artisan's Sword">
@@ -2080,8 +2080,8 @@
 			<add stat="mAtk" order="0x10" value="41"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11683" name="Common Item - Strengthened Long Bow">
@@ -2108,8 +2108,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="227"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11684" name="Common Item - Knight's Sword*Knight's Sword">
@@ -2133,8 +2133,8 @@
 			<add stat="mAtk" order="0x10" value="47"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11685" name="Common Item - Maingauche">
@@ -2159,8 +2159,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11686" name="Common Item - Morning Star">
@@ -2185,8 +2185,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11687" name="Common Item - Bastard Sword*Knight's Sword">
@@ -2210,8 +2210,8 @@
 			<add stat="mAtk" order="0x10" value="47"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11688" name="Common Item - Bastard Sword*Bastard Sword">
@@ -2235,8 +2235,8 @@
 			<add stat="mAtk" order="0x10" value="47"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11689" name="Common Item - Bastard Sword*Spinebone Sword">
@@ -2260,8 +2260,8 @@
 			<add stat="mAtk" order="0x10" value="47"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11690" name="Common Item - Bastard Sword*Artisan's Sword">
@@ -2285,8 +2285,8 @@
 			<add stat="mAtk" order="0x10" value="47"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11691" name="Common Item - Bich'Hwa">
@@ -2311,8 +2311,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11692" name="Common Item - Priest Mace">
@@ -2338,8 +2338,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11693" name="Common Item - Goat Head Staff">
@@ -2365,8 +2365,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11694" name="Common Item - Saber*Elven Sword">
@@ -2390,8 +2390,8 @@
 			<add stat="mAtk" order="0x10" value="47"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11695" name="Common Item - Saber*Crimson Sword">
@@ -2415,8 +2415,8 @@
 			<add stat="mAtk" order="0x10" value="47"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11696" name="Common Item - Sword of Magic Fog">
@@ -2441,8 +2441,8 @@
 			<add stat="mAtk" order="0x10" value="63"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11697" name="Common Item - Skull Breaker">
@@ -2467,8 +2467,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11698" name="Common Item - Spinebone Sword*Knight's Sword">
@@ -2492,8 +2492,8 @@
 			<add stat="mAtk" order="0x10" value="47"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="11699" name="Common Item - Spinebone Sword*Spinebone Sword">
@@ -2517,8 +2517,8 @@
 			<add stat="mAtk" order="0x10" value="47"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 </list>

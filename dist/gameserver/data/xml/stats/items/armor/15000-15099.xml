@@ -18,7 +18,7 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="202"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -39,7 +39,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="66"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -60,7 +60,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -81,7 +81,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -102,7 +102,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -123,7 +123,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -144,7 +144,7 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="270"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -165,7 +165,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="94"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -186,7 +186,7 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="59"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -207,7 +207,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="32"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -228,7 +228,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="33"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -249,7 +249,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="58"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -270,7 +270,7 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="239"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -291,7 +291,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="39"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -312,7 +312,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="39"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -333,7 +333,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="77"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -354,7 +354,7 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="48"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -375,7 +375,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="27"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -396,7 +396,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="27"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -417,7 +417,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="103"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -438,7 +438,7 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="64"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -459,7 +459,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -480,7 +480,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="27"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -501,7 +501,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="27"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -522,7 +522,7 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="293"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -543,7 +543,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="73"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -564,7 +564,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -585,7 +585,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -608,7 +608,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="63"/>
 			<add stat="maxMp" order="0x10" value="25"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="15081" name="Majestic Necklace of Friendship" add_name="10 day limited period">
@@ -629,7 +629,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="85"/>
 			<add stat="maxMp" order="0x10" value="33"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="15082" name="Majestic Ring of Friendship" add_name="10 day limited period">
@@ -651,7 +651,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="42"/>
 			<add stat="maxMp" order="0x10" value="17"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="15083" name="Friendship Earring of Black Ore" add_name="10 day limited period">
@@ -672,7 +672,7 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="54"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="15084" name="Friendship Necklace of Black Ore" add_name="10 day limited period">
@@ -692,7 +692,7 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="72"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="15085" name="Friendship Ring of Black Ore" add_name="10 day limited period">
@@ -713,7 +713,7 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="36"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="15086" name="Friendship Earring of Binding" add_name="10 day limited period">
@@ -734,7 +734,7 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="45"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="15087" name="Friendship Necklace of Binding" add_name="10 day limited period">
@@ -754,7 +754,7 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="64"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="15088" name="Friendship Ring of Binding" add_name="10 day limited period">
@@ -775,7 +775,7 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="32"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="15089" name="Elven Earring of Friendship" add_name="10 day limited period">
@@ -796,7 +796,7 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="34"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="15090" name="Elven Earring of Friendship" add_name="10 day limited period">
@@ -816,7 +816,7 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="45"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="15091" name="Elven Ring of Friendship" add_name="10 day limited period">
@@ -837,7 +837,7 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="22"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="15092" name="Dark Crystal Robe of Friendship" add_name="10 day limited period">
@@ -858,7 +858,7 @@
 		<for>
 			<add stat="pDef" order="0x10" value="139"/>
 			<add stat="maxMp" order="0x10" value="665"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -879,7 +879,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="69"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -900,7 +900,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="46"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -921,7 +921,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="46"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -943,7 +943,7 @@
 		<for>
 			<add stat="pDef" order="0x10" value="127"/>
 			<add stat="maxMp" order="0x10" value="561"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -964,7 +964,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="62"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -985,7 +985,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>

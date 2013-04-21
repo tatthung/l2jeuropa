@@ -44,8 +44,8 @@
 			<add stat="mAtk" order="0x10" value="151"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="9443" name="Dynasty Blade">
@@ -69,8 +69,8 @@
 			<add stat="mAtk" order="0x10" value="151"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="9444" name="Dynasty Phantom">
@@ -94,8 +94,8 @@
 			<add stat="mAtk" order="0x10" value="202"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="9445" name="Dynasty Bow">
@@ -122,8 +122,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="9446" name="Dynasty Knife">
@@ -147,8 +147,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="9447" name="Dynasty Halberd">
@@ -175,8 +175,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="9448" name="Dynasty Cudgel">
@@ -200,8 +200,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="9449" name="Dynasty Mace">
@@ -226,8 +226,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="9450" name="Dynasty Bagh-Nakh">
@@ -251,8 +251,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 </list>

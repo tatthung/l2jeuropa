@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="10119" name="Dynasty Sigil">
 		<set name="crystal_count" value="307"/>
@@ -18,9 +19,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="15"/>
 			<add stat="rEvas" order="0x10" value="-8"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10120" name="Sealed Dynasty Sigil">
 		<set name="crystal_count" value="307"/>
@@ -37,9 +39,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="15"/>
 			<add stat="rEvas" order="0x10" value="-8"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10121" name="Sealed Arcana Sigil">
 		<set name="crystal_count" value="161"/>
@@ -56,9 +59,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="13"/>
 			<add stat="rEvas" order="0x10" value="-8"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10122" name="Red Crescent Earring">
 		<set name="enchantable" value="false"/>
@@ -79,8 +83,9 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="24"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10123" name="Necklace of Devotion">
 		<set name="enchantable" value="false"/>
@@ -100,8 +105,9 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="32"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10124" name="Ring of Devotion">
 		<set name="enchantable" value="false"/>
@@ -122,8 +128,9 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="16"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10126" name="Dynasty Leather Armor" add_name="Force Master">
 		<set name="crystal_count" value="878"/>
@@ -142,9 +149,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10127" name="Dynasty Leather Armor" add_name="Weapon Master">
 		<set name="crystal_count" value="878"/>
@@ -163,9 +171,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10139" name="Agathion Bracelet">
 		<set name="crystal_type" value="NONE"/>
@@ -210,7 +219,7 @@
 		</cond>
 		<for>
 			<add stat="mDef" order="0x10" value="24"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="10141" name="Grey Talisman - Yeti Transform">
@@ -283,9 +292,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10169" name="Enchanter Circlet (Kamael only)">
 		<set name="crystal_type" value="NONE"/>
@@ -318,7 +328,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="71"/>
 			<add stat="maxMp" order="0x10" value="31"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 			<add stat="defenceUnholy" order="0x60" value="30">
 				<or>
 					<using slotitem="10170;1;0"/>
@@ -332,6 +342,7 @@
 				</or>
 			</add>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10175" name="Goblin Circlet (Event)">
 		<set name="crystal_type" value="NONE"/>

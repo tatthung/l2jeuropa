@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="347" name="Ring Mail Breastplate">
 		<set name="crystal_count" value="119"/>
@@ -14,9 +15,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="77"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="348" name="Scale Mail">
 		<set name="crystal_count" value="189"/>
@@ -32,9 +34,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="87"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="349" name="Compound Scale Mail">
 		<set name="crystal_count" value="260"/>
@@ -50,9 +53,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="95"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="350" name="Dwarven Scale Mail">
 		<set name="crystal_count" value="260"/>
@@ -68,9 +72,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="95"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="351" name="Blast Plate">
 		<set name="crystal_count" value="288"/>
@@ -86,9 +91,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="97"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="352" name="Brigandine Tunic">
 		<set name="crystal_count" value="424"/>
@@ -104,9 +110,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="103"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="353" name="Half Plate Armor">
 		<set name="crystal_count" value="555"/>
@@ -122,9 +129,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="111"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="354" name="Chain Mail Shirt">
 		<set name="crystal_count" value="155"/>
@@ -140,9 +148,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="120"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="355" name="Dwarven Chain Mail Shirt">
 		<set name="crystal_count" value="198"/>
@@ -158,9 +167,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="129"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="356" name="Full Plate Armor">
 		<set name="crystal_count" value="715"/>
@@ -176,9 +186,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="239"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="357" name="Zubei's Breastplate">
 		<set name="crystal_count" value="213"/>
@@ -194,9 +205,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="157"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="358" name="Blue Wolf Breastplate">
 		<set name="crystal_count" value="330"/>
@@ -212,9 +224,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="166"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="359" name="Shining Dragon Armor">
 		<set name="crystal_count" value="902"/>
@@ -230,9 +243,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="301"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="360" name="Armor of Victory">
 		<set name="crystal_count" value="429"/>
@@ -248,9 +262,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="175"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="361" name="Breastplate of Valor">
 		<set name="crystal_count" value="617"/>
@@ -266,9 +281,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="185"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="362" name="Glorious Armor">
 		<set name="crystal_count" value="628"/>
@@ -284,9 +300,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="284"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="363" name="Red Flame Armor">
 		<set name="crystal_count" value="902"/>
@@ -302,9 +319,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="301"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="364" name="Elven Crystal Breastplate">
 		<set name="crystal_count" value="429"/>
@@ -320,9 +338,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="175"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="365" name="Dark Crystal Breastplate">
 		<set name="crystal_count" value="285"/>
@@ -338,9 +357,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="171"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="366" name="Implosion Armor">
 		<set name="crystal_count" value="628"/>
@@ -356,9 +376,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="284"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="367" name="Dark Dragon Armor">
 		<set name="crystal_count" value="902"/>
@@ -374,9 +395,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="301"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="368" name="Elven Vagian Armor">
 		<set name="crystal_count" value="628"/>
@@ -392,9 +414,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="284"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="369" name="Dark Vagian Armor">
 		<set name="crystal_count" value="902"/>
@@ -410,9 +433,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="301"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="370" name="Complete Set of Plate Armor">
 		<set name="crystal_count" value="628"/>
@@ -428,9 +452,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="284"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="371" name="Hell Plate">
 		<set name="crystal_count" value="902"/>
@@ -446,9 +471,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="301"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="372" name="Art of Plate">
 		<set name="crystal_count" value="628"/>
@@ -464,9 +490,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="284"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="373" name="Masterpiece Armor">
 		<set name="crystal_count" value="902"/>
@@ -482,9 +509,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="301"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="374" name="Armor of Nightmare">
 		<set name="crystal_count" value="704"/>
@@ -500,9 +528,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="293"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="375" name="Dragon Scale Mail">
 		<set name="crystal_count" value="525"/>
@@ -521,9 +550,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="198"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="376" name="Iron Plate Gaiters">
 		<set name="crystal_count" value="74"/>
@@ -539,9 +569,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="48"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="377" name="Scale Gaiters">
 		<set name="crystal_count" value="118"/>
@@ -557,9 +588,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="54"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="378" name="Compound Scale Gaiters">
 		<set name="crystal_count" value="180"/>
@@ -575,9 +607,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="379" name="Dwarven Scale Gaiters">
 		<set name="crystal_count" value="180"/>
@@ -593,9 +626,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="380" name="Plate Gaiters">
 		<set name="crystal_count" value="347"/>
@@ -611,9 +645,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="70"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="381" name="Chain Gaiters">
 		<set name="crystal_count" value="97"/>
@@ -629,9 +664,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="75"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="382" name="Dwarven Chain Gaiters">
 		<set name="crystal_count" value="124"/>
@@ -647,9 +683,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="80"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="383" name="Zubei's Gaiters">
 		<set name="crystal_count" value="133"/>
@@ -665,9 +702,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="98"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="384" name="Wolf Gaiters">
 		<set name="crystal_count" value="268"/>
@@ -683,9 +721,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="109"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="385" name="Gaiters of Victory">
 		<set name="crystal_count" value="268"/>
@@ -701,9 +740,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="109"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="386" name="Gaiters of Valor">
 		<set name="crystal_count" value="385"/>
@@ -719,9 +759,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="116"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="387" name="Elven Crystal Gaiters">
 		<set name="crystal_count" value="268"/>
@@ -737,9 +778,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="109"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="388" name="Dark Crystal Gaiters">
 		<set name="crystal_count" value="178"/>
@@ -755,9 +797,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="107"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="389" name="Dragon Scale Gaiters">
 		<set name="crystal_count" value="299"/>
@@ -776,9 +819,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="122"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="390" name="Cotton Shirt">
 		<set name="crystal_type" value="NONE"/>
@@ -792,7 +836,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="50"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -810,9 +854,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="58"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="392" name="Lion Skin Shirt">
 		<set name="crystal_count" value="142"/>
@@ -828,9 +873,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="65"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="393" name="Mithril Banded Mail">
 		<set name="crystal_count" value="216"/>
@@ -846,9 +892,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="73"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="394" name="Reinforced Leather Shirt">
 		<set name="crystal_count" value="216"/>
@@ -864,9 +911,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="73"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="395" name="Manticore Skin Shirt">
 		<set name="crystal_count" value="318"/>
@@ -882,9 +930,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="77"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="396" name="Salamander Skin Mail">
 		<set name="crystal_count" value="677"/>
@@ -900,9 +949,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="136"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="397" name="Mithril Shirt">
 		<set name="crystal_count" value="116"/>
@@ -918,9 +968,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="90"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="398" name="Plated Leather">
 		<set name="crystal_count" value="137"/>
@@ -936,9 +987,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="94"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="399" name="Rind Leather Armor">
 		<set name="crystal_count" value="149"/>
@@ -954,8 +1006,9 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="97"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

@@ -26,8 +26,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18601" name="Requiem Shooter" add_name="Haste">
@@ -55,8 +55,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18602" name="Requiem Buster" add_name="Acumen">
@@ -83,8 +83,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18603" name="Requiem Buster" add_name="Magic Hold">
@@ -111,8 +111,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18604" name="Requiem Buster" add_name="Mana Up">
@@ -139,8 +139,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18605" name="Requiem Caster" add_name="Empower">
@@ -167,8 +167,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18606" name="Requiem Caster" add_name="Acumen">
@@ -195,8 +195,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18607" name="Requiem Caster" add_name="Magic Hold">
@@ -223,8 +223,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18608" name="Requiem Retributer" add_name="MP Regeneration">
@@ -252,8 +252,8 @@
 			<add stat="mAtk" order="0x10" value="270"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18609" name="Requiem Retributer" add_name="Acumen">
@@ -281,8 +281,8 @@
 			<add stat="mAtk" order="0x10" value="270"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18610" name="Requiem Retributer" add_name="Empower">
@@ -310,8 +310,8 @@
 			<add stat="mAtk" order="0x10" value="270"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18611" name="Requiem Dual Sword" add_name="Haste">
@@ -338,8 +338,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18612" name="Requiem Dual Sword" add_name="Damage">
@@ -366,8 +366,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18613" name="Requiem Dual Sword" add_name="Health">
@@ -394,8 +394,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18614" name="Requiem Dual Dagger" add_name="Damage">
@@ -422,8 +422,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18615" name="Requiem Dual Dagger" add_name="Focus">
@@ -450,8 +450,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18616" name="Requiem Dual Dagger" add_name="Guidance">
@@ -478,8 +478,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18617" name="Requiem Dual Blunt Weapon" add_name="Focus">
@@ -505,8 +505,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18618" name="Requiem Dual Blunt Weapon" add_name="Guidance">
@@ -532,8 +532,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18619" name="Requiem Dual Blunt Weapon" add_name="Damage">
@@ -559,8 +559,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18620" name="Bound Requiem Shaper" add_name="Guidance">
@@ -590,8 +590,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18621" name="Bound Requiem Shaper" add_name="Haste">
@@ -621,8 +621,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18622" name="Bound Requiem Shaper" add_name="Focus ">
@@ -652,8 +652,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18623" name="Bound Requiem Cutter" add_name="Haste">
@@ -682,8 +682,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18624" name="Bound Requiem Cutter" add_name="Focus">
@@ -712,8 +712,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18625" name="Bound Requiem Cutter" add_name="Health">
@@ -742,8 +742,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18626" name="Bound Requiem Slasher" add_name="Focus">
@@ -771,8 +771,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18627" name="Bound Requiem Slasher" add_name="Damage">
@@ -800,8 +800,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18628" name="Bound Requiem Slasher" add_name="Haste">
@@ -829,8 +829,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18629" name="Bound Requiem Avenger" add_name="Haste">
@@ -858,8 +858,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18630" name="Bound Requiem Avenger" add_name="Critical Damage">
@@ -887,8 +887,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18631" name="Bound Requiem Avenger" add_name="Focus">
@@ -916,8 +916,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18632" name="Bound Requiem Fighter" add_name="Focus">
@@ -945,8 +945,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18633" name="Bound Requiem Fighter" add_name="Damage">
@@ -974,8 +974,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18634" name="Bound Requiem Fighter" add_name="Haste">
@@ -1003,8 +1003,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18635" name="Bound Requiem Stormer" add_name="HP Drain">
@@ -1029,8 +1029,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18636" name="Bound Requiem Stormer" add_name="Guidance">
@@ -1058,8 +1058,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18637" name="Bound Requiem Stormer" add_name="Damage">
@@ -1087,8 +1087,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18638" name="Bound Requiem Thrower" add_name="Damage">
@@ -1117,8 +1117,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18639" name="Bound Requiem Thrower" add_name="Focus">
@@ -1147,8 +1147,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18640" name="Bound Requiem Thrower" add_name="Long Blow">
@@ -1174,8 +1174,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18641" name="Bound Requiem Shooter" add_name="Focus">
@@ -1204,8 +1204,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18642" name="Bound Requiem Shooter" add_name="Critical Slow">
@@ -1234,8 +1234,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18643" name="Bound Requiem Shooter" add_name="Haste">
@@ -1264,8 +1264,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18644" name="Bound Requiem Buster" add_name="Acumen">
@@ -1293,8 +1293,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18645" name="Bound Requiem Buster" add_name="Magic Hold">
@@ -1319,8 +1319,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18646" name="Bound Requiem Buster" add_name="Mana Up">
@@ -1348,8 +1348,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18647" name="Bound Requiem Caster" add_name="Empower">
@@ -1377,8 +1377,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18648" name="Bound Requiem Caster" add_name="Acumen">
@@ -1406,8 +1406,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18649" name="Bound Requiem Caster" add_name="Magic Hold">
@@ -1432,8 +1432,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18650" name="Bound Requiem Retributer" add_name="MP Regeneration">
@@ -1458,8 +1458,8 @@
 			<add stat="mAtk" order="0x10" value="270"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18651" name="Bound Requiem Retributer" add_name="Acumen">
@@ -1487,8 +1487,8 @@
 			<add stat="mAtk" order="0x10" value="270"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18652" name="Bound Requiem Retributer" add_name="Empower">
@@ -1516,8 +1516,8 @@
 			<add stat="mAtk" order="0x10" value="270"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18653" name="Bound Requiem Dual Sword" add_name="Haste">
@@ -1545,8 +1545,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18654" name="Bound Requiem Dual Sword" add_name="Damage">
@@ -1574,8 +1574,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18655" name="Bound Requiem Dual Sword" add_name="Health">
@@ -1603,8 +1603,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18656" name="Bound Requiem Dual Dagger" add_name="Damage">
@@ -1632,8 +1632,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18657" name="Bound Requiem Dual Dagger" add_name="Focus">
@@ -1661,8 +1661,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18658" name="Bound Requiem Dual Dagger" add_name="Guidance">
@@ -1690,8 +1690,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18659" name="Bound Requiem Dual Blunt Weapon" add_name="Focus">
@@ -1718,8 +1718,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18660" name="Bound Requiem Dual Blunt Weapon" add_name="Guidance">
@@ -1746,8 +1746,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18661" name="Bound Requiem Dual Blunt Weapon" add_name="Damage">
@@ -1774,8 +1774,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18662" name="Blessed Requiem Shaper" add_name="Guidance">
@@ -1793,7 +1793,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3008" level="6"/>
 		</skills>
@@ -1804,8 +1803,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18663" name="Blessed Requiem Shaper" add_name="Haste">
@@ -1823,7 +1822,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 		</skills>
@@ -1834,8 +1832,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18664" name="Blessed Requiem Shaper" add_name="Focus ">
@@ -1853,7 +1851,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 		</skills>
@@ -1864,8 +1861,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18665" name="Blessed Requiem Cutter" add_name="Haste">
@@ -1878,7 +1875,6 @@
 		</equip>
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
-		<set name="isBlessed" value="true"/>
 		<set name="crystal_type" value="R"/>
 		<set name="crystal_count" value="749"/>
 		<set name="crystallizable" value="true"/>
@@ -1893,8 +1889,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18666" name="Blessed Requiem Cutter" add_name="Focus">
@@ -1907,7 +1903,6 @@
 		</equip>
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
-		<set name="isBlessed" value="true"/>
 		<set name="crystal_type" value="R"/>
 		<set name="crystal_count" value="749"/>
 		<set name="crystallizable" value="true"/>
@@ -1922,8 +1917,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18667" name="Blessed Requiem Cutter" add_name="Health">
@@ -1936,7 +1931,6 @@
 		</equip>
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
-		<set name="isBlessed" value="true"/>
 		<set name="crystal_type" value="R"/>
 		<set name="crystal_count" value="749"/>
 		<set name="crystallizable" value="true"/>
@@ -1951,8 +1945,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18668" name="Blessed Requiem Slasher" add_name="Focus">
@@ -1968,7 +1962,6 @@
 		<set name="crystal_type" value="R"/>
 		<set name="crystal_count" value="749"/>
 		<set name="crystallizable" value="true"/>
-		<set name="isBlessed" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1980,8 +1973,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18669" name="Blessed Requiem Slasher" add_name="Damage">
@@ -1999,7 +1992,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="13062" level="1"/>
 		</skills>
@@ -2009,8 +2001,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18670" name="Blessed Requiem Slasher" add_name="Haste">
@@ -2028,7 +2020,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 		</skills>
@@ -2038,8 +2029,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18671" name="Blessed Requiem Avenger" add_name="Haste">
@@ -2057,7 +2048,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 		</skills>
@@ -2067,8 +2057,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18672" name="Blessed Requiem Avenger" add_name="Critical Damage">
@@ -2076,7 +2066,6 @@
 		<set name="icon" value="icon.weapon_batista_i01"/>
 		<set name="weight" value="1740"/>
 		<set name="rnd_dam" value="20"/>
-		<set name="isBlessed" value="true"/>
 		<equip>
 			<slot id="RIGHT_HAND"/>
 		</equip>
@@ -2096,8 +2085,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18673" name="Blessed Requiem Avenger" add_name="Focus">
@@ -2110,7 +2099,6 @@
 		</equip>
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
-		<set name="isBlessed" value="true"/>
 		<set name="crystal_type" value="R"/>
 		<set name="crystal_count" value="749"/>
 		<set name="crystallizable" value="true"/>
@@ -2125,8 +2113,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18674" name="Blessed Requiem Fighter" add_name="Focus">
@@ -2144,7 +2132,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 		</skills>
@@ -2154,8 +2141,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18675" name="Blessed Requiem Fighter" add_name="Damage">
@@ -2173,7 +2160,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="13062" level="1"/>
 		</skills>
@@ -2183,8 +2169,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18676" name="Blessed Requiem Fighter" add_name="Haste">
@@ -2200,7 +2186,6 @@
 		<set name="crystal_type" value="R"/>
 		<set name="crystal_count" value="749"/>
 		<set name="crystallizable" value="true"/>
-		<set name="isBlessed" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -2212,8 +2197,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18677" name="Blessed Requiem Stormer" add_name="HP Drain">
@@ -2229,7 +2214,6 @@
 		<set name="crystal_type" value="R"/>
 		<set name="crystal_count" value="749"/>
 		<set name="crystallizable" value="true"/>
-		<set name="isBlessed" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -2241,8 +2225,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18678" name="Blessed Requiem Stormer" add_name="Guidance">
@@ -2258,7 +2242,6 @@
 		<set name="crystal_type" value="R"/>
 		<set name="crystal_count" value="749"/>
 		<set name="crystallizable" value="true"/>
-		<set name="isBlessed" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -2270,8 +2253,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18679" name="Blessed Requiem Stormer" add_name="Damage">
@@ -2287,7 +2270,6 @@
 		<set name="crystal_type" value="R"/>
 		<set name="crystal_count" value="749"/>
 		<set name="crystallizable" value="true"/>
-		<set name="isBlessed" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -2299,8 +2281,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18680" name="Blessed Requiem Thrower" add_name="Damage">
@@ -2318,7 +2300,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="13062" level="1"/>
 		</skills>
@@ -2329,8 +2310,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18681" name="Blessed Requiem Thrower" add_name="Focus">
@@ -2348,7 +2329,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 		</skills>
@@ -2359,8 +2339,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18682" name="Blessed Requiem Thrower" add_name="Long Blow">
@@ -2378,7 +2358,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="13061" level="1"/>
 		</skills>
@@ -2389,8 +2368,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18683" name="Blessed Requiem Shooter" add_name="Focus">
@@ -2408,7 +2387,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 		</skills>
@@ -2419,8 +2397,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18684" name="Blessed Requiem Shooter" add_name="Critical Slow">
@@ -2438,7 +2416,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3655" level="1"/>
 		</skills>
@@ -2449,8 +2426,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18685" name="Blessed Requiem Shooter" add_name="Haste">
@@ -2468,7 +2445,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 		</skills>
@@ -2479,8 +2455,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18686" name="Blessed Requiem Buster" add_name="Acumen">
@@ -2498,7 +2474,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3047" level="3"/>
 		</skills>
@@ -2508,8 +2483,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18687" name="Blessed Requiem Buster" add_name="Magic Hold">
@@ -2527,7 +2502,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3577" level="1"/>
 		</skills>
@@ -2537,8 +2511,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18688" name="Blessed Requiem Buster" add_name="Mana Up">
@@ -2556,7 +2530,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3014" level="3"/>
 		</skills>
@@ -2566,8 +2539,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18689" name="Blessed Requiem Caster" add_name="Empower">
@@ -2585,7 +2558,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3575" level="2"/>
 		</skills>
@@ -2595,8 +2567,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18690" name="Blessed Requiem Caster" add_name="Acumen">
@@ -2614,7 +2586,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3047" level="3"/>
 		</skills>
@@ -2624,8 +2595,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18691" name="Blessed Requiem Caster" add_name="Magic Hold">
@@ -2643,7 +2614,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3577" level="2"/>
 		</skills>
@@ -2653,8 +2623,8 @@
 			<add stat="mAtk" order="0x10" value="245"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18692" name="Blessed Requiem Retributer" add_name="MP Regeneration">
@@ -2673,7 +2643,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3576" level="2"/>
 		</skills>
@@ -2683,8 +2652,8 @@
 			<add stat="mAtk" order="0x10" value="270"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18693" name="Blessed Requiem Retributer" add_name="Acumen">
@@ -2703,7 +2672,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3047" level="3"/>
 		</skills>
@@ -2713,8 +2681,8 @@
 			<add stat="mAtk" order="0x10" value="270"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18694" name="Blessed Requiem Retributer" add_name="Empower">
@@ -2733,7 +2701,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3575" level="2"/>
 		</skills>
@@ -2743,8 +2710,8 @@
 			<add stat="mAtk" order="0x10" value="270"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18695" name="Blessed Requiem Dual Sword" add_name="Haste">
@@ -2762,7 +2729,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 		</skills>
@@ -2772,8 +2738,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18696" name="Blessed Requiem Dual Sword" add_name="Damage">
@@ -2791,7 +2757,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="13062" level="1"/>
 		</skills>
@@ -2801,8 +2766,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18697" name="Blessed Requiem Dual Sword" add_name="Health">
@@ -2820,7 +2785,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3013" level="5"/>
 		</skills>
@@ -2830,8 +2794,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18698" name="Blessed Requiem Dual Dagger" add_name="Damage">
@@ -2849,7 +2813,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="13062" level="1"/>
 		</skills>
@@ -2859,8 +2822,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="18699" name="Blessed Requiem Dual Dagger" add_name="Focus">
@@ -2878,7 +2841,6 @@
 		<set name="crystallizable" value="true"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
-		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 		</skills>
@@ -2888,8 +2850,8 @@
 			<add stat="mAtk" order="0x10" value="186"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 </list>

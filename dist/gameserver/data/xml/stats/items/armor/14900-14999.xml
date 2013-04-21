@@ -18,9 +18,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14923" name="Ordinary Magic Rune Clip Iron Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -39,9 +40,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14924" name="High-grade Magic Rune Clip Iron Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -60,9 +62,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14925" name="Top-grade Magic Rune Clip Iron Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -81,9 +84,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14926" name="Low-grade Magic Rune Clip Mithril Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -102,9 +106,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14927" name="Ordinary Magic Rune Clip Mithril Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -123,9 +128,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14928" name="High-grade Magic Rune Clip Mithril Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -144,9 +150,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14929" name="Top-grade Magic Rune Clip Mithril Belt" add_name="HP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -165,9 +172,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14930" name="Low-grade Magic Rune Clip Iron Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -186,9 +194,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14931" name="Ordinary Magic Rune Clip Iron Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -207,9 +216,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14932" name="High-grade Magic Rune Clip Iron Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -228,9 +238,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14933" name="Top-grade Magic Rune Clip Iron Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="30"/>
@@ -249,9 +260,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14934" name="Low-grade Magic Rune Clip Mithril Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -270,9 +282,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14935" name="Ordinary Magic Rune Clip Mithril Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -291,9 +304,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14936" name="High-grade Magic Rune Clip Mithril Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -312,9 +326,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14937" name="Top-grade Magic Rune Clip Mithril Belt" add_name="MP Recovery">
 		<set name="crystal_count" value="92"/>
@@ -333,9 +348,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14938" name="Low-grade Magic Ornament Iron Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="30"/>
@@ -354,9 +370,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14939" name="Regular Magic Ornament Iron Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="30"/>
@@ -375,9 +392,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14940" name="High-grade Magic Ornament Iron Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="30"/>
@@ -396,9 +414,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14941" name="Top-grade Magic Ornament Iron Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="30"/>
@@ -417,9 +436,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14942" name="Low-grade Magic Ornament Iron Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="30"/>
@@ -438,9 +458,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14943" name="Regular Magic Ornament Iron Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="30"/>
@@ -459,9 +480,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14944" name="High-grade Magic Ornament Iron Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="30"/>
@@ -480,9 +502,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14945" name="Top-grade Magic Ornament Iron Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="30"/>
@@ -501,9 +524,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14946" name="Low-grade Magic Ornament Iron Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="30"/>
@@ -522,9 +546,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14947" name="Regular Magic Ornament Iron Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="30"/>
@@ -543,9 +568,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14948" name="High-grade Magic Ornament Iron Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="30"/>
@@ -564,9 +590,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14949" name="Top-grade Magic Ornament Iron Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="30"/>
@@ -585,9 +612,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14950" name="Low-grade Magic Ornament Mithril Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="92"/>
@@ -606,9 +634,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14951" name="Regular Magic Ornament Mithril Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="92"/>
@@ -627,9 +656,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14952" name="High-grade Magic Ornament Mithril Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="92"/>
@@ -648,9 +678,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14953" name="Top-grade Magic Ornament Mithril Belt" add_name="PvP Physical Attack">
 		<set name="crystal_count" value="92"/>
@@ -669,9 +700,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14954" name="Low-grade Magic Ornament Mithril Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="92"/>
@@ -690,9 +722,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14955" name="Regular Magic Ornament Mithril Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="92"/>
@@ -711,9 +744,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14956" name="High-grade Magic Ornament Mithril Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="92"/>
@@ -732,9 +766,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14957" name="Top-grade Magic Ornament Mithril Belt" add_name="PvP Skill Attack">
 		<set name="crystal_count" value="92"/>
@@ -753,9 +788,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14958" name="Low-grade Magic Ornament Mithril Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="92"/>
@@ -774,9 +810,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14959" name="Regular Magic Ornament Mithril Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="92"/>
@@ -795,9 +832,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14960" name="High-grade Magic Ornament Mithril Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="92"/>
@@ -816,9 +854,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14961" name="Top-grade Magic Ornament Mithril Belt" add_name="PVP Defense">
 		<set name="crystal_count" value="92"/>
@@ -837,9 +876,10 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14962" name="Gold Skeleton Circlet">
 		<set name="crystal_type" value="NONE"/>
@@ -904,7 +944,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="63"/>
 			<add stat="maxMp" order="0x10" value="25"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14967" name="Majestic Necklace of Friendship" add_name="30 day limited period">
@@ -925,7 +965,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="85"/>
 			<add stat="maxMp" order="0x10" value="33"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14968" name="Majestic Ring of Friendship" add_name="30 day limited period">
@@ -947,7 +987,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="42"/>
 			<add stat="maxMp" order="0x10" value="17"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14969" name="Friendship Earring of Black Ore" add_name="30 day limited period">
@@ -968,7 +1008,7 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="54"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14970" name="Friendship Necklace of Black Ore" add_name="30 day limited period">
@@ -988,7 +1028,7 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="72"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14971" name="Friendship Ring of Black Ore" add_name="30 day limited period">
@@ -1009,7 +1049,7 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="36"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14972" name="Friendship Earring of Binding" add_name="30 day limited period">
@@ -1030,7 +1070,7 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="45"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14973" name="Friendship Necklace of Binding" add_name="30 day limited period">
@@ -1050,7 +1090,7 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="64"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14974" name="Friendship Ring of Binding" add_name="30 day limited period">
@@ -1071,7 +1111,7 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="32"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14975" name="Elven Earring of Friendship" add_name="30 day limited period">
@@ -1092,7 +1132,7 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="34"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14976" name="Elven Earring of Friendship" add_name="30 day limited period">
@@ -1112,7 +1152,7 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="45"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14977" name="Elven Ring of Friendship" add_name="30 day limited period">
@@ -1133,7 +1173,7 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="22"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14978" name="Dark Crystal Robe of Friendship" add_name="30 day limited period">
@@ -1154,7 +1194,7 @@
 		<for>
 			<add stat="pDef" order="0x10" value="139"/>
 			<add stat="maxMp" order="0x10" value="665"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1175,7 +1215,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="69"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1196,7 +1236,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="46"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1217,7 +1257,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="46"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1239,7 +1279,7 @@
 		<for>
 			<add stat="pDef" order="0x10" value="127"/>
 			<add stat="maxMp" order="0x10" value="561"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1260,7 +1300,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="62"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1281,7 +1321,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1302,7 +1342,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1324,7 +1364,7 @@
 		<for>
 			<add stat="pDef" order="0x10" value="60"/>
 			<add stat="maxMp" order="0x10" value="225"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1346,7 +1386,7 @@
 		<for>
 			<add stat="pDef" order="0x10" value="37"/>
 			<add stat="maxMp" order="0x10" value="141"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1367,7 +1407,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="32"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1388,7 +1428,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="32"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1410,7 +1450,7 @@
 		<for>
 			<add stat="pDef" order="0x10" value="52"/>
 			<add stat="maxMp" order="0x10" value="169"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1432,7 +1472,7 @@
 		<for>
 			<add stat="pDef" order="0x10" value="32"/>
 			<add stat="maxMp" order="0x10" value="105"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1453,7 +1493,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="27"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1474,7 +1514,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="27"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1495,7 +1535,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="128"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1516,7 +1556,7 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="80"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1537,7 +1577,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="46"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -1558,7 +1598,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="46"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>

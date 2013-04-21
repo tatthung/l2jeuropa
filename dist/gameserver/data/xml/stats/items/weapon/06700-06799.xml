@@ -22,8 +22,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6716" name="Monster Only(Silenos Shaman)">
@@ -46,8 +46,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6717" name="Monster Only(Einhasad Warrior)">
@@ -68,8 +68,8 @@
 			<add stat="mAtk" order="0x10" value="17"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6718" name="Monster Only(Einhasad Shaman)">
@@ -91,8 +91,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6719" name="Monster Only(Ketra Orc Chieftain)">
@@ -118,8 +118,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6720" name="Monster Only(Shadow of Halisha)">
@@ -143,8 +143,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6721" name="Monster Only(Shield of Imperial Warlord Zombie)">
@@ -190,8 +190,8 @@
 			<add stat="mAtk" order="0x10" value="99"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6723" name="Monster Only(Vampire Warrior)">
@@ -215,8 +215,8 @@
 			<add stat="mAtk" order="0x10" value="54"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 </list>

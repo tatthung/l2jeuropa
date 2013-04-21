@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="10793" name="Armor of Nightmare {PvP}">
 		<set name="attributable" value="false"/>
@@ -19,9 +20,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="293"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10794" name="Majestic Plate Armor {PvP}">
 		<set name="attributable" value="false"/>
@@ -42,9 +44,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="293"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10795" name="Nightmarish Leather Armor {PvP}">
 		<set name="attributable" value="false"/>
@@ -65,9 +68,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="220"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10796" name="Majestic Leather Armor {PvP}">
 		<set name="attributable" value="false"/>
@@ -88,9 +92,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="220"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10797" name="Robe of Nightmare {PvP}">
 		<set name="attributable" value="false"/>
@@ -112,9 +117,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="147"/>
 			<add stat="maxMp" order="0x10" value="718"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10798" name="Majestic Robe {PvP}">
 		<set name="attributable" value="false"/>
@@ -136,9 +142,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="147"/>
 			<add stat="maxMp" order="0x10" value="718"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10799" name="Imperial Crusader Breastplate {PvP}">
 		<set name="attributable" value="false"/>
@@ -159,8 +166,9 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="205"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

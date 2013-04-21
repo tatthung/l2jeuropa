@@ -21,8 +21,8 @@
 			<add stat="mAtk" order="0x10" value="17"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13770" name="Shadow Item - Shield of Yehan Miakesh">
@@ -76,8 +76,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13790" name="Blue Boing Hammer">
@@ -104,8 +104,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13791" name="Small Red Boing Hammer">
@@ -129,8 +129,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13792" name="Small Blue Boing Hammer">
@@ -154,8 +154,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 </list>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="22154" name="Shadow Weapon - Wolf Hat " add_name="Blessed Escape">
 		<set name="crystal_type" value="NONE"/>
@@ -279,8 +280,9 @@
 		<for>
 			<add stat="mDef" order="0x10" value="48"/>
 			<add stat="maxMp" order="0x10" value="21"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="22174" name="Greater Queen Ant's Ring">
 		<set name="crystal_count" value="82"/>
@@ -302,8 +304,9 @@
 		<for>
 			<add stat="mDef" order="0x10" value="48"/>
 			<add stat="maxMp" order="0x10" value="21"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="22175" name="Greater Blessed Earring of Zaken">
 		<set name="crystal_type" value="S80"/>
@@ -322,7 +325,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="94"/>
 			<add stat="maxMp" order="0x10" value="37"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="22183" name="Graduation Cap">

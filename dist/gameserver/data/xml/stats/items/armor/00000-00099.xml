@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="21" name="Shirt">
 		<set name="crystal_type" value="NONE"/>
@@ -13,9 +14,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="36"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="22" name="Leather Shirt">
@@ -31,9 +32,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="43"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="23" name="Wooden Breastplate">
@@ -49,9 +50,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="47"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="24" name="Bone Breastplate">
@@ -67,9 +68,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="50"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="25" name="Piece Bone Breastplate">
@@ -85,9 +86,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="62"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="26" name="Bronze Breastplate">
@@ -103,9 +104,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="68"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="27" name="Hard Leather Shirt">
@@ -121,9 +122,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="53"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="28" name="Pants">
@@ -139,9 +140,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="22"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="29" name="Leather Pants">
@@ -157,9 +158,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="27"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="30" name="Hard Leather Pants">
@@ -175,9 +176,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="29"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="31" name="Bone Gaiters">
@@ -193,9 +194,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="32"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="32" name="Piece Bone Gaiters">
@@ -211,9 +212,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="39"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="33" name="Hard Leather Gaiters">
@@ -229,9 +230,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="33"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="34" name="Bronze Gaiters">
@@ -247,9 +248,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="43"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="35" name="Cloth Shoes">
@@ -265,9 +266,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="9"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="36" name="Leather Sandals">
@@ -283,9 +284,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="9"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="37" name="Leather Shoes">
@@ -301,9 +302,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="13"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="38" name="Low Boots">
@@ -319,9 +320,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="15"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="39" name="Boots">
@@ -337,9 +338,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="17"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="40" name="Leather Boots">
@@ -357,10 +358,11 @@
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="41" name="Cloth Cap">
 		<set name="crystal_type" value="NONE"/>
@@ -375,9 +377,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="13"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="42" name="Leather Cap">
@@ -393,9 +395,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="16"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="43" name="Wooden Helmet">
@@ -411,9 +413,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="44" name="Leather Helmet">
@@ -429,9 +431,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="23"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="45" name="Bone Helmet">
@@ -449,10 +451,11 @@
 		<for>
 			<add stat="pDef" order="0x10" value="29"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="46" name="Bronze Helmet">
 		<set name="crystal_count" value="71"/>
@@ -469,10 +472,11 @@
 		<for>
 			<add stat="pDef" order="0x10" value="33"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="47" name="Helmet">
 		<set name="crystal_count" value="108"/>
@@ -489,10 +493,11 @@
 		<for>
 			<add stat="pDef" order="0x10" value="37"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="48" name="Short Gloves">
 		<set name="crystal_type" value="NONE"/>
@@ -507,9 +512,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="9"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="49" name="Gloves">
@@ -525,9 +530,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="13"/>
 			<add stat="mDef" order="0x10" value="1"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="50" name="Leather Gloves">
@@ -542,7 +547,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="15"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -558,7 +563,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="17"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -576,9 +581,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="95"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="59" name="Mithril Gaiters">
 		<set name="crystal_count" value="180"/>
@@ -594,9 +600,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="60" name="Composite Armor">
 		<set name="crystal_count" value="491"/>
@@ -612,9 +619,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="224"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="61" name="Mithril Plate Gloves">
 		<set name="crystal_count" value="139"/>
@@ -630,9 +638,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="29"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="62" name="Mithril Boots">
 		<set name="crystal_count" value="39"/>
@@ -648,9 +657,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="32"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="63" name="Gauntlets">
 		<set name="crystal_count" value="72"/>
@@ -666,9 +676,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="24"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="64" name="Composite Boots">
 		<set name="crystal_count" value="76"/>
@@ -684,8 +695,9 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="36"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

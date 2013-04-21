@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="31206" name="Bound Brigandine Helmet">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -15,9 +16,10 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31208" name="Bound Brigandine Boots">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -34,9 +36,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="27"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31209" name="Bound Brigandine Gauntlets">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -53,9 +56,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="27"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31210" name="Bound Brigandine Gaiters">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -72,9 +76,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="64"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31211" name="Bound Brigandine">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -91,9 +96,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="103"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31212" name="Bound Gloves of Seal">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
@@ -110,9 +116,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="34"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31213" name="Bound Boots of Seal">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
@@ -129,9 +136,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="32"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31214" name="Bound Ring of Seal">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
@@ -149,10 +157,11 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="32"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31215" name="Bound Necklace of Seal">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
@@ -169,10 +178,11 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="64"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31216" name="Bound Robe of Seal">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
@@ -189,9 +199,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="105"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31217" name="Bound Earring of Seal">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
@@ -209,11 +220,12 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="45"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31218" name="Bound Earring of Seal">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
@@ -231,10 +243,11 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="45"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31277" name="Bound Mithril Breastplate">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -251,9 +264,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="95"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31278" name="Bound Mithril Stockings">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -270,9 +284,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="32"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31279" name="Bound Mithril Stockings">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -287,7 +302,7 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="32"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -306,9 +321,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="52"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31281" name="Bound Mithril Tunic">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -323,7 +339,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="52"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -342,9 +358,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="29"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31283" name="Bound Mithril Gloves">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -359,7 +376,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="29"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -378,9 +395,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="64"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31285" name="Bound Mithril Banded Mail">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -397,9 +415,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="73"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31286" name="Bound Mithril Banded Gaiters">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -416,9 +435,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="46"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31287" name="Bound Mithril Ring">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -436,10 +456,11 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="24"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31289" name="Bound Mithril Gauntlets">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
@@ -456,9 +477,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="36"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31290" name="Bound Mithril Gaiters">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -475,9 +497,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31291" name="Bound Moonstone Earring">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
@@ -495,10 +518,11 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="39"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31292" name="Bound Moonstone Earring">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
@@ -516,10 +540,11 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="39"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31293" name="Bound Linen Shirt">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
@@ -536,9 +561,10 @@
 		<set name="ex_type" value="UNDERWEAR"/>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31296" name="Bound Major Arcana Circlet">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="S"/>
@@ -555,9 +581,10 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="83"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31297" name="Bound Major Arcana Boots">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="S"/>
@@ -574,9 +601,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="55"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31298" name="Bound Major Arcana Robe">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="S"/>
@@ -593,9 +621,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="166"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="31299" name="Bound Major Arcana Gloves">		<!--Done By Darvin (c)Java-Team/Updated by Maleiva2013 -->
 		<set name="crystal_type" value="S"/>
@@ -612,8 +641,9 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="55"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

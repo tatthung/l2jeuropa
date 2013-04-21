@@ -18,8 +18,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6530" name="Albatross Rod">
@@ -40,8 +40,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6531" name="Pelican Rod">
@@ -62,8 +62,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6532" name="KingFisher Rod">
@@ -84,8 +84,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6533" name="Cygnus Pole">
@@ -106,8 +106,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6534" name="Triton Pole">
@@ -128,8 +128,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6579" name="Arcana Mace">
@@ -154,8 +154,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6580" name="Tallum Blade*Dark Legion's Edge">
@@ -183,8 +183,8 @@
 			<add stat="mAtk" order="0x10" value="132"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6581" name="Forgotten Blade" add_name="Haste">
@@ -211,8 +211,8 @@
 			<add stat="mAtk" order="0x10" value="132"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6582" name="Forgotten Blade" add_name="Health">
@@ -239,8 +239,8 @@
 			<add stat="mAtk" order="0x10" value="132"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6583" name="Forgotten Blade" add_name="Focus">
@@ -267,8 +267,8 @@
 			<add stat="mAtk" order="0x10" value="132"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6584" name="Basalt Battlehammer" add_name="HP Drain">
@@ -295,8 +295,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6585" name="Basalt Battlehammer" add_name="Health">
@@ -323,8 +323,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6586" name="Basalt Battlehammer" add_name="HP Regeneration">
@@ -351,8 +351,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6587" name="Imperial Staff" add_name="Empower">
@@ -380,8 +380,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6588" name="Imperial Staff" add_name="MP Regeneration">
@@ -409,8 +409,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6589" name="Imperial Staff" add_name="Magic Hold">
@@ -441,8 +441,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6590" name="Angel Slayer" add_name="Critical Damage">
@@ -469,8 +469,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6591" name="Angel Slayer" add_name="HP Drain">
@@ -497,8 +497,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6592" name="Angel Slayer" add_name="Haste">
@@ -525,8 +525,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6593" name="Shining Bow" add_name="Cheap Shot">
@@ -552,8 +552,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 			<set stat="cheapShot" order="0x08" value="2"/>
 			<set stat="cheapShotChance" order="0x08" value="38"/>
 		</for>
@@ -581,8 +581,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6595" name="Shining Bow" add_name="Critical Slow">
@@ -611,8 +611,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6596" name="Dragon Hunter Axe" add_name="HP Regeneration">
@@ -639,8 +639,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6597" name="Dragon Hunter Axe" add_name="Health">
@@ -667,8 +667,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6598" name="Dragon Hunter Axe" add_name="HP Drain">
@@ -695,8 +695,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="6599" name="Saint Spear" add_name="Health">
@@ -723,8 +723,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
 		</for>
 	</weapon>
 </list>

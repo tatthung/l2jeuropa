@@ -579,10 +579,6 @@ public abstract class ItemTemplate extends StatTemplate
 	 */
 	private final boolean _temporal;
 	/**
-	 * Field _isBlessed.
-	 */
-	private final boolean _isBlessedEquipment;
-	/**
 	 * Field _stackable.
 	 */
 	private final boolean _stackable;
@@ -670,7 +666,6 @@ public abstract class ItemTemplate extends StatTemplate
 		_weight = set.getInteger("weight", 0);
 		_crystallizable = set.getBool("crystallizable", false);
 		_stackable = set.getBool("stackable", false);
-		_isBlessedEquipment = set.getBool("isBlessed", false);
 		_crystalType = set.getEnum("crystal_type", Grade.class, Grade.NONE);
 		_durability = set.getInteger("durability", -1);
 		_temporal = set.getBool("temporal", false);
@@ -748,16 +743,6 @@ public abstract class ItemTemplate extends StatTemplate
 	public final boolean isTemporal()
 	{
 		return _temporal;
-	}
-
-	
-	/**
-	 * Method isTemporal.
-	 * @return boolean
-	 */
-	public final boolean isBlessedEquipment()
-	{
-		return _isBlessedEquipment;
 	}
 	
 	/**
@@ -1542,7 +1527,7 @@ public abstract class ItemTemplate extends StatTemplate
 	{
 		if (_enchantOptions.isEmpty())
 		{
-			_enchantOptions = new HashIntObjectMap<int[]>();
+			_enchantOptions = new HashIntObjectMap<>();
 		}
 		_enchantOptions.put(level, options);
 	}

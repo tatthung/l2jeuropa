@@ -14,10 +14,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="93"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
-			<enchant stat="runSpd" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17402" name="Seraph Leather Helmet" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -32,11 +32,10 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="139"/>
-			<enchant stat="rEvas" order="0x40" value="0"/>
-			<enchant stat="mEvas" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17403" name="Seraph Leather Armor" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -51,11 +50,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="278"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17404" name="Seraph Leather Legging" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -70,11 +68,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="173"/>
-			<enchant stat="rCrit" order="0x40" value="0"/>
-			<enchant stat="mCritRate" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17405" name="Seraph Leather Gloves" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -89,11 +86,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="93"/>
-			<enchant stat="accCombat" order="0x40" value="0"/>
-			<enchant stat="maccCombat" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17406" name="Seraph Leather Boots" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -108,10 +104,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="93"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
-			<enchant stat="runSpd" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17407" name="Seraph Circlet" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -126,11 +122,10 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="139"/>
-			<enchant stat="rEvas" order="0x40" value="0"/>
-			<enchant stat="mEvas" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17408" name="Seraph Tunic" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -145,11 +140,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="185"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17409" name="Seraph Stockings" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -164,11 +158,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="116"/>
-			<enchant stat="rCrit" order="0x40" value="0"/>
-			<enchant stat="mCritRate" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17410" name="Seraph Gloves" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -183,11 +176,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="93"/>
-			<enchant stat="accCombat" order="0x40" value="0"/>
-			<enchant stat="maccCombat" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17411" name="Seraph Shoes" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -202,10 +194,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="93"/>
-			<enchant stat="runSpd" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17412" name="Seraph Sigil" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -220,9 +212,10 @@
 		</equip>
 		<for>
 			<add stat="pDef" order="0x10" value="23"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17413" name="Seraph Necklace">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -237,10 +230,11 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="158"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17414" name="Seraph Earring">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -256,10 +250,11 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="118"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17415" name="Seraph Ring">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
@@ -275,10 +270,11 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="79"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17430" name="Eternal Helmet" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -293,11 +289,10 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="144"/>
-			<enchant stat="rEvas" order="0x40" value="0"/>
-			<enchant stat="mEvas" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17431" name="Eternal Breastplate" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -312,11 +307,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="385"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17432" name="Eternal Gaiters" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -331,11 +325,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="241"/>
-			<enchant stat="rCrit" order="0x40" value="0"/>
-			<enchant stat="mCritRate" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17433" name="Eternal Gauntlet" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -350,11 +343,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="96"/>
-			<enchant stat="accCombat" order="0x40" value="0"/>
-			<enchant stat="maccCombat" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17434" name="Eternal Boots" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -369,10 +361,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="96"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
-			<enchant stat="runSpd" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17436" name="Eternal Leather Helmet" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -387,11 +379,10 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="144"/>
-			<enchant stat="rEvas" order="0x40" value="0"/>
-			<enchant stat="mEvas" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17437" name="Eternal Leather Armor" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -406,11 +397,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="289"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17438" name="Eternal Leather Legging" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -425,11 +415,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="181"/>
-			<enchant stat="rCrit" order="0x40" value="0"/>
-			<enchant stat="mCritRate" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17439" name="Eternal Leather Gloves" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -444,11 +433,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="96"/>
-			<enchant stat="accCombat" order="0x40" value="0"/>
-			<enchant stat="maccCombat" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17440" name="Eternal Leather Boots" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -463,10 +451,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="96"/>
-			<enchant stat="runSpd" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17441" name="Eternal Circlet" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -481,11 +469,10 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="144"/>
-			<enchant stat="rEvas" order="0x40" value="0"/>
-			<enchant stat="mEvas" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17442" name="Eternal Tunic" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -500,11 +487,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="193"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17443" name="Eternal Stockings" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -519,11 +505,10 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="121"/>
-			<enchant stat="rCrit" order="0x40" value="0"/>
-			<enchant stat="mCritRate" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17444" name="Eternal Gloves" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -538,11 +523,10 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="96"/>
-			<enchant stat="accCombat" order="0x40" value="0"/>
-			<enchant stat="maccCombat" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17445" name="Eternal Shoes" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -557,10 +541,10 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="96"/>
-			<enchant stat="runSpd" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17446" name="Eternal Sigil" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -575,9 +559,10 @@
 		</equip>
 		<for>
 			<add stat="pDef" order="0x10" value="24"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17447" name="Eternal Necklace">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -592,10 +577,11 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="166"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17448" name="Eternal Earring">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -611,10 +597,11 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="124"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17449" name="Eternal Ring">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -630,10 +617,11 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="83"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17464" name="Blessed Celestial Helmet" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
@@ -646,7 +634,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="150"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -661,7 +649,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="401"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -676,7 +664,7 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="250"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -691,8 +679,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="100"/>
-			<enchant stat="runSpd" order="0x40" value="0"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -707,8 +694,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="100"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
-			<enchant stat="runSpd" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -723,7 +709,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="150"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -738,7 +724,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="301"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -753,7 +739,7 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="188"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -768,8 +754,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="100"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
-			<enchant stat="runSpd" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -784,7 +769,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="100"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -799,7 +784,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="150"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -814,7 +799,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="201"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -829,7 +814,7 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="125"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -844,7 +829,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="100"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -859,7 +844,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="100"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -874,7 +859,7 @@
 		</equip>
 		<for>
 			<add stat="pDef" order="0x10" value="25"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -889,9 +874,9 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="174"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="17482" name="Blessed Celestial Earring">		<!--Done By Darvin (c)Java-Team-->
@@ -906,9 +891,9 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="131"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="17483" name="Blessed Celestial Ring">		<!--Done By Darvin (c)Java-Team-->
@@ -923,9 +908,9 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="87"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="17484" name="Cry of Fate">		<!--Done By Darvin (c)Java-Team-->

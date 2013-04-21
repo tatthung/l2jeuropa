@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="33179" name="Blue Wolf Helmet of Destiny (Fire, Wind, Dark)">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="B"/>
@@ -11,7 +12,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="66"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -26,7 +27,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="166"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -41,12 +42,11 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="104"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33182" name="Blue Wolf Gloves of Destiny (Fire, Wind, Dark)"
-           add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33182" name="Blue Wolf Gloves of Destiny (Fire, Wind, Dark)" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="B"/>
 		<set name="icon" value="icon.armor_t68_g_i00"/>
 		<set name="type" value="NONE"/>
@@ -57,12 +57,11 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33183" name="Blue Wolf Boots of Destiny (Fire, Wind, Dark)"
-           add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33183" name="Blue Wolf Boots of Destiny (Fire, Wind, Dark)" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="B"/>
 		<set name="icon" value="icon.armor_t68_b_i00"/>
 		<set name="type" value="NONE"/>
@@ -73,7 +72,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -88,7 +87,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="66"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -103,12 +102,11 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="202"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33187" name="Blue Wolf Gloves of Destiny (Fire, Wind, Dark)"
-           add_name="Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33187" name="Blue Wolf Gloves of Destiny (Fire, Wind, Dark)" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="B"/>
 		<set name="icon" value="icon.armor_t69_g_i00"/>
 		<set name="type" value="NONE"/>
@@ -119,12 +117,11 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33188" name="Blue Wolf Boots of Destiny (Fire, Wind, Dark)"
-           add_name="Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33188" name="Blue Wolf Boots of Destiny (Fire, Wind, Dark)" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="B"/>
 		<set name="icon" value="icon.armor_t69_b_i00"/>
 		<set name="type" value="NONE"/>
@@ -135,7 +132,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -150,7 +147,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="66"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -165,7 +162,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="83"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -180,12 +177,11 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="52"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33192" name="Blue Wolf Gloves of Destiny (Fire, Wind, Dark)"
-           add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33192" name="Blue Wolf Gloves of Destiny (Fire, Wind, Dark)" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="B"/>
 		<set name="icon" value="icon.armor_t70_g_i00"/>
 		<set name="type" value="NONE"/>
@@ -196,12 +192,11 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33193" name="Blue Wolf Boots of Destiny (Fire, Wind, Dark)"
-           add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33193" name="Blue Wolf Boots of Destiny (Fire, Wind, Dark)" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="B"/>
 		<set name="icon" value="icon.armor_t70_b_i00"/>
 		<set name="type" value="NONE"/>
@@ -212,7 +207,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -227,7 +222,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="66"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -242,7 +237,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="166"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -257,12 +252,11 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="104"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33197" name="Blue Wolf Gloves of Destiny (Water, Earth, Holy)"
-           add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33197" name="Blue Wolf Gloves of Destiny (Water, Earth, Holy)" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="B"/>
 		<set name="icon" value="icon.armor_t68_g_i00"/>
 		<set name="type" value="NONE"/>
@@ -273,12 +267,11 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33198" name="Blue Wolf Boots of Destiny (Water, Earth, Holy)"
-           add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33198" name="Blue Wolf Boots of Destiny (Water, Earth, Holy)" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="B"/>
 		<set name="icon" value="icon.armor_t68_b_i00"/>
 		<set name="type" value="NONE"/>
@@ -289,7 +282,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>

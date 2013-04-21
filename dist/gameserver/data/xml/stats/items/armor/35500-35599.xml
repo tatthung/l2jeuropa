@@ -20,7 +20,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="94"/>
 			<add stat="maxMp" order="0x10" value="38"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

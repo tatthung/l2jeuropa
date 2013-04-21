@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="13802" name="Native's Hood">
 		<set name="crystal_type" value="NONE"/>
@@ -18,7 +19,7 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="33"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -40,7 +41,7 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="53"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -62,7 +63,7 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="29"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -84,7 +85,7 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="33"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -106,7 +107,7 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="53"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -128,7 +129,7 @@
 		</skills>
 		<for>
 			<add stat="pDef" order="0x10" value="29"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -147,9 +148,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="13"/>
 			<add stat="rEvas" order="0x10" value="-8"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13886" name="Sealed Dynasty Sigil">
 		<set name="crystal_count" value="307"/>
@@ -166,9 +168,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="15"/>
 			<add stat="rEvas" order="0x10" value="-8"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13887" name="Sealed Vesper Sigil">
 		<set name="crystal_count" value="588"/>
@@ -185,9 +188,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="17"/>
 			<add stat="rEvas" order="0x10" value="-8"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13888" name="Sealed Lord's Cloak">
 		<set name="enchantable" value="false"/>
@@ -202,7 +206,7 @@
 		<set name="ex_type" value="CLOAK"/>
 		<for>
 			<add stat="pDef" order="0x10" value="2"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -222,7 +226,7 @@
 		</attributes>
 		<for>
 			<add stat="pDef" order="0x10" value="20"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -242,7 +246,7 @@
 		</attributes>
 		<for>
 			<add stat="pDef" order="0x10" value="20"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -262,7 +266,7 @@
 		</attributes>
 		<for>
 			<add stat="pDef" order="0x10" value="20"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -282,7 +286,7 @@
 		</attributes>
 		<for>
 			<add stat="pDef" order="0x10" value="20"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -300,9 +304,10 @@
 		<set name="ex_type" value="BELT"/>
 		<for>
 			<add stat="pDef" order="0x10" value="10"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13895" name="Leather Belt">
 		<set name="crystal_count" value="22"/>
@@ -318,9 +323,10 @@
 		<set name="ex_type" value="BELT"/>
 		<for>
 			<add stat="pDef" order="0x10" value="11"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13896" name="Iron Belt">
 		<set name="crystal_count" value="30"/>
@@ -336,9 +342,10 @@
 		<set name="ex_type" value="BELT"/>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13897" name="Mithril Belt">
 		<set name="crystal_count" value="92"/>
@@ -354,8 +361,9 @@
 		<set name="ex_type" value="BELT"/>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

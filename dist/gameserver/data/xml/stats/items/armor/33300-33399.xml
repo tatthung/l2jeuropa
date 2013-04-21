@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="33300" name="Majestic Plate Armor of Destiny (Fire, Wind, Dark)">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
@@ -11,12 +12,11 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="293"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33301" name="Majestic Gauntlet of Destiny (Fire, Wind, Dark)"
-           add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33301" name="Majestic Gauntlet of Destiny (Fire, Wind, Dark)" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.armor_t83_g_i00"/>
 		<set name="type" value="NONE"/>
@@ -27,12 +27,11 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33302" name="Majestic Boots of Destiny (Fire, Wind, Dark)"
-           add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33302" name="Majestic Boots of Destiny (Fire, Wind, Dark)" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.armor_t83_b_i00"/>
 		<set name="type" value="NONE"/>
@@ -43,7 +42,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -58,7 +57,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="73"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -73,12 +72,11 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="220"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33306" name="Majestic Gauntlet of Destiny (Fire, Wind, Dark)"
-           add_name="Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33306" name="Majestic Gauntlet of Destiny (Fire, Wind, Dark)" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.armor_t84_g_i00"/>
 		<set name="type" value="NONE"/>
@@ -89,12 +87,11 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33307" name="Majestic Boots of Destiny (Fire, Wind, Dark)"
-           add_name="Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33307" name="Majestic Boots of Destiny (Fire, Wind, Dark)" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.armor_t84_b_i00"/>
 		<set name="type" value="NONE"/>
@@ -105,7 +102,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -120,7 +117,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="73"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -135,12 +132,11 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="147"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33310" name="Majestic Gauntlet of Destiny (Fire, Wind, Dark)"
-           add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33310" name="Majestic Gauntlet of Destiny (Fire, Wind, Dark)" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.armor_t85_g_i00"/>
 		<set name="type" value="NONE"/>
@@ -151,12 +147,11 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33311" name="Majestic Boots of Destiny (Fire, Wind, Dark)"
-           add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33311" name="Majestic Boots of Destiny (Fire, Wind, Dark)" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.armor_t85_b_i00"/>
 		<set name="type" value="NONE"/>
@@ -167,7 +162,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -182,7 +177,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="73"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -197,12 +192,11 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="293"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33314" name="Majestic Gauntlet of Destiny (Water, Earth, Holy)"
-           add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33314" name="Majestic Gauntlet of Destiny (Water, Earth, Holy)" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.armor_t83_g_i00"/>
 		<set name="type" value="NONE"/>
@@ -213,12 +207,11 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33315" name="Majestic Boots of Destiny (Water, Earth, Holy)"
-           add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33315" name="Majestic Boots of Destiny (Water, Earth, Holy)" add_name="Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.armor_t83_b_i00"/>
 		<set name="type" value="NONE"/>
@@ -229,7 +222,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -244,7 +237,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="73"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -259,12 +252,11 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="220"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33319" name="Majestic Gauntlet of Destiny (Water, Earth, Holy)"
-           add_name="Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33319" name="Majestic Gauntlet of Destiny (Water, Earth, Holy)" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.armor_t84_g_i00"/>
 		<set name="type" value="NONE"/>
@@ -275,12 +267,11 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33320" name="Majestic Boots of Destiny (Water, Earth, Holy)"
-           add_name="Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33320" name="Majestic Boots of Destiny (Water, Earth, Holy)" add_name="Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.armor_t84_b_i00"/>
 		<set name="type" value="NONE"/>
@@ -291,7 +282,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -306,7 +297,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="73"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -321,12 +312,11 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="147"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33323" name="Majestic Gauntlet of Destiny (Water, Earth, Holy)"
-           add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33323" name="Majestic Gauntlet of Destiny (Water, Earth, Holy)" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.armor_t85_g_i00"/>
 		<set name="type" value="NONE"/>
@@ -337,12 +327,11 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="33324" name="Majestic Boots of Destiny (Water, Earth, Holy)"
-           add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="33324" name="Majestic Boots of Destiny (Water, Earth, Holy)" add_name="Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.armor_t85_b_i00"/>
 		<set name="type" value="NONE"/>
@@ -353,7 +342,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>

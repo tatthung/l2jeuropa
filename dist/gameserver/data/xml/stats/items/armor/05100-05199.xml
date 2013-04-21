@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="5170" name="Mithril Panzer Coat">
 		<set name="crystal_type" value="NONE"/>
@@ -13,9 +14,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
 			<add stat="mDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="5171" name="Brigadine Panzer Coat">
@@ -31,9 +32,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
 			<add stat="mDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="5172" name="Draconic Panzer Coat">
@@ -49,9 +50,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="46"/>
 			<add stat="mDef" order="0x10" value="46"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="5173" name="Blood Panzer Coat">
@@ -67,9 +68,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
 			<add stat="mDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="5174" name="Ophidian Panzer Coat">
@@ -85,9 +86,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="52"/>
 			<add stat="mDef" order="0x10" value="52"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="5175" name="Inferno Panzer Coat">
@@ -103,9 +104,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="54"/>
 			<add stat="mDef" order="0x10" value="54"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="5182" name="Hatchling's Gorgon Coat">
@@ -121,9 +122,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
 			<add stat="mDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="5183" name="Hatchling's Ophidian Plate">
@@ -139,9 +140,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="46"/>
 			<add stat="mDef" order="0x10" value="46"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="5184" name="Hatchling's Crimson Plate">
@@ -157,9 +158,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
 			<add stat="mDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="5185" name="Hatchling's Draconic Plate">
@@ -175,9 +176,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="52"/>
 			<add stat="mDef" order="0x10" value="52"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="5186" name="Hatchling's Inferno Plate">
@@ -193,9 +194,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="54"/>
 			<add stat="mDef" order="0x10" value="54"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 </list>

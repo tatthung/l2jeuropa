@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="14600" name="Schuttgart Dark Protection Ring">
 		<set name="crystal_type" value="A"/>
@@ -19,7 +20,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="42"/>
 			<add stat="maxMp" order="0x10" value="17"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14601" name="Ancient Cloak - Kamael exclusive" add_name="Kamael Use">
@@ -37,7 +38,7 @@
 		<set name="ex_type" value="CLOAK"/>
 		<for>
 			<add stat="pDef" order="0x10" value="20"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -56,7 +57,7 @@
 		<set name="ex_type" value="CLOAK"/>
 		<for>
 			<add stat="pDef" order="0x10" value="20"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -109,7 +110,7 @@
 		<set name="ex_type" value="CLOAK"/>
 		<for>
 			<add stat="pDef" order="0x10" value="20"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -128,7 +129,7 @@
 		<set name="ex_type" value="CLOAK"/>
 		<for>
 			<add stat="pDef" order="0x10" value="20"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -147,7 +148,7 @@
 		<set name="ex_type" value="CLOAK"/>
 		<for>
 			<add stat="pDef" order="0x10" value="20"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -223,7 +224,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="63"/>
 			<add stat="maxMp" order="0x10" value="25"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14665" name="Dion Protection Earring">
@@ -245,7 +246,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="63"/>
 			<add stat="maxMp" order="0x10" value="25"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14666" name="Giran Protection Earring">
@@ -267,7 +268,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="63"/>
 			<add stat="maxMp" order="0x10" value="25"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14667" name="Oren Protection Earring">
@@ -289,7 +290,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="63"/>
 			<add stat="maxMp" order="0x10" value="25"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14668" name="Aden Protection Earring">
@@ -311,7 +312,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="63"/>
 			<add stat="maxMp" order="0x10" value="25"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14669" name="Innadril Protection Earring">
@@ -333,7 +334,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="63"/>
 			<add stat="maxMp" order="0x10" value="25"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14670" name="Goddard Protection Earring">
@@ -355,7 +356,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="63"/>
 			<add stat="maxMp" order="0x10" value="25"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14671" name="Rune Protection Earring">
@@ -377,7 +378,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="63"/>
 			<add stat="maxMp" order="0x10" value="25"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14672" name="Schuttgart Protection Earring">
@@ -399,7 +400,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="63"/>
 			<add stat="maxMp" order="0x10" value="25"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
 	</armor>
 	<armor id="14675" name="Agathion Seal Bracelet - Saerom">

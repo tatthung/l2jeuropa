@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="10800" name="Draconic Leather Armor {PvP}">
 		<set name="attributable" value="false"/>
@@ -19,9 +20,10 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="249"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10801" name="Major Arcana Robe {PvP}">
 		<set name="attributable" value="false"/>
@@ -43,9 +45,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="166"/>
 			<add stat="maxMp" order="0x10" value="866"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10802" name="Dynasty Breastplate {PvP}">
 		<set name="attributable" value="false"/>
@@ -66,9 +69,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10803" name="Dynasty Breastplate {PvP}" add_name="Shield Master">
 		<set name="attributable" value="false"/>
@@ -92,9 +96,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10804" name="Dynasty Breastplate {PvP}" add_name="Weapon Master">
 		<set name="attributable" value="false"/>
@@ -118,9 +123,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10805" name="Dynasty Breastplate {PvP}" add_name="Force Master">
 		<set name="attributable" value="false"/>
@@ -144,9 +150,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10806" name="Dynasty Breastplate {PvP}" add_name="Bard">
 		<set name="attributable" value="false"/>
@@ -170,9 +177,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10807" name="Dynasty Leather Armor {PvP}">
 		<set name="attributable" value="false"/>
@@ -193,9 +201,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10808" name="Dynasty Leather Armor {PvP}" add_name="Dagger Master">
 		<set name="attributable" value="false"/>
@@ -219,9 +228,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10809" name="Dynasty Leather Armor {PvP}" add_name="Bow Master">
 		<set name="attributable" value="false"/>
@@ -245,9 +255,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10810" name="Dynasty Tunic {PvP}">
 		<set name="attributable" value="false"/>
@@ -269,9 +280,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10811" name="Dynasty Tunic {PvP}" add_name="Healer">
 		<set name="attributable" value="false"/>
@@ -296,9 +308,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10812" name="Dynasty Tunic {PvP}" add_name="Enchanter">
 		<set name="attributable" value="false"/>
@@ -323,9 +336,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10813" name="Dynasty Tunic {PvP}" add_name="Summoner">
 		<set name="attributable" value="false"/>
@@ -350,9 +364,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10814" name="Dynasty Tunic {PvP}" add_name="Wizard">
 		<set name="attributable" value="false"/>
@@ -377,9 +392,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10815" name="Dynasty Leather Armor {PvP}" add_name="Force Master">
 		<set name="attributable" value="false"/>
@@ -403,9 +419,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10816" name="Dynasty Leather Armor {PvP}" add_name="Weapon Master">
 		<set name="attributable" value="false"/>
@@ -429,9 +446,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10817" name="Dynasty Leather Armor {PvP}" add_name="Enchanter">
 		<set name="attributable" value="false"/>
@@ -455,9 +473,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10818" name="Dynasty Leather Armor {PvP}" add_name="Summoner">
 		<set name="attributable" value="false"/>
@@ -481,9 +500,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10819" name="Dynasty Platinum Breastplate {PvP}">
 		<set name="attributable" value="false"/>
@@ -504,9 +524,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10820" name="Dynasty Platinum Breastplate {PvP}" add_name="Shield Master">
 		<set name="attributable" value="false"/>
@@ -530,9 +551,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10821" name="Dynasty Platinum Breastplate {PvP}" add_name="Weapon Master">
 		<set name="attributable" value="false"/>
@@ -556,9 +578,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10822" name="Dynasty Platinum Breastplate {PvP}" add_name="Force Master">
 		<set name="attributable" value="false"/>
@@ -582,9 +605,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10823" name="Dynasty Platinum Breastplate {PvP}" add_name="Bard">
 		<set name="attributable" value="false"/>
@@ -608,9 +632,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10824" name="Dynasty Jewel Leather Armor {PvP}">
 		<set name="attributable" value="false"/>
@@ -631,9 +656,10 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10825" name="Dynasty Jewel Leather Armor {PvP}" add_name="Dagger Master">
 		<set name="attributable" value="false"/>
@@ -657,9 +683,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10826" name="Dynasty Jewel Leather Armor {PvP}" add_name="Bow Master">
 		<set name="attributable" value="false"/>
@@ -683,9 +710,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10827" name="Dynasty Silver Satin Tunic {PvP}">
 		<set name="attributable" value="false"/>
@@ -707,9 +735,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10828" name="Dynasty Silver Satin Tunic {PvP}" add_name="Healer">
 		<set name="attributable" value="false"/>
@@ -734,9 +763,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10829" name="Dynasty Silver Satin Tunic {PvP}" add_name="Enchanter">
 		<set name="attributable" value="false"/>
@@ -761,9 +791,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10830" name="Dynasty Silver Satin Tunic {PvP}" add_name="Summoner">
 		<set name="attributable" value="false"/>
@@ -788,9 +819,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10831" name="Dynasty Silver Satin Tunic {PvP}" add_name="Wizard">
 		<set name="attributable" value="false"/>
@@ -815,9 +847,10 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10832" name="Dynasty Jewel Leather Armor {PvP}" add_name="Force Master">
 		<set name="attributable" value="false"/>
@@ -841,9 +874,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10833" name="Dynasty Jewel Leather Armor {PvP}" add_name="Weapon Master">
 		<set name="attributable" value="false"/>
@@ -867,9 +901,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10834" name="Dynasty Jewel Leather Armor {PvP}" add_name="Enchanter">
 		<set name="attributable" value="false"/>
@@ -893,9 +928,10 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10835" name="Dynasty Jewel Leather Armor {PvP}" add_name="Summoner">
 		<set name="attributable" value="false"/>
@@ -919,8 +955,9 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x40" value="0"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

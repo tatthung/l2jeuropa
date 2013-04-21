@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="11600" name="Dynasty Ring">
 		<set name="crystal_count" value="190"/>
@@ -19,8 +20,9 @@
 		<for>
 			<add stat="mDef" order="0x10" value="60"/>
 			<add stat="maxMp" order="0x10" value="23"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11601" name="Dynasty Earring">
 		<set name="crystal_count" value="285"/>
@@ -41,8 +43,9 @@
 		<for>
 			<add stat="mDef" order="0x10" value="79"/>
 			<add stat="maxMp" order="0x10" value="35"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11602" name="Sealed Dynasty Necklace">
 		<set name="crystal_count" value="258"/>
@@ -58,8 +61,9 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="95"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11603" name="Sealed Dynasty Ring">
 		<set name="crystal_count" value="129"/>
@@ -76,8 +80,9 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="53"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="11604" name="Sealed Dynasty Earring">
 		<set name="crystal_count" value="194"/>
@@ -94,7 +99,8 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="71"/>
-			<enchant stat="mDef" order="0x40" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</armor>
 </list>
