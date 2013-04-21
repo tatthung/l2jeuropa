@@ -28,6 +28,7 @@ import lineage2.gameserver.network.serverpackets.SystemMessage;
 import lineage2.gameserver.network.serverpackets.components.SystemMsg;
 import lineage2.gameserver.skills.EffectType;
 import lineage2.gameserver.skills.effects.EffectTemplate;
+import lineage2.gameserver.tables.AttributeDamageResistTable;
 import lineage2.gameserver.templates.item.WeaponTemplate;
 import lineage2.gameserver.utils.PositionUtils;
 
@@ -1205,45 +1206,18 @@ public class Formulas
 		{
 			return value;
 		}
-		if ((pAttacker != null) && pAttacker.isGM() && Config.DEBUG)
+		Double attDiff = attacker.calcStat(element.getAttack(), power) - defender.calcStat(element.getDefence(), 0.);
+		if ((pAttacker != null) && pAttacker.isGM()) //&& Config.DEBUG)
 		{
 			pAttacker.sendMessage("Element: " + element.name());
 			pAttacker.sendMessage("Attack: " + attacker.calcStat(element.getAttack(), power));
 			pAttacker.sendMessage("Defence: " + defender.calcStat(element.getDefence(), 0.));
-			pAttacker.sendMessage("Modifier: " + getElementMod(defender.calcStat(element.getDefence(), 0.), attacker.calcStat(element.getAttack(), power)));
-		}
-		return value * getElementMod(defender.calcStat(element.getDefence(), 0.), attacker.calcStat(element.getAttack(), power));
-	}
-	
-	/**
-	 * Method getElementMod.
-	 * @param defense double
-	 * @param attack double
-	 * @return double
-	 */
-	private static double getElementMod(double defense, double attack)
-	{
-		double diff = attack - defense;
-		if (diff <= 0)
-		{
-			return 1.0;
-		}
-		else if (diff < 50)
-		{
-			return 1.0 + (diff * 0.003948);
-		}
-		else if (diff < 150)
-		{
-			return 1.2;
-		}
-		else if (diff < 300)
-		{
-			return 1.4;
-		}
+			pAttacker.sendMessage("Modifier: " + (attDiff < 0 ? "On defense" : "On attack") + Math.round(AttributeDamageResistTable.getInstance().getAttributeBonus(attDiff)* Math.pow(10,4))/Math.pow(10,4));
+		}		
+		if(attDiff < 0)
+			return value / (Math.round(AttributeDamageResistTable.getInstance().getAttributeBonus(attDiff)* Math.pow(10,4))/Math.pow(10,4));
 		else
-		{
-			return 1.7;
-		}
+			return value * (Math.round(AttributeDamageResistTable.getInstance().getAttributeBonus(attDiff)* Math.pow(10,4))/Math.pow(10,4));
 	}
 	
 	/**
@@ -1254,24 +1228,31 @@ public class Formulas
 	 */
 	public static Element getAttackElement(Creature attacker, Creature target)
 	{
-		double val, max = Double.MIN_VALUE;
+		double val = 0;
+		double maxElementVal = 0;
+		Element maxElementDefense = Element.NONE;		
 		Element result = Element.NONE;
 		for (Element e : Element.VALUES)
 		{
 			val = attacker.calcStat(e.getAttack(), 0., null, null);
 			if (val <= 0.)
 			{
+				if(target != null && target.calcStat(e.getDefence(), 0., null, null) > maxElementVal)
+				{
+					maxElementVal = target.calcStat(e.getDefence(), 0., null, null); 
+					maxElementDefense = e;
+				}
 				continue;
 			}
-			if (target != null)
-			{
-				val -= target.calcStat(e.getDefence(), 0., null, null);
-			}
-			if (val > max)
+			else
 			{
 				result = e;
-				max = val;
-			}
+				break;
+			}			
+		}
+		if(val <= 0. && target != null)
+		{
+			return maxElementDefense;
 		}
 		return result;
 	}

@@ -25,8 +25,8 @@
 			<add stat="mAtk" order="0x10" value="91"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10871" name="Great Sword - Lightning" add_name="Health">
@@ -54,8 +54,8 @@
 			<add stat="mAtk" order="0x10" value="91"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10872" name="Great Sword - Lightning" add_name="Critical Damage">
@@ -83,8 +83,8 @@
 			<add stat="mAtk" order="0x10" value="91"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10873" name="Great Sword - Lightning" add_name="Focus">
@@ -112,8 +112,8 @@
 			<add stat="mAtk" order="0x10" value="91"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10874" name="Great Axe - Thunder">
@@ -141,8 +141,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10875" name="Great Axe - Thunder" add_name="Anger">
@@ -170,8 +170,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10876" name="Great Axe - Thunder" add_name="Critical Stun">
@@ -202,8 +202,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10877" name="Great Axe - Thunder" add_name="Light">
@@ -232,8 +232,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10878" name="Sword of Limit*Sword of Limit - Destruction">
@@ -261,8 +261,8 @@
 			<add stat="mAtk" order="0x10" value="91"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10879" name="Sword of Limit*Sword of Delusion - Destruction">
@@ -290,8 +290,8 @@
 			<add stat="mAtk" order="0x10" value="91"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10880" name="Sword of Limit*Sword of Nightmare - Destruction">
@@ -319,8 +319,8 @@
 			<add stat="mAtk" order="0x10" value="91"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10881" name="Sword of Limit*Tsurugi - Destruction">
@@ -348,8 +348,8 @@
 			<add stat="mAtk" order="0x10" value="91"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10882" name="Innominate Victory - Lightning">
@@ -377,8 +377,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<add stat="accCombat" order="0x10" value="2.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10883" name="Innominate Victory - Lightning" add_name="Health">
@@ -407,8 +407,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<add stat="accCombat" order="0x10" value="2.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10884" name="Innominate Victory - Lightning" add_name="Critical Damage">
@@ -437,8 +437,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<add stat="accCombat" order="0x10" value="2.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10885" name="Innominate Victory - Lightning" add_name="Focus">
@@ -467,8 +467,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<add stat="accCombat" order="0x10" value="2.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10886" name="Dark Elven Long Bow - Concentration">
@@ -498,8 +498,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="227"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10887" name="Dark Elven Long Bow - Concentration" add_name="Evasion">
@@ -530,8 +530,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="227"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10888" name="Dark Elven Long Bow - Concentration" add_name="Critical Bleed">
@@ -564,8 +564,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="227"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10889" name="Dark Elven Long Bow - Concentration" add_name="Miser">
@@ -595,8 +595,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="227"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 			<set stat="miser" order="0x08" value="2"/>
 			<set stat="miserChance" order="0x08" value="19"/>
 		</for>
@@ -626,8 +626,8 @@
 			<add stat="mAtk" order="0x10" value="91"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10891" name="Sword of Delusion*Sword of Nightmare - Destruction">
@@ -655,8 +655,8 @@
 			<add stat="mAtk" order="0x10" value="91"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10892" name="Sword of Delusion*Tsurugi - Destruction">
@@ -684,8 +684,8 @@
 			<add stat="mAtk" order="0x10" value="91"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10893" name="Sword of Valhalla - Nature">
@@ -712,8 +712,8 @@
 			<add stat="mAtk" order="0x10" value="122"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10894" name="Sword of Valhalla - Nature" add_name="Acumen">
@@ -741,8 +741,8 @@
 			<add stat="mAtk" order="0x10" value="122"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10895" name="Sword of Valhalla - Nature" add_name="Magic Weakness">
@@ -772,8 +772,8 @@
 			<add stat="mAtk" order="0x10" value="122"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10896" name="Sword of Valhalla - Nature" add_name="Magic Regeneration">
@@ -803,8 +803,8 @@
 			<add stat="mAtk" order="0x10" value="122"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10897" name="Stormbringer*Samurai Long Sword - Destruction">
@@ -832,8 +832,8 @@
 			<add stat="mAtk" order="0x10" value="91"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10898" name="Spell Breaker - Hail">
@@ -861,8 +861,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="10899" name="Spell Breaker - Hail" add_name="Acumen">
@@ -891,8 +891,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 </list>

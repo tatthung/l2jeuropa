@@ -21,8 +21,8 @@
 			<add stat="mAtk" order="0x10" value="39"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14621" name="Santa Claus' Sirra Blade">
@@ -55,8 +55,8 @@
 			<add stat="mAtk" order="0x10" value="38"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14622" name="Santa Claus' Sword of Ipos">
@@ -89,8 +89,8 @@
 			<add stat="mAtk" order="0x10" value="38"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14623" name="Santa Claus' Barakiel Axe">
@@ -124,8 +124,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14624" name="Santa Claus' Behemoth Tuning Fork">
@@ -159,8 +159,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14625" name="Santa Claus' Naga Storm">
@@ -194,8 +194,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14626" name="Santa Claus' Tiphon Spear">
@@ -229,8 +229,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14627" name="Santa Claus' Shyeed Bow">
@@ -266,8 +266,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="227"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14628" name="Santa Claus' Sobekk Hurricane">
@@ -301,8 +301,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14629" name="Santa Claus' Themis Tongue">
@@ -336,8 +336,8 @@
 			<add stat="mAtk" order="0x10" value="51"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14630" name="Santa Claus' Hand of Cabrio">
@@ -372,8 +372,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14631" name="Santa Claus' Daimon Crystal">
@@ -408,8 +408,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14632" name="Santa Claus' Éclair Bijou">
@@ -445,8 +445,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14633" name="Santa Claus' Screaming Vengeance">
@@ -481,8 +481,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14634" name="Santa Claus' Durendal">
@@ -516,8 +516,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<add stat="accCombat" order="0x10" value="2.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="14674" name="Santa Claus' Tallum Blade*Damascus">
@@ -552,8 +552,8 @@
 			<add stat="mAtk" order="0x10" value="51"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 </list>

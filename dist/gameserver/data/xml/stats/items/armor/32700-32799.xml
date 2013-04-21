@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="32725" name="Chic Silver Chapeau" add_name="3-Day Limited Period">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="NONE"/>
@@ -369,10 +368,9 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="32799" name="Sealed Bound Avadon Gloves">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="B"/>
@@ -389,9 +387,8 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

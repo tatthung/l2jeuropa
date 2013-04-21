@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="3900" name="Wolf's Luxury Plate">
 		<set name="crystal_type" value="NONE"/>
@@ -14,9 +13,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="43"/>
 			<add stat="mDef" order="0x10" value="38"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="3901" name="Wolf's Mithril Armor">
@@ -32,9 +31,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="47"/>
 			<add stat="mDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="3912" name="Hatchling's Soft Leather">
@@ -50,9 +49,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="26"/>
 			<add stat="mDef" order="0x10" value="26"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="3913" name="Hatchling's Scale Mail">
@@ -68,9 +67,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="29"/>
 			<add stat="mDef" order="0x10" value="29"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="3914" name="Hatchling's Brigandine">
@@ -86,9 +85,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="31"/>
 			<add stat="mDef" order="0x10" value="31"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="3915" name="Hatchling's Bronze Coat">
@@ -104,9 +103,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="33"/>
 			<add stat="mDef" order="0x10" value="33"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="3916" name="Hatchling's Steel Coat">
@@ -122,9 +121,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="36"/>
 			<add stat="mDef" order="0x10" value="36"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="3917" name="Hatchling's Shadowplate">
@@ -140,9 +139,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="38"/>
 			<add stat="mDef" order="0x10" value="38"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="3918" name="Hatchling's Mithril Coat">
@@ -158,9 +157,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="41"/>
 			<add stat="mDef" order="0x10" value="41"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 </list>

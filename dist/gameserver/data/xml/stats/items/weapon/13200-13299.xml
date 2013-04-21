@@ -27,8 +27,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13201" name="For PC cafe use - Hazard Bow" add_name="Weapons for PC Cafe Use ">
@@ -56,8 +56,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13202" name="For PC Cafe Use - Samurai*Samurai" add_name="Weapons for PC Cafe Use ">
@@ -84,8 +84,8 @@
 			<add stat="mAtk" order="0x10" value="99"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13203" name="For PC Cafe Use - Guardian's Sword" add_name="Weapons for PC Cafe Use ">
@@ -113,8 +113,8 @@
 			<add stat="mAtk" order="0x10" value="99"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13204" name="For PC Cafe Use - Wizard's Tear" add_name="Weapons for PC Cafe Use ">
@@ -143,8 +143,8 @@
 			<add stat="mAtk" order="0x10" value="132"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13205" name="For PC Cafe Use - Kaim Vanul's Bones" add_name="Weapons for PC Cafe Use ">
@@ -174,8 +174,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13206" name="For PC Cafe Use - Star Buster" add_name="Weapons for PC Cafe Use ">
@@ -204,8 +204,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13207" name="For PC cafe use - Colichemarde" add_name="Weapons for PC Cafe Use ">
@@ -236,8 +236,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13208" name="For PC cafe use - Dismantler" add_name="Weapons for PC Cafe Use ">
@@ -263,8 +263,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<add stat="accCombat" order="0x10" value="2.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13209" name="For PC Cafe Use - Hell Hound" add_name="Weapons for PC Cafe Use ">
@@ -294,8 +294,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13210" name="PC cafe' exclusive - Sirra's Blade" add_name="Weapons for PC Cafe Use ">
@@ -323,8 +323,8 @@
 			<add stat="mAtk" order="0x10" value="121"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13211" name="For PC Cafe Use - Sword of Ipos" add_name="Weapons for PC Cafe Use ">
@@ -352,8 +352,8 @@
 			<add stat="mAtk" order="0x10" value="121"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13212" name="For PC Cafe Use - Barakiel's Axe" add_name="Weapons for PC Cafe Use ">
@@ -382,8 +382,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13213" name="For PC Cafe Use - Behemoth Tuning Fork" add_name="Weapons for PC Cafe Use ">
@@ -412,8 +412,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13214" name="For PC Cafe Use - Naga Storm" add_name="Weapons for PC Cafe Use ">
@@ -442,8 +442,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13215" name="For PC cafe use - Tiphon's Spear" add_name="Weapons for PC Cafe Use ">
@@ -472,8 +472,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13216" name="For PC cafe use - Shyeed's Bow" add_name="Weapons for PC Cafe Use ">
@@ -504,8 +504,8 @@
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="227"/>
 			<add stat="accCombat" order="0x10" value="-4.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13217" name="For PC Cafe Use - Sobekk's Hurricane" add_name="Weapons for PC Cafe Use ">
@@ -534,8 +534,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13218" name="For PC Cafe Use - Themis' Tongue" add_name="Weapons for PC Cafe Use ">
@@ -564,8 +564,8 @@
 			<add stat="mAtk" order="0x10" value="161"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13219" name="For PC Cafe Use - Cabrio's Hand" add_name="Weapons for PC Cafe Use ">
@@ -595,8 +595,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13220" name="For PC Cafe Use - Daimon Crystal" add_name="Weapons for PC Cafe Use ">
@@ -626,8 +626,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13221" name="For PC cafe use - Tallum Blade*Damascus" add_name="Weapons for PC Cafe Use ">
@@ -654,8 +654,8 @@
 			<add stat="mAtk" order="0x10" value="121"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13222" name="For PC Cafe Use - Éclair Bijou" add_name="Weapons for PC Cafe Use ">
@@ -686,8 +686,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13223" name="For PC cafe use - Durendal" add_name="Weapons for PC Cafe Use ">
@@ -716,8 +716,8 @@
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<add stat="accCombat" order="0x10" value="2.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13224" name="For PC Cafe Use - Screaming Vengeance" add_name="Weapons for PC Cafe Use ">
@@ -747,8 +747,8 @@
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
 			<add stat="accCombat" order="0x10" value="-2.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13248" name="O-type Stick" add_name="7-day Limited Period">
@@ -773,8 +773,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13249" name="X-type Stick" add_name="7-day Limited Period">
@@ -799,8 +799,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13250" name="Scissors-type Stick" add_name="7-day Limited Period">
@@ -825,8 +825,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13251" name="Rock-type Stick" add_name="7-day Limited Period">
@@ -851,8 +851,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13252" name="Paper-type Stick" add_name="7-day Limited Period">
@@ -877,8 +877,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13253" name="Pumpkin Transformation Stick" add_name="7-day Limited Period">
@@ -906,8 +906,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 </list>

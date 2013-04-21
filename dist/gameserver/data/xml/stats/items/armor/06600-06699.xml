@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="6656" name="Earring of Antharas">
 		<set name="crystal_count" value="178"/>
@@ -21,9 +20,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="94"/>
 			<add stat="maxMp" order="0x10" value="37"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6657" name="Necklace of Valakas">
 		<set name="crystal_count" value="237"/>
@@ -44,9 +42,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="125"/>
 			<add stat="maxMp" order="0x10" value="50"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6658" name="Ring of Baium">
 		<set name="crystal_count" value="83"/>
@@ -68,9 +65,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="48"/>
 			<add stat="maxMp" order="0x10" value="21"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6659" name="Zaken's Earring">
 		<set name="crystal_count" value="124"/>
@@ -92,9 +88,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="71"/>
 			<add stat="maxMp" order="0x10" value="31"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6660" name="Ring of Queen Ant">
 		<set name="crystal_count" value="82"/>
@@ -116,9 +111,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="48"/>
 			<add stat="maxMp" order="0x10" value="21"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6661" name="Earring of Orfen">
 		<set name="crystal_count" value="104"/>
@@ -140,9 +134,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="71"/>
 			<add stat="maxMp" order="0x10" value="31"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6662" name="Ring of Core">
 		<set name="crystal_count" value="69"/>
@@ -164,9 +157,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="48"/>
 			<add stat="maxMp" order="0x10" value="21"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6674" name="Sealed Imperial Crusader Breastplate">
 		<set name="crystal_count" value="613"/>
@@ -182,10 +174,9 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="193"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6675" name="Sealed Imperial Crusader Gaiters">
 		<set name="crystal_count" value="383"/>
@@ -201,10 +192,9 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="121"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6676" name="Sealed Imperial Crusader Gauntlet">
 		<set name="crystal_count" value="153"/>
@@ -220,10 +210,9 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="55"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6677" name="Sealed Imperial Crusader Boots">
 		<set name="crystal_count" value="153"/>
@@ -239,10 +228,9 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="55"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6679" name="Sealed Imperial Crusader Helmet">
 		<set name="crystal_count" value="230"/>
@@ -258,10 +246,9 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="83"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6680" name="Sealed Draconic Leather Armor">
 		<set name="crystal_count" value="748"/>
@@ -277,10 +264,9 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="236"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6681" name="Sealed Draconic Leather Glove">
 		<set name="crystal_count" value="153"/>
@@ -296,10 +282,9 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="55"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6682" name="Sealed Draconic Leather Boots">
 		<set name="crystal_count" value="153"/>
@@ -315,10 +300,9 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="55"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6683" name="Sealed Draconic Leather Helmet">
 		<set name="crystal_count" value="230"/>
@@ -334,10 +318,9 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="83"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6684" name="Sealed Major Arcana Robe">
 		<set name="crystal_count" value="748"/>
@@ -354,10 +337,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="157"/>
 			<add stat="maxMp" order="0x10" value="866"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6685" name="Sealed Major Arcana Glove">
 		<set name="crystal_count" value="153"/>
@@ -373,10 +355,9 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="55"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6686" name="Sealed Major Arcana Boots">
 		<set name="crystal_count" value="153"/>
@@ -392,10 +373,9 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="55"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="6687" name="Sealed Major Arcana Circlet">
 		<set name="crystal_count" value="230"/>
@@ -411,9 +391,8 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="83"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

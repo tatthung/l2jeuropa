@@ -22,8 +22,8 @@
 			<add stat="mAtk" order="0x10" value="17"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13525" name="Gracian Soldier Shield">
@@ -69,8 +69,8 @@
 			<add stat="mAtk" order="0x10" value="6"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13530" name="Flag of Gludio">
@@ -274,8 +274,8 @@
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<add stat="accCombat" order="0x10" value="5.0000"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13556" name="Airship Helm">
@@ -296,8 +296,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13557" name="Airship Cannon">
@@ -318,8 +318,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13558" name="Airship Cannon Briquet">
@@ -340,8 +340,8 @@
 			<add stat="mAtk" order="0x10" value="1"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="13560" name="Gludio Ward">

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="13740" name="Gludio Water Protection Necklace">
 		<set name="crystal_type" value="A"/>
@@ -16,7 +15,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="85"/>
 			<add stat="maxMp" order="0x10" value="33"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13741" name="Dion Divinity Protection Necklace">
@@ -34,7 +33,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="85"/>
 			<add stat="maxMp" order="0x10" value="33"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13742" name="Giran Wind Protection Necklace">
@@ -52,7 +51,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="85"/>
 			<add stat="maxMp" order="0x10" value="33"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13743" name="Oren Darkness Protection Necklace">
@@ -70,7 +69,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="85"/>
 			<add stat="maxMp" order="0x10" value="33"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13744" name="Aden Earth Protection Necklace">
@@ -88,7 +87,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="85"/>
 			<add stat="maxMp" order="0x10" value="33"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13745" name="Innadril Water Protection Necklace">
@@ -106,7 +105,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="85"/>
 			<add stat="maxMp" order="0x10" value="33"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13746" name="Goddard Fire Protection Necklace">
@@ -124,7 +123,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="85"/>
 			<add stat="maxMp" order="0x10" value="33"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13747" name="Rune Fire Protection Necklace">
@@ -142,7 +141,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="85"/>
 			<add stat="maxMp" order="0x10" value="33"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13748" name="Schuttgart Wind Protection Necklace">
@@ -160,7 +159,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="85"/>
 			<add stat="maxMp" order="0x10" value="33"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13751" name="Warrior's T-shirt">
@@ -179,7 +178,7 @@
 		<!--Warrior's Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="28"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -205,7 +204,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="42"/>
 			<add stat="maxMp" order="0x10" value="21"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13753" name="Olympiad Warrior's Necklace">
@@ -229,7 +228,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="85"/>
 			<add stat="maxMp" order="0x10" value="26"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13754" name="Olympiad Warrior's Earring">
@@ -254,7 +253,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="63"/>
 			<add stat="maxMp" order="0x10" value="31"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13756" name="Agathion Summon Bracelet - Knight">

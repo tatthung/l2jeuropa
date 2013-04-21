@@ -14,11 +14,10 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="125"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="17623" name="Earth Wyrm Heart Ring">		<!--Done By Darvin (c)Java-Team-->
 		<!-- Дает возможность использовать умения со следующими эффектами и противоядием: MP +38, Сопротивление Физ. Атк./Мент. Атк., Регенерация MP, Увеличение Крит. Урона, Увеличение Точности, сопротивление отравлению +50%, шанс отравить +50%, Опрокидывание, Отталкивание, Сопротивление Притягиванию +20, Увеличение Скор. Атк./Маг., Защита от Воздуха/Воды, Увеличивает у членов группы Скор. Атк./Маг. и накладывает Ярость Вампира. Если надеть два таких кольца, эффект не проявится только у одного. -->
@@ -38,8 +37,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="112"/>
 			<add stat="maxMp" order="0x10" value="38"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

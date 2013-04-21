@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="9400" name="Weapon Master Circlet">
 		<set name="crystal_type" value="NONE"/>
@@ -235,10 +234,9 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9417" name="Dynasty Breast Plate" add_name="Shield Master">
 		<set name="crystal_count" value="1171"/>
@@ -257,10 +255,9 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9418" name="Dynasty Breast Plate" add_name="Weapon Master">
 		<set name="crystal_count" value="1171"/>
@@ -279,10 +276,9 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9419" name="Dynasty Breast Plate" add_name="Force Master">
 		<set name="crystal_count" value="1171"/>
@@ -301,10 +297,9 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9420" name="Dynasty Breast Plate" add_name="Bard">
 		<set name="crystal_count" value="1171"/>
@@ -323,10 +318,9 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="226"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9421" name="Dynasty Gaiter">
 		<set name="crystal_count" value="731"/>
@@ -342,10 +336,9 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="141"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9422" name="Dynasty Helmet">
 		<set name="crystal_count" value="439"/>
@@ -361,10 +354,9 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="92"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9423" name="Dynasty Gauntlet" add_name="Heavy Armor">
 		<set name="crystal_count" value="293"/>
@@ -380,10 +372,9 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9424" name="Dynasty Boots" add_name="Heavy Armor">
 		<set name="crystal_count" value="293"/>
@@ -399,10 +390,9 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9425" name="Dynasty Leather Armor">
 		<set name="crystal_count" value="878"/>
@@ -418,10 +408,9 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9426" name="Dynasty Leather Armor" add_name="Dagger Master">
 		<set name="crystal_count" value="878"/>
@@ -440,10 +429,9 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9427" name="Dynasty Leather Armor" add_name="Bow Master">
 		<set name="crystal_count" value="878"/>
@@ -462,10 +450,9 @@
 		</cond>
 		<for>
 			<add stat="pDef" order="0x10" value="170"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9428" name="Dynasty Leather Leggings">
 		<set name="crystal_count" value="549"/>
@@ -481,10 +468,9 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="106"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9429" name="Dynasty Leather Helmet">
 		<set name="crystal_count" value="439"/>
@@ -500,10 +486,9 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="92"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9430" name="Dynasty Leather Gloves" add_name="Light Armor">
 		<set name="crystal_count" value="293"/>
@@ -519,10 +504,9 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9431" name="Dynasty Leather Boots" add_name="Light Armor">
 		<set name="crystal_count" value="293"/>
@@ -538,10 +522,9 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9432" name="Dynasty Tunic">
 		<set name="crystal_count" value="878"/>
@@ -558,10 +541,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9433" name="Dynasty Tunic" add_name="Healer">
 		<set name="crystal_count" value="878"/>
@@ -581,10 +563,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9434" name="Dynasty Tunic" add_name="Enchanter">
 		<set name="crystal_count" value="878"/>
@@ -604,10 +585,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9435" name="Dynasty Tunic" add_name="Summoner">
 		<set name="crystal_count" value="878"/>
@@ -627,10 +607,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9436" name="Dynasty Tunic" add_name="Wizard">
 		<set name="crystal_count" value="878"/>
@@ -650,10 +629,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="113"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9437" name="Dynasty Stockings">
 		<set name="crystal_count" value="549"/>
@@ -670,10 +648,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="71"/>
 			<add stat="maxMp" order="0x10" value="370"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9438" name="Dynasty Circlet">
 		<set name="crystal_count" value="439"/>
@@ -689,10 +666,9 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="92"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9439" name="Dynasty Gloves" add_name="Robe">
 		<set name="crystal_count" value="293"/>
@@ -708,10 +684,9 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9440" name="Dynasty Shoes" add_name="Robe">
 		<set name="crystal_count" value="293"/>
@@ -727,10 +702,9 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9452" name="Sealed Dynasty Earring">
 		<set name="crystal_count" value="194"/>
@@ -747,9 +721,8 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="71"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9453" name="Sealed Dynasty Necklace">
 		<set name="crystal_count" value="258"/>
@@ -765,9 +738,8 @@
 		<set name="ex_type" value="NECKLACE"/>
 		<for>
 			<add stat="mDef" order="0x10" value="95"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9454" name="Sealed Dynasty Ring">
 		<set name="crystal_count" value="129"/>
@@ -784,9 +756,8 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="53"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9455" name="Dynasty Earrings">
 		<set name="crystal_count" value="285"/>
@@ -804,9 +775,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="79"/>
 			<add stat="maxMp" order="0x10" value="35"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9456" name="Dynasty Necklace">
 		<set name="crystal_count" value="381"/>
@@ -823,9 +793,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="106"/>
 			<add stat="maxMp" order="0x10" value="46"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9457" name="Dynasty Ring">
 		<set name="crystal_count" value="190"/>
@@ -843,9 +812,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="60"/>
 			<add stat="maxMp" order="0x10" value="23"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9458" name="Dynasty Earrings" add_name="Stun Resistance">
 		<set name="crystal_count" value="285"/>
@@ -866,9 +834,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="27"/>
 			<add stat="maxMp" order="0x10" value="35"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9459" name="Dynasty Necklace" add_name="Stun Resistance">
 		<set name="crystal_count" value="381"/>
@@ -888,9 +855,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="36"/>
 			<add stat="maxMp" order="0x10" value="46"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9460" name="Dynasty Ring" add_name="Stun Resistance">
 		<set name="crystal_count" value="190"/>
@@ -911,9 +877,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="18"/>
 			<add stat="maxMp" order="0x10" value="23"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9461" name="Dynasty Earrings" add_name="Poison Resistance">
 		<set name="crystal_count" value="285"/>
@@ -934,9 +899,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="27"/>
 			<add stat="maxMp" order="0x10" value="35"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9462" name="Dynasty Necklace " add_name="Poison Resistance">
 		<set name="crystal_count" value="381"/>
@@ -956,9 +920,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="36"/>
 			<add stat="maxMp" order="0x10" value="46"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9463" name="Dynasty Ring" add_name="Poison Resistance">
 		<set name="crystal_count" value="190"/>
@@ -979,9 +942,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="18"/>
 			<add stat="maxMp" order="0x10" value="23"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9464" name="Dynasty Earrings" add_name="Bleeding Resistance">
 		<set name="crystal_count" value="285"/>
@@ -1002,9 +964,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="27"/>
 			<add stat="maxMp" order="0x10" value="35"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9465" name="Dynasty Necklace " add_name="Bleeding Resistance">
 		<set name="crystal_count" value="381"/>
@@ -1024,9 +985,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="36"/>
 			<add stat="maxMp" order="0x10" value="46"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9466" name="Dynasty Ring" add_name="Bleeding Resistance">
 		<set name="crystal_count" value="190"/>
@@ -1047,9 +1007,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="18"/>
 			<add stat="maxMp" order="0x10" value="23"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9467" name="Dynasty Earrings" add_name="Sleep Resistance">
 		<set name="crystal_count" value="285"/>
@@ -1070,9 +1029,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="27"/>
 			<add stat="maxMp" order="0x10" value="35"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9468" name="Dynasty Necklace" add_name="Sleep Resistance">
 		<set name="crystal_count" value="381"/>
@@ -1092,9 +1050,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="36"/>
 			<add stat="maxMp" order="0x10" value="46"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9469" name="Dynasty Ring" add_name="Sleep Resistance">
 		<set name="crystal_count" value="190"/>
@@ -1115,9 +1072,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="18"/>
 			<add stat="maxMp" order="0x10" value="23"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9470" name="Dynasty Earrings" add_name="Paralysis Resistance">
 		<set name="crystal_count" value="285"/>
@@ -1138,9 +1094,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="27"/>
 			<add stat="maxMp" order="0x10" value="35"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9471" name="Dynasty Necklace" add_name="Paralysis Resistance">
 		<set name="crystal_count" value="381"/>
@@ -1160,9 +1115,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="36"/>
 			<add stat="maxMp" order="0x10" value="46"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9472" name="Dynasty Ring" add_name="Paralysis Resistance">
 		<set name="crystal_count" value="190"/>
@@ -1183,9 +1137,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="18"/>
 			<add stat="maxMp" order="0x10" value="23"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9473" name="Dynasty Earrings" add_name="Hold Resistance">
 		<set name="crystal_count" value="285"/>
@@ -1206,9 +1159,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="27"/>
 			<add stat="maxMp" order="0x10" value="35"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9474" name="Dynasty Necklace " add_name="Hold Resistance">
 		<set name="crystal_count" value="381"/>
@@ -1228,9 +1180,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="36"/>
 			<add stat="maxMp" order="0x10" value="46"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9475" name="Dynasty Ring" add_name="Hold Resistance">
 		<set name="crystal_count" value="190"/>
@@ -1251,9 +1202,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="18"/>
 			<add stat="maxMp" order="0x10" value="23"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9476" name="Dynasty Earrings" add_name="Fear Resistance">
 		<set name="crystal_count" value="285"/>
@@ -1274,9 +1224,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="27"/>
 			<add stat="maxMp" order="0x10" value="35"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9477" name="Dynasty Necklace" add_name="Fear Resistance">
 		<set name="crystal_count" value="381"/>
@@ -1296,9 +1245,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="36"/>
 			<add stat="maxMp" order="0x10" value="46"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9478" name="Dynasty Ring" add_name="Fear Resistance">
 		<set name="crystal_count" value="190"/>
@@ -1319,9 +1267,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="18"/>
 			<add stat="maxMp" order="0x10" value="23"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9479" name="Dynasty Earrings (not used)" add_name="Darkness Resistance">
 		<set name="crystal_count" value="285"/>
@@ -1339,9 +1286,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="27"/>
 			<add stat="maxMp" order="0x10" value="35"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9480" name="Dynasty Necklace (not used)" add_name="Darkness Resistance">
 		<set name="crystal_count" value="381"/>
@@ -1358,9 +1304,8 @@
 		<for>
 			<add stat="mDef" order="0x10" value="36"/>
 			<add stat="maxMp" order="0x10" value="46"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9481" name="Dynasty Ring (not used)" add_name="Darkness Resistance">
 		<set name="crystal_count" value="190"/>
@@ -1378,8 +1323,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="18"/>
 			<add stat="maxMp" order="0x10" value="23"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

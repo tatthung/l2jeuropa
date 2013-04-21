@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="14520" name="Vesper Breastplate {PvP}">
 		<set name="attributable" value="false"/>
@@ -20,10 +19,9 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="250"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14521" name="Vesper Leather Breastplate {PvP}">
 		<set name="attributable" value="false"/>
@@ -44,10 +42,9 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="187"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14522" name="Vesper Tunic {PvP}">
 		<set name="attributable" value="false"/>
@@ -69,10 +66,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="125"/>
 			<add stat="maxMp" order="0x10" value="637"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14523" name="Vesper Noble Breastplate {PvP}">
 		<set name="attributable" value="false"/>
@@ -93,10 +89,9 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="250"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14524" name="Vesper Noble Leather Breastplate {PvP}">
 		<set name="attributable" value="false"/>
@@ -117,10 +112,9 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="187"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14525" name="Vesper Noble Tunic {PvP}">
 		<set name="attributable" value="false"/>
@@ -142,10 +136,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="125"/>
 			<add stat="maxMp" order="0x10" value="637"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="14582" name="Apella Combat Helmet">
 		<set name="crystal_type" value="A"/>
@@ -161,7 +154,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="73"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -179,7 +172,7 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="293"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -197,7 +190,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -215,7 +208,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -233,7 +226,7 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="220"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -251,7 +244,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -269,7 +262,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -288,7 +281,7 @@
 		<for>
 			<add stat="pDef" order="0x10" value="147"/>
 			<add stat="maxMp" order="0x10" value="718"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -306,7 +299,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -324,7 +317,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="49"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -347,7 +340,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="42"/>
 			<add stat="maxMp" order="0x10" value="17"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="14593" name="Dion Water Protection Ring">
@@ -369,7 +362,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="42"/>
 			<add stat="maxMp" order="0x10" value="17"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="14594" name="Giran Fire Protection Ring">
@@ -391,7 +384,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="42"/>
 			<add stat="maxMp" order="0x10" value="17"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="14595" name="Oren Earth Protection Ring">
@@ -413,7 +406,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="42"/>
 			<add stat="maxMp" order="0x10" value="17"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="14596" name="Aden Divinity Protection Ring">
@@ -435,7 +428,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="42"/>
 			<add stat="maxMp" order="0x10" value="17"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="14597" name="Innadril Divinity Protection Ring">
@@ -457,7 +450,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="42"/>
 			<add stat="maxMp" order="0x10" value="17"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="14598" name="Goddard Dark Protection Ring">
@@ -479,7 +472,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="42"/>
 			<add stat="maxMp" order="0x10" value="17"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="14599" name="Rune Wind Protection Ring">
@@ -501,7 +494,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="42"/>
 			<add stat="maxMp" order="0x10" value="17"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 </list>

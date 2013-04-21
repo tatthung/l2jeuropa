@@ -74,8 +74,8 @@
 			<add stat="mAtk" order="0x10" value="152"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16921" name="Wizard's Tear of Friendship" add_name="90-day limited period">
@@ -97,8 +97,8 @@
 			<add stat="mAtk" order="0x10" value="132"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16922" name="Homunkulus's Sword of Friendship" add_name="90-day limited period">
@@ -120,8 +120,8 @@
 			<add stat="mAtk" order="0x10" value="101"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16923" name="Friendship Staff of Life" add_name="90-day limited period">
@@ -144,8 +144,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16924" name="Naga Storm of Friendship" add_name="90-day limited period">
@@ -168,8 +168,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<set stat="baseCrit" order="0x08" value="12.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16925" name="Kris of Friendship" add_name="90-day limited period">
@@ -192,8 +192,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<set stat="baseCrit" order="0x08" value="12.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16926" name="Dark Screamer of Friendship" add_name="90-day limited period">
@@ -216,8 +216,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<set stat="baseCrit" order="0x08" value="12.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16927" name="Mithril Dagger of Friendship" add_name="90-day limited period">
@@ -240,8 +240,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<set stat="baseCrit" order="0x08" value="12.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16928" name="Shyeed's Bow of Friendship" add_name="90-day limited period">
@@ -266,8 +266,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="227"/>
 			<set stat="baseCrit" order="0x08" value="12.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16929" name="Friendship Bow of Peril" add_name="90-day limited period">
@@ -292,8 +292,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<set stat="baseCrit" order="0x08" value="12.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16930" name="Eminence Bow of Friendship" add_name="90-day limited period">
@@ -318,8 +318,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<set stat="baseCrit" order="0x08" value="12.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16931" name="Light Crossbow of Friendship" add_name="90-day limited period">
@@ -344,8 +344,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
 			<set stat="baseCrit" order="0x08" value="12.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16932" name="Barakiel's Axe of Friendship" add_name="90-day limited period">
@@ -368,8 +368,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16933" name="Art of Battle Axe of Friendship" add_name="90-day limited period">
@@ -392,8 +392,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16934" name="Yaksa Mace of Friendship" add_name="90-day limited period">
@@ -416,8 +416,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16935" name="Bonebreaker of Friendship" add_name="90-day limited period">
@@ -440,8 +440,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16936" name="Sirra's Blade of Friendship" add_name="90-day limited period">
@@ -463,8 +463,8 @@
 			<add stat="mAtk" order="0x10" value="121"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16937" name="Friendship Sword of Damascus" add_name="90-day limited period">
@@ -486,8 +486,8 @@
 			<add stat="mAtk" order="0x10" value="99"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16938" name="Samurai Longsword of Friendship" add_name="90-day limited period">
@@ -509,8 +509,8 @@
 			<add stat="mAtk" order="0x10" value="83"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16939" name="Elven Long Sword of Friendship" add_name="90-day limited period">
@@ -532,8 +532,8 @@
 			<add stat="mAtk" order="0x10" value="54"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16940" name="Friendship Sword of Ipos" add_name="90-day limited period">
@@ -555,8 +555,8 @@
 			<add stat="mAtk" order="0x10" value="121"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16941" name="Guardian Sword of Friendship" add_name="90-day limited period">
@@ -578,8 +578,8 @@
 			<add stat="mAtk" order="0x10" value="99"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16942" name="Berserker Blade of Friendship" add_name="90-day limited period">
@@ -601,8 +601,8 @@
 			<add stat="mAtk" order="0x10" value="83"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16943" name="Claymore of Friendship" add_name="90-day limited period">
@@ -624,8 +624,8 @@
 			<add stat="mAtk" order="0x10" value="54"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16944" name="Sobekk's Hurricane of Friendship" add_name="90-day limited period">
@@ -648,8 +648,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16945" name="Bellion Cestus of Friendship" add_name="90-day limited period">
@@ -672,8 +672,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16946" name="Great Pata of Friendship" add_name="90-day limited period">
@@ -696,8 +696,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16947" name="Scallop Jamadhr of Friendship" add_name="90-day limited period">
@@ -720,8 +720,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16948" name="Tallum Blade*Damascus of Friendship" add_name="90-day limited period">
@@ -743,8 +743,8 @@
 			<add stat="mAtk" order="0x10" value="121"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16949" name="Samurai Long Sword*Samurai Long Sword of Friendship" add_name="90-day limited period">
@@ -766,8 +766,8 @@
 			<add stat="mAtk" order="0x10" value="99"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16950" name="Spirit Sword*Raid Sword of Friendship" add_name="90-day limited period">
@@ -789,8 +789,8 @@
 			<add stat="mAtk" order="0x10" value="83"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16951" name="Bastard Sword*Elven Sword of Friendship" add_name="90-day limited period">
@@ -812,8 +812,8 @@
 			<add stat="mAtk" order="0x10" value="51"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16952" name="Tiphon's Spear of Friendship" add_name="90-day limited period">
@@ -836,8 +836,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16953" name="Lance of Friendship" add_name="90-day limited period">
@@ -860,8 +860,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16954" name="Orcish Poleaxe of Friendship" add_name="90-day limited period">
@@ -884,8 +884,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16955" name="Glaive of Friendship" add_name="90-day limited period">
@@ -908,8 +908,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16956" name="Durendal of Friendship" add_name="90-day limited period">
@@ -932,8 +932,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
 			<add stat="accCombat" order="0x10" value="2.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16957" name="Dismantler of Friendship" add_name="90-day limited period">
@@ -956,8 +956,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
 			<add stat="accCombat" order="0x10" value="2.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16958" name="Saber Tooth of Friendship" add_name="90-day limited period">
@@ -980,8 +980,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
 			<add stat="accCombat" order="0x10" value="2.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16959" name="General's Katzbalger of Friendship" add_name="90-day limited period">
@@ -1004,8 +1004,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
 			<add stat="accCombat" order="0x10" value="2.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16960" name="Ãclair Bijou of Friendship" add_name="90-day limited period">
@@ -1028,8 +1028,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<set stat="baseCrit" order="0x08" value="10.0"/>
 			<add stat="accCombat" order="0x10" value="-1.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16961" name="Colichemarde of Friendship" add_name="90-day limited period">
@@ -1052,8 +1052,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<set stat="baseCrit" order="0x08" value="10.0"/>
 			<add stat="accCombat" order="0x10" value="-1.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16962" name="Admiral's Estoc of Friendship" add_name="90-day limited period">
@@ -1076,8 +1076,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<set stat="baseCrit" order="0x08" value="10.0"/>
 			<add stat="accCombat" order="0x10" value="-1.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16963" name="Grand ÃpÃ©e of Friendship" add_name="90-day limited period">
@@ -1100,8 +1100,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<set stat="baseCrit" order="0x08" value="10.0"/>
 			<add stat="accCombat" order="0x10" value="-1.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16964" name="Screaming Vengeance of Friendship" add_name="90-day limited period">
@@ -1125,8 +1125,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
 			<set stat="baseCrit" order="0x08" value="10.0"/>
 			<add stat="accCombat" order="0x10" value="-1.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16965" name="Hell Hound of Friendship" add_name="90-day limited period">
@@ -1150,8 +1150,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
 			<set stat="baseCrit" order="0x08" value="10.0"/>
 			<add stat="accCombat" order="0x10" value="-1.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16966" name="Sharpshooter of Friendship" add_name="90-day limited period">
@@ -1175,8 +1175,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
 			<set stat="baseCrit" order="0x08" value="10.0"/>
 			<add stat="accCombat" order="0x10" value="-1.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="16967" name="Cranequin of Friendship" add_name="90-day limited period">
@@ -1200,8 +1200,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
 			<set stat="baseCrit" order="0x08" value="10.0"/>
 			<add stat="accCombat" order="0x10" value="-1.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 </list>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="9514" name="Sealed Dynasty Breast Plate">
 		<set name="crystal_count" value="1171"/>
@@ -15,10 +14,9 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="214"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9515" name="Sealed Dynasty Gaiter">
 		<set name="crystal_count" value="731"/>
@@ -34,10 +32,9 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="134"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9516" name="Sealed Dynasty Helmet">
 		<set name="crystal_count" value="439"/>
@@ -53,10 +50,9 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="92"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9517" name="Sealed Dynasty Gauntlets">
 		<set name="crystal_count" value="293"/>
@@ -72,10 +68,9 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9518" name="Sealed Dynasty Boots">
 		<set name="crystal_count" value="293"/>
@@ -91,10 +86,9 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9519" name="Sealed Dynasty Leather Armor">
 		<set name="crystal_count" value="878"/>
@@ -110,10 +104,9 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="161"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9520" name="Sealed Dynasty Leather Leggings">
 		<set name="crystal_count" value="549"/>
@@ -129,10 +122,9 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="100"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9521" name="Sealed Dynasty Leather Helmet">
 		<set name="crystal_count" value="439"/>
@@ -148,10 +140,9 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="92"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9522" name="Sealed Dynasty Leather Gloves">
 		<set name="crystal_count" value="293"/>
@@ -167,10 +158,9 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9523" name="Sealed Dynasty Leather Boots">
 		<set name="crystal_count" value="293"/>
@@ -186,10 +176,9 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9524" name="Sealed Dynasty Tunic">
 		<set name="crystal_count" value="878"/>
@@ -206,10 +195,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="107"/>
 			<add stat="maxMp" order="0x10" value="592"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9525" name="Sealed Dynasty Stockings">
 		<set name="crystal_count" value="549"/>
@@ -226,10 +214,9 @@
 		<for>
 			<add stat="pDef" order="0x10" value="67"/>
 			<add stat="maxMp" order="0x10" value="370"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9526" name="Sealed Dynasty Circlet">
 		<set name="crystal_count" value="439"/>
@@ -245,10 +232,9 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="92"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9527" name="Sealed Dynasty Gloves">
 		<set name="crystal_count" value="293"/>
@@ -264,10 +250,9 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9528" name="Sealed Dynasty Shoes">
 		<set name="crystal_count" value="293"/>
@@ -283,10 +268,9 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="61"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9577" name="Cotton Shirt">
 		<set name="crystal_type" value="NONE"/>
@@ -300,7 +284,7 @@
 		<set name="ex_type" value="UNDERWEAR"/>
 		<for>
 			<add stat="pDef" order="0x10" value="6"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -318,10 +302,9 @@
 		<set name="ex_type" value="UNDERWEAR"/>
 		<for>
 			<add stat="pDef" order="0x10" value="12"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9579" name="Silk Shirt">
 		<set name="crystal_count" value="27"/>
@@ -337,10 +320,9 @@
 		<set name="ex_type" value="UNDERWEAR"/>
 		<for>
 			<add stat="pDef" order="0x10" value="17"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9580" name="Thin Leather Shirt">
 		<set name="crystal_count" value="29"/>
@@ -356,10 +338,9 @@
 		<set name="ex_type" value="UNDERWEAR"/>
 		<for>
 			<add stat="pDef" order="0x10" value="21"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9581" name="Scale Shirt">
 		<set name="crystal_count" value="39"/>
@@ -375,10 +356,9 @@
 		<set name="ex_type" value="UNDERWEAR"/>
 		<for>
 			<add stat="pDef" order="0x10" value="23"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9582" name="Mithril Shirt">
 		<set name="crystal_count" value="86"/>
@@ -394,10 +374,9 @@
 		<set name="ex_type" value="UNDERWEAR"/>
 		<for>
 			<add stat="pDef" order="0x10" value="28"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9583" name="Striped Cotton Shirt">
 		<set name="crystal_type" value="NONE"/>
@@ -411,7 +390,7 @@
 		<set name="ex_type" value="UNDERWEAR"/>
 		<for>
 			<add stat="pDef" order="0x10" value="8"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -429,10 +408,9 @@
 		<set name="ex_type" value="UNDERWEAR"/>
 		<for>
 			<add stat="pDef" order="0x10" value="14"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9585" name="Striped Silk Shirt">
 		<set name="crystal_count" value="60"/>
@@ -448,10 +426,9 @@
 		<set name="ex_type" value="UNDERWEAR"/>
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9586" name="Thin Striped Leather Shirt">
 		<set name="crystal_count" value="44"/>
@@ -467,10 +444,9 @@
 		<set name="ex_type" value="UNDERWEAR"/>
 		<for>
 			<add stat="pDef" order="0x10" value="22"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9587" name="Striped Scale Shirt">
 		<set name="crystal_count" value="59"/>
@@ -486,10 +462,9 @@
 		<set name="ex_type" value="UNDERWEAR"/>
 		<for>
 			<add stat="pDef" order="0x10" value="26"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9588" name="Striped Mithril Shirt">
 		<set name="crystal_count" value="122"/>
@@ -505,10 +480,9 @@
 		<set name="ex_type" value="UNDERWEAR"/>
 		<for>
 			<add stat="pDef" order="0x10" value="30"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9589" name="Iron Bracelet">
 		<set name="enchantable" value="false"/>
@@ -526,7 +500,6 @@
 		<skills>
 			<skill id="3322" level="1"/>
 		</skills>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9590" name="Bronze Bracelet">
 		<set name="enchantable" value="false"/>
@@ -544,7 +517,6 @@
 		<skills>
 			<skill id="3323" level="1"/>
 		</skills>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9591" name="Steel Bracelet">
 		<set name="enchantable" value="false"/>
@@ -562,7 +534,6 @@
 		<skills>
 			<skill id="3324" level="1"/>
 		</skills>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="9592" name="Mithril Bracelet">
 		<set name="enchantable" value="false"/>
@@ -580,6 +551,5 @@
 		<skills>
 			<skill id="3325" level="1"/>
 		</skills>
-		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

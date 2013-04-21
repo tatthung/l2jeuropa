@@ -15,6 +15,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="13062" level="4"/>
@@ -24,8 +25,8 @@
 			<add stat="mAtk" order="0x10" value="226"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -43,6 +44,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="3008" level="6"/>
@@ -52,8 +54,8 @@
 			<add stat="mAtk" order="0x10" value="226"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -71,6 +73,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3008" level="6"/>
 			<skill id="13062" level="4"/>
@@ -80,8 +83,8 @@
 			<add stat="mAtk" order="0x10" value="226"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -98,6 +101,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="3008" level="6"/>
@@ -107,8 +111,8 @@
 			<add stat="mAtk" order="0x10" value="226"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -125,6 +129,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3008" level="6"/>
 			<skill id="13062" level="4"/>
@@ -134,8 +139,8 @@
 			<add stat="mAtk" order="0x10" value="226"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -152,6 +157,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="13062" level="4"/>
@@ -161,8 +167,8 @@
 			<add stat="mAtk" order="0x10" value="226"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -191,8 +197,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -221,8 +227,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -251,8 +257,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -279,8 +285,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -307,8 +313,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -335,8 +341,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -363,8 +369,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -391,8 +397,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -419,8 +425,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -447,8 +453,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -475,8 +481,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -503,8 +509,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -531,8 +537,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -559,8 +565,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -587,8 +593,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -614,8 +620,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -642,8 +648,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -670,8 +676,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -698,8 +704,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -726,8 +732,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -751,8 +757,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -780,8 +786,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -809,8 +815,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -838,8 +844,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -865,8 +871,8 @@
 			<add stat="mAtk" order="0x10" value="330"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -892,8 +898,8 @@
 			<add stat="mAtk" order="0x10" value="330"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -920,8 +926,8 @@
 			<add stat="mAtk" order="0x10" value="330"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -948,8 +954,8 @@
 			<add stat="mAtk" order="0x10" value="330"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -975,8 +981,8 @@
 			<add stat="mAtk" order="0x10" value="330"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1002,8 +1008,8 @@
 			<add stat="mAtk" order="0x10" value="330"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1029,8 +1035,8 @@
 			<add stat="mAtk" order="0x10" value="363"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1057,8 +1063,8 @@
 			<add stat="mAtk" order="0x10" value="363"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1084,8 +1090,8 @@
 			<add stat="mAtk" order="0x10" value="363"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1111,8 +1117,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1138,8 +1144,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1166,8 +1172,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1194,8 +1200,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1222,8 +1228,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1250,8 +1256,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1277,8 +1283,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1304,8 +1310,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1330,8 +1336,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1349,6 +1355,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3008" level="6"/>
 			<skill id="8297" level="1"/>
@@ -1360,8 +1367,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1379,6 +1386,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 			<skill id="8289" level="1"/>
@@ -1389,8 +1397,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1408,6 +1416,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="3008" level="6"/>
@@ -1418,8 +1427,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1437,6 +1446,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 			<skill id="8289" level="1"/>
@@ -1446,8 +1456,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1465,6 +1475,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="3013" level="5"/>
@@ -1474,8 +1485,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1493,6 +1504,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3013" level="5"/>
 			<skill id="8297" level="1"/>
@@ -1502,8 +1514,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1521,6 +1533,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="13062" level="4"/>
@@ -1530,8 +1543,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1549,6 +1562,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 			<skill id="13062" level="4"/>
@@ -1558,8 +1572,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1577,6 +1591,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 			<skill id="8289" level="1"/>
@@ -1586,8 +1601,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1605,6 +1620,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 			<skill id="3572" level="2"/>
@@ -1614,8 +1630,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1633,6 +1649,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3572" level="2"/>
 			<skill id="8289" level="1"/>
@@ -1642,8 +1659,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1661,6 +1678,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="8297" level="1"/>
@@ -1670,8 +1688,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1689,6 +1707,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="13062" level="4"/>
@@ -1698,8 +1717,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1717,6 +1736,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 			<skill id="13062" level="4"/>
@@ -1726,8 +1746,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1745,6 +1765,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 			<skill id="8289" level="1"/>
@@ -1754,8 +1775,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1773,6 +1794,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3008" level="6"/>
 		</skills>
@@ -1781,8 +1803,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1800,6 +1822,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3008" level="6"/>
 			<skill id="13062" level="4"/>
@@ -1809,8 +1832,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1828,6 +1851,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3568" level="1"/>
 			<skill id="13062" level="4"/>
@@ -1837,8 +1861,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1856,6 +1880,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="13062" level="4"/>
@@ -1866,8 +1891,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1885,6 +1910,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 		</skills>
@@ -1894,8 +1920,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1913,6 +1939,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="13061" level="1"/>
 			<skill id="13062" level="4"/>
@@ -1923,8 +1950,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="293"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1942,6 +1969,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="3655" level="1"/>
@@ -1952,8 +1980,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1971,6 +1999,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3655" level="1"/>
 			<skill id="8297" level="1"/>
@@ -1981,8 +2010,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2000,6 +2029,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 			<skill id="8289" level="1"/>
@@ -2010,8 +2040,8 @@
 			<add stat="accCombat" order="0x10" value="-2.0"/>
 			<set stat="baseCrit" order="0x08" value="100"/>
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2029,6 +2059,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3047" level="3"/>
 		</skills>
@@ -2037,8 +2068,8 @@
 			<add stat="mAtk" order="0x10" value="330"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2056,6 +2087,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3014" level="3"/>
 		</skills>
@@ -2064,8 +2096,8 @@
 			<add stat="mAtk" order="0x10" value="330"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2083,6 +2115,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3014" level="3"/>
 			<skill id="3047" level="3"/>
@@ -2092,8 +2125,8 @@
 			<add stat="mAtk" order="0x10" value="330"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2111,6 +2144,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3575" level="2"/>
 			<skill id="3047" level="3"/>
@@ -2120,8 +2154,8 @@
 			<add stat="mAtk" order="0x10" value="330"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2139,6 +2173,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3047" level="3"/>
 		</skills>
@@ -2147,8 +2182,8 @@
 			<add stat="mAtk" order="0x10" value="330"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2166,6 +2201,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3575" level="2"/>
 		</skills>
@@ -2174,8 +2210,8 @@
 			<add stat="mAtk" order="0x10" value="330"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2193,6 +2229,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3047" level="3"/>
 		</skills>
@@ -2201,8 +2238,8 @@
 			<add stat="mAtk" order="0x10" value="363"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2220,6 +2257,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3047" level="3"/>
 			<skill id="3575" level="2"/>
@@ -2229,8 +2267,8 @@
 			<add stat="mAtk" order="0x10" value="363"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2248,6 +2286,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3575" level="2"/>
 		</skills>
@@ -2256,8 +2295,8 @@
 			<add stat="mAtk" order="0x10" value="363"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2275,6 +2314,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8297" level="1"/>
 			<skill id="13062" level="4"/>
@@ -2284,8 +2324,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2303,6 +2343,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3013" level="5"/>
 			<skill id="13062" level="4"/>
@@ -2312,8 +2353,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2331,6 +2372,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3013" level="5"/>
 			<skill id="8297" level="1"/>
@@ -2340,8 +2382,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2359,6 +2401,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="13062" level="4"/>
@@ -2368,8 +2411,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2387,6 +2430,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="3008" level="6"/>
@@ -2396,8 +2440,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2415,6 +2459,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3008" level="6"/>
 			<skill id="13062" level="4"/>
@@ -2424,8 +2469,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2442,6 +2487,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="3008" level="6"/>
@@ -2451,8 +2497,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2469,6 +2515,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="3008" level="6"/>
 			<skill id="13062" level="4"/>
@@ -2478,8 +2525,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2496,6 +2543,7 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<set name="isBlessed" value="true"/>
 		<skills>
 			<skill id="8289" level="1"/>
 			<skill id="13062" level="4"/>
@@ -2505,8 +2553,8 @@
 			<add stat="mAtk" order="0x10" value="275"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2535,8 +2583,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2565,8 +2613,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2595,8 +2643,8 @@
 			<add stat="accCombat" order="0x10" value="-4.0"/>
 			<set stat="baseCrit" order="0x08" value="120"/>
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2624,8 +2672,8 @@
 			<add stat="mAtk" order="0x10" value="298"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2653,8 +2701,8 @@
 			<add stat="mAtk" order="0x10" value="298"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2682,8 +2730,8 @@
 			<add stat="mAtk" order="0x10" value="298"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2711,8 +2759,8 @@
 			<add stat="mAtk" order="0x10" value="298"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2740,8 +2788,8 @@
 			<add stat="mAtk" order="0x10" value="298"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2769,8 +2817,8 @@
 			<add stat="mAtk" order="0x10" value="298"/>
 			<set stat="baseCrit" order="0x08" value="80"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -2798,8 +2846,8 @@
 			<add stat="mAtk" order="0x10" value="298"/>
 			<set stat="baseCrit" order="0x08" value="40"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
