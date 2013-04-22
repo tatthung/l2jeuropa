@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="13234" name="Varka Karm (used by Varka Silenos)">
 		<set name="crystal_type" value="NONE"/>
@@ -263,7 +262,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="43"/>
 			<add stat="maxMp" order="0x10" value="20"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13294" name="Pailaka Ring">
@@ -283,7 +282,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="29"/>
 			<add stat="maxMp" order="0x10" value="15"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="13295" name="Pailaka Bracelet">
@@ -322,7 +321,7 @@
 		<for>
 			<add stat="pDef" order="0x10" value="28"/>
 			<add stat="maxMp" order="0x10" value="40"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>

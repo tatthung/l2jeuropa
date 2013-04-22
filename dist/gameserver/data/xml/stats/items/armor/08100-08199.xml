@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="8177" name="Raid Challenger's Circlet">
 		<set name="crystal_type" value="NONE"/>
@@ -180,8 +179,7 @@
 		<for>
 			<add stat="mDef" order="0x10" value="95"/>
 			<add stat="maxMp" order="0x10" value="42"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

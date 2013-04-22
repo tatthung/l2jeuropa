@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="13500" name="Refined Black Feather Mask">
 		<set name="crystal_type" value="NONE"/>
@@ -300,7 +299,7 @@
 		<set name="ex_type" value="BELT"/>
 		<for>
 			<add stat="pDef" order="0x10" value="36"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -316,7 +315,7 @@
 		<set name="ex_type" value="CLOAK"/>
 		<for>
 			<add stat="pDef" order="0x10" value="2"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -413,7 +412,6 @@
 		<skills>
 			<skill id="8261" level="1"/>
 		</skills>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="13547" name="Tawny-Maned Lion Mounting Bracelet">
 		<set name="freightable" value="true"/>
@@ -436,6 +434,5 @@
 		<skills>
 			<skill id="8262" level="1"/>
 		</skills>
-		<set name="crystallizable" value="true"/>
 	</armor>
 </list>

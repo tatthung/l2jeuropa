@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="20601" name="Anniversary Hat" add_name="Soul of Phoenix - 7 day limited period">
 		<set name="freightable" value="true"/>
@@ -294,7 +293,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="29"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -313,7 +312,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="29"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -332,7 +331,7 @@
 		<set name="ex_type" value="HELMET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="44"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -351,7 +350,7 @@
 		<set name="ex_type" value="LOWER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="70"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -370,7 +369,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="111"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -389,7 +388,7 @@
 		<set name="ex_type" value="FULL_BODY"/>
 		<for>
 			<add stat="pDef" order="0x10" value="136"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -409,7 +408,7 @@
 		<for>
 			<add stat="pDef" order="0x10" value="52"/>
 			<add stat="maxMp" order="0x10" value="169"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -429,7 +428,7 @@
 		<for>
 			<add stat="pDef" order="0x10" value="32"/>
 			<add stat="maxMp" order="0x10" value="105"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -448,7 +447,7 @@
 		<set name="ex_type" value="FEET"/>
 		<for>
 			<add stat="pDef" order="0x10" value="29"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -467,7 +466,7 @@
 		<set name="ex_type" value="GLOVES"/>
 		<for>
 			<add stat="pDef" order="0x10" value="29"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -495,7 +494,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20655" name="Agathion Seal Bracelet - Chon-chon" add_name="Great Warrior's Soul Power - 7 days limited time">
+	<armor id="20655" name="Agathion Seal Bracelet - Chon-chon"
+           add_name="Great Warrior's Soul Power - 7 days limited time">
 		<set name="freightable" value="true"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
@@ -545,7 +545,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20657" name="Agathion Seal Bracelet - Tang-tang" add_name="Great Wizard's Soul Power - 7 days limited time">
+	<armor id="20657" name="Agathion Seal Bracelet - Tang-tang"
+           add_name="Great Wizard's Soul Power - 7 days limited time">
 		<set name="freightable" value="true"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
@@ -595,7 +596,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20659" name="Agthion Seal Bracelet - Dancing Lucky Kid" add_name="Great Adventurer's Soul Power - 7 days limited time">
+	<armor id="20659" name="Agthion Seal Bracelet - Dancing Lucky Kid"
+           add_name="Great Adventurer's Soul Power - 7 days limited time">
 		<set name="freightable" value="true"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
@@ -645,7 +647,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20661" name="Agathion Seal Bracelet - Monkey King" add_name="Great Wizard's Soul Power - 7 days limited time">
+	<armor id="20661" name="Agathion Seal Bracelet - Monkey King"
+           add_name="Great Wizard's Soul Power - 7 days limited time">
 		<set name="freightable" value="true"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
@@ -695,7 +698,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20663" name="Agathion Seal Bracelet - Utanka Agathion" add_name="Great Warrior's Soul Power - 7 days limited time">
+	<armor id="20663" name="Agathion Seal Bracelet - Utanka Agathion"
+           add_name="Great Warrior's Soul Power - 7 days limited time">
 		<set name="freightable" value="true"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
@@ -745,7 +749,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20665" name="Agathion Seal Bracelet - Bonus B Agathion" add_name="Great Adventurer's Soul Power - 7 days limited time">
+	<armor id="20665" name="Agathion Seal Bracelet - Bonus B Agathion"
+           add_name="Great Adventurer's Soul Power - 7 days limited time">
 		<set name="freightable" value="true"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>

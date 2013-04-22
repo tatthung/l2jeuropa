@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="10500" name="Mithril Shirt" add_name="HP">
 		<set name="crystal_count" value="86"/>
@@ -17,10 +16,9 @@
 		<!--Mithril Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="28"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10501" name="Mithril Shirt" add_name="MP">
 		<set name="crystal_count" value="86"/>
@@ -38,10 +36,9 @@
 		<!--Mithril Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="28"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10502" name="Mithril Shirt" add_name="CP">
 		<set name="crystal_count" value="86"/>
@@ -59,10 +56,9 @@
 		<!--Mithril Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="28"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10503" name="Striped Silk Shirt" add_name="HP">
 		<set name="crystal_count" value="60"/>
@@ -80,10 +76,9 @@
 		<!--Striped Silk Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10504" name="Striped Silk Shirt" add_name="MP">
 		<set name="crystal_count" value="60"/>
@@ -101,10 +96,9 @@
 		<!--Striped Silk Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10505" name="Striped Silk Shirt" add_name="CP">
 		<set name="crystal_count" value="60"/>
@@ -122,10 +116,9 @@
 		<!--Striped Silk Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10506" name="Thin Striped Leather Shirt" add_name="HP">
 		<set name="crystal_count" value="44"/>
@@ -143,10 +136,9 @@
 		<!--Thin Stripe Leather Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="22"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10507" name="Thin Striped Leather Shirt" add_name="MP">
 		<set name="crystal_count" value="44"/>
@@ -164,10 +156,9 @@
 		<!--Thin Stripe Leather Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="22"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10508" name="Thin Striped Leather Shirt" add_name="CP">
 		<set name="crystal_count" value="44"/>
@@ -185,10 +176,9 @@
 		<!--Thin Stripe Leather Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="22"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10509" name="Striped Scale Shirt" add_name="HP">
 		<set name="crystal_count" value="59"/>
@@ -206,10 +196,9 @@
 		<!--Striped Scale Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="26"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10510" name="Striped Scale Shirt" add_name="MP">
 		<set name="crystal_count" value="59"/>
@@ -227,10 +216,9 @@
 		<!--Striped Scale Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="26"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10511" name="Striped Scale Shirt" add_name="CP">
 		<set name="crystal_count" value="59"/>
@@ -248,10 +236,9 @@
 		<!--Striped Scale Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="26"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10512" name="Striped Mithril Shirt" add_name="HP">
 		<set name="crystal_count" value="122"/>
@@ -269,10 +256,9 @@
 		<!--Striped Mithril Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="30"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10513" name="Striped Mithril Shirt" add_name="MP">
 		<set name="crystal_count" value="122"/>
@@ -290,10 +276,9 @@
 		<!--Striped Mithril Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="30"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10514" name="Striped Mithril Shirt" add_name="CP">
 		<set name="crystal_count" value="122"/>
@@ -311,10 +296,9 @@
 		<!--Striped Mithril Shirt-->
 		<for>
 			<add stat="pDef" order="0x10" value="30"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="10518" name="Red Talisman - Life Force">
 		<set name="crystal_type" value="NONE"/>

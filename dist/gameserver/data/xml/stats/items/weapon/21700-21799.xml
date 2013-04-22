@@ -20,8 +20,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="433"/>
 			<set stat="baseCrit" order="0x08" value="12.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21732" name="Sword of Revolution" add_name="Event">
@@ -42,8 +42,8 @@
 			<add stat="mAtk" order="0x10" value="47"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21733" name="Titan Sword" add_name="Event">
@@ -64,8 +64,8 @@
 			<add stat="mAtk" order="0x10" value="47"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21734" name="Priest Mace" add_name="Event">
@@ -87,8 +87,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21735" name="Tarbar" add_name="Event">
@@ -110,8 +110,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21736" name="Goat Head Staff" add_name="Event">
@@ -133,8 +133,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21737" name="Titan Hammer" add_name="Event">
@@ -156,8 +156,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21738" name="Winged Spear" add_name="Event">
@@ -179,8 +179,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21739" name="Reinforced Long Bow" add_name="Event">
@@ -203,8 +203,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="227"/>
 			<set stat="baseCrit" order="0x08" value="12.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21740" name="Epee" add_name="Event">
@@ -226,8 +226,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="406"/>
 			<set stat="baseCrit" order="0x08" value="10.0"/>
 			<add stat="accCombat" order="0x10" value="-1.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21741" name="Sword of Magic Fog" add_name="Event">
@@ -248,8 +248,8 @@
 			<add stat="mAtk" order="0x10" value="63"/>
 			<set stat="atkBaseSpeed" order="0x08" value="379"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21742" name="Bastard Sword*Bastard Sword" add_name="Event">
@@ -270,8 +270,8 @@
 			<add stat="mAtk" order="0x10" value="47"/>
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21743" name="Bich'Hwa" add_name="Event">
@@ -293,8 +293,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="4.0"/>
 			<add stat="accCombat" order="0x10" value="4.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21744" name="Katzbalger" add_name="Event">
@@ -316,8 +316,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="350"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
 			<add stat="accCombat" order="0x10" value="2.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21745" name="Arm Breaker" add_name="Event">
@@ -339,8 +339,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="303"/>
 			<set stat="baseCrit" order="0x08" value="10.0"/>
 			<add stat="accCombat" order="0x10" value="-1.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21754" name="Server Ziggi's Magic Pencil">
@@ -362,8 +362,8 @@
 			<set stat="atkBaseSpeed" order="0x08" value="325"/>
 			<set stat="baseCrit" order="0x08" value="8.0"/>
 			<add stat="accCombat" order="0x10" value="-3.0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="mAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="21780" name="Imperial Crusader Shield of Friendship" add_name="90-day limited period">

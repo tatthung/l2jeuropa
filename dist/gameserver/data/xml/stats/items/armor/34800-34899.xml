@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="34831" name="Squash Ring - Magician" add_name="Event">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="S"/>
@@ -13,9 +12,9 @@
 		<set name="ex_type" value="RING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="62"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="34832" name="Squash Earring - Magician" add_name="Event">		<!--Done By Darvin (c)Java-Team-->
@@ -30,9 +29,9 @@
 		<set name="ex_type" value="EARRING"/>
 		<for>
 			<add stat="mDef" order="0x10" value="92"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
-			<enchant stat="mDef" order="0x0C" value="0"/>
+			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
 	<armor id="34833" name="Afro Hair">		<!--Done By Darvin (c)Java-Team-->
@@ -75,7 +74,8 @@
 		</equip>
 		<set name="ex_type" value="BRACELET"/>
 	</armor>
-	<armor id="34871" name="Low-grade Magic Rune Clip Immortal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34871" name="Low-grade Magic Rune Clip Immortal Belt"
+           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -88,12 +88,12 @@
 		<set name="ex_type" value="BELT"/>
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="34872" name="Standard Magic Rune Clip Immortal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34872" name="Standard Magic Rune Clip Immortal Belt"
+           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -106,12 +106,12 @@
 		<set name="ex_type" value="BELT"/>
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="34873" name="High-grade Magic Rune Clip Immortal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34873" name="High-grade Magic Rune Clip Immortal Belt"
+           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -124,12 +124,12 @@
 		<set name="ex_type" value="BELT"/>
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="34874" name="Top-grade Magic Rune Clip Immortal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34874" name="Top-grade Magic Rune Clip Immortal Belt"
+           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -142,12 +142,12 @@
 		<set name="ex_type" value="BELT"/>
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="34875" name="Low-grade Magic Rune Clip Immortal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34875" name="Low-grade Magic Rune Clip Immortal Belt"
+           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -160,12 +160,12 @@
 		<set name="ex_type" value="BELT"/>
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="34876" name="Standard Magic Rune Clip Immortal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34876" name="Standard Magic Rune Clip Immortal Belt"
+           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -178,12 +178,12 @@
 		<set name="ex_type" value="BELT"/>
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="34877" name="High-grade Magic Rune Clip Immortal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34877" name="High-grade Magic Rune Clip Immortal Belt"
+           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -196,12 +196,12 @@
 		<set name="ex_type" value="BELT"/>
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
-	<armor id="34878" name="Top-grade Magic Rune Clip Immortal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34878" name="Top-grade Magic Rune Clip Immortal Belt"
+           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
 		<set name="crystal_count" value="1013"/>
@@ -214,10 +214,9 @@
 		<set name="ex_type" value="BELT"/>
 		<for>
 			<add stat="pDef" order="0x10" value="19"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</armor>
 	<armor id="34896" name="Rabbit Ear" add_name="Campaign">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="NONE"/>

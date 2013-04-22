@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="20500" name="Feline King Hat">
 		<set name="freightable" value="true"/>
@@ -239,7 +238,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20592" name="Agathion Seal Bracelet - Weaver" add_name="Power of the Golden Calf - 24 hours limited period">
+	<armor id="20592" name="Agathion Seal Bracelet - Weaver"
+           add_name="Power of the Golden Calf - 24 hours limited period">
 		<set name="freightable" value="true"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>

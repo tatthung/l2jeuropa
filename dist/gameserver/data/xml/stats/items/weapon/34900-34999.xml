@@ -16,8 +16,8 @@
 		<for>
 			<add stat="pAtk" order="0x10" value="1"/>
 			<add stat="mAtk" order="0x10" value="1"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -36,8 +36,8 @@
 		<for>
 			<add stat="pAtk" order="0x10" value="1"/>
 			<add stat="mAtk" order="0x10" value="1"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -56,8 +56,8 @@
 		<for>
 			<add stat="pAtk" order="0x10" value="1"/>
 			<add stat="mAtk" order="0x10" value="1"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -76,8 +76,8 @@
 		<for>
 			<add stat="pAtk" order="0x10" value="1"/>
 			<add stat="mAtk" order="0x10" value="1"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -96,8 +96,8 @@
 		<for>
 			<add stat="pAtk" order="0x10" value="629"/>
 			<add stat="mAtk" order="0x10" value="322"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -116,8 +116,8 @@
 		<for>
 			<add stat="pAtk" order="0x10" value="766"/>
 			<add stat="mAtk" order="0x10" value="322"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
-			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
+			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>

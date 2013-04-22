@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="20711" name="Jack O'Lantern Mask - Event">
 		<set name="crystal_type" value="NONE"/>
@@ -24,7 +23,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20712" name="Mask of Giant Hercules - Event" add_name="Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
+	<armor id="20712" name="Mask of Giant Hercules - Event"
+           add_name="Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
 		<set name="durability" value="120"/>
@@ -50,7 +50,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20713" name="Mask of Silent Scream - Event" add_name="Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
+	<armor id="20713" name="Mask of Silent Scream - Event"
+           add_name="Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
 		<set name="durability" value="120"/>
@@ -76,7 +77,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20714" name="Spirit of Wrath Mask - Event" add_name="Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
+	<armor id="20714" name="Spirit of Wrath Mask - Event"
+           add_name="Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
 		<set name="durability" value="120"/>
@@ -102,7 +104,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20715" name="Undecaying Corpse Mask - Event" add_name="Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
+	<armor id="20715" name="Undecaying Corpse Mask - Event"
+           add_name="Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
 		<set name="durability" value="120"/>
@@ -128,7 +131,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20716" name="Planet X235 Alien Mask - Event" add_name="Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
+	<armor id="20716" name="Planet X235 Alien Mask - Event"
+           add_name="Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
 		<set name="durability" value="120"/>
@@ -154,7 +158,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20718" name="Shiny Mask of Giant Hercules - Event" add_name="Blessing of Halloween - 4 hours Limited Period">
+	<armor id="20718" name="Shiny Mask of Giant Hercules - Event"
+           add_name="Blessing of Halloween - 4 hours Limited Period">
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
 		<set name="durability" value="240"/>
@@ -180,7 +185,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20719" name="Shiny Mask of Silent Scream - Event" add_name="Blessing of Halloween - 4 hours Limited Period">
+	<armor id="20719" name="Shiny Mask of Silent Scream - Event"
+           add_name="Blessing of Halloween - 4 hours Limited Period">
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
 		<set name="durability" value="240"/>
@@ -206,7 +212,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20720" name="Shiny Spirit of Wrath Mask - Event" add_name="Blessing of Halloween - 4 hours Limited Period">
+	<armor id="20720" name="Shiny Spirit of Wrath Mask - Event"
+           add_name="Blessing of Halloween - 4 hours Limited Period">
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
 		<set name="durability" value="240"/>
@@ -232,7 +239,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20721" name="Shiny Undecaying Corpse Mask - Event" add_name="Blessing of Halloween - 4 hours Limited Period">
+	<armor id="20721" name="Shiny Undecaying Corpse Mask - Event"
+           add_name="Blessing of Halloween - 4 hours Limited Period">
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
 		<set name="durability" value="240"/>
@@ -258,7 +266,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20722" name="Shiny Planet X235 Alien Mask - Event" add_name="Blessing of Halloween - 4 hours Limited Period">
+	<armor id="20722" name="Shiny Planet X235 Alien Mask - Event"
+           add_name="Blessing of Halloween - 4 hours Limited Period">
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
 		<set name="durability" value="240"/>
@@ -302,7 +311,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20724" name="Golden Jack O'Lantern Mask." add_name="Authority of Golden Jack O'Lantern - 7 Days Limited Period">
+	<armor id="20724" name="Golden Jack O'Lantern Mask."
+           add_name="Authority of Golden Jack O'Lantern - 7 Days Limited Period">
 		<set name="freightable" value="true"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
@@ -1003,7 +1013,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20775" name="Agathion Seal Bracelet - Gwanseum Nyang Nyang" add_name="Blessing of Mercy - 7 day limited period">
+	<armor id="20775" name="Agathion Seal Bracelet - Gwanseum Nyang Nyang"
+           add_name="Blessing of Mercy - 7 day limited period">
 		<set name="freightable" value="true"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
@@ -1158,7 +1169,8 @@
 			</not>
 		</cond>
 	</armor>
-	<armor id="20781" name="Agathion Seal Bracelet - Miss Chipao" add_name="Miss Chipao's Blessing - 7 day limited period">
+	<armor id="20781" name="Agathion Seal Bracelet - Miss Chipao"
+           add_name="Miss Chipao's Blessing - 7 day limited period">
 		<set name="freightable" value="true"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>

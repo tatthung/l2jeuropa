@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<armor id="22355" name="Tame Princess Ant Mounting Bracelet" add_name="7-Day Limited Period">        
+	<armor id="22355" name="Tame Princess Ant Mounting Bracelet"
+           add_name="7-Day Limited Period">        
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="BranchSys3.Icon.g_ant_princess_i00"/>
 		<set name="type" value="NONE"/>
@@ -113,7 +113,8 @@
 		</equip>
 		<set name="ex_type" value="HAIR_ACCESSORY"/>
 	</armor>
-	<armor id="22383" name="Halloween Broomstick Mount" add_name="7-Day Limited Period (event)">        
+	<armor id="22383" name="Halloween Broomstick Mount"
+           add_name="7-Day Limited Period (event)">        
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="BranchSys3.Icon.g_halloween_flying_broom_i00"/>
 		<set name="type" value="NONE"/>
@@ -150,7 +151,7 @@
 		<set name="ex_type" value="CLOAK"/>
 		<for>
 			<add stat="pDef" order="0x10" value="20"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -165,11 +166,12 @@
 		<set name="ex_type" value="CLOAK"/>
 		<for>
 			<add stat="pDef" order="0x10" value="20"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="22391" name="Halloween Pumpkin Hat" add_name="7-Day Limited Period (event)">        
+	<armor id="22391" name="Halloween Pumpkin Hat"
+           add_name="7-Day Limited Period (event)">        
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="BranchSys3.Icon.g_halloween_magic_hat"/>
 		<set name="type" value="NONE"/>

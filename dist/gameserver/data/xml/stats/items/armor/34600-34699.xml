@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<armor id="34621" name="R Talisman - Half-kill and Lethal Strike Resistance {passive}">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34621"
+           name="R Talisman - Half-kill and Lethal Strike Resistance {passive}">		<!--Done By Darvin (c)Java-Team-->
 		<set name="dropable" value="false"/>
 		<set name="sellable" value="false"/>
 		<set name="tradeable" value="false"/>
@@ -15,7 +15,8 @@
 		</equip>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 	</armor>
-	<armor id="34622" name="R Talisman - Half-kill and Lethal Strike Resistance {active}">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34622"
+           name="R Talisman - Half-kill and Lethal Strike Resistance {active}">		<!--Done By Darvin (c)Java-Team-->
 		<set name="dropable" value="false"/>
 		<set name="sellable" value="false"/>
 		<set name="tradeable" value="false"/>
@@ -40,7 +41,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="28"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -55,7 +56,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="28"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -70,7 +71,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="28"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
@@ -85,7 +86,7 @@
 		<set name="ex_type" value="UPPER_PIECE"/>
 		<for>
 			<add stat="pDef" order="0x10" value="28"/>
-			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="pDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
