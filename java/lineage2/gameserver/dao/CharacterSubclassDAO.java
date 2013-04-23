@@ -146,6 +146,9 @@ public class CharacterSubclassDAO
 				subClass.setHp(rset.getDouble("curHp"));
 				subClass.setMp(rset.getDouble("curMp"));
 				subClass.setCp(rset.getDouble("curCp"));
+				subClass.setLogonHp(rset.getDouble("curHp"));
+				subClass.setLogonMp(rset.getDouble("curMp"));
+				subClass.setLogonCp(rset.getDouble("curCp"));
 				subClass.setActive(rset.getInt("active") == 1);
 				subClass.setType(SubClassType.VALUES[rset.getInt("type")]);
 				subClass.setDeathPenalty(new DeathPenalty(player, rset.getInt("death_penalty")));

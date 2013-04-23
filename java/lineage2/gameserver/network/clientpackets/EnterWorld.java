@@ -419,7 +419,9 @@ public class EnterWorld extends L2GameClientPacket
 			activeChar.sendUserInfo();
 		}
 		activeChar.updateEffectIcons();
-		activeChar.updateStats();
+		activeChar.setCurrentHpMp(activeChar.getActiveSubClass().getlogOnHp(),activeChar.getActiveSubClass().getlogOnMp());
+		activeChar.setCurrentCp(activeChar.getActiveSubClass().getlogOnCp());
+		activeChar.updateStats();		
 		if (Config.ALT_PCBANG_POINTS_ENABLED)
 		{
 			activeChar.sendPacket(new ExPCCafePointInfo(activeChar, 0, 1, 2, 12));

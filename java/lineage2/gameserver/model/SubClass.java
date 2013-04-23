@@ -100,6 +100,18 @@ public class SubClass
 	 */
 	private double _cp = 1;
 	/**
+	 * Field _hp.
+	 */
+	private double _logOnhp = 1;
+	/**
+	 * Field _mp.
+	 */
+	private double _logOnMp = 1;
+	/**
+	 * Field _cp.
+	 */
+	private double _logOnCp = 1;
+	/**
 	 * Field awakingId.
 	 */
 	private int awakingId;
@@ -225,6 +237,66 @@ public class SubClass
 		_sp = (int) Math.min(Math.max(0, spValue), Integer.MAX_VALUE);
 	}
 	
+	/**
+	 * Method setlogOnHp.
+	 * @param hpValue double
+	 * This function are in for controls HP on logon of characters
+	 */
+	public void setLogonHp(double hpValue)
+	{
+		_logOnhp = hpValue;
+	}
+	
+	/**
+	 * Method getHp.
+	 * @return double
+	 * When the character skills effects are loaded, this value is taken without modification of the table, an applied to the character when all effect are loaded
+	 */
+	public double getlogOnHp()
+	{
+		return _logOnhp;
+	}
+
+	
+	/**
+	 * Method setlogOnMp.
+	 * @param hpValue double
+	 * This function are in for controls HP on logon of characters
+	 */
+	public void setLogonMp(double mpValue)
+	{
+		_logOnMp = mpValue;
+	}
+	
+	/**
+	 * Method getLogonMp.
+	 * @return double
+	 * When the character skills effects are loaded, this value is taken without modification of the table, an applied to the character when all effect are loaded
+	 */
+	public double getlogOnMp()
+	{
+		return _logOnMp;
+	}
+	
+	/**
+	 * Method setlogOnCp.
+	 * @param hpValue double
+	 * This function are in for controls HP on logon of characters
+	 */
+	public void setLogonCp(double cpValue)
+	{
+		_logOnCp = cpValue;
+	}
+	
+	/**
+	 * Method getLogOnCp.
+	 * @return double
+	 * When the character skills effects are loaded, this value is taken without modification of the table, an applied to the character when all effect are loaded
+	 */
+	public double getlogOnCp()
+	{
+		return _logOnCp;
+	}
 	/**
 	 * Method setHp.
 	 * @param hpValue double
