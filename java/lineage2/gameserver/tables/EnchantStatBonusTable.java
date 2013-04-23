@@ -348,7 +348,7 @@ public class EnchantStatBonusTable
 		List <enchantStat> bonus = _enchantStatListArmor.get(bodyPart);
 		if(bonus == null)
 		{
-			_log.info("EnchantStatBonusTable: Incorrect part for bonus");
+			_log.info("EnchantStatBonusTable: Incorrect part for bonus on bodyPart Integer: " + bodyPart);
 			return 0;
 		}
 		for(enchantStat statBonus : bonus)

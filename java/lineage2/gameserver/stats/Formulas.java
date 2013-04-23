@@ -1229,7 +1229,8 @@ public class Formulas
 	public static Element getAttackElement(Creature attacker, Creature target)
 	{
 		double val = 0;
-		double maxElementVal = 0;
+		double maxElementDefenseVal = 0;
+		double maxElementAttackVal = 0;
 		Element maxElementDefense = Element.NONE;		
 		Element result = Element.NONE;
 		for (Element e : Element.VALUES)
@@ -1237,17 +1238,20 @@ public class Formulas
 			val = attacker.calcStat(e.getAttack(), 0., null, null);
 			if (val <= 0.)
 			{
-				if(target != null && target.calcStat(e.getDefence(), 0., null, null) > maxElementVal)
+				if(target != null && target.calcStat(e.getDefence(), 0., null, null) > maxElementDefenseVal)
 				{
-					maxElementVal = target.calcStat(e.getDefence(), 0., null, null); 
+					maxElementDefenseVal = target.calcStat(e.getDefence(), 0., null, null); 
 					maxElementDefense = e;
 				}
 				continue;
 			}
 			else
 			{
-				result = e;
-				break;
+				if(val > maxElementAttackVal);
+				{
+					maxElementAttackVal = val;
+					result = e;
+				}
 			}			
 		}
 		if(val <= 0. && target != null)
