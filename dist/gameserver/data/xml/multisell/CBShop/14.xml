@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<list>  
+<list maintainEnchantment="true"> 
   <item id="1">
     <ingredient id="57" count="750000000"/>
 	<production id="19906" count="1"/>
@@ -49,8 +49,6 @@
     <ingredient id="57" count="750000000"/>
 	<production id="19702" count="1"/>
   </item>
- 
-		<!-- Благ лайт усил  -->
   
   <item id="11">
     <ingredient id="57" count="750000000"/>
@@ -167,22 +165,22 @@
 	<production id="18099" count="1"/>
   </item>
 
-   <item>
+   <item id="34">
     <ingredient id="57" count="750000000"/>
 	<production id="32617" count="1"/>
   </item>
   
-   <item>
+   <item id="35">
     <ingredient id="57" count="750000000"/>
 	<production id="32618" count="1"/>
   </item>
   
-   <item>
+   <item id="36">
     <ingredient id="57" count="750000000"/>
 	<production id="32619" count="1"/>
   </item>
   
-   <item>
+   <item id="37">
     <ingredient id="57" count="750000000"/>
 	<production id="19480" count="1"/>
   </item>
