@@ -11,7 +11,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Дмитрий
  * @date 27.10.12  23:54
  */
 public class DynamicQuestController
@@ -39,10 +38,7 @@ public class DynamicQuestController
 	}
 
 	/**
-	 * Запускает динамический квест (кампания/локационный квест)
-	 * с заданным questId и step равным 1
-	 *
-	 * @param questId - идентификатор запускаемого квеста
+	 * @param questId
 	 */
 	public void startQuest(int questId)
 	{
@@ -50,11 +46,8 @@ public class DynamicQuestController
 	}
 
 	/**
-	 * Запускает динамический квест (кампания/локационный квест)
-	 * с заданным questId и step
-	 *
-	 * @param questId - идентификатор запускаемого квеста
-	 * @param step    - шаг квеста, с которого начнется выполнение (для локационных квестов)
+	 * @param questId
+	 * @param step
 	 */
 	public void startQuest(int questId, int step)
 	{
@@ -66,13 +59,8 @@ public class DynamicQuestController
 	}
 
 	/**
-	 * Завершает выполнение квеста questId с одним из состояний success
-	 * Где success = true, успешное досрочное завершение квеста
-	 * success = false, завершение квеста по истечению времени
-	 * Переводит стадию квеста в 5 минутный отсчет до полного завершения
-	 *
-	 * @param questId - идентификатор квеста
-	 * @param success - флаг заверщения
+	 * @param questId
+	 * @param success
 	 */
 	public void endQuest(int questId, boolean success)
 	{
@@ -81,11 +69,7 @@ public class DynamicQuestController
 	}
 
 	/**
-	 * Завершает выполнение квеста questId с одним из состояний success
-	 * Где success = true, успешное досрочное завершение квеста
-	 * success = false, завершение квеста по истечению времени
-	 *
-	 * @param questId - идентификатор квеста
+	 * @param questId
 	 */
 	private void finalizeQuest(int questId)
 	{
@@ -94,10 +78,8 @@ public class DynamicQuestController
 	}
 
 	/**
-	 * Инициализирует запуск квеста по расписанию
-	 *
-	 * @param questId - идентификатор квеста
-	 * @param pattern - шаблон времени в формате cron, по которому будет производиться запуск квеста
+	 * @param questId
+	 * @param pattern
 	 */
 	void initSchedulingPattern(int questId, SchedulingPattern pattern)
 	{

@@ -1013,6 +1013,12 @@ public final class Player extends Playable implements PlayerGroup
 	 */
 	private boolean _tree;
 	/**
+	 * Field _ServitorShareRestore.
+	 */
+	private boolean _ServitorShareRestore = false;
+	
+	private Effect _ServitorShareRestoreData = null;
+	/**
 	 * Field _collision_radius.
 	 */
 	private final double _collision_radius;
@@ -13014,8 +13020,14 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			@Override
 			public void runImpl()
-			{
+			{				
 				getSummonList().summonAll();
+				if(_ServitorShareRestore)
+				{
+					_ServitorShareRestoreData.start();
+					_ServitorShareRestore = false;
+					_ServitorShareRestoreData = null;
+				}
 			}
 		});
 	}
@@ -14630,6 +14642,15 @@ public final class Player extends Playable implements PlayerGroup
 			player.broadcastPacket(new SocialAction(player.getObjectId(), 16));
 		}
 		player.broadcastUserInfo();
+	}
+	
+	/**
+	 * Method setServitorShareRestore.
+	 * */
+	public void setServitorShareRestore(boolean result, Effect effectToRestore)
+	{
+		_ServitorShareRestore = result;
+		_ServitorShareRestoreData = effectToRestore;
 	}
 	
 	/**

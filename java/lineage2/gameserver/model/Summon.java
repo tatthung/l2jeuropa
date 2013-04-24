@@ -18,8 +18,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.Future;
+
+import lineage2.commons.threading.RunnableImpl;
 import lineage2.commons.util.Rnd;
 import lineage2.gameserver.Config;
+import lineage2.gameserver.ThreadPoolManager;
 import lineage2.gameserver.ai.CtrlIntention;
 import lineage2.gameserver.ai.SummonAI;
 import lineage2.gameserver.dao.EffectsDAO;
@@ -50,6 +53,9 @@ import lineage2.gameserver.network.serverpackets.RelationChanged;
 import lineage2.gameserver.network.serverpackets.StatusUpdate;
 import lineage2.gameserver.network.serverpackets.components.SystemMsg;
 import lineage2.gameserver.scripts.Events;
+import lineage2.gameserver.skills.EffectType;
+import lineage2.gameserver.skills.effects.EffectTemplate;
+import lineage2.gameserver.stats.Env;
 import lineage2.gameserver.stats.Stats;
 import lineage2.gameserver.taskmanager.DecayTaskManager;
 import lineage2.gameserver.templates.item.WeaponTemplate;
@@ -133,6 +139,37 @@ public abstract class Summon extends Playable
 		if (party != null)
 		{
 			party.broadcastToPartyMembers(owner, new ExPartyPetWindowAdd(this));
+		}
+		if (owner.getEffectList().getEffectByStackType("ServitorShare") != null)
+		{
+			final Creature SummonEffect = this;
+			ThreadPoolManager.getInstance().execute(new RunnableImpl()
+			{
+				@Override
+				public void runImpl()
+				{
+					final Player owner = getPlayer();
+					final Skill skl = owner.getEffectList().getEffectByStackType("ServitorShare").getSkill();
+					long currenttime = owner.getEffectList().getEffectByStackType("ServitorShare").getTime();
+					long duration = owner.getEffectList().getEffectByStackType("ServitorShare").getDuration();
+					for(EffectTemplate et : skl.getEffectTemplates())
+					{
+						if(et == null || et.getEffectType() != EffectType.ServitorShare)
+						{
+							continue;
+						}
+						Env env = new Env(owner,SummonEffect,skl);
+						final Effect effect = et.getEffect(env);
+						if(effect == null)
+						{
+							continue;
+						}
+						effect.setCount(1);
+						effect.setPeriod(duration - currenttime);
+						effect.schedule();
+					}
+				}
+			});
 		}
 		getAI().setIntention(CtrlIntention.AI_INTENTION_ACTIVE);
 	}
@@ -975,7 +1012,7 @@ public abstract class Summon extends Playable
 	@Override
 	public List<L2GameServerPacket> addPacketList(Player forPlayer, Creature dropper)
 	{
-		List<L2GameServerPacket> list = new ArrayList<>();
+		List<L2GameServerPacket> list = new ArrayList<L2GameServerPacket>();
 		Player owner = getPlayer();
 		if (owner == forPlayer)
 		{

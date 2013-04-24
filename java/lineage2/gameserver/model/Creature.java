@@ -2185,47 +2185,6 @@ public abstract class Creature extends GameObject
 			{
 				sendPacket(new SystemMessage(SystemMessage.YOU_USE_S1).addItemName(skill.getItemConsumeId()[0]));
 			}
-			/*
-			if(skill.isAlterSkill())
-			{
-				if(target.isAirBinded())
-				{
-					final Creature targetStop = target;
-					ThreadPoolManager.getInstance().schedule(new Runnable()
-			        { 
-			    	    @Override
-			            public void run()
-			            {    	
-							targetStop.stopAirbinding();		
-			            }     
-
-			        }, 2000L);
-				}
-				else if(target.isKnockedDown())
-				{
-					final Creature targetStop = target;
-					long stopKnockTime = 0L;					
-					if(((Player)this).getClassId().getId() == 139 || ((Player)this).getClassId().getId() == 140 || ((Player)this).getClassId().getId() == 141 || ((Player)this).getClassId().getId() == 144)
-					{
-						stopKnockTime = 1400L;
-					}
-					else
-					{
-						stopKnockTime = 2000L;	
-					}
-					ThreadPoolManager.getInstance().schedule(new Runnable()
-			        { 
-			    	    @Override
-			            public void run()
-			            {    	
-							targetStop.stopKnockingdown();		
-			            }     
-
-			        }, stopKnockTime);
-				}
-					
-			}
-			*/
 		}
 		if (skill.getTargetType() == SkillTargetType.TARGET_HOLY)
 		{

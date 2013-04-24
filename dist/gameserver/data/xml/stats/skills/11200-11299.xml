@@ -1087,34 +1087,41 @@
 			<add order="0x40" stat="mDef" val="#mDef"/>
 		</for>
    </skill>
-    <skill id="11288" levels="3" name="Ultimate Servitor Share">
-    <!-- Shares the following with your servitor(s): 60% of P. Atk. and P. Def., 30% of M. Atk. and M. Def., 15% of Max HP and MP, 30% of Critical Rate, 10% of Atk. Spd. and 3% of Casting Spd. for 30 minutes. -->
+	<skill id="11288" levels="3" name="Ultimate Servitor Share">
+	<!-- Shares the following with your servitor(s): 60% of P. Atk. and P. Def., 30% of M. Atk. and M. Def., 15% of Max HP and MP, 30% of Critical Rate, 10% of Atk. Spd. and 3% of Casting Spd. for 30 minutes. -->
 		<table name="#magicLevel">85 90 95</table>
-        <table name="#atk">1.6 1.65 1.7</table>
+		<table name="#atk">1.6 1.65 1.70</table>
+		<table name="#matk">1.3 1.35 1.4</table>   
+		<table name="#hp">1.15 1.15 1.15</table>      
+		<table name="#crit">1.3 1.3 1.3</table>          
+		<table name="#atkspd">1.03 1.03 1.03</table>   
+		<table name="#matkspd">1.03 1.03 1.03</table>      
 		<table name="#mpConsume2">77</table>
 		<set name="reuseDelay" val="60000"/>
 		<set name="hitTime" val="1000"/>
 		<set name="mpConsume2" val="#mpConsume2"/>
-        <set name="magicLevel" val="#magicLevel"/>        
-   		<set name="aggroPoints" val="669"/>
+		<set name="magicLevel" val="#magicLevel"/>        
+		<set name="aggroPoints" val="669"/>
 		<set name="effectRange" val="900"/>
 		<set name="relationSkillsId" val="1557;"/> 
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="target" val="TARGET_SUMMON_AURA"/>
 		<for>
-			<effect name="Buff" time="1800" val="0" stackOrder="1" stackType="buff">
-				<mul order="0x30" stat="pAtk" val="#atk"/>
-				<mul order="0x30" stat="pDef" val="#atk"/>
-				<mul order="0x30" stat="mAtk" val="1.3"/>
-				<mul order="0x30" stat="mDef" val="1.3"/>
-				<mul order="0x30" stat="maxHp" val="1.15"/>
-				<mul order="0x30" stat="maxMp" val="1.15"/>
-				<mul order="0x30" stat="rCrit" val="1.1"/>
-				<mul order="0x30" stat="pAtkSpd" val="1.03"/>
+			<effect count="1" name="Buff" time="1200" val="0" applyOnCaster="true" applyOnSummon="false" stackType="ServitorShare"/>
+			<effect count="1" name="ServitorShare" time="1200" val="0" displayId="-1">
+				<add order="0x40" stat="pAtk" val="#atk"/>
+				<add order="0x40" stat="pDef" val="#atk"/>
+				<add order="0x40" stat="mAtk" val="#matk"/>
+				<add order="0x40" stat="mDef" val="#matk"/>
+				<add order="0x40" stat="maxHp" val="#hp"/>
+				<add order="0x40" stat="maxMp" val="#hp"/>
+				<add order="0x40" stat="rCrit" val="#crit"/>
+				<add order="0x40" stat="pAtkSpd" val="#atkspd"/>
+				<add order="0x40" stat="mAtkSpd" val="#matkspd"/>
 			</effect>
 		</for>
-	</skill>
+		</skill>
 	<skill id="11289" levels="1" name="Gate Root">
 	<!-- Temporarily stops nearby enemies from moving. -->
 		<set name="magicType" val="SPECIAL"/>

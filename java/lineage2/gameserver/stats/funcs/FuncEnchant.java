@@ -12,6 +12,9 @@
  */
 package lineage2.gameserver.stats.funcs;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import lineage2.gameserver.Config;
 import lineage2.gameserver.model.items.ItemInstance;
 import lineage2.gameserver.stats.Env;
@@ -28,6 +31,11 @@ import lineage2.gameserver.templates.item.WeaponTemplate.WeaponType;
  */
 public class FuncEnchant extends Func
 {
+
+	/**
+	 * Field _log.
+	 */
+	private static Logger _log = LoggerFactory.getLogger(EnchantStatBonusTable.class);
 	
 	private static int _limit1 = Config.OVERENCHANT_LIMIT1;
 	
@@ -104,6 +112,11 @@ public class FuncEnchant extends Func
 					if(item.isArmor() && enchant > _limit1)
 					{
 						double runSpdBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart, false);
+						if(runSpdBonus == 0)
+						{
+							_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no run speed bonus for the body part." );
+							break;
+						}
 						env.value += (int)calcStatBonus(enchant,runSpdBonus,isBlessed,true,isTopGrade,false);
 					}
 					break;
@@ -111,6 +124,11 @@ public class FuncEnchant extends Func
 				if(item.isArmor() && enchant > _limit1)
 				{
 					double critRateBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart, false);
+					if(critRateBonus == 0)
+					{
+						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no critical rate bonus for the body part." );
+						break;
+					}
 					env.value += (Math.round(calcStatBonus(enchant,critRateBonus,isBlessed,true,isTopGrade,false)*Math.pow(10,1))/Math.pow(10,1)* 2);
 				}
 				return;
@@ -118,6 +136,11 @@ public class FuncEnchant extends Func
 				if(item.isArmor() && enchant > _limit1)
 				{
 					double mcritRateBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart,true);
+					if(mcritRateBonus == 0)
+					{
+						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no magic Critical rate bonus for the body part." );
+						break;
+					}
 					env.value += calcStatBonus(enchant,mcritRateBonus,isBlessed,true,isTopGrade,false);
 				}
 				return;
@@ -125,6 +148,11 @@ public class FuncEnchant extends Func
 				if(item.isArmor() && enchant > _limit1)
 				{
 					double accCombatBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart, false);
+					if(accCombatBonus == 0)
+					{
+						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no accuracy bonus for the body part." );
+						break;
+					}
 					env.value += (int)calcStatBonus(enchant,accCombatBonus,isBlessed,true,isTopGrade,false);
 				}
 				return;
@@ -132,6 +160,11 @@ public class FuncEnchant extends Func
 				if(item.isArmor() && enchant > _limit1)
 				{
 					double maccCombatBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart,true);
+					if(maccCombatBonus == 0)
+					{
+						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no Magic Accuracy bonus for the body part." );
+						break;
+					}
 					env.value += (int)calcStatBonus(enchant,maccCombatBonus,isBlessed,true,isTopGrade,false);
 				}
 				return;
@@ -139,6 +172,11 @@ public class FuncEnchant extends Func
 				if(item.isArmor() && enchant > _limit1)
 				{
 					double evasionBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart,false);
+					if(evasionBonus == 0)
+					{
+						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no evasion bonus for the body part." );
+						break;
+					}
 					env.value += (int)calcStatBonus(enchant,evasionBonus,isBlessed,true,isTopGrade,false);
 				}
 				return;
@@ -146,6 +184,11 @@ public class FuncEnchant extends Func
 				if(item.isArmor() && enchant > _limit1)
 				{
 					double mevasionBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart,false);
+					if(mevasionBonus == 0)
+					{
+						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no Magic Evasion bonus for the body part." );
+						break;
+					}
 					env.value += (int)calcStatBonus(enchant,mevasionBonus,isBlessed,true,isTopGrade,false);
 				}
 				return;
@@ -159,6 +202,11 @@ public class FuncEnchant extends Func
 				else if(item.isArmor() && enchant > _limit1)
 				{
 					double mAtkArmorBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart,true);
+					if(mAtkArmorBonus == 0)
+					{
+						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no Magic Attack bonus for the body part." );
+						break;
+					}
 					env.value += (int)calcStatBonus(enchant,mAtkArmorBonus,isBlessed,true,isTopGrade,false);
 				}
 				return;
@@ -173,6 +221,11 @@ public class FuncEnchant extends Func
 				else if(item.isArmor() && enchant > _limit1)
 				{
 					double pAtkArmorBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart,false);
+					if(pAtkArmorBonus == 0)
+					{
+						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no Physical Attack bonus for the body part." );
+						break;
+					}
 					env.value += (int)calcStatBonus(enchant,pAtkArmorBonus,isBlessed, true,isTopGrade,false);					
 				}
 				return;
