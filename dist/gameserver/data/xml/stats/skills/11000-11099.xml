@@ -240,7 +240,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="target" val="TARGET_ONE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11011"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">147 148 150 152 154 155 157 159 161 162</table>
@@ -267,7 +266,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="target" val="TARGET_ONE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11011"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">147 148 150 152 154 155 157 159 161 162</table>
@@ -294,7 +292,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="target" val="TARGET_ONE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11011"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">147 148 150 152 154 155 157 159 161 162</table>
@@ -321,7 +318,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="target" val="TARGET_ONE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11011"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">147 148 150 152 154 155 157 159 161 162</table>
@@ -401,7 +397,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11017"/>
         <for>
             <effect count="1" name="CallSkills" time="0" val="0">
                 <def name="skillIds" val="11082"/>
@@ -428,7 +423,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11017"/>
         <for>
             <effect count="1" name="CallSkills" time="0" val="0">
                 <def name="skillIds" val="11083"/>
@@ -455,7 +449,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11017"/>
         <for>
             <effect count="1" name="CallSkills" time="0" val="0">
                 <def name="skillIds" val="11084"/>
@@ -482,7 +475,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11017"/>
         <for>
             <effect count="1" name="CallSkills" time="0" val="0">
                 <def name="skillIds" val="11085"/>
@@ -549,7 +541,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11023"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">433 438 443 448 453 458 464 469 474 479</table>
@@ -570,7 +561,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11023"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">433 438 443 448 453 458 464 469 474 479</table>
@@ -591,7 +581,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11023"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">433 438 443 448 453 458 464 469 474 479</table>
@@ -612,7 +601,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11023"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">433 438 443 448 453 458 464 469 474 479</table>
@@ -766,7 +754,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11034"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">232 235 238 240 243 246 249 251 254 257</table>
@@ -789,7 +776,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11034"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">232 235 238 240 243 246 249 251 254 257</table>
@@ -812,7 +798,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11034"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">232 235 238 240 243 246 249 251 254 257</table>
@@ -835,7 +820,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11034"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">232 235 238 240 243 246 249 251 254 257</table>
@@ -902,7 +886,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11040"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">289 293 296 299 303 306 310 313 317 320</table>
@@ -925,7 +908,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11040"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">289 293 296 299 303 306 310 313 317 320</table>
@@ -948,7 +930,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11040"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">289 293 296 299 303 306 310 313 317 320</table>
@@ -971,7 +952,6 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
-		<set name="displayId" val="11040"/>
         <enchant1 levels="10" name="Cost"/>
         <enchant2 name="Duel">
             <table name="#powerPvP">289 293 296 299 303 306 310 313 317 320</table>
