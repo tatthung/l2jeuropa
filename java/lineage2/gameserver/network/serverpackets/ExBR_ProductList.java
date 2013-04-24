@@ -1,8 +1,8 @@
 package lineage2.gameserver.network.serverpackets;
 
+import lineage2.gameserver.data.xml.holder.ItemHolder;
 import lineage2.gameserver.data.xml.holder.ProductHolder;
 import lineage2.gameserver.model.ProductItem;
-
 import java.util.Collection;
 
 public class ExBR_ProductList extends L2GameServerPacket
@@ -25,7 +25,8 @@ public class ExBR_ProductList extends L2GameServerPacket
 				getClient().getActiveChar().sendMessage("getProductId:" + template.getProductId());
 				getClient().getActiveChar().sendMessage("getCategory:" + template.getCategory());
 				getClient().getActiveChar().sendMessage("getPoints:" + template.getPoints());
-				getClient().getActiveChar().sendMessage("template.getComponents().get(0).getItemId():" + template.getProductId());
+				getClient().getActiveChar().sendMessage("template.getComponents().size():" + template.getComponents().size());
+				getClient().getActiveChar().sendMessage("template.getComponents().get(0).getItemId():" + template.getComponents().get(0).getItemId());
 				getClient().getActiveChar().sendMessage("template.getComponents().get(0).getCount():" + template.getComponents().get(0).getCount());
 			}
 			if (System.currentTimeMillis() < template.getStartTimeSale())
@@ -45,14 +46,19 @@ public class ExBR_ProductList extends L2GameServerPacket
 			writeC(template.getStartMin()); // start min
 			writeC(template.getEndHour()); // end hour
 			writeC(template.getEndMin()); // end min
-			writeD(0); // ?
+			writeD(0); // buyed stock
 			writeD(-1); // max stock
-			writeD(0); // ?
-			writeD(1); // ?
-			writeD(1); // ?
-			writeD(template.getComponents().get(0).getItemId()); // item id
-			writeD(template.getComponents().get(0).getCount()); // item Count
-			writeD(0); // ?
+			//writeD(0); // ?
+			writeD(0); // Sale %
+			writeD(template.getComponents().size()); // Component Size
+			int i=0;
+			//while (i < template.getComponents().size())
+			//{
+				writeD(template.getComponents().get(i).getItemId()); // item id
+				writeD(template.getComponents().get(i).getCount()); // item Count
+				writeD(ItemHolder.getInstance().getTemplate(template.getComponents().get(i).getItemId()).getWeight()); // weight
+			//	i++;
+			//}
 			writeD(0); // ?
 		}
 	}
