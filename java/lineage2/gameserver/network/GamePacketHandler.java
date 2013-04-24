@@ -712,6 +712,10 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 							break;
 						case 0xd0:
 							int id3 = buf.getShort() & 0xffff;
+							if (client.getActiveChar().isGM() && client.getActiveChar().isDebug())
+							{
+								client.getActiveChar().sendMessage("IN_GAME 0xd0:" + id3);
+							}
 							switch (id3)
 							{
 								case 0x00:
@@ -1140,7 +1144,13 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 									msg = new RequestExBR_GamePoint();
 									break;
 								case 0x8A:
-									msg = new RequestExBR_ProductList();
+									int id5 = buf.getInt();
+									switch (id5) 
+									{
+										case 0:
+											msg = new RequestExBR_ProductList();
+											break;
+									}
 									break;
 								case 0x8B:
 									msg = new RequestExBR_ProductInfo();

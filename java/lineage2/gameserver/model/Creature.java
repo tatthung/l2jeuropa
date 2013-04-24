@@ -7562,4 +7562,9 @@ public abstract class Creature extends GameObject
 	{
 		return 0;
 	}
+
+	public Collection<Summon> getPets()
+	{
+		return new ArrayList<Summon>(0);
+	}
 }

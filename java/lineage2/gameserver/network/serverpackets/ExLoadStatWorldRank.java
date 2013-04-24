@@ -1,15 +1,19 @@
 package lineage2.gameserver.network.serverpackets;
 
-import java.util.List;
-
 import lineage2.gameserver.model.worldstatistics.CharacterStatistic;
 
+import java.util.List;
+
+/**
+ * @author KilRoy
+ */
 public class ExLoadStatWorldRank extends L2GameServerPacket
 {
 	private final int _section;
 	private final int _subSection;
 	private final List<CharacterStatistic> _monthlyData;
 	private final List<CharacterStatistic> _generalData;
+
 	public ExLoadStatWorldRank(int section, int subSection, List<CharacterStatistic> generalData, List<CharacterStatistic> monthlyData)
 	{
 		_section = section;
@@ -21,9 +25,7 @@ public class ExLoadStatWorldRank extends L2GameServerPacket
 	@Override
 	protected void writeImpl()
 	{
-		//writeEx(0x101);
-	    writeC(254);
-	    writeH(256);
+		writeEx(0x101);
 
 		writeD(_section);
 		writeD(_subSection);

@@ -409,7 +409,7 @@ public class Party implements PlayerGroup
 				}
 				else
 				{
-					pmember.add(new PartySmallWindowAdd(member, player));
+					pmember.add(new PartySmallWindowAdd(member, player, getLootDistribution()));
 				}
 				pmember.add(new PartyMemberPosition().add(player));
 				pmember.add(RelationChanged.update(member, player, member));

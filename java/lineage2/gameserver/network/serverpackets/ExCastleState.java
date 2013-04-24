@@ -23,16 +23,7 @@ public class ExCastleState extends L2GameServerPacket
 	{
 		writeEx(0x133);
 		writeD(_id);
-		if(_side==ResidenceSide.NEUTRAL)
-		{
-			writeD(_side.ordinal());
-		}else if(_side==ResidenceSide.LIGHT)
-		{
-			writeD(_side.ordinal()+1);
-		}else
-		{
-			writeD(_side.ordinal()+2);
-		}
+		writeD(_side.ordinal());
 		
 	}
 }

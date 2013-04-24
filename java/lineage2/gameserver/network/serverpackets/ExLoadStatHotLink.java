@@ -1,8 +1,8 @@
 package lineage2.gameserver.network.serverpackets;
 
-import java.util.List;
-
 import lineage2.gameserver.model.worldstatistics.CharacterStatistic;
+
+import java.util.List;
 
 public class ExLoadStatHotLink extends L2GameServerPacket
 {
@@ -10,6 +10,7 @@ public class ExLoadStatHotLink extends L2GameServerPacket
 	private final int subCatId;
 	private List<CharacterStatistic> globalStatistic;
 	private List<CharacterStatistic> monthlyStatistic;
+
 	public ExLoadStatHotLink(int categoryId, int subCatId, List<CharacterStatistic> globalStatistic, List<CharacterStatistic> monthlyStatistic)
 	{
 		this.categoryId = categoryId;
@@ -21,9 +22,7 @@ public class ExLoadStatHotLink extends L2GameServerPacket
 	@Override
 	protected final void writeImpl()
 	{
-		//writeEx(0x103);
-	    writeC(254);
-	    writeH(258);
+		writeEx(0x103);
 
 		writeD(categoryId); // catId
 		writeD(subCatId); // subCatId
@@ -36,7 +35,7 @@ public class ExLoadStatHotLink extends L2GameServerPacket
 			writeD(statistic.getObjId()); // objId
 			writeS(statistic.getName()); // CharName
 			writeQ(statistic.getValue()); // Value
-			writeH(0x00);// TODO:
+			writeH(0x00);// TODO: Поднялся или опустился в рейтинге
 			writeD(0x00);
 			writeD(0x00);
 		}
@@ -49,7 +48,7 @@ public class ExLoadStatHotLink extends L2GameServerPacket
 			writeD(statistic.getObjId()); // objId
 			writeS(statistic.getName()); // CharName
 			writeQ(statistic.getValue()); // Value
-			writeH(0x00);// TODO:
+			writeH(0x00);// TODO: Поднялся или опустился в рейтинге
 			writeD(0x00);
 			writeD(0x00);
 		}

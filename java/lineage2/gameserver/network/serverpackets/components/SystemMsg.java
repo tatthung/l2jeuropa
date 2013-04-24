@@ -1203,8 +1203,8 @@ public enum SystemMsg implements IStaticPacket
 	// Message: Nevit's Advent Blessing has ended. Continue your journey and you
 	// will surely meet his favor again sometime soon.
 	NEVITS_BLESSING_HAS_ENDED_CONTINUE_YOUR_JOURNEY_AND_YOU_WILL_SURELY_MEET_HIS_FAVOR_AGAIN_SOMETIME_SOON(3275),
-	// Message: You cannor change an attribute while using a private shop or workshop.
 	THE_CORRESPONDING_WORK_CANNOT_BE_PROCEEDED_BECAUSE_THE_INVENTORY_WEIGHTQUANTITY_LIMIT_HAS_BEEN_EXCEEDED(3646), 
+	// Message: You cannor change an attribute while using a private shop or workshop.
 	YOU_CANNOT_CHANGE_AN_ATTRIBUTE_WHILE_USING_A_PRIVATE_SHOP_OR_WORKSHOP(3659),
 	// Message: Enchantment or attribute enchantment is in progress.
 	ENCHANTMENT_OR_ATTRIBUTE_ENCHANTMENT_IS_IN_PROGRESS(3660),
@@ -1326,8 +1326,6 @@ public enum SystemMsg implements IStaticPacket
 	YOU_CAN_BOND_WITH_A_NEW_MENTEE_IN_S1_DAYS_S2_HOUR_S3_MINUTE(3713),
 	// Message: Not enough MP.
 	NOT_ENOUGH_MP(24),
-	// Field THE_PLAYER_TO_BE_REPLACED_DOES_NOT_EXIST.
-	THE_PLAYER_TO_BE_REPLACED_DOES_NOT_EXIST(3454),
 	// Message: You may not use Sayune while pet or summoned pet is out
 	YOU_MAY_NOT_USE_SAYUNE_WHILE_PET_OR_SUMMONED_PET_IS_OUT(3625),
 	// Message: Invitation can occur only when the mentee is in main class status

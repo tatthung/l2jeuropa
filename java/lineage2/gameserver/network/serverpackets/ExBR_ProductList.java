@@ -1,60 +1,59 @@
-/*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
 package lineage2.gameserver.network.serverpackets;
-
-import java.util.Collection;
 
 import lineage2.gameserver.data.xml.holder.ProductHolder;
 import lineage2.gameserver.model.ProductItem;
 
-/**
- * @author Mobius
- * @version $Revision: 1.0 $
- */
+import java.util.Collection;
+
 public class ExBR_ProductList extends L2GameServerPacket
 {
-	/**
-	 * Method writeImpl.
-	 */
 	@Override
 	protected void writeImpl()
 	{
-		writeEx(0xD6);
+		writeEx(0xD7);
+		writeD(0);
 		Collection<ProductItem> items = ProductHolder.getInstance().getAllItems();
 		writeD(items.size());
+		if (getClient().getActiveChar().isGM() && getClient().getActiveChar().isDebug())
+		{
+			getClient().getActiveChar().sendMessage("size:" + items.size());
+		}
 		for (ProductItem template : items)
 		{
+			if (getClient().getActiveChar().isGM() && getClient().getActiveChar().isDebug())
+			{
+				getClient().getActiveChar().sendMessage("getProductId:" + template.getProductId());
+				getClient().getActiveChar().sendMessage("getCategory:" + template.getCategory());
+				getClient().getActiveChar().sendMessage("getPoints:" + template.getPoints());
+				getClient().getActiveChar().sendMessage("template.getComponents().get(0).getItemId():" + template.getProductId());
+				getClient().getActiveChar().sendMessage("template.getComponents().get(0).getCount():" + template.getComponents().get(0).getCount());
+			}
 			if (System.currentTimeMillis() < template.getStartTimeSale())
-			{
 				continue;
-			}
 			if (System.currentTimeMillis() > template.getEndTimeSale())
-			{
 				continue;
-			}
-			writeD(template.getProductId());
-			writeH(template.getCategory());
-			writeD(template.getPoints());
-			writeD(template.getTabId());
-			writeD((int) (template.getStartTimeSale() / 1000));
-			writeD((int) (template.getEndTimeSale() / 1000));
-			writeC(127);
-			writeC(template.getStartHour());
-			writeC(template.getStartMin());
-			writeC(template.getEndHour());
-			writeC(template.getEndMin());
+			writeD(template.getProductId()); // product id
+			writeH(template.getCategory()); // category: 1 - enchant; 2 - supplies; 3 - decoration; 4 - package 5 - other
+			writeD(template.getPoints()); // points
 			writeD(0);
-			writeD(-1);
+			writeD(0);
+			//writeD(template.getTabId()); // show tab 2-th group - 1 показывает
+			writeD((int) (template.getStartTimeSale() / 1000)); // start sale unix date in seconds
+			writeD((int) (template.getEndTimeSale() / 1000)); // end sale unix date in seconds
+			writeC(127); // day week (127 = not daily goods)
+			writeC(template.getStartHour()); // start hour
+			writeC(template.getStartMin()); // start min
+			writeC(template.getEndHour()); // end hour
+			writeC(template.getEndMin()); // end min
+			writeD(0); // ?
+			writeD(-1); // max stock
+			writeD(0); // ?
+			writeD(1); // ?
+			writeD(1); // ?
+			writeD(template.getComponents().get(0).getItemId()); // item id
+			writeD(template.getComponents().get(0).getCount()); // item Count
+			writeD(0); // ?
+			writeD(0); // ?
 		}
 	}
 }

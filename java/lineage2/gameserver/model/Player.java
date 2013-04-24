@@ -1007,7 +1007,6 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field _summons.
 	 */
-	@SuppressWarnings("unused")
 	private ConcurrentHashMap<Integer, Summon> _summons = new ConcurrentHashMap<Integer, Summon>(4);
 	/**
 	 * Field _tree.
@@ -14669,6 +14668,14 @@ public final class Player extends Playable implements PlayerGroup
 	public void setStartingTimeInParty(long time)
 	{
 		_startingTimeInParty = time;
+	}
+
+	@Override
+	public Collection<Summon> getPets()
+	{
+		if (_summons != null)
+			return _summons.values();
+		return new ArrayList<Summon>(0);
 	}
 
 }

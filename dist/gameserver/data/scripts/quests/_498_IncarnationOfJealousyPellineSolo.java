@@ -24,20 +24,20 @@ public class _498_IncarnationOfJealousyPellineSolo extends Quest implements Scri
 
 	public String onEvent(String event, QuestState st, NpcInstance npc)
 	{
-	     if (event.equalsIgnoreCase("33647-4.htm"))
-	     {
-	    	 st.setCond(1);
-	    	 st.setState(2);
-	    	 st.playSound("ItemSound.quest_accept");
-	     }
-	     if (event.equalsIgnoreCase("33647-8.htm"))
-	     {
-	    	 st.giveItems(34931, 1L);
-	    	 st.unset("cond");
-	    	 st.playSound("ItemSound.quest_finish");
-	    	 st.exitCurrentQuest(this);
-	     }
-	     return event;
+		if (event.equalsIgnoreCase("33647-4.htm"))
+		{
+			st.setCond(1);
+			st.setState(2);
+			st.playSound("ItemSound.quest_accept");
+		}
+		if (event.equalsIgnoreCase("33647-8.htm"))
+		{
+			st.giveItems(34931, 1L);
+			st.unset("cond");
+			st.playSound("ItemSound.quest_finish");
+			st.exitCurrentQuest(this);
+		}
+		return event;
 	}
 
 	public String onTalk(NpcInstance npc, QuestState st)

@@ -35,7 +35,7 @@ public class ExSendUIEvent extends NpcStringContainer
 	@Override
 	protected void writeImpl()
 	{
-		writeEx(0x8E);
+		writeEx(0x8F);
 		writeD(_objectId);
 		writeD(_isHide); // ID timer (any style)
 		writeD(0x00); // unknown
