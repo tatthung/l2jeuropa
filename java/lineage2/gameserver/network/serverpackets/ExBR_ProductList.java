@@ -37,8 +37,7 @@ public class ExBR_ProductList extends L2GameServerPacket
 			writeH(template.getCategory()); // category: 1 - enchant; 2 - supplies; 3 - decoration; 4 - package 5 - other
 			writeD(template.getPoints()); // points
 			writeD(0);
-			writeD(0);	//4 Popular - 2 Reccomended - 1 Event
-			//writeD(template.getTabId()); // show tab 2-th group - 1 показывает
+			writeD(template.getTabId());	//4 Popular - 2 Reccomended - 1 Event
 			writeD((int) (template.getStartTimeSale() / 1000)); // start sale unix date in seconds
 			writeD((int) (template.getEndTimeSale() / 1000)); // end sale unix date in seconds
 			writeC(127); // day week (127 = not daily goods)
