@@ -31,31 +31,13 @@ import lineage2.gameserver.utils.Strings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * @author Mobius
- * @version $Revision: 1.0 $
- */
 public class MacroList
 {
-	/**
-	 * Field _log.
-	 */
 	private static final Logger _log = LoggerFactory.getLogger(MacroList.class);
-	/**
-	 * Field player.
-	 */
+
 	private final Player player;
-	/**
-	 * Field _macroses.
-	 */
 	private final Map<Integer, Macro> _macroses = new HashMap<>();
-	/**
-	 * Field _revision.
-	 */
-	private int _revision;
-	/**
-	 * Field _macroId.
-	 */
+	private byte _counter;
 	private int _macroId;
 	
 	/**
@@ -65,18 +47,20 @@ public class MacroList
 	public MacroList(Player player)
 	{
 		this.player = player;
-		_revision = 1;
 		_macroId = 1000;
+		_counter = 0;
 	}
 	
 	/**
 	 * Method getRevision.
 	 * @return int
 	 */
+	/*
 	public int getRevision()
 	{
 		return _revision;
 	}
+	*/
 	
 	/**
 	 * Method getAllMacroses.
@@ -145,19 +129,11 @@ public class MacroList
 	 */
 	public void sendUpdate()
 	{
-		_revision++;
 		Macro[] all = getAllMacroses();
-		if (all.length == 0)
-		{
-			player.sendPacket(new SendMacroList(_revision, all.length, null));
-		}
-		else
-		{
-			for (Macro m : all)
-			{
-				player.sendPacket(new SendMacroList(_revision, all.length, m));
-			}
-		}
+		player.sendPacket(new SendMacroList(_counter, all));
+		_counter++;
+		if (_counter == 0xFF)
+			_counter = 0;
 	}
 	
 	/**
