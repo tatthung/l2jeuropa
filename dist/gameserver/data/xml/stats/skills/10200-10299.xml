@@ -481,6 +481,8 @@
 		<set name="charges" val="7"/>
 		<set name="isOffensive" val="true"/>
 		<set name="nextAction" val="attack"/>
+		<set name="hitTime" val="1500"/> <!-- Balance by Zyth, WunkiaKorps 2013 -->
+		<set name="reuseDelay" val="900"/> <!-- Balance by Zyth, WunkiaKorps 2013 -->
 		<cond msgId="113" addName="1">
 			<not>
 				<using kind="Bow,Crossbow"/>

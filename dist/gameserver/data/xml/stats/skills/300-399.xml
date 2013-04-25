@@ -1318,6 +1318,7 @@
 		<set name="charges" val="8"/>
 		<set name="isOffensive" val="true"/>
 		<set name="nextAction" val="attack"/>
+		<set name="reuseDelay" val="900"/> <!-- Balance by Zyth, WunkiaKorps 2013 -->
 	</skill>
 	<skill id="346" levels="1" name="Raging Force">
     <!-- Attacks the enemy with a devastating burst of wind energy. Requires a fist weapon. Possible up to stage 8. Over-hit and critical hit are possible. -->
@@ -1339,6 +1340,7 @@
 		<set name="charges" val="8"/>
 		<set name="isOffensive" val="true"/>
 		<set name="nextAction" val="attack"/>
+		<set name="reuseDelay" val="900"/> <!-- Balance by Zyth, WunkiaKorps 2013 -->
 	</skill>
 	<skill id="347" levels="1" name="Earthquake">
     <!-- Supplements the user's P. Atk. with 4848 Power in an Earth-shattering spear thrust. Requires a polearm. Over-hit and critical hit are possible. Ignores Shield Defense. Target may be canceled. -->

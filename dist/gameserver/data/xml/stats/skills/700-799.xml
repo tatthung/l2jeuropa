@@ -1711,8 +1711,9 @@
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="criticalRate" val="10"/>
 		<set name="chargeBoost" val="true"/>
-		<set name="num_charges" val="2"/>
-		<set name="charge_skill_id" val="50"/>
+		<!--<set name="num_charges" val="2"/>-->
+		<!--<set name="charge_skill_id" val="50"/>-->
+		<set name="max_charges" val="2"/> <!-- fixed by Zyth, WunkiaKorps 2013 -->
 		<set name="saveVs" val="CON"/>
 		<cond msgId="113" addName="1">
 			<using kind="Fist, Dual Fist"/>
