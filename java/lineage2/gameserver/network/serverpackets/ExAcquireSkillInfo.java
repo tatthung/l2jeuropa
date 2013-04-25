@@ -25,8 +25,7 @@ public class ExAcquireSkillInfo extends L2GameServerPacket
     @Override
     protected void writeImpl()
     {
-		writeEx(0xFB);
-
+		writeEx(0xFC);
 		writeD(skillLearn.getId());
 		writeD(skillLearn.getLevel());
 		writeD(skillLearn.getCost());
