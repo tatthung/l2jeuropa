@@ -86,8 +86,10 @@ import lineage2.gameserver.network.serverpackets.QuestList;
 import lineage2.gameserver.network.serverpackets.RecipeShopMsg;
 import lineage2.gameserver.network.serverpackets.RelationChanged;
 import lineage2.gameserver.network.serverpackets.Ride;
+import lineage2.gameserver.network.serverpackets.SSQInfo;
 import lineage2.gameserver.network.serverpackets.ShortCutInit;
 import lineage2.gameserver.network.serverpackets.SkillCoolTime;
+import lineage2.gameserver.network.serverpackets.SkillList;
 import lineage2.gameserver.network.serverpackets.SystemMessage2;
 import lineage2.gameserver.network.serverpackets.components.SystemMsg;
 import lineage2.gameserver.skills.AbnormalEffect;
@@ -191,13 +193,19 @@ public class EnterWorld extends L2GameClientPacket
 			activeChar.startTimers();
 		}
 		activeChar.sendPacket(new ExBR_PremiumState(activeChar, activeChar.hasBonus()));
-		activeChar.getMacroses().sendUpdate();
-		activeChar.sendPacket(new HennaInfo(activeChar));
+		
+        activeChar.getMacroses().sendAllUpdate();
+        activeChar.sendPacket(new SSQInfo(), new HennaInfo(activeChar));
 		activeChar.sendItemList(false);
 		activeChar.sendPacket(new ShortCutInit(activeChar));
-		activeChar.sendSkillList();
+        activeChar.sendPacket(new ShortCutInit(activeChar), new SkillList(activeChar), new SkillCoolTime(activeChar));
 		activeChar.sendPacket(new SkillCoolTime(activeChar));
-		activeChar.sendPacket(SystemMsg.VITALITY_IS_APPLIED_300);
+		//activeChar.sendPacket(new ExCastleState(_castle));
+        activeChar.sendPacket(new ExVitalityEffectInfo(activeChar));
+		for(Castle castle : ResidenceHolder.getInstance().getResidenceList(Castle.class))
+		{
+			activeChar.sendPacket(new ExCastleState(castle));
+		}
 		activeChar.sendPacket(SystemMsg.WELCOME_TO_THE_WORLD_OF_LINEAGE_II);
 		Announcements.getInstance().showAnnouncements(activeChar);
 		if (first)

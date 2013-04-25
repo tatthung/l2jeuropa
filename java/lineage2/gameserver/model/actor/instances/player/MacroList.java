@@ -1,24 +1,12 @@
-/*
- * This program is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation, either version 3 of the License, or (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
 package lineage2.gameserver.model.actor.instances.player;
+
+import gnu.trove.map.hash.TIntObjectHashMap;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.StringTokenizer;
 
 import lineage2.commons.dbutils.DbUtils;
@@ -36,64 +24,35 @@ public class MacroList
 	private static final Logger _log = LoggerFactory.getLogger(MacroList.class);
 
 	private final Player player;
-	private final Map<Integer, Macro> _macroses = new HashMap<>();
-	private byte _counter;
+	private final TIntObjectHashMap<Macro> _macroses = new TIntObjectHashMap<Macro>();
 	private int _macroId;
-	
-	/**
-	 * Constructor for MacroList.
-	 * @param player Player
-	 */
+
+	private byte _counter;
+
 	public MacroList(Player player)
 	{
 		this.player = player;
 		_macroId = 1000;
 		_counter = 0;
 	}
-	
-	/**
-	 * Method getRevision.
-	 * @return int
-	 */
-	/*
-	public int getRevision()
-	{
-		return _revision;
-	}
-	*/
-	
-	/**
-	 * Method getAllMacroses.
-	 * @return Macro[]
-	 */
+
 	public Macro[] getAllMacroses()
 	{
-		return _macroses.values().toArray(new Macro[_macroses.size()]);
+		return _macroses.values(new Macro[0]);
 	}
-	
-	/**
-	 * Method getMacro.
-	 * @param id int
-	 * @return Macro
-	 */
+
 	public Macro getMacro(int id)
 	{
 		return _macroses.get(id - 1);
 	}
-	
-	/**
-	 * Method registerMacro.
-	 * @param macro Macro
-	 */
+
 	public void registerMacro(Macro macro)
 	{
 		if (macro.id == 0)
 		{
 			macro.id = _macroId++;
 			while (_macroses.get(macro.id) != null)
-			{
 				macro.id = _macroId++;
-			}
 			_macroses.put(macro.id, macro);
 			registerMacroInDb(macro);
 		}
@@ -101,33 +60,22 @@ public class MacroList
 		{
 			Macro old = _macroses.put(macro.id, macro);
 			if (old != null)
-			{
 				deleteMacroFromDb(old);
-			}
 			registerMacroInDb(macro);
 		}
-		sendUpdate();
+		sendAllUpdate();
 	}
-	
-	/**
-	 * Method deleteMacro.
-	 * @param id int
-	 */
+
 	public void deleteMacro(int id)
 	{
 		Macro toRemove = _macroses.get(id);
 		if (toRemove != null)
-		{
 			deleteMacroFromDb(toRemove);
-		}
 		_macroses.remove(id);
-		sendUpdate();
+		sendAllUpdate();
 	}
-	
-	/**
-	 * Method sendUpdate.
-	 */
-	public void sendUpdate()
+
+	public void sendAllUpdate()
 	{
 		Macro[] all = getAllMacroses();
 		player.sendPacket(new SendMacroList(_counter, all));
@@ -135,11 +83,7 @@ public class MacroList
 		if (_counter == 0xFF)
 			_counter = 0;
 	}
-	
-	/**
-	 * Method registerMacroInDb.
-	 * @param macro Macro
-	 */
+
 	private void registerMacroInDb(Macro macro)
 	{
 		Connection con = null;
@@ -160,10 +104,8 @@ public class MacroList
 				sb.append(cmd.type).append(',');
 				sb.append(cmd.d1).append(',');
 				sb.append(cmd.d2);
-				if ((cmd.cmd != null) && (cmd.cmd.length() > 0))
-				{
+				if (cmd.cmd != null && cmd.cmd.length() > 0)
 					sb.append(',').append(cmd.cmd);
-				}
 				sb.append(';');
 			}
 			statement.setString(7, sb.toString());
@@ -178,10 +120,9 @@ public class MacroList
 			DbUtils.closeQuietly(con, statement);
 		}
 	}
-	
+
 	/**
-	 * Method deleteMacroFromDb.
-	 * @param macro Macro
+	 * @param shortcut
 	 */
 	private void deleteMacroFromDb(Macro macro)
 	{
@@ -204,10 +145,7 @@ public class MacroList
 			DbUtils.closeQuietly(con, statement);
 		}
 	}
-	
-	/**
-	 * Method restore.
-	 */
+
 	public void restore()
 	{
 		_macroses.clear();
@@ -227,7 +165,7 @@ public class MacroList
 				String name = Strings.stripSlashes(rset.getString("name"));
 				String descr = Strings.stripSlashes(rset.getString("descr"));
 				String acronym = Strings.stripSlashes(rset.getString("acronym"));
-				List<L2MacroCmd> commands = new ArrayList<>();
+				List<L2MacroCmd> commands = new ArrayList<L2MacroCmd>();
 				StringTokenizer st1 = new StringTokenizer(rset.getString("commands"), ";");
 				while (st1.hasMoreTokens())
 				{
@@ -237,12 +175,11 @@ public class MacroList
 					int d2 = Integer.parseInt(st.nextToken());
 					String cmd = "";
 					if (st.hasMoreTokens())
-					{
 						cmd = st.nextToken();
-					}
 					L2MacroCmd mcmd = new L2MacroCmd(commands.size(), type, d1, d2, cmd);
 					commands.add(mcmd);
 				}
+
 				Macro m = new Macro(id, icon, name, descr, acronym, commands.toArray(new L2MacroCmd[commands.size()]));
 				_macroses.put(m.id, m);
 			}
