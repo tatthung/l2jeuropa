@@ -194,7 +194,7 @@ public class EnterWorld extends L2GameClientPacket
 		}
 		activeChar.sendPacket(new ExBR_PremiumState(activeChar, activeChar.hasBonus()));
 		
-        activeChar.getMacroses().sendAllUpdate();
+		activeChar.getMacroses().sendUpdate(0x01, 0, true);
         activeChar.sendPacket(new SSQInfo(), new HennaInfo(activeChar));
 		activeChar.sendItemList(false);
 		activeChar.sendPacket(new ShortCutInit(activeChar));

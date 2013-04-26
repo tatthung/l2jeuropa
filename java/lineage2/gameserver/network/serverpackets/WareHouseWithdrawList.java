@@ -15,19 +15,21 @@ import lineage2.gameserver.templates.item.ItemTemplate.ItemClass;
  * @author ALF
  * @data 10.02.2012
  */
-public class WareHouseWithdrawList extends L2GameServerPacket {
-
+public class WareHouseWithdrawList extends L2GameServerPacket
+{
     private long _adena;
     private List<ItemInfo> _itemList = new ArrayList<ItemInfo>();
     private int _type;
     private int freeSlot;
 
-    public WareHouseWithdrawList(Player player, WarehouseType type, ItemClass clss) {
+    public WareHouseWithdrawList(Player player, WarehouseType type, ItemClass clss)
+    {
         _adena = player.getAdena();
         _type = type.ordinal();
 
         ItemInstance[] items;
-        switch (type) {
+        switch (type)
+        {
             case PRIVATE:
                 items = player.getWarehouse().getItems(clss);
                 break;
@@ -45,10 +47,11 @@ public class WareHouseWithdrawList extends L2GameServerPacket {
 
         _itemList = new ArrayList<ItemInfo>(items.length);
         ArrayUtils.eqSort(items, ItemClassComparator.getInstance());
-        for (ItemInstance item : items) {
+        for (ItemInstance item : items)
+        {
             _itemList.add(new ItemInfo(item));
         }
-        freeSlot = player.getInventory().getAllSize();
+        freeSlot = player.getInventoryLimit() - player.getInventory().getSize();
     }
 
     @Override

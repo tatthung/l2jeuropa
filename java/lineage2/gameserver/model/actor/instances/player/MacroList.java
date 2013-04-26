@@ -27,13 +27,10 @@ public class MacroList
 	private final TIntObjectHashMap<Macro> _macroses = new TIntObjectHashMap<Macro>();
 	private int _macroId;
 
-	private byte _counter;
-
 	public MacroList(Player player)
 	{
 		this.player = player;
 		_macroId = 1000;
-		_counter = 0;
 	}
 
 	public Macro[] getAllMacroses()
@@ -55,6 +52,7 @@ public class MacroList
 				macro.id = _macroId++;
 			_macroses.put(macro.id, macro);
 			registerMacroInDb(macro);
+			player.sendPacket(new SendMacroList(macro, getAllMacroses().length, 0x01, _macroId, false));
 		}
 		else
 		{
@@ -62,8 +60,8 @@ public class MacroList
 			if (old != null)
 				deleteMacroFromDb(old);
 			registerMacroInDb(macro);
+			sendUpdate(0x02, macro.id, false);
 		}
-		sendAllUpdate();
 	}
 
 	public void deleteMacro(int id)
@@ -72,16 +70,23 @@ public class MacroList
 		if (toRemove != null)
 			deleteMacroFromDb(toRemove);
 		_macroses.remove(id);
-		sendAllUpdate();
+		sendUpdate(0x00, id, false);
 	}
 
-	public void sendAllUpdate()
+	public void sendUpdate(int type, int _macroId, boolean first)
 	{
 		Macro[] all = getAllMacroses();
-		player.sendPacket(new SendMacroList(_counter, all));
-		_counter++;
-		if (_counter == 0xFF)
-			_counter = 0;
+		if(all.length == 0)
+		{
+			player.sendPacket(new SendMacroList(null, all.length, 0x00, 0, false));
+		}
+		else
+		{
+			for(Macro m : all)
+			{
+				player.sendPacket(new SendMacroList(m, all.length, type, _macroId, first));
+			}
+		}
 	}
 
 	private void registerMacroInDb(Macro macro)
