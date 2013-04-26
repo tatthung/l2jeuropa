@@ -159,16 +159,19 @@ public class MemorialService extends DynamicQuest implements ScriptFile
 	}
 
 	@Override
-	public void onLoad() {
+	public void onLoad()
+	{
 		_log.info("Dynamic Quest: Loaded quest ID "+QUEST_ID+". Name: Memorial Service - Campaign");
 	}
 
 	@Override
-	public void onReload() {
+	public void onReload()
+	{
 	}
 
 	@Override
-	public void onShutdown() {
+	public void onShutdown()
+	{
 	}
 
 	private final class OnSocialActionListenerImpl implements OnSocialActionListener
