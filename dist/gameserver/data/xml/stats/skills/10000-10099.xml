@@ -191,48 +191,56 @@
 		<set name="isDebuff" val="true"/>
 		<set name="relationSkillsId" val="984;"/>
 		<enchant1 levels="10" name="Cost">
-			<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>
+			<!--<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>-->
+			<table name="#Power">16084 16460 16836 17212 17588 17964 18340 18716 19092 19468</table> <!--Fixed by Zyth, WunkiaKorps 2013-->
 			<table name="#mpConsume">65 65 65 65 65 65 65 65 65 65</table> <!-- TODO: WTF???? -->
 			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant1>
 		<enchant2 name="Duel">
-			<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>
-			<table name="#powerPvP">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>
+			<!--<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>-->
+			<table name="#Power">16084 16460 16836 17212 17588 17964 18340 18716 19092 19468</table> <!--Fixed by Zyth, WunkiaKorps 2013, Error on Client for this Power-->
+			<table name="#powerPvP">16084 16460 16836 17212 17588 17964 18340 18716 19092 19468</table>
 			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant2>
 		<enchant3 name="Fire Attack">
 			<table name="#element">fire</table>
-			<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>
+			<!--<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>-->
+			<table name="#Power">16084 16460 16836 17212 17588 17964 18340 18716 19092 19468</table> <!--Fixed by Zyth, WunkiaKorps 2013-->
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
 			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant3>
 		<enchant4 name="Water Attack">
 			<table name="#element">water</table>
-			<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>
+			<!--<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>-->
+			<table name="#Power">16084 16460 16836 17212 17588 17964 18340 18716 19092 19468</table> <!--Fixed by Zyth, WunkiaKorps 2013-->
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
 			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant4>
 		<enchant5 name="Wind Attack">
 			<table name="#element">wind</table>
-			<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>
+			<!--<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>-->
+			<table name="#Power">16084 16460 16836 17212 17588 17964 18340 18716 19092 19468</table> <!--Fixed by Zyth, WunkiaKorps 2013-->
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
 			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant5>
 		<enchant6 name="Earth Attack">
 			<table name="#element">earth</table>
-			<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>
+			<!--<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>-->
+			<table name="#Power">16084 16460 16836 17212 17588 17964 18340 18716 19092 19468</table> <!--Fixed by Zyth, WunkiaKorps 2013-->
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
 			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant6>
 		<enchant7 name="Holy Attack">
 			<table name="#element">Holy</table>
-			<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>
+			<!--<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>-->
+			<table name="#Power">16084 16460 16836 17212 17588 17964 18340 18716 19092 19468</table> <!--Fixed by Zyth, WunkiaKorps 2013-->
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
 			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant7>
 		<enchant8 name="Dark Attack">
 			<table name="#element">unholy</table>
-			<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>
+			<!--<table name="#Power">16460 16836 17212 17588 17964 18340 18716 19092 19468 19844</table>-->
+			<table name="#Power">16084 16460 16836 17212 17588 17964 18340 18716 19092 19468</table> <!--Fixed by Zyth, WunkiaKorps 2013-->
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
 			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant8>
@@ -343,32 +351,38 @@
 		<enchant3 name="Fire Attack">
 			<table name="#element">fire</table>
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
-			<table name="#power">26484 27085 27685 28286 28887 29487 30088 30688 31289 31890</table>
+			<!--<table name="#power">26484 27085 27685 28286 28887 29487 30088 30688 31289 31890</table>-->
+			<table name="#power">14343 14634 14924 15226 15527 16155 16806 17484 18187 18918</table> <!--Fixed by Zyth, WunkiaKorps 2013-->
 		</enchant3>
 		<enchant4 name="Water Attack">
 			<table name="#element">water</table>
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
-			<table name="#power">26484 27085 27685 28286 28887 29487 30088 30688 31289 31890</table>
+			<!--<table name="#power">26484 27085 27685 28286 28887 29487 30088 30688 31289 31890</table>-->
+			<table name="#power">14343 14634 14924 15226 15527 16155 16806 17484 18187 18918</table> <!--Fixed by Zyth, WunkiaKorps 2013-->
 		</enchant4>
 		<enchant5 name="Wind Attack">
 			<table name="#element">wind</table>
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
-			<table name="#power">26484 27085 27685 28286 28887 29487 30088 30688 31289 31890</table>
+			<!--<table name="#power">26484 27085 27685 28286 28887 29487 30088 30688 31289 31890</table>-->
+			<table name="#power">14343 14634 14924 15226 15527 16155 16806 17484 18187 18918</table> <!--Fixed by Zyth, WunkiaKorps 2013-->
 		</enchant5>
 		<enchant6 name="Earth Attack">
 			<table name="#element">earth</table>
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
-			<table name="#power">26484 27085 27685 28286 28887 29487 30088 30688 31289 31890</table>
+			<!--<table name="#power">26484 27085 27685 28286 28887 29487 30088 30688 31289 31890</table>-->
+			<table name="#power">14343 14634 14924 15226 15527 16155 16806 17484 18187 18918</table> <!--Fixed by Zyth, WunkiaKorps 2013-->
 		</enchant6>
 		<enchant7 name="Holy Attack">
 			<table name="#element">holy</table>
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
-			<table name="#power">26484 27085 27685 28286 28887 29487 30088 30688 31289 31890</table>
+			<!--<table name="#power">26484 27085 27685 28286 28887 29487 30088 30688 31289 31890</table>-->
+			<table name="#power">14343 14634 14924 15226 15527 16155 16806 17484 18187 18918</table> <!--Fixed by Zyth, WunkiaKorps 2013-->
 		</enchant7>
 		<enchant8 name="Dark Attack">
 			<table name="#element">unholy</table>
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
-			<table name="#power">26484 27085 27685 28286 28887 29487 30088 30688 31289 31890</table>
+			<!--<table name="#power">26484 27085 27685 28286 28887 29487 30088 30688 31289 31890</table>-->
+			<table name="#power">14343 14634 14924 15226 15527 16155 16806 17484 18187 18918</table> <!--Fixed by Zyth, WunkiaKorps 2013-->
 		</enchant8>
 		<enchant9 levels="10" name="Recycle">
 			<table name="#power">26484 27085 27685 28286 28887 29487 30088 30688 31289 31890</table>
