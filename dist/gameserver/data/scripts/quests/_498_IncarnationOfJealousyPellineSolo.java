@@ -13,8 +13,8 @@ public class _498_IncarnationOfJealousyPellineSolo extends Quest implements Scri
 	public _498_IncarnationOfJealousyPellineSolo()
 	{
 		super(true);
-		addStartNpc(33647);
-		addKillId(new int[] { 19254 });
+		addStartNpc(KARTIA_RESEARCH);
+		addKillId(FILINE);
 		addLevelCheck(90, 94);
 	}
 
@@ -45,7 +45,7 @@ public class _498_IncarnationOfJealousyPellineSolo extends Quest implements Scri
 		int npcId = npc.getNpcId();
 		int state = st.getState();
 		int cond = st.getCond();
-		if (npcId == 33647)
+		if (npcId == KARTIA_RESEARCH)
 		{
 			if (state == 1)
 			{
