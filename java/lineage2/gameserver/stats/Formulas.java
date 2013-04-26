@@ -43,6 +43,7 @@ public class Formulas
 	 * @param cha Creature
 	 * @return double
 	 */
+	
 	public static double calcHpRegen(Creature cha)
 	{
 		double init;
@@ -1219,7 +1220,6 @@ public class Formulas
 		else
 			return value * (Math.round(AttributeDamageResistTable.getInstance().getAttributeBonus(attDiff)* Math.pow(10,4))/Math.pow(10,4));
 	}
-	
 	/**
 	 * Method getAttackElement.
 	 * @param attacker Creature
@@ -1228,9 +1228,7 @@ public class Formulas
 	 */
 	public static Element getAttackElement(Creature attacker, Creature target)
 	{
-		double val = 0;
-		double maxElementDefenseVal = 0;
-		double maxElementAttackVal = 0;
+		double val, max = Double.MIN_VALUE, maxElementDefenseVal = Double.MIN_VALUE;
 		Element maxElementDefense = Element.NONE;		
 		Element result = Element.NONE;
 		for (Element e : Element.VALUES)
@@ -1238,23 +1236,20 @@ public class Formulas
 			val = attacker.calcStat(e.getAttack(), 0., null, null);
 			if (val <= 0.)
 			{
-				if(target != null && target.calcStat(e.getDefence(), 0., null, null) > maxElementDefenseVal)
+				if(target != null && ((target.calcStat(e.getDefence(), 0., null, null)) > maxElementDefenseVal))
 				{
 					maxElementDefenseVal = target.calcStat(e.getDefence(), 0., null, null); 
 					maxElementDefense = e;
 				}
 				continue;
 			}
-			else
+			if(val > max)
 			{
-				if(val > maxElementAttackVal);
-				{
-					maxElementAttackVal = val;
-					result = e;
-				}
-			}			
+				max = val;
+				result = e;
+			}	
 		}
-		if(val <= 0. && target != null)
+		if(result == Element.NONE && target != null)
 		{
 			return maxElementDefense;
 		}
