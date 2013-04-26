@@ -155,11 +155,11 @@
         <set name="target" val="TARGET_SELF"/>
         <set name="skillType" val="BUFF"/>
         <set name="operateType" val="OP_PASSIVE"/>
-	<triggers>
-		<trigger id="10809" level="1" type="CRIT" chance="100"><!--TODO: Unconfirmed Chance-->
-			<using kind="Bow, Crossbow"/>
-		</trigger>
-	</triggers>
+		<triggers>
+			<trigger id="10809" level="1" type="CRIT" chance="100"><!--TODO: Unconfirmed Chance-->
+				<using kind="Bow, Crossbow"/>
+			</trigger>
+		</triggers>
         <enchant1 levels="10" name="Power">
             <table name="#fall">0.69 0.68 0.67 0.66 0.65 0.64 0.63 0.62 0.61 0.6</table>
             <table name="#maxLoad">1.51 1.52 1.53 1.54 1.55 1.56 1.57 1.58 1.59 1.6</table>
@@ -323,7 +323,7 @@
         <set name="power" val="#power"/>
         <set name="skillRadius" val="250"/>
         <set name="skillType" val="PDAM"/>
-	<set name="criticalRate" val="10"/>
+		<set name="criticalRate" val="10"/>
         <set name="target" val="TARGET_MULTIFACE"/>
         <set name="alterSkillsId" val="10999;11000;14579"/>
         <cond msgId="113" addName="1">
@@ -387,7 +387,7 @@
         <set name="element" val="#element"/>
         <set name="magicLevel" val="#magicLevel"/>
         <set name="operateType" val="OP_ACTIVE"/>
-	<set name="criticalRate" val="10"/>
+		<set name="criticalRate" val="10"/>
         <set name="overHit" val="true"/>
         <set name="power" val="#power"/>
         <set name="skillType" val="PDAM"/>
@@ -459,7 +459,7 @@
         <set name="element" val="#element"/>
         <set name="magicLevel" val="#magicLevel"/>
         <set name="operateType" val="OP_ACTIVE"/>
-	<set name="criticalRate" val="10"/>
+		<set name="criticalRate" val="10"/>
         <set name="power" val="#power"/>
         <set name="skillType" val="PDAM"/>
         <set name="target" val="TARGET_ONE"/>
@@ -503,7 +503,9 @@
             <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
             <table name="#power">23992 24549 25106 25663 26220 26778 27335 27892 28449 29006</table>
         </enchant8>
-        <enchant9 levels="10" name="Recycle"/>
+        <enchant9 levels="10" name="Recycle">
+            <table name="#power">23992 24549 25106 25663 26220 26778 27335 27892 28449 29006</table>
+		</enchant9>
     </skill>
     <skill id="10763" levels="8" name="Pinpoint Shot">
     <!-- Aims for the target's weak points to attack with 22198 power added to P. Atk. Disregards 30% of the target's P. Def. Bow/crossbow required. Over-hit. Critical. -->
@@ -519,7 +521,7 @@
         <set name="castRange" val="1100"/>
         <set name="mpConsume2" val="#mpConsume2"/>
         <set name="relationSkillsId" val="627;343;"/>
-	<set name="criticalRate" val="10"/>
+		<set name="criticalRate" val="10"/>
         <set name="elementPower" val="#elementPower"/>
         <set name="element" val="#element"/>
         <set name="activateRate" val="60"/>
@@ -643,7 +645,7 @@
             <using kind="Bow,Crossbow"/>
         </cond>
         <enchant1 levels="10" name="Cost">
-	    <table name="#power">15242 15595 15948 16301 16654 17007 17360 17713 18066 18419</table>
+			<table name="#power">15242 15595 15948 16301 16654 17007 17360 17713 18066 18419</table>
         </enchant1>
         <enchant2 levels="10" name="Chance">
             <table name="#power">15242 15595 15948 16301 16654 17007 17360 17713 18066 18419</table>
@@ -704,7 +706,7 @@
         <set name="magicLevel" val="#magicLevel"/>
         <set name="relationSkillsId" val="990;"/>
         <set name="operateType" val="OP_ACTIVE"/>
-	<set name="criticalRate" val="10"/>
+		<set name="criticalRate" val="10"/>
         <set name="overHit" val="true"/>
         <set name="power" val="#power"/>
         <set name="skillType" val="PDAM"/>
@@ -716,7 +718,7 @@
             <using kind="Bow,Crossbow"/>
         </cond>
         <enchant1 levels="10" name="Cost">
-	   <table name="#power">29918 30254 30589 30925 31260 31595 31931 32266 32601 32937</table>
+			<table name="#power">29918 30254 30589 30925 31260 31595 31931 32266 32601 32937</table>
         </enchant1>
         <enchant2 levels="10" name="Chance">
             <table name="#power">29918 30254 30589 30925 31260 31595 31931 32266 32601 32937</table>
@@ -753,7 +755,7 @@
             <table name="#power">29918 30254 30589 30925 31260 31595 31931 32266 32601 32937</table>
         </enchant8>
         <enchant9 levels="10" name="Recycle">
-	    <table name="#power">29918 30254 30589 30925 31260 31595 31931 32266 32601 32937</table>
+			<table name="#power">29918 30254 30589 30925 31260 31595 31931 32266 32601 32937</table>
         </enchant9>
         <for>
             <effect count="1" name="KnockBack" stackOrder="-1" stackType="KnockBack" time="5" val="0"/>
@@ -777,7 +779,7 @@
         <set name="magicLevel" val="#magicLevel"/>
         <set name="relationSkillsId" val="987;"/>
         <set name="operateType" val="OP_ACTIVE"/>
-	<set name="criticalRate" val="10"/>
+		<set name="criticalRate" val="10"/>
         <set name="overHit" val="true"/>
         <set name="power" val="#power"/>
         <set name="skillType" val="PDAM"/>
@@ -788,10 +790,10 @@
             <using kind="Bow,Crossbow"/>
         </cond>
         <enchant1 levels="10" name="Cost">
-	    <table name="#power">35595 36408 37222 38035 38849 39662 40476 41290 42103 42917</table>
-	</enchant1>
+			<table name="#power">35595 36408 37222 38035 38849 39662 40476 41290 42103 42917</table>
+		</enchant1>
         <enchant2 name="Duel">
-	    <table name="#power">35595 36408 37222 38035 38849 39662 40476 41290 42103 42917</table>
+			<table name="#power">35595 36408 37222 38035 38849 39662 40476 41290 42103 42917</table>
             <table name="#powerPvP">35595 36408 37222 38035 38849 39662 40476 41290 42103 42917</table>
         </enchant2>
         <enchant3 name="Fire Attack">
@@ -844,7 +846,7 @@
         <set name="mpConsume2" val="#mpConsume2"/>
         <set name="elementPower" val="#elementPower"/>
         <set name="element" val="#element"/>
-	<set name="criticalRate" val="10"/>
+		<set name="criticalRate" val="10"/>
         <set name="magicLevel" val="#magicLevel"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
@@ -856,10 +858,10 @@
             <using kind="Bow,Crossbow"/>
         </cond>
         <enchant1 levels="10" name="Cost">
- 	    <table name="#power">34292 35077 35861 36646 37430 38215 38999 39784 40568 41353</table>
+			<table name="#power">34292 35077 35861 36646 37430 38215 38999 39784 40568 41353</table>
         </enchant1>
         <enchant2 name="Duel">
-	    <table name="#power">34292 35077 35861 36646 37430 38215 38999 39784 40568 41353</table>
+			<table name="#power">34292 35077 35861 36646 37430 38215 38999 39784 40568 41353</table>
             <table name="#powerPvP">34292 35077 35861 36646 37430 38215 38999 39784 40568 41353</table>
         </enchant2>
         <enchant3 name="Fire Attack">
@@ -893,7 +895,7 @@
             <table name="#power">34292 35077 35861 36646 37430 38215 38999 39784 40568 41353</table>
         </enchant8>
         <enchant9 levels="10" name="Recycle">
-	    <table name="#power">34292 35077 35861 36646 37430 38215 38999 39784 40568 41353</table>
+			<table name="#power">34292 35077 35861 36646 37430 38215 38999 39784 40568 41353</table>
         </enchant9>
     </skill>
     <skill id="10774" levels="4" name="Quick Evasion">
@@ -911,6 +913,10 @@
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="flyType" val="DUMMY"/>
         <set name="flyRadius" val="#flyRadius"/>
+		<enchant1 levels="10" name="Distance">
+			<table name="#flyRadius">-460 -470 -480 -490 -500 -510 -520 -530 -540 -550</table> <!--Non-Retail value, Must be Checked-->
+			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant1>
     </skill>
     <skill id="10775" levels="3" name="Confusion Decoy">
     <!-- Summons a decoy that receives attacks for you. -->
@@ -933,6 +939,7 @@
         <cond msgId="113" addName="1">
             <using kind="Crossbow, Bow"/>
         </cond>
+		<enchant1 levels="10" name="Cost"/>
     </skill>
     <skill id="10776" levels="4" name="Final Ultimate Escape">
     <!-- For 30 seconds, increases P. Evasion + 30, M. Evasion + 60, resistance to magic + 20%, resistance to buff-canceling attacks + 95%, and Evasion rate to P. skills attacks + 80%. -->
@@ -1001,6 +1008,7 @@
 		<cond msgId="113" addName="1">
             <using kind="Crossbow, Bow"/>
         </cond>
+		<enchant1 levels="10" name="Cost"/>
         <for/>
     </skill>
     <skill id="10778" levels="1" name="Diversion">
@@ -1019,6 +1027,7 @@
 		<cond msgId="113" addName="1">
             <using kind="Crossbow, Bow"/>
         </cond>
+		<enchant1 levels="10" name="Cost"/>
         <for/>
     </skill>
     <skill id="10779" levels="4" name="Quick Fire">
@@ -1146,11 +1155,11 @@
             </effect>
         </for>
     </skill>
-    <skill id="10781" levels="2" name="Phoenix Arrow">
+    <skill id="10781" levels="1" name="Phoenix Arrow">
     <!-- Shoots a magical arrow to obliterate an area. Attacks targets within the skill's range with 120000 power. -->
-		<table name="#power">120000 140000</table>
-		<table name="#magicLevel">95 99</table>
-		<table name="#mpConsume2">210 220</table>
+		<table name="#power">120000</table>
+		<table name="#magicLevel">95</table>
+		<table name="#mpConsume2">210</table>
 		<table name="#powerPvP">0</table>
 		<set name="powerPvP" val="#powerPvP"/>
 		<set name="reuseDelay" val="600000"/>
@@ -1171,8 +1180,8 @@
 			</not>
 		</cond>
 		<enchant1 levels="10" name="Cost"/>
-		<enchant2 levels="10" name="Recycle"/>
-	    </skill>
+		<enchant2 levels="10" name="Recycle" enchRoute="9"/>
+	</skill>
 	<skill id="10782" levels="1" name="Deadly Move 2">
     <!-- Death blow! Please do not use. -->
 		<set name="target" val="TARGET_ONE"/>
@@ -1296,10 +1305,14 @@
             <table name="#activateRate">71 72 73 74 75 76 77 78 79 80</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant2>
-        <enchant5 levels="10" name="Recovery" enchRoute="9">
+		<enchant3 levels="10" name="Entangle">
+			<!--TODO-->
+			<!--<table name="runSpeed">.99 .98 .97 .96 .95 .94 .93 .92 .91 .9</table>-->
+		</enchant3>
+        <enchant4 levels="10" name="Recovery" enchRoute="9">
             <table name="#reuseDelay">1400 1400 1300 1300 1200 1200 1100 1100 1000 1000</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant5>
+        </enchant4>
         <for><!-- TODO: this is immediate effect, and skill description says until past 10 seconds.-->
             <effect count="1" name="DamOverTime" time="1" val="30000"/>
         </for>
@@ -1385,6 +1398,7 @@
         <set name="skillRadius" val="350"/>
         <set name="addSkills" val="5269;#skill"/>
         <set name="npcId" val="13037"/>
+		<enchant1 levels="10" name="Chance"/>
         <for/>
     </skill>
     <skill id="10792" levels="1" name="Gravity Trap">
@@ -1403,12 +1417,14 @@
         <set name="isSkillTimePermanent" val="true"/>
         <set name="addSkills" val="5271;#skill"/>
         <set name="npcId" val="13041"/>
+		<enchant1 levels="10" name="Chance"/>
         <for/>
     </skill>
     <skill id="10793" levels="1" name="Flash">
     <!-- Cancels the targets of nearby enemies. Increases speed + 50 for 5 seconds and prevents enemies from targeting you. -->
         <table name="#mpConsume2">77</table>
         <table name="#magicLevel">85</table>
+	  	<table name="#Stun">0</table>
         <set name="reuseDelay" val="5000"/>
         <set name="relationSkillsId" val="939"/>
         <set name="magicLevel" val="#magicLevel"/>
@@ -1420,9 +1436,22 @@
         <set name="skillType" val="DEBUFF"/>
         <set name="operateType" val="OP_ACTIVE"/>
 		<set name="cancelTarget" val="100"/>
+		<enchant1 levels="10" name="Cost"/>
+		<enchant2 levels="10" name="Chance Shock">
+			<table name="#Stun">1 2 3 4 5 6 7 8 9 10</table> 
+		</enchant2>
+		<enchant3 levels="10" name="Chance Knockdown">
+			<!--TODO-->
+			<!--<table name="#Knockdown">1 2 3 4 5 6 7 8 9 10</table>-->
+		</enchant3>
+		<enchant4 levels="10" name="Chance Hold">
+			<!--TODO-->
+			<!--<table name="#Hold">1 2 3 4 5 6 7 8 9 10</table>-->
+		</enchant4>
         <for>
             <effect count="1" name="Buff" stackType="Dash" time="5" val="0" applyOnCaster="true">
                 <add order="0x40" stat="runSpd" val="50"/>
+				<add order="0x40" stat="stunPower" val="#Stun"/>
             </effect>
         </for>
     </skill>
