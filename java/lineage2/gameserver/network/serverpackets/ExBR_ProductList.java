@@ -20,15 +20,6 @@ public class ExBR_ProductList extends L2GameServerPacket
 		}
 		for (ProductItem template : items)
 		{
-			if (getClient().getActiveChar().isGM() && getClient().getActiveChar().isDebug())
-			{
-				getClient().getActiveChar().sendMessage("getProductId:" + template.getProductId());
-				getClient().getActiveChar().sendMessage("getCategory:" + template.getCategory());
-				getClient().getActiveChar().sendMessage("getPoints:" + template.getPoints());
-				getClient().getActiveChar().sendMessage("template.getComponents().size():" + template.getComponents().size());
-				getClient().getActiveChar().sendMessage("template.getComponents().get(0).getItemId():" + template.getComponents().get(0).getItemId());
-				getClient().getActiveChar().sendMessage("template.getComponents().get(0).getCount():" + template.getComponents().get(0).getCount());
-			}
 			if (System.currentTimeMillis() < template.getStartTimeSale())
 				continue;
 			if (System.currentTimeMillis() > template.getEndTimeSale())

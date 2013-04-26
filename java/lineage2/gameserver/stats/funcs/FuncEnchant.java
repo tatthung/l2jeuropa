@@ -114,7 +114,7 @@ public class FuncEnchant extends Func
 						double runSpdBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart, false);
 						if(runSpdBonus == 0)
 						{
-							_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no run speed bonus for the body part." );
+							_log.info("FuncEnchant: Error, item: " + item.getItemId() + " - " + item.getName() + " has no run speed bonus for the body part." );
 							break;
 						}
 						env.value += (int)calcStatBonus(enchant,runSpdBonus,isBlessed,true,isTopGrade,false);
@@ -126,7 +126,7 @@ public class FuncEnchant extends Func
 					double critRateBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart, false);
 					if(critRateBonus == 0)
 					{
-						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no critical rate bonus for the body part." );
+						_log.info("FuncEnchant: Error, item: " + item.getItemId() + " - " + item.getName() + " has no critical rate bonus for the body part." );
 						break;
 					}
 					env.value += (Math.round(calcStatBonus(enchant,critRateBonus,isBlessed,true,isTopGrade,false)*Math.pow(10,1))/Math.pow(10,1)* 2);
@@ -138,7 +138,7 @@ public class FuncEnchant extends Func
 					double mcritRateBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart,true);
 					if(mcritRateBonus == 0)
 					{
-						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no magic Critical rate bonus for the body part." );
+						_log.info("FuncEnchant: Error, item: " + item.getItemId() + " - " + item.getName() + " has no magic Critical rate bonus for the body part." );
 						break;
 					}
 					env.value += calcStatBonus(enchant,mcritRateBonus,isBlessed,true,isTopGrade,false);
@@ -150,7 +150,7 @@ public class FuncEnchant extends Func
 					double accCombatBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart, false);
 					if(accCombatBonus == 0)
 					{
-						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no accuracy bonus for the body part." );
+						_log.info("FuncEnchant: Error, item: " + item.getItemId() + " - " + item.getName() + " has no accuracy bonus for the body part." );
 						break;
 					}
 					env.value += (int)calcStatBonus(enchant,accCombatBonus,isBlessed,true,isTopGrade,false);
@@ -162,7 +162,7 @@ public class FuncEnchant extends Func
 					double maccCombatBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart,true);
 					if(maccCombatBonus == 0)
 					{
-						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no Magic Accuracy bonus for the body part." );
+						_log.info("FuncEnchant: Error, item: " + item.getItemId() + " - " + item.getName() + " has no Magic Accuracy bonus for the body part." );
 						break;
 					}
 					env.value += (int)calcStatBonus(enchant,maccCombatBonus,isBlessed,true,isTopGrade,false);
@@ -174,7 +174,7 @@ public class FuncEnchant extends Func
 					double evasionBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart,false);
 					if(evasionBonus == 0)
 					{
-						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no evasion bonus for the body part." );
+						_log.info("FuncEnchant: Error, item: " + item.getItemId() + " - " + item.getName() + " has no evasion bonus for the body part." );
 						break;
 					}
 					env.value += (int)calcStatBonus(enchant,evasionBonus,isBlessed,true,isTopGrade,false);
@@ -186,7 +186,7 @@ public class FuncEnchant extends Func
 					double mevasionBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart,false);
 					if(mevasionBonus == 0)
 					{
-						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no Magic Evasion bonus for the body part." );
+						_log.info("FuncEnchant: Error, item: " + item.getItemId() + " - " + item.getName() + " has no Magic Evasion bonus for the body part." );
 						break;
 					}
 					env.value += (int)calcStatBonus(enchant,mevasionBonus,isBlessed,true,isTopGrade,false);
@@ -204,7 +204,7 @@ public class FuncEnchant extends Func
 					double mAtkArmorBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart,true);
 					if(mAtkArmorBonus == 0)
 					{
-						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no Magic Attack bonus for the body part." );
+						_log.info("FuncEnchant: Error, item: " + item.getItemId() + " - " + item.getName() + " has no Magic Attack bonus for the body part." );
 						break;
 					}
 					env.value += (int)calcStatBonus(enchant,mAtkArmorBonus,isBlessed,true,isTopGrade,false);
@@ -223,7 +223,7 @@ public class FuncEnchant extends Func
 					double pAtkArmorBonus = EnchantStatBonusTable.getInstance().getStatBonus(bodyPart,false);
 					if(pAtkArmorBonus == 0)
 					{
-						_log.info("FuncEnchant: Error, the item: " + item.getName() + " has no Physical Attack bonus for the body part." );
+						_log.info("FuncEnchant: Error, item: " + item.getItemId() + " - " + item.getName() + " has no Physical Attack bonus for the body part." );
 						break;
 					}
 					env.value += (int)calcStatBonus(enchant,pAtkArmorBonus,isBlessed, true,isTopGrade,false);					

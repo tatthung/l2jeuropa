@@ -46,7 +46,7 @@ public class ExMentorList extends L2GameServerPacket
 	@Override
 	protected final void writeImpl()
 	{
-		writeEx(0x120);
+		writeEx(0x121);
 
 		writeD(_mentor == 0 ? 0x01 : 0x02);
 		writeD(_list.size());
