@@ -14,7 +14,7 @@ public class _494_IncarnationOfGreedZellakaGroup extends Quest implements Script
 	{
 		super(true);
 		addStartNpc(KARTIA_RESEARCH);
-		addKillId(new int[] { CHALAKA });
+		addKillId(CHALAKA);
 		addLevelCheck(85, 89);
 	}
 	

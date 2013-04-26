@@ -13,8 +13,8 @@ public class _497_IncarnationOfGreedZellakaSolo extends Quest implements ScriptF
 	public _497_IncarnationOfGreedZellakaSolo()
 	{
 		super(true);
-		addStartNpc(33647);
-		addKillId(new int[] { 19253 });
+		addStartNpc(KARTIA_RESEARCH);
+		addKillId(CHALAKA);
 		addLevelCheck(85, 89);
 	}
 
@@ -45,7 +45,7 @@ public class _497_IncarnationOfGreedZellakaSolo extends Quest implements ScriptF
 		int npcId = npc.getNpcId();
 		int state = st.getState();
 		int cond = st.getCond();
-		if (npcId == 33647)
+		if (npcId == KARTIA_RESEARCH)
 		{
 			if (state == 1)
 			{

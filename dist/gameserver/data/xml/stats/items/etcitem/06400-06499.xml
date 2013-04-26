@@ -1725,10 +1725,6 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
-		<skills>
-			<skill id="2200" level="1"/>
-		</skills>
-		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="6496" name="Jade Treasure Chest">
 		<set name="class" value="OTHER"/>
@@ -1744,10 +1740,6 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
-		<skills>
-			<skill id="2200" level="2"/>
-		</skills>
-		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="6497" name="Big Jade Treasure Chest">
 		<set name="class" value="OTHER"/>
@@ -1763,10 +1755,6 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
-		<skills>
-			<skill id="2200" level="3"/>
-		</skills>
-		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="6498" name="Small Blue Treasure Chest">
 		<set name="class" value="OTHER"/>
@@ -1782,10 +1770,6 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
-		<skills>
-			<skill id="2201" level="1"/>
-		</skills>
-		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="6499" name="Blue Treasure Chest">
 		<set name="class" value="OTHER"/>
@@ -1801,9 +1785,5 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
-		<skills>
-			<skill id="2201" level="2"/>
-		</skills>
-		<set name="capsuled" value="true"/>
 	</etcitem>
 </list>

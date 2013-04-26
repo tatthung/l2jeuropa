@@ -13,8 +13,8 @@ public class _496_IncarnationOfGluttonyKaliosGroup extends Quest implements Scri
 	public _496_IncarnationOfGluttonyKaliosGroup()
 	{
 		super(true);
-		addStartNpc(33647);
-		addKillId(new int[] { 25884 });
+		addStartNpc(KARTIA_RESEARCH);
+		addKillId(KALIOS);
 		addLevelCheck(95, 99);
 	}
 

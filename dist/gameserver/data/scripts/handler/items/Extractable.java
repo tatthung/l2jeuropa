@@ -14,9 +14,8 @@ import lineage2.gameserver.scripts.Functions;
 
 public class Extractable extends SimpleItemHandler
 {
-	private static final int[] ITEM_IDS = new int[] { 8534, 8535, 8536, 8537, 8538, 8539, 8540, 5916, 5944, 14841,
-			5955, 14847, 5966, 5967, 5968, 5969, 6007, 6008, 6009, 6010, 7725, 7637, 7636, 7629, 7630, 7631, 7632,
-			7633, 7634, 7635, 10408, 10473, 9599, 20069, 20070, 20071, 20072, 20073, 20074, 20210, 20211, 20215, 20216,
+	private static final int[] ITEM_IDS = new int[] { 5916, 5944, 14841, 5955, 14847, 5966, 5967, 5968, 5969, 6007,
+			6008, 6009, 6010, 10408, 10473, 9599, 20069, 20070, 20071, 20072, 20073, 20074, 20210, 20211, 20215, 20216,
 			20217, 20218, 20219, 20220, 20227, 20228, 20229, 20233, 20234, 20235, 20239, 20240, 20241, 20242, 20243,
 			20244, 20251, 20254, 20278, 20279, 20041, 20042, 20043, 20044, 20035, 20036, 20037, 20038, 20039, 20040,
 			20060, 20061, 22000, 22001, 22002, 22003, 22004, 22005, 20326, 20327, 20329, 20330, 20059, 20494, 20493,
@@ -34,8 +33,8 @@ public class Extractable extends SimpleItemHandler
 			14715, 14716, 14717, 14718, 17138, 15482, 15483, 13270, 13271, 13272, 14231, 14232, 21747, 21748, 21749,
 			17169, 21169, 21753, 21752, 21092, 21091, 10254, 10206, 10205, 9144, 9135, 9134, 9133, 9132, 9131, 9130,
 			9127, 9126, 9125, 9124, 9123, 9122, 9121, 9120, 9119, 9118, 9117, 9116, 9115, 9114, 9113, 9112, 9111, 9110,
-			9109, 9108, 9107, 9106, 9105, 9104, 8971, 8970, 8969, 8968, 8967, 8966, 8575, 8574, 8573, 8572, 8571, 8551,
-			8547, 5909, 5910, 5912, 5913, 5907, 5906, 170, 163, 141, 140, 137, 138, 139, 136, 53, 54, 55, 56, 13079,
+			9109, 9108, 9107, 9106, 9105, 9104, 8971, 8970, 8969, 8968, 8967, 8966, 5909, 5910, 5912, 5913, 5907, 5906,
+			170, 163, 141, 140, 137, 138, 139, 136, 53, 54, 55, 56, 13079,
 			13080, 13082, 13083, 13084, 13085, 13086, 13087, 13088, 13089, 13090, 13091, 13092, 13093, 13094, 13095,
 			13096, 13097, 13098, 22187, 21601, 21602, 21603, 21604, 21605, 21606, 21607, 21608, 21609, 21610, 21611,
 			21612, 21613, 21614, 21615, 21616, 21617, 21618, 21619, 15343, 15345, 15370, 15371, 15372, 15373, 15374,
@@ -2360,27 +2359,6 @@ public class Extractable extends SimpleItemHandler
 		case 22187:
 			use22187(player, ctrl);
 			break;
-		case 8534:
-			use8534(player, ctrl);
-			break;
-		case 8535:
-			use8535(player, ctrl);
-			break;
-		case 8536:
-			use8536(player, ctrl);
-			break;
-		case 8537:
-			use8537(player, ctrl);
-			break;
-		case 8538:
-			use8538(player, ctrl);
-			break;
-		case 8539:
-			use8539(player, ctrl);
-			break;
-		case 8540:
-			use8540(player, ctrl);
-			break;
 		case 5916:
 			use5916(player, ctrl);
 			break;
@@ -2419,36 +2397,6 @@ public class Extractable extends SimpleItemHandler
 			break;
 		case 6010:
 			use6010(player, ctrl);
-			break;
-		case 7725:
-			use7725(player, ctrl);
-			break;
-		case 7637:
-			use7637(player, ctrl);
-			break;
-		case 7636:
-			use7636(player, ctrl);
-			break;
-		case 7629:
-			use7629(player, ctrl);
-			break;
-		case 7630:
-			use7630(player, ctrl);
-			break;
-		case 7631:
-			use7631(player, ctrl);
-			break;
-		case 7632:
-			use7632(player, ctrl);
-			break;
-		case 7633:
-			use7633(player, ctrl);
-			break;
-		case 7634:
-			use7634(player, ctrl);
-			break;
-		case 7635:
-			use7635(player, ctrl);
 			break;
 		case 10408:
 			use10408(player, ctrl);
@@ -3238,30 +3186,6 @@ public class Extractable extends SimpleItemHandler
 			break;
 		case 5913:
 			use5913(player, ctrl);
-			break;
-		case 8547:
-			use8547(player, ctrl);
-			break;
-		case 8551:
-			use8551(player, ctrl);
-			break;
-		case 8570:
-			use8570(player, ctrl);
-			break;
-		case 8571:
-			use8571(player, ctrl);
-			break;
-		case 8572:
-			use8572(player, ctrl);
-			break;
-		case 8573:
-			use8573(player, ctrl);
-			break;
-		case 8574:
-			use8574(player, ctrl);
-			break;
-		case 8575:
-			use8575(player, ctrl);
 			break;
 		case 8966:
 			use8966(player, ctrl);
@@ -9735,60 +9659,6 @@ public class Extractable extends SimpleItemHandler
 
 	// ------ Adventurer's Boxes ------
 
-	// Adventurer's Box: C-Grade Accessory (Low Grade)
-	private void use8534(Player player, boolean ctrl) {
-		int[] list = new int[] { 853, 916, 884 };
-		int[] chances = new int[] { 17, 17, 17 };
-		int[] counts = new int[] { 1, 1, 1 };
-		extract_item_r(list, counts, chances, player);
-	}
-
-	// Adventurer's Box: C-Grade Accessory (Medium Grade)
-	private void use8535(Player player, boolean ctrl) {
-		int[] list = new int[] { 854, 917, 885 };
-		int[] chances = new int[] { 17, 17, 17 };
-		int[] counts = new int[] { 1, 1, 1 };
-		extract_item_r(list, counts, chances, player);
-	}
-
-	// Adventurer's Box: C-Grade Accessory (High Grade)
-	private void use8536(Player player, boolean ctrl) {
-		int[] list = new int[] { 855, 119, 886 };
-		int[] chances = new int[] { 17, 17, 17 };
-		int[] counts = new int[] { 1, 1, 1 };
-		extract_item_r(list, counts, chances, player);
-	}
-
-	// Adventurer's Box: B-Grade Accessory (Low Grade)
-	private void use8537(Player player, boolean ctrl) {
-		int[] list = new int[] { 856, 918, 887 };
-		int[] chances = new int[] { 17, 17, 17 };
-		int[] counts = new int[] { 1, 1, 1 };
-		extract_item_r(list, counts, chances, player);
-	}
-
-	// Adventurer's Box: B-Grade Accessory (High Grade)
-	private void use8538(Player player, boolean ctrl) {
-		int[] list = new int[] { 864, 926, 895 };
-		int[] chances = new int[] { 17, 17, 17 };
-		int[] counts = new int[] { 1, 1, 1 };
-		extract_item_r(list, counts, chances, player);
-	}
-
-	// Adventurer's Box: Hair Accessory
-	private void use8539(Player player, boolean ctrl) {
-		int[] list = new int[] { 8179, 8178, 8177 };
-		int[] chances = new int[] { 10, 20, 30 };
-		int[] counts = new int[] { 1, 1, 1 };
-		extract_item_r(list, counts, chances, player);
-	}
-
-	// Adventurer's Box: Cradle of Creation
-	private void use8540(Player player, boolean ctrl) {
-		if (Rnd.chance(30))
-			Functions.addItem(player, 8175, 1);
-	}
-
 	// Quest 370: A Wiseman Sows Seeds
 	private void use5916(Player player, boolean ctrl) {
 		int[] list = new int[] { 5917, 5918, 5919, 5920, 736 };
@@ -9944,106 +9814,6 @@ public class Extractable extends SimpleItemHandler
 				Functions.addItem(player, res[0], res[1]);
 		} else
 			extract_item_r(list, counts, chances, player);
-	}
-
-	// Quest 628: Hunt of Golden Ram
-	private void use7725(Player player, boolean ctrl) {
-		int[] list = new int[] { 6035, 1060, 735, 1540, 1061, 1539 };
-		int[] counts = new int[] { 1, 1, 1, 1, 1, 1 };
-		int[] chances = new int[] { 7, 39, 7, 3, 12, 32 };
-
-		if (ctrl) {
-			long item_count = 1 + Functions.removeItem(player, 7725, Functions.getItemCount(player, 7725));
-			for (int[] res : mass_extract_item_r(item_count, list, counts, chances, player))
-				Functions.addItem(player, res[0], res[1]);
-		} else
-			extract_item_r(list, counts, chances, player);
-	}
-
-	// Quest 628: Hunt of Golden Ram
-	private void use7637(Player player, boolean ctrl) {
-		int[] list = new int[] { 4039, 4041, 4043, 4044, 4042, 4040 };
-		int[] counts = new int[] { 4, 1, 4, 4, 2, 2 };
-		int[] chances = new int[] { 20, 10, 20, 20, 15, 15 };
-
-		if (ctrl) {
-			long item_count = 1 + Functions.removeItem(player, 7637, Functions.getItemCount(player, 7637));
-			for (int[] res : mass_extract_item_r(item_count, list, counts, chances, player))
-				Functions.addItem(player, res[0], res[1]);
-		} else
-			extract_item_r(list, counts, chances, player);
-	}
-
-	// Quest 628: Hunt of Golden Ram
-	private void use7636(Player player, boolean ctrl) {
-		int[] list = new int[] { 1875, 1882, 1880, 1874, 1877, 1881, 1879, 1876 };
-		int[] counts = new int[] { 3, 3, 4, 1, 3, 1, 3, 6 };
-		int[] chances = new int[] { 10, 20, 10, 10, 10, 12, 12, 16 };
-
-		if (ctrl) {
-			long item_count = 1 + Functions.removeItem(player, 7636, Functions.getItemCount(player, 7636));
-			for (int[] res : mass_extract_item_r(item_count, list, counts, chances, player))
-				Functions.addItem(player, res[0], res[1]);
-		} else
-			extract_item_r(list, counts, chances, player);
-	}
-
-	// Looted Goods - White Cargo box
-	private void use7629(Player player, boolean ctrl) {
-		int[] list = new int[] { 6688, 6689, 6690, 6691, 6693, 6694, 6695, 6696, 6697, 7579, 57 };
-		int[] counts = new int[] { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 330000 };
-		int[] chances = new int[] { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10 };
-		extract_item_r(list, counts, chances, player);
-	}
-
-	// Looted Goods - Blue Cargo box #All chances of 8 should be 8.5, must be fixed if possible!!
-	private void use7630(Player player, boolean ctrl) {
-		int[] list = new int[] { 6703, 6704, 6705, 6706, 6708, 6709, 6710, 6712, 6713, 6714, 57 };
-		int[] counts = new int[] { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 292000 };
-		int[] chances = new int[] { 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 20 };
-		extract_item_r(list, counts, chances, player);
-	}
-
-	// Looted Goods - Yellow Cargo box
-	private void use7631(Player player, boolean ctrl) {
-		int[] list = new int[] { 6701, 6702, 6707, 6711, 57 };
-		int[] counts = new int[] { 1, 1, 1, 1, 93000 };
-		int[] chances = new int[] { 20, 20, 20, 20, 20 };
-		extract_item_r(list, counts, chances, player);
-	}
-
-	// Looted Goods - Red Filing Cabinet
-	private void use7632(Player player, boolean ctrl) {
-		int[] list;
-		list = new int[] { 6857, 6859, 6861, 6863, 6867, 6869, 6871, 6875, 6877, 6879, 13100, 57 };
-		int[] counts = new int[] { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 340000 };
-		int[] chances = new int[] { 8, 9, 8, 9, 8, 9, 8, 9, 8, 9, 8, 7 };
-		extract_item_r(list, counts, chances, player);
-	}
-
-	// Looted Goods - Purple Filing Cabinet
-	private void use7633(Player player, boolean ctrl) {
-		int[] list;
-		list = new int[] { 6853, 6855, 6865, 6873, 57 };
-		int[] counts = new int[] { 1, 1, 1, 1, 850000 };
-		int[] chances = new int[] { 20, 20, 20, 20, 20 };
-		extract_item_r(list, counts, chances, player);
-	}
-
-	// Looted Goods - Brown Pouch
-	private void use7634(Player player, boolean ctrl) {
-		int[] list = new int[] { 1874, 1875, 1876, 1877, 1879, 1880, 1881, 1882, 57 };
-		int[] counts = new int[] { 20, 20, 20, 20, 20, 20, 20, 20, 150000 };
-		int[] chances = new int[] { 10, 10, 16, 11, 10, 5, 10, 18, 10 };
-		extract_item_r(list, counts, chances, player);
-	}
-
-	// Looted Goods - Gray Pouch
-	private void use7635(Player player, boolean ctrl) {
-		int[] list = new int[] { 4039, 4040, 4041, 4042, 4043, 4044, 57 };
-		int[] counts = new int[] { 4, 4, 4, 4, 4, 4, 160000 };
-		int[] chances = new int[] { 20, 10, 10, 10, 20, 20, 10 };
-		extract_item_r(list, counts, chances, player);
 	}
 
 	// Old Agathion
@@ -12249,115 +12019,6 @@ public class Extractable extends SimpleItemHandler
 		double chances[] = new double[] {
 				// chance
 				100.0, 100.0 };
-
-		capsulate(player, items, chances);
-	}
-
-	// Old Box
-	private void use8547(Player player, boolean ctrl) {
-		int items[][] = new int[][] {
-				// itemId, min, max
-				{ 8034, 1, 3 }, { 2134, 1, 3 }, { 2133, 1, 7 } };
-
-		double chances[] = new double[] {
-				// chance
-				85.0, 4.0, 11.0 };
-
-		capsulate(player, items, chances);
-	}
-
-	// Box of Cheerleading Gear Used to encourage victory.
-	private void use8551(Player player, boolean ctrl) {
-		int items[][] = new int[][] {
-				// itemId, min, max
-				{ 8552, 1, 1 }, { 8187, 1, 1 }, { 8555, 1, 5 }, { 6406, 1, 10 }, { 6407, 1, 5 }, { 5577, 1, 1 },
-				{ 5578, 1, 1 }, { 5579, 1, 1 }, { 5580, 1, 1 }, { 5581, 1, 1 }, { 5582, 1, 1 } };
-
-		double chances[] = new double[] {
-				// chance
-				25.0, 25.0, 25.0, 15.0, 9.991, 0.002, 0.002, 0.002, 0.001, 0.001, 0.001 };
-
-		capsulate(player, items, chances);
-	}
-
-	// Event Gift Box
-	private void use8570(Player player, boolean ctrl) {
-		int items[][] = new int[][] {
-				// itemId, min, max
-				{ 8592, 1, 1 }, { 1539, 1, 10 } };
-
-		double chances[] = new double[] {
-				// chance
-				50.0, 50.0 };
-
-		capsulate(player, items, chances);
-	}
-
-	// Event Gift Box
-	private void use8571(Player player, boolean ctrl) {
-		int items[][] = new int[][] {
-				// itemId, min, max
-				{ 8592, 1, 1 }, { 1539, 1, 10 } };
-
-		double chances[] = new double[] {
-				// chance
-				50.0, 50.0 };
-
-		capsulate(player, items, chances);
-	}
-
-	// Event Gift Box
-	private void use8572(Player player, boolean ctrl) {
-		int items[][] = new int[][] {
-				// itemId, min, max
-				{ 1539, 1, 20 }, { 952, 1, 1 }, { 951, 1, 1 }, { 1538, 1, 1 }, { 3936, 1, 1 }, { 4637, 1, 1 },
-				{ 4659, 1, 10 }, { 4648, 1, 10 } };
-
-		double chances[] = new double[] {
-				// chance
-				87.0, 7.0, 2.05, 2.0, 1.05, 0.3, 0.3, 0.3 };
-
-		capsulate(player, items, chances);
-	}
-
-	// Event Gift Box
-	private void use8573(Player player, boolean ctrl) {
-		int items[][] = new int[][] {
-				// itemId, min, max
-				{ 1539, 1, 20 }, { 948, 1, 1 }, { 947, 1, 1 }, { 1538, 1, 1 }, { 3936, 1, 1 }, { 4638, 1, 1 },
-				{ 4660, 1, 1 }, { 4649, 1, 1 } };
-
-		double chances[] = new double[] {
-				// chance
-				90.70, 1.5, 2.0, 1.05, 0.25, 0.25, 0.25 };
-
-		capsulate(player, items, chances);
-	}
-
-	// Event Gift Box
-	private void use8574(Player player, boolean ctrl) {
-		int items[][] = new int[][] {
-				// itemId, min, max
-				{ 1539, 1, 20 }, { 730, 1, 1 }, { 729, 1, 1 }, { 1538, 1, 1 }, { 3936, 1, 1 }, { 4639, 1, 1 },
-				{ 4650, 1, 1 }, { 4661, 1, 1 } };
-
-		double chances[] = new double[] {
-				// chance
-				93.0, 2.0, 0.5, 3.0, 1.41, 0.03, 0.03, 0.03 };
-
-		capsulate(player, items, chances);
-	}
-
-	// Event Gift Box
-	private void use8575(Player player, boolean ctrl) {
-		int items[][] = new int[][] {
-				// itemId, min, max
-				{ 1539, 1, 20 }, { 730, 1, 1 }, { 729, 1, 1 }, { 1538, 1, 1 }, { 3936, 1, 1 }, { 4639, 1, 1 },
-				{ 4650, 1, 1 }, { 4661, 1, 1 } };
-
-		double chances[] = new double[] {
-				// chance
-				93.0, 2.0, 0.5, 3.0, 1.41, 0.03, 0.03, 0.03 };
 
 		capsulate(player, items, chances);
 	}

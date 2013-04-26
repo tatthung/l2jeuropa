@@ -13,8 +13,8 @@ public class _495_IncarnationOfJealousyPellineGroup extends Quest implements Scr
 	public _495_IncarnationOfJealousyPellineGroup()
 	{
 		super(true);
-		addStartNpc(33647);
-		addKillId(new int[] { 25883 });
+		addStartNpc(KARTIA_RESEARCH);
+		addKillId(FILINE);
 		addLevelCheck(90, 94);
 	}
 
