@@ -785,6 +785,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="8787" name="Sprigant's Fruit">
 		<set name="class" value="MATHERIALS"/>

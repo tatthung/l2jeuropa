@@ -37,6 +37,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7907" name="Blessing of Water">
 		<set name="class" value="CONSUMABLE"/>
@@ -54,6 +55,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7908" name="Blessing of Wind">
 		<set name="class" value="CONSUMABLE"/>
@@ -71,6 +73,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7909" name="Blessing of Earth">
 		<set name="class" value="CONSUMABLE"/>
@@ -88,6 +91,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7910" name="Blessing of Darkness">
 		<set name="class" value="CONSUMABLE"/>
@@ -105,6 +109,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7911" name="Blessing of Sanctity">
 		<set name="class" value="CONSUMABLE"/>
@@ -122,6 +127,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7912" name="Fire Crystal">
 		<set name="class" value="OTHER"/>
@@ -140,6 +146,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7913" name="Water Crystal">
 		<set name="class" value="OTHER"/>
@@ -158,6 +165,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7914" name="Wind Crystal">
 		<set name="class" value="OTHER"/>
@@ -176,6 +184,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7915" name="Earth Crystal">
 		<set name="class" value="OTHER"/>
@@ -194,6 +203,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7916" name="Dark Shard">
 		<set name="class" value="OTHER"/>
@@ -212,6 +222,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7917" name="Sanctity Crystal">
 		<set name="class" value="OTHER"/>
@@ -230,6 +241,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7918" name="Mercenary Posting Ticket (Sword/Stationary)">
 		<set name="class" value="OTHER"/>

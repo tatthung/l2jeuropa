@@ -16,6 +16,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="32227" name="Stone of Awakening">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -324,6 +325,7 @@
 		<skills>
 			<skill id="12799" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="32264" name="Abelius's Power">
 		<!--Done By Darvin (c)Java - Team 2012-->

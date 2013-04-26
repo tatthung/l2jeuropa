@@ -13,6 +13,7 @@
 		<skills>
 			<skill id="2360" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="9701" name="Sealed Magic Field Key">
 		<set name="class" value="OTHER"/>
@@ -190,6 +191,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="9717" name="Information on Eranus">
 		<set name="class" value="OTHER"/>

@@ -84,6 +84,7 @@
 		<skills>
 			<skill id="2504" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="10409" name="A Bottle of Souls">
 		<set name="reuse_delay" value="1500"/>
@@ -100,6 +101,7 @@
 		<skills>
 			<skill id="2498" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="10410" name="Full Bottle of Souls - 5 Souls">
 		<set name="class" value="CONSUMABLE"/>
@@ -114,6 +116,7 @@
 		<skills>
 			<skill id="2499" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="10411" name="Full Bottle of Souls - 5 Souls (For Combat)">
 		<set name="class" value="CONSUMABLE"/>
@@ -175,6 +178,7 @@
 		<skills>
 			<skill id="2361" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="10426" name="Fenrir Necklace">
 		<set name="class" value="OTHER"/>
@@ -276,6 +280,7 @@
 		<skills>
 			<skill id="2490" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="10480" name="Red Soul Crystal - Stage 15">
 		<set name="class" value="MISC"/>

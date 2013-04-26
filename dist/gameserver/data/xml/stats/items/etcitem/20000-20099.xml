@@ -538,6 +538,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20076" name="Santa Claus' Gift - Enjoyment" add_name="4 Hour Expiration Period">
 		<set name="class" value="OTHER"/>
@@ -558,6 +559,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20077" name="Santa Claus' Gift - Luck" add_name="4 Hour Expiration Period">
 		<set name="class" value="OTHER"/>
@@ -578,6 +580,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20078" name="Santa Claus' Gift - Luck" add_name="4 Hour Expiration Period">
 		<set name="class" value="OTHER"/>
@@ -598,6 +601,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20079" name="Good Luck Lucky Bag Pack">
 		<set name="freightable" value="true"/>
@@ -642,6 +646,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20082" name="Lucky Four-leaf Clover">
 		<set name="freightable" value="true"/>
@@ -662,6 +667,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20092" name="Holiday Spirit Pack">
 		<set name="freightable" value="true"/>
@@ -694,6 +700,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20096" name="Mysterious Formal Dress - Event Pack">
 		<set name="class" value="OTHER"/>
@@ -719,5 +726,6 @@
 		<skills>
 			<skill id="22010" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 </list>

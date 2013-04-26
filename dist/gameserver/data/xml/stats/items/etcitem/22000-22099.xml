@@ -14,6 +14,7 @@
 		<skills>
 			<skill id="26000" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22001" name="Middle fortuna box">
 		<set name="freightable" value="true"/>
@@ -28,6 +29,7 @@
 		<skills>
 			<skill id="26001" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22002" name="Large fortuna box">
 		<set name="freightable" value="true"/>
@@ -42,6 +44,7 @@
 		<skills>
 			<skill id="26002" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22003" name="Small fortuna cube">
 		<set name="freightable" value="true"/>
@@ -56,6 +59,7 @@
 		<skills>
 			<skill id="26003" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22004" name="Middle fortuna cube">
 		<set name="freightable" value="true"/>
@@ -70,6 +74,7 @@
 		<skills>
 			<skill id="26004" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22005" name="Large fortuna cube">
 		<set name="freightable" value="true"/>
@@ -84,6 +89,7 @@
 		<skills>
 			<skill id="26005" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22006" name="Weapon Enchant Scroll - D Grade">
 		<set name="freightable" value="true"/>
@@ -1342,6 +1348,7 @@
 		<skills>
 			<skill id="26065" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22088" name="A Scroll Bundle of Mage">
 		<set name="freightable" value="true"/>
@@ -1362,6 +1369,7 @@
 		<skills>
 			<skill id="26066" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22089" name="Bone Quiver">
 		<set name="freightable" value="true"/>
@@ -1377,6 +1385,7 @@
 		<skills>
 			<skill id="26067" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22090" name="Steel Quiver">
 		<set name="freightable" value="true"/>
@@ -1392,6 +1401,7 @@
 		<skills>
 			<skill id="26067" level="2"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22091" name="Silver Quiver">
 		<set name="freightable" value="true"/>
@@ -1407,6 +1417,7 @@
 		<skills>
 			<skill id="26067" level="3"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22092" name="Mithril Quiver">
 		<set name="freightable" value="true"/>
@@ -1422,6 +1433,7 @@
 		<skills>
 			<skill id="26067" level="4"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22093" name="Quiver of Light">
 		<set name="freightable" value="true"/>
@@ -1437,6 +1449,7 @@
 		<skills>
 			<skill id="26067" level="5"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22094" name="Blessed Spiritshot Pack - D grade">
 		<set name="freightable" value="true"/>
@@ -1452,6 +1465,7 @@
 		<skills>
 			<skill id="26068" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22095" name="Blessed Spiritshot Pack - C grade">
 		<set name="freightable" value="true"/>
@@ -1467,6 +1481,7 @@
 		<skills>
 			<skill id="26068" level="2"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22096" name="Blessed Spiritshot Pack - B grade">
 		<set name="freightable" value="true"/>
@@ -1482,6 +1497,7 @@
 		<skills>
 			<skill id="26068" level="3"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22097" name="Blessed Spiritshot Pack - A grade">
 		<set name="freightable" value="true"/>
@@ -1497,6 +1513,7 @@
 		<skills>
 			<skill id="26068" level="4"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22098" name="Blessed Spiritshot Pack - S grade">
 		<set name="freightable" value="true"/>
@@ -1512,6 +1529,7 @@
 		<skills>
 			<skill id="26068" level="5"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="22099" name="Spiritshot Pack - D grade">
 		<set name="freightable" value="true"/>
@@ -1527,5 +1545,6 @@
 		<skills>
 			<skill id="26069" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 </list>

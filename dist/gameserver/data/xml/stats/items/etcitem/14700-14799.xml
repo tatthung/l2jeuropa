@@ -336,6 +336,7 @@
 		<skills>
 			<skill id="2882" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="14730" name="Event - Gold Crystal Cube Fragment">
 		<set name="class" value="OTHER"/>
@@ -535,6 +536,7 @@
 		<skills>
 			<skill id="2895" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="14767" name="White Day Candy Basket">
 		<set name="reuse_delay" value="3000"/>
@@ -550,6 +552,7 @@
 		<skills>
 			<skill id="2896" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="14768" name="White Day Solo Package">
 		<set name="reuse_delay" value="3000"/>

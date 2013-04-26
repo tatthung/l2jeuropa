@@ -195,6 +195,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="6644" name="Old Crystal Spice">
 		<set name="class" value="OTHER"/>
@@ -213,6 +214,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="6645" name="Beast Soulshot">
 		<set name="class" value="CONSUMABLE"/>

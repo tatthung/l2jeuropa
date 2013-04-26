@@ -179,6 +179,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7619" name="Scroll of Escape: Varka Silenos Village">
 		<set name="class" value="CONSUMABLE"/>
@@ -198,6 +199,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7620" name="Trash">
 		<set name="class" value="OTHER"/>
@@ -287,6 +289,7 @@
 		<skills>
 			<skill id="2217" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7630" name="Looted Goods - Blue Cargo box">
 		<set name="class" value="OTHER"/>
@@ -304,6 +307,7 @@
 		<skills>
 			<skill id="2217" level="2"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7631" name="Looted Goods - Yellow Cargo box">
 		<set name="class" value="OTHER"/>
@@ -321,6 +325,7 @@
 		<skills>
 			<skill id="2217" level="3"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7632" name="Looted Goods - Red Cargo Box">
 		<set name="class" value="OTHER"/>
@@ -338,6 +343,7 @@
 		<skills>
 			<skill id="2217" level="4"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7633" name="Looted Goods - Purple Cargo Box">
 		<set name="class" value="OTHER"/>
@@ -355,6 +361,7 @@
 		<skills>
 			<skill id="2217" level="5"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7634" name="Looted Goods - Brown Pouch">
 		<set name="class" value="OTHER"/>
@@ -372,6 +379,7 @@
 		<skills>
 			<skill id="2219" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7635" name="Looted Goods - Gray Pouch">
 		<set name="class" value="OTHER"/>
@@ -389,6 +397,7 @@
 		<skills>
 			<skill id="2219" level="2"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7636" name="Booty - Yellow Pouch">
 		<set name="class" value="OTHER"/>
@@ -406,6 +415,7 @@
 		<skills>
 			<skill id="2218" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7637" name="Booty - Brown Pouch">
 		<set name="class" value="OTHER"/>
@@ -423,6 +433,7 @@
 		<skills>
 			<skill id="2218" level="2"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7638" name="Spellbook - Mass Summon Storm Cubic">
 		<set name="class" value="SPELLBOOKS"/>

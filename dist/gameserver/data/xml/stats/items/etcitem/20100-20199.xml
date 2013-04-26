@@ -289,6 +289,7 @@
 		<skills>
 			<skill id="22023" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20196" name="Velvety Valentine Cake">
 		<set name="class" value="OTHER"/>
@@ -301,6 +302,7 @@
 		<skills>
 			<skill id="22024" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20197" name="Delectable Valentine Cake">
 		<set name="class" value="OTHER"/>
@@ -313,6 +315,7 @@
 		<skills>
 			<skill id="22025" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20198" name="Decadent Valentine Cake">
 		<set name="class" value="OTHER"/>
@@ -325,6 +328,7 @@
 		<skills>
 			<skill id="22026" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20199" name="Heavenly Valentine Cake" add_name="30 Day Expiration Period">
 		<set name="class" value="OTHER"/>
@@ -340,5 +344,6 @@
 		<skills>
 			<skill id="22027" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 </list>

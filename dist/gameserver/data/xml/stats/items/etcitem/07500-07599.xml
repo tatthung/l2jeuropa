@@ -447,6 +447,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7555" name="Scroll of Escape: Elven Village">
 		<set name="class" value="CONSUMABLE"/>
@@ -462,6 +463,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7556" name="Scroll of Escape: Dark Elf Village">
 		<set name="class" value="CONSUMABLE"/>
@@ -477,6 +479,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7557" name="Scroll of Escape: Orc Village">
 		<set name="class" value="CONSUMABLE"/>
@@ -492,6 +495,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7558" name="Scroll of Escape: Dwarven Village">
 		<set name="class" value="CONSUMABLE"/>
@@ -507,6 +511,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7559" name="Scroll of Escape: Giran Castle Town">
 		<set name="class" value="CONSUMABLE"/>
@@ -522,6 +527,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7561" name="Fishing Manual">
 		<set name="class" value="OTHER"/>
@@ -681,6 +687,7 @@
 		<skills>
 			<skill id="2048" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7583" name="Pet Exchange Ticket: Buffalo">
 		<set name="class" value="OTHER"/>

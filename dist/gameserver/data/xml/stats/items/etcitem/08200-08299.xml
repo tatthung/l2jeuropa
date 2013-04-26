@@ -18,6 +18,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="8201" name="Fisherman's Potion - Black">
 		<set name="class" value="OTHER"/>
@@ -36,6 +37,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="8202" name="Fishing Potion">
 		<set name="class" value="OTHER"/>
@@ -54,6 +56,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="8223" name="Seed: Twin Codran">
 		<set name="class" value="OTHER"/>

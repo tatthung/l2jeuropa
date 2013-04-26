@@ -582,6 +582,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="5563" name="Echo Crystal - 2nd Carol">
 		<set name="reuse_delay" value="32000"/>
@@ -600,6 +601,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="5564" name="Echo Crystal - 3rd Carol">
 		<set name="reuse_delay" value="30000"/>
@@ -618,6 +620,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="5565" name="Echo Crystal - 4th Carol">
 		<set name="reuse_delay" value="29000"/>
@@ -636,6 +639,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="5566" name="Echo Crystal - 5th Carol">
 		<set name="reuse_delay" value="26000"/>
@@ -654,6 +658,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="5567" name="Letter of Greetings">
 		<set name="class" value="OTHER"/>
@@ -818,6 +823,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="5584" name="Echo Crystal - 7th Carol">
 		<set name="reuse_delay" value="17000"/>
@@ -836,6 +842,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="5585" name="Echo Crystal - 8th Carol">
 		<set name="reuse_delay" value="15000"/>
@@ -854,6 +861,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="5586" name="Echo Crystal - 9th Carol">
 		<set name="reuse_delay" value="9000"/>
@@ -872,6 +880,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="5587" name="Echo Crystal - 10th Carol">
 		<set name="reuse_delay" value="31000"/>
@@ -890,6 +899,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="5588" name="Tutorial Guide">
 		<set name="class" value="OTHER"/>

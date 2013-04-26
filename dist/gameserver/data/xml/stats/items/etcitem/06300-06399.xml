@@ -95,6 +95,7 @@
 		<skills>
 			<skill id="2180" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="6317" name="Mixing Manual">
 		<set name="class" value="OTHER"/>
@@ -479,6 +480,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="6392" name="Event - Medal">
 		<set name="class" value="OTHER"/>

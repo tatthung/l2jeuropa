@@ -564,6 +564,7 @@
 		<skills>
 			<skill id="9158" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="17139" name="Transformation Scroll - Anakim">
 		<set name="class" value="OTHER"/>
@@ -582,6 +583,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="17140" name="Transformation Scroll - Zaken">
 		<set name="class" value="OTHER"/>
@@ -600,6 +602,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="17158" name="Vesper's Mighty Power">
 		<set name="class" value="OTHER"/>
@@ -637,6 +640,7 @@
 		<skills>
 			<skill id="9164" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="17162" name="Shards of Golem">
 		<set name="class" value="OTHER"/>
@@ -745,6 +749,7 @@
 		<skills>
 			<skill id="9177" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="17184" name="500,000 SP scroll">
 		<set name="icon" value="icon.etc_sp_scroll3_i00"/>

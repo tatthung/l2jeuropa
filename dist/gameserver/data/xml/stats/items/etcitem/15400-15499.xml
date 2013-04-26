@@ -419,6 +419,7 @@
 		<skills>
 			<skill id="9064" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15435" name="Shiny Halloween Toy Chest">
 		<set name="class" value="OTHER"/>
@@ -437,6 +438,7 @@
 		<skills>
 			<skill id="9065" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15436" name="Halloween Transformation Stick" add_name="7 day limited period">
 		<set name="freightable" value="true"/>
@@ -460,6 +462,7 @@
 		<skills>
 			<skill id="9066" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15438" name="10 minute Energy Maintaining Potion">
 		<set name="class" value="CONSUMABLE"/>
@@ -596,6 +599,7 @@
 		<skills>
 			<skill id="9070" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15462" name="Halloween King Pumpkin" add_name="Event">
 		<set name="class" value="OTHER"/>
@@ -629,6 +633,7 @@
 		<skills>
 			<skill id="9072" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15465" name="Halloween Nectar Pumpkin Pack - event" add_name="Event">
 		<set name="freightable" value="true"/>
@@ -668,6 +673,7 @@
 		<skills>
 			<skill id="9071" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15468" name="Halloween King Pumpkin - event" add_name="Event">
 		<set name="class" value="OTHER"/>
@@ -720,6 +726,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15471" name="Invisible Weapon for Freya">
 		<set name="class" value="OTHER"/>
@@ -762,6 +769,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15475" name="Crystal Spice">
 		<set name="class" value="OTHER"/>
@@ -780,6 +788,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15476" name="Blessed Golden Spice">
 		<set name="price" value="200"/>
@@ -798,6 +807,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15477" name="Blessed Crystal Spice">
 		<set name="price" value="200"/>
@@ -816,6 +826,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15478" name="Golden Spice - S grade">
 		<set name="price" value="200"/>
@@ -834,6 +845,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15479" name="Crystal Spice - S grade">
 		<set name="price" value="200"/>
@@ -852,6 +864,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15480" name="Old Golden Spice">
 		<set name="class" value="OTHER"/>
@@ -896,6 +909,7 @@
 		<skills>
 			<skill id="9055" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15483" name="Crystal Spice Crate">
 		<set name="class" value="OTHER"/>
@@ -914,6 +928,7 @@
 		<skills>
 			<skill id="9056" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15485" name="Torch">
 		<set name="class" value="OTHER"/>
@@ -1045,6 +1060,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="15493" name="Fantasy Mushroom Pouch">
 		<set name="class" value="OTHER"/>

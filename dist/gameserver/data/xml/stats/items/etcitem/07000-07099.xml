@@ -573,6 +573,7 @@
 		<skills>
 			<skill id="2073" level="2"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7062" name="Echo Crystal - Theme of Wedding">
 		<set name="reuse_delay" value="20000"/>
@@ -586,6 +587,7 @@
 		<skills>
 			<skill id="2230" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="7063" name="Map - Forest of the Dead">
 		<set name="class" value="OTHER"/>

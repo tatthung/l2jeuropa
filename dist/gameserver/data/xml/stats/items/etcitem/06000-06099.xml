@@ -79,6 +79,7 @@
 		<skills>
 			<skill id="2174" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="6008" name="Reagent Pouch">
 		<set name="class" value="OTHER"/>
@@ -90,6 +91,7 @@
 		<skills>
 			<skill id="2174" level="2"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="6009" name="Reagent Pouch">
 		<set name="class" value="OTHER"/>
@@ -101,6 +103,7 @@
 		<skills>
 			<skill id="2174" level="3"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="6010" name="Reagent Box">
 		<set name="class" value="OTHER"/>
@@ -112,6 +115,7 @@
 		<skills>
 			<skill id="2175" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="6011" name="Wyrm's Blood">
 		<set name="class" value="OTHER"/>

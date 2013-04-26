@@ -282,6 +282,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="9648" name="Transform Sealbook - Onyx Beast">
 		<set name="class" value="OTHER"/>
@@ -391,6 +392,7 @@
 		<skills>
 			<skill id="2361" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="9672" name="Magic Bottle">
 		<set name="reuse_delay" value="1500"/>
@@ -603,6 +605,7 @@
 		<skills>
 			<skill id="2369" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="9692" name="Red Coral">
 		<set name="class" value="OTHER"/>

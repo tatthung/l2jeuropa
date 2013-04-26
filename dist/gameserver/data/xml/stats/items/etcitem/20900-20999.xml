@@ -499,6 +499,7 @@
 		<skills>
 			<skill id="22165" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20955" name="Medium Placid">
 		<set name="freightable" value="true"/>
@@ -519,6 +520,7 @@
 		<skills>
 			<skill id="22166" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20957" name="Frozen Corpse Agathion 7 Day Pack" add_name="Soul Stealth">
 		<set name="freightable" value="true"/>
@@ -541,6 +543,7 @@
 		<skills>
 			<skill id="22167" level="1"/>
 		</skills>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20959" name="Royal Crown of Vesper Pack">
 		<set name="freightable" value="true"/>
@@ -744,6 +747,7 @@
 				<player olympiad="true"/>
 			</not>
 		</cond>
+		<set name="capsuled" value="true"/>
 	</etcitem>
 	<etcitem id="20994" name="Three-headed Dragon Agathion Pack" add_name="Wind Walk">
 		<set name="freightable" value="true"/>
