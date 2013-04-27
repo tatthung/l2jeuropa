@@ -1184,6 +1184,10 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 									break;
 								case 0x96:
 									int id6 = buf.getInt();
+									if (client.getActiveChar().isGM() && client.getActiveChar().isDebug())
+									{
+										client.getActiveChar().sendMessage("IN_GAME 0xd0:0x96:" + id6);
+									}
 									switch (id6)
 									{
 										case 0x02:
