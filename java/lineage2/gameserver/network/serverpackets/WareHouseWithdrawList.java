@@ -20,7 +20,7 @@ public class WareHouseWithdrawList extends L2GameServerPacket
     private long _adena;
     private List<ItemInfo> _itemList = new ArrayList<ItemInfo>();
     private int _type;
-    private int freeSlot;
+    private int _inventoryUsedSlots;
 
     public WareHouseWithdrawList(Player player, WarehouseType type, ItemClass clss)
     {
@@ -51,20 +51,21 @@ public class WareHouseWithdrawList extends L2GameServerPacket
         {
             _itemList.add(new ItemInfo(item));
         }
-        freeSlot = player.getInventoryLimit() - player.getInventory().getSize();
+        _inventoryUsedSlots = player.getInventory().getSize();
     }
 
     @Override
-    protected final void writeImpl() {
+    protected final void writeImpl()
+    {
         writeC(0x42);
         writeH(_type);
         writeQ(_adena);
         writeH(_itemList.size());
-
-        writeH(0x00);
-        writeD(freeSlot);
-
-        for (ItemInfo item : _itemList) {
+        writeH(1);
+        writeD(0);
+        writeD(_inventoryUsedSlots);
+        for (ItemInfo item : _itemList)
+        {
             writeItemInfo(item);
             writeD(item.getObjectId());
             writeD(0x00);
