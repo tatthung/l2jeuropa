@@ -488,19 +488,17 @@
 	</skill>
 	<skill id="1324" levels="1" name="Summon CP Potion">
     <!-- Summons 20 high quality Combat Spirit Potions. Consumes 50 Soul Ore. -->
-		<set name="magicType" val="MAGIC"/>
-		<set name="icon" val="icon.skill1324"/>
 		<set name="reuseDelay" val="600000"/>
 		<set name="hitTime" val="20000"/>
-		<set name="hitCancelTime" val="500"/>
-		<set name="mpConsume1" val="412"/>
+		<set name="magicType" val="MAGIC"/>
 		<set name="itemConsumeId" val="1785"/>
 		<set name="itemConsumeCount" val="50"/>
+		<set name="icon" val="icon.skill1324"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="mpConsume1" val="412"/>
 		<set name="target" val="TARGET_SELF"/>
-		<set name="skillType" val="SUMMON_ITEM"/>
+		<set name="skillType" val="RESTORATION"/>
 		<set name="operateType" val="OP_ACTIVE"/>
-		<set name="SummonItemId" val="5592"/>
-		<set name="SummonMinCount" val="20"/>
 	</skill>
 	<skill id="1325" levels="1" name="Fortune of Noblesse">
     <!-- Allows a party member to avoid negative after-death effects after being killed by a boss or raid monster. Consumes 4 A-Grade Lucky Amulets. -->
