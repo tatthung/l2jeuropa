@@ -139,5 +139,6 @@ public class UseItem extends L2GameClientPacket
 				}
 			}
 		}
+		activeChar.getListeners().onUseItem(item); // DynamicQuest
 	}
 }

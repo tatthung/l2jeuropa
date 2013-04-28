@@ -18,7 +18,7 @@ public class WareHouseDepositList extends L2GameServerPacket
     private int _whtype;
     private long _adena;
     private List<ItemInfo> _itemList;
-    private int usedSlot = 0;
+    private int _depositedItemsCount;
 
     public WareHouseDepositList(Player cha, WarehouseType whtype)
     {
@@ -35,19 +35,22 @@ public class WareHouseDepositList extends L2GameServerPacket
                 _itemList.add(new ItemInfo(item));
             }
         }
-        /* TODO: USED SLOT
-        switch (whtype)
+        switch (_whtype)
         {
-            case PRIVATE:
-            	usedSlot=cha.getWarehouseLimit() - cha.getWarehouse().getSize();
-            	break;
-            case CLAN:
-            case CASTLE:
-            	usedSlot=250 - cha.getClan().getWarehouse().getSize();
-            	break;
-        
+        	case 1:
+        		_depositedItemsCount = cha.getWarehouse().getSize();
+        		break;
+        	case 2:
+        		_depositedItemsCount = cha.getFreight().getSize();
+        		break;
+        	case 3:
+        	case 4:
+        		_depositedItemsCount = cha.getClan().getWarehouse().getSize();
+        		break;
+        	default:
+        		_depositedItemsCount = 0;
+        		return;
         }
-        */
 	}
 
     @Override
@@ -56,8 +59,8 @@ public class WareHouseDepositList extends L2GameServerPacket
         writeC(0x41);
         writeH(_whtype);
         writeQ(_adena);
-        writeH(0x00);
-        writeD(usedSlot); //usedSlot
+        writeH(_depositedItemsCount);
+        writeD(0);
         writeH(_itemList.size());
         for (ItemInfo item : _itemList)
         {

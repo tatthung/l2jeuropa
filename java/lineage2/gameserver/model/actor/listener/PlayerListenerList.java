@@ -20,9 +20,11 @@ import lineage2.gameserver.listener.actor.player.OnPlayerPartyInviteListener;
 import lineage2.gameserver.listener.actor.player.OnPlayerPartyLeaveListener;
 import lineage2.gameserver.listener.actor.player.OnSocialActionListener;
 import lineage2.gameserver.listener.actor.player.OnTeleportListener;
+import lineage2.gameserver.listener.actor.player.OnUseItemListener;
 import lineage2.gameserver.model.Creature;
 import lineage2.gameserver.model.Player;
 import lineage2.gameserver.model.entity.Reflection;
+import lineage2.gameserver.model.items.ItemInstance;
 import lineage2.gameserver.network.clientpackets.RequestActionUse.Action;
 
 /**
@@ -221,13 +223,46 @@ public class PlayerListenerList extends CharListenerList
 	public void onSocialAction(Action action)
 	{
 		if (!global.getListeners().isEmpty())
-			for (Listener<Creature> listener : global.getListeners())
+		{	for (Listener<Creature> listener : global.getListeners())
+			{
 				if (OnSocialActionListener.class.isInstance(listener))
+				{
 					((OnSocialActionListener) listener).onSocialAction(getActor(), getActor().getTarget(), action);
-
+				}
+			}
+		}
 		if (!getListeners().isEmpty())
+		{
 			for (Listener<Creature> listener : getListeners())
+			{
 				if (OnSocialActionListener.class.isInstance(listener))
+				{
 					((OnSocialActionListener) listener).onSocialAction(getActor(), getActor().getTarget(), action);
+				}
+			}
+		}
+	}
+
+	public void onUseItem(ItemInstance item)
+	{
+		if (!global.getListeners().isEmpty())
+		{	for (Listener<Creature> listener : global.getListeners())
+			{
+				if (OnUseItemListener.class.isInstance(listener))
+				{
+					((OnUseItemListener) listener).onUseItem(getActor(), getActor().getTarget(), item);
+				}
+			}
+		}
+		if (!getListeners().isEmpty())
+		{
+			for (Listener<Creature> listener : getListeners())
+			{
+				if (OnUseItemListener.class.isInstance(listener))
+				{
+					((OnUseItemListener) listener).onUseItem(getActor(), getActor().getTarget(), item);
+				}
+			}
+		}
 	}
 }

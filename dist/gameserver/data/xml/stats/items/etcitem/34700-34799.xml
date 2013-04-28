@@ -68,6 +68,17 @@
 		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
+	<etcitem id="34761" name="Firecracker of Fear" add_name="Campaign">
+		<set name="class" value="OTHER"/>
+		<set name="ex_type" value="OTHER_ITEMS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_small_ultra_bomb_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="9399" level="1"/>
+		</skills>
+	</etcitem>
 	<etcitem id="34765" name="Remnant Ashes">
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="class" value="OTHER"/>
