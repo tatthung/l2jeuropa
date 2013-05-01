@@ -158,7 +158,7 @@
 			<skill id="13389" level="1"/>
 		</skills>
 	</armor>
-<armor id="34996" name="Radiant Cloak of Light">
+	<armor id="34996" name="Radiant Cloak of Light">
         <set name="type" value="NONE"/>
         <set name="weight" value="220"/>
 		<equip>
@@ -167,7 +167,6 @@
         <set name="ex_type" value="CLOAK"/>
 		<skills>
             <skill id="19037" level="1"/>
-
         </skills>
         <for>
             <add stat="pDef" order="0x10" value="50"/>
@@ -186,7 +185,6 @@
         <set name="ex_type" value="CLOAK"/>
 		<skills>
             <skill id="19038" level="1"/>
-
         </skills>
         <for>
             <add stat="pDef" order="0x10" value="50"/>
