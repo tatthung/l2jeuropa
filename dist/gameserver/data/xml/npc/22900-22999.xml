@@ -2203,7 +2203,7 @@
 			<reward item_id="19195" min="1" max="1" chance="0.3"/>
 		</rewardlist>
 	</npc>
-	<npc id="22934" name="Rakzan" title="Tomb Royal Guardian">
+	<npc id="22934" name="Rakzan" title="Tomb Guardian">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2738,7 +2738,7 @@
 			<reward item_id="19334" min="1" max="1" chance="0.075"/>
 		</rewardlist>
 	</npc>
-	<npc id="22942" name="Demonic Rakzan" title="Tomb Royal Guardian">
+	<npc id="22942" name="Demonic Rakzan" title="Tomb Guardian">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
@@ -5865,7 +5865,7 @@
 			<skill id="4416" level="6"/>
 		</skills>
 	</npc>
-	<npc id="22997" name="Handyman" title="Handyman">
+	<npc id="22997" name="Handyman" title="Embryo">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Ranger"/>

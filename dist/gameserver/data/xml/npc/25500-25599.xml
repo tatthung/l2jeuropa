@@ -2059,7 +2059,7 @@
 			<defence attribute="unholy" value="65"/>
 		</attributes>
 	</npc>
-	<npc id="25535" template_id="25535" name="Tears" title="Ice">
+	<npc id="25535" name="Tears" title="Ice">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4464,7 +4464,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="25570" name="Jax's Vanguard" title="">
+	<npc id="25570" name="Jax' Vanguard" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Ranger"/>
 		<set name="baseAtkRange" value="1100"/>
@@ -4524,7 +4524,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="25571" name="Jax's Raider" title="">
+	<npc id="25571" name="Jax' Raider" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4779,7 +4779,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25575" name="All-Seeing Rango" title="Forsaken Inmate">
+	<npc id="25575" name="All-seeing Rango" title="Forsaken Inmate">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>

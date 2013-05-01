@@ -1150,7 +1150,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23224" name="Kunda's Gaurdian" title="">
+	<npc id="23224" name="Kunda Guardian" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1201,7 +1201,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23225" name="Kunda's Berserker" title="">
+	<npc id="23225" name="Kunda Berserker" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1252,7 +1252,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23226" name="Kunda's Executor" title="">
+	<npc id="23226" name="Kunda Executor" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1503,7 +1503,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23231" name="Children's Zofan" title="">
+	<npc id="23231" name="Young Zofan" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1553,7 +1553,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23232" name="Children's Zofan" title="">
+	<npc id="23232" name="Young Zofan" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1603,7 +1603,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23233" name="Engineer Zofan" title="">
+	<npc id="23233" name="Engineer Zofan" title="Northern Device Supervisor">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -1654,7 +1654,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23234" name="Engineer Zofan" title="">
+	<npc id="23234" name="Engineer Zofan" title="Southern Device Supervisor">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2188,7 +2188,7 @@
 			<skill id="5467" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23245" name="Isaad" title="Watchman of the Eye of Inifnity">
+	<npc id="23245" name="Isaad" title="Watchman of the Eye of Infinity">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Ranger"/>
@@ -2235,7 +2235,7 @@
 			<skill id="5464" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23246" name="" title="">
+	<npc id="23246" name="Spicula 1" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2278,7 +2278,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23247" name="" title="">
+	<npc id="23247" name="Spicula 2" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2321,7 +2321,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23248" name="" title="">
+	<npc id="23248" name="Spicula 3" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2364,7 +2364,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23249" name="" title="">
+	<npc id="23249" name="Spicula 4" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2407,7 +2407,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23250" name="" title="">
+	<npc id="23250" name="Spicula 5" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2450,7 +2450,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23251" name="" title="">
+	<npc id="23251" name="Spicula 6" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2493,7 +2493,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23252" name="" title="">
+	<npc id="23252" name="Yin Spicula 1" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2536,7 +2536,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23253" name="" title="">
+	<npc id="23253" name="Yin Spicula 2" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2579,7 +2579,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23254" name="" title="">
+	<npc id="23254" name="Yin Spicula 3" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2622,7 +2622,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23255" name="" title="">
+	<npc id="23255" name="Light Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2665,7 +2665,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23256" name="" title="">
+	<npc id="23256" name="Draw Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2708,7 +2708,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23257" name="" title="">
+	<npc id="23257" name="Twosword Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2751,7 +2751,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23258" name="" title="">
+	<npc id="23258" name="Crane Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2794,7 +2794,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23259" name="" title="">
+	<npc id="23259" name="Great Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2837,7 +2837,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23260" name="" title="">
+	<npc id="23260" name="Great Summoned Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2880,7 +2880,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23261" name="" title="">
+	<npc id="23261" name="Doom Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2923,7 +2923,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23262" name="" title="">
+	<npc id="23262" name="Self-destruct Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2966,7 +2966,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23263" name="" title="">
+	<npc id="23263" name="Golem of Repairs" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -3009,7 +3009,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23264" name="" title="">
+	<npc id="23264" name="Drill Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -3052,7 +3052,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23265" name="" title="">
+	<npc id="23265" name="Excavator Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -3095,7 +3095,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23266" name="" title="">
+	<npc id="23266" name="Pincer Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -3138,7 +3138,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23267" name="" title="">
+	<npc id="23267" name="Screw Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
@@ -3181,7 +3181,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23268" name="" title="">
+	<npc id="23268" name="Scout Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -3224,7 +3224,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23269" name="" title="">
+	<npc id="23269" name="Battle Golem" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -3267,7 +3267,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23270" name="" title="">
+	<npc id="23270" name="Nornil Patrol No. 1" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -3310,7 +3310,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23271" name="" title="">
+	<npc id="23271" name="Nornil Patrol No. 2" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -3353,7 +3353,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23272" name="" title="">
+	<npc id="23272" name="Spicula's Elite Member No. 1" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -3396,7 +3396,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23273" name="" title="">
+	<npc id="23273" name="Spicula's Elite Member No. 2" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -3439,7 +3439,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23274" name="" title="">
+	<npc id="23274" name="Spicula's Elite Captain" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -3482,7 +3482,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23275" name="" title="">
+	<npc id="23275" name="Spicula's Elite Captain" title="Evoked Spirit">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
@@ -3525,7 +3525,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="23276" name="" title="">
+	<npc id="23276" name="Spicula's Elite Lieutenant" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>

@@ -52,7 +52,7 @@
 			<skill id="4444" level="2"/>	<!-- Higher Resist Bow/Crossbow Weapons -->
 			<skill id="4494" level="1"/>	<!-- Raid Boss -->
 			<skill id="14716" level="1"/>	<!-- Raid Boss - Level 98 -->
-		<skill id="5467" level="1"/>
+			<skill id="5467" level="1"/>
 		</skills>
 		<rewardlist type="RATED_GROUPED">
 			<group chance="75.1439">
@@ -128,7 +128,7 @@
 			<skill id="4416" level="12"/>	<!-- Demons -->
 			<skill id="4444" level="2"/>	<!-- Higher Resist Bow/Crossbow Weapons -->
 			<skill id="4743" level="2"/>	<!-- BOSS Strike -->
-		<skill id="14747" level="1"/>
+			<skill id="14747" level="1"/>
 			<skill id="5465" level="1"/>
 			<skill id="4438" level="5"/>
 			<skill id="4440" level="5"/>
@@ -211,7 +211,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25803" name="Escort Captain" title="Successor Subordinate">
+	<npc id="25803" name="Escort Captain" title="Successor Subordinate">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -261,7 +261,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25804" name="Escort Captain" title="Successor Subordinate">
+	<npc id="25804" name="Escort Captain" title="Successor Subordinate">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -311,7 +311,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25805" name="Escort" title="Queen's Subordinate">
+	<npc id="25805" name="Escort" title="Queen's Subordinate">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -361,7 +361,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25806" name="Escort" title="Queen's Subordinate">
+	<npc id="25806" name="Escort" title="Queen's Subordinate">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -411,7 +411,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25807" name="Escort Captain" title="Queen's Subordinate">
+	<npc id="25807" name="Escort Captain" title="Queen's Subordinate">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -461,7 +461,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25808" name="Escort Captain" title="Queen's Subordinate">
+	<npc id="25808" name="Escort Captain" title="Queen's Subordinate">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -511,7 +511,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25809" name="Vladimir" title="Executioner">
+	<npc id="25809" name="Vladimir" title="Executioner">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -561,7 +561,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25810" name="Vladimir's Follower" title="">
+	<npc id="25810" name="Vladimir's Follower" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -609,7 +609,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25811" name="Lazearth" title="Destroyer">
+	<npc id="25811" name="Lazearth" title="Destroyer">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -659,7 +659,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25812" name="Lazearth" title="Destroyer">
+	<npc id="25812" name="Lazearth" title="Destroyer">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -709,7 +709,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25813" name="Byron" title="Queen of Blood">
+	<npc id="25813" name="Byron" title="Queen of Blood">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -761,7 +761,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25814" name="Byron's Maid" title="">
+	<npc id="25814" name="Byron's Maid" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -809,7 +809,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25815" name="Ken" title="Savage">
+	<npc id="25815" name="Ken" title="Savage">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -859,7 +859,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25816" name="Heaven's Palace Sniper Captain" title="">
+	<npc id="25816" name="Heaven's Palace Sniper Captain" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -909,7 +909,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25817" name="Heaven's Palace Sniper Captain" title="">
+	<npc id="25817" name="Heaven's Palace Sniper Captain" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -959,7 +959,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25818" name="Emperor of Heaven's Palace" title="">
+	<npc id="25818" name="Emperor of Heaven's Palace" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1009,7 +1009,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25819" name="Heaven's Palace Healer" title="">
+	<npc id="25819" name="Heaven's Palace Healer" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1057,7 +1057,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25820" name="Heaven's Palace Goddess" title="">
+	<npc id="25820" name="Heaven's Palace Goddess" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1107,7 +1107,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25821" name="Heaven's Palace Goddess Warrior" title="">
+	<npc id="25821" name="Heaven's Palace Goddess Warrior" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1155,7 +1155,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25822" name="Lakielo" title="Cursed Hero">
+	<npc id="25822" name="Lakielo" title="Cursed Hero">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1205,7 +1205,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25823" name="Brakiera" title="Cursed Hero">
+	<npc id="25823" name="Brakiera" title="Cursed Hero">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1255,7 +1255,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25824" name="Ron" title="Raid Boss">
+	<npc id="25824" name="Ron" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -1309,7 +1309,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25825" name="Ron" title="Raid Boss">
+	<npc id="25825" name="Ron" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -1363,7 +1363,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25826" name="Nameless Subject" title="Raid Fighter">
+	<npc id="25826" name="Nameless Subject" title="Raid Fighter">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -1413,7 +1413,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25827" name="Accencio" title="Event Monster">
+	<npc id="25827" name="Accencio" title="Event Monster">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -1461,7 +1461,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25828" name="Malicio" title="Event Monster">
+	<npc id="25828" name="Malicio" title="Event Monster">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1509,7 +1509,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25829" name="Mertes" title="">
+	<npc id="25829" name="Mertes" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1557,7 +1557,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25830" name="Golem of Repairs" title="">
+	<npc id="25830" name="Golem of Repairs" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1605,7 +1605,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25831" name="Eyesaroch" title="Husk">
+	<npc id="25831" name="Eyesaroch" title="Husk">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1653,7 +1653,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25832" name="Overseer" title="Embryo">
+	<npc id="25832" name="Overseer" title="Embryo">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1701,7 +1701,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25833" name="Orbis' Victim" title="">
+	<npc id="25833" name="Orbis' Victim" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1751,7 +1751,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25834" name="Orbis' Guard" title="">
+	<npc id="25834" name="Orbis' Guard" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1801,7 +1801,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25835" name="Orbis' Thrower" title="">
+	<npc id="25835" name="Orbis' Thrower" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1851,7 +1851,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25836" name="Orbis' Curator" title="">
+	<npc id="25836" name="Orbis' Curator" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -1901,7 +1901,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25837" name="Weeping Yui" title="Raid Boss">
+	<npc id="25837" name="Weeping Yui" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -1965,7 +1965,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25838" name="Mukshu the Coward" title="Raid Boss">
+	<npc id="25838" name="Mukshu the Coward " title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -2029,7 +2029,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25839" name="Blind Hornafi" title="Raid Boss">
+	<npc id="25839" name="Blind Hornafi" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -2083,7 +2083,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25840" name="Enraged Master Kinen" title="Raid Boss">
+	<npc id="25840" name="Enraged Master Kinen" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -2149,7 +2149,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25841" name="Sir Lesyinda of the Black Shadow" title="Raid Boss">
+	<npc id="25841" name="Sir Lesyinda of the Black Shadow" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -2215,7 +2215,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25842" name="Black Beast" title="Raid Fighter">
+	<npc id="25842" name="Black Beast" title="Raid Fighter">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -2265,7 +2265,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25843" name="Magical Warrior Konyar" title="Raid Boss">
+	<npc id="25843" name="Magical Warrior Konyar" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -2329,7 +2329,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25844" name="Magical Warrior Konyar" title="Raid Boss">
+	<npc id="25844" name="Magical Warrior Konyar" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -2393,7 +2393,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25845" name="Magical  Warrior Konyar" title="Raid Boss">
+	<npc id="25845" name="Magical Warrior Konyar" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -2447,7 +2447,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25846" name="Yoentumak the Waiter" title="Raid Boss">
+	<npc id="25846" name="Yoentumak the Waiter" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -2511,7 +2511,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25847" name="Calamity Guardian" title="Giant's Apostle">
+	<npc id="25847" name="Calamity Guardian" title="Giant's Apostle">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -2561,7 +2561,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25848" name="Calamity Warrior" title="Giant's Apostle">
+	<npc id="25848" name="Calamity Warrior" title="Giant's Apostle">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -2611,7 +2611,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25849" name="Calamity Attacker" title="Giant's Apostle">
+	<npc id="25849" name="Calamity Attacker" title="Giant's Apostle">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -2661,7 +2661,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25850" name="Calamity Sniper" title="Giant's Apostle">
+	<npc id="25850" name="Calamity Sniper" title="Giant's Apostle">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -2711,7 +2711,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25851" name="Calamity Magician" title="Giant's Apostle">
+	<npc id="25851" name="Calamity Magician" title="Giant's Apostle">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -2761,7 +2761,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25852" name="Calamity Enchanter" title="Giant's Apostle">
+	<npc id="25852" name="Calamity Enchanter" title="Giant's Apostle">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -2811,7 +2811,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25853" name="Calamity Summoner" title="Giant's Apostle">
+	<npc id="25853" name="Calamity Summoner" title="Giant's Apostle">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -2861,7 +2861,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25854" name="Calamity Healer" title="Giant's Apostle">
+	<npc id="25854" name="Calamity Healer" title="Giant's Apostle">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -2911,7 +2911,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25855" name="Maliss" title="Grand Priest of Blood">
+	<npc id="25855" name="Maliss" title="Grand Priest of Blood">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -2975,7 +2975,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25856" name="Isadora" title="Great Magus of Greed">
+	<npc id="25856" name="Isadora" title="Great Magus of Greed">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -3039,7 +3039,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25857" name="Corrupted Captain" title="">
+	<npc id="25857" name="Corrupted Captain" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -3089,7 +3089,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25858" name="Corrupted High Priest" title="">
+	<npc id="25858" name="Corrupted High Priest" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -3139,7 +3139,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25859" name="Flynt" title="Raid Boss">
+	<npc id="25859" name="Flynt" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -3197,7 +3197,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25860" name="Weeping Yui" title="Raid Fighter">
+	<npc id="25860" name="Flynt's Disciple" title="Raid Fighter">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -3259,7 +3259,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25861" name="Flynt's Servant" title="Raid Fighter">
+	<npc id="25861" name="Flynt's Servant" title="Raid Fighter">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Mystic"/>
         <set name="baseAtkRange" value="40"/>
@@ -3321,7 +3321,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25862" name="Harp" title="Raid Boss">
+	<npc id="25862" name="Harp" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -3392,7 +3392,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25863" name="Harp's Guard" title="Raid Fighter">
+	<npc id="25863" name="Harp's Guard" title="Raid Fighter">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -3454,7 +3454,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25864" name="Harp's Subordinate" title="Raid Fighter">
+	<npc id="25864" name="Harp's Subordinate" title="Raid Fighter">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -3516,9 +3516,9 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25865" name="Apherus Subordinate" title="">
+	<npc id="25865" name="Apherus Subordinate" title="">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+        <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -3550,7 +3550,7 @@
         <set name="rewardSp" value="0"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
+        <set name="type" value="Minion"/>
         <skills>
             <skill id="4416" level="5"/>
             <!-- Plants -->
@@ -3566,9 +3566,9 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25866" name="Apherus" title="">
+	<npc id="25866" name="Apherus" title="">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="CharacterAI"/>
+        <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="75"/>
         <set name="baseCritRate" value="40"/>
@@ -3577,15 +3577,15 @@
         <set name="baseHpRate" value="1.0"/>
         <set name="baseHpReg" value="8.5"/>
         <set name="baseINT" value="42"/>
-        <set name="baseMAtk" value="663"/>
+        <set name="baseMAtk" value="3663"/>
         <set name="baseMAtkSpd" value="333"/>
-        <set name="baseMDef" value="250"/>
+        <set name="baseMDef" value="1250"/>
         <set name="baseMEN" value="20"/>
         <set name="baseMpMax" value="1674.8"/>
         <set name="baseMpReg" value="3.0"/>
-        <set name="basePAtk" value="971"/>
+        <set name="basePAtk" value="12971"/>
         <set name="basePAtkSpd" value="253"/>
-        <set name="basePDef" value="341"/>
+        <set name="basePDef" value="1341"/>
         <set name="baseRunSpd" value="150"/>
         <set name="baseSTR" value="78"/>
         <set name="baseShldDef" value="0"/>
@@ -3600,7 +3600,10 @@
         <set name="rewardSp" value="4907616"/>
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
-        <set name="type" value="Npc"/>
+        <set name="type" value="RaidBoss"/>
+        <minions>
+            <minion npc_id="25865" count="2"/>
+        </minions>
         <skills>
             <skill id="4494" level="1"/>
             <!-- Raid Boss -->
@@ -3620,7 +3623,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25867" name="Spezion" title="Raid Boss">
+	<npc id="25867" name="Spezion" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -3686,7 +3689,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25868" name="Spezion" title="Raid Boss">
+	<npc id="25868" name="Spezion" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -3752,7 +3755,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25869" name="Berserk Spezion" title="Raid Boss">
+	<npc id="25869" name="Berserk Spezion" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -3818,7 +3821,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25870" name="Rose" title="Raid Boss">
+	<npc id="25870" name="Rose" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -3872,7 +3875,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25871" name="Thorn" title="Raid Boss">
+	<npc id="25871" name="Thorn" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -3924,7 +3927,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25872" name="Spezion's Subordinate" title="">
+	<npc id="25872" name="Spezion's Subordinate" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -3974,7 +3977,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25873" name="Spezion's Subordinate" title="">
+	<npc id="25873" name="Spezion's Subordinate" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -4024,7 +4027,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25874" name="Spezion's Subordinate" title="">
+	<npc id="25874" name="Spezion's Subordinate" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -4074,7 +4077,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25875" name="Queen of Darkness" title="Raid Boss">
+	<npc id="25875" name="Queen of Darkness" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -4135,7 +4138,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25876" name="Maliss" title="Grand Priest of Blood">
+	<npc id="25876" name="Maliss" title="Grand Priest of Blood">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -4199,7 +4202,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25877" name="Isadora" title="Great Magus of Greed">
+	<npc id="25877" name="Isadora" title="Great Magus of Greed">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -4263,7 +4266,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25878" name="Arbitor of Darkness" title="Raid Fighter">
+	<npc id="25878" name="Arbitor of Darkness" title="Raid Fighter">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -4313,7 +4316,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25879" name="Queen of Darkness" title="Raid Boss">
+	<npc id="25879" name="Queen of Darkness" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -4363,7 +4366,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25880" name="Georgios" title="Raid Boss">
+	<npc id="25880" name="Georgios" title="Raid Boss">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -4415,7 +4418,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25881" name="Veridan" title="Hell's Jailer">
+	<npc id="25881" name="Veridan" title="Hell's Warden">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -4483,7 +4486,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="25882" name="Zellaka" title="Lord of Kartia">
+	<npc id="25882" name="Zellaka" title="Lord of Kartia">
 		<set name="type" value="Monster"/>
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
@@ -4555,7 +4558,7 @@
 			</group>
 		</rewardlist>
     </npc>
-    <npc id="25883" name="Pelline" title="Lord of Kartia">
+	<npc id="25883" name="Pelline" title="Lord of Kartia">
 		<set name="type" value="Monster"/>
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
@@ -4627,7 +4630,7 @@
 			</group>
 		</rewardlist>
     </npc>
-    <npc id="25884" name="Kalios" title="Lord of Kartia">
+	<npc id="25884" name="Kalios" title="Lord of Kartia">
 		<set name="type" value="Monster"/>
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
@@ -4692,4 +4695,357 @@
 			</group>
 		</rewardlist>
     </npc>
+	<npc id="25886" name="Houpon the Warden Overseer" title="Raid Boss">
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Ranger"/>
+		<set name="collision_radius" value="20.0"/>
+		<set name="collision_height" value="52.0"/>
+		<set name="level" value="97"/>
+		<set name="type" value="RaidBoss"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseHpMax" value="3533884"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="45645"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="98"/>
+		<set name="baseCON" value="87"/>
+		<set name="baseDEX" value="83"/>
+		<set name="baseINT" value="11"/>
+		<set name="baseWIT" value="115"/>
+		<set name="baseMEN" value="5"/>
+		<set name="rewardExp" value="458933384"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="10242960"/>
+		<set name="basePAtk" value="14900"/>
+		<set name="basePDef" value="3840"/>
+		<set name="baseMAtk" value="2550"/>
+		<set name="baseMDef" value="825"/>
+		<set name="basePAtkSpd" value="266"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseMAtkSpd" value="398"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="shots" value="NONE"/>
+		<attributes>
+			<defence attribute="fire" value="280"/>
+			<defence attribute="water" value="280"/>
+			<defence attribute="wind" value="280"/>
+			<defence attribute="earth" value="280"/>
+			<defence attribute="holy" value="227"/>
+			<defence attribute="unholy" value="313"/>
+			<attack attribute="unholy" value="33"/>
+		</attributes>
+		<skills>
+			<skill id="4416" level="1"/>
+			<skill id="4494" level="1"/>
+			<skill id="5467" level="1"/>
+			<skill id="15217" level="1"/>			
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="17527" min="1" max="3" chance="57.03"/>
+				<reward item_id="17526" min="1" max="1" chance="9.477"/>
+				<reward item_id="35382" min="1" max="1" chance="8.649"/>
+				<reward item_id="35387" min="2" max="4" chance="7.388"/>
+				<reward item_id="35381" min="1" max="1" chance="5.484"/>
+				<reward item_id="35376" min="1" max="1" chance="5.473"/>
+				<reward item_id="35372" min="2" max="6" chance="5.393"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="35370" min="1" max="1" chance="5.351"/>
+				<reward item_id="35512" min="1" max="1" chance="4.995"/>
+				<reward item_id="35373" min="3" max="7" chance="4.304"/>
+				<reward item_id="35374" min="3" max="9" chance="3.591"/>
+				<reward item_id="35511" min="1" max="1" chance="3.363"/>
+				<reward item_id="35497" min="1" max="1" chance="3.297"/>
+				<reward item_id="35498" min="1" max="1" chance="3.294"/>
+				<reward item_id="35509" min="1" max="1" chance="3.271"/>
+				<reward item_id="35502" min="1" max="1" chance="3.263"/>
+				<reward item_id="35508" min="1" max="1" chance="3.235"/>
+				<reward item_id="35507" min="1" max="1" chance="3.227"/>
+				<reward item_id="35496" min="1" max="1" chance="3.217"/>
+				<reward item_id="35503" min="1" max="1" chance="3.206"/>
+				<reward item_id="35378" min="4" max="10" chance="3.128"/>
+				<reward item_id="35379" min="4" max="12" chance="2.659"/>
+				<reward item_id="35510" min="1" max="1" chance="2.502"/>
+				<reward item_id="35383" min="5" max="13" chance="2.433"/>
+				<reward item_id="35499" min="1" max="1" chance="2.228"/>
+				<reward item_id="35493" min="1" max="1" chance="2.192"/>
+				<reward item_id="35384" min="5" max="15" chance="2.146"/>
+				<reward item_id="35504" min="1" max="1" chance="2.121"/>
+				<reward item_id="35385" min="6" max="16" chance="2.029"/>
+				<reward item_id="35361" min="1" max="1" chance="1.813"/>
+				<reward item_id="35362" min="1" max="1" chance="1.808"/>
+				<reward item_id="35363" min="1" max="1" chance="1.802"/>
+				<reward item_id="35366" min="1" max="1" chance="1.784"/>
+				<reward item_id="35367" min="1" max="1" chance="1.778"/>
+				<reward item_id="35360" min="1" max="1" chance="1.768"/>
+				<reward item_id="35368" min="1" max="1" chance="1.749"/>
+				<reward item_id="35365" min="1" max="1" chance="1.747"/>
+				<reward item_id="35359" min="1" max="1" chance="1.734"/>
+				<reward item_id="35364" min="1" max="1" chance="1.723"/>
+				<reward item_id="35358" min="1" max="1" chance="1.723"/>
+				<reward item_id="35386" min="6" max="18" chance="1.362"/>
+				<reward item_id="35501" min="1" max="1" chance="1.337"/>
+				<reward item_id="35388" min="13" max="39" chance="1.322"/>
+				<reward item_id="35506" min="1" max="1" chance="1.301"/>
+				<reward item_id="35495" min="1" max="1" chance="1.256"/>
+				<reward item_id="35380" min="8" max="24" chance="1"/>
+				<reward item_id="35505" min="1" max="1" chance="1"/>
+				<reward item_id="35494" min="1" max="1" chance="1"/>
+				<reward item_id="35369" min="7" max="21" chance="1"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="35375" min="8" max="22" chance="1"/>
+				<reward item_id="35500" min="1" max="1" chance="1"/>
+				<reward item_id="35490" min="1" max="1" chance="0.5"/>
+				<reward item_id="35482" min="1" max="1" chance="0.5"/>
+				<reward item_id="35371" min="9" max="25" chance="0.5"/>
+				<reward item_id="35491" min="1" max="1" chance="0.5"/>
+				<reward item_id="35483" min="1" max="1" chance="0.5"/>
+				<reward item_id="35484" min="1" max="1" chance="0.5"/>
+				<reward item_id="35486" min="1" max="1" chance="0.5"/>
+				<reward item_id="35487" min="1" max="1" chance="0.5"/>
+				<reward item_id="35488" min="1" max="1" chance="0.5"/>
+				<reward item_id="35489" min="1" max="1" chance="0.5"/>
+				<reward item_id="35485" min="1" max="1" chance="0.5"/>
+				<reward item_id="35492" min="1" max="1" chance="0.5"/>
+				<reward item_id="35377" min="9" max="27" chance="0.5"/>
+			</group>
+		</rewardlist>
+	</npc>
+	<npc id="25887" name="Crook the Mad" title="Raid Boss">
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_radius" value="24.0"/>
+		<set name="collision_height" value="45.0"/>
+		<set name="level" value="97"/>
+		<set name="type" value="RaidBoss"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseHpMax" value="3533884"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="45645"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="98"/>
+		<set name="baseCON" value="87"/>
+		<set name="baseDEX" value="83"/>
+		<set name="baseINT" value="11"/>
+		<set name="baseWIT" value="115"/>
+		<set name="baseMEN" value="5"/>
+		<set name="rewardExp" value="458933384"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="10242960"/>
+		<set name="basePAtk" value="14900"/>
+		<set name="basePDef" value="3840"/>
+		<set name="baseMAtk" value="2550"/>
+		<set name="baseMDef" value="825"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseMAtkSpd" value="398"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="shots" value="NONE"/>
+		<attributes>
+			<defence attribute="fire" value="280"/>
+			<defence attribute="water" value="280"/>
+			<defence attribute="wind" value="280"/>
+			<defence attribute="earth" value="280"/>
+			<defence attribute="holy" value="247"/>
+			<defence attribute="unholy" value="444"/>
+			<attack attribute="unholy" value="33"/>
+		</attributes>
+		<skills>
+			<skill id="4416" level="9"/>
+			<skill id="5467" level="1"/>
+			<skill id="4494" level="1"/>
+			<skill id="15216" level="1"/>
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="17527" min="1" max="3" chance="56.21"/>
+				<reward item_id="17526" min="1" max="1" chance="9.455"/>
+				<reward item_id="35382" min="1" max="1" chance="8.663"/>
+				<reward item_id="35387" min="2" max="4" chance="7.348"/>
+				<reward item_id="35381" min="1" max="1" chance="5.486"/>
+				<reward item_id="35376" min="1" max="1" chance="5.472"/>
+				<reward item_id="35372" min="2" max="6" chance="5.461"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="35370" min="1" max="1" chance="5.377"/>
+				<reward item_id="35512" min="1" max="1" chance="5.034"/>
+				<reward item_id="35373" min="3" max="7" chance="4.379"/>
+				<reward item_id="35374" min="3" max="9" chance="3.555"/>
+				<reward item_id="35511" min="1" max="1" chance="3.366"/>
+				<reward item_id="35503" min="1" max="1" chance="3.304"/>
+				<reward item_id="35497" min="1" max="1" chance="3.259"/>
+				<reward item_id="35496" min="1" max="1" chance="3.237"/>
+				<reward item_id="35502" min="1" max="1" chance="3.232"/>
+				<reward item_id="35507" min="1" max="1" chance="3.211"/>
+				<reward item_id="35498" min="1" max="1" chance="3.209"/>
+				<reward item_id="35508" min="1" max="1" chance="3.204"/>
+				<reward item_id="35509" min="1" max="1" chance="3.187"/>
+				<reward item_id="35378" min="4" max="10" chance="3.150"/>
+				<reward item_id="35379" min="4" max="12" chance="2.734"/>
+				<reward item_id="35510" min="1" max="1" chance="2.503"/>
+				<reward item_id="35383" min="5" max="13" chance="2.446"/>
+				<reward item_id="35493" min="1" max="1" chance="2.152"/>
+				<reward item_id="35499" min="1" max="1" chance="2.149"/>
+				<reward item_id="35384" min="5" max="15" chance="2.147"/>
+				<reward item_id="35504" min="1" max="1" chance="2.120"/>
+				<reward item_id="35385" min="6" max="16" chance="1.946"/>
+				<reward item_id="35360" min="1" max="1" chance="1.829"/>
+				<reward item_id="35358" min="1" max="1" chance="1.816"/>
+				<reward item_id="35364" min="1" max="1" chance="1.807"/>
+				<reward item_id="35363" min="1" max="1" chance="1.796"/>
+				<reward item_id="35359" min="1" max="1" chance="1.779"/>
+				<reward item_id="35365" min="1" max="1" chance="1.767"/>
+				<reward item_id="35361" min="1" max="1" chance="1.758"/>
+				<reward item_id="35366" min="1" max="1" chance="1.742"/>
+				<reward item_id="35362" min="1" max="1" chance="1.727"/>
+				<reward item_id="35368" min="1" max="1" chance="1.712"/>
+				<reward item_id="35367" min="1" max="1" chance="1.701"/>
+				<reward item_id="35386" min="6" max="18" chance="1.450"/>
+				<reward item_id="35506" min="1" max="1" chance="1.357"/>
+				<reward item_id="35388" min="13" max="39" chance="1.248"/>
+				<reward item_id="35501" min="1" max="1" chance="1.251"/>
+				<reward item_id="35495" min="1" max="1" chance="1.239"/>
+				<reward item_id="35369" min="7" max="21" chance="1"/>
+				<reward item_id="35500" min="1" max="1" chance="1"/>
+				<reward item_id="35375" min="8" max="22" chance="1"/>
+				<reward item_id="35380" min="8" max="24" chance="1"/>
+				<reward item_id="35505" min="1" max="1" chance="1"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="35494" min="1" max="1" chance="1"/>
+				<reward item_id="35377" min="9" max="27" chance="0.5"/>
+				<reward item_id="35482" min="1" max="1" chance="0.5"/>
+				<reward item_id="35483" min="1" max="1" chance="0.5"/>
+				<reward item_id="35484" min="1" max="1" chance="0.5"/>
+				<reward item_id="35485" min="1" max="1" chance="0.5"/>
+				<reward item_id="35486" min="1" max="1" chance="0.5"/>
+				<reward item_id="35487" min="1" max="1" chance="0.5"/>
+				<reward item_id="35488" min="1" max="1" chance="0.5"/>
+				<reward item_id="35489" min="1" max="1" chance="0.5"/>
+				<reward item_id="35490" min="1" max="1" chance="0.5"/>
+				<reward item_id="35491" min="1" max="1" chance="0.5"/>
+				<reward item_id="35492" min="1" max="1" chance="0.5"/>
+				<reward item_id="35371" min="9" max="25" chance="0.5"/>
+			</group>
+		</rewardlist>
+	</npc>
+	<npc id="25892" name="Guillotine of Death" title="Raid Boss">
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_radius" value="24.0"/>
+		<set name="collision_height" value="45.0"/>
+		<set name="level" value="97"/>
+		<set name="type" value="RaidBoss"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseHpMax" value="9264415"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="45645"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="98"/>
+		<set name="baseCON" value="87"/>
+		<set name="baseDEX" value="83"/>
+		<set name="baseINT" value="11"/>
+		<set name="baseWIT" value="115"/>
+		<set name="baseMEN" value="5"/>
+		<set name="rewardExp" value="458933384"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="10242960"/>
+		<set name="basePAtk" value="24900"/>
+		<set name="basePDef" value="3840"/>
+		<set name="baseMAtk" value="2550"/>
+		<set name="baseMDef" value="825"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseCritRate" value="4"/>
+		<set name="baseMAtkSpd" value="398"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="shots" value="NONE"/>
+		<attributes>
+			<defence attribute="fire" value="280"/>
+			<defence attribute="water" value="280"/>
+			<defence attribute="wind" value="280"/>
+			<defence attribute="earth" value="280"/>
+			<defence attribute="holy" value="247"/>
+			<defence attribute="unholy" value="444"/>
+			<attack attribute="unholy" value="33"/>
+		</attributes>
+		<skills>
+			<skill id="4416" level="1"/>
+			<skill id="5467" level="1"/>
+			<skill id="15215" level="1"/>
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="18190" min="1" max="1" chance="10.441"/>
+				<reward item_id="18185" min="1" max="1" chance="7.030"/>
+				<reward item_id="18191" min="1" max="1" chance="7.019"/>
+				<reward item_id="18196" min="1" max="1" chance="6.979"/>
+				<reward item_id="18188" min="1" max="3" chance="5.248"/>
+				<reward item_id="18198" min="1" max="1" chance="4.226"/>
+				<reward item_id="18187" min="1" max="1" chance="4.199"/>
+				<reward item_id="18193" min="1" max="1" chance="4.131"/>
+				<reward item_id="18195" min="2" max="4" chance="3.547"/>
+				<reward item_id="18189" min="2" max="6" chance="2.671"/>
+				<reward item_id="18186" min="1" max="1" chance="2.641"/>
+				<reward item_id="18192" min="1" max="1" chance="2.636"/>
+				<reward item_id="18197" min="1" max="1" chance="2.588"/>
+				<reward item_id="18199" min="3" max="7" chance="2.064"/>
+				<reward item_id="18194" min="3" max="9" chance="1.783"/>
+				<reward item_id="17399" min="1" max="1" chance="1.612"/>
+				<reward item_id="17412" min="1" max="1" chance="1.612"/>
+				<reward item_id="17410" min="1" max="1" chance="1.606"/>
+				<reward item_id="17406" min="1" max="1" chance="1.605"/>
+				<reward item_id="17405" min="1" max="1" chance="1.573"/>
+				<reward item_id="17411" min="1" max="1" chance="1.563"/>
+				<reward item_id="18200" min="4" max="10" chance="1.550"/>
+				<reward item_id="17401" min="1" max="1" chance="1.561"/>
+				<reward item_id="17400" min="1" max="1" chance="1.508"/>
+				<reward item_id="18201" min="4" max="12" chance="1.319"/>
+				<reward item_id="18176" min="1" max="1" chance="1"/>
+				<reward item_id="18177" min="1" max="1" chance="1"/>
+				<reward item_id="18178" min="1" max="1" chance="1"/>
+				<reward item_id="18181" min="1" max="1" chance="1"/>
+				<reward item_id="18179" min="1" max="1" chance="1"/>
+				<reward item_id="18180" min="1" max="1" chance="1"/>
+				<reward item_id="18175" min="1" max="1" chance="1"/>
+				<reward item_id="18174" min="1" max="1" chance="1"/>
+				<reward item_id="17402" min="1" max="1" chance="1"/>
+				<reward item_id="17396" min="1" max="1" chance="1"/>
+				<reward item_id="17404" min="1" max="1" chance="1"/>
+				<reward item_id="17407" min="1" max="1" chance="1"/>
+				<reward item_id="17409" min="1" max="1" chance="1"/>
+				<reward item_id="18171" min="1" max="1" chance="1"/>
+				<reward item_id="18172" min="1" max="1" chance="1"/>
+				<reward item_id="18173" min="1" max="1" chance="1"/>
+				<reward item_id="17398" min="1" max="1" chance="1"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="17388" min="1" max="1" chance="0.5"/>
+				<reward item_id="17387" min="1" max="1" chance="0.5"/>
+				<reward item_id="17386" min="1" max="1" chance="0.5"/>
+				<reward item_id="17385" min="1" max="1" chance="0.5"/>
+				<reward item_id="17384" min="1" max="1" chance="0.5"/>
+				<reward item_id="17390" min="1" max="1" chance="0.5"/>
+				<reward item_id="17389" min="1" max="1" chance="0.5"/>
+				<reward item_id="17391" min="1" max="1" chance="0.5"/>
+				<reward item_id="17392" min="1" max="1" chance="0.5"/>
+				<reward item_id="17397" min="1" max="1" chance="0.5"/>
+				<reward item_id="17382" min="1" max="1" chance="0.5"/>
+				<reward item_id="17403" min="1" max="1" chance="0.5"/>
+				<reward item_id="17408" min="1" max="1" chance="0.5"/>
+				<reward item_id="17383" min="1" max="1" chance="0.5"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="19448" min="1" max="1" chance="69.72"/>
+				<reward item_id="19447" min="1" max="1" chance="8.796"/>
+			</group>
+		</rewardlist>
+	</npc>
 </list>

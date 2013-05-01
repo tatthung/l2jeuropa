@@ -7119,19 +7119,19 @@
 			<absorb chance="5" min_level="13" max_level="16" type="PARTY_ONE"/>
 		</absorblist>
 		<rewardlist type="RATED_GROUPED">
-			<group chance="0.8133">
-				<reward item_id="14105" min="1" max="1" chance="38.4619"/>	<!--Sealed Vesper Breastplate-->
-				<reward item_id="14108" min="1" max="1" chance="61.5381"/>	<!--Sealed Vesper Gaiters-->
+			<group chance="100.0">
+				<reward item_id="17307" min="1" max="1" chance="11.76"/>
+				<reward item_id="17314" min="1" max="1" chance="11.68"/>
+				<reward item_id="17315" min="1" max="1" chance="7.625"/>
+				<reward item_id="18111" min="1" max="1" chance="5.626"/>
+				<reward item_id="18112" min="1" max="1" chance="5.539"/>
+				<reward item_id="18108" min="1" max="1" chance="5.497"/>
+				<reward item_id="17312" min="1" max="1" chance="4.642"/>
+				<reward item_id="17305" min="1" max="1" chance="2.907"/>
+				<reward item_id="17316" min="1" max="1" chance="2.818"/>
 			</group>
-			<group chance="0.3055">
-				<reward item_id="13457" min="1" max="1" chance="33.3333"/>	<!--Vesper Cutter-->
-				<reward item_id="13458" min="1" max="1" chance="33.3333"/>	<!--Vesper Slasher-->
-				<reward item_id="13459" min="1" max="1" chance="33.3334"/>	<!--Vesper Buster-->
-			</group>
-			<group chance="21.1311">
-				<reward item_id="959" min="1" max="1" chance="8.9552"/>	<!--Scroll: Enchant Weapon (S-Grade)-->
-				<reward item_id="960" min="1" max="1" chance="89.5522"/>	<!--Scroll: Enchant Armor (S-Grade)-->
-				<reward item_id="6577" min="1" max="1" chance="1.4926"/>	<!--Blessed Scroll: Enchant Weapon (S-Grade)-->
+			<group chance="100.0">
+				<reward item_id="17526" min="1" max="1" chance="15.78"/>
 			</group>
 		</rewardlist>
 		<attributes>
@@ -7205,16 +7205,19 @@
 			<skill id="4045" level="1"/>	<!--Resist Full Magic Attack-->
 		</skills>
 		<rewardlist type="RATED_GROUPED">
-			<group chance="2.0404">
-				<reward item_id="14106" min="1" max="1" chance="38.4626"/>	<!--Sealed Vesper Leather Breastplate-->
-				<reward item_id="14112" min="1" max="1" chance="61.5374"/>	<!--Sealed Vesper Leather Leggings-->
+			<group chance="100.0">
+				<reward item_id="17309" min="1" max="1" chance="14.29"/>
+				<reward item_id="17320" min="1" max="1" chance="14.06"/>
+				<reward item_id="17306" min="1" max="1" chance="5.510"/>
+				<reward item_id="17317" min="1" max="1" chance="5.479"/>
+				<reward item_id="18107" min="1" max="1" chance="4.155"/>
+				<reward item_id="18110" min="1" max="1" chance="4.136"/>
+				<reward item_id="18106" min="1" max="1" chance="4.131"/>
+				<reward item_id="18105" min="1" max="1" chance="4.116"/>
+				<reward item_id="17311" min="1" max="1" chance="3.444"/>
 			</group>
-			<group chance="0.5748">
-				<reward item_id="13467" min="1" max="1" chance="100.0000"/>	<!--Vesper Thrower-->
-			</group>
-			<group chance="6.8245">
-				<reward item_id="6577" min="1" max="1" chance="13.0435"/>	<!--Blessed Scroll: Enchant Weapon (S-Grade)-->
-				<reward item_id="6578" min="1" max="1" chance="86.9565"/>	<!--Blessed Scroll: Enchant Armor (S-Grade)-->
+			<group chance="100.0">
+				<reward item_id="17526" min="1" max="1" chance="15.68"/>
 			</group>
 		</rewardlist>
 		<attributes>

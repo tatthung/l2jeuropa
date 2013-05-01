@@ -377,7 +377,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="18607" name="Gargos" title="Spirit of Fire">
+	<npc id="18607" name="Gargos" title="Fire Spirit">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Gargos"/>
 		<set name="baseAtkRange" value="40"/>
@@ -448,7 +448,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="18608" name="Kinsus" title="Spirit of Fire">
+	<npc id="18608" name="Kinsus" title="Fire Spirit">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -519,7 +519,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="18609" name="Papion" title="Spirit of Water">
+	<npc id="18609" name="Papion" title="Water Spirit">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -590,7 +590,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="18610" name="Hillas" title="Spirit of Water">
+	<npc id="18610" name="Hillas" title="Water Spirit">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -662,7 +662,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="18611" name="Spirit of Water" title="">
+	<npc id="18611" name="Water Spirit" title="">
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -732,7 +732,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="18612" name="Spirit of Water" title="">
+	<npc id="18612" name="Water Spirit" title="">
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -802,7 +802,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="18613" name="Spirit of Water" title="">
+	<npc id="18613" name="Water Spirit" title="">
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -872,7 +872,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="18614" name="Spirit of Fire" title="">
+	<npc id="18614" name="Fire Spirit" title="">
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -946,7 +946,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="18615" name="Spirit of Fire" title="">
+	<npc id="18615" name="Fire Spirit" title="">
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3222,7 +3222,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="18648" name="Varka Silenos Priest" title="">
+	<npc id="18648" name="Varka Silenos Chief Priest" title="">
 		<set name="aggroRange" value="500"/>
 		<set name="ai_type" value="Priest"/>
 		<set name="baseAtkRange" value="40"/>

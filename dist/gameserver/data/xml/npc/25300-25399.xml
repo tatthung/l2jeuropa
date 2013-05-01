@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE list SYSTEM "npc.dtd">
 <list>
-	<npc id="25300" name="Scout of Hekaton" title="Raid Fighter">
+	<npc id="25300" name="Hekaton's Scout" title="Raid Fighter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Ranger"/>
 		<set name="baseAtkRange" value="1100"/>
@@ -59,7 +59,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25301" name="Servant of Hekaton" title="Raid Fighter">
+	<npc id="25301" name="Hekaton's Servant" title="Raid Fighter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -406,7 +406,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25306" name="Soul of Fire Nastron" title="Raid Boss">
+	<npc id="25306" name="Fire Spirit Nastron" title="Raid Boss">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -700,7 +700,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25310" name="Shadith's Escort Captain" title="Raid Fighter">
+	<npc id="25310" name="Shadith' Escort Captain" title="Raid Fighter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -760,7 +760,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25311" name="Shadith's Sentinel" title="Raid Fighter">
+	<npc id="25311" name="Shadith' Sentinel" title="Raid Fighter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1119,7 +1119,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25316" name="Soul of Water Ashutar" title="Raid Boss">
+	<npc id="25316" name="Water Spirit Ashutar" title="Raid Boss">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Mystic"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2804,7 +2804,7 @@
 			<defence attribute="unholy" value="189"/>
 		</attributes>
 	</npc>
-	<npc id="25339" name="Shadow of Halisha" title="Ruler of Sepulcher">
+	<npc id="25339" name="Halisha's Shadow" title="Ruler of Sepulcher">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Ranger"/>
 		<set name="baseAtkRange" value="1100"/>
@@ -3009,7 +3009,7 @@
 			<defence attribute="unholy" value="110"/>
 		</attributes>
 	</npc>
-	<npc id="25342" name="Shadow of Halisha" title="Ruler of Sepulcher">
+	<npc id="25342" name="Halisha's Shadow" title="Ruler of Sepulcher">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Ranger"/>
 		<set name="baseAtkRange" value="1100"/>
@@ -3266,7 +3266,7 @@
 			<defence attribute="unholy" value="189"/>
 		</attributes>
 	</npc>
-	<npc id="25346" name="Shadow of Halisha" title="Ruler of Sepulcher">
+	<npc id="25346" name="Halisha's Shadow" title="Ruler of Sepulcher">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Ranger"/>
 		<set name="baseAtkRange" value="1100"/>
@@ -3472,7 +3472,7 @@
 			<defence attribute="unholy" value="53"/>
 		</attributes>
 	</npc>
-	<npc id="25349" name="Shadow of Halisha" title="Ruler of Sepulcher">
+	<npc id="25349" name="Halisha's Shadow" title="Ruler of Sepulcher">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Ranger"/>
 		<set name="baseAtkRange" value="1100"/>
@@ -3758,7 +3758,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25353" name="Giant Wasteland Basilisk" title="Raid Fighter">
+	<npc id="25353" name="Wasteland Basilisk" title="Raid Fighter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -6876,7 +6876,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25398" name="Beleth's Eye" title="Raid Boss">
+	<npc id="25398" name="Beleth' Eye" title="Raid Boss">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Mystic"/>
 		<set name="baseAtkRange" value="40"/>

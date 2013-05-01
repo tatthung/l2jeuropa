@@ -249,7 +249,7 @@
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
 		<set name="shots" value="NONE"/>
-		<set name="type" value="ZakenCandle"/>
+		<set name="type" value="ZakenCandle" />
 		<attributes>
 			<defence attribute="fire" value="20"/>
 			<defence attribute="water" value="20"/>
@@ -689,7 +689,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="32716" name="Lilith's Agent" title="">
+	<npc id="32716" name="Lilith' Agent" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -737,7 +737,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="32717" name="Lilith's Escort" title="">
+	<npc id="32717" name="Lilith' Escort" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -788,7 +788,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="32718" name="Anakim" title="Raid Boss">
+	<npc id="32718" name="Anakim" title="Flames of Sacred Fire">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -879,7 +879,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="32720" name="Anakim's Guard" title="">
+	<npc id="32720" name="Anakim's Royal Guard" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1403,7 +1403,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="32732" name="Sixth Anniversary Party Manager" title="Event manager">
+	<npc id="32732" name="6th Anniversary Party Manager" title="Event manager">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3486,7 +3486,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="32779" name="Flight Control" title="">
+	<npc id="32779" name="Flight Device" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4111,7 +4111,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="32793" name="Solina's Evil Thoughts" title="Saintess of Elmore-Aden">
+	<npc id="32793" name="Solina's Evil Thoughts" title="Elmoreden's Saintess">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4154,7 +4154,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="32794" name="Solina" title="Saintess of Elmore-Aden">
+	<npc id="32794" name="Solina" title="Elmoreden's Saintess">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE list SYSTEM "npc.dtd">
 <list>
-	<npc id="33701" name="Dimensional Treasure Chest" title="Dimensional Treasure Chest">
+	<npc id="33701" name="Dimensional Treasure Chest" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="68"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -48,7 +48,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-	<npc id="33715" name="Seed Talisman Supervisor" title="Seed Talisman Supervisor">
+	<npc id="33715" name="Seed Talisman Manager" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -95,7 +95,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33716" name="Kartia Information Service" title="">
+	<npc id="33716" name="Kartia Information Service" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -143,7 +143,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-	<npc id="33717" name="Tombstone of the Guillotine of Death" title="Tombstone of the Guillotine of Death">
+	<npc id="33717" name="Tombstone of the Guillotine of Death" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="68"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -190,7 +190,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-	<npc id="33718" name="Tombstone of Houpan the Warden Overseer" title="Tombstone of Houpan the Warden Overseer">
+	<npc id="33718" name="Tombstone of Houpon the Warden Overseer" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="68"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -237,7 +237,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-	<npc id="33719" name="Tombstone of Crook the Mad" title="Tombstone of Crook the Mad">
+	<npc id="33719" name="Tombstone of Crook the Mad" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="68"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -378,7 +378,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-	<npc id="33779" name="" title="">
+	<npc id="33779" name="Hermuncus' Minion" title="Dimension Keeper">
         <!--Need TODO-->
         <set name="baseHpMax" value="2444.468"/>
         <set name="baseMAtkSpd" value="500"/>
@@ -425,7 +425,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-	<npc id="33780" name="" title="">
+	<npc id="33780" name="Hesed" title="Black Anvil Guild">
         <!--Need TODO-->
         <set name="baseHpMax" value="2444.468"/>
         <set name="baseMAtkSpd" value="500"/>
@@ -472,7 +472,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-	<npc id="33781" name="" title="">
+	<npc id="33781" name="Boz Core" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2444.468"/>
         <set name="baseMAtkSpd" value="500"/>
@@ -519,7 +519,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-	<npc id="33790" name="" title="">
+	<npc id="33790" name="Nornil Teleport Device" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2444.468"/>
         <set name="baseMAtkSpd" value="500"/>
@@ -566,7 +566,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-	<npc id="33796" name="" title="">
+	<npc id="33796" name="Verna" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2444.468"/>
         <set name="baseMAtkSpd" value="500"/>

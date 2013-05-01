@@ -886,7 +886,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="19121" name="Sacrificial Altar" title="">
+	<npc id="19121" name="Altar of Sacrifice" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="10.0"/>
 		<set name="collision_height" value="160.0"/>
@@ -930,7 +930,7 @@
 			<skill id="4416" level="2"/>
 		</skills>
 	</npc>
-	<npc id="19122" name="Sacrificial Altar" title="">
+	<npc id="19122" name="Altar of Sacrifice" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="10.0"/>
 		<set name="collision_height" value="160.0"/>
@@ -1321,7 +1321,7 @@
 			<skill id="4416" level="15"/>
 		</skills>
 	</npc>
-	<npc id="19131" name="Rash" title="Support Squad Lieutenant">
+	<npc id="19131" name="Rash" title="Support Troop Lieutenant">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="10.0"/>
 		<set name="collision_height" value="23.75"/>
@@ -3032,7 +3032,7 @@
 			<skill id="4416" level="17"/>
 		</skills>
 	</npc>
-	<npc id="19170" name="Bloody Swampland Transparent 1" title="">
+	<npc id="19170" name="Queen of Darkness" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="0.1"/>
 		<set name="collision_height" value="0.1"/>
@@ -3984,7 +3984,7 @@
             <set name="attackable" value="false"/>
         </ai_params>
     </npc>
-    <npc id="19192" name="Bronk" title="Head Blacksmith">
+	<npc id="19192" name="Bronk" title="Head Blacksmith">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="hermunkus_message.Bronk_19192"/>
         <set name="baseAtkRange" value="40"/>
@@ -4028,7 +4028,7 @@
             <set name="attackable" value="false"/>
         </ai_params>
     </npc>
-    <npc id="19193" name="Rogin" title="Deliveryman">
+	<npc id="19193" name="Rogin" title="Deliveryman">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Rogin_19193"/>
         <set name="baseAtkRange" value="40"/>
@@ -4204,7 +4204,7 @@
             <set name="attackable" value="false"/>
         </ai_params>
     </npc>
-    <npc id="19197" name="Soldier" title="">
+	<npc id="19197" name="Soldier" title="">
         <set name="aggroRange" value="150"/>
         <set name="ai_type" value="hermunkus_message.Soldiers"/>
         <set name="baseAtkRange" value="40"/>
@@ -4249,7 +4249,7 @@
             <set name="attackable" value="false"/>
         </ai_params>
     </npc>
-    <npc id="19198" name="Torocco" title="Carrier">
+	<npc id="19198" name="Torocco" title="Carrier">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Torocco_19198"/>
         <set name="baseAtkRange" value="40"/>
@@ -4294,7 +4294,7 @@
             <set name="wayType" value="1"/>
         </ai_params>
     </npc>
-    <npc id="19199" name="Murdoc" title="Warehouse Keeper">
+	<npc id="19199" name="Murdoc" title="Warehouse Keeper">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>

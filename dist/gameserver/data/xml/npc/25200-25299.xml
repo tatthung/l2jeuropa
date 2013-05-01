@@ -2146,7 +2146,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25231" name="Ragoth's Escort" title="Raid Fighter">
+	<npc id="25231" name="Ragoth' Escort" title="Raid Fighter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2206,7 +2206,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25232" name="Ragoth's Herald" title="Raid Fighter">
+	<npc id="25232" name="Ragoth' Herald" title="Raid Fighter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -5463,7 +5463,7 @@
 			<defence attribute="unholy" value="53"/>
 		</attributes>
 	</npc>
-	<npc id="25277" name="Lilith's Witch Marilion" title="Raid Boss">
+	<npc id="25277" name="Lilith' Witch Marilion" title="Raid Boss">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Mystic"/>
 		<set name="baseAtkRange" value="40"/>
@@ -6065,7 +6065,7 @@
             <defence attribute="unholy" value="189"/>
         </attributes>
     </npc>
-	<npc id="25286" name="Anakim" title="Raid Boss">
+	<npc id="25286" name="Anakim" title="Flames of Sacred Fire">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -6187,7 +6187,7 @@
             <defence attribute="unholy" value="15"/>
         </attributes>
     </npc>
-	<npc id="25290" name="Daimon the White-Eyed" title="Raid Boss">
+	<npc id="25290" name="Daimon the White-eyed" title="Raid Boss">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -6270,7 +6270,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25291" name="Family of Daimon" title="Raid Fighter">
+	<npc id="25291" name="Daimon's Family" title="Raid Fighter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -6327,7 +6327,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25292" name="Family of Daimon" title="Raid Fighter">
+	<npc id="25292" name="Daimon's Family" title="Raid Fighter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Mystic"/>
 		<set name="baseAtkRange" value="40"/>

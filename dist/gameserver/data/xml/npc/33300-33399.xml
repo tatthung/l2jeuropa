@@ -236,7 +236,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-    <npc id="33304" name="Second Warp Device of Harnak" title="">
+	<npc id="33304" name="Second Warp Device of Harnak" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -1460,7 +1460,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-    <npc id="33330" name="Khyber" title="Priest">
+	<npc id="33330" name="Khyber" title="Priest">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -1509,7 +1509,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33331" name="Janson" title="Guard">
+	<npc id="33331" name="Janson" title="Guard">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -1558,7 +1558,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33332" name="Narkrun" title="Jewelry Merchant">
+	<npc id="33332" name="Narkrun" title="Jewelry Merchant">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -1607,7 +1607,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33333" name="Erkinah" title="Guardian of Dark Elf Village">
+	<npc id="33333" name="Erkinah" title="Guardian of Dark Elf Village">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -1656,7 +1656,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33334" name="Tisrante" title="Plague Researcher">
+	<npc id="33334" name="Tisrante" title="Plague Researcher">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -1705,7 +1705,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33335" name="Lilios" title="Guardian of Dark Elf Village">
+	<npc id="33335" name="Lilios" title="Guardian of Dark Elf Village">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -1754,7 +1754,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33336" name="Kaitael" title="Guardian of Dark Elf Village">
+	<npc id="33336" name="Kaitael" title="Guardian of Dark Elf Village">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -1803,7 +1803,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33337" name="Crystal of the Ethereal Dragon" title="">
+	<npc id="33337" name="Crystal of the Ethereal Dragon" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -1852,7 +1852,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33338" name="Crystal of Concentration" title="">
+	<npc id="33338" name="Crystal of Concentration" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -1901,7 +1901,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33339" name="Crystal of Recovery" title="">
+	<npc id="33339" name="Crystal of Recovery" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -1950,7 +1950,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33340" name="Hermuncus" title="The Last Giant">
+	<npc id="33340" name="Hermuncus" title="The Last Giant">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="HarnakUndeground.Hermuncus"/>
         <set name="baseAtkRange" value="40"/>
@@ -1990,7 +1990,7 @@
             <set name="noRandomWalk" value="true"/>
         </ai_params>
     </npc>
-    <npc id="33341" name="Kite" title="">
+	<npc id="33341" name="Kite" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2039,7 +2039,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33342" name="Pixy" title="">
+	<npc id="33342" name="Pixy" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2088,7 +2088,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33343" name="Mysterious Priest" title="">
+	<npc id="33343" name="Mysterious Priest" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -2137,7 +2137,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33344" name="Hadel" title="Giant's Minion">
+	<npc id="33344" name="Hadel" title="Giant's Minion">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -2186,7 +2186,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33345" name="Noeti Ryukaelti" title="Blind Fairy Prophet">
+	<npc id="33345" name="Noeti Ryukaelti" title="Blind Fairy Prophet">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2235,7 +2235,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33346" name="Fate Changer" title="">
+	<npc id="33346" name="Fate Changer" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2282,7 +2282,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33347" name="Ancient Hero" title="Dummy Monster">
+	<npc id="33347" name="Ancient Hero" title="Dummy Monster">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2331,7 +2331,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33348" name="Cruma Tower Monster" title="Dummy Monster">
+	<npc id="33348" name="Cruma Tower Monster" title="Dummy Monster">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2380,7 +2380,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33349" name="Tower of Insolence Monster" title="Dummy Monster">
+	<npc id="33349" name="Tower of Insolence Monster" title="Dummy Monster">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2429,7 +2429,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33350" name="Inzone Controller" title="">
+	<npc id="33350" name="Inzone Controller" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2478,7 +2478,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33351" name="Inzone Controller" title="">
+	<npc id="33351" name="Inzone Controller" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2527,7 +2527,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33352" name="Adolph" title="Aden Vanguard Captain">
+	<npc id="33352" name="Adolph" title="Aden Vanguard Captain">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2576,7 +2576,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33353" name="Priest Alice" title="Aden Vanguard">
+	<npc id="33353" name="Priest Alice" title="Aden Vanguard">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2625,7 +2625,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33354" name="Officer Barton" title="Aden Vanguard">
+	<npc id="33354" name="Officer Barton" title="Aden Vanguard">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2674,7 +2674,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33355" name="Sniper Hayuk" title="Aden Vanguard">
+	<npc id="33355" name="Sniper Hayuk" title="Aden Vanguard">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2723,7 +2723,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33356" name="Magus Eliyah" title="Aden Vanguard">
+	<npc id="33356" name="Magus Eliyah" title="Aden Vanguard">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2772,7 +2772,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33357" name="Ende" title="">
+	<npc id="33357" name="Ende" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -2821,7 +2821,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33358" name="Kyuori" title="">
+	<npc id="33358" name="Kyuori" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -2870,7 +2870,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33359" name="Kerry" title="Provisional Clan Hall Gatekeeper">
+	<npc id="33359" name="Kerry" title="Provisional Clan Hall Gatekeeper">
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
         <set name="basePAtkSpd" value="299"/>
@@ -2918,7 +2918,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33360" name="Maid" title="Provisional Clan Hall Manager">
+	<npc id="33360" name="Maid" title="Provisional Clan Hall Manager">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -2967,7 +2967,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33361" name="Mysterious Priest" title="">
+	<npc id="33361" name="Mysterious Priest" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -3016,7 +3016,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33362" name="Mysterious Man" title="">
+	<npc id="33362" name="Mysterious Man" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3065,7 +3065,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33363" name="Mysterious Man" title="">
+	<npc id="33363" name="Mysterious Man" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -3114,7 +3114,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33364" name="" title="">
+	<npc id="33364" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3161,7 +3161,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33365" name="" title="">
+	<npc id="33365" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3208,7 +3208,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33366" name="" title="">
+	<npc id="33366" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3255,7 +3255,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33367" name="" title="">
+	<npc id="33367" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3302,7 +3302,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33368" name="" title="">
+	<npc id="33368" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3349,7 +3349,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33369" name="" title="">
+	<npc id="33369" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3396,7 +3396,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33370" name="" title="">
+	<npc id="33370" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3443,7 +3443,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33371" name="" title="">
+	<npc id="33371" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3490,7 +3490,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33372" name="" title="">
+	<npc id="33372" name="" title="">
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
         <set name="basePAtkSpd" value="299"/>
@@ -3540,7 +3540,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33373" name="" title="">
+	<npc id="33373" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3587,7 +3587,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33374" name="" title="">
+	<npc id="33374" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3634,7 +3634,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33375" name="" title="">
+	<npc id="33375" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3681,7 +3681,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33376" name="" title="">
+	<npc id="33376" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3728,7 +3728,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33377" name="" title="">
+	<npc id="33377" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3775,7 +3775,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33378" name="" title="">
+	<npc id="33378" name="" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3822,7 +3822,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33379" name="Investigator" title="">
+	<npc id="33379" name="Investigator" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -3871,7 +3871,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33380" name="Investigator" title="">
+	<npc id="33380" name="Investigator" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -3920,7 +3920,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33381" name="Investigator" title="">
+	<npc id="33381" name="Investigator" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -3969,7 +3969,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33382" name="Priest" title="">
+	<npc id="33382" name="Priest" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -4018,7 +4018,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33383" name="Guard" title="">
+	<npc id="33383" name="Guard" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -4067,7 +4067,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33384" name="Madman" title="">
+	<npc id="33384" name="Madman" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -4116,7 +4116,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33385" name="Adventure Guildsman" title="">
+	<npc id="33385" name="Adventure Guildsman" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -4165,7 +4165,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33386" name="Adventure Guildsman" title="">
+	<npc id="33386" name="Adventure Guildsman" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -4214,7 +4214,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33387" name="Adventure Guildsman" title="">
+	<npc id="33387" name="Adventure Guildsman" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -4263,7 +4263,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33388" name="Adventure Guildsman" title="">
+	<npc id="33388" name="Adventure Guildsman" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -4312,7 +4312,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33389" name="Adventure Guildsman" title="">
+	<npc id="33389" name="Adventure Guildsman" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -4361,7 +4361,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33390" name="Adventure Guildsman" title="">
+	<npc id="33390" name="Adventure Guildsman" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -4410,7 +4410,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33391" name="Adventure Guildsman" title="">
+	<npc id="33391" name="Adventure Guildsman" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -4459,7 +4459,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33392" name="Adventure Guildsman" title="">
+	<npc id="33392" name="Adventure Guildsman" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -4508,7 +4508,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33393" name="Wave Dragon Crystal" title="">
+	<npc id="33393" name="Wave Dragon Crystal" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -4557,7 +4557,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33394" name="Wave Dragon Crystal" title="">
+	<npc id="33394" name="Wave Dragon Crystal" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -4606,7 +4606,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33395" name="Wave Dragon Crystal" title="">
+	<npc id="33395" name="Wave Dragon Crystal" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="2880.376"/>
         <set name="baseMAtkSpd" value="333"/>
@@ -4655,7 +4655,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33396" name="Kimerian" title="">
+	<npc id="33396" name="Kimerian" title="">
         <!--Need TODO-->
         <set name="baseHpMax" value="10790"/>
         <set name="baseMAtkSpd" value="398"/>
@@ -4704,7 +4704,7 @@
             <defence attribute="unholy" value="150"/>
         </attributes>
     </npc>
-    <npc id="33397" name="Powerful Defensive Tanks" title="Sigel Knight Awakening">
+	<npc id="33397" name="Powerful Defensive Tanks" title="Sigel Knight Awakening">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -4744,7 +4744,7 @@
             <set name="MyClassId" value="139"/>
         </ai_params>
     </npc>
-    <npc id="33398" name="Powerful Melee Damage Dealer" title="Tyrr Warrior Awakening">
+	<npc id="33398" name="Powerful Melee Damage Dealer" title="Tyrr Warrior Awakening">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -4784,7 +4784,7 @@
             <set name="MyClassId" value="140"/>
         </ai_params>
     </npc>
-    <npc id="33399" name="Powerful Dagger Melee Damage Dealer" title="Othell Rogue Awakening">
+	<npc id="33399" name="Powerful Dagger Melee Damage Dealer" title="Othell Rogue Awakening">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>

@@ -2942,7 +2942,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="31360" name="Alhena" title="Heirarch Agent">
+	<npc id="31360" name="Alhena" title="Hierarch Agent">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Alhena"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2992,7 +2992,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="31361" name="Kreed" title="Heirarch Executioner">
+	<npc id="31361" name="Kreed" title="Hierarch Executioner">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Kreed"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3517,7 +3517,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="31372" name="Asefa" title="Soul Guide">
+	<npc id="31372" name="Asefa" title="Guide of Dead Souls">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3859,7 +3859,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="31379" name="Udan Mardui" title="Soul Guide">
+	<npc id="31379" name="Udan Mardui" title="Guide of Dead Souls">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>

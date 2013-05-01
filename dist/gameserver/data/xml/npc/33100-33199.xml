@@ -917,7 +917,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33119" name="Battle Soldier" title="">
+	<npc id="33119" name="Combat Soldier" title="">
 		<!--Need TODO-->
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseMAtkSpd" value="398"/>
@@ -1164,7 +1164,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33124" name="Apprentice" title="Dwarf Workshop">
+	<npc id="33124" name="Apprentice" title="Dwarven Workshop">
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseMAtkSpd" value="398"/>
 		<set name="basePAtkSpd" value="299"/>
@@ -4814,7 +4814,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33199" name="Apprentice" title="Dwarf Workshop">
+	<npc id="33199" name="Apprentice" title="Dwarven Workshop">
 		<!--Need TODO-->
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseMAtkSpd" value="398"/>

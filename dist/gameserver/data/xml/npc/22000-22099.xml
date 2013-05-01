@@ -5970,7 +5970,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="22055" name="Cruel Vice Golem" title="">
+	<npc id="22055" name="Cruel Pincer Golem" title="">
 		<set name="aggroRange" value="500"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -9646,7 +9646,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="22091" name="Lost Iron Golem" title="">
+	<npc id="22091" name="Lost Steel Golem" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -9738,7 +9738,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="22092" name="Frost Iron Golem" title="">
+	<npc id="22092" name="Frost Steel Golem" title="">
 		<set name="aggroRange" value="500"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>

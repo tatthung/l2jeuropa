@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE list SYSTEM "npc.dtd">
 <list>
-	<npc id="52000" template_id="23077" name="" title="">
+	<npc id="52000" name="" title="">
 		<set name="collision_radius" value="14.0"/>
 		<set name="collision_height" value="27.0"/>
 		<set name="level" value="99"/>
@@ -45,7 +45,7 @@
 			<skill id="5462" level="6"/>
 		</skills>
 	</npc>
-	<npc id="52001" template_id="23076" name="" title="">
+	<npc id="52001" name="" title="">
 		<set name="collision_radius" value="14.0"/>
 		<set name="collision_height" value="27.0"/>
 		<set name="level" value="99"/>
@@ -89,7 +89,7 @@
 			<skill id="5462" level="6"/>
 		</skills>
 	</npc>
-	<npc id="52002" template_id="23078" name="" title="">
+	<npc id="52002" name="" title="">
 		<set name="collision_radius" value="14.0"/>
 		<set name="collision_height" value="27.0"/>
 		<set name="level" value="99"/>
@@ -133,7 +133,7 @@
 			<skill id="5462" level="6"/>
 		</skills>
 	</npc>
-	<npc id="52003" template_id="23081" name="" title="">
+	<npc id="52003" name="" title="">
 		<set name="collision_radius" value="14.0"/>
 		<set name="collision_height" value="27.0"/>
 		<set name="level" value="99"/>

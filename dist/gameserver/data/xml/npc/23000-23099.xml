@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "npc.dtd">
 <list>
-	<npc id="23000" name="Porslov" title="">
+	<npc id="23000" name="Poslof" title="">
 		<set name="collision_radius" value="30.0"/>
 		<set name="collision_height" value="24.0"/>
 		<set name="level" value="34"/>
@@ -94,7 +94,7 @@
 			<skill id="4413" level="13"/>	<!-- Slightly Strong M. Def. -->
 		</skills>
 	</npc>
-	<npc id="23002" name="Male Larchikion" title="">
+	<npc id="23002" name="Male Lachikion" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="30.0"/>
 		<set name="collision_height" value="20.0"/>
@@ -139,7 +139,7 @@
 			<skill id="5464" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23003" name="Male Larchikion" title="">
+	<npc id="23003" name="Male Lachikion" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="30.0"/>
 		<set name="collision_height" value="20.0"/>
@@ -184,7 +184,7 @@
 			<skill id="5464" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23004" name="Male Larchikion " title="Successor's Escort">
+	<npc id="23004" name="Male Lachikion " title="Successor's Escort">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="30.0"/>
 		<set name="collision_height" value="20.0"/>
@@ -229,7 +229,7 @@
 			<skill id="5464" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23005" name="Male Larchikion " title="Successor's Escort">
+	<npc id="23005" name="Male Lachikion " title="Successor's Escort">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="30.0"/>
 		<set name="collision_height" value="20.0"/>
@@ -274,7 +274,7 @@
 			<skill id="5464" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23006" name="Female Larchikion" title="">
+	<npc id="23006" name="Female Lachikion" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="30.0"/>
 		<set name="collision_height" value="20.0"/>
@@ -319,7 +319,7 @@
 			<skill id="5464" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23007" name="Female Larchikion" title="">
+	<npc id="23007" name="Female Lachikion" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="30.0"/>
 		<set name="collision_height" value="20.0"/>
@@ -364,7 +364,7 @@
 			<skill id="5464" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23008" name="Female Larchikion" title="Queen's Escort">
+	<npc id="23008" name="Female Lachikion" title="Queen's Escort">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="30.0"/>
 		<set name="collision_height" value="20.0"/>
@@ -409,7 +409,7 @@
 			<skill id="5464" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23009" name="Female Larchikion" title="Queen's Escort">
+	<npc id="23009" name="Female Lachikion" title="Queen's Escort">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="30.0"/>
 		<set name="collision_height" value="20.0"/>
@@ -1042,7 +1042,7 @@
 			<skill id="4416" level="12"/>
 		</skills>
 	</npc>
-	<npc id="23022" name="Bone Warrior" title="Enraged">
+	<npc id="23022" name="Skeleton Warrior" title="Enraged">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="15.0"/>
 		<set name="collision_height" value="25.0"/>
@@ -2225,7 +2225,7 @@
 			<skill id="5463" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23042" name="Female Larchikion" title="">
+	<npc id="23042" name="Female Lachikion" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="30.0"/>
 		<set name="collision_height" value="20.0"/>
@@ -2270,7 +2270,7 @@
 			<skill id="5464" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23043" name="Female Larchikion" title="">
+	<npc id="23043" name="Female Lachikion" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="30.0"/>
 		<set name="collision_height" value="20.0"/>
@@ -4034,7 +4034,7 @@
 			<skill id="4416" level="9"/>
 		</skills>
 	</npc>
-	<npc id="23070" name="Lazearth's Warrior" title="">
+	<npc id="23070" name="Lazearth' Warrior" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="32.0"/>
 		<set name="collision_height" value="46.8"/>
@@ -4601,7 +4601,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23080" name="Corrupted Poison Cloud" title="">
+	<npc id="23080" name="Poison Cloud" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="13.0"/>
 		<set name="collision_height" value="40.0"/>
@@ -5121,7 +5121,7 @@
 			<skill id="5463" level="1"/>
 		</skills>
 	</npc>
-	<npc id="23091" name="Hall Warrior" title="">
+	<npc id="23091" name="Hall Guard Warrior" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="33.0"/>
 		<set name="collision_height" value="58.5"/>
@@ -5501,7 +5501,7 @@
 			<skill id="4416" level="11"/>
 		</skills>
 	</npc>
-	<npc id="23097" name="Skeletal Marauder" title="">
+	<npc id="23097" name="Skeleton Marauder" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="7.0"/>
 		<set name="collision_height" value="22.0"/>

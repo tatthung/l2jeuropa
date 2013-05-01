@@ -239,7 +239,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="31705" name="Daimon the White-Eyed" title="">
+	<npc id="31705" name="Daimon the White-eyed" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="DaimonTheWhiteEyed"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2283,7 +2283,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="31748" name="Cornerstone of Restraining" title="">
+	<npc id="31748" name="Bound Cornerstone" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>

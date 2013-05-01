@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>	
 	<skill id="19001" levels="1" name="Test Bleed">
-    <!-- Race confirm -->
+	<!-- Race confirm -->
 		<set name="target" val="TARGET_NONE"/>
 		<set name="skillType" val="NOTDONE"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 	</skill>	
 	<skill id="19002" levels="1" name="Anger">
-    <!-- Action prevent item skill confirm -->
+	<!-- Action prevent item skill confirm -->
 		<set name="target" val="TARGET_NONE"/>
 		<set name="skillType" val="NOTDONE"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 	</skill>
 	<skill id="19003" levels="5" name="Clan Resistance Hall">
-    <!-- Increases clan members' resistance to holy/dark attacks by 3. Applies after the elder stage. -->
+	<!-- Increases clan members' resistance to holy/dark attacks by 3. Applies after the elder stage. -->
 		<table name="#Def">3 4 5 6 7</table>
 		<set name="isClanSkill" val="true"/>
 		<set name="target" val="TARGET_SELF"/>
@@ -277,6 +277,44 @@
 		<set name="isSkillTimePermanent" val="true"/>
 		<set name="isReuseDelayPermanent" val="true"/>
 		<set name="castle_side" val="DARK"/>
+	</skill>
+	<skill id="19037" levels="1" name="Radiant Cloak of Light">
+	<!--All Stats +3, decreased damage received during PvP by 15%. Ineffective in Chaotic state.-->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="icon" val="icon.skill19037"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<set name="magicLevel" val="1"/>
+		<for>
+			<add stat="STR" order="0x10" val="3"/>
+			<add stat="DEX" order="0x10" val="3"/>
+			<add stat="CON" order="0x10" val="3"/>
+			<add stat="MEN" order="0x10" val="3"/>
+			<add stat="WIT" order="0x10" val="3"/>
+			<add stat="INT" order="0x10" val="3"/>
+			<mul stat="pvpPhysDefenceBonus" order="0x30" val="1.15"/>
+			<mul stat="pvpPhysSkillDefenceBonus" order="0x30" val="1.15"/>
+			<mul stat="pvpMagicSkillDefenceBonus" order="0x30" val="1.15"/>
+		</for>
+	</skill>
+	<skill id="19038" levels="1" name="Cold Cloak of Darkness">
+	<!--All Stats +3, decreased damage received during PvP by 15%.-->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="icon" val="icon.skill19038"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<set name="magicLevel" val="1"/>
+		<for>
+			<add stat="STR" order="0x10" val="3"/>
+			<add stat="DEX" order="0x10" val="3"/>
+			<add stat="CON" order="0x10" val="3"/>
+			<add stat="MEN" order="0x10" val="3"/>
+			<add stat="WIT" order="0x10" val="3"/>
+			<add stat="INT" order="0x10" val="3"/>
+			<mul stat="pvpPhysDefenceBonus" order="0x30" val="1.15"/>
+			<mul stat="pvpPhysSkillDefenceBonus" order="0x30" val="1.15"/>
+			<mul stat="pvpMagicSkillDefenceBonus" order="0x30" val="1.15"/>
+		</for>
 	</skill>
 	<skill id="19074" levels="1" name="Academy Precept">
     <!-- For 60 minutes, increases academy members' P. Atk. by 10%, M. Atk. by 10%, Critical Rate by 10%, and M. Critical Rate by 10%. -->

@@ -872,7 +872,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="27418" name="Mutant Warrior" title="">
+	<npc id="27418" name="Mutant Knight" title="">
 		<set name="aggroRange" value="400"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1015,7 +1015,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="27421" name="Creature of the Dusk" title="">
+	<npc id="27421" name="Creature of Twilight" title="">
 		<set name="aggroRange" value="400"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1059,7 +1059,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="27422" name="Creature of the Dusk" title="">
+	<npc id="27422" name="Creature of Twilight" title="">
 		<set name="aggroRange" value="400"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1103,7 +1103,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="27423" name="Creature of the Dusk" title="">
+	<npc id="27423" name="Creature of Twilight" title="">
 		<set name="aggroRange" value="400"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1147,7 +1147,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="27424" name="Creature of the Dusk" title="">
+	<npc id="27424" name="Creature of Twilight" title="">
 		<set name="aggroRange" value="400"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1698,7 +1698,7 @@
 		<set name="texture" value=""/>
 		<set name="type" value="Npc"/>
 	</npc>
-	<npc id="27437" name="Bathus" title="Tyrr Warrior">
+	<npc id="27437" name="Krakia Bathus" title="Tyrr Warrior">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="HarnakUndeground.MobsAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1761,7 +1761,7 @@
 			</group>
 		</rewardlist>
 	</npc>
-	<npc id="27438" name="Carcass" title="Yul Archer">
+	<npc id="27438" name="Krakia Carcass" title="Yul Archer">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="HarnakUndeground.MobsAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1826,7 +1826,7 @@
 			</group>
 		</rewardlist>
 	</npc>
-	<npc id="27439" name="Lotus" title="Wynn Summoner">
+	<npc id="27439" name="Krakia Lotus" title="Wynn Summoner">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="HarnakUndeground.MobsAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3499,7 +3499,7 @@
 		<set name="texture" value=""/>
 		<set name="type" value="Npc"/>
 	</npc>
-	<npc id="27473" name="Kernon" title="Kernon">
+	<npc id="27473" name="Kernon" title="Quest Monster">
 		<!--10 JAN 2013-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -3586,7 +3586,7 @@
 			<minion npc_id="27475" count="4"/>
 		</minions>		
 	</npc>
-	<npc id="27474" name="Taliadon" title="Taliadon">
+	<npc id="27474" name="Taliadon" title="Quest Monster">
 		<!--10 JAN 2013-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -3664,7 +3664,7 @@
 		<skill id="5467" level="1"/>
 		</skills>		
 	</npc>
-	<npc id="27475" name="Vemsk" title="Vemsk">
+	<npc id="27475" name="Vemsk" title="Quest Monster">
 		<!--10 JAN 2013-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="73"/>
@@ -4078,7 +4078,7 @@
 		<skill id="5467" level="1"/>
 		</skills>		
 	</npc>
-	<npc id="27480" name="doll_blader" title="Quest Monster">
+	<npc id="27480" name="Sehkmeti" title="">
 		<!--fixed by ALF & Mangol-->
 		<set name="collision_radius" value="6.0"/>
 		<set name="collision_height" value="12.0"/>
@@ -4119,7 +4119,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="27481" name="Bloody Vein" title="Succubus Lord">
+	<npc id="27481" name="Blood Thirst" title="Succubus Lord">
 		<!--fixed by ALF & Mangol-->
 		<set name="collision_radius" value="25.0"/>
 		<set name="collision_height" value="68.0"/>
@@ -4209,7 +4209,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="27483" name="Blossom of Flames" title="">
+	<npc id="27483" name="Flame Flower" title="">
 		<!--fixed by ALF & Mangol-->
 		<set name="collision_radius" value="12.0"/>
 		<set name="collision_height" value="10.0"/>
@@ -4578,7 +4578,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="27492" name="" title="">
+	<npc id="27492" name="Shilen's Messenger" title="">
 		<!--fixed by ALF & Mangol-->
 		<set name="collision_radius" value="22.88"/>
 		<set name="collision_height" value="41.6"/>

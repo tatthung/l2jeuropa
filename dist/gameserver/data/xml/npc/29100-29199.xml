@@ -5522,7 +5522,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="29192" name="Octavis' Beast" title="">
+	<npc id="29192" name="Octavis' Beast" title="">
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
@@ -5577,7 +5577,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="29193" name="Octavis" title="">
+	<npc id="29193" name="Octavis" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -5626,7 +5626,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="29194" name="Octavis" title="">
+	<npc id="29194" name="Octavis" title="">
         <set name="aggroRange" value="500"/>
         <set name="collision_radius" value="17.0"/>
 		<set name="collision_height" value="81.0"/>
@@ -5752,7 +5752,7 @@
 			</group>
 		</rewardlist>
     </npc>
-    <npc id="29195" name="Istina" title="Queen of Annihilation">
+	<npc id="29195" name="Istina" title="Queen of Annihilation">
         <set name="aggroRange" value="500"/>
         <set name="collision_radius" value="100.0"/>
 		<set name="collision_height" value="111.3"/>
@@ -5875,7 +5875,7 @@
             <!--Защита Воды-->
         </skills>
     </npc>
-    <npc id="29196" name="Istina" title="Queen of Annihilation">
+	<npc id="29196" name="Istina" title="Queen of Annihilation">
         <set name="aggroRange" value="500"/>
         <set name="collision_radius" value="100.0"/>
 		<set name="collision_height" value="135.0"/>
@@ -5956,7 +5956,7 @@
 		</group>
 	</rewardlist>
     </npc>
-    <npc id="29197" name="Earth Wyrm Trasken" title="Hell's Gate">
+	<npc id="29197" name="Earth Wyrm Trasken" title="Hell's Gate">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="Fighter"/>
         <set name="baseAtkRange" value="40"/>
@@ -6008,7 +6008,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="29198" name="Tentacle" title="">
+	<npc id="29198" name="Tentacle" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -6066,7 +6066,7 @@
             <defence attribute="unholy" value="20"/>
         </attributes>
     </npc>
-    <npc id="29199" name="Giant Tentacle" title="">
+	<npc id="29199" name="Giant Tentacle" title="">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>

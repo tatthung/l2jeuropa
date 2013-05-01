@@ -951,7 +951,7 @@
 			<skill id="4416" level="4"/>
 		</skills>
 	</npc>
-	<npc id="23116" name="Bird" title="Husk">
+	<npc id="23116" name="Avian" title="Husk">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2266,7 +2266,7 @@
 			<reward item_id="18187" min="1" max="1" chance="0.003"/>
 		</rewardlist>
 	</npc>
-	<npc id="23139" name="Enchanter Recruit" title="Embryo">
+	<npc id="23139" name="Researcher" title="Embryo">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
@@ -2789,7 +2789,7 @@
 			</group>
 		</rewardlist>
 	</npc>
-	<npc id="23148" name="Insane Creature" title="">
+	<npc id="23148" name="Lunatic Creature" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
@@ -4558,7 +4558,7 @@
 			</group>
 		</rewardlist>
 	</npc>
-	<npc id="23175" name="Altar Ghost Box" title="">
+	<npc id="23175" name="Altar of Evil Spirit Offering Box" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
@@ -6028,7 +6028,7 @@
 			<reward item_id="2133" min="1" max="1" chance="0.03"/>
 		</rewardlist>
 	</npc>
-	<npc id="23197" name="Succubus of Insanity" title="Succubus Disciple">
+	<npc id="23197" name="Succubus of Lunacy" title="Succubus Disciple">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
@@ -6174,7 +6174,7 @@
 			</group>
 		</rewardlist>
 	</npc>
-	<npc id="23199" name="Sadiac the Boor" title="">
+	<npc id="23199" name="Sadiac the Killer" title="">
 		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>

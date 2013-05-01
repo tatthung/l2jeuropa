@@ -2132,7 +2132,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="32046" name="Suspicious-Looking Pile of Stones" title="">
+	<npc id="32046" name="Suspicious-looking Pile of Stones" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2328,7 +2328,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="32050" name="Parts Box" title="">
+	<npc id="32050" name="Box of Parts" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4126,7 +4126,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="32091" name="Omega's Cat" title="Event Manager">
+	<npc id="32091" name="Tony the Cat" title="Event Manager">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>

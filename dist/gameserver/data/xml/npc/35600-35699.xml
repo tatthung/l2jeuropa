@@ -2875,7 +2875,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="35658" name="Foreman" title="Shanty Fortress">
+	<npc id="35658" name="Foreman" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2924,7 +2924,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35659" name="Suspicious Merchant" title="Shanty Fortress">
+	<npc id="35659" name="Suspicious Merchant" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="suspiciousmerchant.SuspiciousMerchantShanty"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2970,7 +2970,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35660" name="Guard Captain" title="Shanty Fortress">
+	<npc id="35660" name="Guard Captain" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3020,7 +3020,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35661" name="Archer Captain" title="Shanty Fortress">
+	<npc id="35661" name="Archer Captain" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="1100"/>
@@ -3066,7 +3066,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35662" name="Support Unit Captain" title="Shanty Fortress">
+	<npc id="35662" name="Support Unit Captain" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3112,7 +3112,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35663" name="Engineering Manager" title="Shanty Fortress">
+	<npc id="35663" name="Engineering Manager" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3158,7 +3158,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35664" name="Logistics Officer" title="Shanty Fortress">
+	<npc id="35664" name="Logistics Officer" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3256,7 +3256,7 @@
 			<defence attribute="unholy" value="120"/>
 		</attributes>
 	</npc>
-	<npc id="35666" name="Detention Camp Warden" title="Shanty Fortress">
+	<npc id="35666" name="Detention Camp Warden" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3467,7 +3467,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35670" name="Rebel Commander" title="Shanty Fortress">
+	<npc id="35670" name="Rebel Commander" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="residences.fortress.siege.RebelCommander"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3529,7 +3529,7 @@
 			<defence attribute="unholy" value="120"/>
 		</attributes>
 	</npc>
-	<npc id="35671" name="Rebel Elite Soldier" title="Shanty Fortress">
+	<npc id="35671" name="Rebel Elite Soldier" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="residences.SiegeGuardFighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3585,7 +3585,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35672" name="Rebel Private" title="Shanty Fortress">
+	<npc id="35672" name="Rebel Private" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="residences.SiegeGuardFighter"/>
 		<set name="baseAtkRange" value="80"/>
@@ -3643,7 +3643,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35673" name="Royal Guard" title="Shanty Fortress">
+	<npc id="35673" name="Royal Guard" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="residences.SiegeGuardFighter"/>
 		<set name="baseAtkRange" value="80"/>
@@ -3701,7 +3701,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="35674" name="Escort" title="Shanty Fortress">
+	<npc id="35674" name="Escort" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="residences.SiegeGuardRanger"/>
 		<set name="baseAtkRange" value="1100"/>
@@ -4316,7 +4316,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35685" name="Ballista" title="Shanty Fortress">
+	<npc id="35685" name="Ballista" title="Camp Fortress">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="residences.fortress.siege.Ballista"/>
 		<set name="baseAtkRange" value="40"/>

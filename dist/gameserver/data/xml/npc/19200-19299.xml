@@ -46,7 +46,7 @@
             <set name="wayType" value="3"/>
         </ai_params>
     </npc>
-    <npc id="19201" name="Garita" title="Accessory Merchant">
+	<npc id="19201" name="Garita" title="Accessory Merchant">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -91,7 +91,7 @@
             <set name="wayType" value="1"/>
         </ai_params>
     </npc>
-    <npc id="19202" name="Laferon" title="Foreman">
+	<npc id="19202" name="Laferon" title="Foreman">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -136,7 +136,7 @@
             <set name="wayType" value="2"/>
         </ai_params>
     </npc>
-    <npc id="19203" name="Paion" title="Protector">
+	<npc id="19203" name="Paion" title="Protector">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -181,7 +181,7 @@
             <set name="wayType" value="3"/>
         </ai_params>
     </npc>
-    <npc id="19204" name="Runant" title="Defender">
+	<npc id="19204" name="Runant" title="Defender">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -226,7 +226,7 @@
             <set name="wayType" value="1"/>
         </ai_params>
     </npc>
-    <npc id="19205" name="Ethan" title="Defender">
+	<npc id="19205" name="Ethan" title="Defender">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -271,7 +271,7 @@
             <set name="wayType" value="3"/>
         </ai_params>
     </npc>
-    <npc id="19206" name="Cromwell" title="Defender">
+	<npc id="19206" name="Cromwell" title="Defender">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -316,7 +316,7 @@
             <set name="wayType" value="2"/>
         </ai_params>
     </npc>
-    <npc id="19207" name="Proton" title="Defender">
+	<npc id="19207" name="Proton" title="Defender">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -361,7 +361,7 @@
             <set name="wayType" value="3"/>
         </ai_params>
     </npc>
-    <npc id="19208" name="Dinkey" title="Defender">
+	<npc id="19208" name="Dinkey" title="Defender">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -406,7 +406,7 @@
             <set name="wayType" value="2"/>
         </ai_params>
     </npc>
-    <npc id="19209" name="Tardyon" title="Defender">
+	<npc id="19209" name="Tardyon" title="Defender">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -451,7 +451,7 @@
             <set name="wayType" value="3"/>
         </ai_params>
     </npc>
-    <npc id="19210" name="Nathan" title="Defender">
+	<npc id="19210" name="Nathan" title="Defender">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -496,7 +496,7 @@
             <set name="wayType" value="2"/>
         </ai_params>
     </npc>
-    <npc id="19211" name="Tate" title="Carrier">
+	<npc id="19211" name="Tate" title="Carrier">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -541,7 +541,7 @@
             <set name="wayType" value="3"/>
         </ai_params>
     </npc>
-    <npc id="19212" name="Benis" title="Warehouse Keeper">
+	<npc id="19212" name="Benis" title="Warehouse Keeper">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -586,7 +586,7 @@
             <set name="wayType" value="2"/>
         </ai_params>
     </npc>
-    <npc id="19213" name="Hoffa" title="Warehouse Chief">
+	<npc id="19213" name="Hoffa" title="Warehouse Chief">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -631,7 +631,7 @@
             <set name="wayType" value="2"/>
         </ai_params>
     </npc>
-    <npc id="19214" name="Rant" title="Warehouse Keeper">
+	<npc id="19214" name="Rant" title="Warehouse Keeper">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -676,7 +676,7 @@
             <set name="wayType" value="2"/>
         </ai_params>
     </npc>
-    <npc id="19215" name="Rolfe" title="Warehouse Keeper">
+	<npc id="19215" name="Rolfe" title="Warehouse Keeper">
         <set name="aggroRange" value="300"/>
         <set name="ai_type" value="hermunkus_message.Dwarvs"/>
         <set name="baseAtkRange" value="40"/>
@@ -721,7 +721,7 @@
             <set name="wayType" value="2"/>
         </ai_params>
     </npc>
-    <npc id="19216" name="Alter of Evil Spirit Offering Box" title="">
+	<npc id="19216" name="Altar of Evil Spirit Offering Box" title="">
         <!-- TODO: NEW NPC (AUTOGENERATED!) -->
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
@@ -758,7 +758,7 @@
         <set name="texture" value=""/>
         <set name="type" value="Npc"/>
     </npc>
-    <npc id="19217" name="Earth Wyrm Trasken" title="Hell's Gate">
+	<npc id="19217" name="Earth Wyrm Trasken" title="Hell's Gate">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="hermunkus_message.EarthWyrmTrasken"/>
         <set name="baseAtkRange" value="40"/>
@@ -2877,7 +2877,7 @@
 			<skill id="5462" level="1"/>
 		</skills>
 	</npc>
-	<npc id="19265" name="Kunda's Lord" title="">
+	<npc id="19265" name="Kunda Lord" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="24.0"/>
 		<set name="collision_height" value="60.0"/>
@@ -4063,7 +4063,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="19293" name="" title="">
+	<npc id="19293" name="Helping Tree Summon Device" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="57.0"/>
 		<set name="collision_height" value="47.5"/>
@@ -4104,7 +4104,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="19294" name="" title="">
+	<npc id="19294" name="Cocoon Destroyer" title="Violent">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="15.0"/>
 		<set name="collision_height" value="27.0"/>
@@ -4146,7 +4146,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="19295" name="" title="">
+	<npc id="19295" name="Wisp" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="10.0"/>
 		<set name="collision_height" value="30.0"/>
@@ -4187,7 +4187,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="19296" name="" title="">
+	<npc id="19296" name="Golem Generator" title="Virus-Infected">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="33.0"/>
 		<set name="collision_height" value="47.5"/>
@@ -4229,7 +4229,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="19297" name="" title="">
+	<npc id="19297" name="Alarm" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="33.5"/>
@@ -4270,7 +4270,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="19298" name="" title="">
+	<npc id="19298" name="Boz" title="Spicula Clone Generator">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="20.0"/>
 		<set name="collision_height" value="70.0"/>
@@ -4312,7 +4312,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="19299" name="" title="">
+	<npc id="19299" name="Spicula's Elite Captain" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="12.0"/>
 		<set name="collision_height" value="25.0"/>

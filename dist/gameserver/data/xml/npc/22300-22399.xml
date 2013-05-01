@@ -2834,7 +2834,7 @@
 			<defence attribute="unholy" value="70"/>
 		</attributes>
 	</npc>
-	<npc id="22337" name="Desiccator" title="">
+	<npc id="22337" name="Soul Exploiter" title="">
 		<set name="aggroRange" value="500"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3458,7 +3458,7 @@
 			<defence attribute="unholy" value="120"/>
 		</attributes>
 	</npc>
-	<npc id="22345" name="Quarry Bowman" title="">
+	<npc id="22345" name="Quarry Supervisor" title="">
 		<set name="aggroRange" value="500"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -7447,7 +7447,7 @@
 			<defence attribute="unholy" value="170"/>
 		</attributes>
 	</npc>
-	<npc id="22391" name="Foundry Assistant Overseer" title="">
+	<npc id="22391" name="Foundry Foreman Assistant" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -7626,7 +7626,7 @@
 			<defence attribute="unholy" value="170"/>
 		</attributes>
 	</npc>
-	<npc id="22393" name="Beleth's Follower" title="">
+	<npc id="22393" name="Beleth' Follower" title="">
 		<set name="aggroRange" value="500"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -7715,7 +7715,7 @@
 			<defence attribute="unholy" value="200"/>
 		</attributes>
 	</npc>
-	<npc id="22394" name="Beleth's Devotee" title="">
+	<npc id="22394" name="Beleth' Devotee" title="">
 		<set name="aggroRange" value="500"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -7803,7 +7803,7 @@
 			<defence attribute="unholy" value="200"/>
 		</attributes>
 	</npc>
-	<npc id="22395" name="Beleth's Projection" title="">
+	<npc id="22395" name="Beleth' Projection" title="">
 		<set name="aggroRange" value="500"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>

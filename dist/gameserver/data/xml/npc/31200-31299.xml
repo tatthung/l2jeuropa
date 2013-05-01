@@ -1370,7 +1370,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="31227" name="Buzz the Cat" title="Event Manager">
+	<npc id="31227" name="Puss the Cat" title="Event Manager">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2658,7 +2658,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="31255" name="Buzz the Cat" title="Event Manager">
+	<npc id="31255" name="Puss the Cat" title="Event Manager">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>

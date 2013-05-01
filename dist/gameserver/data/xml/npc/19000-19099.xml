@@ -3054,7 +3054,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="19071" name="For direction 29" title="">
+	<npc id="19071" name="Raid Boss Dummy" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="13.0"/>
 		<set name="collision_height" value="40.0"/>
@@ -3095,7 +3095,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="19072" name="For direction 30" title="">
+	<npc id="19072" name="Standard Monster Dummy" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="13.0"/>
 		<set name="collision_height" value="40.0"/>
@@ -3177,7 +3177,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="19074" name="Rotting Darkness Region" title="">
+	<npc id="19074" name="Decaying Darkness Region" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="12.0"/>
 		<set name="collision_height" value="22.5"/>
@@ -3259,7 +3259,7 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<npc id="19076" name="Escort Sentry" title="">
+	<npc id="19076" name="Escort Paladin" title="">
 		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="18.0"/>
 		<set name="collision_height" value="76.0"/>

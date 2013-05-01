@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE list SYSTEM "npc.dtd">
 <list>
-	<npc id="25100" name="Spirit of Sea of Spores" title="Raid Fighter">
+	<npc id="25100" name="Spirit of the Sea of Spores" title="Raid Fighter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -58,7 +58,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25101" name="Warrior of Sea of Spores" title="Raid Fighter">
+	<npc id="25101" name="Warrior of the Sea of Spores" title="Raid Fighter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -830,7 +830,7 @@
 			<defence attribute="unholy" value="189"/>
 		</attributes>
 	</npc>
-	<npc id="25112" name="Beleth's Agent, Meana" title="Raid Boss">
+	<npc id="25112" name="Beleth' Agent Meana" title="Raid Boss">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1333,7 +1333,7 @@
 			<defence attribute="unholy" value="53"/>
 		</attributes>
 	</npc>
-	<npc id="25119" name="Messenger of Fairy Queen Berun" title="Raid Boss">
+	<npc id="25119" name="Fairy Queen's Messenger Berun" title="Raid Boss">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2636,7 +2636,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25137" name="Beleth's Seer, Sephia" title="Raid Boss">
+	<npc id="25137" name="Beleth' Seer Sephia" title="Raid Boss">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Mystic"/>
 		<set name="baseAtkRange" value="40"/>
@@ -5421,7 +5421,7 @@
 			<defence attribute="unholy" value="189"/>
 		</attributes>
 	</npc>
-	<npc id="25179" name="Guardian of the Statue of Giant Karum" title="Raid Boss">
+	<npc id="25179" name="Giant Statue Guardian Karum" title="Raid Boss">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="1100"/>

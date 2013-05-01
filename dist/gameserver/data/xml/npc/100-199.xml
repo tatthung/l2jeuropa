@@ -136,7 +136,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="103" name="Christmas Santa" title="Happy Holidays~">
+	<npc id="103" name="Holiday Santa" title="Happy Holidays">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -182,7 +182,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="104" name="Christmas Santa" title="Happy Holidays~">
+	<npc id="104" name="Holiday Santa" title="Happy Holidays">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -228,7 +228,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="105" name="Christmas Sled" title="Happy Holidays~">
+	<npc id="105" name="Holiday Sled" title="Happy Holidays">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -314,7 +314,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="107" name="Spirit of Fire" title="">
+	<npc id="107" name="Fire Spirit" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -357,7 +357,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="108" name="Reckless Spirit of Fire" title="">
+	<npc id="108" name="Reckless Fire Spirit" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -400,7 +400,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="109" name="Steve Shyagel" title="Eva's High Priest">
+	<npc id="109" name="Jack Sage" title="Eva's High Priest">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -529,7 +529,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="112" name="Friendly Sno" title="Beginner Supporter">
+	<npc id="112" name="Snow" title="Newbie Supporter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -572,7 +572,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="113" name="Friendly Sno" title="Beginner Supporter">
+	<npc id="113" name="Snow" title="Newbie Supporter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -615,7 +615,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="114" name="Friendly Sno" title="Beginner Supporter">
+	<npc id="114" name="Snow" title="Newbie Supporter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -658,7 +658,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="115" name="Friendly Sno" title="Beginner Supporter">
+	<npc id="115" name="Snow" title="Newbie Supporter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -701,7 +701,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="116" name="Friendly Sno" title="Beginner Supporter">
+	<npc id="116" name="Snow" title="Newbie Supporter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -744,7 +744,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="117" name="Friendly Sno" title="Beginner Supporter">
+	<npc id="117" name="Snow" title="Newbie Supporter">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1045,7 +1045,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="124" name="Peace Lamp" title="">
+	<npc id="124" name="Comfort Sky Lantern" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1260,7 +1260,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="129" name="White-Bearded Santa" title="Happy Holidays~">
+	<npc id="129" name="White-Bearded Santa" title="Happy Holidays">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1346,7 +1346,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="131" name="Jetbike" title="">
+	<npc id="131" name="Jet Bike" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1649,7 +1649,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="138" name="Jetbike" title="">
+	<npc id="138" name="Jet Bike" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1958,7 +1958,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="145" name="Totem of Bravery" title="">
+	<npc id="145" name="Totem of Courage" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="TotemSummon"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2095,7 +2095,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="148" name="Fire" title="">
+	<npc id="148" name="Campfire" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2605,7 +2605,7 @@
         <set name="texture" value=""/>
         <set name="type" value="Npc"/>
     </npc>
-    <npc id="160" name="Black Bear" title="">
+	<npc id="160" name="Black Bear" title="">
         <!-- TODO: NEW NPC (AUTOGENERATED!) -->
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
@@ -2642,7 +2642,7 @@
         <set name="texture" value=""/>
         <set name="type" value="Npc"/>
     </npc>
-    <npc id="161" name="Halloween Witch's Broomstick" title="">
+	<npc id="161" name="Halloween Witch's Broomstick" title="">
         <!-- TODO: NEW NPC (AUTOGENERATED!) -->
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>

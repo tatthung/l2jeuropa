@@ -1410,7 +1410,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="27325" name="Archon of Halisha" title="Quest Monster">
+	<npc id="27325" name="Halisha's Archon" title="Quest Monster">
 		<set name="aggroRange" value="150"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1638,7 +1638,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="27329" name="Archon of Halisha" title="Quest Monster">
+	<npc id="27329" name="Halisha's Archon" title="Quest Monster">
 		<set name="aggroRange" value="150"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1809,7 +1809,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="27334" name="Archon of Halisha" title="Quest Monster">
+	<npc id="27334" name="Halisha's Archon" title="Quest Monster">
 		<set name="aggroRange" value="150"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2537,7 +2537,7 @@
 			<defence attribute="unholy" value="120"/>
 		</attributes>
 	</npc>
-	<npc id="27347" name="Guard of the Dawn Oracle" title="">
+	<npc id="27347" name="Guard of the Oracle of Dawn" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2593,7 +2593,7 @@
 			<defence attribute="unholy" value="90"/>
 		</attributes>
 	</npc>
-	<npc id="27348" name="Guard of the Dawn Oracle" title="">
+	<npc id="27348" name="Guard of the Oracle of Dawn" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="80"/>
@@ -2649,7 +2649,7 @@
 			<defence attribute="unholy" value="90"/>
 		</attributes>
 	</npc>
-	<npc id="27349" name="Guard of the Dawn Oracle" title="">
+	<npc id="27349" name="Guard of the Oracle of Dawn" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2705,7 +2705,7 @@
 			<defence attribute="unholy" value="90"/>
 		</attributes>
 	</npc>
-	<npc id="27350" name="Guard of the Dawn Oracle" title="">
+	<npc id="27350" name="Guard of the Oracle of Dawn" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2817,7 +2817,7 @@
 			<defence attribute="unholy" value="90"/>
 		</attributes>
 	</npc>
-	<npc id="27352" name="Guard of the Dawn Oracle" title="">
+	<npc id="27352" name="Guard of the Oracle of Dawn" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4368,7 +4368,7 @@
 			<defence attribute="unholy" value="120"/>
 		</attributes>
 	</npc>
-	<npc id="27380" name="Reckless Sprite of Water" title="Quest Monster">
+	<npc id="27380" name="Reckless Water Spirit" title="Quest Monster">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4423,7 +4423,7 @@
 			<defence attribute="unholy" value="65"/>
 		</attributes>
 	</npc>
-	<npc id="27381" name="Reckless Sprite of Air" title="Quest Monster">
+	<npc id="27381" name="Reckless Wind Spirit" title="Quest Monster">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4697,7 +4697,7 @@
 			<defence attribute="unholy" value="200"/>
 		</attributes>
 	</npc>
-	<npc id="27386" name="Lilith's Agent" title="">
+	<npc id="27386" name="Lilith' Agent" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4754,7 +4754,7 @@
 			<defence attribute="unholy" value="200"/>
 		</attributes>
 	</npc>
-	<npc id="27387" name="Lilith's Escort" title="">
+	<npc id="27387" name="Lilith' Escort" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4816,7 +4816,7 @@
 			<defence attribute="unholy" value="200"/>
 		</attributes>
 	</npc>
-	<npc id="27388" name="Anakim" title="Raid Boss">
+	<npc id="27388" name="Anakim" title="Flames of Sacred Fire">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4928,7 +4928,7 @@
 			<defence attribute="unholy" value="120"/>
 		</attributes>
 	</npc>
-	<npc id="27390" name="Anakim's Guard" title="">
+	<npc id="27390" name="Anakim's Royal Guard" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>

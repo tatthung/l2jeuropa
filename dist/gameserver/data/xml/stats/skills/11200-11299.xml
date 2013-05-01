@@ -64,7 +64,7 @@
 		<for/>
 	</skill>
     <skill id="11247" levels="1" name="Feoh Wizard Chain Air Blow">
-    		<!-- Inflicts a powerful blow on the target. -->
+    <!-- Inflicts a powerful blow on the target. -->
 		<set name="reuseDelay" val="10000"/>
 		<set name="hitTime" val="2000"/>
 		<set name="mpConsume2" val="40"/>
@@ -75,7 +75,7 @@
 		<set name="skillType" val="MDAM"/>
 		<set name="isMagic" val="true"/>
 		<set name="target" val="TARGET_ONE"/>
-		<set name="overHit" val="true"/>&gt;
+		<set name="overHit" val="true"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="nextAction" val="attack"/>
 		<set name="isSkillTimePermanent" val="true"/>
@@ -100,15 +100,15 @@
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="levelModifier" val="1"/>
         <set name="nextAction" val="attack"/>
-	<set name="isSkillTimePermanent" val="true"/>
-	<set name="isAlterSkill" val="true"/>
+		<set name="isSkillTimePermanent" val="true"/>
+		<set name="isAlterSkill" val="true"/>
         <for>
             <effect count="1" name="Stun" stackOrder="-1" stackType="Stun" time="#time" val="0">
             </effect>
         </for>
     </skill>
     <skill id="11249" levels="1" name="Feoh Chain Knock Blow">
-    		<!-- Inflicts a powerful blow on the target. -->
+    <!-- Inflicts a powerful blow on the target. -->
 		<set name="reuseDelay" val="10000"/>
 		<set name="hitTime" val="2000"/>
 		<set name="mpConsume2" val="40"/>
@@ -119,7 +119,7 @@
 		<set name="skillType" val="MDAM"/>
 		<set name="isMagic" val="true"/>
 		<set name="target" val="TARGET_ONE"/>
-		<set name="overHit" val="true"/>&gt;
+		<set name="overHit" val="true"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="nextAction" val="attack"/>
 		<set name="isSkillTimePermanent" val="true"/>
@@ -144,8 +144,8 @@
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="levelModifier" val="1"/>
         <set name="nextAction" val="attack"/>
-	<set name="isSkillTimePermanent" val="true"/>
-	<set name="isAlterSkill" val="true"/>
+		<set name="isSkillTimePermanent" val="true"/>
+		<set name="isAlterSkill" val="true"/>
         <for>
             <effect count="1" name="Stun" stackOrder="-1" stackType="Stun" time="#time" val="0">
             </effect>
@@ -261,6 +261,7 @@
         <table name="#lifeTime">3600 3600 3600 3600 3600 3600 3600 3600</table>
         <table name="#magicLevel">85 86 87 88 89 90 91 92</table>
         <table name="#mpConsume2">351 361 376 391 406 421 436 456</table>
+        <table name="#npcIds">14947 14948 14949 14950 14951 14952 14953 14971</table>
         <set name="mpConsume2" val="#mpConsume2"/>
         <set name="reuseDelay" val="5000"/>
         <set name="hitTime" val="3800"/>
@@ -271,7 +272,6 @@
         <set name="target" val="TARGET_SELF"/>
         <set name="skillType" val="SUMMON"/>
         <set name="operateType" val="OP_ACTIVE"/>
-        <table name="#npcIds">14947 14948 14949 14950 14951 14952 14953 14971</table>
         <set name="npcId" val="#npcIds"/>
         <enchant1 levels="10" name="Power">
             <table name="#npcIds">15022 15023 15024 15025 15026 15027 15028 15029 15030 15031</table>
@@ -356,11 +356,17 @@
             <table name="#activateRate">53 56 59 62 65 68 71 74 77 80</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant2>
-        <enchant3 levels="10" name="Recycle">
+        <enchant3 levels="10" name="Chance Exile">
+            <table name="#DOT">295 297 299 301 303 304 306 308 310 311</table>
+			<!--TODO-->
+            <!--<table name="#chanceExile"></table>-->
+            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+        </enchant3>
+        <enchant4 levels="10" name="Recycle" enchRoute="9">
             <table name="#DOT">295 297 299 301 303 304 306 308 310 311</table>
             <table name="#reuseDelay">29000 28000 27000 26000 25000 24000 23000 22000 21000 21000</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant3>
+        </enchant4>
 		<for>
 			<effect count="10" name="DamOverTime" time="1" val="#DOT" stackOrder="7" abnormal="poison">
 				<mul order="0x30" stat="debuffResist" val="5"/>
@@ -399,11 +405,17 @@
             <table name="#activateRate">53 56 59 62 65 68 71 74 77 80</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant2>
-        <enchant3 levels="10" name="Recycle">
+        <enchant3 levels="10" name="Chance Exile">
+            <table name="#DOT">369 372 374 376 378 381 383 385 387 389</table>
+			<!--TODO-->
+            <!--<table name="#chanceExile"></table>-->
+            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+        </enchant3>
+        <enchant4 levels="10" name="Recycle" enchRoute="9">
             <table name="#DOT">369 372 374 376 378 381 383 385 387 389</table>
             <table name="#reuseDelay">58000 56000 54000 52000 51000 49000 47000 45000 43000 42000</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant3>
+        </enchant4>
 		<for>
 			<effect count="4" name="DamOverTime" time="1" val="#DOT" abnormal="bleeding"/>
 		</for>
@@ -438,11 +450,17 @@
             <table name="#DOT">406 409 411 414 416 419 421 423 426 428</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant2>
-        <enchant3 levels="10" name="Recycle">
+        <enchant3 levels="10" name="Chance Exile">
+            <table name="#DOT">406 409 411 414 416 419 421 423 426 428</table>
+			<!--TODO-->
+            <!--<table name="#chanceExile"></table>-->
+            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+        </enchant3>
+        <enchant4 levels="10" name="Recycle" enchRoute="9">
             <table name="#DOT">406 409 411 414 416 419 421 423 426 428</table>
             <table name="#reuseDelay">29000 28000 27000 26000 25000 24000 23000 22000 21000 21000</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant3>
+        </enchant4>
 		<for>
 			<effect count="15" name="DamOverTime" time="1" val="#DOT" stackOrder="7" abnormal="poison"/>
 		</for>
@@ -476,11 +494,17 @@
 			<table name="#activateRate">53 56 59 62 65 68 71 74 77 80</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant2>
-        <enchant3 levels="10" name="Recycle">
+        <enchant3 levels="10" name="Chance Exile">
+            <table name="#DOT">332 334 336 338 340 342 344 346 348 350</table>
+			<!--TODO-->
+            <!--<table name="#chanceExile"></table>-->
+            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+        </enchant3>
+        <enchant4 levels="10" name="Recycle" enchRoute="9">
             <table name="#DOT">332 334 336 338 340 342 344 346 348 350</table>
             <table name="#reuseDelay">29000 28000 27000 26000 25000 24000 23000 22000 21000 21000</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant3>
+        </enchant4>
 		<for>
 			<effect count="5" name="DamOverTime" time="1" val="#DOT" stackOrder="7" abnormal="poison"/>
 			<effect name="Mute" time="5" val="0" stackOrder="1" stackType="silence"/>
@@ -488,83 +512,83 @@
 	</skill>
     <skill id="11263" levels="7" name="Invoke">
    <!-- Calls forth the fist of a Giant from the outer world to inflict powerful damage on the target and nearby enemies with 147 power. -->
-  <table name="#power">147 151 156 160 164 168 172</table>
-  <table name="#magicLevel">85 86 87 88 89 90 91</table>
-  <table name="#mpConsume2">227 230 235 240 247 255 270</table>
-        <table name="#powerPvP">0</table>
-        <set name="powerPvP" val="#powerPvP"/>
-  <set name="reuseDelay" val="30000"/>
-  <set name="hitTime" val="1500"/>
-  <set name="mpConsume2" val="#mpConsume2"/>
-  <set name="castRange" val="600"/>
-  <set name="magicLevel" val="#magicLevel"/>
-  <set name="levelModifier" val="2"/>
-  <set name="power" val="#power"/>
-        <set name="target" val="TARGET_MULTIFACE"/>
-  <set name="skillRadius" val="200"/>
-  <set name="skillType" val="MDAM"/>
-  <set name="operateType" val="OP_ACTIVE"/>
-  <set name="criticalRate" val="10"/>
-  <set name="effectPoint" val="679"/>
-  <set name="overHit" val="true"/>
-  <set name="shieldignore" val="true"/>
-  <table name="#elementPower">0</table>
-  <table name="#element">none</table>
-  <set name="elementPower" val="#elementPower"/>
-  <set name="element" val="#element"/>
-        <enchant1 levels="10" name="Cost">
-            <table name="#power">380 386 391 397 402 408 413 419 424 430</table>
-            <table name="#mpConsume2">273 262 250 239 228 216 205 193 182 171</table>
-            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant1>
-        <enchant2 name="Duel">
-            <table name="#power">380 386 391 397 402 408 413 419 424 430</table>
-            <table name="#powerPvP">380 386 391 397 402 408 413 419 424 430</table>
-            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant2>
-        <enchant3 name="Fire Attack">
-            <table name="#element">fire</table>
-            <table name="#power">380 386 391 397 402 408 413 419 424 430</table>
-            <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
-            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant3>
-        <enchant4 name="Water Attack">
-            <table name="#element">water</table>
-            <table name="#power">380 386 391 397 402 408 413 419 424 430</table>
-            <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
-            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant4>
-        <enchant5 name="Wind Attack">
-            <table name="#element">wind</table>
-            <table name="#power">380 386 391 397 402 408 413 419 424 430</table>
-            <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
-            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant5>
-        <enchant6 name="Earth Attack">
-            <table name="#element">earth</table>
-            <table name="#power">380 386 391 397 402 408 413 419 424 430</table>
-            <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
-            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant6>
-        <enchant7 name="Holy Attack">
-            <table name="#element">holy</table>
-            <table name="#power">380 386 391 397 402 408 413 419 424 430</table>
-            <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
-            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant7>
-        <enchant8 name="Dark Attack">
-            <table name="#element">unholy</table>
-            <table name="#power">380 386 391 397 402 408 413 419 424 430</table>
-            <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
-            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant8>
-        <enchant9 levels="10" name="Recycle">
-            <table name="#power">380 386 391 397 402 408 413 419 424 430</table>
-            <table name="#reuseDelay">14000 14000 13000 13000 12000 12000 11000 11000 10000 10000</table>
-            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
-        </enchant9>
-  <for/>
- </skill>
+		<table name="#power">147 151 156 160 164 168 172</table>
+		<table name="#magicLevel">85 86 87 88 89 90 91</table>
+		<table name="#mpConsume2">227 230 235 240 247 255 270</table>
+		<table name="#powerPvP">0</table>
+		<table name="#elementPower">0</table>
+		<table name="#element">none</table>
+		<set name="powerPvP" val="#powerPvP"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="hitTime" val="1500"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="castRange" val="600"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="levelModifier" val="2"/>
+		<set name="power" val="#power"/>
+		<set name="target" val="TARGET_MULTIFACE"/>
+		<set name="skillRadius" val="200"/>
+		<set name="skillType" val="MDAM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="criticalRate" val="10"/>
+		<set name="effectPoint" val="679"/>
+		<set name="overHit" val="true"/>
+		<set name="shieldignore" val="true"/>
+		<set name="elementPower" val="#elementPower"/>
+		<set name="element" val="#element"/>
+		<enchant1 levels="10" name="Cost">
+			<table name="#power">380 386 391 397 402 408 413 419 424 430</table>
+			<table name="#mpConsume2">273 262 250 239 228 216 205 193 182 171</table>
+			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant1>
+		<enchant2 name="Duel">
+			<table name="#power">380 386 391 397 402 408 413 419 424 430</table>
+			<table name="#powerPvP">380 386 391 397 402 408 413 419 424 430</table>
+			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant2>
+		<enchant3 name="Fire Attack">
+			<table name="#element">fire</table>
+			<table name="#power">380 386 391 397 402 408 413 419 424 430</table>
+			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
+			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant3>
+		<enchant4 name="Water Attack">
+			<table name="#element">water</table>
+			<table name="#power">380 386 391 397 402 408 413 419 424 430</table>
+			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
+			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant4>
+		<enchant5 name="Wind Attack">
+			<table name="#element">wind</table>
+			<table name="#power">380 386 391 397 402 408 413 419 424 430</table>
+			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
+			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant5>
+		<enchant6 name="Earth Attack">
+			<table name="#element">earth</table>
+			<table name="#power">380 386 391 397 402 408 413 419 424 430</table>
+			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
+			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant6>
+		<enchant7 name="Holy Attack">
+			<table name="#element">holy</table>
+			<table name="#power">380 386 391 397 402 408 413 419 424 430</table>
+			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
+			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant7>
+		<enchant8 name="Dark Attack">
+			<table name="#element">unholy</table>
+			<table name="#power">380 386 391 397 402 408 413 419 424 430</table>
+			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
+			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant8>
+		<enchant9 levels="10" name="Recycle">
+			<table name="#power">380 386 391 397 402 408 413 419 424 430</table>
+			<table name="#reuseDelay">14000 14000 13000 13000 12000 12000 11000 11000 10000 10000</table>
+			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant9>
+		<for/>
+	</skill>
     <skill id="11264" levels="4" name="Strong Will">
     <!-- Consumes HP to regenerate MP by 200. Also cancels all debuffs. -->
 		<table name="#hpConsume">209 280 318 366</table>
@@ -581,6 +605,14 @@
 		<set name="skillType" val="MANAHEAL"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="relationSkillsId" val="1383;1384;1385;"/>
+		<enchant1 levels="10" name="Cost">
+			<table name="#hpConsume">366 366 366 366 366 366 366 366 366 366</table> <!--TODO: check correct hp value-->
+			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant1>
+		<enchant2 levels="10" name="Power">
+			<table name="#power">235 240 245 250 255 260 265 270 275 280</table>
+			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant2>
 	</skill>
     <skill id="11265" levels="1" name="Summon Team Mate">
     <!-- Summons the selected party member to your location. -->
@@ -598,18 +630,18 @@
 		<for/>
 	</skill>
 	<skill id="11266" levels="1" name="Summon Death Gate">
-<!-- Summons a Death Gate. The summoned Death Gate continuously inflicts damage and Hold on nearby enemies. -->
-  <set name="lifeTime" val="30"/> <!-- Need Retail LifeTime -->
-  <set name="target" val="TARGET_GROUND"/>
-  <set name="relationSkillsId" val="48;452;497;260;477;95"/>
-  <set name="skillType" val="SUMMON"/>
-  <set name="summonType" val="TREE"/>
-  <set name="isMagic" val="true"/>
-  <set name="magicLevel" val="99"/>
-  <set name="operateType" val="OP_ACTIVE"/>
-  <set name="addSkills" val="11289;1"/>
-  <set name="npcId" val="14927"/>
- </skill>
+		<!-- Summons a Death Gate. The summoned Death Gate continuously inflicts damage and Hold on nearby enemies. -->
+		<set name="lifeTime" val="30"/> <!-- Need Retail LifeTime -->
+		<set name="target" val="TARGET_GROUND"/>
+		<set name="relationSkillsId" val="48;452;497;260;477;95"/>
+		<set name="skillType" val="SUMMON"/>
+		<set name="summonType" val="TREE"/>
+		<set name="isMagic" val="true"/>
+		<set name="magicLevel" val="99"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="addSkills" val="11289;1"/>
+		<set name="npcId" val="14927"/>
+	</skill>
 	<skill id="11267" levels="3" name="Spirit of Nabiarov">
     <!-- Transform into Nabiarov and use his powerful skills for 5 minutes. -->
 		<set name="magicType" val="SPECIAL"/>
@@ -624,6 +656,11 @@
 		<set name="npcId" val="#npc"/>
 		<set name="isCommon" val="true"/>
 		<set name="operateType" val="OP_ACTIVE"/>
+		<enchant1 levels="10" name="Cost"/>
+		<enchant2 levels="10" name="Time">
+			<table name="#time">600 600 600 600 600 600 600 600 600 600</table> <!--TODO: check retail time value-->
+			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant2>
 		<for>
 			<effect count="1" name="Transformation" time="#time" val="509"/>
 		</for>
@@ -651,19 +688,28 @@
 			</effect>
 		</for>
 	</skill>
-    <skill id="11269" levels="3" name="Mana Sharing">
+    <skill id="11269" levels="4" name="Mana Sharing">
     <!-- Consumes your MP to recover other party members' MP. -->
-	    <table name="#pwr">1510 1490 1460</table>
-        <table name="#magicLevel">85 86 87</table>
+	    <table name="#power">1510 1490 1460 1460</table> <!--TODO: check lvl4 value-->
+		<!--TODO: table mpConsume-->
+        <table name="#magicLevel">85 90 95 99</table>
 		<set name="reuseDelay" val="120000"/>
 		<set name="hitTime" val="5000"/>
         <set name="magicLevel" val="#magicLevel"/>
-		<set name="power" val="#pwr"/>
+		<set name="power" val="#power"/>
 		<set name="target" val="TARGET_PARTY"/>
 		<set name="relationSkillsId" val="1126;"/> 
 		<set name="skillType" val="MANAHEAL"/>
 		<set name="isMagic" val="true"/>
 		<set name="operateType" val="OP_ACTIVE"/>
+		<enchant1 levels="10" name="Cost">
+			<!--TODO-->
+			<!--<table name="mpconsume"></table>-->
+		</enchant1>
+		<enchant2 levels="10" name="Power">
+			<!--TODO-->
+			<!--<table name="mpconsume"></table>-->
+		</enchant2>
    </skill>
     <skill id="11270" levels="4" name="Ultimate Transfer Pain">
     <!-- Transfers 70% of the damage received to your first summoned servitor. MP is continuously consumed according to your level. -->
@@ -749,12 +795,18 @@
 	</skill>
     <skill id="11272" levels="1" name="Replace">
     <!-- Switches locations with the target servitor. -->
-	   <set name="magicLevel" val="97"/>
-       <set name="operateType" val="OP_ACTIVE"/>
-       <set name="skillType" val="REPLACE"/>
-       <set name="target" val="TARGET_ONE"/>
-	   <set name="skillRadius" val="600"/>
-       <for/>
+		<table name="#radius">600</table>
+		<set name="magicLevel" val="97"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="skillType" val="REPLACE"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillRadius" val="#radius"/>
+		<enchant1 levels="10" name="Cost"/>
+		<enchant2 levels="10" name="Distance">
+			<table name="#radius">610 620 630 640 650 660 670 680 690 700</table> <!--Non-Retail Value, Must Be Checked-->
+            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant2>
+		<for/>
    </skill>
     <skill id="11273" levels="5" name="Exile">
     <!-- Banishes the target to another dimension. The exiled target becomes incapacitated and invincible to some attacks, skills, and debuffs. Decreases by 353 per second. -->
@@ -786,7 +838,7 @@
 		    <table name="#activateRate">53 56 59 62 65 68 71 74 77 80</table>
 		    <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant2>
-		<enchant3 levels="10" name="Recycle">
+		<enchant3 levels="10" name="Recycle" enchRoute="9">
 		    <table name="#power">406 410 413 417 420 424 427 431 434 438</table>
 		    <table name="#reuseDelay">58000 56000 54000 52000 51000 49000 47000 45000 43000 42000</table>
 		    <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
@@ -802,6 +854,8 @@
         <table name="#magicLevel">85 90 95 99</table>
         <table name="#time">10</table>
         <table name="#reuseDelay">300000</table>
+		<table name="#healhp">0</table>
+		<table name="#healmp">0</table>
         <set name="hitTime" val="1700"/>
         <set name="reuseDelay" val="#reuseDelay"/>
         <set name="magicLvl" val="#magicLevel"/>
@@ -820,14 +874,30 @@
             <table name="#time">11 12 13 14 15 16 17 18 19 20</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant2>
-        <enchant3 levels="10" name="Recycle">
-            <table name="#reuseDelay">291000 282000 273000 264000 255000 246000 237000 228000 219000 210000</table>
+        <enchant3 levels="10" name="Wind Walk">
+			<!--TODO: add runspeed to the effet-->
+            <!--<table name="#runspd">11 12 13 14 15 16 17 18 19 20</table>-->
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant3>
+        <enchant4 levels="10" name="Power HP">
+			<table name="#healhp">1 2 3 4 5 6 7 8 9 10</table>
+            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+        </enchant4>
+        <enchant5 levels="10" name="Power MP">
+			<table name="#healmp">1 2 3 4 5 6 7 8 9 10</table>
+            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+        </enchant5>
+        <enchant6 levels="10" name="Recycle" enchRoute="9">
+            <table name="#reuseDelay">291000 282000 273000 264000 255000 246000 237000 228000 219000 210000</table>
+            <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+        </enchant6>
         <for>
             <effect abnormal="invul2" count="1" name="Invulnerable" stackOrder="-1" stackType="Invulnerable" time="#time" val="0" cancelOnAction="true">
                 <mul order="0x30" stat="regHp" val="1.2"/>
             </effect>
+			<effect count="1" name="HealPercent" time="0" val="#healhp"/>
+			<!--TODO HealMPPercent-->
+			<!--<effect count="1" name="HealMPPercent" time="0" val="#healmp"/>-->
         </for>
    </skill>
     <skill id="11275" levels="2" name="Mark Flare">
@@ -842,6 +912,8 @@
     <!-- Raises the target in the air and binds it to another dimension. -->
 		<table name="#magicLevel">85 86 87</table>
 		<table name="#mpConsume2">90</table>
+		<table name="#pdef">1</table>
+		<table name="#mdef">1</table>
 		<set name="reuseDelay" val="300000"/>
 		<set name="hitTime" val="10000"/>
 		<set name="mpConsume2" val="#mpConsume2"/>		
@@ -859,12 +931,23 @@
 		    <table name="#mpConsume2">89 85 81 78 74 70 66 63 59 55</table>
 		    <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant1>
-		<enchant2 levels="10" name="Recycle">
-		    <table name="#reuseDelay">291000 282000 273000 264000 255000 246000 237000 228000 219000 210000</table>
+		<enchant2 levels="10" name="Hex">
+			<table name="#pdef">.99 .98 .97 .96 .95 .94 .93 .92 .91 .9</table>
 		    <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant2>
+		<enchant3 levels="10" name="Magic Defense">
+			<table name="#mdef">.99 .98 .97 .96 .95 .94 .93 .92 .91 .9</table>
+		    <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant3>
+		<enchant4 levels="10" name="Recycle" enchRoute="9">
+		    <table name="#reuseDelay">291000 282000 273000 264000 255000 246000 237000 228000 219000 210000</table>
+		    <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
+		</enchant4>
 		<for>
-			<effect name="HellBinding" time="10" val="0" stackType="paralyze" stackOrder="1"/>
+			<effect name="HellBinding" time="10" val="0" stackType="paralyze" stackOrder="1">
+				<mul order="0x30" stat="pDef" val="#pdef"/>
+				<mul order="0x30" stat="mDef" val="#mdef"/>
+			</effect>
 		</for>
 	</skill>
     <skill id="11277" levels="1" name="Sense of Royalty">
@@ -1217,8 +1300,8 @@
    </skill>
     <skill id="11295" levels="1" name="Superior Light Armor Mastery">
     <!-- INT + 2. Max HP + 4151 and P. Def. + 132 when equipped with a Light Armor. -->
+        <table name="#pDef">132</table>
 		<set name="magicLevel" val="85"/>
-        	<table name="#pDef">132</table>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="operateType" val="OP_PASSIVE"/>
@@ -1242,7 +1325,7 @@
 		<table name="#magicLevel">85 86 87</table>
 		<table name="#activateRate">40</table>
 		<table name="#mpConsume2">120 125 130 135 138 140</table>
-		<table name="#dotDamage">564 576 592 610 626 644</table>
+		<table name="#dotDamage">282 288 296 305 313 322</table>
 		<set name="reuseDelay" val="300000"/>
 		<set name="hitTime" val="3000"/>
 		<set name="mpConsume2" val="#mpConsume2"/>		
@@ -1254,6 +1337,20 @@
 		<set name="skillType" val="DEBUFF"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="nextAction" val="attack"/>
+		<enchant1 levels="10" name="Cost">
+			<table name="#dotDamage">325 328 330 333 336 339 342 345 347 350</table>
+            <table name="#magicLevel">93 93 94 94 95 95 96 97 98 99</table>
+		</enchant1>
+		<enchant2 levels="10" name="Chance">
+			<!--TODO: chance bonus-->
+			<table name="#dotDamage">325 328 330 333 336 339 342 345 347 350</table>
+            <table name="#magicLevel">93 93 94 94 95 95 96 97 98 99</table>
+		</enchant2>
+		<enchant3 levels="10" name="Recycle" enchRoute="9">
+			<!--TODO: cooldown reduce-->
+			<table name="#dotDamage">325 328 330 333 336 339 342 345 347 350</table>
+            <table name="#magicLevel">93 93 94 94 95 95 96 97 98 99</table>
+		</enchant3>
 		<for>
 			<effect name="Paralyze" stackType="Exile" stackOrder="1" time="10" abnormal="s_56"/>
 		</for>
@@ -1283,7 +1380,7 @@
             <table name="#time">1980 2160 2340 2520 2700 2880 3060 3240 3420 3600</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant2>
-        <enchant3 levels="10" name="Recycle">
+        <enchant3 levels="10" name="Recycle" enchRoute="9">
             <table name="#reuseDelay">58000 56000 54000 52000 51000 49000 47000 45000 43000 42000</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant3>
@@ -1302,11 +1399,14 @@
    </skill>
 	<skill id="11298" levels="8" name="Mark of Fire">
     <!-- Carves a burning mark on the target to inflict damage with 168 power. -->
-		<table name="#mAtk">168 170 175 180 185 189 194 199</table>
 		<table name="#effectPoint">566 582 597 611 624 635 646 655</table>
 		<table name="#magicLevel">85 86 87 88 89 90 91 92</table>
 		<table name="#activateRate">80</table>
 		<table name="#mpConsume2">70 75 80 85 88 90 95 99</table>
+		<table name="#power">168 170 175 180 185 189 194 199</table>
+		<table name="#powerPvP">0</table>
+        <table name="#element">none</table>
+        <table name="#elementPower">0</table>
 		<set name="reuseDelay" val="5000"/>
 		<set name="hitTime" val="3360"/>
 		<set name="mpConsume2" val="#mpConsume2"/>		
@@ -1315,12 +1415,60 @@
 		<set name="magicLevel" val="#magicLevel"/>
         <set name="effectPoint" val="#effectPoint"/>        
 		<set name="activateRate" val="#activateRate"/>
-		<set name="power" val="#mAtk"/>
+		<set name="power" val="#power"/>
+		<set name="powerPvP" val="#powerPvP"/>
+        <set name="elementPower" val="#elementPower"/>
+        <set name="element" val="#element"/>
 		<set name="save" val="3"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="MDAM"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="levelModifier" val="2"/>
+		<enchant1 levels="10" name="Cost">
+			<table name="#power">204 207 209 212 214 216 219 221 224 226</table>
+            <table name="#magicLevel">93 93 94 94 95 95 96 97 98 99</table>
+		</enchant1>
+		<enchant2 levels="10" name="Duel">
+			<table name="#power">204 207 209 212 214 216 219 221 224 226</table>
+			<table name="#powerPvP">204 207 209 212 214 216 219 221 224 226</table>
+            <table name="#magicLevel">93 93 94 94 95 95 96 97 98 99</table>
+		</enchant2>
+		<enchant3 levels="10" name="Fire Attack">
+            <table name="#element">fire</table>
+            <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
+			<table name="#power">204 207 209 212 214 216 219 221 224 226</table>
+            <table name="#magicLevel">93 93 94 94 95 95 96 97 98 99</table>
+		</enchant3>
+		<enchant4 levels="10" name="Water Attack">
+            <table name="#element">water</table>
+            <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
+			<table name="#power">204 207 209 212 214 216 219 221 224 226</table>
+            <table name="#magicLevel">93 93 94 94 95 95 96 97 98 99</table>
+		</enchant4>
+		<enchant5 levels="10" name="Wind Attack">
+            <table name="#element">wind</table>
+            <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
+			<table name="#power">204 207 209 212 214 216 219 221 224 226</table>
+            <table name="#magicLevel">93 93 94 94 95 95 96 97 98 99</table>
+		</enchant5>
+		<enchant6 levels="10" name="Earth Attack">
+            <table name="#element">earth</table>
+            <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
+			<table name="#power">204 207 209 212 214 216 219 221 224 226</table>
+            <table name="#magicLevel">93 93 94 94 95 95 96 97 98 99</table>
+		</enchant6>
+		<enchant7 levels="10" name="Holy Attack">
+            <table name="#element">holy</table>
+            <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
+			<table name="#power">204 207 209 212 214 216 219 221 224 226</table>
+            <table name="#magicLevel">93 93 94 94 95 95 96 97 98 99</table>
+		</enchant7>
+		<enchant8 levels="10" name="Dark Attack">
+            <table name="#element">unholy</table>
+            <table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
+			<table name="#power">204 207 209 212 214 216 219 221 224 226</table>
+            <table name="#magicLevel">93 93 94 94 95 95 96 97 98 99</table>
+		</enchant8>
 		<for>
 			<effect count="1" name="Debuff" stackOrder="4" stackType="Debuff" time="30" val="0"/>
 		</for>
@@ -1338,5 +1486,6 @@
 		<set name="isMagic" val="true"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="aggroPoints" val="398"/>
+		<enchant1 levels="10" name="Cost"/>
    </skill>
 </list>

@@ -255,7 +255,7 @@
 		</rewardlist>
 	</npc>
 	<!--ru name: Хранитель Грааля-->
-	<npc id="25702" name="Guard of the Grail" title="">
+	<npc id="25702" name="Guardian of the Grail" title="">
 		<!--Base character specific-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
@@ -3079,7 +3079,7 @@
 	</npc>
 	<!--ru title: Поборник Кимериана-->
 	<!--ru name: Терзатель Фей-->
-	<npc id="25736" name="Fairy Slasher" title="Faithful Servant">
+	<npc id="25736" name="Fairy Rogue" title="Faithful Servant">
 		<!--Base character specific-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
@@ -3443,7 +3443,7 @@
 	</npc>
 	<!--ru title: Поборник Кимериана-->
 	<!--ru name: Защитник Трикина-->
-	<npc id="25741" name="Trichin Defender" title="Faithful Servant">
+	<npc id="25741" name="Treekin Defender" title="Faithful Servant">
 		<!--Base character specific-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
@@ -4029,7 +4029,7 @@
 	</npc>
 	<!--ru title: Поборник Кимериана-->
 	<!--ru name: Терзатель Фей-->
-	<npc id="25749" name="Fairy Slasher" title="Faithful Servant">
+	<npc id="25749" name="Fairy Rogue" title="Faithful Servant">
 		<!--Base character specific-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
@@ -4387,7 +4387,7 @@
 	</npc>
 	<!--ru title: Поборник Кимериана-->
 	<!--ru name: Защитник Трикина-->
-	<npc id="25754" name="Trichin Defender" title="Faithful Servant">
+	<npc id="25754" name="Treekin Defender" title="Faithful Servant">
 		<!--Base character specific-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
@@ -5738,8 +5738,6 @@
 			</group>
 		</rewardlist>
 	</npc>
-	<!--ru title: Рейдовый Босс-->
-	<!--ru name: Раджарос-->
 	<npc id="25770" name="Lazaros" title="Raid Boss">
 		<!--Base character specific-->
 		<set name="baseSTR" value="78"/>
@@ -5752,10 +5750,10 @@
 		<set name="baseMpMax" value="720.0"/>
 		<set name="baseHpReg" value="51.719"/>
 		<set name="baseMpReg" value="2.1"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="basePAtk" value="12971"/>
+		<set name="baseMAtk" value="5663"/>
+		<set name="basePDef" value="1341"/>
+		<set name="baseMDef" value="1250"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseShldDef" value="0"/>
@@ -5797,68 +5795,26 @@
 		<skill id="14757" level="1"/>
 		</skills>
 		<rewardlist type="RATED_GROUPED">
-			<group chance="65.292">
-				<!--Necklace of Seal-->
-				<reward item_id="119" min="1" max="1" chance="14.8393"/>
-				<!--Nassen's Earring-->
-				<reward item_id="855" min="1" max="1" chance="19.7857"/>
-				<!--Ring of Seal-->
-				<reward item_id="886" min="1" max="1" chance="29.6786"/>
-				<!--Necklace of Seal Chain-->
-				<reward item_id="1920" min="140" max="420" chance="3.9388"/>
-				<!--Nassen's Earring Gemstone-->
-				<reward item_id="1918" min="81" max="243" chance="8.6166"/>
-				<!--Ring of Seal Gemstone-->
-				<reward item_id="2917" min="40" max="120" chance="23.141"/>
+			<group chance="100.0">
+				<reward item_id="18189" min="1" max="1" chance="1.386"/>
+				<reward item_id="18199" min="1" max="1" chance="1.340"/>
+				<reward item_id="18187" min="1" max="1" chance="1"/>
+				<reward item_id="18191" min="1" max="1" chance="1"/>
+				<reward item_id="18198" min="1" max="1" chance="1"/>
+				<reward item_id="18192" min="1" max="1" chance="0.5"/>
 			</group>
-			<group chance="84.464">
-				<!--Eminence Bow-->
-				<reward item_id="286" min="1" max="1" chance="4.7573"/>
-				<!--Eminence Bow Shaft-->
-				<reward item_id="2121" min="3" max="9" chance="85.93218"/>
-				<!--Unidentified Seraph Gloves : Robe-->
-				<reward item_id="18199" min="1" max="1" chance="1.8434"/>
-				<!--Unidentified Seraph Boots : Heavy-->
-				<reward item_id="18189" min="1" max="1" chance="1.84103"/>
-				<!--Unidentified Seraph Leather Helmet : Light-->
-				<reward item_id="18191" min="1" max="1" chance="1.6954"/>
-				<!--Unidentified Seraph Gaiters : Heavy-->
-				<reward item_id="18187" min="1" max="1" chance="1.53794"/>
-				<!--Unidentified Seraph Stockings : Robe-->
-				<reward item_id="18198" min="1" max="1" chance="1.50479"/>
-				<!--Unidentified Seraph Leather Armor : Light-->
-				<reward item_id="18192" min="1" max="1" chance="0.88796"/>
-			</group>
-			<group chance="33.752">
-				<!--Scroll: Enchant Weapon of Destruction (C-Grade) : Event-->
-				<reward item_id="22227" min="1" max="2" chance="1.692"/>
-				<!--Scroll: Enchant Weapon of Destruction (B-Grade) : Event-->
-				<reward item_id="22225" min="1" max="2" chance="1.128"/>
-				<!--Scroll: Enchant Armor (R-Grade)-->
-				<reward item_id="17527" min="1" max="1" chance="61.15229"/>
-				<!--Water Crystal-->
-				<reward item_id="9553" min="1" max="1" chance="36.02771"/>
-			</group>
-			<group chance="87.0">
-				<!--Memento Mori-->
-				<reward item_id="9814" min="1" max="3" chance="100.0"/>
-			</group>
-			<group chance="87.0">
-				<!--Destruction Tombstone-->
-				<reward item_id="8176" min="1" max="1" chance="100.0"/>
+			<group chance="100.0">
+				<reward item_id="17527" min="1" max="1" chance="22.04"/>
+				<reward item_id="9553" min="1" max="1" chance="13.48"/>
 			</group>
 		</rewardlist>
 		<minions>
-			<!--Tomb Manager-->
 			<!--Noctum-->
 			<minion npc_id="25771" count="3"/>
-			<!--King of Merchants-->
 			<!--Harnak Ghost-->
 			<minion npc_id="25772" count="2"/>
 		</minions>
 	</npc>
-	<!--ru title: Смотритель могилы-->
-	<!--ru name: Накдум-->
 	<npc id="25771" name="Noctum" title="Tomb Manager">
 		<!--Base character specific-->
 		<set name="baseSTR" value="78"/>
@@ -5915,27 +5871,19 @@
 			<skill id="4416" level="6"/>
 		</skills>
 		<rewardlist type="RATED_GROUPED">
-			<group chance="13.703">
-				<!--Unidentified Immortal Earring-->
-				<reward item_id="18135" min="1" max="1" chance="48.06977"/>
-				<!--Unidentified Immortal Necklace-->
-				<reward item_id="18134" min="1" max="1" chance="35.51047"/>
-				<!--Unidentified Immortal Gaiters : Heavy-->
-				<reward item_id="18119" min="1" max="1" chance="5.47325"/>
-				<!--Unidentified Immortal Leather Armor : Light-->
-				<reward item_id="18124" min="1" max="1" chance="5.47325"/>
-				<!--Unidentified Immortal Stockings : Robe-->
-				<reward item_id="18130" min="1" max="1" chance="5.47325"/>
+			<group chance="100.0">
+				<reward item_id="18135" min="1" max="1" chance="6.840"/>
+				<reward item_id="18134" min="1" max="1" chance="5.067"/>
+				<reward item_id="18130" min="1" max="1" chance="1.240"/>
+				<reward item_id="18119" min="1" max="1" chance="1.204"/>
+				<reward item_id="18124" min="1" max="1" chance="1"/>
 			</group>
-			<group chance="0.75">
-				<!--Scroll: Enchant Weapon (R-Grade)-->
-				<reward item_id="17526" min="1" max="1" chance="100.0"/>
+			<group chance="100.0">
+				<reward item_id="17526" min="1" max="1" chance="1"/>
 			</group>
 		</rewardlist>
 	</npc>
-	<!--ru title: Король Высших Гигантов-->
-	<!--ru name: Призрак Харнака-->
-	<npc id="25772" name="Harnak Ghost" title="King of Merchants">
+	<npc id="25772" name="Harnak's Wraith" title="King of Merchants">
 		<!--Base character specific-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
@@ -5991,26 +5939,18 @@
 			<skill id="4416" level="6"/>
 		</skills>
 		<rewardlist type="RATED_GROUPED">
-			<group chance="12.086">
-				<!--Unidentified Immortal Gauntlet : Heavy-->
-				<reward item_id="18120" min="1" max="1" chance="22.5302"/>
-				<!--Unidentified Immortal Leather Boots : Light-->
-				<reward item_id="18127" min="1" max="1" chance="22.3399"/>
-				<!--Unidentified Immortal Circlet : Robe-->
-				<reward item_id="18128" min="1" max="1" chance="20.69336"/>
-				<!--Unidentified Immortal Tunic : Robe-->
-				<reward item_id="18129" min="1" max="1" chance="17.3672"/>
-				<!--Unidentified Immortal Breastplate : Heavy-->
-				<reward item_id="18118" min="1" max="1" chance="17.06934"/>
+			<group chance="100.0">
+				<reward item_id="18127" min="1" max="1" chance="4.955"/>
+				<reward item_id="18120" min="1" max="1" chance="4.912"/>
+				<reward item_id="18128" min="1" max="1" chance="3.331"/>
+				<reward item_id="18129" min="1" max="1" chance="2.806"/>
+				<reward item_id="18118" min="1" max="1" chance="2.715"/>
 			</group>
-			<group chance="1.02">
-				<!--Scroll: Enchant Weapon (R-Grade)-->
-				<reward item_id="17526" min="1" max="1" chance="100.0"/>
+			<group chance="100.0">
+				<reward item_id="17526" min="1" max="1" chance="1.180"/>
 			</group>
 		</rewardlist>
 	</npc>
-	<!--ru title: Проклятый Смотритель-->
-	<!--ru name: Демонический Накдум-->
 	<npc id="25773" name="Demonic Noctum" title="Cursed Manager">
 		<!--Base character specific-->
 		<set name="baseSTR" value="78"/>

@@ -816,7 +816,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35316" name="Neurath" title="Chamberlain">
+	<npc id="35316" name="Chamberlain of Light" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3150,7 +3150,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35363" name="Alfred" title="Chamberlain">
+	<npc id="35363" name="Chamberlain of Light" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>

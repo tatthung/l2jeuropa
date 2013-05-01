@@ -472,7 +472,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35509" name="Frederick" title="Chamberlain">
+	<npc id="35509" name="Chamberlain of Light" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2803,7 +2803,7 @@
 			<defence attribute="unholy" value="40"/>
 		</attributes>
 	</npc>
-	<npc id="35555" name="August" title="Chamberlain">
+	<npc id="35555" name="Chamberlain of Light" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4794,7 +4794,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="35596" name="Hot Springs Yeti" title="Maitre 'D">
+	<npc id="35596" name="Hot Spring Yeti" title="Maitre 'D">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="residences.clanhall.RainbowYeti"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4840,7 +4840,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="35597" name="Hot Springs Yeti" title="Maitre 'D">
+	<npc id="35597" name="Hot Spring Yeti" title="Maitre 'D">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="residences.clanhall.RainbowYeti"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4886,7 +4886,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="35598" name="Hot Springs Yeti" title="Maitre 'D">
+	<npc id="35598" name="Hot Spring Yeti" title="Maitre 'D">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="residences.clanhall.RainbowYeti"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4932,7 +4932,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="35599" name="Hot Springs Yeti" title="Maitre 'D">
+	<npc id="35599" name="Hot Spring Yeti" title="Maitre 'D">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="residences.clanhall.RainbowYeti"/>
 		<set name="baseAtkRange" value="40"/>

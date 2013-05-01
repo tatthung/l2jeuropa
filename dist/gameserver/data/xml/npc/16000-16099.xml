@@ -1294,7 +1294,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="16040" name="Red Twilight Strider" title="">
+	<npc id="16040" name="Red Strider of Dusk" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -2965,7 +2965,7 @@
 		</attributes>
 	</npc>
 	
-		<npc id="16080" name="Magmeld Fairy" title="">
+	<npc id="16080" name="Magmeld Fairy" title="">
 		<!--Need TODO-->
 		<set name="baseHpMax" value="2880.376"/>
 		<set name="baseMAtkSpd" value="333"/>

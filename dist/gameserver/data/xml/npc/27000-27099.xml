@@ -3172,7 +3172,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="27077" name="Unicorn Of Eva" title="Quest Monster">
+	<npc id="27077" name="Eva's Unicorn" title="Quest Monster">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Mystic"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3968,7 +3968,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="27095" name="Singing Flower of Phantasm" title="Quest Monster">
+	<npc id="27095" name="Apparition Singing Flower" title="Quest Monster">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>

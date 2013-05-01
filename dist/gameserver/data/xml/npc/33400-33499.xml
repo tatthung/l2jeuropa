@@ -41,7 +41,7 @@
             <set name="MyClassId" value="142"/>
         </ai_params>
     </npc>
-    <npc id="33401" name="Powerful Magic Damage Dealer" title="Feoh Wizard Awakening">
+	<npc id="33401" name="Powerful Magic Damage Dealer" title="Feoh Wizard Awakening">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -81,7 +81,7 @@
             <set name="MyClassId" value="143"/>
         </ai_params>
     </npc>
-    <npc id="33402" name="Powerful Magic Buffer" title="Iss Enchanter Awakening">
+	<npc id="33402" name="Powerful Magic Buffer" title="Iss Enchanter Awakening">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -121,7 +121,7 @@
             <set name="MyClassId" value="144"/>
         </ai_params>
     </npc>
-    <npc id="33403" name="Powerful Magic Summoner" title="Wynn Summoner Awakening">
+	<npc id="33403" name="Powerful Magic Summoner" title="Wynn Summoner Awakening">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -161,7 +161,7 @@
             <set name="MyClassId" value="145"/>
         </ai_params>
     </npc>
-    <npc id="33404" name="Powerful Magic Healer" title="Aeore Healer Awakening">
+	<npc id="33404" name="Powerful Magic Healer" title="Aeore Healer Awakening">
         <set name="aggroRange" value="0"/>
         <set name="ai_type" value="CharacterAI"/>
         <set name="baseAtkRange" value="40"/>
@@ -2015,7 +2015,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33442" name="Rash" title="Support Squad Lieutenant">
+	<npc id="33442" name="Rash" title="Support Troop Lieutenant">
 		<!--Need TODO-->
 		<set name="baseHpMax" value="2880.376"/>
 		<set name="baseMAtkSpd" value="333"/>
@@ -4363,7 +4363,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33490" name="Trandon" title="Subclass Certificate Center">
+	<npc id="33490" name="Trandon" title="Subclass/Dual Class Certificate Manager">
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseMAtkSpd" value="398"/>
 		<set name="basePAtkSpd" value="299"/>
@@ -4411,7 +4411,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33491" name="Raina" title="Subclass Master">
+	<npc id="33491" name="Raina" title="Subclass/Dual Class Master">
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseMAtkSpd" value="398"/>
 		<set name="basePAtkSpd" value="299"/>

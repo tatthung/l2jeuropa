@@ -3677,7 +3677,7 @@
 			<defence attribute="unholy" value="220"/>
 		</attributes>
 	</npc>
-	<npc id="29050" name="Breath of Halisha" title="">
+	<npc id="29050" name="Halisha's Breath" title="">
 		<set name="aggroRange" value="6000"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3743,7 +3743,7 @@
 			<defence attribute="unholy" value="300"/>
 		</attributes>
 	</npc>
-	<npc id="29051" name="Breath of Halisha" title="">
+	<npc id="29051" name="Halisha's Breath" title="">
 		<set name="aggroRange" value="6000"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4533,22 +4533,6 @@
 		<absorblist>
 			<absorb chance="5" min_level="11" max_level="14" type="PARTY_ONE"/>
 		</absorblist>
-		<rewardlist type="RATED_GROUPED">
-			<group chance="32.3398">
-				<reward item_id="6684" min="1" max="1" chance="5.2740"/>	<!--Sealed Major Arcana Robe-->
-				<reward item_id="6711" min="12" max="36" chance="94.7260"/>	<!--Sealed Major Arcana Robe Part-->
-			</group>
-			<group chance="24.4008">
-				<reward item_id="7575" min="1" max="1" chance="4.3049"/>	<!--Draconic Bow-->
-				<reward item_id="7579" min="12" max="36" chance="95.6951"/>	<!--Draconic Bow Shaft-->
-			</group>
-			<group chance="67.7535">
-				<reward item_id="8921" min="1" max="1" chance="47.2441"/>	<!--Demon Circlet-->
-				<reward item_id="959" min="1" max="1" chance="4.7244"/>	<!--Scroll: Enchant Weapon (S-Grade)-->
-				<reward item_id="960" min="1" max="1" chance="47.2441"/>	<!--Scroll: Enchant Armor (S-Grade)-->
-				<reward item_id="6577" min="1" max="1" chance="0.7874"/>	<!--Blessed Scroll: Enchant Weapon (S-Grade)-->
-			</group>
-		</rewardlist>
 		<attributes>
 			<defence attribute="fire" value="20"/>
 			<defence attribute="water" value="20"/>
@@ -4557,6 +4541,56 @@
 			<defence attribute="holy" value="20"/>
 			<defence attribute="unholy" value="20"/>
 		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="18238" min="1" max="1" chance="18.51"/>
+				<reward item_id="18237" min="1" max="1" chance="17.97"/>
+				<reward item_id="18236" min="1" max="1" chance="17.94"/>
+				<reward item_id="18225" min="1" max="1" chance="3.303"/>
+				<reward item_id="18233" min="1" max="1" chance="3.283"/>
+				<reward item_id="18232" min="1" max="1" chance="3.271"/>
+				<reward item_id="18221" min="1" max="1" chance="3.265"/>
+				<reward item_id="18224" min="1" max="1" chance="3.263"/>
+				<reward item_id="18234" min="1" max="1" chance="3.263"/>
+				<reward item_id="18229" min="1" max="1" chance="3.262"/>
+				<reward item_id="18228" min="1" max="1" chance="3.261"/>
+				<reward item_id="18227" min="1" max="1" chance="3.249"/>
+				<reward item_id="18220" min="1" max="1" chance="3.243"/>
+				<reward item_id="18219" min="1" max="1" chance="3.231"/>
+				<reward item_id="18222" min="1" max="1" chance="3.220"/>
+				<reward item_id="18231" min="1" max="1" chance="3.211"/>
+				<reward item_id="18235" min="1" max="1" chance="3.205"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="18226" min="1" max="1" chance="3.195"/>
+				<reward item_id="18230" min="1" max="1" chance="3.194"/>
+				<reward item_id="18223" min="1" max="1" chance="3.168"/>
+				<reward item_id="36279" min="1" max="1" chance="1.985"/>
+				<reward item_id="36280" min="1" max="1" chance="0.5"/>
+				<reward item_id="18205" min="1" max="1" chance="0.5"/>
+				<reward item_id="18206" min="1" max="1" chance="0.5"/>
+				<reward item_id="18207" min="1" max="1" chance="0.5"/>
+				<reward item_id="18208" min="1" max="1" chance="0.5"/>
+				<reward item_id="18209" min="1" max="1" chance="0.5"/>
+				<reward item_id="18210" min="1" max="1" chance="0.5"/>
+				<reward item_id="18211" min="1" max="1" chance="0.5"/>
+				<reward item_id="18212" min="1" max="1" chance="0.5"/>
+				<reward item_id="18213" min="1" max="1" chance="0.5"/>
+				<reward item_id="18214" min="1" max="1" chance="0.5"/>
+				<reward item_id="18215" min="1" max="1" chance="0.5"/>
+				<reward item_id="36281" min="1" max="1" chance="0.5"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="17527" min="1" max="1" chance="84.69"/>
+				<reward item_id="19448" min="1" max="1" chance="12.58"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="17526" min="1" max="1" chance="6.815"/>
+				<reward item_id="19447" min="1" max="1" chance="1.411"/>
+				<!--<reward item_id="36164" min="1" max="1" chance="1.169"/>-->
+				<!--<reward item_id="36163" min="1" max="1" chance="0.5"/>-->
+			</group>
+		</rewardlist>
 	</npc>
 	<npc id="29063" name="Andreas' Acolyte" title="Raid Fighter">
 		<set name="aggroRange" value="500"/>

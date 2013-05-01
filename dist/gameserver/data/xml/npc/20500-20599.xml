@@ -5295,7 +5295,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="20556" name="Giant Monstereye" title="">
+	<npc id="20556" name="Giant Monster Eye" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Mystic"/>
 		<set name="baseAtkRange" value="40"/>
@@ -5753,7 +5753,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="20560" name="Trisalim Spider" title="">
+	<npc id="20560" name="Trisalim" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Mystic"/>
 		<set name="baseAtkRange" value="40"/>
@@ -6243,7 +6243,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="20564" name="Enchanted Monstereye" title="">
+	<npc id="20564" name="Reinforced Monster Eye" title="">
 		<set name="aggroRange" value="500"/>
 		<set name="ai_type" value="Mystic"/>
 		<set name="baseAtkRange" value="40"/>
@@ -6360,7 +6360,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="20565" name="Enchanted Stone Golem" title="">
+	<npc id="20565" name="Reinforced Stone Golem" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Mystic"/>
 		<set name="baseAtkRange" value="40"/>
@@ -6475,7 +6475,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="20566" name="Enchanted Iron Golem" title="">
+	<npc id="20566" name="Reinforced Steel Golem" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Mystic"/>
 		<set name="baseAtkRange" value="40"/>
@@ -6595,7 +6595,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="20567" name="Enchanted Gargoyle" title="">
+	<npc id="20567" name="Reinforced Gargoyle" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>

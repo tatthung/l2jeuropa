@@ -342,7 +342,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33007" name="Drill Sergeant" title="Basic Training Camp">
+	<npc id="33007" name="Drill Sergeant" title="Training Grounds">
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseMAtkSpd" value="398"/>
 		<set name="basePAtkSpd" value="299"/>
@@ -1205,7 +1205,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33025" name="Rumi" title="">
+	<npc id="33025" name="Lumi" title="">
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseMAtkSpd" value="398"/>
 		<set name="basePAtkSpd" value="299"/>
@@ -1653,7 +1653,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33036" name="Dusk Searcher" title="">
+	<npc id="33036" name="Twilight Searcher" title="">
 		<!--  Need TODO -->
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseMAtkSpd" value="398"/>
@@ -1702,7 +1702,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33037" name="Dusk Searcher" title="">
+	<npc id="33037" name="Twilight Searcher" title="">
 		<!--  Need TODO -->
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseMAtkSpd" value="333"/>
@@ -1751,7 +1751,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33038" name="Dusk Searcher" title="">
+	<npc id="33038" name="Twilight Searcher" title="">
 		<!--  Need TODO -->
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseMAtkSpd" value="333"/>
@@ -1800,7 +1800,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33039" name="Dusk Searcher" title="">
+	<npc id="33039" name="Twilight Searcher" title="">
 		<!--  Need TODO -->
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseMAtkSpd" value="333"/>
@@ -1849,7 +1849,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33040" name="Dusk Searcher" title="">
+	<npc id="33040" name="Twilight Searcher" title="">
 		<!--  Need TODO -->
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseMAtkSpd" value="333"/>
@@ -4555,7 +4555,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="33096" name="Encounter Generator" title="Encounter Generator">
+	<npc id="33096" name="" title="">
 		<!--  Need TODO -->
 		<set name="baseHpMax" value="7324"/>
 		<set name="baseMAtkSpd" value="398"/>

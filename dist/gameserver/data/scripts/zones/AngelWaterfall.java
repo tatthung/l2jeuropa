@@ -37,8 +37,6 @@ public class AngelWaterfall implements ScriptFile
 	static String[] zones =
 	{
 		"[25_20_telzone_to_magmeld]",
-		"[Hall_of_Orbis_1_level]",
-		"[Hall_of_Orbis_2_level]",
 		"[Seed_of_Annihilation_1]",
 		"[Seed_of_Annihilation_2]",
 		"[Seed_of_Annihilation_3]",

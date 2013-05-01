@@ -1558,7 +1558,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="22117" name="Kechi's Guard Captain" title="">
+	<npc id="22117" name="Spiked Stakato Guard Captain" title="">
 		<set name="aggroRange" value="500"/>
 		<set name="ai_type" value="groups.StakatoNest"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3339,7 +3339,7 @@
 			<defence attribute="unholy" value="103"/>
 		</attributes>
 	</npc>
-	<npc id="22137" name="Penance Guard" title="">
+	<npc id="22137" name="Anteroom Gatekeeper" title="">
 		<set name="aggroRange" value="100"/>
 		<set name="ai_type" value="PaganGuard"/>
 		<set name="baseAtkRange" value="40"/>
@@ -3429,7 +3429,7 @@
 			<defence attribute="unholy" value="103"/>
 		</attributes>
 	</npc>
-	<npc id="22138" name="Chapel Guard" title="">
+	<npc id="22138" name="Chapel Gatekeeper" title="">
 		<set name="aggroRange" value="100"/>
 		<set name="ai_type" value="PaganGuard"/>
 		<set name="baseAtkRange" value="40"/>
@@ -7515,7 +7515,7 @@
 			<defence attribute="unholy" value="80"/>
 		</attributes>
 	</npc>
-	<npc id="22194" name="Penance Guard" title="">
+	<npc id="22194" name="Anteroom Gatekeeper" title="">
 		<set name="aggroRange" value="100"/>
 		<set name="ai_type" value="PaganGuard"/>
 		<set name="baseAtkRange" value="40"/>

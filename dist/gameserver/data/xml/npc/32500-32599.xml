@@ -787,7 +787,7 @@
 			<defence attribute="unholy" value="150"/>
 		</attributes>
 	</npc>
-	<npc id="32517" name="Flight Control" title="">
+	<npc id="32517" name="Flight Device" title="">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4429,7 +4429,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="32595" name="Lawrence" title="Great Teacher">
+	<npc id="32595" name="Lawrence" title="Great Master">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
@@ -4567,7 +4567,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="32598" name="Court Wizard" title="Elmore-Aden's">
+	<npc id="32598" name="Court Wizard" title="Elmoreden's">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>

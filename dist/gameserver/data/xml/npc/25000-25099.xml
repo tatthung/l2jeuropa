@@ -1507,7 +1507,7 @@
 			<defence attribute="unholy" value="189"/>
 		</attributes>
 	</npc>
-	<npc id="25023" name="March Stakato Queen Zyrnna" title="Raid Boss">
+	<npc id="25023" name="Marsh Stakato Queen Zyrnna" title="Raid Boss">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1707,7 +1707,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25026" name="Ketra Van Captain Atis" title="Raid Boss">
+	<npc id="25026" name="Ketra Commander Atis" title="Raid Boss">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
@@ -5417,7 +5417,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<npc id="25079" name="Cat's Eye Bandit" title="Raid Boss">
+	<npc id="25079" name="Cat's Eye" title="Raid Boss">
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="baseAtkRange" value="40"/>
