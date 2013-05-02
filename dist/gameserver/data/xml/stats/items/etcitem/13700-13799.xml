@@ -519,6 +519,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="180"/>
+		<set name="capsuled" value="true"/>
 		<cond msgId="1508">
 			<not>
 				<player olympiad="true"/>

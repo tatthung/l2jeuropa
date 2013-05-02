@@ -308,6 +308,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="5"/>
+		<set name="capsuled" value="true"/>
 		<cond msgId="113">
 			<or>
 				<player instance_zone="43"/>
