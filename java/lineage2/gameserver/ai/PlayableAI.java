@@ -477,13 +477,13 @@ public class PlayableAI extends CharacterAI
 			Playable actor = getActor();
 			if (getIntention() != AI_INTENTION_FOLLOW)
 			{
-				if ((actor.isPet() || actor.isServitor()) && (getIntention() == AI_INTENTION_ACTIVE))
-				{
-					((Summon) actor).setFollowMode(false);
-				}
-				else if (actor.isClone() && getIntention() == AI_INTENTION_ACTIVE)
+				if (actor.isClone() && getIntention() == AI_INTENTION_ACTIVE)
 				{
 					((ClonePlayer) actor).setFollowMode(false);
+				}
+				else if ((actor.isPet() || actor.isServitor()) && (getIntention() == AI_INTENTION_ACTIVE))
+				{
+					((Summon) actor).setFollowMode(false);
 				}
 				return;
 			}

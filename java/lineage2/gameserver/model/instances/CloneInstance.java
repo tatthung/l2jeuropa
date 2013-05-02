@@ -194,6 +194,16 @@ public class CloneInstance extends ClonePlayer
 	{
 		return true;
 	}
+
+	/**
+	 * Method isServitor.
+	 * @return boolean
+	 */
+	@Override
+	public boolean isClone()
+	{
+		return true;
+	}
 	
 	/**
 	 * Method onAction.
