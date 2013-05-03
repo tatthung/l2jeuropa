@@ -67,7 +67,8 @@ public class KartiaGuard extends Fighter
 		final NpcInstance actor = getActor();
 		if (master == null)
 			master = getActor().getFollowTarget();
-		if (master.isDead())
+		//if master exit from instance delete me
+		if (actor.getReflectionId() != master.getReflectionId())
 			actor.deleteMe();
 		//Check for Heal
 		if (actor.getNpcId() == 33639 || actor.getNpcId() == 33628 || actor.getNpcId() == 33617)
@@ -92,7 +93,7 @@ public class KartiaGuard extends Fighter
 					{
 						if (npc instanceof MonsterInstance)
 						{
-							if (npc.getTarget().isPlayer())
+							if (npc.getTarget() != null && npc.getTarget().isPlayer())
 							{
 								actor.doCast(SkillTable.getInstance().getInfo(10060, 1), npc, true);							
 								_ReuseTimer = System.currentTimeMillis() + (7 * 1000L);
