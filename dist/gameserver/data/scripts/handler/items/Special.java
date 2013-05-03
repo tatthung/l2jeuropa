@@ -33,6 +33,7 @@ import lineage2.gameserver.utils.Location;
 
 import org.apache.commons.lang3.ArrayUtils;
 
+import quests._10301_ShadowOfTerrorBlackishRedFog;
 import quests._464_Oath;
 import bosses.AntharasManager;
 import bosses.ValakasManager;
@@ -61,7 +62,8 @@ public class Special extends SimpleItemHandler
 		21902,
 		21903,
 		21904,
-		17268
+		17268,
+		17604
 	};
 	
 	/**
@@ -115,6 +117,8 @@ public class Special extends SimpleItemHandler
 				return use21904(player, ctrl);
 			case 17268:
 				return use17268(player, ctrl);
+			case 17604: //megameld quest
+				return use17604(player, ctrl);
 			default:
 				return false;
 		}
@@ -455,6 +459,47 @@ public class Special extends SimpleItemHandler
 		return true;
 	}
 	
+	private boolean use17604(Player player, boolean ctrl)
+	{
+		QuestState qs = player.getQuestState(_10301_ShadowOfTerrorBlackishRedFog.class);
+		GameObject target = player.getTarget();
+		if(target == null || !target.isNpc())
+		{
+	        /*
+             * 113 : $s1 cannot be used due to unsuitable terms.
+             */
+			player.sendPacket(new SystemMessage(SystemMessage.S1_CANNOT_BE_USED_DUE_TO_UNSUITABLE_TERMS).addItemName(17604));
+			return false;
+		}
+
+		NpcInstance _target = (NpcInstance) target;
+		if(_target.getNpcId() != 33489)
+		{
+            /*
+             * 113 : $s1 cannot be used due to unsuitable terms.
+             */
+			player.sendPacket(new SystemMessage(SystemMessage.S1_CANNOT_BE_USED_DUE_TO_UNSUITABLE_TERMS).addItemName(17604));
+			return false;
+		}
+
+		if(qs == null || qs.getCond() != 2 || player.getVar("CrystalsSpawn") != null)
+		{
+            /*
+             * 113 : $s1 cannot be used due to unsuitable terms.
+             */
+			player.sendPacket(new SystemMessage(SystemMessage.S1_CANNOT_BE_USED_DUE_TO_UNSUITABLE_TERMS).addItemName(17604));
+			return false;
+		}
+
+		Functions.removeItem(player, 17604, 1);
+		NpcInstance npc = Functions.spawn(Location.findPointToStay(player.getLoc(), 50, 100, player.getGeoIndex()), 32938);
+		NpcInstance npc2 = Functions.spawn(Location.findPointToStay(player.getLoc(), 50, 100, player.getGeoIndex()), 32938);
+		player.setVar("CrystalsSpawn", "1", 120000);
+		Functions.executeTask("handler.items.Special", "despawnNpc", new Object[]{npc, player}, 120000);
+		Functions.executeTask("handler.items.Special", "despawnNpc", new Object[]{npc2, player}, 120000);
+		return true;
+	}
+
 	/**
 	 * Method useItem.
 	 * @param player Player
