@@ -6,27 +6,27 @@
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="50.0"/>
 		<set name="collision_height" value="68.0"/>
-		<set name="level" value="99"/>
+		<set name="level" value="96"/>
 		<set name="type" value="RaidBoss"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="3248143"/>
 		<set name="baseHpRate" value="1"/>
-		<set name="baseHpReg" value="1100.0"/>
-		<set name="baseMpMax" value="2025740"/>
-		<set name="baseMpReg" value="99"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpMax" value="34542"/>
+		<set name="baseMpReg" value="7"/>
 		<set name="baseSTR" value="60"/>
 		<set name="baseCON" value="57"/>
 		<set name="baseDEX" value="73"/>
 		<set name="baseINT" value="76"/>
 		<set name="baseWIT" value="70"/>
 		<set name="baseMEN" value="80"/>
-		<set name="rewardExp" value="0"/>
+		<set name="rewardExp" value="1746210816"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="0"/>
-		<set name="basePAtk" value="24900"/>
-		<set name="basePDef" value="3840"/>
-		<set name="baseMAtk" value="4550"/>
-		<set name="baseMDef" value="825"/>
+		<set name="rewardSp" value="144570188"/>
+		<set name="basePAtk" value="22365"/>
+		<set name="basePDef" value="4266"/>
+		<set name="baseMAtk" value="8455"/>
+		<set name="baseMDef" value="2573"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseCritRate" value="4"/>
 		<set name="baseMAtkSpd" value="333"/>

@@ -325,7 +325,7 @@ public class SummonServitor extends Skill
 				clone.spawnMe(cloneLoc);
 				clone.setRunning();
 				clone.setFollowMode(true);
-ThreadPoolManager.getInstance().schedule(new GameObjectTasks.DeleteTask(clone), _lifeTime);
+				ThreadPoolManager.getInstance().schedule(new GameObjectTasks.DeleteTask(clone), _lifeTime);
 				break;
 		}
 		if (isSSPossible())

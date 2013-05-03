@@ -34,14 +34,20 @@ public class AngelWaterfall implements ScriptFile
 	/**
 	 * Field zones.
 	 */
-	static String[] zones =
-	{
-		"[25_20_telzone_to_magmeld]",
+	private static String[] zones = 
+		{
+		"[25_20_telzone_to_magmeld]", 
+		"[Hall_of_Orbis_0_1_level]",
+		"[Hall_of_Orbis_1_0_level]",
+		"[Hall_of_Orbis_1_2_level]",
+		"[Hall_of_Orbis_2_1_level]",
+		"[Hall_of_Orbis_2_3_level]",
+		"[Hall_of_Orbis_3_2_level]", 
 		"[Seed_of_Annihilation_1]",
 		"[Seed_of_Annihilation_2]",
 		"[Seed_of_Annihilation_3]",
 		"[Seed_of_Annihilation_4]"
-	};
+		};
 	
 	/**
 	 * Method init.

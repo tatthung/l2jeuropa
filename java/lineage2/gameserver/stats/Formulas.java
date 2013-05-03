@@ -1208,17 +1208,21 @@ public class Formulas
 			return value;
 		}
 		Double attDiff = attacker.calcStat(element.getAttack(), power) - defender.calcStat(element.getDefence(), 0.);
-		if ((pAttacker != null) && pAttacker.isGM()) //&& Config.DEBUG)
+		if ((pAttacker != null) && pAttacker.isDebug())
 		{
 			pAttacker.sendMessage("Element: " + element.name());
 			pAttacker.sendMessage("Attack: " + attacker.calcStat(element.getAttack(), power));
 			pAttacker.sendMessage("Defence: " + defender.calcStat(element.getDefence(), 0.));
-			pAttacker.sendMessage("Modifier: " + (attDiff < 0 ? "On defense" : "On attack") + Math.round(AttributeDamageResistTable.getInstance().getAttributeBonus(attDiff)* Math.pow(10,4))/Math.pow(10,4));
-		}		
+			pAttacker.sendMessage("Modifier: " + (attDiff < 0 ? "On defense " : "On attack ") + AttributeDamageResistTable.getInstance().getAttributeBonus(attDiff));
+		}
 		if(attDiff < 0)
-			return value / (Math.round(AttributeDamageResistTable.getInstance().getAttributeBonus(attDiff)* Math.pow(10,4))/Math.pow(10,4));
+		{
+			return value / AttributeDamageResistTable.getInstance().getAttributeBonus(attDiff);
+		}
 		else
-			return value * (Math.round(AttributeDamageResistTable.getInstance().getAttributeBonus(attDiff)* Math.pow(10,4))/Math.pow(10,4));
+		{
+			return value * AttributeDamageResistTable.getInstance().getAttributeBonus(attDiff);
+		}
 	}
 	/**
 	 * Method getAttackElement.

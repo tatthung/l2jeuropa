@@ -3,20 +3,20 @@
 <list>
 	<npc id="25700" name="Glakias" title="Archery Knight Captain">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="22299331"/>
-		<set name="baseMpMax" value="92340.0"/>
-		<set name="baseHpReg" value="1947.687"/>
-		<set name="baseMpReg" value="500.0"/>
-		<set name="basePAtk" value="21748"/>
-		<set name="baseMAtk" value="3776"/>
-		<set name="basePDef" value="2064"/>
-		<set name="baseMDef" value="1089"/>
+		<set name="baseMpMax" value="4326"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="15515"/>
+		<set name="baseMAtk" value="5309"/>
+		<set name="basePDef" value="3277"/>
+		<set name="baseMDef" value="2142"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseShldDef" value="0"/>
@@ -2812,20 +2812,20 @@
 	<!--ru name: Чудовищный Дракон-->
 	<npc id="25732" name="Dragon Beast" title="Raid Boss">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="6185159"/>
-		<set name="baseMpMax" value="2000.0"/>
-		<set name="baseHpReg" value="0.0"/>
-		<set name="baseMpReg" value="0.9"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="4081"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="13940"/>
+		<set name="baseMAtk" value="4632"/>
+		<set name="basePDef" value="3033"/>
+		<set name="baseMDef" value="2030"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseShldDef" value="0"/>
@@ -2843,7 +2843,7 @@
 		<set name="collision_radius" value="50.0"/>
 		<set name="collision_height" value="84.0"/>
 		<!--Npc specific-->
-		<set name="type" value="Npc"/>
+		<set name="type" value="RaidBoss"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="level" value="85"/>
 		<set name="baseHpRate" value="1.0"/>
@@ -2983,20 +2983,20 @@
 	<!--ru name: Воин Фей-->
 	<npc id="25735" name="Fairy Warrior" title="Faithful Servant">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="48442"/>
-		<set name="baseMpMax" value="231.96"/>
-		<set name="baseHpReg" value="17.535"/>
-		<set name="baseMpReg" value="1.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="4498"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="16632"/>
+		<set name="baseMAtk" value="5800"/>
+		<set name="basePDef" value="3445"/>
+		<set name="baseMDef" value="2218"/>
 		<set name="basePAtkSpd" value="299"/>
 		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="382"/>
@@ -3203,20 +3203,20 @@
 	<!--ru name: Сатир Чародей-->
 	<npc id="25738" name="Satyr Wizard" title="Faithful Servant">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="48442"/>
-		<set name="baseMpMax" value="231.96"/>
-		<set name="baseHpReg" value="17.535"/>
-		<set name="baseMpReg" value="1.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="4498"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="16632"/>
+		<set name="baseMAtk" value="5800"/>
+		<set name="basePDef" value="3445"/>
+		<set name="baseMDef" value="2218"/>
 		<set name="basePAtkSpd" value="299"/>
 		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
@@ -3643,20 +3643,20 @@
 	<!--ru name: Двойной Ночной Кошмар-->
 	<npc id="25744" name="Double Nightmare" title="Faithful Servant">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="251772"/>
-		<set name="baseMpMax" value="259.2"/>
-		<set name="baseHpReg" value="24.086"/>
-		<set name="baseMpReg" value="1.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="4586"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="17211"/>
+		<set name="baseMAtk" value="6058"/>
+		<set name="basePDef" value="3531"/>
+		<set name="baseMDef" value="2256"/>
 		<set name="basePAtkSpd" value="212"/>
 		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
@@ -3738,20 +3738,20 @@
 	<!--ru name: Кимериан-->
 	<npc id="25745" name="Kimerian" title="Fairy Leader">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="1028131"/>
-		<set name="baseMpMax" value="245.52"/>
-		<set name="baseHpReg" value="23.437"/>
-		<set name="baseMpReg" value="1.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="4676"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="17804"/>
+		<set name="baseMAtk" value="6325"/>
+		<set name="basePDef" value="3618"/>
+		<set name="baseMDef" value="2295"/>
 		<set name="basePAtkSpd" value="279"/>
 		<set name="baseMAtkSpd" value="330"/>
 		<set name="baseShldDef" value="0"/>
@@ -3769,7 +3769,7 @@
 		<set name="collision_radius" value="22.0"/>
 		<set name="collision_height" value="52.0"/>
 		<!--Npc specific-->
-		<set name="type" value="Minion"/>
+		<set name="type" value="RaidBoss"/>
 		<set name="ai_type" value="Priest"/>
 		<set name="level" value="92"/>
 		<set name="baseHpRate" value="1.0"/>
@@ -3879,20 +3879,20 @@
 	<!--ru name: Кимериан-->
 	<npc id="25747" name="Kimerian" title="Fairy Leader">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="296576"/>
-		<set name="baseMpMax" value="259.2"/>
-		<set name="baseHpReg" value="18.439"/>
-		<set name="baseMpReg" value="1.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="1272"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="382"/>
+		<set name="baseMAtk" value="45"/>
+		<set name="basePDef" value="242"/>
+		<set name="baseMDef" value="343"/>
 		<set name="basePAtkSpd" value="279"/>
 		<set name="baseMAtkSpd" value="330"/>
 		<set name="baseShldDef" value="0"/>
@@ -4389,20 +4389,20 @@
 	<!--ru name: Защитник Трикина-->
 	<npc id="25754" name="Treekin Defender" title="Faithful Servant">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="25167"/>
-		<set name="baseMpMax" value="402.6"/>
-		<set name="baseHpReg" value="26.794"/>
-		<set name="baseMpReg" value="1.8"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="4861"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="19033"/>
+		<set name="baseMAtk" value="6886"/>
+		<set name="basePDef" value="3797"/>
+		<set name="baseMDef" value="2373"/>
 		<set name="basePAtkSpd" value="250"/>
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseShldDef" value="0"/>
@@ -4591,20 +4591,20 @@
 	<!--ru name: Двойной Ночной Кошмар-->
 	<npc id="25757" name="Double Nightmare" title="Faithful Servant">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="580768"/>
-		<set name="baseMpMax" value="402.6"/>
-		<set name="baseHpReg" value="26.794"/>
-		<set name="baseMpReg" value="1.8"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="4861"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="19033"/>
+		<set name="baseMAtk" value="6886"/>
+		<set name="basePDef" value="3797"/>
+		<set name="baseMDef" value="2373"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseShldDef" value="0"/>
@@ -4697,20 +4697,20 @@
 	<!--ru name: Кимериан-->
 	<npc id="25758" name="Kimerian" title="Fairy Leader">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="1649921"/>
-		<set name="baseMpMax" value="387.72"/>
-		<set name="baseHpReg" value="25.613"/>
-		<set name="baseMpReg" value="1.8"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="4956"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="19669"/>
+		<set name="baseMAtk" value="7181"/>
+		<set name="basePDef" value="3888"/>
+		<set name="baseMDef" value="2412"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseShldDef" value="0"/>
@@ -4728,7 +4728,7 @@
 		<set name="collision_radius" value="22.0"/>
 		<set name="collision_height" value="52.0"/>
 		<!--Npc specific-->
-		<set name="type" value="Minion"/>
+		<set name="type" value="RaidBoss"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="level" value="95"/>
 		<set name="baseHpRate" value="1.0"/>
@@ -5953,20 +5953,20 @@
 	</npc>
 	<npc id="25773" name="Demonic Noctum" title="Cursed Manager">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="371819"/>
-		<set name="baseMpMax" value="610.8"/>
-		<set name="baseHpReg" value="43.343"/>
-		<set name="baseMpReg" value="2.1"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="4326"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="15515"/>
+		<set name="baseMAtk" value="5309"/>
+		<set name="basePDef" value="3277"/>
+		<set name="baseMDef" value="2142"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseShldDef" value="0"/>
@@ -6155,20 +6155,20 @@
 	<!--ru name: Афрос-->
 	<npc id="25775" name="Apherus" title="">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="4111534"/>
-		<set name="baseMpMax" value="584.0"/>
-		<set name="baseHpReg" value="41.347"/>
-		<set name="baseMpReg" value="2.1"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="4861"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="19033"/>
+		<set name="baseMAtk" value="6886"/>
+		<set name="basePDef" value="3797"/>
+		<set name="baseMDef" value="2373"/>
 		<set name="basePAtkSpd" value="299"/>
 		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
@@ -6186,7 +6186,7 @@
 		<set name="collision_radius" value="35.0"/>
 		<set name="collision_height" value="93.0"/>
 		<!--Npc specific-->
-		<set name="type" value="Minion"/>
+		<set name="type" value="RaidBoss"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="level" value="94"/>
 		<set name="baseHpRate" value="1.0"/>
@@ -6215,20 +6215,20 @@
 	<!--ru name: Гвардеец-->
 	<npc id="25776" name="Royal Guard" title="Apherus Garden">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="147710"/>
-		<set name="baseMpMax" value="557.4"/>
-		<set name="baseHpReg" value="39.411"/>
-		<set name="baseMpReg" value="2.1"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="4676"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="17804"/>
+		<set name="baseMAtk" value="6325"/>
+		<set name="basePDef" value="3618"/>
+		<set name="baseMDef" value="2295"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseShldDef" value="0"/>
@@ -6423,20 +6423,20 @@
 	<!--ru name: Спасия-->
 	<npc id="25779" name="Spezion" title="Raid Boss">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="2055767"/>
-		<set name="baseMpMax" value="22800.0"/>
-		<set name="baseHpReg" value="18.439"/>
-		<set name="baseMpReg" value="1.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="4861"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="19033"/>
+		<set name="baseMAtk" value="6886"/>
+		<set name="basePDef" value="3797"/>
+		<set name="baseMDef" value="2373"/>
 		<set name="basePAtkSpd" value="250"/>
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseShldDef" value="0"/>
@@ -6917,20 +6917,20 @@
 	<!--ru name: Траджан-->
 	<npc id="25785" name="Teredor" title="">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="2602735"/>
-		<set name="baseMpMax" value="417.6"/>
-		<set name="baseHpReg" value="28.064"/>
-		<set name="baseMpReg" value="1.8"/>
-		<set name="basePAtk" value="62971"/>
-		<set name="baseMAtk" value="33663"/>
-		<set name="basePDef" value="3341"/>
-		<set name="baseMDef" value="3250"/>
+		<set name="baseMpMax" value="4326"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="15515"/>
+		<set name="baseMAtk" value="5309"/>
+		<set name="basePDef" value="3277"/>
+		<set name="baseMDef" value="2142"/>
 		<set name="basePAtkSpd" value="299"/>
 		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
@@ -6947,8 +6947,7 @@
 		<set name="baseMCritRate" value="50.0"/>
 		<set name="collision_radius" value="90.0"/>
 		<set name="collision_height" value="190.0"/>
-		<!--Npc specific-->
-		<set name="type" value="RaidBoss"/>
+		<set name="type" value="ReflectionBoss"/>
 		<set name="ai_type" value="teredor.Teredor"/>
 		<set name="level" value="88"/>
 		<set name="baseHpRate" value="1.0"/>
@@ -7731,20 +7730,20 @@
 	<!--ru name: Эмамбифи-->
 	<npc id="25796" name="Veridan" title="Hell's Warden">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="1775522"/>
-		<set name="baseMpMax" value="1475.0"/>
-		<set name="baseHpReg" value="122.143"/>
-		<set name="baseMpReg" value="3.0"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="5254"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="21668"/>
+		<set name="baseMAtk" value="8122"/>
+		<set name="basePDef" value="4170"/>
+		<set name="baseMDef" value="2533"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseShldDef" value="0"/>
@@ -7762,7 +7761,7 @@
 		<set name="collision_radius" value="13.0"/>
 		<set name="collision_height" value="55.0"/>
 		<!--Npc specific-->
-		<set name="type" value="Minion"/>
+		<set name="type" value="RaidBoss"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="level" value="98"/>
 		<set name="baseHpRate" value="1.0"/>
@@ -7805,20 +7804,20 @@
 	<!--ru name: Кечи-->
 	<npc id="25797" name="Kechi" title="Flaming">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="1775522"/>
-		<set name="baseMpMax" value="1345.8"/>
-		<set name="baseHpReg" value="117.684"/>
-		<set name="baseMpReg" value="2.7"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="5254"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="21668"/>
+		<set name="baseMAtk" value="8122"/>
+		<set name="basePDef" value="4170"/>
+		<set name="baseMDef" value="2533"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseShldDef" value="0"/>
@@ -7969,20 +7968,20 @@
 	<!--ru name: Михаэль-->
 	<npc id="25799" name="Michaela" title="Grand Judge">
 		<!--Base character specific-->
-		<set name="baseSTR" value="78"/>
-		<set name="baseCON" value="75"/>
-		<set name="baseDEX" value="41"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseWIT" value="78"/>
-		<set name="baseMEN" value="20"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseMEN" value="80"/>
 		<set name="baseHpMax" value="1775522"/>
-		<set name="baseMpMax" value="1314.0"/>
-		<set name="baseHpReg" value="116.469"/>
-		<set name="baseMpReg" value="2.7"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="baseMpMax" value="5254"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="21668"/>
+		<set name="baseMAtk" value="8122"/>
+		<set name="basePDef" value="4170"/>
+		<set name="baseMDef" value="2533"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseMAtkSpd" value="333"/>
 		<set name="baseShldDef" value="0"/>
@@ -8000,7 +7999,7 @@
 		<set name="collision_radius" value="15.0"/>
 		<set name="collision_height" value="32.0"/>
 		<!--Npc specific-->
-		<set name="type" value="Minion"/>
+		<set name="type" value="RaidBoss"/>
 		<set name="ai_type" value="Mystic"/>
 		<set name="level" value="98"/>
 		<set name="baseHpRate" value="1.0"/>

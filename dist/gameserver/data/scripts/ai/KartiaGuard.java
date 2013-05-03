@@ -44,6 +44,7 @@ public class KartiaGuard extends Fighter
 	public KartiaGuard(NpcInstance actor)
 	{
 		super(actor);
+		MAX_PURSUE_RANGE = 9000;
 	}
 	
 	/**
@@ -66,15 +67,38 @@ public class KartiaGuard extends Fighter
 		final NpcInstance actor = getActor();
 		if (master == null)
 			master = getActor().getFollowTarget();
+		if (master.isDead())
+			actor.deleteMe();
 		//Check for Heal
 		if (actor.getNpcId() == 33639 || actor.getNpcId() == 33628 || actor.getNpcId() == 33617)
 		{
-			if (master != null && !master.isDead() && master.getCurrentHpPercents() < 50)
+			if (master != null && !master.isDead() && master.getCurrentHpPercents() < 80)
 			{
 				if (!actor.isCastingNow() && (_ReuseTimer < System.currentTimeMillis()))
 				{
 					actor.doCast(SkillTable.getInstance().getInfo(698, 1), master, true);
 					_ReuseTimer = System.currentTimeMillis() + (3 * 1000L);
+				}
+			}
+		}
+		//Check for Aggression
+		if (actor.getNpcId() == 33609 || actor.getNpcId() == 33620 || actor.getNpcId() == 33631)
+		{
+			if (master != null && !master.isDead() && master.getTarget() != null)
+			{
+				if (!actor.isCastingNow() && (_ReuseTimer < System.currentTimeMillis()))
+				{
+					for (NpcInstance npc : actor.getAroundNpc(600, 100))
+					{
+						if (npc instanceof MonsterInstance)
+						{
+							if (npc.getTarget().isPlayer())
+							{
+								actor.doCast(SkillTable.getInstance().getInfo(10060, 1), npc, true);							
+								_ReuseTimer = System.currentTimeMillis() + (7 * 1000L);
+							}
+						}
+					}
 				}
 			}
 		}

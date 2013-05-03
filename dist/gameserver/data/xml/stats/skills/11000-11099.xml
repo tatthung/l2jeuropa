@@ -241,6 +241,7 @@
         <set name="skillType" val="MDAM"/>
         <set name="target" val="TARGET_ONE"/>
         <set name="overHit" val="true"/>
+        <set name="element" val="Fire"/>
         <enchant1 levels="10" name="Cost">
             <table name="#power">147 148 150 152 154 155 157 159 161 162</table>
 		</enchant1>
@@ -272,6 +273,7 @@
         <set name="skillType" val="MDAM"/>
         <set name="target" val="TARGET_ONE"/>
         <set name="overHit" val="true"/>
+        <set name="element" val="Water"/>
         <enchant1 levels="10" name="Cost">
             <table name="#power">147 148 150 152 154 155 157 159 161 162</table>
 		</enchant1>
@@ -303,6 +305,7 @@
         <set name="skillType" val="MDAM"/>
         <set name="target" val="TARGET_ONE"/>
         <set name="overHit" val="true"/>
+        <set name="element" val="Wind"/>
         <enchant1 levels="10" name="Cost">
             <table name="#power">147 148 150 152 154 155 157 159 161 162</table>
 		</enchant1>
@@ -334,6 +337,7 @@
         <set name="skillType" val="MDAM"/>
         <set name="target" val="TARGET_ONE"/>
         <set name="overHit" val="true"/>
+        <set name="element" val="Earth"/>
         <enchant1 levels="10" name="Cost">
             <table name="#power">147 148 150 152 154 155 157 159 161 162</table>
 		</enchant1>
@@ -422,6 +426,7 @@
         <set name="target" val="TARGET_ONE"/>
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
+        <set name="element" val="Fire"/>
         <set name="overHit" val="true"/>
         <for>
             <effect count="1" name="CallSkills" time="0" val="0">
@@ -453,6 +458,7 @@
         <set name="target" val="TARGET_ONE"/>
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
+        <set name="element" val="Water"/>
         <set name="overHit" val="true"/>
         <for>
             <effect count="1" name="CallSkills" time="0" val="0">
@@ -484,6 +490,7 @@
         <set name="target" val="TARGET_ONE"/>
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
+        <set name="element" val="Wind"/>
         <set name="overHit" val="true"/>
         <for>
             <effect count="1" name="CallSkills" time="0" val="0">
@@ -515,6 +522,7 @@
         <set name="target" val="TARGET_ONE"/>
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
+        <set name="element" val="Earth"/>
         <set name="overHit" val="true"/>
         <for>
             <effect count="1" name="CallSkills" time="0" val="0">
@@ -597,6 +605,7 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
+        <set name="element" val="Fire"/>
         <enchant1 levels="10" name="Cost">
             <table name="#power">433 438 443 448 453 458 464 469 474 479</table>
 		</enchant1>
@@ -622,6 +631,7 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
+        <set name="element" val="Water"/>
         <enchant1 levels="10" name="Cost">
             <table name="#power">433 438 443 448 453 458 464 469 474 479</table>
 		</enchant1>
@@ -647,6 +657,7 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
+        <set name="element" val="Wind"/>
         <enchant1 levels="10" name="Cost">
             <table name="#power">433 438 443 448 453 458 464 469 474 479</table>
 		</enchant1>
@@ -672,6 +683,7 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="overHit" val="true"/>
+        <set name="element" val="Earth"/>
         <enchant1 levels="10" name="Cost">
             <table name="#power">433 438 443 448 453 458 464 469 474 479</table>
 		</enchant1>

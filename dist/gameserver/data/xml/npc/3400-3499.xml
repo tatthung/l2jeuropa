@@ -1471,23 +1471,23 @@
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseCON" value="75"/>
+		<set name="baseCON" value="57"/>
 		<set name="baseCritRate" value="40"/>
-		<set name="baseDEX" value="41"/>
+		<set name="baseDEX" value="73"/>
 		<set name="baseHpRate" value="1.0"/>
-		<set name="baseHpReg" value="8.5"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="baseMDef" value="250"/>
-		<set name="baseMEN" value="20"/>
-		<set name="baseMpMax" value="1674.8"/>
-		<set name="baseMpReg" value="3.0"/>
-		<set name="basePAtk" value="971"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseSTR" value="78"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseMAtk" value="1122"/>
+		<set name="baseMDef" value="1171"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseMpMax" value="2463"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="4601"/>
+		<set name="basePDef" value="1373"/>
+		<set name="baseSTR" value="60"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseShldRate" value="0"/>
-		<set name="baseWIT" value="78"/>
+		<set name="baseWIT" value="70"/>
 		<set name="castle_id" value="1"/>
 		<set name="level" value="59"/>
 		<set name="rewardExp" value="1342137"/>
@@ -1495,7 +1495,7 @@
 		<set name="rewardSp" value="228875"/>
 		<set name="shots" value="NONE"/>
 		<set name="texture" value=""/>
-		<set name="type" value="Npc"/>
+		<set name="type" value="RaidBoss"/>
 		<skills>
 			<skill id="4494" level="1"/>
 			<skill id="4859" level="1"/>
@@ -1978,23 +1978,23 @@
 		<set name="aggroRange" value="0"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="baseAtkRange" value="40"/>
-		<set name="baseCON" value="75"/>
+		<set name="baseCON" value="57"/>
 		<set name="baseCritRate" value="40"/>
-		<set name="baseDEX" value="41"/>
+		<set name="baseDEX" value="73"/>
 		<set name="baseHpRate" value="1.0"/>
-		<set name="baseHpReg" value="8.5"/>
-		<set name="baseINT" value="42"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="baseMDef" value="250"/>
-		<set name="baseMEN" value="20"/>
-		<set name="baseMpMax" value="1674.8"/>
-		<set name="baseMpReg" value="3.0"/>
-		<set name="basePAtk" value="971"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseSTR" value="78"/>
+		<set name="baseHpReg" value="20"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseMAtk" value="400"/>
+		<set name="baseMDef" value="790"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseMpMax" value="1876"/>
+		<set name="baseMpReg" value="7"/>
+		<set name="basePAtk" value="2064"/>
+		<set name="basePDef" value="779"/>
+		<set name="baseSTR" value="60"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseShldRate" value="0"/>
-		<set name="baseWIT" value="78"/>
+		<set name="baseWIT" value="70"/>
 		<set name="castle_id" value="1"/>
 		<set name="level" value="45"/>
 		<set name="rewardExp" value="1042754"/>
@@ -2002,7 +2002,7 @@
 		<set name="rewardSp" value="137992"/>
 		<set name="shots" value="NONE"/>
 		<set name="texture" value=""/>
-		<set name="type" value="Npc"/>
+		<set name="type" value="RaidBoss"/>
 		<skills>
 			<skill id="4494" level="1"/>
 			<skill id="4810" level="1"/>

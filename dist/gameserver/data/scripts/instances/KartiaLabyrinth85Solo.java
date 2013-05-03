@@ -12,9 +12,9 @@
  */
 package instances;
 
-import java.util.Arrays;
 import java.util.concurrent.ScheduledFuture;
 
+import org.apache.commons.lang3.ArrayUtils;
 import lineage2.commons.threading.RunnableImpl;
 import lineage2.gameserver.ThreadPoolManager;
 import lineage2.gameserver.listener.actor.OnDeathListener;
@@ -47,7 +47,7 @@ public class KartiaLabyrinth85Solo extends Reflection
 	private int DimensionalWatchman = 19222;
 	private int LordOfKartia = 19253;
 
-	private static final int[] supporter = {33609,33611,33613,33615,33617};
+	private static final int[] supporter = {33609, 33611, 33613, 33615, 33617};
 
 	public KartiaLabyrinth85Solo()
 	{
@@ -340,7 +340,7 @@ public class KartiaLabyrinth85Solo extends Reflection
 			}
 			for(NpcInstance n : getNpcs())
 			{
-				if (!Arrays.asList(supporter).contains(n.getNpcId()))
+				if(!ArrayUtils.contains(supporter, n.getNpcId()))
 				{
 					n.deleteMe();
 				}

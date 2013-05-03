@@ -12,8 +12,9 @@
  */
 package instances;
 
-import java.util.Arrays;
 import java.util.concurrent.ScheduledFuture;
+
+import org.apache.commons.lang3.ArrayUtils;
 
 import lineage2.commons.threading.RunnableImpl;
 import lineage2.gameserver.ThreadPoolManager;
@@ -340,7 +341,7 @@ public class KartiaLabyrinth95Solo extends Reflection
 			}
 			for(NpcInstance n : getNpcs())
 			{
-				if (!Arrays.asList(supporter).contains(n.getNpcId()))
+				if(!ArrayUtils.contains(supporter, n.getNpcId()))
 				{
 					n.deleteMe();
 				}
