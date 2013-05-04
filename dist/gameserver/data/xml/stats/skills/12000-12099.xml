@@ -124,9 +124,7 @@
         <set name="magicType" val="SPECIAL"/>
         <set name="magicLevel" val="1"/>
         <set name="isHandler" val="true"/>
-        <set name="target" val="TARGET_ONE"/>
-		<set name="itemConsumeId" val="17604"/>
-		<set name="itemConsumeCount" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
         <set name="skillType" val="BUFF"/>
         <set name="operateType" val="OP_ACTIVE"/>
 	</skill>
