@@ -7,7 +7,7 @@
 	<property name="src.commons" location="java/lineage2/commons" />
 	<property name="dist" location="dist" />
 	<property name="libraries" location="dist/libs" />
-	<property name="build" location="build" />
+	<property name="build" location="../build" />
 	<property name="build.classes" location="${build}/classes" />
 	<property name="build.dist" location="${build}/dist" />
 	<property name="build.dist.authserver" location="${build.dist}/loginserver" />

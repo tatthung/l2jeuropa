@@ -5,6 +5,7 @@ import java.util.List;
 
 import lineage2.commons.util.Rnd;
 import lineage2.gameserver.model.Player;
+import lineage2.gameserver.model.Skill;
 import lineage2.gameserver.model.instances.NpcInstance;
 import lineage2.gameserver.model.quest.Quest;
 import lineage2.gameserver.model.quest.QuestState;
@@ -13,6 +14,7 @@ import lineage2.gameserver.network.serverpackets.components.NpcString;
 import lineage2.gameserver.scripts.Functions;
 import lineage2.gameserver.scripts.ScriptFile;
 import lineage2.gameserver.utils.Location;
+import lineage2.gameserver.utils.NpcUtils;
 
 public class _10301_ShadowOfTerrorBlackishRedFog extends Quest implements ScriptFile
 {
@@ -25,8 +27,10 @@ public class _10301_ShadowOfTerrorBlackishRedFog extends Quest implements Script
 	private static final int SLAKI = 32893;
 	private static final int CRYSTALL = 17604;
 	private static final int SPIRIT_ITEM = 17588;
+	private static final int LARGE_VERDANT_WILDS = 33489;
 
-	private static final int WISP = 32938;
+	private static final int WISP = 27456; //32938
+	private boolean _spawned = false;
 
 	public _10301_ShadowOfTerrorBlackishRedFog()
 	{
@@ -37,8 +41,24 @@ public class _10301_ShadowOfTerrorBlackishRedFog extends Quest implements Script
 		addKillId(WISP);
 		addQuestItem(CRYSTALL);
 		addQuestItem(SPIRIT_ITEM);
+		addSkillUseId(LARGE_VERDANT_WILDS);
+		
 		addLevelCheck(90, 99);
 	}
+
+	@Override
+	public String onSkillUse(NpcInstance npc, Skill skill, QuestState qs)
+	{
+		int skillId = skill.getId();
+		int npcId = npc.getNpcId();
+		if (skillId == 12011 && npcId == LARGE_VERDANT_WILDS && _spawned == false)
+		{
+			NpcUtils.spawnSingle(WISP, Location.findPointToStay(qs.getPlayer().getLoc(), 50, 100, qs.getPlayer().getGeoIndex()), 120000);
+			NpcUtils.spawnSingle(WISP, Location.findPointToStay(qs.getPlayer().getLoc(), 50, 100, qs.getPlayer().getGeoIndex()), 120000);
+		}
+		return null;
+	}
+	
 
 	@Override
 	public String onEvent(String event, QuestState st, NpcInstance npc)
