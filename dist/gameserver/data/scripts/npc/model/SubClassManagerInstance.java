@@ -39,7 +39,6 @@ import lineage2.gameserver.model.actor.instances.player.SubClassList;
 import lineage2.gameserver.model.base.AcquireType;
 import lineage2.gameserver.model.base.ClassId;
 import lineage2.gameserver.model.base.ClassLevel;
-import lineage2.gameserver.model.base.Race;
 import lineage2.gameserver.model.entity.olympiad.Olympiad;
 import lineage2.gameserver.model.instances.NpcInstance;
 import lineage2.gameserver.network.serverpackets.components.SystemMsg;
@@ -144,11 +143,6 @@ public final class SubClassManagerInstance extends NpcInstance
 			String cmd2 = st.nextToken();
 			if (cmd2.equalsIgnoreCase("add"))
 			{
-				if (!checkSubClassQuest(player))
-				{
-					showChatWindow(player, "default/" + getNpcId() + "-no_quest.htm");
-					return;
-				}
 				if (player.getSubClassList().size() >= SubClassList.MAX_SUB_COUNT)
 				{
 					showChatWindow(player, "default/" + getNpcId() + "-add_no_limit.htm");
@@ -216,12 +210,7 @@ public final class SubClassManagerInstance extends NpcInstance
 			}
 			else if (cmd2.equalsIgnoreCase("cancel"))
 			{
-				if (!checkSubClassQuest(player) && !player.getSubClassList().haveSubClasses())
-				{
-					showChatWindow(player, "default/" + getNpcId() + "-no_quest.htm");
-					return;
-				}
-				if (checkSubClassQuest(player) && !player.getSubClassList().haveSubClasses())
+				if (!player.getSubClassList().haveSubClasses())
 				{
 					showChatWindow(player, "default/" + getNpcId() + "-cancel_no_subs.htm");
 					return;
@@ -286,11 +275,6 @@ public final class SubClassManagerInstance extends NpcInstance
 			}
 			else if (cmd2.equalsIgnoreCase("reawakendualclass"))
 			{
-				if (!checkSubClassQuest(player))
-				{
-					showChatWindow(player, "default/" + getNpcId() + "-no_quest.htm");
-					return;
-				}
 				if (!player.getActiveSubClass().isDouble() || !player.isAwaking() || !(player.getLevel() > 84))
 				{
 					showChatWindow(player, "default/" + getNpcId() + "-reawaken_nodual.htm");
@@ -460,28 +444,6 @@ public final class SubClassManagerInstance extends NpcInstance
 			}
 		}
 		showAcquireList(type, player);
-	}
-	
-	/**
-	 * Method checkSubClassQuest.
-	 * @param player Player
-	 * @return boolean
-	 */
-	private static boolean checkSubClassQuest(Player player)
-	{
-		if (!Config.ALT_GAME_SUBCLASS_WITHOUT_QUESTS)
-		{
-			if (player.isQuestCompleted("_234_FatesWhisper"))
-			{
-				if (player.getRace() == Race.kamael)
-				{
-					return player.isQuestCompleted("_236_SeedsOfChaos");
-				}
-				return player.isQuestCompleted("_235_MimirsElixir");
-			}
-			return false;
-		}
-		return true;
 	}
 	
 	@SuppressWarnings("unchecked")

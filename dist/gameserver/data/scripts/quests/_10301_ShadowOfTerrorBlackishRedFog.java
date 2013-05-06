@@ -29,7 +29,7 @@ public class _10301_ShadowOfTerrorBlackishRedFog extends Quest implements Script
 	private static final int SPIRIT_ITEM = 17588;
 	private static final int LARGE_VERDANT_WILDS = 33489;
 
-	private static final int WISP = 32915; //32938
+	private static final int WISP = 32938;
 	private boolean _spawned = false;
 
 	public _10301_ShadowOfTerrorBlackishRedFog()

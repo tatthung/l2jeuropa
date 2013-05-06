@@ -806,7 +806,7 @@
 			<set name="TargetEnabled" value="false"/>
 		</ai_params>
 		<skills>
-			<skill id="4416" level="2"/>	<!--?????????? ????????-->
+			<skill id="4416" level="2"/>
 		</skills>
 		<attributes>
 			<defence attribute="fire" value="20"/>
@@ -1865,7 +1865,7 @@
 	</npc>
 	<npc id="32938" name="Wisp" title="Weak">
 		<set name="aggroRange" value="0"/>
-		<set name="ai_type" value="Fighter"/>
+		<set name="ai_type" value="TI.SwampSpirit"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseCritRate" value="40"/>

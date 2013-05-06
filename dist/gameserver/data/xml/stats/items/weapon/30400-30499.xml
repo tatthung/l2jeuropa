@@ -2,13 +2,9 @@
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<weapon id="30400" name="Infinity Buster">
-		<!--Done By Darvin (c)Java - Team 2012-->
 		<set name="icon" value="icon.weapon_infinity_sword_i00"/>
 		<set name="weight" value="1300"/>
 		<set name="rnd_dam" value="10"/>
-		<equip>
-			<slot id="RIGHT_HAND"/>
-		</equip>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="sellable" value="false"/>
@@ -18,9 +14,20 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13154" level="1"/>
+		</skills>
+		<attributes>
+			<attribute element="holy" value="250"/>
+		</attributes>
+		<cond msgId="1507">
+			<player olympiad="false"/>
+		</cond>
 		<for>
 			<add stat="pAtk" order="0x10" value="592"/>
 			<add stat="mAtk" order="0x10" value="508"/>
@@ -29,16 +36,11 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30401" name="Infinity Caster">
-		<!--Done By Darvin (c)Java - Team 2012-->
 		<set name="icon" value="icon.weapon_the_mace_of_hero_i00"/>
 		<set name="weight" value="1300"/>
 		<set name="rnd_dam" value="20"/>
-		<equip>
-			<slot id="RIGHT_HAND"/>
-		</equip>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="sellable" value="false"/>
@@ -48,9 +50,20 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13155" level="1"/>
+		</skills>
+		<attributes>
+			<attribute element="holy" value="250"/>
+		</attributes>
+		<cond msgId="1507">
+			<player olympiad="false"/>
+		</cond>
 		<for>
 			<add stat="pAtk" order="0x10" value="592"/>
 			<add stat="mAtk" order="0x10" value="508"/>
@@ -59,16 +72,11 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30402" name="Infinity Retributer">
-		<!--Done By Darvin (c)Java - Team 2012-->
 		<set name="icon" value="icon.weapon_the_staff_of_hero_i00"/>
 		<set name="weight" value="1300"/>
 		<set name="rnd_dam" value="20"/>
-		<equip>
-			<slot id="RIGHT_HAND"/>
-		</equip>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="sellable" value="false"/>
@@ -78,9 +86,20 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13156" level="1"/>
+		</skills>
+		<attributes>
+			<attribute element="holy" value="250"/>
+		</attributes>
+		<cond msgId="1507">
+			<player olympiad="false"/>
+		</cond>
 		<for>
 			<add stat="pAtk" order="0x10" value="721"/>
 			<add stat="mAtk" order="0x10" value="551"/>
@@ -89,16 +108,11 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30403" name="Infinity Dual Sword">
-		<!--Done By Darvin (c)Java - Team 2012-->
 		<set name="icon" value="icon.weapon_r_dualsword_i00"/>
 		<set name="weight" value="1300"/>
 		<set name="rnd_dam" value="10"/>
-		<equip>
-			<slot id="LEFT_RIGHT_HAND"/>
-		</equip>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="sellable" value="false"/>
@@ -108,9 +122,20 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13157" level="1"/>
+		</skills>
+		<attributes>
+			<attribute element="holy" value="250"/>
+		</attributes>
+		<cond msgId="1507">
+			<player olympiad="false"/>
+		</cond>
 		<for>
 			<add stat="pAtk" order="0x10" value="877"/>
 			<add stat="mAtk" order="0x10" value="399"/>
@@ -119,16 +144,11 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30404" name="Infinity Dual Dagger">
-		<!--Done By Darvin (c)Java - Team 2012-->
 		<set name="icon" value="icon.weapon_r_dualdagger_i00"/>
 		<set name="weight" value="1300"/>
 		<set name="rnd_dam" value="10"/>
-		<equip>
-			<slot id="LEFT_RIGHT_HAND"/>
-		</equip>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="sellable" value="false"/>
@@ -141,6 +161,18 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13158" level="1"/>
+		</skills>
+		<attributes>
+			<attribute element="holy" value="250"/>
+		</attributes>
+		<cond msgId="1507">
+			<player olympiad="false"/>
+		</cond>
 		<for>
 			<add stat="pAtk" order="0x10" value="738"/>
 			<add stat="mAtk" order="0x10" value="399"/>
@@ -149,16 +181,11 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30405" name="Infinity Dual Blunt Weapon">
-		<!--Done By Darvin (c)Java - Team 2012-->
 		<set name="icon" value="icon.weapon_r_dualblunt_i00"/>
 		<set name="weight" value="1300"/>
 		<set name="rnd_dam" value="20"/>
-		<equip>
-			<slot id="LEFT_RIGHT_HAND"/>
-		</equip>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="sellable" value="false"/>
@@ -170,6 +197,18 @@
 		<set name="crystal_count" value="3562"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13159" level="1"/>
+		</skills>
+		<attributes>
+			<attribute element="holy" value="250"/>
+		</attributes>
+		<cond msgId="1507">
+			<player olympiad="false"/>
+		</cond>
 		<for>
 			<add stat="pAtk" order="0x10" value="877"/>
 			<add stat="mAtk" order="0x10" value="399"/>
@@ -178,7 +217,6 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="30440" name="Staff of the Bound Spirit">
 		<!--Done By Darvin (c)Java - Team 2012-->
