@@ -682,7 +682,7 @@
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant3>
 		<for>
-			<effect count="60" name="DamOverTime" time="#time" stackOrder="#abnormal" val="#dmg">
+			<effect count="#time" name="DamOverTime" time="1" stackOrder="#abnormal" val="#dmg">
 				<mul order="0x30" stat="mDef" val="#mdef"/>
 				<mul order="0x30" stat="pDef" val="#pdef"/>
 			</effect>
