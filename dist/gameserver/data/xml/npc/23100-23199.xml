@@ -814,7 +814,6 @@
 		</rewardlist>
 	</npc>
 	<npc id="23113" name="Crawler" title="Husk">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="6.5"/>
@@ -858,9 +857,25 @@
 		<skills>
 			<skill id="4416" level="6"/>
 		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="463" min="1" max="1" chance="1"/>
+				<reward item_id="1103" min="1" max="1" chance="1"/>
+				<reward item_id="22" min="1" max="1" chance="0.5"/>
+				<reward item_id="12" min="1" max="1" chance="0.1"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="57" min="52" max="122" chance="70"/>
+				<reward item_id="1061" min="1" max="1" chance="5.443"/>
+				<reward item_id="34990" min="1" max="1" chance="0.5"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34990" min="1" max="1" chance="1.829"/>
+			<reward item_id="1102" min="1" max="1" chance="0.5"/>
+		</rewardlist>
 	</npc>
 	<npc id="23114" name="Stalker" title="Husk">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="9.4"/>
@@ -904,9 +919,27 @@
 		<skills>
 			<skill id="4416" level="14"/>
 		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="113" min="1" max="1" chance="1"/>
+				<reward item_id="906" min="1" max="1" chance="1"/>
+				<reward item_id="1129" min="1" max="1" chance="1"/>
+				<reward item_id="3" min="1" max="1" chance="0.05"/>
+				<reward item_id="215" min="1" max="1" chance="0.05"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="57" min="37" max="85" chance="70"/>
+				<reward item_id="1061" min="1" max="1" chance="5.430"/>
+				<reward item_id="34991" min="1" max="1" chance="0.5"/>
+				<reward item_id="34992" min="1" max="1" chance="0.5"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34992" min="1" max="1" chance="3.244"/>
+			<reward item_id="271" min="1" max="1" chance="0.1"/>
+		</rewardlist>
 	</npc>
 	<npc id="23115" name="Critter" title="Husk">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="14.5"/>
@@ -950,9 +983,23 @@
 		<skills>
 			<skill id="4416" level="4"/>
 		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="907" min="1" max="1" chance="0.5"/>
+				<reward item_id="255" min="1" max="1" chance="0.05"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="57" min="23" max="54" chance="70"/>
+				<reward item_id="1061" min="1" max="1" chance="5.434"/>
+				<reward item_id="34992" min="1" max="1" chance="0.5"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34992" min="1" max="1" chance="1.998"/>
+			<reward item_id="273" min="1" max="1" chance="0.01"/>
+		</rewardlist>
 	</npc>
 	<npc id="23116" name="Avian" title="Husk">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="11.0"/>
@@ -996,9 +1043,23 @@
 		<skills>
 			<skill id="4416" level="4"/>
 		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="114" min="1" max="1" chance="1"/>
+				<reward item_id="945" min="1" max="1" chance="1"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="57" min="65" max="152" chance="70"/>
+				<reward item_id="1061" min="1" max="1" chance="5.479"/>
+				<reward item_id="34992" min="1" max="1" chance="1"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34990" min="1" max="1" chance="2.322"/>
+			<reward item_id="625" min="1" max="1" chance="1"/>
+		</rewardlist>
 	</npc>
 	<npc id="23117" name="Rider" title="Husk">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="31.0"/>
@@ -1042,6 +1103,22 @@
 		<skills>
 			<skill id="4416" level="14"/>
 		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="23" min="1" max="1" chance="0.5"/>
+				<reward item_id="154" min="1" max="1" chance="0.1"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="57" min="72" max="168" chance="70"/>
+				<reward item_id="1061" min="1" max="1" chance="5.510"/>
+				<reward item_id="34991" min="1" max="1" chance="1"/>
+				<reward item_id="34992" min="1" max="1" chance="1"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34992" min="1" max="1" chance="6.312"/>
+			<reward item_id="878" min="1" max="1" chance="1"/>
+		</rewardlist>
 	</npc>
 	<npc id="23118" name="Krapher" title="Husk">
 		<!--L2WT Tauti Confirmed-->
@@ -1227,7 +1304,6 @@
 		</skills>
 	</npc>
 	<npc id="23122" name="Eyesaroch" title="Husk">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="24.0"/>
@@ -1271,6 +1347,25 @@
 		<skills>
 			<skill id="4416" level="6"/>
 		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="37" min="1" max="1" chance="1"/>
+				<reward item_id="20" min="1" max="1" chance="0.5"/>
+				<reward item_id="30" min="1" max="1" chance="0.5"/>
+				<reward item_id="114" min="1" max="1" chance="0.5"/>
+				<reward item_id="255" min="1" max="1" chance="0.05"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="57" min="84" max="197" chance="70"/>
+				<reward item_id="1061" min="1" max="1" chance="5.516"/>
+				<reward item_id="34992" min="1" max="1" chance="1"/>
+				<reward item_id="34990" min="1" max="1" chance="0.5"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34992" min="1" max="1" chance="7.323"/>
+			<reward item_id="20" min="1" max="1" chance="3.486"/>
+		</rewardlist>
 	</npc>
 	<npc id="23123" name="Isolation Room Warden" title="">
 		<!--L2WT Tauti Confirmed-->

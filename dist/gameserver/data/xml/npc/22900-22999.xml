@@ -5627,6 +5627,23 @@
 			<skill id="4413" level="8"/>	<!-- Weak M. Def. -->
 			<skill id="4416" level="6"/>	<!-- Humanoids -->
 		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="463" min="1" max="1" chance="1"/>
+				<reward item_id="1103" min="1" max="1" chance="1"/>
+				<reward item_id="22" min="1" max="1" chance="0.5"/>
+				<reward item_id="12" min="1" max="1" chance="0.1"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="57" min="52" max="122" chance="70"/>
+				<reward item_id="1061" min="1" max="1" chance="5.443"/>
+				<reward item_id="34990" min="1" max="1" chance="0.5"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34990" min="1" max="1" chance="1.829"/>
+			<reward item_id="1102" min="1" max="1" chance="0.5"/>
+		</rewardlist>
 	</npc>
 	<npc id="22992" name="Stalker" title="Husk">
 		<set name="ai_type" value="Fighter"/>
@@ -5674,6 +5691,25 @@
 			<skill id="4413" level="8"/>	<!-- Weak M. Def. -->
 			<skill id="4416" level="14"/>	<!-- Humans -->
 		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="113" min="1" max="1" chance="1"/>
+				<reward item_id="906" min="1" max="1" chance="1"/>
+				<reward item_id="1129" min="1" max="1" chance="1"/>
+				<reward item_id="3" min="1" max="1" chance="0.05"/>
+				<reward item_id="215" min="1" max="1" chance="0.05"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="57" min="37" max="85" chance="70"/>
+				<reward item_id="1061" min="1" max="1" chance="5.430"/>
+				<reward item_id="34991" min="1" max="1" chance="0.5"/>
+				<reward item_id="34992" min="1" max="1" chance="0.5"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34992" min="1" max="1" chance="3.244"/>
+			<reward item_id="271" min="1" max="1" chance="0.1"/>
+		</rewardlist>
 	</npc>
 	<npc id="22993" name="Critter" title="Husk">
 		<set name="aggroRange" value="100"/>
@@ -5722,6 +5758,21 @@
 			<skill id="4413" level="8"/>	<!-- Weak M. Def. -->
 			<skill id="4416" level="4"/>	<!-- Animals -->
 		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="907" min="1" max="1" chance="0.5"/>
+				<reward item_id="255" min="1" max="1" chance="0.05"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="57" min="23" max="54" chance="70"/>
+				<reward item_id="1061" min="1" max="1" chance="5.434"/>
+				<reward item_id="34992" min="1" max="1" chance="0.5"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34992" min="1" max="1" chance="1.998"/>
+			<reward item_id="273" min="1" max="1" chance="0.01"/>
+		</rewardlist>
 	</npc>
 	<npc id="22994" name="Avian" title="Husk">
 		<set name="ai_type" value="Fighter"/>
@@ -5769,6 +5820,21 @@
 			<skill id="4413" level="8"/>	<!-- Weak M. Def. -->
 			<skill id="4416" level="4"/>	<!-- Animals -->
 		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="114" min="1" max="1" chance="1"/>
+				<reward item_id="945" min="1" max="1" chance="1"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="57" min="65" max="152" chance="70"/>
+				<reward item_id="1061" min="1" max="1" chance="5.479"/>
+				<reward item_id="34992" min="1" max="1" chance="1"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34990" min="1" max="1" chance="2.322"/>
+			<reward item_id="625" min="1" max="1" chance="1"/>
+		</rewardlist>
 	</npc>
 	<npc id="22995" name="Rider" title="Husk">
 		<set name="ai_type" value="Fighter"/>
@@ -5816,6 +5882,22 @@
 			<skill id="4413" level="9"/>	<!-- Slightly Weak M. Def. -->
 			<skill id="4416" level="14"/>	<!-- Humans -->
 		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="23" min="1" max="1" chance="0.5"/>
+				<reward item_id="154" min="1" max="1" chance="0.1"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="57" min="72" max="168" chance="70"/>
+				<reward item_id="1061" min="1" max="1" chance="5.510"/>
+				<reward item_id="34991" min="1" max="1" chance="1"/>
+				<reward item_id="34992" min="1" max="1" chance="1"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34992" min="1" max="1" chance="6.312"/>
+			<reward item_id="878" min="1" max="1" chance="1"/>
+		</rewardlist>
 	</npc>
 	<npc id="22996" name="Krapher" title="Husk">
 		<set name="aggroRange" value="300"/>
@@ -5864,6 +5946,23 @@
 			<skill id="4413" level="9"/>
 			<skill id="4416" level="6"/>
 		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="115" min="1" max="1" chance="0.5"/>
+				<reward item_id="429" min="1" max="1" chance="0.5"/>
+				<reward item_id="1333" min="1" max="1" chance="0.05"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="57" min="63" max="147" chance="70"/>
+				<reward item_id="1061" min="1" max="1" chance="5.496"/>
+				<reward item_id="1879" min="1" max="1" chance="0.5"/>
+				<reward item_id="34991" min="1" max="1" chance="0.5"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34991" min="1" max="1" chance="5.534"/>
+			<reward item_id="2052" min="1" max="1" chance="0.5"/>
+		</rewardlist>
 	</npc>
 	<npc id="22997" name="Handyman" title="Embryo">
 		<!--L2WT Tauti Confirmed-->
