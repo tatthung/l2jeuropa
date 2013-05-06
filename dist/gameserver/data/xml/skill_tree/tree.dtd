@@ -21,6 +21,7 @@
 			name CDATA #IMPLIED
 			cost CDATA #IMPLIED
 			clicked CDATA #IMPLIED
+			deprecated CDATA #IMPLIED
 			race CDATA #IMPLIED>
 	<!ELEMENT class (skill)*>
 		<!ATTLIST class id CDATA #REQUIRED>
