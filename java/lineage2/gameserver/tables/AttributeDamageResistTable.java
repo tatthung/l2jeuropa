@@ -182,10 +182,6 @@ public class AttributeDamageResistTable
 				}
 			}
 			Collections.sort(_cappedAttributeList, Collections.reverseOrder(CapOrder));
-			for(AttributeCap ACap : _cappedAttributeList)
-			{
-				_log.info("AttributeDamageResistTable: Cap no:" + ACap.getCap() + " AttackBonus : " + ACap.getAttackBonus()+ " Defense Bonus:" + ACap.getDefenseBonus());
-			}
 			_baseCap = _cappedAttributeList.get(0).getCap();
 			_overCap = _cappedAttributeList.get(_cappedAttributeList.size()-1).getCap();
 			_log.info("AttributeDamageResistTable: All caps has been loaded, base cap: " + _baseCap + " OverCap: " + _overCap);			

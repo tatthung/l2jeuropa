@@ -931,15 +931,15 @@ public abstract class Creature extends GameObject
 		}
 		if ((skill != null) && skill.isMagic())
 		{
-			value = target.calcStat(Stats.REFLECT_MSKILL_DAMAGE_PERCENT, 0, this, skill);
+			value = target.calcStat(Stats.REFLECT_MSKILL_DAMAGE_PERCENT, 0, this, skill) - this.calcStat(Stats.REFLECT_RESISTANCE_PERCENT,0.,target, skill);
 		}
 		else if ((skill != null) && (skill.getCastRange() <= 200))
 		{
-			value = target.calcStat(Stats.REFLECT_PSKILL_DAMAGE_PERCENT, 0, this, skill);
+			value = target.calcStat(Stats.REFLECT_PSKILL_DAMAGE_PERCENT, 0, this, skill) - this.calcStat(Stats.REFLECT_RESISTANCE_PERCENT,0.,target, skill);
 		}
 		else if ((skill == null) && !bow)
 		{
-			value = target.calcStat(Stats.REFLECT_DAMAGE_PERCENT, 0, this, null);
+			value = target.calcStat(Stats.REFLECT_DAMAGE_PERCENT, 0, this, null) - this.calcStat(Stats.REFLECT_RESISTANCE_PERCENT,0.,target, null);			
 		}
 		if (value > 0)
 		{

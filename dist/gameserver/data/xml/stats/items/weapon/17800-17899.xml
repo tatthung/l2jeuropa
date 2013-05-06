@@ -386,6 +386,13 @@
 		<set name="crystal_type" value="R"/>
 		<set name="crystal_count" value="5"/>
 		<set name="crystallizable" value="true"/>
+		<for>
+			<add stat="sDef" order="0x10" value="415"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
 	</weapon>
 	<weapon id="17865" name="Bound Apocalypse Shaper">
 		<!--Done By Darvin (c)Java /Updated by Maleiva2013 - Team 2012-->
@@ -766,8 +773,11 @@
 		<set name="crystal_type" value="R"/>
 		<set name="crystal_count" value="12"/>
 		<for>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<add stat="sDef" order="0x10" value="458"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>

@@ -1162,8 +1162,11 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<for>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<add stat="sDef" order="0x10" value="79"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="32883" name="Round Shield of Destiny (Water, Earth, Holy)">
@@ -1175,8 +1178,11 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<for>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<add stat="sDef" order="0x10" value="79"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</weapon>
 	<weapon id="32889" name="Mithril Dagger of Destiny (Fire)">

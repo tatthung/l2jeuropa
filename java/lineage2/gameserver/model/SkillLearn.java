@@ -54,6 +54,10 @@ public final class SkillLearn implements Comparable<SkillLearn>
 	 */
 	private final boolean _clicked;
 	/**
+	 * Field _deprecated.
+	 */
+	private final boolean _deprecated;
+	/**
 	 * Field _race.
 	 */
 	private final Race _race;
@@ -78,7 +82,7 @@ public final class SkillLearn implements Comparable<SkillLearn>
 	 * @param required_items Map<Integer,Long>
 	 * @param delete_skills List<Integer>
 	 */
-	public SkillLearn(int id, int lvl, int minLvl, int cost, int itemId, long itemCount, boolean clicked, Race race, Map<Integer, Long> required_items, List<Integer> delete_skills)
+	public SkillLearn(int id, int lvl, int minLvl, int cost, int itemId, long itemCount, boolean clicked, boolean deprecated, Race race, Map<Integer, Long> required_items, List<Integer> delete_skills)
 	{
 		_id = id;
 		_level = lvl;
@@ -87,6 +91,7 @@ public final class SkillLearn implements Comparable<SkillLearn>
 		_itemId = itemId;
 		_itemCount = itemCount;
 		_clicked = clicked;
+		_deprecated = deprecated;
 		_race = race;
 		this.required_items = required_items;
 		this.delete_skills = delete_skills;
@@ -153,6 +158,15 @@ public final class SkillLearn implements Comparable<SkillLearn>
 	public boolean isClicked()
 	{
 		return _clicked;
+	}
+	
+	/**
+	 * Method isClicked.
+	 * @return boolean
+	 */
+	public boolean isDeprecated()
+	{
+		return _deprecated;
 	}
 	
 	public Race getRace()

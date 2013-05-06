@@ -97,6 +97,10 @@ public final class SkillAcquireParser extends AbstractDirParser<SkillAcquireHold
 		{
 			getHolder().addAllCertificationLearns(parseSkillLearn(iterator.next()));
 		}
+		for (Iterator<Element> iterator = rootElement.elementIterator("dualclass_certification_skill_tree"); iterator.hasNext();)
+		{
+			getHolder().addAllDualCertificationLearns(parseSkillLearn(iterator.next()));
+		}
 		for (Iterator<Element> iterator = rootElement.elementIterator("sub_unit_skill_tree"); iterator.hasNext();)
 		{
 			getHolder().addAllSubUnitLearns(parseSkillLearn(iterator.next()));
@@ -195,9 +199,10 @@ public final class SkillAcquireParser extends AbstractDirParser<SkillAcquireHold
 			int item_id = element.attributeValue("item_id") == null ? 0 : Integer.parseInt(element.attributeValue("item_id"));
 			long item_count = element.attributeValue("item_count") == null ? 1 : Long.parseLong(element.attributeValue("item_count"));
 			boolean clicked = (element.attributeValue("clicked") != null) && Boolean.parseBoolean(element.attributeValue("clicked"));
+			boolean deprecated = (element.attributeValue("deprecated") != null) && Boolean.parseBoolean(element.attributeValue("deprecated"));
 			Race race = element.attributeValue("race") == null ? null : Race.valueOf(element.attributeValue("race"));
 			
-			skillLearns.add(new SkillLearn(id, level, min_level, cost, item_id, item_count, clicked, race, new HashMap<Integer, Long>(), new ArrayList<Integer>()));
+			skillLearns.add(new SkillLearn(id, level, min_level, cost, item_id, item_count, clicked, deprecated, race, new HashMap<Integer, Long>(), new ArrayList<Integer>()));
 		}
 		return skillLearns;
 	}

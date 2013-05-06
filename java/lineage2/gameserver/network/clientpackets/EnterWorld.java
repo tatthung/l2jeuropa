@@ -32,6 +32,7 @@ import lineage2.gameserver.model.Effect;
 import lineage2.gameserver.model.GameObjectsStorage;
 import lineage2.gameserver.model.Player;
 import lineage2.gameserver.model.Skill;
+import lineage2.gameserver.model.SubClass;
 import lineage2.gameserver.model.Summon;
 import lineage2.gameserver.model.World;
 import lineage2.gameserver.model.base.InvisibleType;
@@ -455,6 +456,29 @@ public class EnterWorld extends L2GameClientPacket
 				if (effect.getSkill().getId() == 10022)
 				{
 					activeChar.setIsIgnoringDeath(true);
+				}
+			}
+		}
+		if(Config.ALT_GAME_REMOVE_PREVIOUS_CERTIFICATES)
+		{
+			Skill [] allSkill = activeChar.getAllSkillsArray();
+			int totalCertificates =  0;
+			for(Skill skl : allSkill)
+			{
+				if(skl.getId() >= 1573 && skl.getId() <= 1581)
+				{
+					totalCertificates += skl.getLevel();
+					activeChar.removeSkill(skl,true);
+				}
+			}
+			if(totalCertificates > 0)
+			{
+				activeChar.getInventory().addItem(10280, totalCertificates);
+				_log.info("EnterWorld: Player - " + activeChar.getName() + " - Has received " + totalCertificates + " by previous skill certificate deletion." );
+				for(SubClass sc : activeChar.getSubClassList().values())
+				{
+					sc.setCertification(0);
+					activeChar.store(true);
 				}
 			}
 		}

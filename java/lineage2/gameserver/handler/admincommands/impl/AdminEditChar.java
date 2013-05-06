@@ -583,7 +583,7 @@ public class AdminEditChar implements IAdminCommandHandler
 			{
 				st.nextToken();
 				int classId = Short.parseShort(st.nextToken());
-				if (!player.addSubClass(classId, true, 0))
+				if (!player.addSubClass(classId, true, 0, 0, false, 0))
 				{
 					activeChar.sendMessage(new CustomMessage("lineage2.gameserver.model.instances.L2VillageMasterInstance.SubclassCouldNotBeAdded", activeChar));
 					return false;

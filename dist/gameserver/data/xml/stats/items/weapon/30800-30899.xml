@@ -1112,8 +1112,11 @@
 		<set name="crystal_type" value="C"/>
 		<set name="crystal_count" value="3562"/>
 		<for>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<add stat="sDef" order="0x10" value="166"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1986,8 +1989,11 @@
 		<set name="crystal_type" value="A"/>
 		<set name="crystal_count" value="3562"/>
 		<for>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<add stat="sDef" order="0x10" value="256"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>

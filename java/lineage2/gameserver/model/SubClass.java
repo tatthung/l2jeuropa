@@ -40,6 +40,22 @@ public class SubClass
 	 */
 	public static final int CERTIFICATION_80 = 1 << 3;
 	/**
+	 * Field CERTIFICATION_85.
+	 */
+	public static final int DUALCERTIFICATION_85 = 1 << 0;
+	/**
+	 * Field CERTIFICATION_90.
+	 */
+	public static final int DUALCERTIFICATION_90 = 1 << 1;
+	/**
+	 * Field CERTIFICATION_95.
+	 */
+	public static final int DUALCERTIFICATION_95 = 1 << 2;
+	/**
+	 * Field CERTIFICATION_85.
+	 */
+	public static final int DUALCERTIFICATION_99 = 1 << 3;
+	/**
 	 * Field _classId.
 	 */
 	private int _classId = 0;
@@ -87,6 +103,10 @@ public class SubClass
 	 * Field _certification.
 	 */
 	private int _certification;
+	/**
+	 * Field _dualCertification.
+	 */
+	private int _dualCertification;
 	/**
 	 * Field _hp.
 	 */
@@ -477,6 +497,43 @@ public class SubClass
 	public boolean isCertificationGet(int v)
 	{
 		return (_certification & v) == v;
+	}
+
+	/**
+	 * Method getCertification.
+	 * @return int
+	 */
+	public int getDualCertification()
+	{
+		return _dualCertification;
+	}
+	
+	/**
+	 * Method setDualCertification.
+	 * @param certification int
+	 */
+	public void setDualCertification(int dualcertification)
+	{
+		_dualCertification = dualcertification;
+	}
+	
+	/**
+	 * Method addDualCertification.
+	 * @param c int
+	 */
+	public void addDualCertification(int c)
+	{
+		_dualCertification |= c;
+	}
+	
+	/**
+	 * Method isDualCertificationGet.
+	 * @param v int
+	 * @return boolean
+	 */
+	public boolean isDualCertificationGet(int v)
+	{
+		return (_dualCertification & v) == v;
 	}
 	
 	/**

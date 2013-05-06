@@ -2715,7 +2715,7 @@ public final class Player extends Playable implements PlayerGroup
 		abortCast(true, true);
 		int classId = sub.getClassId();
 		int oldClassId = getActiveClassId();
-		setActiveSubClass(classId, true);
+		setActiveSubClass(classId, true, 0);
 		Skill skill = SkillTable.getInstance().getInfo(1570, 1);
 		skill.getEffects(this, this, false, false);
 		if(isAwaking()) //If the characters returns to Main, or dual Subclass and Delete Skills prof are active, do check of Correct skills
@@ -3068,7 +3068,7 @@ public final class Player extends Playable implements PlayerGroup
 			final SubClass cclass = getActiveSubClass();
 			final int oldClass = cclass.getClassId();
 			_subClassList.changeSubClassId(oldClass, id);
-			changeClassInDb(oldClass, id, cclass.getDefaultClassId());
+			changeClassInDb(oldClass, id, cclass.getDefaultClassId() == 0 ? getSubClassList().getBaseSubClass().getDefaultClassId() : cclass.getDefaultClassId());
 			if (cclass.isBase())
 			{
 				addClanPointsOnProfession(id);
@@ -3085,7 +3085,7 @@ public final class Player extends Playable implements PlayerGroup
 					ItemFunctions.addItem(this, 15309, 7, true);
 					break;
 			}
-			rewardSkills(true);
+			rewardSkills(true,false);
 			storeCharSubClasses();
 			broadcastCharInfo();
 		}
@@ -3371,10 +3371,10 @@ public final class Player extends Playable implements PlayerGroup
 	 * Method rewardSkills.
 	 * @param send boolean
 	 */
-	public void rewardSkills(boolean send)
+	public void rewardSkills(boolean send, boolean isSubclassAdd)
 	{
 		boolean update = false;
-		if (Config.AUTO_LEARN_SKILLS)
+		if (Config.AUTO_LEARN_SKILLS || isSubclassAdd)
 		{
 			ClassId _cId = null;
 			int unLearnable = 0;
@@ -5539,7 +5539,7 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			_matchingRoom.broadcastPlayerUpdate(this);
 		}
-		rewardSkills(true);
+		rewardSkills(true,false);
 	}
 	
 	/**
@@ -6319,7 +6319,7 @@ public final class Player extends Playable implements PlayerGroup
 		int sp = 0;
 		boolean active = true;
 		SubClassType type = SubClassType.BASE_CLASS;
-		if (!CharacterSubclassDAO.getInstance().insert(player.getObjectId(), classId, classId, exp, sp, hp, mp, cp, hp, mp, cp, level, active, type, null, 0))
+		if (!CharacterSubclassDAO.getInstance().insert(player.getObjectId(), classId, classId, exp, sp, hp, mp, cp, hp, mp, cp, level, active, type, null, 0, 0))
 		{
 			return null;
 		}
@@ -6487,7 +6487,7 @@ public final class Player extends Playable implements PlayerGroup
 				EventHolder.getInstance().findEvent(player);
 				Quest.restoreQuestStates(player);
 				player.getSubClassList().restore();
-				player.setActiveSubClass(player.getActiveClassId(), false);
+				player.setActiveSubClass(player.getActiveClassId(), false, 0);
 				player.restoreVitality();
 				player.getInventory().restore();
 				player._menteeList.restore();
@@ -6820,6 +6820,27 @@ public final class Player extends Playable implements PlayerGroup
 	}
 	
 	/**
+	 * Method addCertSkill.
+	 * @param newSkill Skill
+	 * @param store boolean
+	 * @return Skill
+	 */
+	public Skill addCertSkill(final Skill newSkill, final boolean isDual)
+	{
+		if (newSkill == null)
+		{
+			return null;
+		}
+		Skill oldSkill = super.addSkill(newSkill);
+		if (newSkill.equals(oldSkill))
+		{
+			return oldSkill;
+		}
+		storeCertSkill(newSkill, oldSkill,isDual);
+		return oldSkill;
+	}
+	
+	/**
 	 * Method addSkill.
 	 * @param newSkill Skill
 	 * @param store boolean
@@ -6950,6 +6971,143 @@ public final class Player extends Playable implements PlayerGroup
 		}
 	}
 
+	/**
+	 * Method storeCertSkill.
+	 * @param newSkill Skill
+	 * @param oldSkill Skill
+	 */
+	public HashMap <Integer, Integer> getCertSkill()
+	{
+		Connection con = null;
+		PreparedStatement statement = null;
+		ResultSet rset = null;
+		HashMap <Integer, Integer> skillList = new HashMap<Integer,Integer>();
+		try
+		{
+			con = DatabaseFactory.getInstance().getConnection();
+			for(SubClass sb : getSubClassList().values())
+			{
+				if(sb.getType() == SubClassType.BASE_CLASS)
+				{
+					List <Integer> certificationId = new ArrayList <Integer>();
+					Collection<SkillLearn> skillLearnList = SkillAcquireHolder.getInstance().getAvailableSkills(null, AcquireType.CERTIFICATION);
+					for(SkillLearn sklL : skillLearnList)
+					{
+						certificationId.add(sklL.getId());
+					}
+					statement = con.prepareStatement("SELECT skill_id, skill_level FROM character_skills WHERE char_obj_id=? AND class_index=?");
+					statement.setInt(1, getObjectId());
+					statement.setInt(2, sb.getClassId());
+					rset = statement.executeQuery();					
+					while(rset.next())
+					{
+						for(Integer sklId : certificationId)
+						{
+							if(sklId == rset.getInt("skill_id"))
+							{
+								skillList.put(rset.getInt("skill_id"), rset.getInt("skill_level"));									
+							}
+						}
+					}
+					break;
+				}
+			}
+		}
+		catch (final Exception e)
+		{
+			_log.error("Error could not get Certification skills!", e);
+		}
+		finally
+		{
+			DbUtils.closeQuietly(con, statement, rset);
+		}
+		return skillList;
+	}
+
+	/**
+	 * Method storeCertSkill.
+	 * @param newSkill Skill
+	 * @param oldSkill Skill
+	 */
+	private void storeCertSkill(final Skill newSkill, final Skill oldSkill, final boolean isDual)
+	{
+		if (newSkill == null)
+		{
+			_log.warn("could not store new skill. its NULL");
+			return;
+		}
+		Connection con = null;
+		PreparedStatement statement = null;
+		try
+		{
+			con = DatabaseFactory.getInstance().getConnection();
+			for(SubClass sb : this.getSubClassList().values())
+			{
+				if(sb.getType() == SubClassType.BASE_CLASS || sb.getType() == SubClassType.DOUBLE_SUBCLASS || (sb.getType() == SubClassType.SUBCLASS && !isDual))
+				{
+					statement = con.prepareStatement("REPLACE INTO character_skills (char_obj_id,skill_id,skill_level,class_index) values(?,?,?,?)");
+					statement.setInt(1, getObjectId());
+					statement.setInt(2, newSkill.getId());
+					statement.setInt(3, newSkill.getLevel());
+					statement.setInt(4, sb.getClassId());		
+					statement.execute();			
+				}
+			}
+		}
+		catch (final Exception e)
+		{
+			_log.error("Error could not store Certification skills!", e);
+		}
+		finally
+		{
+			DbUtils.closeQuietly(con, statement);
+		}
+	}
+	
+	/**
+	 * Method removeCertSkill.
+	 * @param id int
+	 * @param fromDB boolean
+	 * @return Skill
+	 */
+	//Must be used for single skill to remove don't use into loop cycle!
+	public void removeCertSkill(List <Integer> skillsRemove)
+	{
+		Iterator<Integer> iterator = skillsRemove.iterator();
+		while (iterator.hasNext())
+		{
+			super.removeSkillById(iterator.next());
+		}
+		if (skillsRemove.size() > 0)
+		{
+			String SkillList = skillsRemove.toString();
+			SkillList = SkillList.replace('[', '(');
+			SkillList = SkillList.replace(']', ')');
+			Connection con = null;
+			PreparedStatement statement = null;
+			try
+			{
+				con = DatabaseFactory.getInstance().getConnection();
+				for(SubClass subclass : getSubClassList().values())
+				{
+					statement = con.prepareStatement("DELETE FROM character_skills WHERE skill_id IN " + SkillList + " AND char_obj_id=? AND class_index=?");
+					statement.setInt(1, getObjectId());
+					statement.setInt(2, subclass.getClassId());
+					statement.execute();					
+				}
+			}
+			catch (final Exception e)
+			{
+				_log.error("Could not delete certification skill!", e);
+			}
+			finally
+			{
+				DbUtils.closeQuietly(con, statement);
+			}
+		}
+	}
+
+	
 	/**
 	 * Method storeSkill.
 	 * @param newSkill Skill
@@ -9999,28 +10157,44 @@ public final class Player extends Playable implements PlayerGroup
 	 * @param certification int
 	 * @return boolean
 	 */
-	public boolean addSubClass(final int classId, boolean storeOld, int certification)
+	public boolean addSubClass(final int classId, boolean storeOld, int certification, int dual_certification, boolean isDual, int index)
 	{
 		final SubClass newClass = new SubClass();
-		final SubClassType type = SubClassType.SUBCLASS;
+		SubClassType type = SubClassType.SUBCLASS;
+		int level = 40;
+		if(isDual)
+		{
+			type = SubClassType.DOUBLE_SUBCLASS;
+			level = 85;
+		}
 		newClass.setType(type);
 		newClass.setClassId(classId);
 		newClass.setCertification(certification);
-		if (!getSubClassList().add(newClass))
+		if (index > 0 && index < 5)
+		{
+			getSubClassList().addToIndex(newClass, index);
+		}
+		else if (!getSubClassList().add(newClass))
 		{
 			return false;
-		}
-		final int level = 40;
-		final long exp = Experience.LEVEL[level];
+		}		
+		final long exp = Experience.getExpForLevel(level);
 		final double hp = getMaxHp();
 		final double mp = getMaxMp();
 		final double cp = getMaxCp();
-		if (!CharacterSubclassDAO.getInstance().insert(getObjectId(), classId, classId, exp, 0, hp, mp, cp, hp, mp, cp, level, false, type, null, certification))
+		if (!CharacterSubclassDAO.getInstance().insert(getObjectId(), classId, classId, exp, 0, hp, mp, cp, hp, mp, cp, level, false, type, null, certification, dual_certification))
 		{
 			return false;
 		}
-		setActiveSubClass(classId, storeOld);
-		rewardSkills(false);
+		setActiveSubClass(classId, storeOld, exp);
+		HashMap <Integer,Integer> certificationSkills = getCertSkill();
+		for(Iterator <Entry<Integer,Integer>> i = certificationSkills.entrySet().iterator();i.hasNext();)
+		{
+			Map.Entry<Integer,Integer> e = (Map.Entry<Integer, Integer>)i.next();
+			Skill skl = SkillTable.getInstance().getInfo(e.getKey(), e.getValue());
+			addSkill(skl,true);									
+		}
+		rewardSkills(false,false);
 		sendSkillList();
 		setCurrentHpMp(getMaxHp(), getMaxMp(), true);
 		setCurrentCp(getMaxCp());
@@ -10033,13 +10207,14 @@ public final class Player extends Playable implements PlayerGroup
 	 * @param newClassId int
 	 * @return boolean
 	 */
-	public boolean modifySubClass(final int oldClassId, final int newClassId)
+	public boolean modifySubClass(final int oldClassId, final int newClassId, boolean isDual)
 	{
 		final SubClass originalClass = getSubClassList().getByClassId(oldClassId);
 		if ((originalClass == null) || originalClass.isBase())
 		{
 			return false;
 		}
+		final int dual_certification = originalClass.getCertification();
 		final int certification = originalClass.getCertification();
 		Connection con = null;
 		PreparedStatement statement = null;
@@ -10086,8 +10261,9 @@ public final class Player extends Playable implements PlayerGroup
 		{
 			DbUtils.closeQuietly(con, statement);
 		}
+		int index = getSubClassList().getByClassId(oldClassId).getIndex();
 		getSubClassList().removeByClassId(oldClassId);
-		return (newClassId <= 0) || addSubClass(newClassId, false, certification);
+		return (newClassId <= 0) || addSubClass(newClassId, false, certification, dual_certification, isDual, index);
 	}
 	
 	/**
@@ -10095,7 +10271,7 @@ public final class Player extends Playable implements PlayerGroup
 	 * @param subId int
 	 * @param store boolean
 	 */
-	public void setActiveSubClass(int subId, boolean store)
+	public void setActiveSubClass(int subId, boolean store, long exp)
 	{
 		if (!_subClassOperationLock.tryLock())
 		{
@@ -10129,7 +10305,11 @@ public final class Player extends Playable implements PlayerGroup
 			}
 			SubClass newActiveSub = _subClassList.changeActiveSubClass(subId);
 			_template = PlayerTemplateHolder.getInstance().getPlayerTemplate(getRace(), getClassId(), Sex.VALUES[getSex()]);
-			setClassId(subId, false, false);
+			setClassId(subId, true, false);
+			if(exp > 0)
+			{
+				newActiveSub.setExp(exp);
+			}
 			removeAllSkills();
 			getEffectList().stopAllEffects();
 			getSummonList().unsummonAllServitors();
@@ -10141,7 +10321,7 @@ public final class Player extends Playable implements PlayerGroup
 			getSummonList().unsummonAll(false);
 			setAgathion(0);
 			restoreSkills();
-			rewardSkills(false);
+			rewardSkills(false,false);
 			checkSkills();
 			sendPacket(new ExStorageMaxCount(this));
 			refreshExpertisePenalty();

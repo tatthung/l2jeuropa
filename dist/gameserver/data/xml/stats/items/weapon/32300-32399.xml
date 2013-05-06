@@ -293,13 +293,13 @@
 			<slot id="LEFT_HAND"/>
 		</equip>
 		<set name="type" value="NONE"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystal_count" value="2562"/>
 		<for>
-			<add stat="pAtk" order="0x10" value="482"/>
-			<set stat="baseCrit" order="0x08" value="80"/>
-			<set stat="atkBaseSpeed" order="0x08" value="325"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
+		<set name="crystallizable" value="true"/>
 	</weapon>
 	<weapon id="32348" name="Fantasy Dagger of Mana">
 		<!--Done By Darvin (c)Java - Team 2012-->

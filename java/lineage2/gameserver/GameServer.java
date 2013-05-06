@@ -83,6 +83,7 @@ import lineage2.gameserver.scripts.Scripts;
 import lineage2.gameserver.tables.AttributeDamageResistTable;
 import lineage2.gameserver.tables.AugmentationData;
 import lineage2.gameserver.tables.ClanTable;
+import lineage2.gameserver.tables.DualClassTable;
 import lineage2.gameserver.tables.EnchantHPBonusTable;
 import lineage2.gameserver.tables.EnchantStatBonusTable;
 import lineage2.gameserver.tables.FakePlayersTable;
@@ -314,6 +315,7 @@ public class GameServer
         WorldStatisticsManager.getInstance();
 
 		SubClassTable.getInstance();
+		DualClassTable.getInstance();
 		if (Config.GARBAGE_COLLECTOR_INTERVAL > 0)
 		{
 			Class.forName(GarbageCollector.class.getName());

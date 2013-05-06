@@ -18,8 +18,8 @@
 		<for>
 			<add stat="sDef" order="0x10" value="142"/>
 			<add stat="rShld" order="0x10" value="20"/>
-			<add stat="rEvas" order="0x10" value="-8.0000"/>
-			<enchant stat="sDef" order="0x0C" value="0"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</weapon>
@@ -40,8 +40,8 @@
 		<for>
 			<add stat="sDef" order="0x10" value="154"/>
 			<add stat="rShld" order="0x10" value="20"/>
-			<add stat="rEvas" order="0x10" value="-8.0000"/>
-			<enchant stat="sDef" order="0x0C" value="0"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</weapon>
@@ -62,8 +62,8 @@
 		<for>
 			<add stat="sDef" order="0x10" value="166"/>
 			<add stat="rShld" order="0x10" value="20"/>
-			<add stat="rEvas" order="0x10" value="-8.0000"/>
-			<enchant stat="sDef" order="0x0C" value="0"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</weapon>
@@ -84,8 +84,8 @@
 		<for>
 			<add stat="sDef" order="0x10" value="174"/>
 			<add stat="rShld" order="0x10" value="20"/>
-			<add stat="rEvas" order="0x10" value="-8.0000"/>
-			<enchant stat="sDef" order="0x0C" value="0"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</weapon>
@@ -106,8 +106,8 @@
 		<for>
 			<add stat="sDef" order="0x10" value="203"/>
 			<add stat="rShld" order="0x10" value="20"/>
-			<add stat="rEvas" order="0x10" value="-8.0000"/>
-			<enchant stat="sDef" order="0x0C" value="0"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</weapon>
@@ -128,8 +128,8 @@
 		<for>
 			<add stat="sDef" order="0x10" value="256"/>
 			<add stat="rShld" order="0x10" value="20"/>
-			<add stat="rEvas" order="0x10" value="-8.0000"/>
-			<enchant stat="sDef" order="0x0C" value="0"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</weapon>

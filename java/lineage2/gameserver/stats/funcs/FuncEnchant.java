@@ -91,15 +91,18 @@ public class FuncEnchant extends Func
 		switch (stat)
 		{
 			case SHIELD_DEFENCE:
+				double defenseBonus = EnchantStatBonusTable.getInstance().getDefenseBonus(crystal,enchant,_limit1);
+				env.value += (int)calcStatBonus(enchant, defenseBonus,isBlessed, false,isTopGrade,false);
+				break;
 			case MAGIC_DEFENCE:
 			{
-				double defenseBonus = EnchantStatBonusTable.getInstance().getDefenseBonus(crystal,enchant,_limit1);
+				defenseBonus = EnchantStatBonusTable.getInstance().getDefenseBonus(crystal,enchant,_limit1);
 				env.value += (int)calcStatBonus(enchant, defenseBonus,isBlessed, false,isTopGrade,false);
 				break;				
 			}
 			case POWER_DEFENCE:
 			{	
-				double defenseBonus = EnchantStatBonusTable.getInstance().getDefenseBonus(crystal,enchant,_limit1);
+				defenseBonus = EnchantStatBonusTable.getInstance().getDefenseBonus(crystal,enchant,_limit1);
 				env.value += (int)calcStatBonus(enchant, defenseBonus,isBlessed, false,isTopGrade,false);
 				break;
 			}

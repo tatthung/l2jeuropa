@@ -366,8 +366,11 @@
 		<set name="crystal_count" value="248"/>
 		<set name="isBlessed" value="true"/>
 		<for>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<add stat="sDef" order="0x10" value="458"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -725,7 +728,7 @@
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
 	</weapon>
-	<weapon id="18054" name="Blessed Specter Shield" add_name="Heavy">
+	<weapon id="18054" name="Blessed Seraph Shield" add_name="Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
 		<set name="icon" value="icon.beranka_i00"/>
 		<set name="weight" value="1130"/>
@@ -737,8 +740,11 @@
 		<set name="crystal_count" value="362"/>
 		<set name="isBlessed" value="true"/>
 		<for>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<add stat="sDef" order="0x10" value="505"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>
@@ -1123,8 +1129,11 @@
 		<set name="crystal_count" value="1182"/>
 		<set name="isBlessed" value="true"/>
 		<for>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="mAtk" order="0x40" value="0"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<add stat="sDef" order="0x10" value="526"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>

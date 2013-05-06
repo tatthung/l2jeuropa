@@ -40,11 +40,11 @@ public class SubClassList
 	/**
 	 * Field _listByIndex.
 	 */
-	private final TreeMap<Integer, SubClass> _listByIndex = new TreeMap<>();
+	private final TreeMap<Integer, SubClass> _listByIndex = new TreeMap<Integer, SubClass>();
 	/**
 	 * Field _listByClassId.
 	 */
-	private final TreeMap<Integer, SubClass> _listByClassId = new TreeMap<>();
+	private final TreeMap<Integer, SubClass> _listByClassId = new TreeMap<Integer, SubClass>();
 	/**
 	 * Field _owner.
 	 */
@@ -193,7 +193,16 @@ public class SubClassList
 	{
 		return _activeSubClass == _baseSubClass;
 	}
+
 	
+	/**
+	 * Method isBaseClassActive.
+	 * @return boolean
+	 */
+	public boolean isDoubleClassActive()
+	{
+		return _activeSubClass.isDouble();
+	}
 	/**
 	 * Method haveSubClasses.
 	 * @return boolean
@@ -247,6 +256,35 @@ public class SubClassList
 		}
 		sub.setIndex(_lastFreeIndex);
 		_lastFreeIndex++;
+		_listByIndex.put(sub.getIndex(), sub);
+		_listByClassId.put(sub.getClassId(), sub);
+		return true;
+	}
+	
+	/**
+	 * Method add.
+	 * @param sub SubClass
+	 * @return boolean
+	 */
+	public boolean addToIndex(SubClass sub, int index)
+	{
+		if (sub == null)
+		{
+			return false;
+		}
+		if (size() >= MAX_SUB_COUNT)
+		{
+			return false;
+		}
+		if (_listByClassId.containsKey(sub.getClassId()))
+		{
+			return false;
+		}
+		if(index < 1 && index > 4)
+		{
+			return false;
+		}
+		sub.setIndex(index);
 		_listByIndex.put(sub.getIndex(), sub);
 		_listByClassId.put(sub.getClassId(), sub);
 		return true;

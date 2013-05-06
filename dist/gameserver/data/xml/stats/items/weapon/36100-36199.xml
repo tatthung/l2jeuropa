@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<weapon id="36119" name=" Нет перевода id: 36119">
+	<weapon id="36119" name="Elegia Shield: Ceremony of Chaos">
 		<!--Done by ALF-->
 		<set name="icon" value="icon.heavengate_shield_i01"/>
 		<set name="weight" value="1190"/>
@@ -14,10 +14,11 @@
 			<slot id="LEFT_HAND"/>
 		</equip>
 		<for>
-			<add stat="pAtk" order="0x10" value="0"/>
-			<add stat="mAtk" order="0x10" value="0"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
-			<enchant stat="pAtk" order="0x40" value="0"/>
+			<add stat="rEvas" order="0x40" value="-8"/>
+			<add stat="sDef" order="0x10" value="458"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<enchant stat="sDef" order="0x40" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 		<set name="crystallizable" value="true"/>
 	</weapon>

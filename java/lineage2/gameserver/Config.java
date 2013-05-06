@@ -248,6 +248,10 @@ public class Config
 	public static int ALT_MAX_DUAL_SUB_LEVEL;
 	public static int ALT_GAME_SUB_ADD;
 	public static boolean ALT_GAME_SUB_BOOK;
+	public static double[] ALT_GAME_DUALCLASS_REAWAKENING_COST;
+	public static int ALT_GAME_RESET_CERTIFICATION_COST;
+	public static int ALT_GAME_RESET_DUALCERTIFICATION_COST;
+	public static boolean ALT_GAME_REMOVE_PREVIOUS_CERTIFICATES;
 	public static boolean ALT_NO_LASTHIT;
 	public static boolean ALT_KAMALOKA_NIGHTMARES_PREMIUM_ONLY;
 	public static boolean ALT_KAMALOKA_NIGHTMARE_REENTER;
@@ -391,7 +395,7 @@ public class Config
 	public static boolean OLYMPIAD_OLDSTYLE_STAT;
 	public static long NONOWNER_ITEM_PICKUP_DELAY;
 	public static boolean LOG_CHAT;
-	public static Map<Integer, PlayerAccess> gmlist = new HashMap<>();
+	public static Map<Integer, PlayerAccess> gmlist = new HashMap<Integer, PlayerAccess>();
 	public static double RATE_XP;
 	public static double RATE_SP;
 	public static double RATE_QUESTS_REWARD;
@@ -469,7 +473,7 @@ public class Config
 	public static String CLASS_MASTERS_PRICE;
 	public static String CLASS_MASTERS_PRICE_ITEM;
 	public static int[] CLASS_MASTERS_PRICE_ITEM_LIST = new int[5];
-	public static List<Integer> ALLOW_CLASS_MASTERS_LIST = new ArrayList<>();
+	public static List<Integer> ALLOW_CLASS_MASTERS_LIST = new ArrayList<Integer>();
 	public static int[] CLASS_MASTERS_PRICE_LIST = new int[5];
 	public static boolean ALLOW_EVENT_GATEKEEPER;
 	public static boolean ITEM_BROKER_ITEM_SEARCH;
@@ -497,7 +501,7 @@ public class Config
 	public static int MIN_PK_TO_ITEMS_DROP;
 	public static boolean DROP_ITEMS_ON_DIE;
 	public static boolean DROP_ITEMS_AUGMENTED;
-	public static List<Integer> KARMA_LIST_NONDROPPABLE_ITEMS = new ArrayList<>();
+	public static List<Integer> KARMA_LIST_NONDROPPABLE_ITEMS = new ArrayList<Integer>();
 	public static int PVP_TIME;
 	public static int REPUTATION_COUNT;
 	public static int PK_KILLER_NAME_COLOUR;
@@ -622,10 +626,10 @@ public class Config
 	public static int COMMUNITYBOARD_BUFF_TIME;
 	public static int COMMUNITYBOARD_BUFF_PICE;
 	public static int COMMUNITYBOARD_BUFF_SAVE_PICE;
-	public static List<Integer> COMMUNITYBOARD_BUFF_ALLOW = new ArrayList<>();
-	public static List<Integer> COMMUNITI_LIST_MAGE_SUPPORT = new ArrayList<>();
-	public static List<Integer> COMMUNITI_LIST_FIGHTER_SUPPORT = new ArrayList<>();
-	public static List<String> COMMUNITYBOARD_MULTISELL_ALLOW = new ArrayList<>();
+	public static List<Integer> COMMUNITYBOARD_BUFF_ALLOW = new ArrayList<Integer>();
+	public static List<Integer> COMMUNITI_LIST_MAGE_SUPPORT = new ArrayList<Integer>();
+	public static List<Integer> COMMUNITI_LIST_FIGHTER_SUPPORT = new ArrayList<Integer>();
+	public static List<String> COMMUNITYBOARD_MULTISELL_ALLOW = new ArrayList<String>();
 	public static String BBS_DEFAULT;
 	public static String BBS_HOME_DIR;
 	public static boolean COMMUNITYBOARD_TELEPORT_ENABLED;
@@ -1378,6 +1382,41 @@ public class Config
 		ALT_GAME_LEVEL_TO_GET_SUBCLASS = altSettings.getProperty("AltLevelToGetSubclass", 75);
 		ALT_GAME_SUB_ADD = altSettings.getProperty("AltSubAdd", 0);
 		ALT_GAME_SUB_BOOK = altSettings.getProperty("AltSubBook", false);
+		ALT_GAME_RESET_CERTIFICATION_COST = altSettings.getProperty("AltResetCertificationCost", 10000000);
+		ALT_GAME_RESET_DUALCERTIFICATION_COST = altSettings.getProperty("AltResetDualCertificationCost", 20000000);
+		ALT_GAME_REMOVE_PREVIOUS_CERTIFICATES = altSettings.getProperty("AltRemovePreviousCertificates", false);
+		ALT_GAME_DUALCLASS_REAWAKENING_COST = altSettings.getProperty("AltGameDualClassReawakeningCost", new double[]
+		{
+			100,
+			90,
+			80,
+			70,
+			60,
+			50,
+			40,
+			30,
+			20,
+			10				
+		});
+		_log.warn("altGameReawakeningCost = " + ALT_GAME_DUALCLASS_REAWAKENING_COST.length);
+		if(ALT_GAME_DUALCLASS_REAWAKENING_COST.length != 10)
+		{
+			double [] DefaultValues = new double[] 
+			{
+				100,
+				90,
+				80,
+				70,
+				60,
+				50,
+				40,
+				30,
+				20,
+				10						
+			};
+			ALT_GAME_DUALCLASS_REAWAKENING_COST = DefaultValues;
+			_log.warn("altGameReawakeningCost = Incorrect values for corresponding levels, loaded default values");
+		}
 		ALT_MAX_LEVEL = Math.min(altSettings.getProperty("AltMaxLevel", 99), Experience.LEVEL.length - 1);
 		ALT_MAX_SUB_LEVEL = Math.min(altSettings.getProperty("AltMaxSubLevel", 80), Experience.LEVEL.length - 1);
 		ALT_MAX_DUAL_SUB_LEVEL = Math.min(altSettings.getProperty("AltMaxDualSubLevel", 99), Experience.LEVEL.length - 1);
@@ -1711,7 +1750,7 @@ public class Config
 		DROPCHANCE_EQUIPPED_WEAPON = pvpSettings.getProperty("ChanceOfDropWeapon", 3);
 		DROPCHANCE_EQUIPMENT = pvpSettings.getProperty("ChanceOfDropEquippment", 17);
 		DROPCHANCE_ITEM = pvpSettings.getProperty("ChanceOfDropOther", 80);
-		KARMA_LIST_NONDROPPABLE_ITEMS = new ArrayList<>();
+		KARMA_LIST_NONDROPPABLE_ITEMS = new ArrayList<Integer>();
 		for (int id : pvpSettings.getProperty("ListOfNonDroppableItems", new int[]
 		{
 			57,
@@ -1929,7 +1968,7 @@ public class Config
 	 */
 	public static void abuseLoad()
 	{
-		List<Pattern> tmp = new ArrayList<>();
+		List<Pattern> tmp = new ArrayList<Pattern>();
 		LineNumberReader lnr = null;
 		try
 		{

@@ -707,4 +707,524 @@
 			</effect>
 		</for>
 	</skill>
+	<skill id="1956" levels="4" name="Sub - P.Atk/M.Atk Increase">
+	<!-- P.Atk +x%, M.Atk +x% -->
+		<table name="#Atk">1.01 1.02 1.03 1.04</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtk" val="#Atk"/>
+			<mul order="0x30" stat="mAtk" val="#Atk"/>
+		</for>
+	</skill>
+	<skill id="1957" levels="4" name="Sub - P.Def/M.Def Increase">
+	<!-- P.Def +x%, M.Def +x% -->
+		<table name="#Def">1.01 1.02 1.03 1.04</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pDef" val="#Def"/>
+			<mul order="0x30" stat="mDef" val="#Def"/>
+		</for>
+	</skill>
+	<skill id="1958" levels="4" name="Sub - Atk. Speed/Casting Speed Increase">
+	<!-- Atk. Speed +x%, Casting Speed +x% -->
+		<table name="#AtkSpd">1.01 1.02 1.03 1.04</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtkSpd" val="#AtkSpd"/>
+			<mul order="0x30" stat="mAtkSpd" val="#AtkSpd"/>
+		</for>
+	</skill>
+	<skill id="1959" levels="4" name="Sub - Critical Rate Increase">
+	<!-- Critical Rate + x, M. Critical Rate + x -->
+		<table name="#critRate">10 20 30 40</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="rCrit" val="#critRate"/>
+			<add order="0x40" stat="mCritRate" val="#critRate"/>
+		</for>
+	</skill>
+	<skill id="1960" levels="4" name="Sub - Accuracy Increase">
+	<!-- P. Accuracy + x, M. Accuracy + x-->
+		<table name="#accCombat">2 4 6 8</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="accCombat" val="#accCombat"/>
+			<add order="0x40" stat="maccCombat" val="#accCombat"/>
+		</for>
+	</skill>
+	<skill id="1961" levels="4" name="Sub - Evasion Increase">
+	<!-- P. Evasion + x, M. Evasion + x-->
+		<table name="#evasion">2 4 6 8</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="rEvas" val="#evasion"/>
+			<add order="0x40" stat="mEvas" val="#evasion"/>
+		</for>
+	</skill>
+	<skill id="1962" levels="4" name="Dual - P.Atk/M.Atk Increase">
+	<!-- P.Atk +x%, M.Atk +x% -->
+		<table name="#pAtk">1.03 1.06 1.09 1.12</table>
+		<table name="#mAtk">1.04 1.09 1.13 1.18</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtk" val="#pAtk"/>
+			<mul order="0x30" stat="mAtk" val="#mAtk"/>
+		</for>
+	</skill>
+	<skill id="1963" levels="4" name="Dual - P.Def/M.Def Increase">
+	<!-- P.Def +x%, M.Def +x% -->
+		<table name="#Def">1.03 1.06 1.09 1.12</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pDef" val="#Def"/>
+			<mul order="0x30" stat="mDef" val="#Def"/>
+		</for>
+	</skill>
+	<skill id="1964" levels="4" name="Dual - Atk. Speed/Casting Speed Increase">
+	<!-- Atk. Speed +x%, Casting Speed +x% -->
+		<table name="#AtkSpd">1.03 1.06 1.09 1.12</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtkSpd" val="#AtkSpd"/>
+			<mul order="0x30" stat="mAtkSpd" val="#AtkSpd"/>
+		</for>
+	</skill>
+	<skill id="1965" levels="4" name="Dual - Max HP Increase">
+	<!-- Max HP + x% -->
+		<table name="#PIncrease">1.06 1.12 1.18 1.24</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxHp" val="#PIncrease"/>
+		</for>
+	</skill>
+	<skill id="1966" levels="4" name="Dual - Max MP Increase">
+	<!-- Max MP + x% -->
+		<table name="#PIncrease">1.06 1.12 1.18 1.24</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxMp" val="#PIncrease"/>
+		</for>
+	</skill>
+	<skill id="1967" levels="4" name="Dual - Max CP Increase">
+	<!-- Max CP + x% -->
+		<table name="#PIncrease">1.06 1.12 1.18 1.24</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="#PIncrease"/>
+		</for>
+	</skill>
+	<skill id="1968" levels="1" name="Dual - HP Drain">
+	<!-- Has a chance of absorbing 5% of damage inflicted upon the enemy as HP during an attack. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="absorbDam" val="5"/>
+		</for>
+	</skill>
+	<skill id="1969" levels="1" name="Dual - MP Drain">
+	<!-- Has a chance of recovering your own MP during an attack -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<triggers>
+			<trigger id="1995" level="1" type="ATTACK" chance="40"/>
+		</triggers>		
+	</skill>
+	<skill id="1970" levels="1" name="Dual - Specialized for P.Atk">
+	<!-- P. .Atk. + 9%, P. Def./ M. Def. - 9% -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtk" val="1.09"/>
+			<div order="0x30" stat="pDef" val="1.09"/>
+			<div order="0x30" stat="mDef" val="1.09"/>
+		</for>
+	</skill>
+	<skill id="1971" levels="1" name="Dual - Specialized for M.Atk">
+	<!-- M. .Atk. + 13%, P. Def./ M. Def. - 9% -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="mAtk" val="1.13"/>
+			<div order="0x30" stat="pDef" val="1.09"/>
+			<div order="0x30" stat="mDef" val="1.09"/>
+		</for>
+	</skill>
+	<skill id="1972" levels="1" name="Dual - Physical Trait Increase">
+	<!-- Increases success rate for physical attacks and physical defense by 20% -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+				<add order="0x40" stat="stunResist" val="20"/>
+				<add order="0x40" stat="paralyzeResist" val="20"/>
+				<add order="0x40" stat="knockBackResist" val="20"/>
+				<add order="0x40" stat="knockDownResist" val="20"/>
+				<add order="0x40" stat="rootResist" val="20"/>
+				<add order="0x40" stat="disarmResist" val="20"/>
+				<add order="0x40" stat="stunPower" val="20"/>
+				<add order="0x40" stat="paralyzePower" val="20"/>
+				<add order="0x40" stat="knockBackPower" val="20"/>
+				<add order="0x40" stat="knockDownPower" val="20"/>
+				<add order="0x40" stat="rootPower" val="20"/>
+				<add order="0x40" stat="disarmPower" val="20"/>
+		</for>
+	</skill>
+	<skill id="1973" levels="1" name="Dual - Mental Trait Increase">
+	<!-- Increases success rate for mental attacks and mental defense by 20% -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+				<add order="0x40" stat="sleepResist" val="20"/>
+				<add order="0x40" stat="mutateResist" val="20"/>
+				<add order="0x40" stat="mentalResist" val="20"/>
+				<add order="0x40" stat="airjokeResist" val="20"/>
+				<add order="0x40" stat="sleepPower" val="20"/>
+				<add order="0x40" stat="mutatePower" val="20"/>
+				<add order="0x40" stat="mentalPower" val="20"/>
+				<add order="0x40" stat="airjokePower" val="20"/>
+		</for>
+	</skill>
+	<skill id="1974" levels="1" name="Dual - Beserker's Rage">
+	<!-- Has a chance of P. Atk. + 27% during an attack -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<triggers>
+			<trigger id="1975" level="1" type="ATTACK" chance="30"/>
+		</triggers>		
+	</skill>
+	<skill id="1975" levels="1" name="Dual - Beserker's Rage">
+	<!-- P. Atk. + 27% for 15 sec -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>			
+			<effect count="1" name="Buff" time="15" val="0">
+				<mul order="0x30" stat="pAtk" val="1.27"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1976" levels="1" name="Dual - Master's Rage">
+	<!-- Has a chance of Skill Power + 27% during skill use. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<triggers>
+			<trigger id="1977" level="1" type="OFFENSIVE_PHYSICAL_SKILL_USE" chance="30"/>
+			<trigger id="1977" level="1" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="30"/>
+		</triggers>		
+	</skill>
+	<skill id="1977" levels="1" name="Dual - Master's Rage">
+	<!-- Skill Power + 27% for 15 sec -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>			
+			<effect count="1" name="Buff" time="15" val="0">
+				<mul order="0x30" stat="skillPower" val="1.27"/>
+				<mul order="0x30" stat="magicDamage" val="1.27"/><!-- TODO: need to confirm if magic damage is included -->
+			</effect>
+		</for>
+	</skill>
+	<skill id="1978" levels="1" name="Dual - Light of Protection">
+	<!-- Has a chance of P. Def./ M. Def. + 27% when attacked -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<triggers>
+			<trigger id="1979" level="1" type="RECEIVE_DAMAGE" chance="30"/>
+		</triggers>		
+	</skill>
+	<skill id="1979" levels="1" name="Dual - Light of Protection">
+	<!-- P. Def./ M. Def. + 27% for 15 sec -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>			
+			<effect count="1" name="Buff" time="15" val="0">
+				<mul order="0x30" stat="mDef" val="1.27"/>
+				<mul order="0x30" stat="pDef" val="1.27"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1980" levels="1" name="Dual - Light of Blessing">
+	<!-- Has a chance of restoring HP when attacked -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<triggers>
+			<trigger id="1979" level="1" type="RECEIVE_DAMAGE" chance="20">
+				<player damage="1000;0"/>
+			</trigger>
+		</triggers>		
+	</skill>
+	<skill id="1981" levels="1" name="Dual - Light of Blessing">
+	<!-- Restores HP -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>			
+			<effect count="1" name="HealPercent" time="0" val="15"/> <!-- TODO: Need to confirm this value -->
+		</for>
+	</skill>
+	<skill id="1982" levels="1" name="Dual - Shackles of the Giants">
+    <!-- Blocks the target's Physical Skills for 5 sec. Can only use on PCs. -->
+		<set name="magicType" val="MAGIC"/>
+		<set name="magicLevel" val="99"/>
+		<set name="castRange" val="900"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="activateRate" val="100"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="MUTE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="trait" val="DERANGEMENT"/>
+		<set name="saveVs" val="MEN"/>
+		<cond>
+			<target player="true"/>
+		</cond>
+		<for>
+			<effect count="1" name="MutePhisycal" time="5" val="0"/>
+		</for>
+	</skill>
+	<skill id="1983" levels="1" name="Dual - Silence of The Giants">
+    <!-- Blocks the target's Magical Skills for 5 sec. Can only use on PCs. -->
+		<set name="magicType" val="MAGIC"/>
+		<set name="magicLevel" val="99"/>
+		<set name="castRange" val="900"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="activateRate" val="100"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="MUTE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="trait" val="DERANGEMENT"/>
+		<set name="saveVs" val="MEN"/>
+		<cond>
+			<target player="true"/>
+		</cond>
+		<for>
+			<effect count="1" name="Mute" time="5" val="0"/>
+		</for>
+	</skill>
+	<skill id="1984" levels="1" name="Dual - Yoke of The Giants">
+    <!-- Blocks the target's Magical Skills for 5 sec. Can only use on PCs. -->
+		<set name="magicType" val="MAGIC"/>
+		<set name="magicLevel" val="99"/>
+		<set name="castRange" val="900"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="target" val="TARGET_AREA"/>
+		<set name="skillType" val="DEBUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<target player="true"/>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" time="5" val="0">
+				<div order="0x30" stat="runSpd" val="1.9">
+					<target player="true"/>
+				</div>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1985" levels="1" name="Dual - Shield of The Giants">
+    <!-- Damage Reflect Resistance becomes 100% for 30 sec. -->
+		<set name="magicType" val="MAGIC"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="1" name="Buff" time="30" val="0">
+				<add order="0x40" stat="reflectResist" val="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1986" levels="4" name="Dual Maximum HP">
+	<!-- Max HP + x. Can be used when the main/ dual class is Level 85 or above -->
+		<table name="#HP">463 972 1458 1926</table>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="maxHp" val="#HP"/>
+		</for>
+	</skill>
+	<skill id="1987" levels="1" name="Sigel Armor Limit">
+	<!-- Stats decrease when equipped with armor that is not best suited for you. Atk. Spd./ Casting Spd. - 50% when equipped with a Robe/ Light Armor -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<div order="0x30" stat="pAtkSpd" val="1.5">
+				<using kind="Light, Magic"/>
+			</div>
+			<div order="0x30" stat="mAtkSpd" val="1.5">
+				<using kind="Light, Magic"/>
+			</div>
+		</for>
+	</skill>
+	<skill id="1988" levels="1" name="Tyrr Armor Limit">
+	<!-- Stats decrease when equipped with armor that is not best suited for you. Atk. Spd./ Casting Spd. - 50% when equipped with a Robe Armor -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<div order="0x30" stat="pAtkSpd" val="1.5">
+				<using kind="Magic"/>
+			</div>
+			<div order="0x30" stat="mAtkSpd" val="1.5">
+				<using kind="Magic"/>
+			</div>
+		</for>
+	</skill>
+	<skill id="1989" levels="1" name="Yul Armor Limit">
+	<!-- Stats decrease when equipped with armor that is not best suited for you. Atk. Spd./ Casting Spd. - 50% when equipped with a Robe/ Heavy Armor -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<div order="0x30" stat="pAtkSpd" val="1.5">
+				<using kind="Heavy, Magic"/>
+			</div>
+			<div order="0x30" stat="mAtkSpd" val="1.5">
+				<using kind="Heavy, Magic"/>
+			</div>
+		</for>
+	</skill>
+	<skill id="1990" levels="1" name="Othell Armor Limit">
+	<!-- Stats decrease when equipped with armor that is not best suited for you. Atk. Spd./ Casting Spd. - 50% when equipped with a Robe/ Heavy Armor -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<div order="0x30" stat="pAtkSpd" val="1.5">
+				<using kind="Heavy, Magic"/>
+			</div>
+			<div order="0x30" stat="mAtkSpd" val="1.5">
+				<using kind="Heavy, Magic"/>
+			</div>
+		</for>
+	</skill>
+	<skill id="1991" levels="1" name="Feoh Armor Limit">
+	<!-- Stats decrease when equipped with armor that is not best suited for you. Atk. Spd./ Casting Spd. - 50% when equipped with a Heavy/ Light Armor -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<div order="0x30" stat="pAtkSpd" val="1.5">
+				<using kind="Heavy, Light"/>
+			</div>
+			<div order="0x30" stat="mAtkSpd" val="1.5">
+				<using kind="Heavy, Light"/>
+			</div>
+		</for>
+	</skill>
+	<skill id="1992" levels="1" name="Wynn Armor Limit">
+	<!-- Stats decrease when equipped with armor that is not best suited for you. Atk. Spd./ Casting Spd. - 50% when equipped with a Heavy Armor -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<div order="0x30" stat="pAtkSpd" val="1.5">
+				<using kind="Heavy"/>
+			</div>
+			<div order="0x30" stat="mAtkSpd" val="1.5">
+				<using kind="Heavy"/>
+			</div>
+		</for>
+	</skill>
+	<skill id="1993" levels="1" name="Iss Armor Limit">
+	<!-- No Penalty -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+	</skill>
+	<skill id="1994" levels="1" name="Aerore Armor Limit">
+	<!-- Stats decrease when equipped with armor that is not best suited for you. Atk. Spd./ Casting Spd. - 50% when equipped with a Heavy Armor -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<div order="0x30" stat="pAtkSpd" val="1.5">
+				<using kind="Heavy"/>
+			</div>
+			<div order="0x30" stat="mAtkSpd" val="1.5">
+				<using kind="Heavy"/>
+			</div>
+		</for>
+	</skill>
+	<skill id="1995" levels="1" name="Dual - MP Drain">
+	<!-- Restores MP -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="magicLevel" val="85"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>			
+			<effect count="1" name="Buff" time="5" val="0">
+				<add order="0x30" stat="absorbDamMp" val="5"/>
+			</effect>
+		</for>
+	</skill>
 </list>

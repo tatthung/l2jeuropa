@@ -85,6 +85,10 @@ public final class SkillAcquireHolder extends AbstractHolder
 	 */
 	private static GArray<SkillLearn> _certificationSkillTree = new GArray<SkillLearn>();
 	/**
+	 * Field _certificationSkillTree.
+	 */
+	private static GArray<SkillLearn> _dualCertificationSkillTree = new GArray<SkillLearn>();
+	/**
 	 * Field _collectionSkillTree.
 	 */
 	private static GArray<SkillLearn> _collectionSkillTree = new GArray<SkillLearn>();
@@ -248,7 +252,30 @@ public final class SkillAcquireHolder extends AbstractHolder
 				{
 					return skills;
 				}
-				return getAvaliableList(skills, player.getAllSkillsArray(), player.getLevel(), player.getRace());
+				skillLearnMap = new ArrayList<SkillLearn>();
+				for(SkillLearn temp : skills)
+				{
+					if(!temp.isDeprecated())
+					{
+						skillLearnMap.add(temp);
+					}
+				}
+				return getAvaliableList(skillLearnMap, player.getAllSkillsArray(), player.getLevel(), player.getRace());
+			case DUAL_CERTIFICATION:
+				skills.addAll(_dualCertificationSkillTree);
+				if (player == null)
+				{
+					return skills;
+				}
+				skillLearnMap = new ArrayList<SkillLearn>();
+				for(SkillLearn temp : skills)
+				{
+					if(!temp.isDeprecated())
+					{
+						skillLearnMap.add(temp);
+					}
+				}
+				return getAvaliableList(skillLearnMap, player.getAllSkillsArray(), player.getLevel(), player.getRace());
 			default:
 				return Collections.emptyList();
 		}
@@ -428,6 +455,9 @@ public final class SkillAcquireHolder extends AbstractHolder
 			case CERTIFICATION:
 				skills.addAll(_certificationSkillTree);
 				break;
+			case DUAL_CERTIFICATION:
+				skills.addAll(_dualCertificationSkillTree);
+				break;
 			default:
 				return null;
 		}
@@ -505,6 +535,9 @@ public final class SkillAcquireHolder extends AbstractHolder
 				break;
 			case CERTIFICATION:
 				skills.addAll(_certificationSkillTree);
+				break;
+			case DUAL_CERTIFICATION:
+				skills.addAll(_dualCertificationSkillTree);
 				break;
 			default:
 				return false;
@@ -843,6 +876,15 @@ public final class SkillAcquireHolder extends AbstractHolder
 	{
 		_certificationSkillTree.addAll(s);
 	}
+
+	/**
+	 * Method addAllCertificationLearns.
+	 * @param s List<SkillLearn>
+	 */
+	public void addAllDualCertificationLearns(List<SkillLearn> s)
+	{
+		_dualCertificationSkillTree.addAll(s);
+	}
 	
 	/**
 	 * Method addAllCollectionLearns.
@@ -883,6 +925,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 		info("load " + sizeHashMap(_fishingSkillTree) + " fishing learns for " + _fishingSkillTree.size() + " races.");
 		info("load " + (sizeHashMapInt(_AwakenClassKeepSkills) + _AwakenGeneralKeepSkills.size()) + " Skill to mantain on Awakening for " +_AwakenClassKeepSkills.size() + " awaken classes.");
 		info("load " + _certificationSkillTree.size() + " certification learns.");
+		info("load " + _dualCertificationSkillTree.size() + " dual certification learns.");
 		info("load " + _collectionSkillTree.size() + " collection learns.");
 		info("load " + _pledgeSkillTree.size() + " pledge learns.");
 		info("load " + _subUnitSkillTree.size() + " sub unit learns.");
@@ -909,6 +952,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 		_fishingSkillTree.clear();
 		_transferSkillTree.clear();
 		_certificationSkillTree.clear();
+		_dualCertificationSkillTree.clear();
 		_collectionSkillTree.clear();
 		_pledgeSkillTree.clear();
 		_subUnitSkillTree.clear();

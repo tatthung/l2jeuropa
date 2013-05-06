@@ -493,6 +493,10 @@ public enum Stats
 	 */
 	REFLECT_AND_BLOCK_MSKILL_DAMAGE_CHANCE("reflectAndBlockMSkillDam", 0., 100.),
 	/**
+	 * Field REFLECT_RESISTANCE_PERCENT.
+	 */
+	REFLECT_RESISTANCE_PERCENT("reflectResist", 0., 100.),
+	/**
 	 * Field REFLECT_DAMAGE_PERCENT.
 	 */
 	REFLECT_DAMAGE_PERCENT("reflectDam", 0., 100.),
