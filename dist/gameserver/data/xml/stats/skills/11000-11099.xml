@@ -2180,8 +2180,9 @@
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="DEBUFF"/>
+        <set name="activateRate" val="60"/>
 		<for>
-			<effect name="Fear" time="3" val="0" stackTypes="turn_flee" stackOrder="1" effectPower="20"/>
+			<effect name="Fear" time="3" val="0" stackTypes="turn_flee" stackOrder="1"/>
 		</for>
     </skill>
     <skill id="11083" levels="1" name="Water - Elemental Crash">
@@ -2191,8 +2192,9 @@
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="skillType" val="DEBUFF"/>
 		<set name="target" val="TARGET_ONE"/>
+        <set name="activateRate" val="60"/>
 		<for>
-			<effect name="Debuff" time="3" val="0" stackTypes="speed_down" stackOrder="1" effectPower="20">
+			<effect name="Debuff" time="3" val="0" stackTypes="speed_down" stackOrder="1">
 				<mul stat="runSpd" order="0x30" val="0.8"/>
 			</effect>
 		</for>
@@ -2204,8 +2206,9 @@
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="skillType" val="DEBUFF"/>
         <set name="target" val="TARGET_ONE"/>
+        <set name="activateRate" val="60"/>
         <for>
-            <effect count="1" name="KnockBack" stackOrder="-1" stackType="KnockBack" time="1" val="0" effectPower="20"/>
+            <effect count="1" name="KnockBack" stackOrder="-1" stackType="KnockBack" time="1" val="0"/>
         </for>
     </skill>
     <skill id="11085" levels="1" name="Earth - Elemental Crash">
@@ -2215,8 +2218,9 @@
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="skillType" val="DEBUFF"/>
 		<set name="target" val="TARGET_ONE"/>
+        <set name="activateRate" val="60"/>
 		<for>
-			<effect name="Root" time="3" val="0" stackTypes="root_magically" stackOrder="1" effectPower="20"/>
+			<effect name="Root" time="3" val="0" stackTypes="root_magically" stackOrder="1"/>
 		</for>
     </skill>
     <skill id="11086" levels="1" name="Double Casting - Elemental Crash">
@@ -2233,8 +2237,9 @@
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="DEBUFF"/>
+        <set name="activateRate" val="60"/>
 		<for>
-			<effect name="Fear" time="3" val="0" stackTypes="turn_flee" stackOrder="1" effectPower="20"/>
+			<effect count="3" name="Fear" stackOrder="-1" stackType="Fear" time="1" val="0"/>
 		</for>
 	</skill>
     <skill id="11088" levels="3" name="Elemental Crash (water)">
@@ -2244,8 +2249,9 @@
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="skillType" val="DEBUFF"/>
 		<set name="target" val="TARGET_ONE"/>
+        <set name="activateRate" val="60"/>
 		<for>
-			<effect name="Debuff" time="3" val="0" stackTypes="speed_down" stackOrder="1" effectPower="20">
+			<effect name="Debuff" time="3" val="0" stackTypes="speed_down" stackOrder="1">
 				<mul stat="runSpd" order="0x30" val="0.8"/>
 			</effect>
 		</for>
@@ -2257,8 +2263,9 @@
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="skillType" val="DEBUFF"/>
         <set name="target" val="TARGET_ONE"/>
+        <set name="activateRate" val="60"/>
         <for>
-            <effect count="1" name="KnockBack" stackOrder="-1" stackType="KnockBack" time="1" val="0" effectPower="20"/>
+            <effect count="1" name="KnockBack" stackOrder="-1" stackType="KnockBack" time="1" val="0"/>
         </for>
     </skill>
 	<skill id="11090" levels="3" name="Elemental Crash (Earth)">
@@ -2267,8 +2274,9 @@
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="skillType" val="DEBUFF"/>
 		<set name="target" val="TARGET_ONE"/>
+        <set name="activateRate" val="60"/>
 		<for>
-			<effect name="Root" time="3" val="0" stackTypes="root_magically" stackOrder="1" effectPower="20"/>
+			<effect name="Root" time="3" val="0" stackTypes="root_magically" stackOrder="1"/>
 		</for>
 	</skill>
     <skill id="11091" levels="1" name="Elemental Crash (4 attributes)">

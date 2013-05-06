@@ -839,7 +839,11 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		/**
 		 * Field VITALITY_HEAL.
 		 */
-		VITALITY_HEAL(VitalityHeal.class);
+		VITALITY_HEAL(VitalityHeal.class),
+		/**
+		 * Field SWEEP.
+		 */
+		PLUNDER(Sweep.class);
 		/**
 		 * Field clazz.
 		 */
@@ -985,6 +989,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 				case DESTROY_SUMMON:
 				case STEAL_BUFF:
 				case DISCORD:
+				case PLUNDER:
 					return true;
 				default:
 					return false;

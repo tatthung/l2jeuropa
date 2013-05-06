@@ -53,8 +53,8 @@ public class _10301_ShadowOfTerrorBlackishRedFog extends Quest implements Script
 		int npcId = npc.getNpcId();
 		if (skillId == 12011 && npcId == LARGE_VERDANT_WILDS && _spawned == false)
 		{
-			NpcUtils.spawnSingle(WISP, Location.findPointToStay(qs.getPlayer().getLoc(), 50, 100, qs.getPlayer().getGeoIndex()), 120000);
-			NpcUtils.spawnSingle(WISP, Location.findPointToStay(qs.getPlayer().getLoc(), 50, 100, qs.getPlayer().getGeoIndex()), 120000);
+			NpcUtils.spawnSingle(WISP, Location.findPointToStay(qs.getPlayer().getLoc(), 50, 100, 0), 120000);
+			NpcUtils.spawnSingle(WISP, Location.findPointToStay(qs.getPlayer().getLoc(), 50, 100, 0), 120000);
 		}
 		return null;
 	}
@@ -96,7 +96,7 @@ public class _10301_ShadowOfTerrorBlackishRedFog extends Quest implements Script
 		}
 		else if(event.equalsIgnoreCase("initNpcs"))
 		{
-			player.getReflection().addSpawnWithoutRespawn(33361, new Location(183989, 85803, -7752, 22740), 0);
+			_mainZhrec = player.getReflection().addSpawnWithoutRespawn(33361, new Location(183989, 85803, -7752, 22740), 0);
 			player.getReflection().addSpawnWithoutRespawn(33362, new Location(183961, 85734, -7752, 19716), 0);
 
 			NpcInstance _npc2 = player.getReflection().addSpawnWithoutRespawn(33361, new Location(183993, 86055, -7752, 42404), 0);
@@ -108,15 +108,17 @@ public class _10301_ShadowOfTerrorBlackishRedFog extends Quest implements Script
 			NpcInstance _npc8 = player.getReflection().addSpawnWithoutRespawn(33361, new Location(183825, 86049, -7752, 55496), 0);
 			NpcInstance _npc9 = player.getReflection().addSpawnWithoutRespawn(33361, new Location(184042, 85974, -7752, 35684), 0);
 			NpcInstance _npc10 = player.getReflection().addSpawnWithoutRespawn(33361, new Location(184048, 85887, -7752, 31132), 0);
-			NpcInstance _npc12 = player.getReflection().addSpawnWithoutRespawn(33372, new Location(183922, 85916, -7752, 56760), 0);
+			
 			NpcInstance _npc13 = player.getReflection().addSpawnWithoutRespawn(33364, new Location(183914, 85885, -7752, 44604), 0);
-			NpcInstance _npc14 = player.getReflection().addSpawnWithoutRespawn(33371, new Location(183856, 85905, -7752, 25720), 0);
-			NpcInstance _npc15 = player.getReflection().addSpawnWithoutRespawn(33370, new Location(183888, 85921, -7752, 7764), 0);
-			NpcInstance _npc16 = player.getReflection().addSpawnWithoutRespawn(33367, new Location(183904, 85969, -7752, 59344), 0);
-			NpcInstance _npc17 = player.getReflection().addSpawnWithoutRespawn(33369, new Location(183920, 85953, -7752, 16456), 0);
 			NpcInstance _npc18 = player.getReflection().addSpawnWithoutRespawn(33365, new Location(183952, 85953, -7752, 2932), 0);
-			NpcInstance _npc19 = player.getReflection().addSpawnWithoutRespawn(33368, new Location(183952, 85905, -7752, 30144), 0);
 			NpcInstance _npc20 = player.getReflection().addSpawnWithoutRespawn(33366, new Location(183872, 85953, -7752, 11224), 0);
+			NpcInstance _npc16 = player.getReflection().addSpawnWithoutRespawn(33367, new Location(183904, 85969, -7752, 59344), 0);
+			NpcInstance _npc19 = player.getReflection().addSpawnWithoutRespawn(33368, new Location(183952, 85905, -7752, 30144), 0);
+			NpcInstance _npc17 = player.getReflection().addSpawnWithoutRespawn(33369, new Location(183920, 85953, -7752, 16456), 0);
+			NpcInstance _npc15 = player.getReflection().addSpawnWithoutRespawn(33370, new Location(183888, 85921, -7752, 7764), 0);
+			NpcInstance _npc14 = player.getReflection().addSpawnWithoutRespawn(33371, new Location(183856, 85905, -7752, 25720), 0);
+			NpcInstance _npc12 = player.getReflection().addSpawnWithoutRespawn(33372, new Location(183922, 85916, -7752, 56760), 0);
+			
 			_Priests.add(_npc2);
 			_Priests.add(_npc3);
 			_Priests.add(_npc4);
