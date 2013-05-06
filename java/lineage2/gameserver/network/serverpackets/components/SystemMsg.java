@@ -1333,7 +1333,8 @@ public enum SystemMsg implements IStaticPacket
 	// Message: A Mark of Adventurer is acquired. This item can be re-acquired after 6:30 a.m. everyday
 	A_MARK_OF_ADVENTURER_IS_ACQUIRED_THIS_ITEM_CAN_BE_RE_ACQUIRED_EVERYDAY(3495),
 	// Message: This account has already received a gift
-	THIS_ACCOUNT_HAS_ALREADY_RECEIVED_A_GIFT(3289);
+	THIS_ACCOUNT_HAS_ALREADY_RECEIVED_A_GIFT(3289),
+	SUBCLASS_S1_HAS_BEEN_UPGRADED_TO_DUEL_CLASS_S2_CONGRATULATIONS(3279);
 
 	private final L2GameServerPacket _message;
 	private final int _id;
