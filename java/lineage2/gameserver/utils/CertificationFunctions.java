@@ -87,7 +87,8 @@ public class CertificationFunctions
 			Functions.show(PATH + (level < 85 ? "certificateSkillList-nobase.htm" : "dualcertificateSkillList-nobase.htm"), player, npc);
 			return false;
 		}
-		if(player.getInventory().getItemByItemId(level < 85 ? CERTIFICATE : DUAL_CERTIFICATE).getCount() < 1)
+		int certificate = level < 85 ? CERTIFICATE : DUAL_CERTIFICATE;
+		if(player.getInventory().getItemByItemId(certificate) == null)
 		{
 			Functions.show(PATH + (level < 85 ? "certificateSkillList-nocertificate.htm" : "dualcertificateSkillList-nocertificate.htm"), player, npc);
 			return false;			

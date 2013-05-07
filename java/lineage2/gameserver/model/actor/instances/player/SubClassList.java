@@ -213,6 +213,22 @@ public class SubClassList
 	}
 	
 	/**
+	 * Method haveDualClass.
+	 * @return boolean
+	 */
+	public boolean haveDualClass()
+	{
+		for(SubClass sc : _listByClassId.values())
+		{
+			if(sc.isDouble())
+			{
+				return true;
+			}			
+		}
+		return false;
+	}
+	
+	/**
 	 * Method changeSubClassId.
 	 * @param oldClassId int
 	 * @param newClassId int

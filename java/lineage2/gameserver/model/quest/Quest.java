@@ -1520,7 +1520,8 @@ public class Quest
 	protected final void enterInstance(QuestState st, int instancedZoneId)
 	{
 		Player player = st.getPlayer();
-		if (player == null) {
+		if (player == null)
+		{
 			return;
 		}
 		Reflection reflection = player.getActiveReflection();

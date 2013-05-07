@@ -50,8 +50,6 @@ import lineage2.gameserver.utils.HtmlUtils;
 import lineage2.gameserver.utils.ItemFunctions;
 
 /**
- * @author Mobius
- * @version $Revision: 1.0 $
  */
 public final class SubClassManagerInstance extends NpcInstance
 {

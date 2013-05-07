@@ -3,10 +3,12 @@ package lineage2.gameserver.network.serverpackets;
 public class ExShowQuestMark extends L2GameServerPacket
 {
 	private int _questId;
+	private int _cond;
 
-	public ExShowQuestMark(int questId)
+	public ExShowQuestMark(int questId, int cond)
 	{
 		_questId = questId;
+		_cond = cond;
 	}
 
 	@Override
@@ -14,6 +16,6 @@ public class ExShowQuestMark extends L2GameServerPacket
 	{
 		writeEx(0x21);
 		writeD(_questId);
-		writeD(1);// unknown GOD
+		writeD(_cond);
 	}
 }
