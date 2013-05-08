@@ -83,6 +83,7 @@ import lineage2.gameserver.network.serverpackets.AutoAttackStop;
 import lineage2.gameserver.network.serverpackets.ChangeMoveType;
 import lineage2.gameserver.network.serverpackets.CharMoveToLocation;
 import lineage2.gameserver.network.serverpackets.ExAbnormalStatusUpdateFromTargetPacket;
+import lineage2.gameserver.network.serverpackets.ExTeleportToLocationActivate;
 import lineage2.gameserver.network.serverpackets.FlyToLocation;
 import lineage2.gameserver.network.serverpackets.FlyToLocation.FlyType;
 import lineage2.gameserver.network.serverpackets.L2GameServerPacket;
@@ -6449,6 +6450,7 @@ public abstract class Creature extends GameObject
 			player.setLastClientPosition(null);
 			player.setLastServerPosition(null);
 			player.sendPacket(new TeleportToLocation(player, x, y, z));
+			player.sendPacket(new ExTeleportToLocationActivate(player, x, y, z));
 		}
 		else
 		{

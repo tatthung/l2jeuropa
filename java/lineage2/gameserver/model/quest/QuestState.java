@@ -1016,7 +1016,7 @@ public final class QuestState
 		}
 		player.sendPacket(new TutorialShowHtml(text, type));
 	}
-	
+
 	/**
 	 * Method startQuestTimer.
 	 * @param name String

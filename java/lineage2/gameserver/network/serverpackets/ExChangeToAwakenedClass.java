@@ -4,7 +4,6 @@ package lineage2.gameserver.network.serverpackets;
  * @author Darvin
  * @data 08.06.2012
  *       <p/>
- *       Отображает окно для смены класса на перерожденный
  */
 public class ExChangeToAwakenedClass extends L2GameServerPacket
 {
