@@ -38,8 +38,9 @@ public class ExBR_ProductList extends L2GameServerPacket
 			writeC(template.getEndMin()); // end min
 			writeD(0); // buyed stock
 			writeD(-1); // max stock
-			//writeD(0); // ?
-			writeD(0); // Sale % or Min Level ?
+			if (getClient().getRevision()>479)
+				writeD(0); // ?
+			writeD(1); // Sale % or Min Level ?
 			int i = 0;
 			while (i < template.getComponents().size())
 			{
