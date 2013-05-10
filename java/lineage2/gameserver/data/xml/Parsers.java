@@ -44,7 +44,6 @@ import lineage2.gameserver.data.xml.parser.ShuttleTemplateParser;
 import lineage2.gameserver.data.xml.parser.SkillAcquireParser;
 import lineage2.gameserver.data.xml.parser.SoulCrystalParser;
 import lineage2.gameserver.data.xml.parser.SpawnParser;
-import lineage2.gameserver.data.xml.parser.SpawnsData;
 import lineage2.gameserver.data.xml.parser.StaticObjectParser;
 import lineage2.gameserver.data.xml.parser.StatuesSpawnParser;
 import lineage2.gameserver.data.xml.parser.WalkerRoutesParser;
@@ -83,7 +82,6 @@ public abstract class Parsers
 		CustomSpawnTable.getInstance();
 		ZoneParser.getInstance().load();
 		SpawnParser.getInstance().load();
-		SpawnsData.getInstance().load();
 		InstantZoneParser.getInstance().load();
 		WalkerRoutesParser.getInstance().load();
 		RecipeParser.getInstance().load();
