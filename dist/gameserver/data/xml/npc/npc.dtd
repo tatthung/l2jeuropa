@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!ELEMENT list (npc)*>
-<!ELEMENT npc (set|faction|skills|equip|rewardlist|teach_classes|minions|teleportlist|absorblist|ai_params|attributes)*>
+<!ELEMENT npc (set|faction|skills|equip|rewardlist|teach_classes|minions|teleportlist|absorblist|ai_params|attributes|random_action|action)*>
 <!ATTLIST npc
 	id CDATA #REQUIRED
 	template_id CDATA #IMPLIED

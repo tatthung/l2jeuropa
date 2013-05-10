@@ -21,12 +21,9 @@ import java.util.Collection;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
-import java.util.concurrent.Future;
-
 import lineage2.commons.collections.JoinedIterator;
 import lineage2.commons.dbutils.DbUtils;
 import lineage2.gameserver.Config;
-import lineage2.gameserver.ThreadPoolManager;
 import lineage2.gameserver.cache.CrestCache;
 import lineage2.gameserver.cache.Msg;
 import lineage2.gameserver.data.xml.holder.ResidenceHolder;
@@ -178,11 +175,7 @@ public class Clan implements Iterable<UnitMember>
 	/**
 	 * Field _clanLeaderSkill.
 	 */
-	static Skill _clanLeaderSkill = null;
-	/**
-	 * Field _clanLeaderSkillIncreaseTask.
-	 */
-	protected Future<?> _clanLeaderSkillIncreaseTask = null;
+	static Skill _clanLeaderSkill = SkillTable.getInstance().getInfo(19009, 1);
 	/**
 	 * Field _reputation.
 	 */
@@ -2311,14 +2304,28 @@ public class Clan implements Iterable<UnitMember>
 	{
 		if (activeChar.isClanLeader())
 		{
-			if (activeChar.getClan().getLevel() >= 5)
+			for (Player member : getOnlineMembers(0))
 			{
-				startLeaderSkillTask();
+				for (EffectTemplate et : _clanLeaderSkill.getEffectTemplates())
+				{
+					Effect effect = et.getEffect(new Env(member, member, _clanLeaderSkill));
+					if (effect != null)
+					{
+						member.getEffectList().addEffect(effect);
+					}
+				}		
 			}
 		}
-		else if (_clanLeaderSkill != null)
+		else if (getLeader().isOnline())
 		{
-			_clanLeaderSkill = null;
+			for (EffectTemplate et : _clanLeaderSkill.getEffectTemplates())
+			{
+				Effect effect = et.getEffect(new Env(activeChar, activeChar, _clanLeaderSkill));
+				if (effect != null)
+				{
+					activeChar.getEffectList().addEffect(effect);
+				}
+			}		
 		}
 	}
 
@@ -2330,90 +2337,9 @@ public class Clan implements Iterable<UnitMember>
 	{
 		if (activeChar.isClanLeader())
 		{
-			if (_clanLeaderSkill != null)
+			for (Player member : getOnlineMembers(0))
 			{
-				for (Player member : getOnlineMembers(0))
-				{
-					member.getEffectList().stopEffect(_clanLeaderSkill);
-				}
-				if (_clanLeaderSkillIncreaseTask != null)
-				{
-					_clanLeaderSkillIncreaseTask.cancel(false);
-				}
-				_clanLeaderSkillIncreaseTask = null;
-				_clanLeaderSkill = null;
-			}
-		}
-	}
-
-	/**
-	 * Method startLeaderSkillTask.
-	 */
-	public void startLeaderSkillTask()
-	{
-		if (_clanLeaderSkillIncreaseTask != null)
-		{
-			_clanLeaderSkillIncreaseTask.cancel(false);
-		}
-		ClanLeaderSkillIncreaseTask clsit = new ClanLeaderSkillIncreaseTask();
-		_clanLeaderSkillIncreaseTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(clsit, 100, 600000);
-	}
-	
-	/**
-	 * @author Mobius
-	 */
-	private class ClanLeaderSkillIncreaseTask implements Runnable
-	{
-		/**
-		 * Constructor for ClanLeaderSkillIncreaseTask.
-		 */
-		public ClanLeaderSkillIncreaseTask()
-		{
-			// TODO Auto-generated constructor stub
-		}
-		
-		/**
-		 * Method run.
-		 * @see java.lang.Runnable#run()
-		 */
-		@Override
-		public void run()
-		{
-			if (getLeader().isOnline())
-			{
-				if (_clanLeaderSkill == null)
-				{
-					_clanLeaderSkill = SkillTable.getInstance().getInfo(19009, 1);
-				}
-				else
-				{
-					int level = _clanLeaderSkill.getLevel();
-					if (level != 5)
-					{
-						_clanLeaderSkill = SkillTable.getInstance().getInfo(19009, level + 1);
-					}
-				}
-				for (Player member : getOnlineMembers(0))
-				{
-					for (EffectTemplate et : _clanLeaderSkill.getEffectTemplates())
-					{
-						Effect effect = et.getEffect(new Env(member, member, _clanLeaderSkill));
-						if (effect != null)
-						{
-							member.getEffectList().addEffect(effect);
-						}
-					}		
-				}
-			}
-			else
-			{
-				for (Player member : getOnlineMembers(0))
-				{
-					member.getEffectList().stopEffect(_clanLeaderSkill);
-				}
-				_clanLeaderSkillIncreaseTask.cancel(false);
-				_clanLeaderSkillIncreaseTask = null;
-				_clanLeaderSkill = null;
+				member.getEffectList().stopEffect(_clanLeaderSkill);
 			}
 		}
 	}

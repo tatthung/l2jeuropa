@@ -2350,7 +2350,7 @@
 			</not>
 		</cond>
 		<for>
-			<effect count="3" name="Fear" stackOrder="-1" stackType="Fear" time="5" val="0">
+			<effect count="30" name="Fear" stackOrder="-1" stackType="Fear" time="1" val="0">
 				<add order="0x40" stat="runSpd" val="66"/>
 			</effect>
 		</for>
@@ -2436,7 +2436,7 @@
 			<table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		</enchant2>
 		<for>
-			<effect count="5" name="Fear" stackOrder="-1" stackType="Fear" time="5" val="0"/>
+			<effect count="15" name="Fear" stackOrder="-1" stackType="Fear" time="1" val="0"/>
 		</for>
 	</skill>
 	<skill id="1382" levels="5" name="Mass Gloom">

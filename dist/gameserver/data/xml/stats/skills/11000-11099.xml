@@ -1612,7 +1612,7 @@
 			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant5>
 		<for>
-			<effect count="5" name="Fear" stackOrder="-1" stackType="Fear" time="3" val="0">
+			<effect count="15" name="Fear" stackOrder="-1" stackType="Fear" time="1" val="0">
 				<mul order="0x30" stat="runSpd" val="#spd"/>
                 <mul order="0x30" stat="pDef" val="#pdef"/>
                 <mul order="0x30" stat="mDef" val="#mdef"/>
@@ -1663,7 +1663,7 @@
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
         </enchant5>
         <for>
-            <effect count="5" name="Fear" stackOrder="-1" stackType="Fear" time="3" val="0">
+            <effect count="15" name="Fear" stackOrder="-1" stackType="Fear" time="1" val="0">
                 <mul order="0x30" stat="runSpd" val="#spd"/>
                 <mul order="0x30" stat="pDef" val="#pdef"/>
                 <mul order="0x30" stat="mDef" val="#mdef"/>
@@ -1906,13 +1906,14 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="skillRadius" val="500"/>
+        <set name="activateRate" val="60"/>
 		<enchant1 levels="10" name="Cost"/>
 		<enchant2 levels="10" name="Entangle">
 			<table name="#runspd">.99 .98 .97 .96 .95 .94 .93 .92 .91 .9</table>
 			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant2>
         <for>
-            <effect count="3" name="Fear" stackOrder="-1" stackType="Fear" time="10" val="0">
+            <effect count="15" name="Fear" stackOrder="-1" stackType="Fear" time="1" val="0">
 				<mul order="0x30" stat="runSpd" val="#runspd"/>
 			</effect>
         </for>
@@ -1933,13 +1934,14 @@
         <set name="skillType" val="MDAM"/>
         <set name="operateType" val="OP_ACTIVE"/>
         <set name="skillRadius" val="900"/>
+        <set name="activateRate" val="40"/>
 		<enchant1 levels="10" name="Cost"/>
 		<enchant2 levels="10" name="Entangle">
 			<table name="#runspd">.99 .98 .97 .96 .95 .94 .93 .92 .91 .9</table>
 			<table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant2>
         <for>
-            <effect count="3" name="Fear" stackOrder="-1" stackType="Fear" time="10" val="0">
+            <effect count="15" name="Fear" stackOrder="-1" stackType="Fear" time="1" val="0">
 				<mul order="0x30" stat="runSpd" val="#runspd"/>
 			</effect>
         </for>
@@ -2182,7 +2184,7 @@
 		<set name="skillType" val="DEBUFF"/>
         <set name="activateRate" val="60"/>
 		<for>
-			<effect name="Fear" time="3" val="0" stackTypes="turn_flee" stackOrder="1"/>
+			<effect count="3" name="Fear" stackOrder="-1" stackType="Fear" time="1" val="0"/>
 		</for>
     </skill>
     <skill id="11083" levels="1" name="Water - Elemental Crash">

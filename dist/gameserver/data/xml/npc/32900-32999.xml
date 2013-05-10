@@ -3531,6 +3531,9 @@
         <set name="shots" value="NONE"/>
         <set name="texture" value=""/>
         <set name="type" value="Npc"/>
+		<random_actions>
+			<action id="1" phrase_id="1811291" delay="10" />
+		</random_actions>
         <skills>
 			<skill id="4416" level="14"/>
 		</skills>
@@ -3738,7 +3741,6 @@
         </attributes>
     </npc>
 	<npc id="32977" name="Lakcis" title="">
-        <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
         <set name="basePAtkSpd" value="299"/>
@@ -3787,7 +3789,6 @@
         </attributes>
     </npc>
 	<npc id="32978" name="Sebion" title="">
-        <!--Need TODO-->
         <set name="baseHpMax" value="7324"/>
         <set name="baseMAtkSpd" value="398"/>
         <set name="basePAtkSpd" value="299"/>

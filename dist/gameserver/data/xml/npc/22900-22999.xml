@@ -5256,7 +5256,6 @@
 		</skills>
 	</npc>
 	<npc id="22984" name="Nemertess" title="Escort">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="14.0"/>
@@ -5288,6 +5287,9 @@
 		<set name="baseRunSpd" value="90"/>
 		<set name="baseWalkSpd" value="90"/>
 		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true" />
+		</ai_params>
 		<attributes>
 			<defence attribute="fire" value="20"/>
 			<defence attribute="water" value="20"/>
@@ -5965,7 +5967,6 @@
 		</rewardlist>
 	</npc>
 	<npc id="22997" name="Handyman" title="Embryo">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Ranger"/>
 		<set name="collision_radius" value="6.0"/>
@@ -6012,14 +6013,8 @@
 			<skill id="4413" level="9"/>
 			<skill id="4416" level="6"/>
 		</skills>
-		<rewardlist type="RATED_GROUPED">
-			<group chance="25.0">
-				<reward item_id="17615" min="1" max="1" chance="100.0"/>
-			</group>
-		</rewardlist>
 	</npc>
 	<npc id="22998" name="Operative" title="Embryo">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="6.0"/>

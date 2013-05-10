@@ -1640,7 +1640,7 @@
 		<set name="trait" val="DERANGEMENT"/>
 		<set name="saveVs" val="MEN"/>
 		<for>
-			<effect count="3" name="Fear" stackOrder="-1" stackType="Fear" time="5" val="0"/>
+			<effect count="10" name="Fear" stackOrder="-1" stackType="Fear" time="1" val="0"/>
 		</for>
 	</skill>
 	<skill id="67" levels="7" name="Summon Life Cubic">

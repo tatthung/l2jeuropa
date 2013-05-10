@@ -2371,12 +2371,11 @@
 		</skills>
 	</npc>
 	<npc id="19155" name="Infiltration Officer" title="Combat Assistant">
-		<!--fixed by Darvin & HaxHago-->
 		<set name="collision_radius" value="12.0"/>
 		<set name="collision_height" value="25.0"/>
 		<set name="level" value="17"/>
-		<set name="type" value="Npc"/>
-		<set name="ai_type" value="InfiltrationOfficer"/>
+		<set name="type" value="InfiltrationOfficer" />
+		<set name="ai_type" value="Guard"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseHpMax" value="1585"/>
 		<set name="baseHpRate" value="1.0"/>
@@ -2409,6 +2408,9 @@
 			<defence attribute="holy" value="160"/>
 			<defence attribute="unholy" value="160"/>
 		</attributes>
+		<ai_params>
+			<set name="noRandomWalk" value="true" />
+		</ai_params>
 		<skills>
 			<skill id="4416" level="14"/>
 		</skills>

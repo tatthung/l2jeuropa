@@ -708,7 +708,7 @@
 		<set name="trait" val="DERANGEMENT"/>
 		<set name="saveVs" val="MEN"/>
 		<for>
-			<effect count="5" name="Fear" stackOrder="-1" stackType="Fear" time="3" val="0"/>
+			<effect count="15" name="Fear" stackOrder="-1" stackType="Fear" time="1" val="0"/>
 		</for>
 	</skill>
 	<skill id="5844" levels="1" name="Thunder Storm">
