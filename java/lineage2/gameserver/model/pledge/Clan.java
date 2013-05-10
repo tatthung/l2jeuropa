@@ -2304,6 +2304,7 @@ public class Clan implements Iterable<UnitMember>
 	{
 		if (activeChar.isClanLeader())
 		{
+			_clanLeaderSkill = SkillTable.getInstance().getInfo(19009, 1);
 			for (Player member : getOnlineMembers(0))
 			{
 				for (EffectTemplate et : _clanLeaderSkill.getEffectTemplates())
@@ -2318,6 +2319,7 @@ public class Clan implements Iterable<UnitMember>
 		}
 		else if (getLeader().isOnline())
 		{
+			_clanLeaderSkill = SkillTable.getInstance().getInfo(19009, 1);
 			for (EffectTemplate et : _clanLeaderSkill.getEffectTemplates())
 			{
 				Effect effect = et.getEffect(new Env(activeChar, activeChar, _clanLeaderSkill));
@@ -2337,6 +2339,7 @@ public class Clan implements Iterable<UnitMember>
 	{
 		if (activeChar.isClanLeader())
 		{
+			_clanLeaderSkill = SkillTable.getInstance().getInfo(19009, 1);
 			for (Player member : getOnlineMembers(0))
 			{
 				member.getEffectList().stopEffect(_clanLeaderSkill);

@@ -7186,7 +7186,7 @@ public final class Player extends Playable implements PlayerGroup
 				final Skill skill = SkillTable.getInstance().getInfo(id, level);
 				if (skill == null)
 				{
-					_log.info("Problem! RestoreSkill Id: " + id + " level: " + level);
+					_log.warn("Problem! RestoreSkill Id: " + id + " level: " + level);
 					continue;
 				}
 				if (!isAwaking() && !SkillAcquireHolder.getInstance().isSkillPossible(this, skill))
