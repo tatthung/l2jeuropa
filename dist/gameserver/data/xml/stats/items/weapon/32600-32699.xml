@@ -10,7 +10,7 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<for>
 			<add stat="sDef" order="0x10" value="371"/>
 			<add stat="rEvas" order="0x40" value="-8"/>
@@ -18,6 +18,6 @@
 			<enchant stat="sDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 </list>

@@ -265,9 +265,9 @@
 	</weapon>
 	<weapon id="11309" name="Icarus Shooter - Concentration">
 		<set name="atk_reuse" value="400"/>
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_shooter_i00"/>
 		<set name="kamael_convert" value="11321"/>
 		<set name="price" value="103439000"/>
@@ -295,9 +295,9 @@
 	</weapon>
 	<weapon id="11310" name="Icarus Shooter - Concentration" add_name="Cheap Shot">
 		<set name="atk_reuse" value="400"/>
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_shooter_i01"/>
 		<set name="kamael_convert" value="11322"/>
 		<set name="price" value="103439000"/>
@@ -333,9 +333,9 @@
 	</weapon>
 	<weapon id="11311" name="Icarus Shooter - Concentration" add_name="Guidance">
 		<set name="atk_reuse" value="400"/>
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_shooter_i01"/>
 		<set name="kamael_convert" value="11323"/>
 		<set name="price" value="103439000"/>
@@ -364,9 +364,9 @@
 	</weapon>
 	<weapon id="11312" name="Icarus Shooter - Concentration" add_name="Focus">
 		<set name="atk_reuse" value="400"/>
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_shooter_i01"/>
 		<set name="kamael_convert" value="11324"/>
 		<set name="price" value="103439000"/>
@@ -638,9 +638,9 @@
 	</weapon>
 	<weapon id="11321" name="Icarus Spitter - Concentration">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_spiter_i00"/>
 		<set name="kamael_convert" value="11309"/>
 		<set name="mp_consume" value="6"/>
@@ -669,9 +669,9 @@
 	</weapon>
 	<weapon id="11322" name="Icarus Spitter - Concentration" add_name="Cheap Shot">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_spiter_i01"/>
 		<set name="kamael_convert" value="11310"/>
 		<set name="mp_consume" value="6"/>
@@ -709,9 +709,9 @@
 	</weapon>
 	<weapon id="11323" name="Icarus Spitter - Concentration" add_name="Guidance">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_spiter_i01"/>
 		<set name="kamael_convert" value="11311"/>
 		<set name="mp_consume" value="6"/>
@@ -741,9 +741,9 @@
 	</weapon>
 	<weapon id="11324" name="Icarus Spitter - Concentration" add_name="Focus">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_spiter_i01"/>
 		<set name="kamael_convert" value="11312"/>
 		<set name="mp_consume" value="6"/>
@@ -772,9 +772,9 @@
 		</for>
 	</weapon>
 	<weapon id="11325" name="Icarus Wingblade - Lightning">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_wing_blade_i00"/>
 		<set name="kamael_convert" value="11341"/>
 		<set name="price" value="103439000"/>
@@ -801,9 +801,9 @@
 		</for>
 	</weapon>
 	<weapon id="11326" name="Icarus Wingblade - Lightning" add_name="Focus">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_wing_blade_i01"/>
 		<set name="kamael_convert" value="11342"/>
 		<set name="price" value="103439000"/>
@@ -831,9 +831,9 @@
 		</for>
 	</weapon>
 	<weapon id="11327" name="Icarus Wingblade - Lightning" add_name="Health">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_wing_blade_i01"/>
 		<set name="kamael_convert" value="11343"/>
 		<set name="price" value="103439000"/>
@@ -861,9 +861,9 @@
 		</for>
 	</weapon>
 	<weapon id="11328" name="Icarus Wingblade - Lightning" add_name="Light">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_wing_blade_i01"/>
 		<set name="kamael_convert" value="11344"/>
 		<set name="price" value="103439000"/>
@@ -892,9 +892,9 @@
 		</for>
 	</weapon>
 	<weapon id="11329" name="Icarus Trident - Thunder">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_trident_i00"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="10"/>
@@ -921,9 +921,9 @@
 		</for>
 	</weapon>
 	<weapon id="11330" name="Icarus Trident - Thunder" add_name="Anger">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_trident_i01"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="10"/>
@@ -950,9 +950,9 @@
 		</for>
 	</weapon>
 	<weapon id="11331" name="Icarus Trident - Thunder" add_name="Critical Stun">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_trident_i01"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="10"/>
@@ -982,9 +982,9 @@
 		</for>
 	</weapon>
 	<weapon id="11332" name="Icarus Trident - Thunder" add_name="Light">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_trident_i01"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="10"/>
@@ -1012,9 +1012,9 @@
 		</for>
 	</weapon>
 	<weapon id="11333" name="Icarus Hammer - Earth">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_hammer_i00"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="20"/>
@@ -1040,9 +1040,9 @@
 		</for>
 	</weapon>
 	<weapon id="11334" name="Icarus Hammer - Earth" add_name="Anger">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_hammer_i01"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="20"/>
@@ -1069,9 +1069,9 @@
 		</for>
 	</weapon>
 	<weapon id="11335" name="Icarus Hammer - Earth" add_name="Health">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_hammer_i01"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="20"/>
@@ -1098,9 +1098,9 @@
 		</for>
 	</weapon>
 	<weapon id="11336" name="Icarus Hammer - Earth" add_name="Rsk. Focus">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_hammer_i01"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="20"/>
@@ -1127,9 +1127,9 @@
 		</for>
 	</weapon>
 	<weapon id="11337" name="Icarus Hand - Destruction">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_knuckle_i00"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1155,9 +1155,9 @@
 		</for>
 	</weapon>
 	<weapon id="11338" name="Icarus Hand - Destruction" add_name="Rsk. Evasion">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_knuckle_i01"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1185,9 +1185,9 @@
 		</for>
 	</weapon>
 	<weapon id="11339" name="Icarus Hand - Destruction" add_name="Focus">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_knuckle_i01"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1214,9 +1214,9 @@
 		</for>
 	</weapon>
 	<weapon id="11340" name="Icarus Hand - Destruction" add_name="Haste">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_knuckle_i01"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1243,9 +1243,9 @@
 		</for>
 	</weapon>
 	<weapon id="11341" name="Icarus Heavy Arms - Lightning">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_heavy_arms_i00"/>
 		<set name="kamael_convert" value="11325"/>
 		<set name="price" value="103439000"/>
@@ -1271,9 +1271,9 @@
 		</for>
 	</weapon>
 	<weapon id="11342" name="Icarus Heavy Arms - Lightning" add_name="Focus">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_heavy_arms_i01"/>
 		<set name="kamael_convert" value="11326"/>
 		<set name="price" value="103439000"/>
@@ -1300,9 +1300,9 @@
 		</for>
 	</weapon>
 	<weapon id="11343" name="Icarus Heavy Arms - Lightning" add_name="Health">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_heavy_arms_i01"/>
 		<set name="kamael_convert" value="11327"/>
 		<set name="price" value="103439000"/>
@@ -1329,9 +1329,9 @@
 		</for>
 	</weapon>
 	<weapon id="11344" name="Icarus Heavy Arms - Lightning" add_name="Light">
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_heavy_arms_i01"/>
 		<set name="kamael_convert" value="11328"/>
 		<set name="price" value="103439000"/>
@@ -1360,9 +1360,9 @@
 	</weapon>
 	<weapon id="11345" name="Icarus Hall - Hail">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_stick_i00"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="20"/>
@@ -1389,9 +1389,9 @@
 	</weapon>
 	<weapon id="11346" name="Icarus Hall - Hail" add_name="Mana Up">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_stick_i01"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="20"/>
@@ -1419,9 +1419,9 @@
 	</weapon>
 	<weapon id="11347" name="Icarus Hall - Hail" add_name="Conversion">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_stick_i01"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="20"/>
@@ -1449,9 +1449,9 @@
 	</weapon>
 	<weapon id="11348" name="Icarus Hall - Hail" add_name="Acumen">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="4965"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_icarus_stick_i01"/>
 		<set name="price" value="103439000"/>
 		<set name="rnd_dam" value="20"/>

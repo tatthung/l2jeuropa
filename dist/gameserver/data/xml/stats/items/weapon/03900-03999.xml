@@ -359,9 +359,9 @@
 		</for>
 	</weapon>
 	<weapon id="3937" name="Giant Bar">
-		<set name="crystal_count" value="743"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_monster_i00"/>
 		<set name="price" value="409000"/>
 		<set name="rnd_dam" value="10"/>
@@ -387,9 +387,9 @@
 		</for>
 	</weapon>
 	<weapon id="3938" name="Giant Rod">
-		<set name="crystal_count" value="743"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_monster_i00"/>
 		<set name="price" value="409000"/>
 		<set name="rnd_dam" value="10"/>
@@ -415,9 +415,9 @@
 		</for>
 	</weapon>
 	<weapon id="3939" name="Lady's Fan">
-		<set name="crystal_count" value="743"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_monster_i00"/>
 		<set name="price" value="409000"/>
 		<set name="rnd_dam" value="10"/>

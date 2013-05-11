@@ -38,9 +38,9 @@
 		</for>
 	</weapon>
 	<weapon id="13843" name="Draconic Peltast Weapon">
-		<set name="crystal_count" value="743"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="icon" value="icon.weapon_doomed_dagger_i00"/>

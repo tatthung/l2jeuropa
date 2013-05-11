@@ -641,7 +641,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -652,7 +652,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33751" name="Test-type color varying requiem weapon">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -665,7 +665,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -676,7 +676,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33752" name="Test-type apo requiem weapon">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -689,7 +689,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -700,7 +700,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33753" name="Test-type color varying apo weapon">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -713,7 +713,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -724,7 +724,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33754" name="Test-type old fanta weapon">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -737,7 +737,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -748,7 +748,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33755" name="Test-type color varying fanta weapon">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -761,7 +761,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -772,7 +772,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33756" name="Test-type old heli weapon">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -785,7 +785,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -796,7 +796,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33757" name="Test-type color varying heli weapon">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -809,7 +809,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -820,7 +820,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33758" name="Test-type Old Celestial Weapon">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -833,7 +833,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -844,7 +844,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33759" name="Test-type Color Varying Celestial Weapon">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -857,7 +857,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -868,7 +868,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33760" name="Legacy Fortune Seeker Dagger">
 		<!--Done By Darvin (c)Java - Team 2012-->

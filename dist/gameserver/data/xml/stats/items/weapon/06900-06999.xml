@@ -55,9 +55,9 @@
 		</for>
 	</weapon>
 	<weapon id="6919" name="Monster Only (Shield of Ketra Orc)">
-		<set name="crystal_count" value="142"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="NONE"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_monster_i00"/>
 		<set name="price" value="78400"/>
 		<set name="rnd_dam" value="0"/>

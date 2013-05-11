@@ -114,9 +114,9 @@
 		</for>
 	</weapon>
 	<weapon id="304" name="Orcish Halberd">
-		<set name="crystal_count" value="1704"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_orcish_halbard_i00"/>
 		<set name="price" value="21300000"/>
 		<set name="rnd_dam" value="10"/>
@@ -170,9 +170,9 @@
 		</for>
 	</weapon>
 	<weapon id="306" name="Dragon Claw Axe">
-		<set name="crystal_count" value="1765"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dragon_hunter_axe_i00"/>
 		<set name="price" value="35300000"/>
 		<set name="rnd_dam" value="10"/>
@@ -411,9 +411,9 @@
 	</weapon>
 	<weapon id="316" name="Blood of Saints">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1373"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_blood_of_saints_i00"/>
 		<set name="price" value="743500"/>
 		<set name="rnd_dam" value="10"/>
@@ -483,9 +483,9 @@
 	</weapon>
 	<weapon id="319" name="Eye of Infinity">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2545"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="1400000"/>
 		<set name="rnd_dam" value="10"/>
@@ -507,9 +507,9 @@
 	</weapon>
 	<weapon id="320" name="Blue Crystal Skull">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2763"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="1520000"/>
 		<set name="rnd_dam" value="10"/>
@@ -555,9 +555,9 @@
 	</weapon>
 	<weapon id="322" name="Vajra Wands">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3272"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="1800000"/>
 		<set name="rnd_dam" value="10"/>
@@ -579,9 +579,9 @@
 	</weapon>
 	<weapon id="323" name="Ancient Reagent">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3272"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="1800000"/>
 		<set name="rnd_dam" value="10"/>
@@ -603,9 +603,9 @@
 	</weapon>
 	<weapon id="324" name="Tears of Fairy">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1148"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="2870000"/>
 		<set name="rnd_dam" value="10"/>
@@ -675,9 +675,9 @@
 	</weapon>
 	<weapon id="327" name="Hex Doll">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1720"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="4300000"/>
 		<set name="rnd_dam" value="10"/>
@@ -699,9 +699,9 @@
 	</weapon>
 	<weapon id="328" name="Candle of Wisdom">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2452"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="6130000"/>
 		<set name="rnd_dam" value="10"/>
@@ -723,9 +723,9 @@
 	</weapon>
 	<weapon id="329" name="Blessed Branch">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2452"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="6130000"/>
 		<set name="rnd_dam" value="10"/>
@@ -747,9 +747,9 @@
 	</weapon>
 	<weapon id="330" name="Phoenix Feather">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2452"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="6130000"/>
 		<set name="rnd_dam" value="10"/>
@@ -771,9 +771,9 @@
 	</weapon>
 	<weapon id="331" name="Cerberus Eye">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2452"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="6130000"/>
 		<set name="rnd_dam" value="10"/>
@@ -795,9 +795,9 @@
 	</weapon>
 	<weapon id="332" name="Scroll of Destruction">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2452"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="6130000"/>
 		<set name="rnd_dam" value="10"/>
@@ -819,9 +819,9 @@
 	</weapon>
 	<weapon id="333" name="Claws of Black Dragon">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2452"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="6130000"/>
 		<set name="rnd_dam" value="10"/>
@@ -843,9 +843,9 @@
 	</weapon>
 	<weapon id="334" name="Three Eyed Crow's Feather">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2452"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="6130000"/>
 		<set name="rnd_dam" value="10"/>
@@ -867,9 +867,9 @@
 	</weapon>
 	<weapon id="335" name="Soul Crystal">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1746"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="13100000"/>
 		<set name="rnd_dam" value="10"/>
@@ -891,9 +891,9 @@
 	</weapon>
 	<weapon id="336" name="Scroll of Mana">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2440"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="18300000"/>
 		<set name="rnd_dam" value="10"/>
@@ -915,9 +915,9 @@
 	</weapon>
 	<weapon id="337" name="Scroll of Massacre">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2440"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="18300000"/>
 		<set name="rnd_dam" value="10"/>
@@ -939,9 +939,9 @@
 	</weapon>
 	<weapon id="338" name="Wyvern's Skull">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2440"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="18300000"/>
 		<set name="rnd_dam" value="10"/>
@@ -963,9 +963,9 @@
 	</weapon>
 	<weapon id="339" name="Blood Crystal">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2440"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="18300000"/>
 		<set name="rnd_dam" value="10"/>
@@ -987,9 +987,9 @@
 	</weapon>
 	<weapon id="340" name="Unicorn's Horn">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2440"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="18300000"/>
 		<set name="rnd_dam" value="10"/>
@@ -1011,9 +1011,9 @@
 	</weapon>
 	<weapon id="341" name="Forgotten Tome">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2160"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="27000000"/>
 		<set name="rnd_dam" value="10"/>
@@ -1035,9 +1035,9 @@
 	</weapon>
 	<weapon id="342" name="Enchanted Flute">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2160"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="27000000"/>
 		<set name="rnd_dam" value="10"/>
@@ -1059,9 +1059,9 @@
 	</weapon>
 	<weapon id="343" name="Headless Arrow">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2160"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="27000000"/>
 		<set name="rnd_dam" value="10"/>
@@ -1083,9 +1083,9 @@
 	</weapon>
 	<weapon id="344" name="Proof of Overlord">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2160"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="27000000"/>
 		<set name="rnd_dam" value="10"/>
@@ -1107,9 +1107,9 @@
 	</weapon>
 	<weapon id="345" name="Deathbringer Sword">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2160"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="27000000"/>
 		<set name="rnd_dam" value="10"/>
@@ -1131,9 +1131,9 @@
 	</weapon>
 	<weapon id="346" name="Tears of Fallen Angel">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1765"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
 		<set name="price" value="35300000"/>
 		<set name="rnd_dam" value="10"/>

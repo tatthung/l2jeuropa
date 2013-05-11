@@ -2,9 +2,9 @@
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<weapon id="10870" name="Great Sword - Lightning">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_great_sword_i00"/>
 		<set name="kamael_convert" value="10882"/>
 		<set name="price" value="6680500"/>
@@ -30,9 +30,9 @@
 		</for>
 	</weapon>
 	<weapon id="10871" name="Great Sword - Lightning" add_name="Health">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_great_sword_i01"/>
 		<set name="kamael_convert" value="10883"/>
 		<set name="price" value="6680500"/>
@@ -59,9 +59,9 @@
 		</for>
 	</weapon>
 	<weapon id="10872" name="Great Sword - Lightning" add_name="Critical Damage">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_great_sword_i01"/>
 		<set name="kamael_convert" value="10884"/>
 		<set name="price" value="6680500"/>
@@ -88,9 +88,9 @@
 		</for>
 	</weapon>
 	<weapon id="10873" name="Great Sword - Lightning" add_name="Focus">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_great_sword_i01"/>
 		<set name="kamael_convert" value="10885"/>
 		<set name="price" value="6680500"/>
@@ -117,9 +117,9 @@
 		</for>
 	</weapon>
 	<weapon id="10874" name="Great Axe - Thunder">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_great_axe_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -146,9 +146,9 @@
 		</for>
 	</weapon>
 	<weapon id="10875" name="Great Axe - Thunder" add_name="Anger">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_great_axe_i01"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -175,9 +175,9 @@
 		</for>
 	</weapon>
 	<weapon id="10876" name="Great Axe - Thunder" add_name="Critical Stun">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_great_axe_i01"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -207,9 +207,9 @@
 		</for>
 	</weapon>
 	<weapon id="10877" name="Great Axe - Thunder" add_name="Light">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_great_axe_i01"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -237,9 +237,9 @@
 		</for>
 	</weapon>
 	<weapon id="10878" name="Sword of Limit*Sword of Limit - Destruction">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -266,9 +266,9 @@
 		</for>
 	</weapon>
 	<weapon id="10879" name="Sword of Limit*Sword of Delusion - Destruction">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -295,9 +295,9 @@
 		</for>
 	</weapon>
 	<weapon id="10880" name="Sword of Limit*Sword of Nightmare - Destruction">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -324,9 +324,9 @@
 		</for>
 	</weapon>
 	<weapon id="10881" name="Sword of Limit*Tsurugi - Destruction">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -353,9 +353,9 @@
 		</for>
 	</weapon>
 	<weapon id="10882" name="Innominate Victory - Lightning">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_nameless_victory_i00"/>
 		<set name="kamael_convert" value="10870"/>
 		<set name="price" value="6680500"/>
@@ -382,9 +382,9 @@
 		</for>
 	</weapon>
 	<weapon id="10883" name="Innominate Victory - Lightning" add_name="Health">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_nameless_victory_i01"/>
 		<set name="kamael_convert" value="10871"/>
 		<set name="price" value="6680500"/>
@@ -412,9 +412,9 @@
 		</for>
 	</weapon>
 	<weapon id="10884" name="Innominate Victory - Lightning" add_name="Critical Damage">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_nameless_victory_i01"/>
 		<set name="kamael_convert" value="10872"/>
 		<set name="price" value="6680500"/>
@@ -442,9 +442,9 @@
 		</for>
 	</weapon>
 	<weapon id="10885" name="Innominate Victory - Lightning" add_name="Focus">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_nameless_victory_i01"/>
 		<set name="kamael_convert" value="10873"/>
 		<set name="price" value="6680500"/>
@@ -473,9 +473,9 @@
 	</weapon>
 	<weapon id="10886" name="Dark Elven Long Bow - Concentration">
 		<set name="atk_reuse" value="820"/>
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dark_elven_long_bow_i00"/>
 		<set name="kamael_convert" value="10934"/>
 		<set name="mp_consume" value="3"/>
@@ -504,9 +504,9 @@
 	</weapon>
 	<weapon id="10887" name="Dark Elven Long Bow - Concentration" add_name="Evasion">
 		<set name="atk_reuse" value="820"/>
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dark_elven_long_bow_i01"/>
 		<set name="kamael_convert" value="10935"/>
 		<set name="mp_consume" value="3"/>
@@ -536,9 +536,9 @@
 	</weapon>
 	<weapon id="10888" name="Dark Elven Long Bow - Concentration" add_name="Critical Bleed">
 		<set name="atk_reuse" value="820"/>
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dark_elven_long_bow_i01"/>
 		<set name="kamael_convert" value="10936"/>
 		<set name="mp_consume" value="3"/>
@@ -570,9 +570,9 @@
 	</weapon>
 	<weapon id="10889" name="Dark Elven Long Bow - Concentration" add_name="Miser">
 		<set name="atk_reuse" value="820"/>
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dark_elven_long_bow_i01"/>
 		<set name="kamael_convert" value="10937"/>
 		<set name="mp_consume" value="3"/>
@@ -602,9 +602,9 @@
 		</for>
 	</weapon>
 	<weapon id="10890" name="Sword of Delusion*Sword of Delusion - Destruction">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -631,9 +631,9 @@
 		</for>
 	</weapon>
 	<weapon id="10891" name="Sword of Delusion*Sword of Nightmare - Destruction">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -660,9 +660,9 @@
 		</for>
 	</weapon>
 	<weapon id="10892" name="Sword of Delusion*Tsurugi - Destruction">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -690,9 +690,9 @@
 	</weapon>
 	<weapon id="10893" name="Sword of Valhalla - Nature">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_sword_of_valhalla_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -718,9 +718,9 @@
 	</weapon>
 	<weapon id="10894" name="Sword of Valhalla - Nature" add_name="Acumen">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_sword_of_valhalla_i01"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -747,9 +747,9 @@
 	</weapon>
 	<weapon id="10895" name="Sword of Valhalla - Nature" add_name="Magic Weakness">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_sword_of_valhalla_i01"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -778,9 +778,9 @@
 	</weapon>
 	<weapon id="10896" name="Sword of Valhalla - Nature" add_name="Magic Regeneration">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_sword_of_valhalla_i01"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -808,9 +808,9 @@
 		</for>
 	</weapon>
 	<weapon id="10897" name="Stormbringer*Samurai Long Sword - Destruction">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -838,9 +838,9 @@
 	</weapon>
 	<weapon id="10898" name="Spell Breaker - Hail">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_spell_breaker_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="20"/>
@@ -867,9 +867,9 @@
 	</weapon>
 	<weapon id="10899" name="Spell Breaker - Hail" add_name="Acumen">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_spell_breaker_i01"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="20"/>

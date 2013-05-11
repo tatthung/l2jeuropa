@@ -334,9 +334,9 @@
 	</weapon>
 	<weapon id="13469" name="Vesper Sheutjeh">
 		<set name="atk_reuse" value="400"/>
-		<set name="crystal_count" value="7050"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_vesper_schutze_i00"/>
 		<set name="kamael_convert" value="13467"/>
 		<set name="price" value="143356000"/>

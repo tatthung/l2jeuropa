@@ -7,7 +7,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="CROSSBOW"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -19,7 +19,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36201" name="NoItemName">
 		<!--Done by ALF-->
@@ -27,7 +27,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="SWORD"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -39,7 +39,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36202" name="NoItemName">
 		<!--Done by ALF-->
@@ -47,7 +47,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="BLUNT"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -59,7 +59,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36203" name="NoItemName">
 		<!--Done by ALF-->
@@ -67,7 +67,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="BLUNT"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -79,7 +79,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36204" name="NoItemName">
 		<!--Done by ALF-->
@@ -87,7 +87,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="DUAL"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -99,7 +99,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36205" name="NoItemName">
 		<!--Done by ALF-->
@@ -107,7 +107,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="DUALDAGGER"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -119,7 +119,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36206" name="NoItemName">
 		<!--Done by ALF-->
@@ -127,7 +127,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="DUALBLUNT"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -139,7 +139,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36207" name="NoItemName">
 		<!--Done by ALF-->
@@ -147,7 +147,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="DAGGER"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -159,7 +159,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36208" name="NoItemName">
 		<!--Done by ALF-->
@@ -167,7 +167,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="SWORD"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -179,7 +179,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36209" name="NoItemName">
 		<!--Done by ALF-->
@@ -187,7 +187,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="SWORD"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -199,7 +199,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36210" name="NoItemName">
 		<!--Done by ALF-->
@@ -207,7 +207,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="BLUNT"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -219,7 +219,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36211" name="NoItemName">
 		<!--Done by ALF-->
@@ -227,7 +227,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="DUALFIST"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -239,7 +239,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36212" name="NoItemName">
 		<!--Done by ALF-->
@@ -247,7 +247,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="POLE"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -259,7 +259,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36213" name="NoItemName">
 		<!--Done by ALF-->
@@ -267,7 +267,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="BOW"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -279,7 +279,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36214" name="NoItemName">
 		<!--Done by ALF-->
@@ -287,7 +287,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="CROSSBOW"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -299,7 +299,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36215" name="NoItemName">
 		<!--Done by ALF-->
@@ -307,7 +307,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="SWORD"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -319,7 +319,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36216" name="NoItemName">
 		<!--Done by ALF-->
@@ -327,7 +327,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="BLUNT"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -339,7 +339,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36217" name="NoItemName">
 		<!--Done by ALF-->
@@ -347,7 +347,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="BLUNT"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -359,7 +359,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36218" name="NoItemName">
 		<!--Done by ALF-->
@@ -367,7 +367,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="DUAL"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -379,7 +379,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36219" name="NoItemName">
 		<!--Done by ALF-->
@@ -387,7 +387,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="DUALDAGGER"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -399,7 +399,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="36220" name="NoItemName">
 		<!--Done by ALF-->
@@ -407,7 +407,7 @@
 		<set name="weight" value="500"/>
 		<set name="type" value="DUALBLUNT"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -419,6 +419,6 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 </list>

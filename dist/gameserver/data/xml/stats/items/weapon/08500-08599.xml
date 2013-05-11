@@ -3,9 +3,9 @@
 <list>
 	<weapon id="8527" name="For Monsters Only (Strengthened Bow)">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="743"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_monster_i00"/>
 		<set name="mp_consume" value="1"/>
 		<set name="rnd_dam" value="5"/>
@@ -30,9 +30,9 @@
 	</weapon>
 	<weapon id="8528" name="For Monsters Only (Doom Hammer)">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1170"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_monster_i00"/>
 		<set name="rnd_dam" value="20"/>
 		<set name="sellable" value="false"/>
@@ -103,9 +103,9 @@
 	</weapon>
 	<weapon id="8531" name="For Monsters Only (Bone Staff)">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="743"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_monster_i00"/>
 		<set name="rnd_dam" value="20"/>
 		<set name="sellable" value="false"/>
@@ -128,9 +128,9 @@
 		</for>
 	</weapon>
 	<weapon id="8532" name="For Monsters Only (Spinebone Sword)">
-		<set name="crystal_count" value="1170"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_monster_i00"/>
 		<set name="rnd_dam" value="10"/>
 		<set name="sellable" value="false"/>
@@ -152,9 +152,9 @@
 		</for>
 	</weapon>
 	<weapon id="8533" name="For Monsters Only (Crimson Sword)">
-		<set name="crystal_count" value="1758"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_monster_i00"/>
 		<set name="rnd_dam" value="10"/>
 		<set name="sellable" value="false"/>

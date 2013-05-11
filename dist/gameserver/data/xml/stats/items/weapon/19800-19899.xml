@@ -12,7 +12,7 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="12"/>
 		<for>
 			<add stat="rEvas" order="0x40" value="-8"/>
 			<add stat="sDef" order="0x10" value="458"/>
@@ -33,7 +33,7 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="26"/>
 		<for>
 			<add stat="rEvas" order="0x40" value="-8"/>
 			<add stat="sDef" order="0x10" value="505"/>
@@ -54,7 +54,7 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="59"/>
 		<for>
 			<add stat="rEvas" order="0x40" value="-8"/>
 			<add stat="sDef" order="0x10" value="526"/>
@@ -74,7 +74,7 @@
 		<set name="isBlessed" value="true"/>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="102"/>
 		<for>
 			<add stat="rEvas" order="0x40" value="-8"/>
 			<add stat="sDef" order="0x10" value="415"/>
@@ -94,7 +94,7 @@
 		<set name="isBlessed" value="true"/>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="248"/>
 		<for>
 			<add stat="rEvas" order="0x40" value="-8"/>
 			<add stat="sDef" order="0x10" value="458"/>
@@ -113,7 +113,7 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="isBlessed" value="true"/>
 		<for>
 			<add stat="rEvas" order="0x40" value="-8"/>
@@ -122,6 +122,6 @@
 			<enchant stat="sDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 </list>

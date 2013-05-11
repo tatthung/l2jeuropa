@@ -29,9 +29,9 @@
 	</weapon>
 	<weapon id="11606" name="Common Item - Strengthened Bow">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="32"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_strengthening_bow_i00"/>
 		<set name="kamael_convert" value="11624"/>
 		<set name="mp_consume" value="1"/>
@@ -855,7 +855,7 @@
 	<weapon id="11637" name="Common Item - Divine Tome">
 		<set name="enchantable" value="false"/>
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="48"/>
+		<set name="crystal_count" value="69"/>
 		<set name="crystal_type" value="D"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_divine_tome_i00"/>
@@ -1422,9 +1422,9 @@
 	</weapon>
 	<weapon id="11658" name="Common Item - Saber*Saber">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="63"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="34240"/>
 		<set name="rnd_dam" value="10"/>
@@ -1962,9 +1962,9 @@
 	<weapon id="11678" name="Common Item - Blood of Saints">
 		<set name="enchantable" value="false"/>
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="69"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_blood_of_saints_i00"/>
 		<set name="price" value="37400"/>
 		<set name="rnd_dam" value="10"/>
@@ -1986,9 +1986,9 @@
 	</weapon>
 	<weapon id="11679" name="Common Item - Saber*Knight's Sword">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="75"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="40710"/>
 		<set name="rnd_dam" value="10"/>
@@ -2011,9 +2011,9 @@
 	</weapon>
 	<weapon id="11680" name="Common Item - Saber*Bastard Sword">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="75"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="40710"/>
 		<set name="rnd_dam" value="10"/>
@@ -2036,9 +2036,9 @@
 	</weapon>
 	<weapon id="11681" name="Common Item - Saber*Spinebone Sword">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="75"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="40710"/>
 		<set name="rnd_dam" value="10"/>
@@ -2061,9 +2061,9 @@
 	</weapon>
 	<weapon id="11682" name="Common Item - Saber*Artisan's Sword">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="75"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="40710"/>
 		<set name="rnd_dam" value="10"/>
@@ -2086,9 +2086,9 @@
 	</weapon>
 	<weapon id="11683" name="Common Item - Strengthened Long Bow">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="96"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_strengthening_long_bow_i00"/>
 		<set name="kamael_convert" value="11701"/>
 		<set name="mp_consume" value="2"/>
@@ -2114,9 +2114,9 @@
 	</weapon>
 	<weapon id="11684" name="Common Item - Knight's Sword*Knight's Sword">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="96"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="52050"/>
 		<set name="rnd_dam" value="10"/>
@@ -2191,9 +2191,9 @@
 	</weapon>
 	<weapon id="11687" name="Common Item - Bastard Sword*Knight's Sword">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="96"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="52050"/>
 		<set name="rnd_dam" value="10"/>
@@ -2216,9 +2216,9 @@
 	</weapon>
 	<weapon id="11688" name="Common Item - Bastard Sword*Bastard Sword">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="96"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="52050"/>
 		<set name="rnd_dam" value="10"/>
@@ -2241,9 +2241,9 @@
 	</weapon>
 	<weapon id="11689" name="Common Item - Bastard Sword*Spinebone Sword">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="96"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="52050"/>
 		<set name="rnd_dam" value="10"/>
@@ -2266,9 +2266,9 @@
 	</weapon>
 	<weapon id="11690" name="Common Item - Bastard Sword*Artisan's Sword">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="96"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="52050"/>
 		<set name="rnd_dam" value="10"/>
@@ -2371,9 +2371,9 @@
 	</weapon>
 	<weapon id="11694" name="Common Item - Saber*Elven Sword">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="96"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="52050"/>
 		<set name="rnd_dam" value="10"/>
@@ -2396,9 +2396,9 @@
 	</weapon>
 	<weapon id="11695" name="Common Item - Saber*Crimson Sword">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="96"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="52050"/>
 		<set name="rnd_dam" value="10"/>
@@ -2473,9 +2473,9 @@
 	</weapon>
 	<weapon id="11698" name="Common Item - Spinebone Sword*Knight's Sword">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="96"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="52050"/>
 		<set name="rnd_dam" value="10"/>
@@ -2498,9 +2498,9 @@
 	</weapon>
 	<weapon id="11699" name="Common Item - Spinebone Sword*Spinebone Sword">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="96"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="52050"/>
 		<set name="rnd_dam" value="10"/>

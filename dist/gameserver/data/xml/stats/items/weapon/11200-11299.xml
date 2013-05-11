@@ -3,9 +3,9 @@
 <list>
 	<weapon id="11200" name="Draconic Bow - Earth" add_name="Focus">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_draconic_bow_i01"/>
 		<set name="kamael_convert" value="11216"/>
 		<set name="mp_consume" value="6"/>
@@ -35,9 +35,9 @@
 	</weapon>
 	<weapon id="11201" name="Draconic Bow - Earth" add_name="Critical Slow">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_draconic_bow_i01"/>
 		<set name="kamael_convert" value="11217"/>
 		<set name="mp_consume" value="6"/>
@@ -69,9 +69,9 @@
 		</for>
 	</weapon>
 	<weapon id="11202" name="Dragon Hunter Axe - Thunder">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dragon_hunter_axe_i00"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -97,9 +97,9 @@
 		</for>
 	</weapon>
 	<weapon id="11203" name="Dragon Hunter Axe - Thunder" add_name="HP Regeneration">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dragon_hunter_axe_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -126,9 +126,9 @@
 		</for>
 	</weapon>
 	<weapon id="11204" name="Dragon Hunter Axe - Thunder" add_name="Health">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dragon_hunter_axe_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -155,9 +155,9 @@
 		</for>
 	</weapon>
 	<weapon id="11205" name="Dragon Hunter Axe - Thunder" add_name="HP Drain">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dragon_hunter_axe_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -184,9 +184,9 @@
 		</for>
 	</weapon>
 	<weapon id="11206" name="Laevateinn - Lightning">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_leavatein_i00"/>
 		<set name="kamael_convert" value="11235"/>
 		<set name="price" value="42759400"/>
@@ -215,9 +215,9 @@
 		</for>
 	</weapon>
 	<weapon id="11207" name="Laevateinn - Lightning" add_name="Haste">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_leavatein_i01"/>
 		<set name="kamael_convert" value="11236"/>
 		<set name="price" value="42759400"/>
@@ -247,9 +247,9 @@
 		</for>
 	</weapon>
 	<weapon id="11208" name="Laevateinn - Lightning" add_name="Health">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_leavatein_i01"/>
 		<set name="kamael_convert" value="11237"/>
 		<set name="price" value="42759400"/>
@@ -279,9 +279,9 @@
 		</for>
 	</weapon>
 	<weapon id="11209" name="Laevateinn - Lightning" add_name="Focus">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_leavatein_i01"/>
 		<set name="kamael_convert" value="11238"/>
 		<set name="price" value="42759400"/>
@@ -311,9 +311,9 @@
 		</for>
 	</weapon>
 	<weapon id="11210" name="Basalt Battlehammer - Concentration">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_basalt_battlehammer_i00"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -339,9 +339,9 @@
 		</for>
 	</weapon>
 	<weapon id="11211" name="Basalt Battlehammer - Concentration" add_name="HP Drain">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_basalt_battlehammer_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -368,9 +368,9 @@
 		</for>
 	</weapon>
 	<weapon id="11212" name="Basalt Battlehammer - Concentration" add_name="Health">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_basalt_battlehammer_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -397,9 +397,9 @@
 		</for>
 	</weapon>
 	<weapon id="11213" name="Basalt Battlehammer - Concentration" add_name="HP Regeneration">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_basalt_battlehammer_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -427,9 +427,9 @@
 	</weapon>
 	<weapon id="11214" name="Sarunga - Earth">
 		<set name="atk_reuse" value="400"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_sarnga_i00"/>
 		<set name="kamael_convert" value="11198"/>
 		<set name="price" value="42759400"/>
@@ -457,9 +457,9 @@
 	</weapon>
 	<weapon id="11215" name="Sarunga - Earth" add_name="Cheap Shot">
 		<set name="atk_reuse" value="400"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_sarnga_i01"/>
 		<set name="kamael_convert" value="11199"/>
 		<set name="price" value="42759400"/>
@@ -496,9 +496,9 @@
 	</weapon>
 	<weapon id="11216" name="Sarunga - Earth" add_name="Focus">
 		<set name="atk_reuse" value="400"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_sarnga_i01"/>
 		<set name="kamael_convert" value="11200"/>
 		<set name="price" value="42759400"/>
@@ -527,9 +527,9 @@
 	</weapon>
 	<weapon id="11217" name="Sarunga - Earth" add_name="Critical Slow">
 		<set name="atk_reuse" value="400"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_sarnga_i01"/>
 		<set name="kamael_convert" value="11201"/>
 		<set name="price" value="42759400"/>
@@ -557,9 +557,9 @@
 		</for>
 	</weapon>
 	<weapon id="11218" name="Saint Spear - Destruction">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_saint_spear_i00"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="10"/>
@@ -586,9 +586,9 @@
 		</for>
 	</weapon>
 	<weapon id="11219" name="Saint Spear - Destruction" add_name="Health">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_saint_spear_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="10"/>
@@ -615,9 +615,9 @@
 		</for>
 	</weapon>
 	<weapon id="11220" name="Saint Spear - Destruction" add_name="Guidance">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_saint_spear_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="10"/>
@@ -644,9 +644,9 @@
 		</for>
 	</weapon>
 	<weapon id="11221" name="Saint Spear - Destruction" add_name="Haste">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_saint_spear_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="10"/>
@@ -674,9 +674,9 @@
 	</weapon>
 	<weapon id="11222" name="Arcana Mace - Nature">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_arcana_mace_i00"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -703,9 +703,9 @@
 	</weapon>
 	<weapon id="11223" name="Arcana Mace - Nature" add_name="Acumen">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_arcana_mace_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -733,9 +733,9 @@
 	</weapon>
 	<weapon id="11224" name="Arcana Mace - Nature" add_name="MP Regeneration">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_arcana_mace_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -763,9 +763,9 @@
 	</weapon>
 	<weapon id="11225" name="Arcana Mace - Nature" add_name="Mana Up">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_arcana_mace_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -792,9 +792,9 @@
 		</for>
 	</weapon>
 	<weapon id="11226" name="Angel Slayer - Concentration">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_angel_slayer_i00"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="5"/>
@@ -820,9 +820,9 @@
 		</for>
 	</weapon>
 	<weapon id="11227" name="Angel Slayer - Concentration" add_name="Critical Damage">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_angel_slayer_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="5"/>
@@ -849,9 +849,9 @@
 		</for>
 	</weapon>
 	<weapon id="11228" name="Angel Slayer - Concentration" add_name="HP Drain">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_angel_slayer_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="5"/>
@@ -878,9 +878,9 @@
 		</for>
 	</weapon>
 	<weapon id="11229" name="Angel Slayer - Concentration" add_name="Haste">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_angel_slayer_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="5"/>
@@ -908,9 +908,9 @@
 	</weapon>
 	<weapon id="11230" name="Imperial Staff - Nature">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_imperial_staff_i00"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -937,9 +937,9 @@
 	</weapon>
 	<weapon id="11231" name="Imperial Staff - Nature" add_name="Empower">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_imperial_staff_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -967,9 +967,9 @@
 	</weapon>
 	<weapon id="11232" name="Imperial Staff - Nature" add_name="MP Regeneration">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_imperial_staff_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -997,9 +997,9 @@
 	</weapon>
 	<weapon id="11233" name="Imperial Staff - Nature" add_name="Magic Hold">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_imperial_staff_i01"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>
@@ -1029,9 +1029,9 @@
 		</for>
 	</weapon>
 	<weapon id="11234" name="Tallum Blade*Dark Legion's Edge - Lightning">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="10"/>
@@ -1059,9 +1059,9 @@
 		</for>
 	</weapon>
 	<weapon id="11235" name="Forgotten Blade - Lightning">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_forgotten_blade_i00"/>
 		<set name="kamael_convert" value="11206"/>
 		<set name="price" value="42759400"/>
@@ -1087,9 +1087,9 @@
 		</for>
 	</weapon>
 	<weapon id="11236" name="Forgotten Blade - Lightning" add_name="Haste">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_forgotten_blade_i01"/>
 		<set name="kamael_convert" value="11207"/>
 		<set name="price" value="42759400"/>
@@ -1116,9 +1116,9 @@
 		</for>
 	</weapon>
 	<weapon id="11237" name="Forgotten Blade - Lightning" add_name="Health">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_forgotten_blade_i01"/>
 		<set name="kamael_convert" value="11208"/>
 		<set name="price" value="42759400"/>
@@ -1145,9 +1145,9 @@
 		</for>
 	</weapon>
 	<weapon id="11238" name="Forgotten Blade - Lightning" add_name="Focus">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_forgotten_blade_i01"/>
 		<set name="kamael_convert" value="11209"/>
 		<set name="price" value="42759400"/>
@@ -1174,9 +1174,9 @@
 		</for>
 	</weapon>
 	<weapon id="11239" name="Heaven's Divider - Thunder">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_heavens_divider_i00"/>
 		<set name="kamael_convert" value="11190"/>
 		<set name="price" value="42759400"/>
@@ -1202,9 +1202,9 @@
 		</for>
 	</weapon>
 	<weapon id="11240" name="Heaven's Divider - Thunder" add_name="Haste">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_heavens_divider_i01"/>
 		<set name="kamael_convert" value="11191"/>
 		<set name="price" value="42759400"/>
@@ -1231,9 +1231,9 @@
 		</for>
 	</weapon>
 	<weapon id="11241" name="Heaven's Divider - Thunder" add_name="Health">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_heavens_divider_i01"/>
 		<set name="kamael_convert" value="11192"/>
 		<set name="price" value="42759400"/>
@@ -1260,9 +1260,9 @@
 		</for>
 	</weapon>
 	<weapon id="11242" name="Heaven's Divider - Thunder" add_name="Focus">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_heavens_divider_i01"/>
 		<set name="kamael_convert" value="11193"/>
 		<set name="price" value="42759400"/>
@@ -1289,9 +1289,9 @@
 		</for>
 	</weapon>
 	<weapon id="11243" name="Dynasty Ancient Sword - Great Gale">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_ancient_sword_i00"/>
 		<set name="kamael_convert" value="11268"/>
 		<set name="price" value="74946000"/>
@@ -1318,9 +1318,9 @@
 		</for>
 	</weapon>
 	<weapon id="11244" name="Dynasty Ancient Sword - Great Gale" add_name="Focus">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_ancient_sword_i01"/>
 		<set name="kamael_convert" value="11269"/>
 		<set name="price" value="74946000"/>
@@ -1348,9 +1348,9 @@
 		</for>
 	</weapon>
 	<weapon id="11245" name="Dynasty Ancient Sword - Great Gale" add_name="Health">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_ancient_sword_i01"/>
 		<set name="kamael_convert" value="11270"/>
 		<set name="price" value="74946000"/>
@@ -1378,9 +1378,9 @@
 		</for>
 	</weapon>
 	<weapon id="11246" name="Dynasty Ancient Sword - Great Gale" add_name="Light">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_ancient_sword_i01"/>
 		<set name="kamael_convert" value="11271"/>
 		<set name="price" value="74946000"/>
@@ -1409,9 +1409,9 @@
 		</for>
 	</weapon>
 	<weapon id="11247" name="Dynasty Knife - Great Gale">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_dagger_i00"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1437,9 +1437,9 @@
 		</for>
 	</weapon>
 	<weapon id="11248" name="Dynasty Knife - Great Gale" add_name="Focus">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_dagger_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1466,9 +1466,9 @@
 		</for>
 	</weapon>
 	<weapon id="11249" name="Dynasty Knife - Great Gale" add_name="Evasion">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_dagger_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1496,9 +1496,9 @@
 		</for>
 	</weapon>
 	<weapon id="11250" name="Dynasty Knife - Great Gale" add_name="Critical Damage">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_dagger_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1555,9 +1555,9 @@
 		</for>
 	</weapon>
 	<weapon id="11252" name="Dynasty Rapier - Earth">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_rapier_i00"/>
 		<set name="kamael_convert" value="11272"/>
 		<set name="price" value="74946000"/>
@@ -1586,9 +1586,9 @@
 		</for>
 	</weapon>
 	<weapon id="11253" name="Dynasty Rapier - Earth" add_name="Focus">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_rapier_i01"/>
 		<set name="kamael_convert" value="11273"/>
 		<set name="price" value="74946000"/>
@@ -1618,9 +1618,9 @@
 		</for>
 	</weapon>
 	<weapon id="11254" name="Dynasty Rapier - Earth" add_name="Health">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_rapier_i01"/>
 		<set name="kamael_convert" value="11274"/>
 		<set name="price" value="74946000"/>
@@ -1650,9 +1650,9 @@
 		</for>
 	</weapon>
 	<weapon id="11255" name="Dynasty Rapier - Earth" add_name="Light">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_rapier_i01"/>
 		<set name="kamael_convert" value="11275"/>
 		<set name="price" value="74946000"/>
@@ -1684,9 +1684,9 @@
 	</weapon>
 	<weapon id="11256" name="Dynasty Mace - Earth">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_staff_i00"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -1713,9 +1713,9 @@
 	</weapon>
 	<weapon id="11257" name="Dynasty Mace - Earth" add_name="Mana Up">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_staff_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -1743,9 +1743,9 @@
 	</weapon>
 	<weapon id="11258" name="Dynasty Mace - Earth" add_name="Conversion">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_staff_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -1773,9 +1773,9 @@
 	</weapon>
 	<weapon id="11259" name="Dynasty Mace - Earth" add_name="Acumen">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_staff_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -1802,9 +1802,9 @@
 		</for>
 	</weapon>
 	<weapon id="11260" name="Dynasty Bagh-Nakh - Great Gale">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_jamadhr_i00"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1830,9 +1830,9 @@
 		</for>
 	</weapon>
 	<weapon id="11261" name="Dynasty Bagh-Nakh - Great Gale" add_name="Rsk. Evasion">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_jamadhr_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1860,9 +1860,9 @@
 		</for>
 	</weapon>
 	<weapon id="11262" name="Dynasty Bagh-Nakh - Great Gale" add_name="Focus">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_jamadhr_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1889,9 +1889,9 @@
 		</for>
 	</weapon>
 	<weapon id="11263" name="Dynasty Bagh-Nakh - Great Gale" add_name="Haste">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_jamadhr_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1919,9 +1919,9 @@
 	</weapon>
 	<weapon id="11264" name="Dynasty Bow - Great Gale">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_bow_i00"/>
 		<set name="kamael_convert" value="11288"/>
 		<set name="mp_consume" value="6"/>
@@ -1950,9 +1950,9 @@
 	</weapon>
 	<weapon id="11265" name="Dynasty Bow - Great Gale" add_name="Cheap Shot">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_bow_i01"/>
 		<set name="kamael_convert" value="11289"/>
 		<set name="mp_consume" value="6"/>
@@ -1990,9 +1990,9 @@
 	</weapon>
 	<weapon id="11266" name="Dynasty Bow - Great Gale" add_name="Guidance">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_bow_i01"/>
 		<set name="kamael_convert" value="11290"/>
 		<set name="mp_consume" value="6"/>
@@ -2022,9 +2022,9 @@
 	</weapon>
 	<weapon id="11267" name="Dynasty Bow - Great Gale" add_name="Focus">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_bow_i01"/>
 		<set name="kamael_convert" value="11291"/>
 		<set name="mp_consume" value="6"/>
@@ -2053,9 +2053,9 @@
 		</for>
 	</weapon>
 	<weapon id="11268" name="Dynasty Blade - Great Gale">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_twohand_sword_i00"/>
 		<set name="kamael_convert" value="11243"/>
 		<set name="price" value="74946000"/>
@@ -2081,9 +2081,9 @@
 		</for>
 	</weapon>
 	<weapon id="11269" name="Dynasty Blade - Great Gale" add_name="Focus">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_twohand_sword_i01"/>
 		<set name="kamael_convert" value="11244"/>
 		<set name="price" value="74946000"/>
@@ -2110,9 +2110,9 @@
 		</for>
 	</weapon>
 	<weapon id="11270" name="Dynasty Blade - Great Gale" add_name="Health">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_twohand_sword_i01"/>
 		<set name="kamael_convert" value="11245"/>
 		<set name="price" value="74946000"/>
@@ -2139,9 +2139,9 @@
 		</for>
 	</weapon>
 	<weapon id="11271" name="Dynasty Blade - Great Gale" add_name="Light">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_twohand_sword_i01"/>
 		<set name="kamael_convert" value="11246"/>
 		<set name="price" value="74946000"/>
@@ -2169,9 +2169,9 @@
 		</for>
 	</weapon>
 	<weapon id="11272" name="Dynasty Sword - Earth">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_blade_i00"/>
 		<set name="kamael_convert" value="11252"/>
 		<set name="price" value="74946000"/>
@@ -2197,9 +2197,9 @@
 		</for>
 	</weapon>
 	<weapon id="11273" name="Dynasty Sword - Earth" add_name="Focus">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_blade_i01"/>
 		<set name="kamael_convert" value="11253"/>
 		<set name="price" value="74946000"/>
@@ -2226,9 +2226,9 @@
 		</for>
 	</weapon>
 	<weapon id="11274" name="Dynasty Sword - Earth" add_name="Health">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_blade_i01"/>
 		<set name="kamael_convert" value="11254"/>
 		<set name="price" value="74946000"/>
@@ -2255,9 +2255,9 @@
 		</for>
 	</weapon>
 	<weapon id="11275" name="Dynasty Sword - Earth" add_name="Light">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_blade_i01"/>
 		<set name="kamael_convert" value="11255"/>
 		<set name="price" value="74946000"/>
@@ -2286,9 +2286,9 @@
 	</weapon>
 	<weapon id="11276" name="Dynasty Staff - Holy Spirit">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_twohand_staff_i00"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -2315,9 +2315,9 @@
 	</weapon>
 	<weapon id="11277" name="Dynasty Staff - Holy Spirit" add_name="Mana Up">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_twohand_staff_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -2345,9 +2345,9 @@
 	</weapon>
 	<weapon id="11278" name="Dynasty Staff - Holy Spirit" add_name="Conversion">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_twohand_staff_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -2375,9 +2375,9 @@
 	</weapon>
 	<weapon id="11279" name="Dynasty Staff - Holy Spirit" add_name="Acumen">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_twohand_staff_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -2404,9 +2404,9 @@
 		</for>
 	</weapon>
 	<weapon id="11280" name="Dynasty Cudgel - Landslide">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_hammer_i00"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -2432,9 +2432,9 @@
 		</for>
 	</weapon>
 	<weapon id="11281" name="Dynasty Cudgel - Landslide" add_name="Anger">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_hammer_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -2461,9 +2461,9 @@
 		</for>
 	</weapon>
 	<weapon id="11282" name="Dynasty Cudgel - Landslide" add_name="Health">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_hammer_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -2490,9 +2490,9 @@
 		</for>
 	</weapon>
 	<weapon id="11283" name="Dynasty Cudgel - Landslide" add_name="Rsk. Focus">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_hammer_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -2519,9 +2519,9 @@
 		</for>
 	</weapon>
 	<weapon id="11284" name="Dynasty Crusher - Great Gale">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_crusher_i00"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -2547,9 +2547,9 @@
 		</for>
 	</weapon>
 	<weapon id="11285" name="Dynasty Crusher - Great Gale" add_name="Anger">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_crusher_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -2576,9 +2576,9 @@
 		</for>
 	</weapon>
 	<weapon id="11286" name="Dynasty Crusher - Great Gale" add_name="Health">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_crusher_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -2605,9 +2605,9 @@
 		</for>
 	</weapon>
 	<weapon id="11287" name="Dynasty Crusher - Great Gale" add_name="Rsk. Focus">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_crusher_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="20"/>
@@ -2635,9 +2635,9 @@
 	</weapon>
 	<weapon id="11288" name="Dynasty Crossbow - Great Gale">
 		<set name="atk_reuse" value="400"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_crossbow_i00"/>
 		<set name="kamael_convert" value="11264"/>
 		<set name="price" value="74946000"/>
@@ -2665,9 +2665,9 @@
 	</weapon>
 	<weapon id="11289" name="Dynasty Crossbow - Great Gale" add_name="Cheap Shot">
 		<set name="atk_reuse" value="400"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_crossbow_i01"/>
 		<set name="kamael_convert" value="11265"/>
 		<set name="price" value="74946000"/>
@@ -2704,9 +2704,9 @@
 	</weapon>
 	<weapon id="11290" name="Dynasty Crossbow - Great Gale" add_name="Guidance">
 		<set name="atk_reuse" value="400"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_crossbow_i01"/>
 		<set name="kamael_convert" value="11266"/>
 		<set name="price" value="74946000"/>
@@ -2735,9 +2735,9 @@
 	</weapon>
 	<weapon id="11291" name="Dynasty Crossbow - Great Gale" add_name="Focus">
 		<set name="atk_reuse" value="400"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_crossbow_i01"/>
 		<set name="kamael_convert" value="11267"/>
 		<set name="price" value="74946000"/>
@@ -2766,9 +2766,9 @@
 	</weapon>
 	<weapon id="11292" name="Dynasty Phantom - Nature">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_magic_sword_i00"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="10"/>
@@ -2794,9 +2794,9 @@
 	</weapon>
 	<weapon id="11293" name="Dynasty Phantom - Nature" add_name="Acumen">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_magic_sword_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="10"/>
@@ -2823,9 +2823,9 @@
 	</weapon>
 	<weapon id="11294" name="Dynasty Phantom - Nature" add_name="Mana Up">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_magic_sword_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="10"/>
@@ -2852,9 +2852,9 @@
 	</weapon>
 	<weapon id="11295" name="Dynasty Phantom - Nature" add_name="Conversion">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_magic_sword_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="10"/>
@@ -2880,9 +2880,9 @@
 		</for>
 	</weapon>
 	<weapon id="11296" name="Dynasty Halberd - Earth">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_spear_i00"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="10"/>
@@ -2909,9 +2909,9 @@
 		</for>
 	</weapon>
 	<weapon id="11297" name="Dynasty Halberd - Earth" add_name="Anger">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_spear_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="10"/>
@@ -2938,9 +2938,9 @@
 		</for>
 	</weapon>
 	<weapon id="11298" name="Dynasty Halberd - Earth" add_name="Critical Stun">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_spear_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="10"/>
@@ -2970,9 +2970,9 @@
 		</for>
 	</weapon>
 	<weapon id="11299" name="Dynasty Halberd - Earth" add_name="Light">
-		<set name="crystal_count" value="3597"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dynasty_spear_i01"/>
 		<set name="price" value="74946000"/>
 		<set name="rnd_dam" value="10"/>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
-
 <list>
 	<weapon id="22711" name="Japanese Sword">
 		<!--Done By Zyth23 (c) WunkiaKorps 2013-->
@@ -13,7 +12,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -36,7 +35,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -60,7 +59,7 @@
 		<set name="type" value="BIGSWORD"/>
 		<set name="ex_type" value="BIG_SWORD"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -83,7 +82,7 @@
 		<set name="type" value="DUALFIST"/>
 		<set name="ex_type" value="HAND_TO_HAND"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -106,7 +105,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -129,7 +128,7 @@
 		<set name="type" value="BOW"/>
 		<set name="ex_type" value="BOW"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="6"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -153,7 +152,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="6"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -177,7 +176,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -200,7 +199,7 @@
 		<set name="type" value="BIGBLUNT"/>
 		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="359"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -223,7 +222,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -247,7 +246,7 @@
 		<set name="type" value="BIGBLUNT"/>
 		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -270,7 +269,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -293,7 +292,7 @@
 		<set name="type" value="DUALDAGGER"/>
 		<set name="ex_type" value="DUAL_DAGGER"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -315,7 +314,7 @@
 		</equip>
 		<set name="type" value="DUALBLUNT"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -336,7 +335,7 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="356"/>
+		<set name="crystal_count" value="0"/>
 		<for>
 			<add stat="pDef" order="0x10" value="5"/>
 			<enchant stat="pDef" order="0x0C" value="0"/>

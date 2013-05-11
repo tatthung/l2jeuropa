@@ -4,9 +4,9 @@
 	<weapon id="12000" name="Common Item - Arcana Mace">
 		<set name="enchantable" value="false"/>
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="174"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_arcana_mace_i00"/>
 		<set name="price" value="3477000"/>
 		<set name="rnd_dam" value="20"/>
@@ -30,9 +30,9 @@
 	</weapon>
 	<weapon id="12001" name="Common Item - Angel Slayer">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="174"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_angel_slayer_i00"/>
 		<set name="price" value="3477000"/>
 		<set name="rnd_dam" value="5"/>
@@ -57,9 +57,9 @@
 	<weapon id="12002" name="Common Item - Imperial Staff">
 		<set name="enchantable" value="false"/>
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="174"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_imperial_staff_i00"/>
 		<set name="price" value="3477000"/>
 		<set name="rnd_dam" value="20"/>
@@ -83,9 +83,9 @@
 	</weapon>
 	<weapon id="12003" name="Common Item - Tallum Blade*Dark Legion">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="174"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="3477000"/>
 		<set name="rnd_dam" value="10"/>
@@ -110,9 +110,9 @@
 	</weapon>
 	<weapon id="12004" name="Common Item - Forgotten Blade">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="174"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_forgotten_blade_i00"/>
 		<set name="kamael_convert" value="11996"/>
 		<set name="price" value="3477000"/>
@@ -136,9 +136,9 @@
 	</weapon>
 	<weapon id="12005" name="Common Item - Heaven's Divider">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="174"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_heavens_divider_i00"/>
 		<set name="kamael_convert" value="11992"/>
 		<set name="price" value="3477000"/>

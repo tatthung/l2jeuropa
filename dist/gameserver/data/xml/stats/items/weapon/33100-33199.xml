@@ -12,7 +12,7 @@
 		<set name="type" value="ANCIENTSWORD"/>
 		<set name="ex_type" value="ANCIENT_SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -26,7 +26,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33101" name="Bow of Peril of Destiny (fire)" add_name="Quick Recovery">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -39,7 +39,7 @@
 		<set name="type" value="BOW"/>
 		<set name="ex_type" value="BOW"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="mp_consume" value="4"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="1"/>
@@ -52,7 +52,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33102" name="Hell Hound of Destiny (fire)" add_name="Quick Recovery">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -65,7 +65,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -77,7 +77,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33103" name="Deadman's Glory of Destiny (fire)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -90,7 +90,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -104,7 +104,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33104" name="Kaim Vanul's Bones of Destiny (fire)" add_name="Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -117,7 +117,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -131,7 +131,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33105" name="Staff of Evil Spirits of Destiny (fire)" add_name="Blessed Body">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -144,7 +144,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -155,7 +155,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33106" name="Lance of Destiny (fire)" add_name="Critical Stun">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -168,7 +168,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -179,7 +179,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33107" name="Bellion Cestus of Destiny (fire)" add_name="Rsk. Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -192,7 +192,7 @@
 		<set name="type" value="DUALFIST"/>
 		<set name="ex_type" value="HAND_TO_HAND"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -203,7 +203,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33108" name="Samurai Long Sword*Samurai Long Sword of Destiny (fire)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -216,7 +216,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -227,7 +227,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33109" name="Demon's Dagger of Destiny (water)" add_name="Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -240,7 +240,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -255,7 +255,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33110" name="Damascus Sword of Destiny (water)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -268,7 +268,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -282,7 +282,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33111" name="Wizard's Tear of Destiny (water)" add_name="Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -295,7 +295,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -309,7 +309,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33112" name="Colichemarde of Destiny (water)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -322,7 +322,7 @@
 		<set name="type" value="RAPIER"/>
 		<set name="ex_type" value="RAPIER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -336,7 +336,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33113" name="Guardian Sword of Destiny (water)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -349,7 +349,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -363,7 +363,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33114" name="Dismantler of Destiny (water)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -376,7 +376,7 @@
 		<set name="type" value="ANCIENTSWORD"/>
 		<set name="ex_type" value="ANCIENT_SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -390,7 +390,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33115" name="Bow of Peril of Destiny (water)" add_name="Quick Recovery">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -403,7 +403,7 @@
 		<set name="type" value="BOW"/>
 		<set name="ex_type" value="BOW"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="mp_consume" value="4"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="1"/>
@@ -416,7 +416,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33116" name="Hell Hound of Destiny (water)" add_name="Quick Recovery">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -429,7 +429,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -441,7 +441,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33117" name="Deadman's Glory of Destiny (water)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -454,7 +454,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -468,7 +468,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33118" name="Kaim Vanul's Bones of Destiny (water)" add_name="Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -481,7 +481,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -495,7 +495,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33119" name="Staff of Evil Spirits of Destiny (water)" add_name="Blessed Body">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -508,7 +508,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -519,7 +519,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33120" name="Lance of Destiny (water)" add_name="Critical Stun">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -532,7 +532,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -543,7 +543,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33121" name="Bellion Cestus of Destiny (water)" add_name="Rsk. Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -556,7 +556,7 @@
 		<set name="type" value="DUALFIST"/>
 		<set name="ex_type" value="HAND_TO_HAND"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -567,7 +567,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33122" name="Samurai Long Sword*Samurai Long Sword of Destiny (water)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -580,7 +580,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -591,7 +591,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33123" name="Demon's Dagger of Destiny (wind)" add_name="Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -604,7 +604,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -619,7 +619,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33124" name="Damascus Sword of Destiny (wind)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -632,7 +632,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -646,7 +646,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33125" name="Wizard's Tear of Destiny (wind)" add_name="Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -659,7 +659,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -673,7 +673,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33126" name="Colichemarde of Destiny (wind)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -686,7 +686,7 @@
 		<set name="type" value="RAPIER"/>
 		<set name="ex_type" value="RAPIER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -700,7 +700,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33127" name="Guardian Sword of Destiny (wind)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -713,7 +713,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -727,7 +727,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33128" name="Dismantler of Destiny (wind)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -740,7 +740,7 @@
 		<set name="type" value="ANCIENTSWORD"/>
 		<set name="ex_type" value="ANCIENT_SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -754,7 +754,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33129" name="Bow of Peril of Destiny (wind)" add_name="Quick Recovery">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -767,7 +767,7 @@
 		<set name="type" value="BOW"/>
 		<set name="ex_type" value="BOW"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="mp_consume" value="4"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="1"/>
@@ -780,7 +780,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33130" name="Hell Hound of Destiny (wind)" add_name="Quick Recovery">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -793,7 +793,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -805,7 +805,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33131" name="Deadman's Glory of Destiny (wind)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -818,7 +818,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -832,7 +832,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33132" name="Kaim Vanul's Bones of Destiny (wind)" add_name="Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -845,7 +845,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -859,7 +859,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33133" name="Staff of Evil Spirits of Destiny (wind)" add_name="Blessed Body">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -872,7 +872,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -883,7 +883,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33134" name="Lance of Destiny (wind)" add_name="Critical Stun">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -896,7 +896,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -907,7 +907,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33135" name="Bellion Cestus of Destiny (wind)" add_name="Rsk. Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -920,7 +920,7 @@
 		<set name="type" value="DUALFIST"/>
 		<set name="ex_type" value="HAND_TO_HAND"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -931,7 +931,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33136" name="Samurai Long Sword*Samurai Long Sword of Destiny (wind)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -944,7 +944,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -955,7 +955,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33137" name="Demon's Dagger of Destiny (earth)" add_name="Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -968,7 +968,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -983,7 +983,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33138" name="Damascus Sword of Destiny (earth)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -996,7 +996,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1010,7 +1010,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33139" name="Wizard's Tear of Destiny (earth)" add_name="Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1023,7 +1023,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1037,7 +1037,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33140" name="Colichemarde of Destiny (earth)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1050,7 +1050,7 @@
 		<set name="type" value="RAPIER"/>
 		<set name="ex_type" value="RAPIER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1064,7 +1064,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33141" name="Guardian Sword of Destiny (earth)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1077,7 +1077,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1091,7 +1091,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33142" name="Dismantler of Destiny (earth)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1104,7 +1104,7 @@
 		<set name="type" value="ANCIENTSWORD"/>
 		<set name="ex_type" value="ANCIENT_SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1118,7 +1118,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33143" name="Bow of Peril of Destiny (earth)" add_name="Quick Recovery">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1131,7 +1131,7 @@
 		<set name="type" value="BOW"/>
 		<set name="ex_type" value="BOW"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="mp_consume" value="4"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="1"/>
@@ -1144,7 +1144,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33144" name="Hell Hound of Destiny (earth)" add_name="Quick Recovery">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1157,7 +1157,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1169,7 +1169,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33145" name="Deadman's Glory of Destiny (earth)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1182,7 +1182,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1196,7 +1196,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33146" name="Kaim Vanul's Bones of Destiny (earth)" add_name="Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1209,7 +1209,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1223,7 +1223,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33147" name="Staff of Evil Spirits of Destiny (earth)" add_name="Blessed Body">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1236,7 +1236,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1247,7 +1247,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33148" name="Lance of Destiny (earth)" add_name="Critical Stun">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1260,7 +1260,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1271,7 +1271,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33149" name="Bellion Cestus of Destiny (earth)" add_name="Rsk. Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1284,7 +1284,7 @@
 		<set name="type" value="DUALFIST"/>
 		<set name="ex_type" value="HAND_TO_HAND"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1295,7 +1295,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33150" name="Samurai Long Sword*Samurai Long Sword of Destiny (earth)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1308,7 +1308,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1319,7 +1319,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33151" name="Demon's Dagger of Destiny (holy)" add_name="Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1332,7 +1332,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1347,7 +1347,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33152" name="Damascus Sword of Destiny (holy)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1360,7 +1360,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1374,7 +1374,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33153" name="Wizard's Tear of Destiny (holy)" add_name="Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1387,7 +1387,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1401,7 +1401,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33154" name="Colichemarde of Destiny (holy)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1414,7 +1414,7 @@
 		<set name="type" value="RAPIER"/>
 		<set name="ex_type" value="RAPIER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1428,7 +1428,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33155" name="Guardian Sword of Destiny (holy)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1441,7 +1441,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1455,7 +1455,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33156" name="Dismantler of Destiny (holy)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1468,7 +1468,7 @@
 		<set name="type" value="ANCIENTSWORD"/>
 		<set name="ex_type" value="ANCIENT_SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1482,7 +1482,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33157" name="Bow of Peril of Destiny (holy)" add_name="Quick Recovery">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1495,7 +1495,7 @@
 		<set name="type" value="BOW"/>
 		<set name="ex_type" value="BOW"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="mp_consume" value="4"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="1"/>
@@ -1508,7 +1508,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33158" name="Hell Hound of Destiny (holy)" add_name="Quick Recovery">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1521,7 +1521,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1533,7 +1533,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33159" name="Deadman's Glory of Destiny (holy)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1546,7 +1546,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1560,7 +1560,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33160" name="Kaim Vanul's Bones of Destiny (holy)" add_name="Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1573,7 +1573,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1587,7 +1587,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33161" name="Staff of Evil Spirits of Destiny (holy)" add_name="Blessed Body">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1600,7 +1600,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1611,7 +1611,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33162" name="Lance of Destiny (holy)" add_name="Critical Stun">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1624,7 +1624,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1635,7 +1635,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33163" name="Bellion Cestus of Destiny (holy)" add_name="Rsk. Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1648,7 +1648,7 @@
 		<set name="type" value="DUALFIST"/>
 		<set name="ex_type" value="HAND_TO_HAND"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1659,7 +1659,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33164" name="Samurai Long Sword*Samurai Long Sword of Destiny (holy)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1672,7 +1672,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1683,7 +1683,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33165" name="Demon's Dagger of Destiny (darkness)" add_name="Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1696,7 +1696,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1711,7 +1711,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33166" name="Damascus Sword of Destiny (darkness)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1724,7 +1724,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1738,7 +1738,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33167" name="Wizard's Tear of Destiny (darkness)" add_name="Acumen">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1751,7 +1751,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1765,7 +1765,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33168" name="Colichemarde of Destiny (darkness)" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1778,7 +1778,7 @@
 		<set name="type" value="RAPIER"/>
 		<set name="ex_type" value="RAPIER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1792,7 +1792,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33169" name="Guardian Sword of Destiny (darkness)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1805,7 +1805,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1819,7 +1819,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33170" name="Dismantler of Destiny (darkness)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1832,7 +1832,7 @@
 		<set name="type" value="ANCIENTSWORD"/>
 		<set name="ex_type" value="ANCIENT_SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1846,7 +1846,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33171" name="Bow of Peril of Destiny (darkness)" add_name="Quick Recovery">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1859,7 +1859,7 @@
 		<set name="type" value="BOW"/>
 		<set name="ex_type" value="BOW"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="mp_consume" value="4"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="1"/>
@@ -1872,7 +1872,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33172" name="Hell Hound of Destiny (darkness)" add_name="Quick Recovery">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1885,7 +1885,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1897,7 +1897,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33173" name="Deadman's Glory of Destiny (darkness)" add_name="Health">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1910,7 +1910,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1924,7 +1924,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33174" name="Kaim Vanul's Bones of Destiny (darkness)" add_name="Mana Up">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1937,7 +1937,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1951,7 +1951,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33175" name="Staff of Evil Spirits of Destiny (darkness)" add_name="Blessed Body">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1964,7 +1964,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1975,7 +1975,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33176" name="Lance of Destiny (darkness)" add_name="Critical Stun">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1988,7 +1988,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1999,7 +1999,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33177" name="Bellion Cestus of Destiny (darkness)" add_name="Rsk. Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2012,7 +2012,7 @@
 		<set name="type" value="DUALFIST"/>
 		<set name="ex_type" value="HAND_TO_HAND"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -2023,7 +2023,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33178" name="Samurai Long Sword*Samurai Long Sword of Destiny (darkness)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2036,7 +2036,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -2047,7 +2047,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33184" name="Dark Dragon Shield of Destiny (fire, wind, darkness)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2059,7 +2059,7 @@
 		<set name="type" value="NONE"/>
 		<set name="ex_type" value="SHIELD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<for>
 			<add stat="sDef" order="0x10" value="230"/>
 			<add stat="rEvas" order="0x40" value="-8"/>
@@ -2067,7 +2067,7 @@
 			<enchant stat="sDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="33199" name="Dark Dragon Shield of Destiny (water, earth, holy)">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -2079,7 +2079,7 @@
 		<set name="type" value="NONE"/>
 		<set name="ex_type" value="SHIELD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<for>
 			<add stat="sDef" order="0x10" value="230"/>
 			<add stat="rEvas" order="0x40" value="-8"/>
@@ -2087,6 +2087,6 @@
 			<enchant stat="sDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 </list>

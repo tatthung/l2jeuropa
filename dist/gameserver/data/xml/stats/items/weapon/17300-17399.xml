@@ -350,7 +350,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="1451"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -488,7 +488,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -500,7 +500,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17382" name="Specter Shaper">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -587,7 +587,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3130"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>

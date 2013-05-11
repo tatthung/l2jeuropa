@@ -698,11 +698,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22911" name="Orbis' Victim" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="28.0"/>
-		<set name="collision_height" value="41.0"/>
+		<set name="collision_height" value="51.0" />
+		<set name="collision_radius" value="30.0" />
 		<set name="level" value="95"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -770,11 +769,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22912" name="Orbis' Victim" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="35.0"/>
-		<set name="collision_height" value="32.5"/>
+		<set name="collision_height" value="51.0" />
+		<set name="collision_radius" value="30.0" />
 		<set name="level" value="96"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -843,11 +841,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22913" name="Orbis' Victim" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="13.0"/>
-		<set name="collision_height" value="40.0"/>
+		<set name="collision_height" value="51.0" />
+		<set name="collision_radius" value="30.0" />
 		<set name="level" value="97"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -915,11 +912,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22914" name="Orbis' Guard" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="28.0"/>
-		<set name="collision_height" value="41.0"/>
+		<set name="collision_height" value="54.0" />
+		<set name="collision_radius" value="30.0" />
 		<set name="level" value="95"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -987,11 +983,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22915" name="Orbis' Guard" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="35.0"/>
-		<set name="collision_height" value="32.5"/>
+		<set name="collision_height" value="54.0" />
+		<set name="collision_radius" value="30.0" />
 		<set name="level" value="96"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1060,11 +1055,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22916" name="Orbis' Guard" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="13.0"/>
-		<set name="collision_height" value="40.0"/>
+		<set name="collision_height" value="54.0" />
+		<set name="collision_radius" value="30.0" />
 		<set name="level" value="97"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1131,11 +1125,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22917" name="Orbis' Thrower" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="28.0"/>
-		<set name="collision_height" value="41.0"/>
+		<set name="collision_height" value="54.0" />
+		<set name="collision_radius" value="35.0" />
 		<set name="level" value="95"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1196,11 +1189,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22918" name="Orbis' Thrower" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="35.0"/>
-		<set name="collision_height" value="32.5"/>
+		<set name="collision_height" value="54.0" />
+		<set name="collision_radius" value="35.0" />
 		<set name="level" value="96"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1268,11 +1260,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22919" name="Orbis' Thrower" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="13.0"/>
-		<set name="collision_height" value="40.0"/>
+		<set name="collision_height" value="54.0" />
+		<set name="collision_radius" value="35.0" />
 		<set name="level" value="97"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1339,11 +1330,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22920" name="Orbis' Thrower" title="Scout">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="35.0"/>
-		<set name="collision_height" value="32.5"/>
+		<set name="collision_height" value="54.0" />
+		<set name="collision_radius" value="35.0" />
 		<set name="level" value="96"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1411,11 +1401,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22921" name="Orbis' Curator" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="35.0"/>
-		<set name="collision_height" value="32.5"/>
+		<set name="collision_height" value="54.0" />
+		<set name="collision_radius" value="35.0" />
 		<set name="level" value="95"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1476,11 +1465,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22922" name="Orbis' Curator" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="35.0"/>
-		<set name="collision_height" value="32.5"/>
+		<set name="collision_height" value="54.0" />
+		<set name="collision_radius" value="35.0" />
 		<set name="level" value="96"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1542,11 +1530,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22923" name="Orbis' Curator" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="13.0"/>
-		<set name="collision_height" value="40.0"/>
+		<set name="collision_height" value="54.0" />
+		<set name="collision_radius" value="35.0" />
 		<set name="level" value="97"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1607,11 +1594,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22924" name="Orbis' Ancient Hero" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="35.0"/>
-		<set name="collision_height" value="32.5"/>
+		<set name="collision_height" value="54.0" />
+		<set name="collision_radius" value="35.0" />
 		<set name="level" value="96"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1671,11 +1657,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22925" name="Orbis' Ancient Hero" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="13.0"/>
-		<set name="collision_height" value="40.0"/>
+		<set name="collision_height" value="54.0" />
+		<set name="collision_radius" value="35.0" />
 		<set name="level" value="97"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1739,11 +1724,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22926" name="Orbis' Chief Curator" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="13.0"/>
-		<set name="collision_height" value="40.0"/>
+		<set name="collision_height" value="58.0" />
+		<set name="collision_radius" value="40.0" />
 		<set name="level" value="96"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1805,11 +1789,10 @@
 		</rewardlist>
 	</npc>
 	<npc id="22927" name="Orbis' Chief Curator" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
-		<set name="collision_radius" value="13.0"/>
-		<set name="collision_height" value="40.0"/>
+		<set name="collision_height" value="58.0" />
+		<set name="collision_radius" value="40.0" />
 		<set name="level" value="97"/>
 		<set name="type" value="Monster"/>
 		<set name="baseAtkRange" value="40"/>
@@ -1870,7 +1853,6 @@
 		</rewardlist>
 	</npc>
 	<npc id="22928" name="Octavis' Gladiator" title="">
-		<!--L2WT Tauti Confirmed-->
 		<set name="aggroRange" value="300"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_radius" value="25.0"/>

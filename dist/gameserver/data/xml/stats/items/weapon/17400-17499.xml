@@ -403,7 +403,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13282" level="3"/>
@@ -416,7 +416,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17451" name="Blessed Celestial Cutter">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -429,7 +429,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13252" level="3"/>
@@ -441,7 +441,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17452" name="Blessed Celestial Slasher">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -454,7 +454,7 @@
 		<set name="type" value="BIGSWORD"/>
 		<set name="ex_type" value="BIG_SWORD"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13261" level="3"/>
@@ -466,7 +466,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17453" name="Blessed Celestial Avenger">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -479,7 +479,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13256" level="3"/>
@@ -491,7 +491,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17454" name="Blessed Celestial Fighter">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -504,7 +504,7 @@
 		<set name="type" value="DUALFIST"/>
 		<set name="ex_type" value="HAND_TO_HAND"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13267" level="3"/>
@@ -516,7 +516,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17455" name="Blessed Celestial Stormer">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -529,7 +529,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13263" level="3"/>
@@ -541,7 +541,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17456" name="Blessed Celestial Thrower">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -554,7 +554,7 @@
 		<set name="type" value="BOW"/>
 		<set name="ex_type" value="BOW"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13292" level="3"/>
@@ -567,7 +567,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17457" name="Blessed Celestial Shooter">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -580,7 +580,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13294" level="3"/>
@@ -593,7 +593,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17458" name="Blessed Celestial Buster">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -606,7 +606,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13295" level="3"/>
@@ -618,7 +618,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17459" name="Blessed Celestial Caster">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -631,7 +631,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13299" level="3"/>
@@ -643,7 +643,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17460" name="Blessed Celestial Retributer">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -656,7 +656,7 @@
 		<set name="type" value="BIGBLUNT"/>
 		<set name="ex_type" value="BIG_BLUNT_WEAPON"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13304" level="3"/>
@@ -668,7 +668,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17461" name="Blessed Celestial Dual Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -681,7 +681,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13277" level="3"/>
@@ -693,7 +693,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17462" name="Blessed Celestial Dual Dagger">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -706,7 +706,7 @@
 		<set name="type" value="DUALDAGGER"/>
 		<set name="ex_type" value="DUAL_DAGGER"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13287" level="3"/>
@@ -718,7 +718,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17463" name="Blessed Celestial Dual Blunt Weapon">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -730,7 +730,7 @@
 		</equip>
 		<set name="type" value="DUALBLUNT"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<enchant4_skill id="13272" level="3"/>
@@ -742,7 +742,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="17469" name="Blessed Celestial Shield" add_name="Heavy">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -753,7 +753,7 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="619"/>
+		<set name="crystal_count" value="0"/>
 		<for>
 			<add stat="rEvas" order="0x40" value="-8"/>
 			<add stat="sDef" order="0x10" value="526"/>
@@ -761,6 +761,6 @@
 			<enchant stat="sDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 </list>

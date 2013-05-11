@@ -55,9 +55,9 @@
 	</weapon>
 	<weapon id="202" name="Mace of the Underworld">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1322"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_mace_of_underworld_i00"/>
 		<set name="price" value="3304300"/>
 		<set name="rnd_dam" value="20"/>
@@ -185,9 +185,9 @@
 	</weapon>
 	<weapon id="207" name="Staff of Phantom">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1157"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
 		<set name="price" value="8680000"/>
 		<set name="rnd_dam" value="20"/>
@@ -211,9 +211,9 @@
 	</weapon>
 	<weapon id="208" name="Staff of Seal">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1157"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
 		<set name="price" value="8680000"/>
 		<set name="rnd_dam" value="20"/>
@@ -237,9 +237,9 @@
 	</weapon>
 	<weapon id="209" name="Divine Staff">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1746"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
 		<set name="price" value="13100000"/>
 		<set name="rnd_dam" value="20"/>
@@ -289,9 +289,9 @@
 	</weapon>
 	<weapon id="211" name="Staff of Nobility">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1746"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
 		<set name="price" value="13100000"/>
 		<set name="rnd_dam" value="20"/>
@@ -367,9 +367,9 @@
 	</weapon>
 	<weapon id="214" name="The Staff">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1765"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_imperial_staff_i00"/>
 		<set name="price" value="35300000"/>
 		<set name="rnd_dam" value="20"/>
@@ -857,9 +857,9 @@
 		</for>
 	</weapon>
 	<weapon id="234" name="Demon Dagger">
-		<set name="crystal_count" value="1346"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_demons_sword_i00"/>
 		<set name="price" value="10091400"/>
 		<set name="rnd_dam" value="5"/>
@@ -932,9 +932,9 @@
 		</for>
 	</weapon>
 	<weapon id="237" name="Dragon's Tooth">
-		<set name="crystal_count" value="1765"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_angel_slayer_i00"/>
 		<set name="price" value="35300000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1530,9 +1530,9 @@
 		</for>
 	</weapon>
 	<weapon id="264" name="Pata">
-		<set name="crystal_count" value="1044"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_chakram_i00"/>
 		<set name="price" value="7830000"/>
 		<set name="rnd_dam" value="5"/>
@@ -1781,9 +1781,9 @@
 	</weapon>
 	<weapon id="274" name="Strengthened Bow">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="582"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_strengthening_bow_i00"/>
 		<set name="kamael_convert" value="9212"/>
 		<set name="mp_consume" value="1"/>
@@ -1921,9 +1921,9 @@
 	</weapon>
 	<weapon id="279" name="Strengthened Long Bow">
 		<set name="atk_reuse" value="820"/>
-		<set name="crystal_count" value="1983"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_strengthening_long_bow_i00"/>
 		<set name="kamael_convert" value="9224"/>
 		<set name="mp_consume" value="2"/>
@@ -2229,9 +2229,9 @@
 	</weapon>
 	<weapon id="290" name="The Bow">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="1765"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_shining_bow_i00"/>
 		<set name="mp_consume" value="5"/>
 		<set name="price" value="35300000"/>

@@ -7,7 +7,7 @@
 		<set name="weight" value="1300"/>
 		<set name="type" value="POLE"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -19,7 +19,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="35001" name="Парные топоры Таути">
 		<!--Done by ALF-->
@@ -27,7 +27,7 @@
 		<set name="weight" value="1700"/>
 		<set name="type" value="DUALBLUNT"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -39,7 +39,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="35095" name="Темное Острие Хелиоса">
 		<!--Done by ALF-->
@@ -47,7 +47,7 @@
 		<set name="weight" value="1520"/>
 		<set name="type" value="DAGGER"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -59,7 +59,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="35096" name="Темный Резак Хелиоса">
 		<!--Done by ALF-->
@@ -67,7 +67,7 @@
 		<set name="weight" value="1520"/>
 		<set name="type" value="SWORD"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -79,7 +79,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="35097" name="Темный Эспадон Хелиоса">
 		<!--Done by ALF-->
@@ -87,7 +87,7 @@
 		<set name="weight" value="1740"/>
 		<set name="type" value="SWORD"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -99,7 +99,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="35098" name="Темный Мститель Хелиоса">
 		<!--Done by ALF-->
@@ -107,7 +107,7 @@
 		<set name="weight" value="1740"/>
 		<set name="type" value="BLUNT"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -119,7 +119,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="35099" name="Темный Воитель Хелиоса">
 		<!--Done by ALF-->
@@ -127,7 +127,7 @@
 		<set name="weight" value="1550"/>
 		<set name="type" value="DUALFIST"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -139,6 +139,6 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 </list>

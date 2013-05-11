@@ -53,9 +53,9 @@
 		</for>
 	</weapon>
 	<weapon id="13789" name="Red Boing Hammer ">
-		<set name="crystal_count" value="705"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_bbyong_hammer_a_i00"/>
 		<set name="rnd_dam" value="20"/>
 		<set name="sellable" value="false"/>
@@ -81,9 +81,9 @@
 		</for>
 	</weapon>
 	<weapon id="13790" name="Blue Boing Hammer">
-		<set name="crystal_count" value="705"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_bbyong_hammer_b_i00"/>
 		<set name="rnd_dam" value="20"/>
 		<set name="sellable" value="false"/>
@@ -109,9 +109,9 @@
 		</for>
 	</weapon>
 	<weapon id="13791" name="Small Red Boing Hammer">
-		<set name="crystal_count" value="705"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_bbyong_hammer_c_i00"/>
 		<set name="rnd_dam" value="20"/>
 		<set name="sellable" value="false"/>
@@ -134,9 +134,9 @@
 		</for>
 	</weapon>
 	<weapon id="13792" name="Small Blue Boing Hammer">
-		<set name="crystal_count" value="705"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_bbyong_hammer_d_i00"/>
 		<set name="rnd_dam" value="20"/>
 		<set name="sellable" value="false"/>

@@ -198,7 +198,7 @@
 		</for>
 	</weapon>
 	<weapon id="4807" name="Blood Tornado" add_name="Critical Drain">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_blood_tornado_i01"/>
@@ -226,7 +226,7 @@
 		</for>
 	</weapon>
 	<weapon id="4808" name="Blood Tornado" add_name="Rsk. Evasion">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_blood_tornado_i01"/>
@@ -251,7 +251,7 @@
 		</for>
 	</weapon>
 	<weapon id="4809" name="Blood Tornado" add_name="Haste">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_blood_tornado_i01"/>
@@ -458,9 +458,9 @@
 	</weapon>
 	<weapon id="4816" name="Elven Bow of Nobility" add_name="Evasion">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="884"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_noble_elven_bow_i01"/>
 		<set name="kamael_convert" value="9261"/>
 		<set name="mp_consume" value="3"/>
@@ -489,9 +489,9 @@
 	</weapon>
 	<weapon id="4817" name="Elven Bow of Nobility" add_name="Miser">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="884"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_noble_elven_bow_i01"/>
 		<set name="kamael_convert" value="9262"/>
 		<set name="mp_consume" value="3"/>
@@ -519,9 +519,9 @@
 	</weapon>
 	<weapon id="4818" name="Elven Bow of Nobility" add_name="Cheap Shot">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="884"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_noble_elven_bow_i01"/>
 		<set name="kamael_convert" value="9263"/>
 		<set name="mp_consume" value="3"/>
@@ -914,7 +914,7 @@
 	</weapon>
 	<weapon id="4831" name="Carnage Bow" add_name="Critical Bleed">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_carnium_bow_i01"/>
@@ -944,7 +944,7 @@
 	</weapon>
 	<weapon id="4832" name="Carnage Bow" add_name="Mana Up">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_carnium_bow_i01"/>
@@ -971,7 +971,7 @@
 	</weapon>
 	<weapon id="4833" name="Carnage Bow" add_name="Quick Recovery">
 		<set name="atk_reuse" value="1500"/>
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_carnium_bow_i01"/>
@@ -1794,7 +1794,7 @@
 		</for>
 	</weapon>
 	<weapon id="4861" name="Halberd" add_name="Critical Stun">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_halbard_i01"/>
@@ -1825,7 +1825,7 @@
 		</for>
 	</weapon>
 	<weapon id="4862" name="Halberd" add_name="Towering Blow">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_halbard_i01"/>
@@ -1854,7 +1854,7 @@
 		</for>
 	</weapon>
 	<weapon id="4863" name="Halberd" add_name="Wide Blow">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_halbard_i01"/>

@@ -90,9 +90,9 @@
 		</for>
 	</weapon>
 	<weapon id="104" name="Shield of Victory">
-		<set name="crystal_count" value="72"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.shield_small_shield_i00"/>
 		<set name="price" value="419000"/>
 		<set name="rnd_dam" value="0"/>
@@ -112,9 +112,9 @@
 		</for>
 	</weapon>
 	<weapon id="105" name="Implosion Shield">
-		<set name="crystal_count" value="72"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.shield_doom_shield_i00"/>
 		<set name="price" value="419000"/>
 		<set name="rnd_dam" value="0"/>
@@ -134,9 +134,9 @@
 		</for>
 	</weapon>
 	<weapon id="106" name="Dark Dragon Shield">
-		<set name="crystal_count" value="112"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.shield_dark_dragon_shield_i00"/>
 		<set name="price" value="649800"/>
 		<set name="rnd_dam" value="0"/>
@@ -156,9 +156,9 @@
 		</for>
 	</weapon>
 	<weapon id="107" name="Composite Shield">
-		<set name="crystal_count" value="79"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.shield_composite_shield_i00"/>
 		<set name="price" value="198300"/>
 		<set name="rnd_dam" value="0"/>
@@ -178,9 +178,9 @@
 		</for>
 	</weapon>
 	<weapon id="108" name="Masterpiece Shield">
-		<set name="crystal_count" value="112"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.shield_masterpiece_shield_i00"/>
 		<set name="price" value="649800"/>
 		<set name="rnd_dam" value="0"/>
@@ -200,9 +200,9 @@
 		</for>
 	</weapon>
 	<weapon id="109" name="Shield of Solar Eclipse">
-		<set name="crystal_count" value="72"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.shield_shield_of_sola_eclipse_i00"/>
 		<set name="price" value="419000"/>
 		<set name="rnd_dam" value="0"/>
@@ -244,9 +244,9 @@
 		</for>
 	</weapon>
 	<weapon id="111" name="Shield of Pledge">
-		<set name="crystal_count" value="72"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.shield_shield_of_pledge_i00"/>
 		<set name="price" value="419000"/>
 		<set name="rnd_dam" value="0"/>
@@ -758,9 +758,9 @@
 	</weapon>
 	<weapon id="146" name="Ghoulbane">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1157"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_falchion_i00"/>
 		<set name="price" value="8680000"/>
 		<set name="rnd_dam" value="10"/>
@@ -783,9 +783,9 @@
 	</weapon>
 	<weapon id="147" name="Tear of Darkness">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_shamshir_i00"/>
 		<set name="price" value="18300000"/>
 		<set name="rnd_dam" value="10"/>
@@ -833,9 +833,9 @@
 	</weapon>
 	<weapon id="149" name="Sword of Life">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_needle_wolverine_i00"/>
 		<set name="price" value="18300000"/>
 		<set name="rnd_dam" value="10"/>
@@ -1199,9 +1199,9 @@
 		</for>
 	</weapon>
 	<weapon id="165" name="Yablonski's Hammer">
-		<set name="crystal_count" value="1765"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_basalt_battlehammer_i00"/>
 		<set name="price" value="35300000"/>
 		<set name="rnd_dam" value="20"/>

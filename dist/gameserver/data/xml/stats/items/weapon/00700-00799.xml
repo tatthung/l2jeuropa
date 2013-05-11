@@ -121,9 +121,9 @@
 		</for>
 	</weapon>
 	<weapon id="749" name="0">
-		<set name="crystal_count" value="5"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
 		<set name="price" value="35800"/>

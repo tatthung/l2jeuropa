@@ -2,9 +2,9 @@
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<weapon id="9813" name="Orc Officer">
-		<set name="crystal_count" value="1157"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_monster_i00"/>
 		<set name="rnd_dam" value="10"/>
 		<set name="sellable" value="false"/>

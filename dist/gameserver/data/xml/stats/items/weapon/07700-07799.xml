@@ -351,9 +351,9 @@
 	</weapon>
 	<weapon id="7713" name="Mace of the Underworld" add_name="Mana Up">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1322"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_mace_of_underworld_i01"/>
 		<set name="price" value="3304300"/>
 		<set name="rnd_dam" value="20"/>
@@ -380,9 +380,9 @@
 	</weapon>
 	<weapon id="7714" name="Mace of the Underworld" add_name="Magic Silence">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1322"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_mace_of_underworld_i01"/>
 		<set name="price" value="3304300"/>
 		<set name="rnd_dam" value="20"/>
@@ -409,9 +409,9 @@
 	</weapon>
 	<weapon id="7715" name="Mace of the Underworld" add_name="Conversion">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1322"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_mace_of_underworld_i01"/>
 		<set name="price" value="3304300"/>
 		<set name="rnd_dam" value="20"/>

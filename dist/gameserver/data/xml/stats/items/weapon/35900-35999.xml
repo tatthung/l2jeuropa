@@ -7,7 +7,7 @@
 		<set name="weight" value="100"/>
 		<set name="type" value="CROSSBOW"/>
 		<set name="crystal_type" value="R99"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<equip>
@@ -19,6 +19,6 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="pAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 </list>

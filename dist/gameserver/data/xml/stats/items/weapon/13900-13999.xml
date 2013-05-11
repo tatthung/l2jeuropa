@@ -2,9 +2,9 @@
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<weapon id="13971" name="Red Boing Fantasy Hammer">
-		<set name="crystal_count" value="705"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="icon" value="icon.weapon_bbyong_hammer_a_i00"/>
 		<set name="rnd_dam" value="1"/>
@@ -32,9 +32,9 @@
 		</for>
 	</weapon>
 	<weapon id="13972" name="Blue Boing Fantasy Hammer">
-		<set name="crystal_count" value="705"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="icon" value="icon.weapon_bbyong_hammer_b_i00"/>
 		<set name="rnd_dam" value="1"/>
@@ -62,9 +62,9 @@
 		</for>
 	</weapon>
 	<weapon id="13973" name="Small Red Boing Fantasy Hammer">
-		<set name="crystal_count" value="705"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="icon" value="icon.weapon_bbyong_hammer_c_i00"/>
 		<set name="rnd_dam" value="1"/>
@@ -92,9 +92,9 @@
 		</for>
 	</weapon>
 	<weapon id="13974" name="Small Blue Boing Fantasy Hammer">
-		<set name="crystal_count" value="705"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="icon" value="icon.weapon_bbyong_hammer_d_i00"/>
 		<set name="rnd_dam" value="1"/>
@@ -240,9 +240,9 @@
 		</for>
 	</weapon>
 	<weapon id="13983" name="Exclusive to Monsters (Death Knight_2hs)">
-		<set name="crystal_count" value="1373"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_two_handed_sword_i00"/>
 		<set name="price" value="743500"/>
 		<set name="rnd_dam" value="10"/>
@@ -286,9 +286,9 @@
 		</for>
 	</weapon>
 	<weapon id="13985" name="Exclusive to Monsters (Death Slayer_r)">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -312,9 +312,9 @@
 		</for>
 	</weapon>
 	<weapon id="13986" name="Exclusive to Monsters (Death Slayer_l)">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="10"/>
@@ -338,9 +338,9 @@
 		</for>
 	</weapon>
 	<weapon id="13987" name="Exclusive to Monsters (Savage Warrior)">
-		<set name="crystal_count" value="891"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_mon_ravager_silen_axe_i00"/>
 		<set name="price" value="6680500"/>
 		<set name="rnd_dam" value="20"/>

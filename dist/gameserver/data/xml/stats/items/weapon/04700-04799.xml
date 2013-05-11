@@ -562,7 +562,7 @@
 		</for>
 	</weapon>
 	<weapon id="4720" name="Tallum Blade" add_name="Health">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_tallum_blade_i01"/>
@@ -586,7 +586,7 @@
 		</for>
 	</weapon>
 	<weapon id="4721" name="Tallum Blade" add_name="Rsk. Evasion">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_tallum_blade_i01"/>
@@ -610,7 +610,7 @@
 		</for>
 	</weapon>
 	<weapon id="4722" name="Tallum Blade" add_name="Rsk. Haste">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_tallum_blade_i01"/>
@@ -1558,7 +1558,7 @@
 		</for>
 	</weapon>
 	<weapon id="4756" name="Meteor Shower" add_name="Health">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_meteor_shower_i01"/>
@@ -1583,7 +1583,7 @@
 		</for>
 	</weapon>
 	<weapon id="4757" name="Meteor Shower" add_name="Focus">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_meteor_shower_i01"/>
@@ -1608,7 +1608,7 @@
 		</for>
 	</weapon>
 	<weapon id="4758" name="Meteor Shower" add_name="P.Focus">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_meteor_shower_i01"/>
@@ -2221,9 +2221,9 @@
 		</for>
 	</weapon>
 	<weapon id="4780" name="Demon Dagger" add_name="Critical Bleed">
-		<set name="crystal_count" value="1346"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_demons_sword_i01"/>
 		<set name="price" value="10091400"/>
 		<set name="rnd_dam" value="5"/>
@@ -2249,9 +2249,9 @@
 		</for>
 	</weapon>
 	<weapon id="4781" name="Demon Dagger" add_name="Critical Poison">
-		<set name="crystal_count" value="1346"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_demons_sword_i01"/>
 		<set name="price" value="10091400"/>
 		<set name="rnd_dam" value="5"/>
@@ -2277,9 +2277,9 @@
 		</for>
 	</weapon>
 	<weapon id="4782" name="Demon Dagger" add_name="Mortal Strike">
-		<set name="crystal_count" value="1346"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_demons_sword_i01"/>
 		<set name="price" value="10091400"/>
 		<set name="rnd_dam" value="5"/>
@@ -2305,7 +2305,7 @@
 		</for>
 	</weapon>
 	<weapon id="4783" name="Bloody Orchid" add_name="Evasion">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_bloody_orchid_i01"/>
@@ -2330,7 +2330,7 @@
 		</for>
 	</weapon>
 	<weapon id="4784" name="Bloody Orchid" add_name="Focus">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_bloody_orchid_i01"/>
@@ -2355,7 +2355,7 @@
 		</for>
 	</weapon>
 	<weapon id="4785" name="Bloody Orchid" add_name="Back Blow">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="1128"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_bloody_orchid_i01"/>
@@ -2381,7 +2381,7 @@
 	</weapon>
 	<weapon id="4786" name="Hell Knife" add_name="Focus">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1157"/>
+		<set name="crystal_count" value="891"/>
 		<set name="crystal_type" value="B"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_hell_knife_i01"/>
@@ -2410,7 +2410,7 @@
 	</weapon>
 	<weapon id="4787" name="Hell Knife" add_name="Back Blow">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1157"/>
+		<set name="crystal_count" value="891"/>
 		<set name="crystal_type" value="B"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_hell_knife_i01"/>
@@ -2439,7 +2439,7 @@
 	</weapon>
 	<weapon id="4788" name="Hell Knife" add_name="Mortal Strike">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1157"/>
+		<set name="crystal_count" value="891"/>
 		<set name="crystal_type" value="B"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.weapon_hell_knife_i01"/>

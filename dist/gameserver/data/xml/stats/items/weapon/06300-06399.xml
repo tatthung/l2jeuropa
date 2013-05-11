@@ -474,9 +474,9 @@
 		</for>
 	</weapon>
 	<weapon id="6359" name="Demon Dagger" add_name="Critical Damage">
-		<set name="crystal_count" value="1346"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_demons_sword_i01"/>
 		<set name="price" value="10091400"/>
 		<set name="rnd_dam" value="5"/>
@@ -604,9 +604,9 @@
 	</weapon>
 	<weapon id="6368" name="Shining Bow">
 		<set name="atk_reuse" value="820"/>
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_shining_bow_i00"/>
 		<set name="mp_consume" value="6"/>
 		<set name="price" value="48800000"/>
@@ -630,9 +630,9 @@
 		</for>
 	</weapon>
 	<weapon id="6369" name="Dragon Hunter Axe">
-		<set name="crystal_count" value="2052"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dragon_hunter_axe_i00"/>
 		<set name="price" value="42759400"/>
 		<set name="rnd_dam" value="20"/>

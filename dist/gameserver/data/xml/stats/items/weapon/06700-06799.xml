@@ -98,9 +98,9 @@
 	<weapon id="6719" name="Monster Only(Ketra Orc Chieftain)">
 		<set name="enchantable" value="false"/>
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1912"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_monster_i00"/>
 		<set name="price" value="4780000"/>
 		<set name="rnd_dam" value="20"/>
@@ -169,9 +169,9 @@
 	</weapon>
 	<weapon id="6722" name="Monster Only(Ahrimanes)">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="1746"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_monster_i00"/>
 		<set name="price" value="13100000"/>
 		<set name="rnd_dam" value="10"/>
@@ -196,9 +196,9 @@
 	</weapon>
 	<weapon id="6723" name="Monster Only(Vampire Warrior)">
 		<set name="enchantable" value="false"/>
-		<set name="crystal_count" value="3272"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_monster_i00"/>
 		<set name="price" value="1800000"/>
 		<set name="rnd_dam" value="10"/>

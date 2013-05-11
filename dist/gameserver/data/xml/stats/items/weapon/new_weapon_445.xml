@@ -13,9 +13,9 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="weight" value="1000"/>
 		<set name="price" value="3000000"/>
 		<set name="soulshots" value="1"/>
@@ -44,7 +44,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R"/>
 		<set name="weight" value="1000"/>
 		<set name="price" value="3000000"/>
@@ -60,7 +60,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35000" name="타우티의 양손 도끼">
@@ -75,7 +75,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R"/>
 		<set name="weight" value="1300"/>
 		<set name="price" value="3000000"/>
@@ -91,7 +91,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35001" name="타우티의 이도 도끼">
@@ -105,7 +105,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R"/>
 		<set name="weight" value="1700"/>
 		<set name="price" value="3000000"/>
@@ -121,7 +121,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35095" name="다크 헬리오스 셰이퍼">
@@ -136,7 +136,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -152,7 +152,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35096" name="다크 헬리오스 커터">
@@ -167,7 +167,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -183,7 +183,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35097" name="다크 헬리오스 슬래셔">
@@ -198,7 +198,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -214,7 +214,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35098" name="다크 헬리오스 어벤져">
@@ -229,7 +229,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -246,7 +246,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35099" name="다크 헬리오스 파이터">
@@ -261,7 +261,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -277,7 +277,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35100" name="다크 헬리오스 스토머">
@@ -292,7 +292,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -308,7 +308,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35101" name="다크 헬리오스 스로워">
@@ -323,7 +323,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -339,7 +339,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35102" name="다크 헬리오스 슈트제">
@@ -354,7 +354,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -370,7 +370,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35103" name="다크 헬리오스 버스터">
@@ -385,7 +385,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -401,7 +401,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35104" name="다크 헬리오스 캐스터">
@@ -416,7 +416,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -434,7 +434,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35105" name="다크 헬리오스 레트리뷰터">
@@ -449,7 +449,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -467,7 +467,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35106" name="다크 헬리오스 듀얼소드">
@@ -482,7 +482,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -498,7 +498,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35107" name="다크 헬리오스 듀얼대거">
@@ -513,7 +513,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -529,7 +529,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35108" name="다크 헬리오스 듀얼블런트">
@@ -543,7 +543,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -560,7 +560,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35109" name="다크 헬리오스 셰이퍼 가이던스">
@@ -575,7 +575,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -591,7 +591,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35110" name="다크 헬리오스 셰이퍼 헤이스트">
@@ -606,7 +606,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -622,7 +622,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35111" name="다크 헬리오스 셰이퍼 포커스 ">
@@ -637,7 +637,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -653,7 +653,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35112" name="다크 헬리오스 커터 헤이스트">
@@ -668,7 +668,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -684,7 +684,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35113" name="다크 헬리오스 커터 포커스">
@@ -699,7 +699,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -715,7 +715,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35114" name="다크 헬리오스 커터 헬스">
@@ -730,7 +730,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -746,7 +746,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35115" name="다크 헬리오스 슬래셔 포커스">
@@ -761,7 +761,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -777,7 +777,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35116" name="다크 헬리오스 슬래셔 대미지업">
@@ -792,7 +792,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -808,7 +808,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35117" name="다크 헬리오스 슬래셔 헤이스트">
@@ -823,7 +823,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -839,7 +839,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35118" name="다크 헬리오스 어벤져 헤이스트">
@@ -854,7 +854,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -871,7 +871,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35119" name="다크 헬리오스 어벤져 Crt. 대미지">
@@ -886,7 +886,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -903,7 +903,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35120" name="다크 헬리오스 어벤져 포커스">
@@ -918,7 +918,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -935,7 +935,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35121" name="다크 헬리오스 파이터 포커스">
@@ -950,7 +950,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -966,7 +966,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35122" name="다크 헬리오스 파이터 대미지업">
@@ -981,7 +981,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -997,7 +997,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35123" name="다크 헬리오스 파이터 헤이스트">
@@ -1012,7 +1012,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -1028,7 +1028,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35124" name="다크 헬리오스 스토머 HP 드레인">
@@ -1043,7 +1043,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -1059,7 +1059,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35125" name="다크 헬리오스 스토머 가이던스">
@@ -1074,7 +1074,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -1090,7 +1090,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35126" name="다크 헬리오스 스토머 대미지업">
@@ -1105,7 +1105,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -1121,7 +1121,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35127" name="다크 헬리오스 스로워 대미지업">
@@ -1136,7 +1136,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -1152,7 +1152,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35128" name="다크 헬리오스 스로워 포커스">
@@ -1167,7 +1167,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -1183,7 +1183,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35129" name="다크 헬리오스 스로워 롱블로">
@@ -1198,7 +1198,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -1214,7 +1214,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35130" name="다크 헬리오스 슈트제 포커스">
@@ -1229,7 +1229,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -1245,7 +1245,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35131" name="다크 헬리오스 슈트제 Crt. 슬로우">
@@ -1260,7 +1260,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -1276,7 +1276,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35132" name="다크 헬리오스 슈트제 헤이스트">
@@ -1291,7 +1291,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -1307,7 +1307,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35133" name="다크 헬리오스 버스터 아큐멘">
@@ -1322,7 +1322,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -1338,7 +1338,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35134" name="다크 헬리오스 버스터 매직홀드">
@@ -1353,7 +1353,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -1369,7 +1369,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35135" name="다크 헬리오스 버스터 마나업">
@@ -1384,7 +1384,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -1400,7 +1400,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35136" name="다크 헬리오스 캐스터 엠파워">
@@ -1415,7 +1415,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -1433,7 +1433,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35137" name="다크 헬리오스 캐스터 아큐멘">
@@ -1448,7 +1448,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -1466,7 +1466,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35138" name="다크 헬리오스 캐스터 매직홀드">
@@ -1481,7 +1481,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -1499,7 +1499,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35139" name="다크 헬리오스 레트리뷰터 MP리제네레이션">
@@ -1514,7 +1514,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -1532,7 +1532,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35140" name="다크 헬리오스 레트리뷰터 아큐멘">
@@ -1547,7 +1547,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -1565,7 +1565,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35141" name="다크 헬리오스 레트리뷰터 엠파워">
@@ -1580,7 +1580,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -1598,7 +1598,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35142" name="다크 헬리오스 듀얼소드 헤이스트">
@@ -1613,7 +1613,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -1629,7 +1629,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35143" name="다크 헬리오스 듀얼소드 대미지업">
@@ -1644,7 +1644,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -1660,7 +1660,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35144" name="다크 헬리오스 듀얼소드 헬스">
@@ -1675,7 +1675,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -1691,7 +1691,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35145" name="다크 헬리오스 듀얼대거 대미지업">
@@ -1706,7 +1706,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -1722,7 +1722,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35146" name="다크 헬리오스 듀얼대거 포커스">
@@ -1737,7 +1737,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -1753,7 +1753,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35147" name="다크 헬리오스 듀얼대거 가이던스">
@@ -1768,7 +1768,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -1784,7 +1784,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35148" name="다크 헬리오스 듀얼블런트 포커스">
@@ -1798,7 +1798,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -1815,7 +1815,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35149" name="다크 헬리오스 듀얼블런트 가이던스">
@@ -1829,7 +1829,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -1846,7 +1846,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35150" name="다크 헬리오스 듀얼블런트 대미지업">
@@ -1860,7 +1860,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -1877,7 +1877,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35151" name="다크 헬리오스 셰이퍼 가이던스 + 헤이스트">
@@ -1892,7 +1892,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -1908,7 +1908,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35152" name="다크 헬리오스 셰이퍼 헤이스트 + 포커스">
@@ -1923,7 +1923,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -1939,7 +1939,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35153" name="다크 헬리오스 셰이퍼 포커스 + 가이던스">
@@ -1954,7 +1954,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -1970,7 +1970,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35154" name="다크 헬리오스 커터 헤이스트 + 포커스">
@@ -1985,7 +1985,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -2001,7 +2001,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35155" name="다크 헬리오스 커터 포커스 + 헬스">
@@ -2016,7 +2016,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -2032,7 +2032,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35156" name="다크 헬리오스 커터 헬스 + 헤이스트">
@@ -2047,7 +2047,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -2063,7 +2063,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35157" name="다크 헬리오스 슬래셔 포커스 + 대미지업">
@@ -2078,7 +2078,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -2094,7 +2094,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35158" name="다크 헬리오스 슬래셔 대미지업 + 헤이스트">
@@ -2109,7 +2109,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -2125,7 +2125,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35159" name="다크 헬리오스 슬래셔 헤이스트 + 포커스">
@@ -2140,7 +2140,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -2156,7 +2156,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35160" name="다크 헬리오스 어벤져 헤이스트 + Crt. 대미지">
@@ -2171,7 +2171,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -2188,7 +2188,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35161" name="다크 헬리오스 어벤져 Crt. 대미지 + 포커스">
@@ -2203,7 +2203,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -2220,7 +2220,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35162" name="다크 헬리오스 어벤져 포커스 + 헤이스트">
@@ -2235,7 +2235,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -2252,7 +2252,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35163" name="다크 헬리오스 파이터 포커스 + 대미지업">
@@ -2267,7 +2267,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -2283,7 +2283,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35164" name="다크 헬리오스 파이터 대미지업 + 헤이스트">
@@ -2298,7 +2298,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -2314,7 +2314,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35165" name="다크 헬리오스 파이터 헤이스트 + 포커스">
@@ -2329,7 +2329,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -2345,7 +2345,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35166" name="다크 헬리오스 스토머 HP 드레인 + 가이던스">
@@ -2360,7 +2360,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -2376,7 +2376,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35167" name="다크 헬리오스 스토머 가이던스 + 대미지업">
@@ -2391,7 +2391,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -2407,7 +2407,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35168" name="다크 헬리오스 스토머 대미지업 + HP 드레인">
@@ -2422,7 +2422,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -2438,7 +2438,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35169" name="다크 헬리오스 스로워 대미지업 + 포커스">
@@ -2453,7 +2453,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -2469,7 +2469,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35170" name="다크 헬리오스 스로워 포커스 + 롱블로">
@@ -2484,7 +2484,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -2500,7 +2500,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35171" name="다크 헬리오스 스로워 롱블로 + 대미지업">
@@ -2515,7 +2515,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -2531,7 +2531,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35172" name="다크 헬리오스 슈트제 포커스 + Crt. 슬로우">
@@ -2546,7 +2546,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -2562,7 +2562,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35173" name="다크 헬리오스 슈트제 Crt. 슬로우 + 헤이스트">
@@ -2577,7 +2577,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -2593,7 +2593,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35174" name="다크 헬리오스 슈트제 헤이스트 + 포커스">
@@ -2608,7 +2608,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -2624,7 +2624,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35175" name="다크 헬리오스 버스터 아큐멘 + 매직홀드">
@@ -2639,7 +2639,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -2655,7 +2655,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35176" name="다크 헬리오스 버스터 매직홀드 + 마나업">
@@ -2670,7 +2670,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -2686,7 +2686,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35177" name="다크 헬리오스 버스터 마나업 + 아큐멘">
@@ -2701,7 +2701,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -2717,7 +2717,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35178" name="다크 헬리오스 캐스터 엠파워 + 아큐멘">
@@ -2732,7 +2732,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -2750,7 +2750,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35179" name="다크 헬리오스 캐스터 아큐멘 + 매직홀드">
@@ -2765,7 +2765,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -2783,7 +2783,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35180" name="다크 헬리오스 캐스터 매직홀드 + 엠파워">
@@ -2798,7 +2798,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -2816,7 +2816,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35181" name="다크 헬리오스 레트리뷰터 MP리제네레이션 + 아큐멘">
@@ -2831,7 +2831,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -2849,7 +2849,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35182" name="다크 헬리오스 레트리뷰터 아큐멘 + 엠파워">
@@ -2864,7 +2864,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -2882,7 +2882,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35183" name="다크 헬리오스 레트리뷰터 엠파워 + MP리제네레이션">
@@ -2897,7 +2897,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -2915,7 +2915,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35184" name="다크 헬리오스 듀얼소드 헤이스트 + 대미지업">
@@ -2930,7 +2930,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -2946,7 +2946,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35185" name="다크 헬리오스 듀얼소드 대미지업 + 헬스">
@@ -2961,7 +2961,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -2977,7 +2977,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35186" name="다크 헬리오스 듀얼소드 헬스 + 헤이스트">
@@ -2992,7 +2992,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -3008,7 +3008,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35187" name="다크 헬리오스 듀얼대거 대미지업 + 포커스">
@@ -3023,7 +3023,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -3039,7 +3039,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35188" name="다크 헬리오스 듀얼대거 포커스 + 가이던스">
@@ -3054,7 +3054,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -3070,7 +3070,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35189" name="다크 헬리오스 듀얼대거 가이던스 + 대미지업 ">
@@ -3085,7 +3085,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -3101,7 +3101,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35190" name="다크 헬리오스 듀얼블런트 포커스 + 가이던스">
@@ -3115,7 +3115,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -3132,7 +3132,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35191" name="다크 헬리오스 듀얼블런트 가이던스 + 대미지업">
@@ -3146,7 +3146,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -3163,7 +3163,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35192" name="다크 헬리오스 듀얼블런트 대미지업 + 포커스 ">
@@ -3177,7 +3177,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -3194,7 +3194,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35193" name="블러디 헬리오스 셰이퍼">
@@ -3209,7 +3209,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -3225,7 +3225,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35194" name="블러디 헬리오스 커터">
@@ -3240,7 +3240,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -3256,7 +3256,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35195" name="블러디 헬리오스 슬래셔">
@@ -3271,7 +3271,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -3287,7 +3287,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35196" name="블러디 헬리오스 어벤져">
@@ -3302,7 +3302,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -3319,7 +3319,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35197" name="블러디 헬리오스 파이터">
@@ -3334,7 +3334,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -3350,7 +3350,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35198" name="블러디 헬리오스 스토머">
@@ -3365,7 +3365,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -3381,7 +3381,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35199" name="블러디 헬리오스 스로워">
@@ -3396,7 +3396,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -3412,7 +3412,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35200" name="블러디 헬리오스 슈트제">
@@ -3427,7 +3427,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -3443,7 +3443,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35201" name="블러디 헬리오스 버스터">
@@ -3458,7 +3458,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -3474,7 +3474,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35202" name="블러디 헬리오스 캐스터">
@@ -3489,7 +3489,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -3507,7 +3507,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35203" name="블러디 헬리오스 레트리뷰터">
@@ -3522,7 +3522,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -3540,7 +3540,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35204" name="블러디 헬리오스 듀얼소드">
@@ -3555,7 +3555,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -3571,7 +3571,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35205" name="블러디 헬리오스 듀얼대거">
@@ -3586,7 +3586,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -3602,7 +3602,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35206" name="블러디 헬리오스 듀얼블런트">
@@ -3616,7 +3616,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -3633,7 +3633,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35207" name="블러디 헬리오스 셰이퍼 가이던스">
@@ -3648,7 +3648,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -3664,7 +3664,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35208" name="블러디 헬리오스 셰이퍼 헤이스트">
@@ -3679,7 +3679,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -3695,7 +3695,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35209" name="블러디 헬리오스 셰이퍼 포커스 ">
@@ -3710,7 +3710,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -3726,7 +3726,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35210" name="블러디 헬리오스 커터 헤이스트">
@@ -3741,7 +3741,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -3757,7 +3757,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35211" name="블러디 헬리오스 커터 포커스">
@@ -3772,7 +3772,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -3788,7 +3788,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35212" name="블러디 헬리오스 커터 헬스">
@@ -3803,7 +3803,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -3819,7 +3819,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35213" name="블러디 헬리오스 슬래셔 포커스">
@@ -3834,7 +3834,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -3850,7 +3850,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35214" name="블러디 헬리오스 슬래셔 대미지업">
@@ -3865,7 +3865,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -3881,7 +3881,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35215" name="블러디 헬리오스 슬래셔 헤이스트">
@@ -3896,7 +3896,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -3912,7 +3912,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35216" name="블러디 헬리오스 어벤져 헤이스트">
@@ -3927,7 +3927,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -3944,7 +3944,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35217" name="블러디 헬리오스 어벤져 Crt. 대미지">
@@ -3959,7 +3959,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -3976,7 +3976,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35218" name="블러디 헬리오스 어벤져 포커스">
@@ -3991,7 +3991,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -4008,7 +4008,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35219" name="블러디 헬리오스 파이터 포커스">
@@ -4023,7 +4023,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -4039,7 +4039,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35220" name="블러디 헬리오스 파이터 대미지업">
@@ -4054,7 +4054,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -4070,7 +4070,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35221" name="블러디 헬리오스 파이터 헤이스트">
@@ -4085,7 +4085,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -4101,7 +4101,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35222" name="블러디 헬리오스 스토머 HP 드레인">
@@ -4116,7 +4116,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -4132,7 +4132,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35223" name="블러디 헬리오스 스토머 가이던스">
@@ -4147,7 +4147,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -4163,7 +4163,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35224" name="블러디 헬리오스 스토머 대미지업">
@@ -4178,7 +4178,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -4194,7 +4194,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35225" name="블러디 헬리오스 스로워 대미지업">
@@ -4209,7 +4209,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -4225,7 +4225,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35226" name="블러디 헬리오스 스로워 포커스">
@@ -4240,7 +4240,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -4256,7 +4256,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35227" name="블러디 헬리오스 스로워 롱블로">
@@ -4271,7 +4271,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -4287,7 +4287,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35228" name="블러디 헬리오스 슈트제 포커스">
@@ -4302,7 +4302,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -4318,7 +4318,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35229" name="블러디 헬리오스 슈트제 Crt. 슬로우">
@@ -4333,7 +4333,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -4349,7 +4349,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35230" name="블러디 헬리오스 슈트제 헤이스트">
@@ -4364,7 +4364,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -4380,7 +4380,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35231" name="블러디 헬리오스 버스터 아큐멘">
@@ -4395,7 +4395,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -4411,7 +4411,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35232" name="블러디 헬리오스 버스터 매직홀드">
@@ -4426,7 +4426,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -4442,7 +4442,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35233" name="블러디 헬리오스 버스터 마나업">
@@ -4457,7 +4457,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -4473,7 +4473,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35234" name="블러디 헬리오스 캐스터 엠파워">
@@ -4488,7 +4488,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -4506,7 +4506,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35235" name="블러디 헬리오스 캐스터 아큐멘">
@@ -4521,7 +4521,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -4539,7 +4539,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35236" name="블러디 헬리오스 캐스터 매직홀드">
@@ -4554,7 +4554,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -4572,7 +4572,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35237" name="블러디 헬리오스 레트리뷰터 MP리제네레이션">
@@ -4587,7 +4587,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -4605,7 +4605,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35238" name="블러디 헬리오스 레트리뷰터 아큐멘">
@@ -4620,7 +4620,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -4638,7 +4638,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35239" name="블러디 헬리오스 레트리뷰터 엠파워">
@@ -4653,7 +4653,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -4671,7 +4671,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35240" name="블러디 헬리오스 듀얼소드 헤이스트">
@@ -4686,7 +4686,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -4702,7 +4702,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35241" name="블러디 헬리오스 듀얼소드 대미지업">
@@ -4717,7 +4717,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -4733,7 +4733,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35242" name="블러디 헬리오스 듀얼소드 헬스">
@@ -4748,7 +4748,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -4764,7 +4764,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35243" name="블러디 헬리오스 듀얼대거 대미지업">
@@ -4779,7 +4779,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -4795,7 +4795,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35244" name="블러디 헬리오스 듀얼대거 포커스">
@@ -4810,7 +4810,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -4826,7 +4826,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35245" name="블러디 헬리오스 듀얼대거 가이던스">
@@ -4841,7 +4841,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -4857,7 +4857,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35246" name="블러디 헬리오스 듀얼블런트 포커스">
@@ -4871,7 +4871,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -4888,7 +4888,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35247" name="블러디 헬리오스 듀얼블런트 가이던스">
@@ -4902,7 +4902,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -4919,7 +4919,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35248" name="블러디 헬리오스 듀얼블런트 대미지업">
@@ -4933,7 +4933,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -4950,7 +4950,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35249" name="블러디 헬리오스 셰이퍼 가이던스 + 헤이스트">
@@ -4965,7 +4965,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -4981,7 +4981,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35250" name="블러디 헬리오스 셰이퍼 헤이스트 + 포커스">
@@ -4996,7 +4996,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -5012,7 +5012,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35251" name="블러디 헬리오스 셰이퍼 포커스 + 가이던스">
@@ -5027,7 +5027,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -5043,7 +5043,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35252" name="블러디 헬리오스 커터 헤이스트 + 포커스">
@@ -5058,7 +5058,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -5074,7 +5074,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35253" name="블러디 헬리오스 커터 포커스 + 헬스">
@@ -5089,7 +5089,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -5105,7 +5105,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35254" name="블러디 헬리오스 커터 헬스 + 헤이스트">
@@ -5120,7 +5120,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -5136,7 +5136,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35255" name="블러디 헬리오스 슬래셔 포커스 + 대미지업">
@@ -5151,7 +5151,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -5167,7 +5167,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35256" name="블러디 헬리오스 슬래셔 대미지업 + 헤이스트">
@@ -5182,7 +5182,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -5198,7 +5198,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35257" name="블러디 헬리오스 슬래셔 헤이스트 + 포커스">
@@ -5213,7 +5213,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -5229,7 +5229,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35258" name="블러디 헬리오스 어벤져 헤이스트 + Crt. 대미지">
@@ -5244,7 +5244,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -5261,7 +5261,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35259" name="블러디 헬리오스 어벤져 Crt. 대미지 + 포커스">
@@ -5276,7 +5276,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -5293,7 +5293,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35260" name="블러디 헬리오스 어벤져 포커스 + 헤이스트">
@@ -5308,7 +5308,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -5325,7 +5325,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35261" name="블러디 헬리오스 파이터 포커스 + 대미지업">
@@ -5340,7 +5340,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -5356,7 +5356,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35262" name="블러디 헬리오스 파이터 대미지업 + 헤이스트">
@@ -5371,7 +5371,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -5387,7 +5387,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35263" name="블러디 헬리오스 파이터 헤이스트 + 포커스">
@@ -5402,7 +5402,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -5418,7 +5418,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35264" name="블러디 헬리오스 스토머 HP 드레인 + 가이던스">
@@ -5433,7 +5433,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -5449,7 +5449,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35265" name="블러디 헬리오스 스토머 가이던스 + 대미지업">
@@ -5464,7 +5464,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -5480,7 +5480,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35266" name="블러디 헬리오스 스토머 대미지업 + HP 드레인">
@@ -5495,7 +5495,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -5511,7 +5511,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35267" name="블러디 헬리오스 스로워 대미지업 + 포커스">
@@ -5526,7 +5526,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -5542,7 +5542,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35268" name="블러디 헬리오스 스로워 포커스 + 롱블로">
@@ -5557,7 +5557,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -5573,7 +5573,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35269" name="블러디 헬리오스 스로워 롱블로 + 대미지업">
@@ -5588,7 +5588,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -5604,7 +5604,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35270" name="블러디 헬리오스 슈트제 포커스 + Crt. 슬로우">
@@ -5619,7 +5619,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -5635,7 +5635,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35271" name="블러디 헬리오스 슈트제 Crt. 슬로우 + 헤이스트">
@@ -5650,7 +5650,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -5666,7 +5666,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35272" name="블러디 헬리오스 슈트제 헤이스트 + 포커스">
@@ -5681,7 +5681,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -5697,7 +5697,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35273" name="블러디 헬리오스 버스터 아큐멘 + 매직홀드">
@@ -5712,7 +5712,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -5728,7 +5728,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35274" name="블러디 헬리오스 버스터 매직홀드 + 마나업">
@@ -5743,7 +5743,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -5759,7 +5759,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35275" name="블러디 헬리오스 버스터 마나업 + 아큐멘">
@@ -5774,7 +5774,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -5790,7 +5790,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35276" name="블러디 헬리오스 캐스터 엠파워 + 아큐멘">
@@ -5805,7 +5805,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -5823,7 +5823,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35277" name="블러디 헬리오스 캐스터 아큐멘 + 매직홀드">
@@ -5838,7 +5838,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -5856,7 +5856,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35278" name="블러디 헬리오스 캐스터 매직홀드 + 엠파워">
@@ -5871,7 +5871,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -5889,7 +5889,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35279" name="블러디 헬리오스 레트리뷰터 MP리제네레이션 + 아큐멘">
@@ -5904,7 +5904,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -5922,7 +5922,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35280" name="블러디 헬리오스 레트리뷰터 아큐멘 + 엠파워">
@@ -5937,7 +5937,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -5955,7 +5955,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35281" name="블러디 헬리오스 레트리뷰터 엠파워 + MP리제네레이션">
@@ -5970,7 +5970,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -5988,7 +5988,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35282" name="블러디 헬리오스 듀얼소드 헤이스트 + 대미지업">
@@ -6003,7 +6003,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6019,7 +6019,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35283" name="블러디 헬리오스 듀얼소드 대미지업 + 헬스">
@@ -6034,7 +6034,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6050,7 +6050,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35284" name="블러디 헬리오스 듀얼소드 헬스 + 헤이스트">
@@ -6065,7 +6065,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6081,7 +6081,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35285" name="블러디 헬리오스 듀얼대거 대미지업 + 포커스">
@@ -6096,7 +6096,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -6112,7 +6112,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35286" name="블러디 헬리오스 듀얼대거 포커스 + 가이던스">
@@ -6127,7 +6127,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -6143,7 +6143,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35287" name="블러디 헬리오스 듀얼대거 가이던스 + 대미지업 ">
@@ -6158,7 +6158,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -6174,7 +6174,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35288" name="블러디 헬리오스 듀얼블런트 포커스 + 가이던스">
@@ -6188,7 +6188,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -6205,7 +6205,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35289" name="블러디 헬리오스 듀얼블런트 가이던스 + 대미지업">
@@ -6219,7 +6219,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -6236,7 +6236,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35290" name="블러디 헬리오스 듀얼블런트 대미지업 + 포커스 ">
@@ -6250,7 +6250,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -6267,7 +6267,7 @@
 			<enchant value="0" order="0x0C" stat="pAtk"/>
 			<enchant value="0" order="0x0C" stat="mAtk"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35634" name="수호의 검">
@@ -6282,7 +6282,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6311,7 +6311,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6340,7 +6340,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6369,7 +6369,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6398,7 +6398,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6427,7 +6427,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -6456,7 +6456,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6465,7 +6465,7 @@
 		<set name="enchant_enabled" value="1"/>
 		<for>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35673" name="수호의 레이피어">
@@ -6480,7 +6480,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6489,7 +6489,7 @@
 		<set name="enchant_enabled" value="1"/>
 		<for>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35674" name="수호의 메이스">
@@ -6504,7 +6504,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6514,7 +6514,7 @@
 		<set name="is_magic_weapon" value="true"/>
 		<for>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 
 	<weapon id="35678" name="테스트 셰이퍼 테스트용">
@@ -6529,7 +6529,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6553,7 +6553,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6577,7 +6577,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -6601,7 +6601,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -6626,7 +6626,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1550"/>
 		<set name="price" value="3000000"/>
@@ -6650,7 +6650,7 @@
 		<set name="attack_range" value="80"/>
 		<set name="damage_range" value="0;0;66;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2010"/>
 		<set name="price" value="3000000"/>
@@ -6674,7 +6674,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6698,7 +6698,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1580"/>
 		<set name="price" value="3000000"/>
@@ -6722,7 +6722,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6746,7 +6746,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -6772,7 +6772,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="material" value="wood"/>
 		<set name="weight" value="1080"/>
@@ -6798,7 +6798,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1520"/>
 		<set name="price" value="3000000"/>
@@ -6822,7 +6822,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="2050"/>
 		<set name="price" value="3000000"/>
@@ -6845,7 +6845,7 @@
 		<set name="attack_range" value="40"/>
 		<set name="damage_range" value="0;0;40;120"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="100"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="R99"/>
 		<set name="weight" value="1740"/>
 		<set name="price" value="3000000"/>
@@ -6890,7 +6890,7 @@
 		<set name="damage_range" value="0;0;10;0"/>
 		<set name="attack_range" value="500"/>
 		<set name="immediate_effect" value="1"/>
-		<set name="crystal_count" value="2"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
 		<set name="weight" value="300"/>
 		<set name="price" value="3000000"/>
@@ -6899,6 +6899,6 @@
 		<set name="enchant_enabled" value="1"/>
 		<for>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 </list>

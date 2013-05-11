@@ -14,7 +14,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="29"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -40,7 +40,7 @@
 		<set name="type" value="ANCIENTSWORD"/>
 		<set name="ex_type" value="ANCIENT_SWORD"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -51,7 +51,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30604" name="Bound Talwar">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -66,7 +66,7 @@
 		<set name="type" value="ANCIENTSWORD"/>
 		<set name="ex_type" value="ANCIENT_SWORD"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -77,7 +77,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30605" name="Bound Tomahawk">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -92,7 +92,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="45"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -118,7 +118,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -129,7 +129,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30611" name="Bound Tallum Blade*Damascus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -144,7 +144,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -155,7 +155,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30612" name="Bound Tallum Blade">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -170,7 +170,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="56"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -196,7 +196,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="56"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -222,7 +222,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="56"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -251,7 +251,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="56"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -277,7 +277,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="82"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -303,7 +303,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="82"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -332,7 +332,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="82"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -361,7 +361,7 @@
 		<set name="type" value="POLE"/>
 		<set name="ex_type" value="POLE"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="82"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -385,7 +385,7 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3"/>
 		<for>
 			<add stat="sDef" order="0x10" value="190"/>
 			<add stat="rEvas" order="0x40" value="-8"/>
@@ -408,7 +408,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="5"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -420,7 +420,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30634" name="Bound Tathlum" add_name="Guidance">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -435,7 +435,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="5"/>
 		<set name="spiritshots" value="3"/>
 		<skills>
@@ -450,7 +450,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30635" name="Bound Tathlum" add_name="Evasion">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -465,7 +465,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="5"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -477,7 +477,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30636" name="Bound Tathlum" add_name="Miser">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -492,7 +492,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="5"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -504,7 +504,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30637" name="Bound Tarbar">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -519,7 +519,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="99"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -545,7 +545,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="128"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -571,7 +571,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="35"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -597,7 +597,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="35"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<skills>
@@ -626,7 +626,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="35"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -652,7 +652,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="35"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<skills>
@@ -681,7 +681,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -692,7 +692,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30644" name="Bound Keshanberk*Damascus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -707,7 +707,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -718,7 +718,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30645" name="Bound Keshanberk">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -733,7 +733,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="44"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -759,7 +759,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="44"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -788,7 +788,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="44"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -817,7 +817,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="44"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -843,7 +843,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -854,7 +854,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30650" name="Bound Crimson Sword*Crimson Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -869,7 +869,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -880,7 +880,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30651" name="Bound Crimson Sword*Elven Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -895,7 +895,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -906,7 +906,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30652" name="Bound Crimson Sword*Elven Long Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -921,7 +921,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -932,7 +932,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30653" name="Bound Crimson Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -947,7 +947,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="68"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -973,7 +973,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="35"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -999,7 +999,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="35"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -1025,7 +1025,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="35"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<skills>
@@ -1054,7 +1054,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="35"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -1080,7 +1080,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="94"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -1107,7 +1107,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="94"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -1134,7 +1134,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="94"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -1161,7 +1161,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="94"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -1188,7 +1188,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="44"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1215,7 +1215,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="44"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1242,7 +1242,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="44"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1272,7 +1272,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="44"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1299,7 +1299,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="4"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -1311,7 +1311,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30667" name="Bound Cranequin">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1326,7 +1326,7 @@
 		<set name="type" value="CROSSBOW"/>
 		<set name="ex_type" value="CROSSBOW"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="6"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -1338,7 +1338,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30668" name="Bound Kukuri">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1353,7 +1353,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="68"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -1380,7 +1380,7 @@
 		<set name="type" value="RAPIER"/>
 		<set name="ex_type" value="RAPIER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1391,7 +1391,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30670" name="Bound Colichemarde" add_name="Focus">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1406,7 +1406,7 @@
 		<set name="type" value="RAPIER"/>
 		<set name="ex_type" value="RAPIER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1420,7 +1420,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30671" name="Bound Colichemarde" add_name="Critical Damage">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1435,7 +1435,7 @@
 		<set name="type" value="RAPIER"/>
 		<set name="ex_type" value="RAPIER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1449,7 +1449,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30672" name="Bound Colichemarde" add_name="Haste">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1464,7 +1464,7 @@
 		<set name="type" value="RAPIER"/>
 		<set name="ex_type" value="RAPIER"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1478,7 +1478,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30675" name="Bound Compound Shield">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1491,7 +1491,7 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="3"/>
 		<for>
 			<add stat="sDef" order="0x10" value="190"/>
 			<add stat="rEvas" order="0x40" value="-8"/>
@@ -1514,7 +1514,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="45"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -1540,7 +1540,7 @@
 		<set name="type" value="DAGGER"/>
 		<set name="ex_type" value="DAGGER"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="68"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -1567,7 +1567,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -1578,7 +1578,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30680" name="Bound Katana*Spirit Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1593,7 +1593,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -1604,7 +1604,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30681" name="Bound Katana*Raid Sword">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1619,7 +1619,7 @@
 		<set name="type" value="DUAL"/>
 		<set name="ex_type" value="DUAL_SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -1630,7 +1630,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30682" name="Bound Katana">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1645,7 +1645,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="44"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<for>
@@ -1671,7 +1671,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="44"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<skills>
@@ -1700,7 +1700,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="44"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<skills>
@@ -1729,7 +1729,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="44"/>
 		<set name="soulshots" value="2"/>
 		<set name="spiritshots" value="2"/>
 		<skills>
@@ -1758,7 +1758,7 @@
 		<set name="type" value="ANCIENTSWORD"/>
 		<set name="ex_type" value="ANCIENT_SWORD"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -1769,7 +1769,7 @@
 			<enchant stat="pAtk" order="0x40" value="0"/>
 			<enchant stat="mAtk" order="0x40" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30687" name="Bound Kaim Vanul's Bones">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1784,7 +1784,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="67"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1810,7 +1810,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="67"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<skills>
@@ -1839,7 +1839,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="67"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1865,7 +1865,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="67"/>
 		<set name="soulshots" value="1"/>
 		<set name="spiritshots" value="1"/>
 		<for>
@@ -1889,7 +1889,7 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="0"/>
 		<for>
 			<add stat="sDef" order="0x10" value="142"/>
 			<add stat="rEvas" order="0x40" value="-8"/>
@@ -1897,7 +1897,7 @@
 			<enchant stat="sDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="30692" name="Bound Karik Horn">
 		<!--Done By Darvin (c)Java - Team 2012-->
@@ -1912,7 +1912,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="66"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -1938,7 +1938,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="66"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<skills>
@@ -1967,7 +1967,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="66"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<skills>
@@ -1996,7 +1996,7 @@
 		<set name="type" value="BLUNT"/>
 		<set name="ex_type" value="BLUNT_WEAPON"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="66"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -2022,7 +2022,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="66"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<for>
@@ -2048,7 +2048,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="66"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<skills>
@@ -2077,7 +2077,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="66"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<skills>
@@ -2106,7 +2106,7 @@
 		<set name="type" value="SWORD"/>
 		<set name="ex_type" value="SWORD"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystal_count" value="3562"/>
+		<set name="crystal_count" value="66"/>
 		<set name="soulshots" value="3"/>
 		<set name="spiritshots" value="3"/>
 		<skills>

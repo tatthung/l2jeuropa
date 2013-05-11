@@ -2,9 +2,9 @@
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<weapon id="5704" name="Keshanberk*Keshanberk">
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="18300000"/>
 		<set name="rnd_dam" value="10"/>
@@ -26,9 +26,9 @@
 		</for>
 	</weapon>
 	<weapon id="5705" name="Keshanberk*Damascus">
-		<set name="crystal_count" value="1485"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="18567400"/>
 		<set name="rnd_dam" value="10"/>
@@ -52,9 +52,9 @@
 		</for>
 	</weapon>
 	<weapon id="5706" name="Damascus*Damascus">
-		<set name="crystal_count" value="1659"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_dual_sword_i00"/>
 		<set name="price" value="20741000"/>
 		<set name="rnd_dam" value="10"/>

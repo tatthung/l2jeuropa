@@ -867,9 +867,9 @@
 		</for>
 	</weapon>
 	<weapon id="82" name="God's Blade">
-		<set name="crystal_count" value="1900"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="icon" value="icon.weapon_forgotten_blade_i00"/>
 		<set name="price" value="38000000"/>
@@ -945,9 +945,9 @@
 	</weapon>
 	<weapon id="85" name="Phantom Sword">
 		<set name="is_magic_weapon" value="true"/>
-		<set name="crystal_count" value="1464"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_phantom_sword_i00"/>
 		<set name="price" value="18300000"/>
 		<set name="rnd_dam" value="10"/>

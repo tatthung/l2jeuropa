@@ -737,7 +737,7 @@
 		</equip>
 		<set name="type" value="NONE"/>
 		<set name="crystal_type" value="R95"/>
-		<set name="crystal_count" value="362"/>
+		<set name="crystal_count" value="0"/>
 		<set name="isBlessed" value="true"/>
 		<for>
 			<add stat="rEvas" order="0x40" value="-8"/>
@@ -746,7 +746,7 @@
 			<enchant stat="sDef" order="0x40" value="0"/>
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 	</weapon>
 	<weapon id="18069" name="Blessed Seraph Shaper">
 		<!--Done By Darvin (c)Java - Team 2012-->

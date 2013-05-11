@@ -342,9 +342,9 @@
 		</for>
 	</weapon>
 	<weapon id="1376" name="Guard Spear">
-		<set name="crystal_count" value="743"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_guard_spear_i00"/>
 		<set name="price" value="409000"/>
 		<set name="rnd_dam" value="10"/>
