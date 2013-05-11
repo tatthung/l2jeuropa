@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="30307" name="R99 (Rare) Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1666"/>
+		<set name="crystal_count" value="92"/>
 		<set name="icon" value="icon.armor_belt_i03"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -20,7 +21,7 @@
 	<armor id="30308" name="R99 (Rare) Bracelet">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="0"/>
+		<set name="crystal_count" value="171"/>
 		<set name="icon" value="icon.etc_rbracelet_s_i03"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -32,7 +33,7 @@
 	<armor id="30309" name="R99 (Rare) Shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="333"/>
+		<set name="crystal_count" value="122"/>
 		<set name="icon" value="icon.etc_stripe_shirts_s_i05"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="130"/>
@@ -635,7 +636,7 @@
 	<armor id="30365" name="Headgear">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="608"/>
+		<set name="crystal_count" value="108"/>
 		<set name="icon" value="icon.armor_helmet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="530"/>
@@ -651,8 +652,8 @@
 	</armor>
 	<armor id="30366" name="Boots">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
-		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1621"/>
+		<set name="crystallizable" value="false"/>
+		<set name="crystal_count" value="0"/>
 		<set name="icon" value="icon.armor_t97_b_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="1070"/>
@@ -668,8 +669,8 @@
 	</armor>
 	<armor id="30367" name="Gloves">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
-		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="405"/>
+		<set name="crystallizable" value="false"/>
+		<set name="crystal_count" value="0"/>
 		<set name="icon" value="icon.armor_t97_g_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="510"/>
@@ -686,7 +687,7 @@
 	<armor id="30368" name="T-shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="202"/>
+		<set name="crystal_count" value="122"/>
 		<set name="icon" value="icon.etc_stripe_shirts_s_i05"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="130"/>
@@ -703,7 +704,7 @@
 	<armor id="30369" name="Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1013"/>
+		<set name="crystal_count" value="92"/>
 		<set name="icon" value="icon.armor_belt_i03"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -720,7 +721,7 @@
 	<armor id="30370" name="Bracelet">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="0"/>
+		<set name="crystal_count" value="171"/>
 		<set name="icon" value="icon.etc_rbracelet_s_i03"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>

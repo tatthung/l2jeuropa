@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="22154" name="Shadow Weapon - Wolf Hat " add_name="Blessed Escape">
 		<set name="crystal_type" value="NONE"/>
@@ -283,9 +284,9 @@
 		</for>
 	</armor>
 	<armor id="22174" name="Greater Queen Ant's Ring">
-		<set name="crystal_count" value="82"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="augmentable" value="false"/>
 		<set name="icon" value="icon.accessory_ring_of_queen_ant_i00"/>
 		<set name="price" value="616000"/>

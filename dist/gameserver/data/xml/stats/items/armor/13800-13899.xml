@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="13802" name="Native's Hood">
 		<set name="crystal_type" value="NONE"/>
@@ -133,9 +134,9 @@
 		</for>
 	</armor>
 	<armor id="13885" name="Sealed Arcana Sigil">
-		<set name="crystal_count" value="161"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.arcana_sigil_i01"/>
 		<set name="price" value="3355000"/>
 		<set name="type" value="SIGIL"/>
@@ -152,9 +153,9 @@
 		</for>
 	</armor>
 	<armor id="13886" name="Sealed Dynasty Sigil">
-		<set name="crystal_count" value="307"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.armor_dynasty_sigil_i01"/>
 		<set name="price" value="6404000"/>
 		<set name="type" value="SIGIL"/>
@@ -171,9 +172,9 @@
 		</for>
 	</armor>
 	<armor id="13887" name="Sealed Vesper Sigil">
-		<set name="crystal_count" value="588"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.armor_verper_sigil_i01"/>
 		<set name="price" value="12250000"/>
 		<set name="type" value="SIGIL"/>

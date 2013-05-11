@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="500" name="Great Helmet">
 		<set name="crystal_count" value="74"/>
@@ -904,7 +905,7 @@
 		</for>
 	</armor>
 	<armor id="550" name="Helm of Doom">
-		<set name="crystal_count" value="103"/>
+		<set name="crystal_count" value="124"/>
 		<set name="crystal_type" value="B"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.armor_helmet_i00"/>
@@ -1141,7 +1142,7 @@
 		</for>
 	</armor>
 	<armor id="563" name="Dark Crystal Boots">
-		<set name="crystal_count" value="92"/>
+		<set name="crystal_count" value="71"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.armor_t15_b_i00"/>
@@ -1501,7 +1502,7 @@
 		</for>
 	</armor>
 	<armor id="583" name="Majestic Boots">
-		<set name="crystal_count" value="140"/>
+		<set name="crystal_count" value="108"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.armor_t45_b_i00"/>

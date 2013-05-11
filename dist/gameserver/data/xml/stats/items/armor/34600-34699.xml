@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<armor id="34621"
-           name="R Talisman - Half-kill and Lethal Strike Resistance {passive}">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34621" name="R Talisman - Half-kill and Lethal Strike Resistance {passive}">		<!--Done By Darvin (c)Java-Team-->
 		<set name="dropable" value="false"/>
 		<set name="sellable" value="false"/>
 		<set name="tradeable" value="false"/>
@@ -15,8 +15,7 @@
 		</equip>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 	</armor>
-	<armor id="34622"
-           name="R Talisman - Half-kill and Lethal Strike Resistance {active}">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34622" name="R Talisman - Half-kill and Lethal Strike Resistance {active}">		<!--Done By Darvin (c)Java-Team-->
 		<set name="dropable" value="false"/>
 		<set name="sellable" value="false"/>
 		<set name="tradeable" value="false"/>

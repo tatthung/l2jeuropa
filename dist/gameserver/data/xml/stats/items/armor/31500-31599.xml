@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="31511" name="Bound Nassen's Earring">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="64"/>
+		<set name="crystal_count" value="6"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.accessary_nassens_earing_i00"/>
@@ -24,7 +25,7 @@
 	<armor id="31526" name="Bound Great Helmet">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="68"/>
+		<set name="crystal_count" value="3"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_helmet_i00"/>
@@ -43,7 +44,7 @@
 	<armor id="31556" name="Bound Crafted Leather Gloves">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="12"/>
+		<set name="crystal_count" value="1"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t09_g_i00"/>
@@ -62,7 +63,7 @@
 	<armor id="31557" name="Bound Dark Stockings">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="54"/>
+		<set name="crystal_count" value="4"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t16_l_i00"/>
@@ -81,7 +82,7 @@
 	<armor id="31558" name="Bound Gauntlet">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="16"/>
+		<set name="crystal_count" value="3"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t10_g_i00"/>
@@ -100,7 +101,7 @@
 	<armor id="31561" name="Bound Reinforced Mithril Gloves">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="42"/>
+		<set name="crystal_count" value="1"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t47_g_i00"/>
@@ -119,7 +120,7 @@
 	<armor id="31562" name="Bound Reinforced Mithril Shirt">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="240"/>
+		<set name="crystal_count" value="5"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t47_u_i00"/>
@@ -138,7 +139,7 @@
 	<armor id="31563" name="Bound Reinforced Mithril Boots">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="170"/>
+		<set name="crystal_count" value="1"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t47_b_i00"/>
@@ -157,7 +158,7 @@
 	<armor id="31564" name="Bound Reinforced Mithril Gaiters">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="C"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="224"/>
+		<set name="crystal_count" value="3"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t47_l_i00"/>
@@ -176,7 +177,7 @@
 	<armor id="31565" name="Bound Reinforced Leather Gloves">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="16"/>
+		<set name="crystal_count" value="3"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t13_g_i00"/>
@@ -195,7 +196,7 @@
 	<armor id="31566" name="Bound Reinforced Leather Shirt">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="97"/>
+		<set name="crystal_count" value="10"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t13_u_i00"/>
@@ -214,7 +215,7 @@
 	<armor id="31567" name="Bound Reinforced Leather Boots">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="64"/>
+		<set name="crystal_count" value="3"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t13_b_i00"/>
@@ -233,7 +234,7 @@
 	<armor id="31568" name="Bound Reinforced Leather Gaiters">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="92"/>
+		<set name="crystal_count" value="6"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t13_l_i00"/>
@@ -252,7 +253,7 @@
 	<armor id="31570" name="Bound Steel Boots">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="64"/>
+		<set name="crystal_count" value="3"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t10_b_i00"/>
@@ -271,7 +272,7 @@
 	<armor id="31571" name="Bound Assault Boots">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="77"/>
+		<set name="crystal_count" value="6"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t44_b_i00"/>
@@ -290,7 +291,7 @@
 	<armor id="31572" name="Bound Leather Boots">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="50"/>
+		<set name="crystal_count" value="1"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t09_b_i00"/>
@@ -309,7 +310,7 @@
 	<armor id="31573" name="Bound Leather Gauntlet">		<!--Done By Darvin (c)Java-Team/Update by Maleiva2013 -->
 		<set name="crystal_type" value="D"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="14"/>
+		<set name="crystal_count" value="2"/>
 		<set name="dropable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="icon" value="icon.armor_t18_g_i00"/>

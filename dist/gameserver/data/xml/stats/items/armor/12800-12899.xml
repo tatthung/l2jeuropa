@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="12811" name="Arcana Sigil">
-		<set name="crystal_count" value="161"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.arcana_sigil_i00"/>
 		<set name="price" value="3355000"/>
 		<set name="type" value="SIGIL"/>
@@ -20,9 +21,9 @@
 		</for>
 	</armor>
 	<armor id="12812" name="Dynasty Sigil">
-		<set name="crystal_count" value="307"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.dynasty_sigil_i00"/>
 		<set name="price" value="6404000"/>
 		<set name="type" value="SIGIL"/>
@@ -39,9 +40,9 @@
 		</for>
 	</armor>
 	<armor id="12813" name="Vesper Sigil">
-		<set name="crystal_count" value="588"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.verper_sigil_i00"/>
 		<set name="price" value="12250000"/>
 		<set name="type" value="SIGIL"/>

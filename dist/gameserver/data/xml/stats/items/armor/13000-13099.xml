@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="13000" name="Sealed Helm of Nightmare" add_name="Light Armor Use">
 		<set name="crystal_count" value="163"/>
@@ -215,9 +216,9 @@
 		<set name="ex_type" value="HAIR_ACCESSORY"/>
 	</armor>
 	<armor id="13078" name="Arcana Sigil">
-		<set name="crystal_count" value="161"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.arcana_sigil_i00"/>
 		<set name="price" value="3355000"/>
 		<set name="type" value="SIGIL"/>

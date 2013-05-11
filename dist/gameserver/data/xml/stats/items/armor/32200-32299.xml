@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<armor id="32200" name="Blessed Twilight Leather Helmet"
-           add_name="Assassin Type">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32200" name="Blessed Twilight Leather Helmet" add_name="Assassin Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="672"/>
+		<set name="crystal_count" value="355"/>
 		<set name="icon" value="icon.armor_leather_helmet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="530"/>
@@ -21,7 +21,7 @@
 	<armor id="32201" name="Blessed Twilight Leather Armor" add_name="Assassin Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="2677"/>
+		<set name="crystal_count" value="947"/>
 		<set name="icon" value="icon.armor_t602_u_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="4140"/>
@@ -39,11 +39,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="32202" name="Blessed Twilight Leather Legging"
-           add_name="Assassin Type">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32202" name="Blessed Twilight Leather Legging" add_name="Assassin Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="2512"/>
+		<set name="crystal_count" value="592"/>
 		<set name="icon" value="icon.armor_t602_l_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="1320"/>
@@ -59,11 +58,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="32203" name="Blessed Twilight Leather Gloves"
-           add_name="Assassin Type">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32203" name="Blessed Twilight Leather Gloves" add_name="Assassin Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="448"/>
+		<set name="crystal_count" value="236"/>
 		<set name="icon" value="icon.armor_t602_g_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="510"/>
@@ -82,7 +80,7 @@
 	<armor id="32204" name="Blessed Twilight Leather Boots" add_name="Assassin Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1792"/>
+		<set name="crystal_count" value="236"/>
 		<set name="icon" value="icon.armor_t602_b_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="1070"/>
@@ -100,7 +98,7 @@
 	<armor id="32205" name="Blessed Twilight Circlet" add_name="Magic Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="672"/>
+		<set name="crystal_count" value="355"/>
 		<set name="icon" value="icon.armor_circlet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="530"/>
@@ -119,7 +117,7 @@
 	<armor id="32206" name="Blessed Twilight Tunic" add_name="Magic Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1792"/>
+		<set name="crystal_count" value="947"/>
 		<set name="icon" value="icon.armor_t603_u_i00"/>
 		<set name="type" value="MAGIC"/>
 		<set name="weight" value="1750"/>
@@ -138,7 +136,7 @@
 	<armor id="32207" name="Blessed Twilight Stockings" add_name="Magic Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1680"/>
+		<set name="crystal_count" value="592"/>
 		<set name="icon" value="icon.armor_t603_l_i00"/>
 		<set name="type" value="MAGIC"/>
 		<set name="weight" value="850"/>
@@ -157,7 +155,7 @@
 	<armor id="32208" name="Blessed Twilight Gloves" add_name="Magic Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="448"/>
+		<set name="crystal_count" value="236"/>
 		<set name="icon" value="icon.armor_t603_g_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="510"/>
@@ -176,7 +174,7 @@
 	<armor id="32209" name="Blessed Twilight Shoes" add_name="Magic Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1792"/>
+		<set name="crystal_count" value="236"/>
 		<set name="icon" value="icon.armor_t603_b_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="1070"/>
@@ -193,7 +191,7 @@
 	<armor id="32210" name="Blessed Twilight Helmet" add_name="Defense Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="672"/>
+		<set name="crystal_count" value="355"/>
 		<set name="icon" value="icon.armor_helmet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="530"/>
@@ -212,7 +210,7 @@
 	<armor id="32211" name="Blessed Twilight Breastplate" add_name="Defense Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="3573"/>
+		<set name="crystal_count" value="947"/>
 		<set name="icon" value="icon.armor_t401_u_i00"/>
 		<set name="type" value="HEAVY"/>
 		<set name="weight" value="7520"/>
@@ -231,7 +229,7 @@
 	<armor id="32212" name="Blessed Twilight Gaiters" add_name="Defense Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="3344"/>
+		<set name="crystal_count" value="592"/>
 		<set name="icon" value="icon.armor_t401_l_i00"/>
 		<set name="type" value="HEAVY"/>
 		<set name="weight" value="3170"/>
@@ -250,7 +248,7 @@
 	<armor id="32213" name="Blessed Twilight Gauntlet" add_name="Defense Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="448"/>
+		<set name="crystal_count" value="236"/>
 		<set name="icon" value="icon.armor_t401_g_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="510"/>
@@ -269,7 +267,7 @@
 	<armor id="32214" name="Blessed Twilight Boots" add_name="Defense Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1792"/>
+		<set name="crystal_count" value="236"/>
 		<set name="icon" value="icon.armor_t401_b_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="1070"/>
@@ -287,7 +285,7 @@
 	<armor id="32216" name="Blessed Twilight Leather Helmet" add_name="Enhance Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="672"/>
+		<set name="crystal_count" value="355"/>
 		<set name="icon" value="icon.armor_leather_helmet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="530"/>
@@ -306,7 +304,7 @@
 	<armor id="32217" name="Blessed Twilight Leather Armor" add_name="Enhance Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="2677"/>
+		<set name="crystal_count" value="947"/>
 		<set name="icon" value="icon.armor_t602_u_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="4140"/>
@@ -322,11 +320,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="32218" name="Blessed Twilight Leather Legging"
-           add_name="Enhance Type">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32218" name="Blessed Twilight Leather Legging" add_name="Enhance Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="2512"/>
+		<set name="crystal_count" value="592"/>
 		<set name="icon" value="icon.armor_t602_l_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="1320"/>
@@ -345,7 +342,7 @@
 	<armor id="32219" name="Blessed Twilight Leather Gloves" add_name="Enhance Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="448"/>
+		<set name="crystal_count" value="236"/>
 		<set name="icon" value="icon.armor_t602_g_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="510"/>
@@ -364,7 +361,7 @@
 	<armor id="32220" name="Blessed Twilight Leather Boots" add_name="Enhance Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1792"/>
+		<set name="crystal_count" value="236"/>
 		<set name="icon" value="icon.armor_t602_b_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="1070"/>
@@ -382,7 +379,7 @@
 	<armor id="32221" name="Blessed Twilight Circlet" add_name="Recovery Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="672"/>
+		<set name="crystal_count" value="355"/>
 		<set name="icon" value="icon.armor_circlet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="530"/>
@@ -401,7 +398,7 @@
 	<armor id="32222" name="Blessed Twilight Tunic" add_name="Recovery Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1792"/>
+		<set name="crystal_count" value="947"/>
 		<set name="icon" value="icon.armor_t603_u_i00"/>
 		<set name="type" value="MAGIC"/>
 		<set name="weight" value="1750"/>
@@ -420,7 +417,7 @@
 	<armor id="32223" name="Blessed Twilight Stockings" add_name="Recovery Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1680"/>
+		<set name="crystal_count" value="592"/>
 		<set name="icon" value="icon.armor_t603_l_i00"/>
 		<set name="type" value="MAGIC"/>
 		<set name="weight" value="850"/>
@@ -439,7 +436,7 @@
 	<armor id="32224" name="Blessed Twilight Gloves" add_name="Recovery Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="448"/>
+		<set name="crystal_count" value="236"/>
 		<set name="icon" value="icon.armor_t603_g_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="510"/>
@@ -458,7 +455,7 @@
 	<armor id="32225" name="Blessed Twilight Shoes" add_name="Recovery Type">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1792"/>
+		<set name="crystal_count" value="236"/>
 		<set name="icon" value="icon.armor_t603_b_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="1070"/>

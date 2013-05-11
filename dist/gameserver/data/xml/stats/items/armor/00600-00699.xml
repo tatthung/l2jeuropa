@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="600" name="Avadon Boots">
 		<set name="crystal_count" value="53"/>
@@ -253,9 +254,9 @@
 		</for>
 	</armor>
 	<armor id="614" name="Knight's Cloak">
-		<set name="crystal_count" value="38"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="D"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.armor_back04"/>
 		<set name="price" value="20900"/>
 		<set name="type" value="NONE"/>
@@ -343,9 +344,9 @@
 		</for>
 	</armor>
 	<armor id="619" name="(Not In Use) Ancient Cloak">
-		<set name="crystal_count" value="98"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="C"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.armor_back09"/>
 		<set name="price" value="245000"/>
 		<set name="type" value="NONE"/>
@@ -397,9 +398,9 @@
 		</for>
 	</armor>
 	<armor id="622" name="(Not In Use) Holy Spirit's Cloak">
-		<set name="crystal_count" value="92"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.armor_back09"/>
 		<set name="price" value="1160000"/>
 		<set name="type" value="NONE"/>

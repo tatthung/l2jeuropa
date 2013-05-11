@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="32407" name="Fantasy Compound Armor" add_name="Not in Use">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="C"/>
@@ -435,8 +436,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="32477" name="Fantasy Dark Crystal Leather Armor"
-           add_name="Not in Use">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="32477" name="Fantasy Dark Crystal Leather Armor" add_name="Not in Use">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.armor_t75_u_i00"/>
 		<set name="type" value="LIGHT"/>

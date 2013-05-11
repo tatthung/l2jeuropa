@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="11400" name="Blue Wolf Gloves" add_name="Light Armor Use">
 		<set name="crystal_count" value="83"/>
@@ -677,9 +678,9 @@
 		</for>
 	</armor>
 	<armor id="11436" name="(Not In Use) Holy Spirit's Cloak">
-		<set name="crystal_count" value="92"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="A"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.armor_back09"/>
 		<set name="price" value="1160000"/>
 		<set name="type" value="NONE"/>

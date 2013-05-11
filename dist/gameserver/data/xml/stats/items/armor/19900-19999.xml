@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<armor id="19900" name="Blessed Seraph Leather Boots"
-           add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19900" name="Blessed Seraph Leather Boots" add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="2232"/>
+		<set name="crystal_count" value="511"/>
 		<set name="icon" value="icon.armor_t402_b_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="1070"/>
@@ -23,7 +23,7 @@
 	<armor id="19901" name="Blessed Seraph Circlet" add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="834"/>
+		<set name="crystal_count" value="766"/>
 		<set name="icon" value="icon.armor_circlet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="530"/>
@@ -43,7 +43,7 @@
 	<armor id="19902" name="Blessed Seraph Tunic" add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="2220"/>
+		<set name="crystal_count" value="2044"/>
 		<set name="icon" value="icon.armor_t403_u_i00"/>
 		<set name="type" value="MAGIC"/>
 		<set name="weight" value="1750"/>
@@ -60,11 +60,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19903" name="Blessed Seraph Stockings"
-           add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19903" name="Blessed Seraph Stockings" add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="2088"/>
+		<set name="crystal_count" value="1277"/>
 		<set name="icon" value="icon.armor_t403_l_i00"/>
 		<set name="type" value="MAGIC"/>
 		<set name="weight" value="850"/>
@@ -84,7 +83,7 @@
 	<armor id="19904" name="Blessed Seraph Gloves" add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="558"/>
+		<set name="crystal_count" value="511"/>
 		<set name="icon" value="icon.armor_t403_g_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="510"/>
@@ -104,7 +103,7 @@
 	<armor id="19905" name="Blessed Seraph Shoes" add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="2232"/>
+		<set name="crystal_count" value="511"/>
 		<set name="icon" value="icon.armor_t403_b_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="1070"/>
@@ -123,7 +122,7 @@
 	<armor id="19906" name="Blessed Eternal Helmet" add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="960"/>
+		<set name="crystal_count" value="1689"/>
 		<set name="icon" value="icon.armor_helmet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="530"/>
@@ -140,11 +139,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19907" name="Blessed Eternal Breastplate"
-           add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19907" name="Blessed Eternal Breastplate" add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="5133"/>
+		<set name="crystal_count" value="4504"/>
 		<set name="icon" value="icon.armor_t701_u_i00"/>
 		<set name="type" value="HEAVY"/>
 		<set name="weight" value="7520"/>
@@ -164,7 +162,7 @@
 	<armor id="19908" name="Blessed Eternal Gaiters" add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="4820"/>
+		<set name="crystal_count" value="2815"/>
 		<set name="icon" value="icon.armor_t701_l_i00"/>
 		<set name="type" value="HEAVY"/>
 		<set name="weight" value="3170"/>
@@ -181,11 +179,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19909" name="Blessed Eternal Gauntlet"
-           add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19909" name="Blessed Eternal Gauntlet" add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="640"/>
+		<set name="crystal_count" value="1126"/>
 		<set name="icon" value="icon.armor_t701_g_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="510"/>
@@ -205,7 +202,7 @@
 	<armor id="19910" name="Blessed Eternal Boots" add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="2560"/>
+		<set name="crystal_count" value="1126"/>
 		<set name="icon" value="icon.armor_t701_b_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="1070"/>
@@ -221,11 +218,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19912" name="Blessed Eternal Leather Helmet"
-           add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19912" name="Blessed Eternal Leather Helmet" add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="960"/>
+		<set name="crystal_count" value="1689"/>
 		<set name="icon" value="icon.armor_leather_helmet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="530"/>
@@ -242,11 +238,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19913" name="Blessed Eternal Leather Armor"
-           add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19913" name="Blessed Eternal Leather Armor" add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="3853"/>
+		<set name="crystal_count" value="4504"/>
 		<set name="icon" value="icon.armor_t702_u_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="4140"/>
@@ -263,11 +258,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19914" name="Blessed Eternal Leather Leggings"
-           add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19914" name="Blessed Eternal Leather Leggings" add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="3620"/>
+		<set name="crystal_count" value="2815"/>
 		<set name="icon" value="icon.armor_t702_l_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="1320"/>
@@ -284,11 +278,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19915" name="Blessed Eternal Leather Gloves"
-           add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19915" name="Blessed Eternal Leather Gloves" add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="640"/>
+		<set name="crystal_count" value="1126"/>
 		<set name="icon" value="icon.armor_t702_g_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="510"/>
@@ -305,11 +298,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19916" name="Blessed Eternal Leather Boots"
-           add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19916" name="Blessed Eternal Leather Boots" add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="2560"/>
+		<set name="crystal_count" value="1126"/>
 		<set name="icon" value="icon.armor_t702_b_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="1070"/>
@@ -328,7 +320,7 @@
 	<armor id="19917" name="Blessed Eternal Circlet" add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="960"/>
+		<set name="crystal_count" value="1689"/>
 		<set name="icon" value="icon.armor_circlet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="530"/>
@@ -348,7 +340,7 @@
 	<armor id="19918" name="Blessed Eternal Tunic" add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="2573"/>
+		<set name="crystal_count" value="4504"/>
 		<set name="icon" value="icon.armor_t703_u_i00"/>
 		<set name="type" value="MAGIC"/>
 		<set name="weight" value="1750"/>
@@ -365,11 +357,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19919" name="Blessed Eternal Stockings"
-           add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19919" name="Blessed Eternal Stockings" add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="2420"/>
+		<set name="crystal_count" value="2815"/>
 		<set name="icon" value="icon.armor_t703_l_i00"/>
 		<set name="type" value="MAGIC"/>
 		<set name="weight" value="850"/>
@@ -389,7 +380,7 @@
 	<armor id="19920" name="Blessed Eternal Gloves" add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="640"/>
+		<set name="crystal_count" value="1126"/>
 		<set name="icon" value="icon.armor_t703_g_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="510"/>
@@ -409,7 +400,7 @@
 	<armor id="19921" name="Blessed Eternal Shoes" add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="2560"/>
+		<set name="crystal_count" value="1126"/>
 		<set name="icon" value="icon.armor_t703_b_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="1070"/>
@@ -425,8 +416,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19922" name="Blessed Celestial Helmet"
-           add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19922" name="Blessed Celestial Helmet" add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="icon" value="icon.armor_helmet_i00"/>
 		<set name="type" value="NONE"/>
@@ -444,8 +434,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19923" name="Blessed Celestial Breastplate"
-           add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19923" name="Blessed Celestial Breastplate" add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="icon" value="icon.armor_t97_u_i00"/>
 		<set name="type" value="HEAVY"/>
@@ -463,8 +452,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19924" name="Blessed Celestial Gaiters"
-           add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19924" name="Blessed Celestial Gaiters" add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="icon" value="icon.armor_t97_l_i00"/>
 		<set name="type" value="HEAVY"/>
@@ -482,8 +470,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19925" name="Blessed Celestial Gauntlet"
-           add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19925" name="Blessed Celestial Gauntlet" add_name="Defense Type / Heavy">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="icon" value="icon.armor_t97_g_i00"/>
 		<set name="type" value="NONE"/>
@@ -518,8 +505,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19928" name="Blessed Celestial Leather Helmet"
-           add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19928" name="Blessed Celestial Leather Helmet" add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="icon" value="icon.armor_leather_helmet_i00"/>
 		<set name="type" value="NONE"/>
@@ -537,8 +523,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19929" name="Blessed Celestial Leather Armor"
-           add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19929" name="Blessed Celestial Leather Armor" add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="icon" value="icon.armor_t98_u_i00"/>
 		<set name="type" value="LIGHT"/>
@@ -556,8 +541,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19930" name="Blessed Celestial Leather Leggings"
-           add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19930" name="Blessed Celestial Leather Leggings" add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="icon" value="icon.armor_t98_l_i00"/>
 		<set name="type" value="LIGHT"/>
@@ -575,8 +559,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19931" name="Blessed Celestial Leather Gloves"
-           add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19931" name="Blessed Celestial Leather Gloves" add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="icon" value="icon.armor_t98_g_i00"/>
 		<set name="type" value="NONE"/>
@@ -592,8 +575,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19932" name="Blessed Celestial Leather Boots"
-           add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19932" name="Blessed Celestial Leather Boots" add_name="Enhance Type / Light">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="icon" value="icon.armor_t98_b_i00"/>
 		<set name="type" value="NONE"/>
@@ -610,8 +592,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19933" name="Blessed Celestial Circlet"
-           add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19933" name="Blessed Celestial Circlet" add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="icon" value="icon.armor_circlet_i00"/>
 		<set name="type" value="NONE"/>
@@ -647,8 +628,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19935" name="Blessed Celestial Stockings"
-           add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19935" name="Blessed Celestial Stockings" add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="icon" value="icon.armor_t99_l_i00"/>
 		<set name="type" value="MAGIC"/>
@@ -666,8 +646,7 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19936" name="Blessed Celestial Gloves"
-           add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="19936" name="Blessed Celestial Gloves" add_name="Recovery Type / Robe">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="icon" value="icon.armor_t99_g_i00"/>
 		<set name="type" value="NONE"/>

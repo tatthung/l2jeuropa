@@ -86,9 +86,9 @@
 		</for>
 	</armor>
 	<armor id="16305" name="Moirai Sigil">
-		<set name="crystal_count" value="424"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_tysandy_sigil_i01"/>
 		<set name="price" value="8839000"/>
 		<set name="type" value="SIGIL"/>
@@ -425,9 +425,9 @@
 		</for>
 	</armor>
 	<armor id="16322" name="Vesper Sigil">
-		<set name="crystal_count" value="588"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.verper_sigil_i01"/>
 		<set name="price" value="12250000"/>
 		<set name="type" value="SIGIL"/>
@@ -719,9 +719,9 @@
 		</for>
 	</armor>
 	<armor id="16339" name="Sealed Moirai Sigil">
-		<set name="crystal_count" value="424"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.weapon_tysandy_sigil_i00"/>
 		<set name="price" value="8839000"/>
 		<set name="type" value="SIGIL"/>
@@ -1010,9 +1010,9 @@
 		</for>
 	</armor>
 	<armor id="16356" name="Sealed Vesper Sigil">
-		<set name="crystal_count" value="588"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.armor_verper_sigil_i01"/>
 		<set name="price" value="12250000"/>
 		<set name="type" value="SIGIL"/>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="34831" name="Squash Ring - Magician" add_name="Event">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="S"/>
@@ -74,11 +75,10 @@
 		</equip>
 		<set name="ex_type" value="BRACELET"/>
 	</armor>
-	<armor id="34871" name="Low-grade Magic Rune Clip Immortal Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34871" name="Low-grade Magic Rune Clip Immortal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
-		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1013"/>
+		<set name="crystallizable" value="false"/>
+		<set name="crystal_count" value="0"/>
 		<set name="icon" value="icon.r1_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -92,11 +92,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="34872" name="Standard Magic Rune Clip Immortal Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34872" name="Standard Magic Rune Clip Immortal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
-		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1013"/>
+		<set name="crystallizable" value="false"/>
+		<set name="crystal_count" value="0"/>
 		<set name="icon" value="icon.r1_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -110,11 +109,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="34873" name="High-grade Magic Rune Clip Immortal Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34873" name="High-grade Magic Rune Clip Immortal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
-		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1013"/>
+		<set name="crystallizable" value="false"/>
+		<set name="crystal_count" value="0"/>
 		<set name="icon" value="icon.r1_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -128,11 +126,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="34874" name="Top-grade Magic Rune Clip Immortal Belt"
-           add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34874" name="Top-grade Magic Rune Clip Immortal Belt" add_name="HP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
-		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1013"/>
+		<set name="crystallizable" value="false"/>
+		<set name="crystal_count" value="0"/>
 		<set name="icon" value="icon.r1_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -146,11 +143,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="34875" name="Low-grade Magic Rune Clip Immortal Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34875" name="Low-grade Magic Rune Clip Immortal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
-		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1013"/>
+		<set name="crystallizable" value="false"/>
+		<set name="crystal_count" value="0"/>
 		<set name="icon" value="icon.r1_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -164,11 +160,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="34876" name="Standard Magic Rune Clip Immortal Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34876" name="Standard Magic Rune Clip Immortal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
-		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1013"/>
+		<set name="crystallizable" value="false"/>
+		<set name="crystal_count" value="0"/>
 		<set name="icon" value="icon.r1_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -182,11 +177,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="34877" name="High-grade Magic Rune Clip Immortal Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34877" name="High-grade Magic Rune Clip Immortal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
-		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1013"/>
+		<set name="crystallizable" value="false"/>
+		<set name="crystal_count" value="0"/>
 		<set name="icon" value="icon.r1_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -200,11 +194,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="34878" name="Top-grade Magic Rune Clip Immortal Belt"
-           add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
+	<armor id="34878" name="Top-grade Magic Rune Clip Immortal Belt" add_name="MP Recovery">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
-		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1013"/>
+		<set name="crystallizable" value="false"/>
+		<set name="crystal_count" value="0"/>
 		<set name="icon" value="icon.r1_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>

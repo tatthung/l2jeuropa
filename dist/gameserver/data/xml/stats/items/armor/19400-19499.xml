@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="19449" name="Giant's Bracelet">
 		<set name="crystal_type" value="R"/>
@@ -16,7 +17,7 @@
 	<armor id="19451" name="Istina's Ring">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="549"/>
+		<set name="crystal_count" value="988"/>
 		<set name="icon" value="icon.istina_ring_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -39,7 +40,7 @@
 	<armor id="19452" name="Istina's Earring">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="821"/>
+		<set name="crystal_count" value="1482"/>
 		<set name="icon" value="icon.istina_earring_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -62,7 +63,7 @@
 	<armor id="19453" name="Istina's Necklace">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1093"/>
+		<set name="crystal_count" value="1976"/>
 		<set name="icon" value="icon.istina_necklace_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -84,7 +85,7 @@
 	<armor id="19454" name="Istina's Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1706"/>
+		<set name="crystal_count" value="41"/>
 		<set name="icon" value="icon.istina_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -104,7 +105,7 @@
 	<armor id="19455" name="Istina's Bracelet">
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="0"/>
+		<set name="crystal_count" value="76"/>
 		<set name="icon" value="icon.istina_bracelet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -119,7 +120,7 @@
 	<armor id="19456" name="Istina's Shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="320"/>
+		<set name="crystal_count" value="54"/>
 		<set name="icon" value="icon.istina_shirt_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="130"/>
@@ -139,7 +140,7 @@
 	<armor id="19457" name="Octavis's Ring">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="549"/>
+		<set name="crystal_count" value="988"/>
 		<set name="icon" value="icon.octavis_ring_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -161,7 +162,7 @@
 	<armor id="19458" name="Octavis's Earring">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="821"/>
+		<set name="crystal_count" value="1482"/>
 		<set name="icon" value="icon.octavis_earring_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -183,7 +184,7 @@
 	<armor id="19459" name="Octavis's Necklace">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1093"/>
+		<set name="crystal_count" value="1976"/>
 		<set name="icon" value="icon.octavis_necklace_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -204,7 +205,7 @@
 	<armor id="19460" name="Octavis's Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1706"/>
+		<set name="crystal_count" value="41"/>
 		<set name="icon" value="icon.octavis_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -224,7 +225,7 @@
 	<armor id="19461" name="Octavis's Bracelet">
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="0"/>
+		<set name="crystal_count" value="76"/>
 		<set name="icon" value="icon.octavis_bracelet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -239,7 +240,7 @@
 	<armor id="19462" name="Octavis's Shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="320"/>
+		<set name="crystal_count" value="54"/>
 		<set name="icon" value="icon.octavis_shirt_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="130"/>
@@ -254,11 +255,10 @@
 			<enchant stat="maxHp" order="0x80" value="0"/>
 		</for>
 	</armor>
-	<armor id="19463"
-           name="Blessed Earring of Antharas">		<!--          Дает следующие эффекты: MP +59, Сопротивление Кровотечению 50%, Шанс нанести кровоточащую рану 50%,          Эффективность Лечения, Ярость Вампира, Сопротивление Оглушению/Ментальным Атакам 40%,          шанс нанести Оглушение/Ментальную Атаку 40%, Снижает расход MP на Физ./Маг.          Умения, Увеличивает защиту от Земли/Святости, Увеличивает Физ./Маг. Защ., ВЫН +3, ДУХ +3.          Позволяет использовать умение, отменяющее Оглушение и моментально повышает сопротивление к оглушению на 100%.          Даже если носить 2 серьги, эффект будет исходить только от одной.      -->
+	<armor id="19463" name="Blessed Earring of Antharas">		<!--          Дает следующие эффекты: MP +59, Сопротивление Кровотечению 50%, Шанс нанести кровоточащую рану 50%,          Эффективность Лечения, Ярость Вампира, Сопротивление Оглушению/Ментальным Атакам 40%,          шанс нанести Оглушение/Ментальную Атаку 40%, Снижает расход MP на Физ./Маг.          Умения, Увеличивает защиту от Земли/Святости, Увеличивает Физ./Маг. Защ., ВЫН +3, ДУХ +3.          Позволяет использовать умение, отменяющее Оглушение и моментально повышает сопротивление к оглушению на 100%.          Даже если носить 2 серьги, эффект будет исходить только от одной.      -->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="906"/>
+		<set name="crystal_count" value="178"/>
 		<set name="icon" value="icon.accessory_earring_of_antaras_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -277,11 +277,10 @@
 			<enchant stat="mDef" order="0x40" value="0"/>
 		</for>
 	</armor>
-	<armor id="19464"
-           name="Blessed Necklace of Valakas">		<!--          Дает следующие эффекты: HP +625, MP +79,          Сопротивление Сну +50%, шанс Усыпить +50%,          Снижает задержку Физ./Маг. умений,          Физ. Атк. +10%, Маг. Атк. +20%,          Дикая Магия, Отражает часть урона,          Защита от Огня +30, Защита от Тьмы +20,          Мощность Физ. Умений +5%,          Позволяет использовать умения, отменяющее Удержание и моментально увеличивает сопротивление удержанию на 100%.      -->
+	<armor id="19464" name="Blessed Necklace of Valakas">		<!--          Дает следующие эффекты: HP +625, MP +79,          Сопротивление Сну +50%, шанс Усыпить +50%,          Снижает задержку Физ./Маг. умений,          Физ. Атк. +10%, Маг. Атк. +20%,          Дикая Магия, Отражает часть урона,          Защита от Огня +30, Защита от Тьмы +20,          Мощность Физ. Умений +5%,          Позволяет использовать умения, отменяющее Удержание и моментально увеличивает сопротивление удержанию на 100%.      -->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1205"/>
+		<set name="crystal_count" value="237"/>
 		<set name="augmentable" value="false"/>
 		<set name="icon" value="icon.accessory_necklace_of_valakas_i00"/>
 		<set name="type" value="NONE"/>
@@ -303,7 +302,7 @@
 	<armor id="19470" name="Immortal Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1013"/>
+		<set name="crystal_count" value="21"/>
 		<set name="icon" value="icon.r1_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -320,7 +319,7 @@
 	<armor id="19471" name="Immortal Bracelet">
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="0"/>
+		<set name="crystal_count" value="114"/>
 		<set name="icon" value="icon.r1_bracelet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -338,7 +337,7 @@
 	<armor id="19472" name="Immortal Shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="202"/>
+		<set name="crystal_count" value="43"/>
 		<set name="icon" value="icon.r1_shirt_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="130"/>
@@ -355,7 +354,7 @@
 	<armor id="19473" name="Twilight Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1120"/>
+		<set name="crystal_count" value="64"/>
 		<set name="icon" value="icon.r2_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -372,7 +371,7 @@
 	<armor id="19474" name="Twilight Bracelet">
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="0"/>
+		<set name="crystal_count" value="125"/>
 		<set name="icon" value="icon.r2_bracelet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -390,7 +389,7 @@
 	<armor id="19475" name="Twilight Shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="224"/>
+		<set name="crystal_count" value="127"/>
 		<set name="icon" value="icon.r2_shirt_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="130"/>
@@ -407,7 +406,7 @@
 	<armor id="19476" name="Seraph Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1380"/>
+		<set name="crystal_count" value="146"/>
 		<set name="icon" value="icon.r95_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -424,7 +423,7 @@
 	<armor id="19477" name="Seraph Bracelet">
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="0"/>
+		<set name="crystal_count" value="131"/>
 		<set name="icon" value="icon.r95_bracelet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -442,7 +441,7 @@
 	<armor id="19478" name="Seraph Shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R95"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="276"/>
+		<set name="crystal_count" value="297"/>
 		<set name="icon" value="icon.r95_shirt_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="130"/>
@@ -458,8 +457,8 @@
 	</armor>
 	<armor id="19479" name="Eternal Belt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
-		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="1600"/>
+		<set name="crystallizable" value="false"/>
+		<set name="crystal_count" value="0"/>
 		<set name="icon" value="icon.r991_belt_i00"/>
 		<set name="type" value="LIGHT"/>
 		<set name="weight" value="440"/>
@@ -476,7 +475,7 @@
 	<armor id="19480" name="Eternal Bracelet">
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="0"/>
+		<set name="crystal_count" value="138"/>
 		<set name="icon" value="icon.r991_bracelet_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="150"/>
@@ -494,7 +493,7 @@
 	<armor id="19481" name="Eternal Shirt">		<!--Done By Darvin (c)Java-Team-->
 		<set name="crystal_type" value="R99"/>
 		<set name="crystallizable" value="true"/>
-		<set name="crystal_count" value="320"/>
+		<set name="crystal_count" value="759"/>
 		<set name="icon" value="icon.r991_shirt_i00"/>
 		<set name="type" value="NONE"/>
 		<set name="weight" value="130"/>

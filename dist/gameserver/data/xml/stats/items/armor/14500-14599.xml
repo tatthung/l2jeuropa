@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="14520" name="Vesper Breastplate {PvP}">
 		<set name="attributable" value="false"/>
 		<set name="augmentable" value="false"/>
-		<set name="crystal_count" value="2240"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="icon" value="icon.armor_t94_u_i00"/>
 		<set name="price" value="46668000"/>
@@ -26,9 +27,9 @@
 	<armor id="14521" name="Vesper Leather Breastplate {PvP}">
 		<set name="attributable" value="false"/>
 		<set name="augmentable" value="false"/>
-		<set name="crystal_count" value="1680"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="icon" value="icon.armor_t95_u_i00"/>
 		<set name="price" value="35000000"/>
@@ -49,9 +50,9 @@
 	<armor id="14522" name="Vesper Tunic {PvP}">
 		<set name="attributable" value="false"/>
 		<set name="augmentable" value="false"/>
-		<set name="crystal_count" value="1680"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="icon" value="icon.armor_t96_u_i00"/>
 		<set name="price" value="35000000"/>
@@ -73,9 +74,9 @@
 	<armor id="14523" name="Vesper Noble Breastplate {PvP}">
 		<set name="attributable" value="false"/>
 		<set name="augmentable" value="false"/>
-		<set name="crystal_count" value="2680"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="icon" value="icon.armor_t94_u_i01"/>
 		<set name="price" value="55840000"/>
@@ -96,9 +97,9 @@
 	<armor id="14524" name="Vesper Noble Leather Breastplate {PvP}">
 		<set name="attributable" value="false"/>
 		<set name="augmentable" value="false"/>
-		<set name="crystal_count" value="2010"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="icon" value="icon.armor_t95_u_i01"/>
 		<set name="price" value="41880000"/>
@@ -119,9 +120,9 @@
 	<armor id="14525" name="Vesper Noble Tunic {PvP}">
 		<set name="attributable" value="false"/>
 		<set name="augmentable" value="false"/>
-		<set name="crystal_count" value="2010"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="S80"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="icon" value="icon.armor_t96_u_i01"/>
 		<set name="price" value="41880000"/>

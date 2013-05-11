@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "item.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
 <list>
 	<armor id="5709" name="Sealed Zubei's Gauntlets">
-		<set name="crystal_count" value="69"/>
+		<set name="crystal_count" value="53"/>
 		<set name="crystal_type" value="B"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.armor_t64_g_i02"/>
@@ -73,7 +74,7 @@
 		</for>
 	</armor>
 	<armor id="5713" name="Sealed Avadon Gloves">
-		<set name="crystal_count" value="69"/>
+		<set name="crystal_count" value="53"/>
 		<set name="crystal_type" value="B"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.armor_t66_g_i00"/>
@@ -91,9 +92,9 @@
 		</for>
 	</armor>
 	<armor id="5714" name="Avadon Gloves" add_name="Heavy Armor">
-		<set name="crystal_count" value="53"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.armor_t66_g_i00"/>
 		<set name="price" value="399100"/>
 		<set name="type" value="NONE"/>
@@ -109,9 +110,9 @@
 		</for>
 	</armor>
 	<armor id="5715" name="Avadon Gloves" add_name="Light Armor">
-		<set name="crystal_count" value="53"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.armor_t67_g_i00"/>
 		<set name="price" value="399100"/>
 		<set name="type" value="NONE"/>
@@ -127,9 +128,9 @@
 		</for>
 	</armor>
 	<armor id="5716" name="Avadon Gloves" add_name="Robe">
-		<set name="crystal_count" value="53"/>
+		<set name="crystal_count" value="0"/>
 		<set name="crystal_type" value="B"/>
-		<set name="crystallizable" value="true"/>
+		<set name="crystallizable" value="false"/>
 		<set name="icon" value="icon.armor_t59_g_i00"/>
 		<set name="price" value="399100"/>
 		<set name="type" value="NONE"/>
@@ -145,7 +146,7 @@
 		</for>
 	</armor>
 	<armor id="5717" name="Sealed Blue Wolf Gloves">
-		<set name="crystal_count" value="107"/>
+		<set name="crystal_count" value="83"/>
 		<set name="crystal_type" value="B"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.armor_t68_g_i00"/>
@@ -217,7 +218,7 @@
 		</for>
 	</armor>
 	<armor id="5721" name="Sealed Doom Gloves">
-		<set name="crystal_count" value="107"/>
+		<set name="crystal_count" value="83"/>
 		<set name="crystal_type" value="B"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.armor_t71_g_i00"/>
@@ -289,7 +290,7 @@
 		</for>
 	</armor>
 	<armor id="5725" name="Sealed Zubei's Boots">
-		<set name="crystal_count" value="69"/>
+		<set name="crystal_count" value="53"/>
 		<set name="crystal_type" value="B"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.armor_t64_b_i00"/>
@@ -361,7 +362,7 @@
 		</for>
 	</armor>
 	<armor id="5729" name="Sealed Avadon Boots">
-		<set name="crystal_count" value="69"/>
+		<set name="crystal_count" value="53"/>
 		<set name="crystal_type" value="B"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.armor_t66_b_i00"/>
@@ -433,7 +434,7 @@
 		</for>
 	</armor>
 	<armor id="5733" name="Sealed Blue Wolf Boots">
-		<set name="crystal_count" value="107"/>
+		<set name="crystal_count" value="83"/>
 		<set name="crystal_type" value="B"/>
 		<set name="crystallizable" value="true"/>
 		<set name="icon" value="icon.armor_t68_b_i00"/>
