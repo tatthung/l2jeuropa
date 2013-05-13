@@ -154,17 +154,17 @@
 		<set name="weight" value="120"/>
 	</etcitem>
 	<etcitem id="10632" name="Wondrous Cubic">
-		<set name="class" value="OTHER"/>
-		<set name="ex_type" value="OTHER_ITEMS"/>
+		<set name="type" value="POTION"/>
+		<set name="handler" value="Skills"/>
+		<set name="sellable" value="false"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="dropable" value="false"/>
-		<set name="icon" value="icon.cube_event_i00"/>
+		<set name="icon" value="icon.cube_upgrade"/>
 		<set name="stackable" value="true"/>
 		<set name="tradeable" value="false"/>
 		<set name="reuse_type" value="EVERY_DAY_AT_6_30"/>
-		<set name="type" value="OTHER"/>
 		<skills>
-			<skill id="2510" level="1"/>
+			<skill id="2510" level="1"/>	<!--Wondrous Cubic-->
 		</skills>
 	</etcitem>
 	<etcitem id="10633" name="Rough Blue Cubic Piece">
