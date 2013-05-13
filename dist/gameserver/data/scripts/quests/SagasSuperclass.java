@@ -179,10 +179,6 @@ public abstract class SagasSuperclass extends Quest
 	{
 		String htmltext = event;
 		Player player = st.getPlayer();
-		player.sendMessage("Cond:" + st.getCond() +" "+ st.getQuest().getQuestIntId() +" "+  questId());
-		
-		
-		
 
 		if(event.equalsIgnoreCase(StartNPC + "-5.htm"))
 		{
@@ -763,7 +759,6 @@ public abstract class SagasSuperclass extends Quest
 						if(p == null) // maybe left the instance
 							continue;
 						QuestState st = findQuest(p);
-						p.sendMessage("OnDeath:" + st.getCond() + st.getQuest().getQuestIntId() );
 						onKill(npc, st);
 					}
 				}
@@ -952,8 +947,6 @@ public abstract class SagasSuperclass extends Quest
 		{
 			return st;
 		}
-		if (player.isGM())
-			player.sendMessage("Errore findQuest");
 		return null;
 	}
 	
