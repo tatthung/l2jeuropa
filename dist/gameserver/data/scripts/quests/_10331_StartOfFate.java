@@ -105,29 +105,31 @@ public class _10331_StartOfFate extends Quest implements ScriptFile
 		}
 		else if(event.equalsIgnoreCase("start_stage_1"))
 		{
-			Reflection reflect = npc.getReflection();
+			Player p = st.getPlayer();
+			Reflection reflect = p.getReflection();
+			NpcInstance officer = getNpcFromReflection(INFILTRATION_OFFICER, reflect);
 			if(reflect.getInstancedZoneId() == INSTANCED_ZONE_ID)
 			{
 				st.set("stage", 1);
 				reflect.openDoor(16240002);
-
-				npc.setRunning();
-				npc.setFollowTarget(st.getPlayer());
-				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, st.getPlayer(), 150);
+				officer.setRunning();
+				officer.setFollowTarget(st.getPlayer());
+				officer.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, st.getPlayer(), 150);
 			}
 			return null;
 		}
 		else if(event.equalsIgnoreCase("start_stage_3"))
 		{
-			Reflection reflect = npc.getReflection();
+			Player p = st.getPlayer();
+			Reflection reflect = p.getReflection();
+			NpcInstance officer = getNpcFromReflection(INFILTRATION_OFFICER, reflect);
 			if(reflect.getInstancedZoneId() == INSTANCED_ZONE_ID)
 			{
 				st.set("stage", 3);
 				reflect.openDoor(16240004);
-
-				npc.setRunning();
-				npc.setFollowTarget(st.getPlayer());
-				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, st.getPlayer(), 150);
+				officer.setRunning();
+				officer.setFollowTarget(st.getPlayer());
+				officer.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, st.getPlayer(), 150);
 				st.getPlayer().sendPacket(new ExShowScreenMessage(NpcString.MARK_OF_BELIS_CAN_BE_ACQUIRED_FROM_ENEMIES, 7000, ScreenMessageAlign.TOP_CENTER));
 				st.startQuestTimer("belise_mark_msg_timer", 10000);
 			}
@@ -184,21 +186,22 @@ public class _10331_StartOfFate extends Quest implements ScriptFile
 		}
 		else if(event.equalsIgnoreCase("start_stage_5"))
 		{
-			Reflection reflect = npc.getReflection();
+			Player p = st.getPlayer();
+			Reflection reflect = p.getReflection();
+			NpcInstance officer = getNpcFromReflection(INFILTRATION_OFFICER, reflect);
 			if(reflect.getInstancedZoneId() == INSTANCED_ZONE_ID)
 			{
 				st.set("stage", 5);
 				reflect.openDoor(16240006);
-
-				npc.setRunning();
+				officer.setRunning();
 				NpcInstance generator = getNpcFromReflection(ELECTRICITY_GENERATOR, reflect);
 				if(generator != null)
 				{
 					generator.setNpcState(1);
-					npc.getAI().notifyEvent(CtrlEvent.EVT_AGGRESSION, generator, 1000);
-					Functions.npcSay(npc, NpcString.DONT_COME_BACK_HERE);
-					st.startQuestTimer("stage_5_phrases_timer", 5000, npc);
-					st.startQuestTimer("stage_5_spawn_timer", 5000, npc);
+					officer.getAI().notifyEvent(CtrlEvent.EVT_AGGRESSION, generator, 1000);
+					Functions.npcSay(officer, NpcString.DONT_COME_BACK_HERE);
+					st.startQuestTimer("stage_5_phrases_timer", 5000, officer);
+					st.startQuestTimer("stage_5_spawn_timer", 5000, officer);
 				}
 			}
 			return null;
@@ -208,7 +211,6 @@ public class _10331_StartOfFate extends Quest implements ScriptFile
 			if(st.getInt("stage") == 5)
 			{
 				Functions.npcSay(npc, NpcString.DONT_COME_BACK_HERE);
-
 				Player player = st.getPlayer();
 				Reflection reflection = player.getActiveReflection();
 				if(reflection!= null && reflection.getInstancedZoneId() == INSTANCED_ZONE_ID)
@@ -430,6 +432,9 @@ public class _10331_StartOfFate extends Quest implements ScriptFile
 						return "infiltration_officer_q10331_no.htm";
 
 					int stage = st.getInt("stage");
+
+					player.sendMessage("npc:" + npc.getNpcId());
+
 					if(stage == 0)
 						return "infiltration_officer_q10331_1.htm";
 					else if(stage == 2)
