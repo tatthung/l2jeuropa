@@ -366,6 +366,13 @@ public class Quest
 					if (!Config.DONTLOADQUEST)
 					{
 						_log.warn("Unknown quest " + questId + " for player " + player.getName());
+						if (!Config.REMOVE_UNKNOWN_QUEST)
+						{
+							statement = con.prepareStatement("DELETE FROM character_quests WHERE char_id=? and name=?");
+							statement.setInt(1, player.getObjectId());
+							statement.setString(2, questId);
+							rset = statement.executeQuery();
+						}
 					}
 					continue;
 				}

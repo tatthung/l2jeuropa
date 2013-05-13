@@ -801,6 +801,7 @@ public class Config
 	public static int LOGIN_SERVER_AGE_LIMIT;
 	public static int LOGIN_SERVER_SERVER_TYPE;
 	public static int SAFE_ENCHANT_LVL;
+	public static boolean REMOVE_UNKNOWN_QUEST;
 	
 	/**
 	 * Method loadServerConfig.
@@ -1266,6 +1267,7 @@ public class Config
 		CLANLEADER_NAME_COLOUR = Integer.decode("0x" + otherSettings.getProperty("ClanleaderNameColour", "FFFFFF"));
 		GAME_POINT_ITEM_ID = otherSettings.getProperty("GamePointItemId", -1);
 		SAFE_ENCHANT_LVL = otherSettings.getProperty("SafeEnchant", 0);
+		REMOVE_UNKNOWN_QUEST = otherSettings.getProperty("RemoveUnknownQuest", false);
 	}
 	
 	/**
