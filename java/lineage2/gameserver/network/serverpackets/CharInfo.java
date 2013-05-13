@@ -22,7 +22,7 @@ public class CharInfo extends L2GameServerPacket
 	private static final Logger _log = LoggerFactory.getLogger(CharInfo.class);
 
 	private int[][] _inv;
-	private int _mAtkSpd, _pAtkSpd, mevasion, maccuracy, mCritRate;
+	private int _mAtkSpd, _pAtkSpd, _mEvasion, _mAccuracy, _mCritRate;
 	private int _runSpd, _walkSpd, _swimSpd, _flRunSpd, _flWalkSpd, _flyRunSpd, _flyWalkSpd;
 	private Location _loc, _fishLoc;
 	private String _name, _title;
@@ -145,9 +145,9 @@ public class CharInfo extends L2GameServerPacket
 
 		_mAtkSpd = player.getMAtkSpd();
 		_pAtkSpd = player.getPAtkSpd();
-		mevasion = player.getMEvasionRate(null);
-		maccuracy = player.getMAccuracy();
-		mCritRate = (int) player.getMagicCriticalRate(null, null);
+		_mEvasion = player.getMEvasionRate(null);
+		_mAccuracy = player.getMAccuracy();
+		_mCritRate = (int) player.getMagicCriticalRate(null, null);
 		
 		speed_move = player.getMovementSpeedMultiplier();
 		_runSpd = (int) (player.getRunSpeed() / speed_move);
@@ -220,12 +220,17 @@ public class CharInfo extends L2GameServerPacket
 	protected final void writeImpl()
 	{
 		Player activeChar = getClient().getActiveChar();
+		
 		if (activeChar == null)
+		{
 			return;
-
+		}
+		
 		if (_objId == 0)
+		{
 			return;
-
+		}
+		
 		if (activeChar.getObjectId() == _objId)
 		{
 			_log.error("You cant send CharInfo about his character to active user!!!");
@@ -255,25 +260,20 @@ public class CharInfo extends L2GameServerPacket
 
 		writeD(0x01); // TODO talisman count(VISTALL)
 		writeD(0x00); // TODO cloak status(VISTALL)
-
 		writeD(pvp_flag);
 		writeD(karma);
-
 		writeD(0); // Tauti
 		writeD(0); // Tauti
 		writeD(0); // Tauti
 		writeD(0); // Tauti
 		writeD(0); // Tauti
 		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(0); // Tauti
-
+		writeD(_mEvasion); // Tauti
+		writeD(_mAccuracy); // Tauti
+		writeD(_mCritRate);
 		writeD(_mAtkSpd);
 		writeD(_pAtkSpd);
-
 		writeD(0x00);
-
 		writeD(_runSpd);
 		writeD(_walkSpd);
 		writeD(_swimSpd);
@@ -282,7 +282,7 @@ public class CharInfo extends L2GameServerPacket
 		writeD(_flWalkSpd);
 		writeD(_flyRunSpd);
 		writeD(_flyWalkSpd);
-
+		
 		writeF(speed_move); // _cha.getProperMultiplier()
 		writeF(speed_atack); // _cha.getAttackSpeedMultiplier()
 		writeF(col_radius);
@@ -295,18 +295,20 @@ public class CharInfo extends L2GameServerPacket
 		writeD(clan_crest_id);
 		writeD(ally_id);
 		writeD(ally_crest_id);
-
 		writeC(_sit);
 		writeC(_run);
 		writeC(_combat);
 		writeC(_dead);
 		writeC(0x00); // is invisible
-		writeC(mount_type); // 1-on Strider, 2-on Wyvern, 3-on Great Wolf, 0-no
-		// mount
+		writeC(mount_type); // 1-on Strider, 2-on Wyvern, 3-on Great Wolf, 0-no mount
 		writeC(private_store);
 		writeH(cubics.length);
+		
 		for (EffectCubic cubic : cubics)
+		{
 			writeH(cubic == null ? 0 : cubic.getId());
+		}
+		
 		writeC(_isPartyRoomLeader ? 0x01 : 0x00); // find party members
 		writeC(_isFlying ? 0x02 : 0x00);
 		writeH(rec_have);
@@ -314,18 +316,14 @@ public class CharInfo extends L2GameServerPacket
 		writeD(class_id);
 		writeD(0x00);
 		writeC(_enchant);
-
 		writeC(_team.ordinal()); // team circle around feet 1 = Blue, 2 = red
-
 		writeD(large_clan_crest_id);
 		writeC(_noble);
 		writeC(_hero);
-
 		writeC(_fishing);
 		writeD(_fishLoc.x);
 		writeD(_fishLoc.y);
 		writeD(_fishLoc.z);
-
 		writeD(_nameColor);
 		writeD(_loc.h);
 		writeD(plg_class);
@@ -335,12 +333,11 @@ public class CharInfo extends L2GameServerPacket
 		writeD(clan_rep_score);
 		writeD(_transform);
 		writeD(_agathion);
-
 		writeD(0x01); // T2
-
 		writeD(0x00);// Unknown1 (GOD)
 		writeD(0x00);// Unknown2 (GOD)
 		writeD(0x00);// Unknown3 (GOD)
+
 		writeD(curCP);
 		writeD(curHP);
 		writeD(maxHP);
@@ -349,7 +346,6 @@ public class CharInfo extends L2GameServerPacket
 		writeD(0x00);
 		writeD(0x00);// Unknown9 (GOD)
 		writeC(0x00);// Unknown10 (GOD)
-
 		if (_aveList != null)
 		{
 			writeD(_aveList.size());
@@ -362,7 +358,6 @@ public class CharInfo extends L2GameServerPacket
 		{
 			writeD(0x00);
 		}
-
 		writeC(0x00); // Tauti
 
 	}

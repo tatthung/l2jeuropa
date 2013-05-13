@@ -4272,27 +4272,34 @@ public abstract class Creature extends GameObject
 	 */
 	protected boolean needStatusUpdate()
 	{
-		if (!isVisible())
+		if(!isVisible() || !displayHpBar())
 		{
 			return false;
 		}
+		
 		boolean result = false;
 		int bar;
+		
 		bar = (int) ((getCurrentHp() * CLIENT_BAR_SIZE) / getMaxHp());
+		
 		if ((bar == 0) || (bar != _lastHpBarUpdate))
 		{
 			_lastHpBarUpdate = bar;
 			result = true;
 		}
+		
 		bar = (int) ((getCurrentMp() * CLIENT_BAR_SIZE) / getMaxMp());
+		
 		if ((bar == 0) || (bar != _lastMpBarUpdate))
 		{
 			_lastMpBarUpdate = bar;
 			result = true;
 		}
+		
 		if (isPlayer())
 		{
 			bar = (int) ((getCurrentCp() * CLIENT_BAR_SIZE) / getMaxCp());
+
 			if ((bar == 0) || (bar != _lastCpBarUpdate))
 			{
 				_lastCpBarUpdate = bar;

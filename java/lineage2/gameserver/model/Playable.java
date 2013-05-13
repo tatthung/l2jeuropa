@@ -49,10 +49,6 @@ import lineage2.gameserver.templates.item.WeaponTemplate;
 import lineage2.gameserver.templates.item.WeaponTemplate.WeaponType;
 import lineage2.gameserver.utils.Location;
 
-/**
- * @author Mobius
- * @version $Revision: 1.0 $
- */
 public abstract class Playable extends Creature
 {
 	/**
