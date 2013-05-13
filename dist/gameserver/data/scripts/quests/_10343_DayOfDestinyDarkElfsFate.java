@@ -5,6 +5,8 @@ import lineage2.gameserver.scripts.ScriptFile;
 
 public class _10343_DayOfDestinyDarkElfsFate extends SagasSuperclass implements ScriptFile 
 {
+	private int questId = 10343;
+
 	@Override
 	public void onLoad()
 	{
@@ -29,4 +31,11 @@ public class _10343_DayOfDestinyDarkElfsFate extends SagasSuperclass implements 
 
 		init();
 	}
+	
+	@Override
+	public int questId()
+	{
+		return questId;
+	}
+
 }

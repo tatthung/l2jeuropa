@@ -179,6 +179,10 @@ public abstract class SagasSuperclass extends Quest
 	{
 		String htmltext = event;
 		Player player = st.getPlayer();
+		player.sendMessage("Cond:" + st.getCond() +" "+ st.getQuest().getQuestIntId() +" "+  questId());
+		
+		
+		
 
 		if(event.equalsIgnoreCase(StartNPC + "-5.htm"))
 		{
@@ -388,9 +392,9 @@ public abstract class SagasSuperclass extends Quest
 			// init second stand
 			// init waves
 			st.startQuestTimer("8", 30000);
+			st.setCond(11);
 			player.sendPacket(new ExShowScreenMessage(NpcString.CREATURES_RESURECTED_DEFEND_YOURSELF, 10000, ScreenMessageAlign.MIDDLE_CENTER, true));
 			initWave7(player);
-			st.setCond(11);
 			return null;
 		}
 
@@ -759,6 +763,7 @@ public abstract class SagasSuperclass extends Quest
 						if(p == null) // maybe left the instance
 							continue;
 						QuestState st = findQuest(p);
+						p.sendMessage("OnDeath:" + st.getCond() + st.getQuest().getQuestIntId() );
 						onKill(npc, st);
 					}
 				}
@@ -939,22 +944,21 @@ public abstract class SagasSuperclass extends Quest
 		return true;
 	}
 
-	public static QuestState findQuest(Player player)
+	public QuestState findQuest(Player player)
 	{
 		QuestState st = null;
-		for(Integer q : Quests.keySet())
+		st = player.getQuestState(Quests.get(questId()));
+		if(st != null)
 		{
-			st = player.getQuestState(Quests.get(q));
-			if(st != null)
-			{
-				int[] qc = QuestRace[q - 10341];
-				for(int c : qc)
-				{
-					if(player.getRace().ordinal() == c)
-						return st;
-				}
-			}
+			return st;
 		}
+		if (player.isGM())
+			player.sendMessage("Errore findQuest");
 		return null;
+	}
+	
+	public int questId()
+	{
+		return 0;
 	}
 }

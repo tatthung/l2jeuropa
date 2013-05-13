@@ -5,6 +5,8 @@ import lineage2.gameserver.scripts.ScriptFile;
 
 public class _10342_DayOfDestinyElvenFate extends SagasSuperclass implements ScriptFile 
 {
+	private int questId = 10342;
+	
 	@Override
 	public void onLoad()
 	{
@@ -29,4 +31,11 @@ public class _10342_DayOfDestinyElvenFate extends SagasSuperclass implements Scr
 
 		init();
 	}
+	
+	@Override
+	public int questId()
+	{
+		return questId;
+	}
+
 }

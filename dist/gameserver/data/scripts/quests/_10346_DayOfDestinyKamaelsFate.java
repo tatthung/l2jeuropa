@@ -5,6 +5,7 @@ import lineage2.gameserver.scripts.ScriptFile;
 
 public class _10346_DayOfDestinyKamaelsFate extends SagasSuperclass implements ScriptFile 
 {
+	private int questId = 10346;
 	@Override
 	public void onLoad()
 	{
@@ -29,4 +30,11 @@ public class _10346_DayOfDestinyKamaelsFate extends SagasSuperclass implements S
 
 		init();
 	}
+
+	@Override
+	public int questId()
+	{
+		return questId;
+	}
+
 }
