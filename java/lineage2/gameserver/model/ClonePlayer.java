@@ -29,15 +29,11 @@ import lineage2.gameserver.model.entity.events.GlobalEvent;
 import lineage2.gameserver.model.entity.events.impl.DuelEvent;
 import lineage2.gameserver.model.items.Inventory;
 import lineage2.gameserver.model.items.ItemInstance;
-import lineage2.gameserver.network.serverpackets.ActionFail;
 import lineage2.gameserver.network.serverpackets.AutoAttackStart;
 import lineage2.gameserver.network.serverpackets.CharInfo;
 import lineage2.gameserver.network.serverpackets.L2GameServerPacket;
-import lineage2.gameserver.network.serverpackets.MyTargetSelected;
 import lineage2.gameserver.network.serverpackets.PartySpelled;
 import lineage2.gameserver.network.serverpackets.RelationChanged;
-import lineage2.gameserver.network.serverpackets.StatusUpdate;
-import lineage2.gameserver.scripts.Events;
 import lineage2.gameserver.taskmanager.DecayTaskManager;
 import lineage2.gameserver.templates.item.WeaponTemplate;
 import lineage2.gameserver.templates.player.PlayerTemplate;
@@ -166,7 +162,7 @@ public class ClonePlayer extends Playable
 	 * @param player Player
 	 * @param shift boolean
 	 */
-	@Override
+/*	@Override
 	public void onAction(final Player player, boolean shift)
 	{
 		if (isFrozen())
@@ -219,7 +215,7 @@ public class ClonePlayer extends Playable
 				player.sendActionFailed();
 			}
 		}
-	}
+	}*/
 	
 	/**
 	 * Method onDeath.

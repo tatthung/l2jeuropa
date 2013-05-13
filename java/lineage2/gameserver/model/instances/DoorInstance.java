@@ -24,7 +24,6 @@ import lineage2.commons.threading.RunnableImpl;
 import lineage2.commons.util.Rnd;
 import lineage2.gameserver.Config;
 import lineage2.gameserver.ThreadPoolManager;
-import lineage2.gameserver.ai.CtrlIntention;
 import lineage2.gameserver.ai.DoorAI;
 import lineage2.gameserver.geodata.GeoCollision;
 import lineage2.gameserver.geodata.GeoEngine;
@@ -37,16 +36,11 @@ import lineage2.gameserver.model.entity.events.impl.DominionSiegeEvent;
 import lineage2.gameserver.model.entity.events.impl.SiegeEvent;
 import lineage2.gameserver.model.items.ItemInstance;
 import lineage2.gameserver.network.serverpackets.L2GameServerPacket;
-import lineage2.gameserver.network.serverpackets.MyTargetSelected;
 import lineage2.gameserver.network.serverpackets.StaticObject;
-import lineage2.gameserver.network.serverpackets.ValidateLocation;
-import lineage2.gameserver.scripts.Events;
 import lineage2.gameserver.templates.DoorTemplate;
 import lineage2.gameserver.templates.item.WeaponTemplate;
 
 /**
- * @author Mobius
- * @version $Revision: 1.0 $
  */
 public final class DoorInstance extends Creature implements GeoCollision
 {
@@ -55,6 +49,11 @@ public final class DoorInstance extends Creature implements GeoCollision
 	 */
 	private static final long serialVersionUID = 1L;
 	
+	@Override
+	public void onInteract(final Player player)
+	{
+		getAI().onEvtTwiceClick(player);
+	}
 	/**
 	 * @author Mobius
 	 */
@@ -314,69 +313,24 @@ public final class DoorInstance extends Creature implements GeoCollision
 	{
 		return null;
 	}
-	
-	/**
-	 * Method onAction.
-	 * @param player Player
-	 * @param shift boolean
-	 */
-	@Override
-	public void onAction(Player player, boolean shift)
-	{
-		if (Events.onAction(player, this, shift))
-		{
-			return;
-		}
-		if (this != player.getTarget())
-		{
-			player.setTarget(this);
-			player.sendPacket(new MyTargetSelected(getObjectId(), player.getLevel()));
-			if (isAutoAttackable(player))
-			{
-				player.sendPacket(new StaticObject(this, player));
-			}
-			player.sendPacket(new ValidateLocation(this));
-		}
-		else
-		{
-			player.sendPacket(new MyTargetSelected(getObjectId(), 0));
-			if (isAutoAttackable(player))
-			{
-				player.getAI().Attack(this, false, shift);
-				return;
-			}
-			if (!isInRange(player, INTERACTION_DISTANCE))
-			{
-				if (player.getAI().getIntention() != CtrlIntention.AI_INTENTION_INTERACT)
-				{
-					player.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, this, null);
-				}
-				return;
-			}
-			getAI().onEvtTwiceClick(player);
-		}
-	}
-	
-	/**
-	 * Method getAI.
-	 * @return DoorAI
-	 */
+
 	@Override
 	public DoorAI getAI()
 	{
-		if (_ai == null)
+		if(_ai == null)
 		{
-			synchronized (this)
+			synchronized(this)
 			{
-				if (_ai == null)
+				if(_ai == null)
 				{
 					_ai = getTemplate().getNewAI(this);
 				}
 			}
 		}
+
 		return (DoorAI) _ai;
 	}
-	
+
 	/**
 	 * Method broadcastStatusUpdate.
 	 */
@@ -832,5 +786,11 @@ public final class DoorInstance extends Creature implements GeoCollision
 	public int getKey()
 	{
 		return getTemplate().getKey();
+	}
+
+	@Override
+	public boolean displayHpBar()
+	{
+		return getTemplate().isHPVisible();
 	}
 }

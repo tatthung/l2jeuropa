@@ -2321,7 +2321,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 					{
 						return null;
 					}
-					if (pcTarget.getKarma() < 0)
+					if (pcTarget.isChaotic())
 					{
 						return null;
 					}
@@ -2379,7 +2379,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 				{
 					return SystemMsg.INVALID_TARGET;
 				}
-				if (pcTarget.getKarma() < 0)
+				if (pcTarget.isChaotic())
 				{
 					return SystemMsg.INVALID_TARGET;
 				}

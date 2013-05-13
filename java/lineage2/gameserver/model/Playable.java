@@ -998,4 +998,16 @@ public abstract class Playable extends Creature
 	{
 		_inBoatPosition = loc;
 	}
+
+	@Override
+	public void onInteract(final Player player)
+	{
+		player.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, this, Config.FOLLOW_RANGE);
+	}
+
+	@Override
+	public boolean displayHpBar()
+	{
+		return true;
+	}
 }

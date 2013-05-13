@@ -557,6 +557,7 @@ public abstract class Effect extends RunnableImpl implements Comparable<Effect>,
 		{
 			getEffected().getPlayer().getPlayerAccess().UseTeleport = false;
 		}
+		getEffected().broadcastEffectsStatusToListeners();
 	}
 	
 	/**
@@ -614,6 +615,7 @@ public abstract class Effect extends RunnableImpl implements Comparable<Effect>,
 				}
 			}
 		}
+		getEffected().broadcastEffectsStatusToListeners();
 	}
 	
 	/**

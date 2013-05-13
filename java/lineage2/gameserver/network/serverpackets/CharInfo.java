@@ -17,16 +17,12 @@ import lineage2.gameserver.utils.Location;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/*
- * 410 protocol:
- * dddddSddddddddddddddddddddddddhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhddddddddddddddddddffffdddSddddccccccch
- */
 public class CharInfo extends L2GameServerPacket
 {
 	private static final Logger _log = LoggerFactory.getLogger(CharInfo.class);
 
 	private int[][] _inv;
-	private int _mAtkSpd, _pAtkSpd;
+	private int _mAtkSpd, _pAtkSpd, mevasion, maccuracy, mCritRate;
 	private int _runSpd, _walkSpd, _swimSpd, _flRunSpd, _flWalkSpd, _flyRunSpd, _flyWalkSpd;
 	private Location _loc, _fishLoc;
 	private String _name, _title;
@@ -149,6 +145,10 @@ public class CharInfo extends L2GameServerPacket
 
 		_mAtkSpd = player.getMAtkSpd();
 		_pAtkSpd = player.getPAtkSpd();
+		mevasion = player.getMEvasionRate(null);
+		maccuracy = player.getMAccuracy();
+		mCritRate = (int) player.getMagicCriticalRate(null, null);
+		
 		speed_move = player.getMovementSpeedMultiplier();
 		_runSpd = (int) (player.getRunSpeed() / speed_move);
 		_walkSpd = (int) (player.getWalkSpeed() / speed_move);
@@ -244,10 +244,14 @@ public class CharInfo extends L2GameServerPacket
 		writeD(base_class);
 
 		for (int PAPERDOLL_ID : PAPERDOLL_ORDER)
+		{
 			writeD(_inv[PAPERDOLL_ID][0]);
+		}
 
 		for (int PAPERDOLL_ID : PAPERDOLL_ORDER)
+		{
 			writeD(_inv[PAPERDOLL_ID][1]);
+		}
 
 		writeD(0x01); // TODO talisman count(VISTALL)
 		writeD(0x00); // TODO cloak status(VISTALL)

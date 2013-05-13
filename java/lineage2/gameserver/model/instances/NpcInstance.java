@@ -78,25 +78,20 @@ import lineage2.gameserver.model.quest.QuestEventType;
 import lineage2.gameserver.model.quest.QuestState;
 import lineage2.gameserver.network.serverpackets.AcquireSkillDone;
 import lineage2.gameserver.network.serverpackets.AcquireSkillList;
-import lineage2.gameserver.network.serverpackets.ActionFail;
 import lineage2.gameserver.network.serverpackets.AutoAttackStart;
 import lineage2.gameserver.network.serverpackets.ExChangeNpcState;
 import lineage2.gameserver.network.serverpackets.ExShowBaseAttributeCancelWindow;
 import lineage2.gameserver.network.serverpackets.ExShowVariationCancelWindow;
 import lineage2.gameserver.network.serverpackets.ExShowVariationMakeWindow;
 import lineage2.gameserver.network.serverpackets.L2GameServerPacket;
-import lineage2.gameserver.network.serverpackets.MyTargetSelected;
 import lineage2.gameserver.network.serverpackets.NpcHtmlMessage;
 import lineage2.gameserver.network.serverpackets.NpcInfo;
 import lineage2.gameserver.network.serverpackets.RadarControl;
 import lineage2.gameserver.network.serverpackets.SocialAction;
-import lineage2.gameserver.network.serverpackets.StatusUpdate;
 import lineage2.gameserver.network.serverpackets.SystemMessage2;
-import lineage2.gameserver.network.serverpackets.ValidateLocation;
 import lineage2.gameserver.network.serverpackets.components.CustomMessage;
 import lineage2.gameserver.network.serverpackets.components.NpcString;
 import lineage2.gameserver.network.serverpackets.components.SystemMsg;
-import lineage2.gameserver.scripts.Events;
 import lineage2.gameserver.stats.Stats;
 import lineage2.gameserver.tables.ClanTable;
 import lineage2.gameserver.tables.SkillTable;
@@ -1197,88 +1192,57 @@ public class NpcInstance extends Creature
 	 */
 	protected long _lastSocialAction;
 	
-	/**
-	 * Method onAction.
-	 * @param player Player
-	 * @param shift boolean
-	 */
 	@Override
-	public void onAction(Player player, boolean shift)
+	public void onActionSelect(final Player player, boolean forced)
 	{
-		if (!isTargetable())
+		if(isTargetable())
 		{
-			player.sendActionFailed();
-			return;
+			super.onActionSelect(player, forced);
 		}
-		if (player.getTarget() != this)
-		{
-			player.setTarget(this);
-			if (player.getTarget() == this)
-			{
-				player.sendPacket(new MyTargetSelected(getObjectId(), player.getLevel() - getLevel()), makeStatusUpdate(StatusUpdate.CUR_HP, StatusUpdate.MAX_HP));
-			}
-			player.sendPacket(new ValidateLocation(this), ActionFail.STATIC);
-			return;
-		}
-		if (Events.onAction(player, this, shift))
-		{
-			player.sendActionFailed();
-			return;
-		}
-		if (isAutoAttackable(player))
-		{
-			player.getAI().Attack(this, false, shift);
-			return;
-		}
-		if (!isInRange(player, INTERACTION_DISTANCE))
-		{
-			if (player.getAI().getIntention() != CtrlIntention.AI_INTENTION_INTERACT)
-			{
-				player.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, this, null);
-			}
-			return;
-		}
-		if (!Config.ALT_GAME_KARMA_PLAYER_CAN_SHOP && (player.getKarma() < 0) && !player.isGM() && !(this instanceof WarehouseInstance))
-		{
-			player.sendActionFailed();
-			return;
-		}
-		if ((!Config.ALLOW_TALK_WHILE_SITTING && player.isSitting()) || player.isAlikeDead())
+	}
+
+	@Override
+	public void onInteract(final Player player)
+	{
+		if(!Config.ALT_GAME_KARMA_PLAYER_CAN_SHOP && player.isChaotic() && !player.isGM() && !(this instanceof WarehouseInstance))
 		{
 			return;
 		}
-		if (hasRandomAnimation())
+
+		if(hasRandomAnimation())
 		{
 			onRandomAnimation();
 		}
-		player.sendActionFailed();
-		player.stopMove(false);
-		if (_isBusy)
+
+		if(_isBusy)
 		{
 			showBusyWindow(player);
 		}
-		else if (isHasChatWindow())
+		else if(isHasChatWindow())
 		{
 			boolean flag = false;
 			Quest[] qlst = getTemplate().getEventQuests(QuestEventType.NPC_FIRST_TALK);
-			if ((qlst != null) && (qlst.length > 0))
+
+			if((qlst != null) && (qlst.length > 0))
 			{
-				for (Quest element : qlst)
+				for(Quest element : qlst)
 				{
 					QuestState qs = player.getQuestState(element.getName());
-					if (((qs == null) || !qs.isCompleted()) && element.notifyFirstTalk(this, player))
+
+					if(((qs == null) || !qs.isCompleted()) && element.notifyFirstTalk(this, player))
 					{
 						flag = true;
 					}
 				}
 			}
-			if (!flag)
+
+			if(!flag)
 			{
 				showChatWindow(player, 0);
 			}
 		}
 	}
-	
+
 	/**
 	 * Method showQuestWindow.
 	 * @param player Player
@@ -2770,5 +2734,11 @@ public class NpcInstance extends Creature
 	public void setHasChatWindow(boolean hasChatWindow)
 	{
 		_hasChatWindow = hasChatWindow;
+	}
+
+	@Override
+	public boolean displayHpBar()
+	{
+		return getTemplate().isDisplayHpBar();
 	}
 }

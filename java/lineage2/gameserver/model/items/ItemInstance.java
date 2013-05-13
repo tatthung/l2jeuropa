@@ -734,24 +734,24 @@ public final class ItemInstance extends GameObject implements JdbcEntity
 		return template.isStackable();
 	}
 	
-	/**
-	 * Method onAction.
-	 * @param player Player
-	 * @param shift boolean
-	 */
 	@Override
-	public void onAction(Player player, boolean shift)
+	public void onActionSelect(final Player player, final boolean forced)
 	{
-		if (Events.onAction(player, this, shift))
+		if(Events.onAction(player, this, forced))
 		{
 			return;
 		}
-		
-		if (player.isCursedWeaponEquipped() && CursedWeaponsManager.getInstance().isCursed(itemId))
+
+		if(player.isAlikeDead())
 		{
 			return;
 		}
-		
+
+		if(player.isCursedWeaponEquipped() && CursedWeaponsManager.getInstance().isCursed(itemId))
+		{
+			return;
+		}
+
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_PICK_UP, this, null);
 	}
 	

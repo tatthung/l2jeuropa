@@ -138,7 +138,7 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 							msg = new Logout();
 							break;
 						case 0x01:
-							msg = new AttackRequest();
+							msg = new AttackTargetAction();    // new AttackRequest();
 							break;
 						case 0x02:
 							break;
@@ -208,7 +208,7 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 						case 0x1e:
 							break;
 						case 0x1f:
-							msg = new Action();
+							msg = new SelectTargetAction();    // new Action();
 							break;
 						case 0x20:
 							break;

@@ -415,7 +415,7 @@ public class DominionSiegeEvent extends SiegeEvent<Dominion, SiegeClanObject>
 				return;
 			}
 			QuestState questState = protectCatapultQuest.newQuestStateAndNotSave(player, Quest.CREATED);
-			questState.setCond(1, false);
+			questState.setCond(1);
 			questState.setStateAndNotSave(Quest.STARTED);
 		}
 		else

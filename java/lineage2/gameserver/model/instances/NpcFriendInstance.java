@@ -15,13 +15,8 @@ package lineage2.gameserver.model.instances;
 import java.util.StringTokenizer;
 
 import lineage2.gameserver.Config;
-import lineage2.gameserver.ai.CtrlIntention;
 import lineage2.gameserver.model.Player;
-import lineage2.gameserver.network.serverpackets.MyTargetSelected;
 import lineage2.gameserver.network.serverpackets.NpcHtmlMessage;
-import lineage2.gameserver.network.serverpackets.StatusUpdate;
-import lineage2.gameserver.network.serverpackets.ValidateLocation;
-import lineage2.gameserver.scripts.Events;
 import lineage2.gameserver.tables.SkillTable;
 import lineage2.gameserver.templates.npc.NpcTemplate;
 import lineage2.gameserver.utils.WarehouseFunctions;
@@ -47,65 +42,30 @@ public final class NpcFriendInstance extends MerchantInstance
 		super(objectId, template);
 	}
 	
-	/**
-	 * Method onAction.
-	 * @param player Player
-	 * @param shift boolean
-	 */
 	@Override
-	public void onAction(Player player, boolean shift)
+	public void onInteract(final Player player)
 	{
-		if (this != player.getTarget())
-		{
-			player.setTarget(this);
-			player.sendPacket(new MyTargetSelected(getObjectId(), player.getLevel() - getLevel()), new ValidateLocation(this));
-			if (isAutoAttackable(player))
-			{
-				player.sendPacket(makeStatusUpdate(StatusUpdate.CUR_HP, StatusUpdate.MAX_HP));
-			}
-			player.sendActionFailed();
-			return;
-		}
-		player.sendPacket(new MyTargetSelected(getObjectId(), player.getLevel() - getLevel()));
-		if (Events.onAction(player, this, shift))
+		if(!Config.ALT_GAME_KARMA_PLAYER_CAN_SHOP && (player.isChaotic()) && !player.isGM())
 		{
 			return;
 		}
-		if (isAutoAttackable(player))
-		{
-			player.getAI().Attack(this, false, shift);
-			return;
-		}
-		if (!isInRange(player, INTERACTION_DISTANCE))
-		{
-			if (player.getAI().getIntention() != CtrlIntention.AI_INTENTION_INTERACT)
-			{
-				player.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, this, null);
-			}
-			return;
-		}
-		if (!Config.ALT_GAME_KARMA_PLAYER_CAN_SHOP && (player.getKarma() < 0) && !player.isGM())
-		{
-			player.sendActionFailed();
-			return;
-		}
-		if ((!Config.ALLOW_TALK_WHILE_SITTING && player.isSitting()) || player.isAlikeDead())
-		{
-			return;
-		}
-		if (hasRandomAnimation())
+
+		if(hasRandomAnimation())
 		{
 			onRandomAnimation();
 		}
-		player.sendActionFailed();
+
 		String filename = "";
-		if (((getNpcId() >= 31370) && (getNpcId() <= 31376) && (player.getVarka() > 0)) || ((getNpcId() >= 31377) && (getNpcId() < 31384) && (player.getKetra() > 0)))
+
+		if(((getNpcId() >= 31370) && (getNpcId() <= 31376) && (player.getVarka() > 0)) || ((getNpcId() >= 31377) && (getNpcId() < 31384) && (player.getKetra() > 0)))
 		{
 			filename = "npc_friend/" + getNpcId() + "-nofriend.htm";
+
 			showChatWindow(player, filename);
 			return;
 		}
-		switch (getNpcId())
+
+		switch(getNpcId())
 		{
 			case 31370:
 			case 31371:
@@ -118,7 +78,7 @@ public final class NpcFriendInstance extends MerchantInstance
 				filename = "npc_friend/" + getNpcId() + ".htm";
 				break;
 			case 31372:
-				if (player.getKetra() > 2)
+				if(player.getKetra() > 2)
 				{
 					filename = "npc_friend/" + getNpcId() + "-bufflist.htm";
 				}
@@ -126,9 +86,10 @@ public final class NpcFriendInstance extends MerchantInstance
 				{
 					filename = "npc_friend/" + getNpcId() + ".htm";
 				}
+
 				break;
 			case 31379:
-				if (player.getVarka() > 2)
+				if(player.getVarka() > 2)
 				{
 					filename = "npc_friend/" + getNpcId() + "-bufflist.htm";
 				}
@@ -136,9 +97,10 @@ public final class NpcFriendInstance extends MerchantInstance
 				{
 					filename = "npc_friend/" + getNpcId() + ".htm";
 				}
+
 				break;
 			case 31374:
-				if (player.getKetra() > 1)
+				if(player.getKetra() > 1)
 				{
 					filename = "npc_friend/" + getNpcId() + "-warehouse.htm";
 				}
@@ -146,9 +108,10 @@ public final class NpcFriendInstance extends MerchantInstance
 				{
 					filename = "npc_friend/" + getNpcId() + ".htm";
 				}
+
 				break;
 			case 31381:
-				if (player.getVarka() > 1)
+				if(player.getVarka() > 1)
 				{
 					filename = "npc_friend/" + getNpcId() + "-warehouse.htm";
 				}
@@ -156,13 +119,14 @@ public final class NpcFriendInstance extends MerchantInstance
 				{
 					filename = "npc_friend/" + getNpcId() + ".htm";
 				}
+
 				break;
 			case 31375:
-				if ((player.getKetra() == 3) || (player.getKetra() == 4))
+				if((player.getKetra() == 3) || (player.getKetra() == 4))
 				{
 					filename = "npc_friend/" + getNpcId() + "-special1.htm";
 				}
-				else if (player.getKetra() == 5)
+				else if(player.getKetra() == 5)
 				{
 					filename = "npc_friend/" + getNpcId() + "-special2.htm";
 				}
@@ -170,13 +134,14 @@ public final class NpcFriendInstance extends MerchantInstance
 				{
 					filename = "npc_friend/" + getNpcId() + ".htm";
 				}
+
 				break;
 			case 31382:
-				if ((player.getVarka() == 3) || (player.getVarka() == 4))
+				if((player.getVarka() == 3) || (player.getVarka() == 4))
 				{
 					filename = "npc_friend/" + getNpcId() + "-special1.htm";
 				}
-				else if (player.getVarka() == 5)
+				else if(player.getVarka() == 5)
 				{
 					filename = "npc_friend/" + getNpcId() + "-special2.htm";
 				}
@@ -184,13 +149,14 @@ public final class NpcFriendInstance extends MerchantInstance
 				{
 					filename = "npc_friend/" + getNpcId() + ".htm";
 				}
+
 				break;
 			case 31376:
-				if (player.getKetra() == 4)
+				if(player.getKetra() == 4)
 				{
 					filename = "npc_friend/" + getNpcId() + "-normal.htm";
 				}
-				else if (player.getKetra() == 5)
+				else if(player.getKetra() == 5)
 				{
 					filename = "npc_friend/" + getNpcId() + "-special.htm";
 				}
@@ -198,13 +164,14 @@ public final class NpcFriendInstance extends MerchantInstance
 				{
 					filename = "npc_friend/" + getNpcId() + ".htm";
 				}
+
 				break;
 			case 31383:
-				if (player.getVarka() == 4)
+				if(player.getVarka() == 4)
 				{
 					filename = "npc_friend/" + getNpcId() + "-normal.htm";
 				}
-				else if (player.getVarka() == 5)
+				else if(player.getVarka() == 5)
 				{
 					filename = "npc_friend/" + getNpcId() + "-special.htm";
 				}
@@ -212,13 +179,14 @@ public final class NpcFriendInstance extends MerchantInstance
 				{
 					filename = "npc_friend/" + getNpcId() + ".htm";
 				}
+
 				break;
 			case 31555:
-				if (player.getRam() == 1)
+				if(player.getRam() == 1)
 				{
 					filename = "npc_friend/" + getNpcId() + "-special1.htm";
 				}
-				else if (player.getRam() == 2)
+				else if(player.getRam() == 2)
 				{
 					filename = "npc_friend/" + getNpcId() + "-special2.htm";
 				}
@@ -226,9 +194,10 @@ public final class NpcFriendInstance extends MerchantInstance
 				{
 					filename = "npc_friend/" + getNpcId() + ".htm";
 				}
+
 				break;
 			case 31556:
-				if (player.getRam() == 2)
+				if(player.getRam() == 2)
 				{
 					filename = "npc_friend/" + getNpcId() + "-bufflist.htm";
 				}
@@ -237,6 +206,7 @@ public final class NpcFriendInstance extends MerchantInstance
 					filename = "npc_friend/" + getNpcId() + ".htm";
 				}
 		}
+
 		showChatWindow(player, filename);
 	}
 	
