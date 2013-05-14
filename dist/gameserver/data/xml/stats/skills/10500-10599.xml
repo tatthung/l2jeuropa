@@ -196,7 +196,7 @@
         <set name="elementPower" val="#elementPower"/>
         <set name="element" val="#element"/>
         <set name="relationSkillsId" val="30;409;410;321;190;"/>
-        <set name="dmgDirectlyToHp" val="true"/>
+        <set name="directHp" val="true"/>
         <set name="effectRange" val="400"/>
         <set name="nextAction" val="attack"/>
         <set name="operateType" val="OP_ACTIVE"/>
