@@ -1477,8 +1477,9 @@
     <!-- Equalizes your HP with summoned servitors' HP. -->
 		<set name="mpConsume" val="63"/>
 		<set name="power" val="1000"/>
-		<set name="target" val="TARGET_PET"/>
+		<set name="target" val="TARGET_SUMMON_AURA"/>
 		<set name="skillRadius" val="1000"/>
+		<set name="effectPoint" val="398"/>
 		<set name="reuseDelay" val="30000"/>
 		<set name="hitTime" val="5200"/>
 		<set name="magicLvl" val="91"/>
