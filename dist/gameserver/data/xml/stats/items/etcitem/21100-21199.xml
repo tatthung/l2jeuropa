@@ -253,6 +253,14 @@
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="22183" level="1"/>
+		</skills>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
 	</etcitem>
 	<etcitem id="21149" name="Transformation Scroll: Dragon Master Karin">
 		<set name="icon" value="icon.etc_scroll_white_i00"/>
@@ -262,6 +270,14 @@
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="22184" level="1"/>
+		</skills>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
 	</etcitem>
 	<etcitem id="21151" name="Shiny Lighting">
 		<set name="icon" value="BranchSys2.icon.br_aga_singer_dancer_i00"/>

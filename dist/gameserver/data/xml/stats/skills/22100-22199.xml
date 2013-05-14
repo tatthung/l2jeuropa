@@ -1136,18 +1136,60 @@
 		<set name="operateType" val="OP_ACTIVE"/>
 	</skill>
 	<skill id="22183" levels="1" name="Dragon Master Lee Transformation Scroll">
-    <!-- Transformed into Dragon Master Lee. -->
-		<set name="icon" val="icon.skilltransform1"/>
-		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE"/>
+	<!-- Transformed into Dragon Master Lee. -->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skilltransform2"/>
+    	<set name="itemConsumeId" val="21148"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="TRANSFORMATION"/>
+		<set name="addSkills" val="580;3;581;3;582;3;583;3;619;1;5491;1"/>
+		<set name="npcId" val="134"/>
 		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Transformation" time="3600" val="20005">
+				<set order="0x40" stat="STR" val="41"/>
+				<set order="0x40" stat="DEX" val="31"/>
+				<set order="0x40" stat="CON" val="33"/>
+				<set order="0x40" stat="INT" val="29"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22184" levels="1" name="Dragon Master Karin Transformation Scroll">
-    <!-- Transformed into Dragon Master Karin. -->
-		<set name="icon" val="icon.skilltransform1"/>
-		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE"/>
+	<!-- Transformed into Dragon Master Karin. -->
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skilltransform2"/>
+		<set name="itemConsumeId" val="21149"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="TRANSFORMATION"/>
+		<set name="addSkills" val="580;3;581;3;582;3;583;3;619;1;5491;1"/>
+		<set name="npcId" val="135"/>
 		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Transformation" time="3600" val="20006">
+				<set order="0x40" stat="STR" val="41"/>
+				<set order="0x40" stat="DEX" val="31"/>
+				<set order="0x40" stat="CON" val="33"/>
+				<set order="0x40" stat="INT" val="29"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22185" levels="1" name="Shiny Lighting">
     <!-- Lighting shines brightly above the character's head. -->
