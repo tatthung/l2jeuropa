@@ -2215,9 +2215,10 @@ public abstract class Creature extends GameObject
 			{
 				sendPacket(Msg.SUMMON_A_PET);
 			}
-			else if (!skill.isHandler() || skill.isAlterSkill())
+			else if (!skill.isHandler())
 			{
-				sendPacket(new SystemMessage(SystemMessage.YOU_USE_S1).addSkillName(magicId, level));
+				if (!skill.isAlterSkill())
+					sendPacket(new SystemMessage(SystemMessage.YOU_USE_S1).addSkillName(magicId, level));
 			}
 			else
 			{
