@@ -4602,20 +4602,23 @@ public final class Player extends Playable implements PlayerGroup
 				breakFakeDeath();
 			}
 		}
-		if (!directHp && (getCurrentCp() > 0))
+		if (attacker.isPlayable())
 		{
-			double cp = getCurrentCp();
-			if (cp >= damage)
+			if (!directHp && (getCurrentCp() > 0))
 			{
-				cp -= damage;
-				damage = 0;
+				double cp = getCurrentCp();
+				if (cp >= damage)
+				{
+					cp -= damage;
+					damage = 0;
+				}
+				else
+				{
+					damage -= cp;
+					cp = 0;
+				}
+				setCurrentCp(cp);
 			}
-			else
-			{
-				damage -= cp;
-				cp = 0;
-			}
-			setCurrentCp(cp);
 		}
 		double hp = getCurrentHp();
 		DuelEvent duelEvent = getEvent(DuelEvent.class);
