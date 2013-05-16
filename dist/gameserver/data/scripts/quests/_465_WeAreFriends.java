@@ -24,15 +24,15 @@ import lineage2.gameserver.utils.Location;
 public class _465_WeAreFriends extends Quest implements ScriptFile
 {
 	public static final int FEYA_STARTER = 32921;
-	public static final int COCON = 33147;
-	public static final int HUGE_COCON = 33148;
+	public static final int COCON = 32919;
+	public static final int HUGE_COCON = 32920;
 	public static final int SIGN_OF_GRATITUDE = 17377;
 	private static NpcInstance npcFeya = null;
 	
 	public _465_WeAreFriends()
 	{
 		super(true);
-		addStartNpc(32921);
+		addStartNpc(FEYA_STARTER);
 		addTalkId(new int[]
 		{
 			32922
@@ -43,15 +43,15 @@ public class _465_WeAreFriends extends Quest implements ScriptFile
 		});
 		addKillId(new int[]
 		{
-			33147
+			COCON
 		});
 		addKillId(new int[]
 		{
-			33148
+			HUGE_COCON
 		});
 		addQuestItem(new int[]
 		{
-			17377
+			SIGN_OF_GRATITUDE
 		});
 		addLevelCheck(90, 99);
 	}
@@ -147,7 +147,7 @@ public class _465_WeAreFriends extends Quest implements ScriptFile
 		int npcId = npc.getNpcId();
 		int state = st.getState();
 		int cond = st.getCond();
-		if (npcId == 32921)
+		if (npcId == FEYA_STARTER)
 		{
 			if (state == 1)
 			{

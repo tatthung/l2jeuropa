@@ -51,7 +51,7 @@ public class FairyCoconsInstance extends NpcInstance
 						NpcInstance ni = getReflection().addSpawnWithoutRespawn(little_simpleAttackMobs[Rnd.get(little_simpleAttackMobs.length)], getLoc(), 150);
 						ni.getAI().Attack(player, true, false);
 						this.decayMe();
-						this.doDie(null);
+						this.doDie(player);
 						break;
 					}
 					case 32920:
@@ -62,7 +62,7 @@ public class FairyCoconsInstance extends NpcInstance
 							ni.getAI().Attack(player, true, false);
 						}
 						this.decayMe();
-						this.doDie(null);
+						this.doDie(player);
 						break;
 					}
 				}
@@ -78,7 +78,7 @@ public class FairyCoconsInstance extends NpcInstance
 						NpcInstance ni = getReflection().addSpawnWithoutRespawn(little_skillAttackMobs[Rnd.get(little_skillAttackMobs.length)], getLoc(), 150);
 						ni.getAI().Attack(player, true, false);
 						this.decayMe();
-						this.doDie(null);
+						this.doDie(player);
 						break;
 					}
 					case 32920:
@@ -89,7 +89,7 @@ public class FairyCoconsInstance extends NpcInstance
 							ni.getAI().Attack(player, true, false);
 						}
 						this.decayMe();
-						this.doDie(null);
+						this.doDie(player);
 						break;
 					}
 				}
@@ -105,7 +105,7 @@ public class FairyCoconsInstance extends NpcInstance
 					NpcInstance ni = getReflection().addSpawnWithoutRespawn(little_nightAttackMobs[Rnd.get(little_nightAttackMobs.length)], getLoc(), 150);
 					ni.getAI().Attack(player, true, false);
 					this.decayMe();
-					this.doDie(null);
+					this.doDie(player);
 					break;
 				}
 				case 32920:
@@ -115,7 +115,7 @@ public class FairyCoconsInstance extends NpcInstance
 						NpcInstance ni = getReflection().addSpawnWithoutRespawn(big_nightAttackMobs[Rnd.get(big_nightAttackMobs.length)], getLoc(), 150);
 						ni.getAI().Attack(player, true, false);
 					}
-					this.doDie(null);
+					this.doDie(player);
 					this.decayMe();
 					break;
 				}
@@ -136,14 +136,14 @@ public class FairyCoconsInstance extends NpcInstance
 					NpcInstance ni = getReflection().addSpawnWithoutRespawn(little_simpleAttackMobs[Rnd.get(little_simpleAttackMobs.length)], getLoc(), 150);
 					ni.getAI().Attack(attacker, true, false);
 					this.decayMe();
-					this.doDie(null);
+					this.doDie(attacker);
 				}
 				else 
 				{
 					NpcInstance ni = getReflection().addSpawnWithoutRespawn(little_skillAttackMobs[Rnd.get(little_skillAttackMobs.length)], getLoc(), 150);
 					ni.getAI().Attack(attacker, true, false);
 					this.decayMe();
-					this.doDie(null);
+					this.doDie(attacker);
 				}
 			}
 			else if (skill == null)
@@ -154,7 +154,7 @@ public class FairyCoconsInstance extends NpcInstance
 					ni.getAI().Attack(attacker, true, false);
 				}
 				this.decayMe();
-				this.doDie(null);
+				this.doDie(attacker);
 			}
 			else 
 			{
@@ -164,7 +164,7 @@ public class FairyCoconsInstance extends NpcInstance
 					ni.getAI().Attack(attacker, true, false);
 				}
 				this.decayMe();
-				this.doDie(null);
+				this.doDie(attacker);
 			
 			}
 		}
@@ -173,7 +173,7 @@ public class FairyCoconsInstance extends NpcInstance
 			NpcInstance ni = getReflection().addSpawnWithoutRespawn(little_nightAttackMobs[Rnd.get(little_nightAttackMobs.length)], getLoc(), 150);
 			ni.getAI().Attack(attacker, true, false);
 			this.decayMe();
-			this.doDie(null);
+			this.doDie(attacker);
 		}
 		else
 		{
@@ -183,7 +183,7 @@ public class FairyCoconsInstance extends NpcInstance
 				ni.getAI().Attack(attacker, true, false);
 			}
 			this.decayMe();
-			this.doDie(null);
+			this.doDie(attacker);
 		}
 	}
 }
