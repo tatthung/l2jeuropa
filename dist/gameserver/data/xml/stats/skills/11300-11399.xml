@@ -372,20 +372,11 @@
 		<set name="magicLevel" val="85"/>
 		<set name="magicType" val="MAGIC"/>
 		<set name="icon" val="icon.skill11316"/>
-		<table name="#SummonMinCount">1900</table>
-		<table name="#SummonMaxCount">1900</table>
-		<table name="#OreConsume">1</table>
-		<table name="#mpConsume2">400</table>
-		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="mpConsume2" val="398"/>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="RESTORATION"/>
 		<set name="isHandler" val="true"/>
 		<set name="operateType" val="OP_ACTIVE"/>
-		<set name="itemConsumeId" val="17371"/>
-		<set name="SummonItemId" val="20332"/>
-		<set name="itemConsumeCount" val="#OreConsume"/>
-		<set name="SummonMinCount" val="#SummonMinCount"/>
-		<set name="SummonMaxCount" val="#SummonMaxCount"/>
 	</skill>
 	<skill id="11317" levels="8" name="Servitor Group Heal">
     <!-- Restores all servitors' HP by 1191. Not Used. -->

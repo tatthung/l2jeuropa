@@ -69,6 +69,12 @@ public class _10338_SeizeYourDestiny extends Quest implements ScriptFile
 				}
 				else
 				{
+					//If a DualClass Not Awakened Yet try to do the quest reset it.
+					//TODO: Check if better put this quest as repeatable by simply add more start condition or leave as this
+					if (player.getSubClassList().isDoubleClassActive() && player.getClassLevel() == 4)
+					{
+						qs.exitCurrentQuest(true);
+					}
 					switch (cond)
 					{
 						case 0:
