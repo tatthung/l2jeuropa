@@ -256,17 +256,34 @@
 				<sub order="0x40" stat="paralyzeResist" val="#vuln"/>
 			</for>
    </skill>
-    <skill id="11256" levels="8" name="Summon Armored Bear">
-    <!-- Summons a fearless Armored Bear from the fairy dimension. Consumes 3 summon points. -->
+    <skill id="11256" levels="8" name="Summon Cute Bear">
+    <!--1	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points.
+		2	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points.
+		3	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points.
+		4	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points.
+		5	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points.
+		6	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points.
+		7	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points.
+		8	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points.
+		101	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 1 Power
+		102	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 2 Power
+		103	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 3 Power
+		104	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 4 Power
+		105	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 5 Power
+		106	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 6 Power
+		107	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 7 Power
+		108	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 8 Power
+		109	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 9 Power
+		110	Summon Cute Bear	Summons a fearless Cute Bear from the fairy dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 10 Power-->
         <table name="#lifeTime">3600 3600 3600 3600 3600 3600 3600 3600</table>
         <table name="#magicLevel">85 86 87 88 89 90 91 92</table>
         <table name="#mpConsume2">351 361 376 391 406 421 436 456</table>
-        <table name="#npcIds">14947 14948 14949 14950 14951 14952 14953 14971</table>
+        <table name="#npcIds">14929 14947 14948 14949 14950 14951 14952 14953</table>
         <set name="mpConsume2" val="#mpConsume2"/>
         <set name="reuseDelay" val="5000"/>
         <set name="hitTime" val="3800"/>
         <set name="castRange" val="1100"/>
-        <set name="summonPoint" val="3"/>
+        <set name="summonPoint" val="2"/>
         <set name="summonType" val="MULTI_SERVITOR"/>
         <set name="magicLevel" val="#magicLevel"/>
         <set name="target" val="TARGET_SELF"/>
@@ -279,7 +296,24 @@
         <for/>
     </skill>
     <skill id="11257" levels="8" name="Summon Saber Tooth Cougar">
-    <!-- Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points. -->
+    <!--1	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points.
+		2	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points.
+		3	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points.
+		4	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points.
+		5	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points.
+		6	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points.
+		7	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points.
+		8	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points.
+		101	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 1 Power
+		102	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 2 Power
+		103	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 3 Power
+		104	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 4 Power
+		105	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 5 Power
+		106	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 6 Power
+		107	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 7 Power
+		108	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 8 Power
+		109	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 9 Power
+		110	Summon Saber Tooth Cougar	Summons a dauntless Saber Tooth Cougar from the beast dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 10 Power-->
         <table name="#lifeTime">3600 3600 3600 3600 3600 3600 3600 3600</table>
         <table name="#magicLevel">85 86 87 88 89 90 91 92</table>
         <table name="#mpConsume2">351 361 376 391 406 421 436 456</table>
@@ -298,10 +332,26 @@
         <enchant1 levels="10" name="Power">
             <table name="#npcIds">15032 15033 15034 15035 15036 15037 15038 15039 15040 15041</table>
         </enchant1>
-        <for/>
     </skill>
-    <skill id="11258" levels="8" name="Summon Soul Reaper">
-    <!-- Summons a nefarious Soul Reaper from the demonic dimension. Consumes 2 summon points. -->
+    <skill id="11258" levels="8" name="Summon Grim Reaper">
+	<!--1	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points.
+		2	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points.
+		3	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points.
+		4	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points.
+		5	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points.
+		6	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points.
+		7	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points.
+		8	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points.
+		101	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 1 Power
+		102	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 2 Power
+		103	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 3 Power
+		104	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 4 Power
+		105	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 5 Power
+		106	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 6 Power
+		107	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 7 Power
+		108	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 8 Power
+		109	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 9 Power
+		110	Summon Grim Reaper	Summons a nefarious Grim Reaper from the demonic dimension. Consumes 2 summon points. Enchant Power: Increases the effect.	+ 10 Power-->
         <table name="#lifeTime">3600 3600 3600 3600 3600 3600 3600 3600</table>
         <table name="#magicLevel">85 86 87 88 89 90 91 92</table>
         <table name="#mpConsume2">351 361 376 391 406 421 436 456</table>
@@ -318,12 +368,11 @@
         <set name="skillType" val="SUMMON"/>
         <set name="isMagic" val="true"/>
         <set name="operateType" val="OP_ACTIVE"/>
-        <table name="#npcIds">14961 14962 14963 14964 14965 14966 14967 14973</table>
+		<table name="#npcIds">14931 14961 14962 14963 14964 14965 14966 14967</table>
         <set name="npcId" val="#npcIds"/>
         <enchant1 levels="10" name="Power">
             <table name="#npcIds">15042 15043 15044 15045 15046 15047 15048 15049 15050 15051</table>
         </enchant1>
-        <for/>
     </skill>
     <skill id="11259" levels="8" name="Mark of Weakness">
     <!-- Weakens the target for 10 seconds. Decreases 269 HP per second and decreases resistance to debuffs by 5%. -->
