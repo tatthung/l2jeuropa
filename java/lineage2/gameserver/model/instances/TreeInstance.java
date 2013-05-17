@@ -311,7 +311,7 @@ public class TreeInstance extends Summon
 	@Override
 	public int getSummonType()
 	{
-		return 0;
+		return 1;
 	}
 	
 	@Override
@@ -341,7 +341,7 @@ public class TreeInstance extends Summon
 	@Override
 	public int getSummonPoint()
 	{
-		return 1;
+		return 0;
 	}
 	
 	@Override
@@ -388,14 +388,5 @@ public class TreeInstance extends Summon
 	public boolean isServitor()
 	{
 		return true;
-	}
-	
-	@Override
-	public void onActionSelect(final Player player, boolean forced)
-	{
-		if(isTargetable())
-		{
-			super.onActionSelect(player, forced);
-		}
 	}
 }

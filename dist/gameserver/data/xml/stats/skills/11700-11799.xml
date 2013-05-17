@@ -632,7 +632,7 @@
 		<table name="#lifeTime">3600 3600 3600 3600</table>
 		<table name="#magicLevel">85 86 89 92</table>
 		<table name="#mpConsume2">96 106 117 127</table>
-		<table name="#npcid">14925</table>
+		<table name="#npcid">14925 14944 14945 14946</table>
 		<set name="lifeTime" val="#lifeTime"/>
 		<set name="target" val="TARGET_SELF"/>
 		<set name="skillType" val="SUMMON"/>
@@ -643,8 +643,7 @@
 		<set name="npcId" val="#npcid"/>
 		<set name="relationSkillsId" val="1360;1361;1359;1358;"/>
 		<enchant1 levels="10" name="Power">
-			<!--TODO: get npc ids-->
-			<table name="#npcid">14925 14925 14925 14925 14925 14925 14925 14925 14925 14925</table> <!--Need Npc Ids-->
+			<table name="#npcid">15000 15001 15002 15003 15004 15005 15006 15007 15008 15009</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant1>
 	</skill>

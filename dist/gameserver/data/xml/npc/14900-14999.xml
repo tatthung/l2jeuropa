@@ -1757,25 +1757,24 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<!--ru name: Целительный Свет-->
 	<npc id="14925" name="Unison of Lights" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="25682"/>
-		<set name="baseMpMax" value="1398.0"/>
+		<set name="baseHpMax" value="14011"/>
+		<set name="baseMpMax" value="1398"/>
 		<set name="baseHpReg" value="9.7"/>
 		<set name="baseMpReg" value="9.7"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="401"/>
-		<set name="baseMAtkSpd" value="522"/>
+		<set name="basePAtk" value="6263"/>
+		<set name="baseMAtk" value="3329"/>
+		<set name="basePDef" value="1268"/>
+		<set name="baseMDef" value="1231"/>
+		<set name="basePAtkSpd" value="398"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -1787,7 +1786,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="18.0"/>
 		<!--Npc specific-->
@@ -2163,25 +2162,24 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<!--ru name: Древо Жизни-->
 	<npc id="14933" name="Tree of Life" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="6342"/>
-		<set name="baseMpMax" value="1783.0"/>
+		<set name="baseHpMax" value="3460"/>
+		<set name="baseMpMax" value="1783"/>
 		<set name="baseHpReg" value="9.7"/>
 		<set name="baseMpReg" value="9.7"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="650"/>
-		<set name="baseMAtkSpd" value="976"/>
+		<set name="basePAtk" value="2"/>
+		<set name="baseMAtk" value="4"/>
+		<set name="basePDef" value="1673"/>
+		<set name="baseMDef" value="1497"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -2193,7 +2191,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="51.0"/>
 		<set name="collision_height" value="50.5"/>
 		<!--Npc specific-->
@@ -2319,9 +2317,8 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14936" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
@@ -2329,13 +2326,13 @@
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
 		<set name="baseHpMax" value="7189"/>
-		<set name="baseMpMax" value="1398.0"/>
+		<set name="baseMpMax" value="1398"/>
 		<set name="baseHpReg" value="9.7"/>
 		<set name="baseMpReg" value="9.7"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
+		<set name="basePAtk" value="1981"/>
+		<set name="baseMAtk" value="608"/>
+		<set name="basePDef" value="1268"/>
+		<set name="baseMDef" value="1231"/>
 		<set name="basePAtkSpd" value="299"/>
 		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
@@ -2349,7 +2346,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -2371,25 +2368,24 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14937" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="12986"/>
-		<set name="baseMpMax" value="1398.0"/>
+		<set name="baseHpMax" value="7291"/>
+		<set name="baseMpMax" value="1424"/>
 		<set name="baseHpReg" value="10.1"/>
 		<set name="baseMpReg" value="9.7"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="553"/>
-		<set name="baseMAtkSpd" value="720"/>
+		<set name="basePAtk" value="2051"/>
+		<set name="baseMAtk" value="635"/>
+		<set name="basePDef" value="1302"/>
+		<set name="baseMDef" value="1269"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -2401,7 +2397,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -2423,25 +2419,24 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14938" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="13544"/>
-		<set name="baseMpMax" value="1498.0"/>
+		<set name="baseHpMax" value="7605"/>
+		<set name="baseMpMax" value="1505"/>
 		<set name="baseHpReg" value="10.8"/>
 		<set name="baseMpReg" value="9.7"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="602"/>
-		<set name="baseMAtkSpd" value="913"/>
+		<set name="basePAtk" value="2281"/>
+		<set name="baseMAtk" value="718"/>
+		<set name="basePDef" value="1406"/>
+		<set name="baseMDef" value="1388"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -2453,7 +2448,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -2475,9 +2470,8 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14939" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
@@ -2485,15 +2479,15 @@
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
 		<set name="baseHpMax" value="7930"/>
-		<set name="baseMpMax" value="1548.0"/>
+		<set name="baseMpMax" value="1587"/>
 		<set name="baseHpReg" value="11.2"/>
 		<set name="baseMpReg" value="10.7"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="2534"/>
+		<set name="baseMAtk" value="811"/>
+		<set name="basePDef" value="1516"/>
+		<set name="baseMDef" value="1521"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -2505,7 +2499,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -2653,9 +2647,8 @@
 		</attributes>
 		<skills/>
 	</npc>
-	<!--ru name: Древо Жизни-->
 	<npc id="14943" name="Tree of Life" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
@@ -2663,19 +2656,19 @@
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
 		<set name="baseHpMax" value="3460"/>
-		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpMax" value="1783"/>
 		<set name="baseHpReg" value="8.5"/>
 		<set name="baseMpReg" value="3.0"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="650"/>
-		<set name="baseMAtkSpd" value="976"/>
+		<set name="basePAtk" value="2"/>
+		<set name="baseMAtk" value="5"/>
+		<set name="basePDef" value="1721"/>
+		<set name="baseMDef" value="1540"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
-		<set name="baseCritRate" value="40"/>
+		<set name="baseCritRate" value="47"/>
 		<set name="baseWalkSpd" value="1"/>
 		<set name="baseRunSpd" value="1"/>
 		<set name="rndDam" value="30"/>
@@ -2683,31 +2676,30 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="51.0"/>
 		<set name="collision_height" value="50.5"/>
 		<!--Npc specific-->
 		<set name="type" value="Npc"/>
 		<set name="ai_type" value="CharacterAI"/>
 		<set name="level" value="90"/>
-		<set name="baseHpRate" value="1.0"/>
+		<set name="baseHpRate" value="1.61051"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardSp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="aggroRange" value="0"/>
 		<set name="shots" value="NONE"/>
 		<attributes>
-			<defence attribute="fire" value="20"/>
-			<defence attribute="water" value="20"/>
-			<defence attribute="wind" value="20"/>
-			<defence attribute="earth" value="20"/>
-			<defence attribute="holy" value="20"/>
-			<defence attribute="unholy" value="20"/>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Огонек Гармонии-->
 	<npc id="14944" name="Unison of Lights" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
@@ -2715,19 +2707,19 @@
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
 		<set name="baseHpMax" value="14753"/>
-		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpMax" value="1531"/>
 		<set name="baseHpReg" value="8.5"/>
 		<set name="baseMpReg" value="3.0"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="646"/>
-		<set name="baseMAtkSpd" value="950"/>
+		<set name="basePAtk" value="7467"/>
+		<set name="baseMAtk" value="4085"/>
+		<set name="basePDef" value="1440"/>
+		<set name="baseMDef" value="1431"/>
+		<set name="basePAtkSpd" value="398"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
-		<set name="baseCritRate" value="40"/>
+		<set name="baseCritRate" value="47"/>
 		<set name="baseWalkSpd" value="50"/>
 		<set name="baseRunSpd" value="180"/>
 		<set name="rndDam" value="30"/>
@@ -2735,7 +2727,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="18.0"/>
 		<!--Npc specific-->
@@ -2749,17 +2741,16 @@
 		<set name="aggroRange" value="0"/>
 		<set name="shots" value="NONE"/>
 		<attributes>
-			<defence attribute="fire" value="20"/>
-			<defence attribute="water" value="20"/>
-			<defence attribute="wind" value="20"/>
-			<defence attribute="earth" value="20"/>
-			<defence attribute="holy" value="20"/>
-			<defence attribute="unholy" value="20"/>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Огонек Гармонии-->
 	<npc id="14945" name="Unison of Lights" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
@@ -2767,19 +2758,19 @@
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
 		<set name="baseHpMax" value="15730"/>
-		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpMax" value="1669"/>
 		<set name="baseHpReg" value="8.5"/>
 		<set name="baseMpReg" value="3.0"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="8899"/>
+		<set name="baseMAtk" value="5002"/>
+		<set name="basePDef" value="1635"/>
+		<set name="baseMDef" value="1666"/>
+		<set name="basePAtkSpd" value="398"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
-		<set name="baseCritRate" value="40"/>
+		<set name="baseCritRate" value="47"/>
 		<set name="baseWalkSpd" value="50"/>
 		<set name="baseRunSpd" value="180"/>
 		<set name="rndDam" value="30"/>
@@ -2787,7 +2778,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="18.0"/>
 		<!--Npc specific-->
@@ -2801,17 +2792,16 @@
 		<set name="aggroRange" value="0"/>
 		<set name="shots" value="NONE"/>
 		<attributes>
-			<defence attribute="fire" value="20"/>
-			<defence attribute="water" value="20"/>
-			<defence attribute="wind" value="20"/>
-			<defence attribute="earth" value="20"/>
-			<defence attribute="holy" value="20"/>
-			<defence attribute="unholy" value="20"/>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Огонек Гармонии-->
 	<npc id="14946" name="Unison of Lights" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
@@ -2819,19 +2809,19 @@
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
 		<set name="baseHpMax" value="16829"/>
-		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpMax" value="1780"/>
 		<set name="baseHpReg" value="8.5"/>
 		<set name="baseMpReg" value="3.0"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="10235"/>
+		<set name="baseMAtk" value="5881"/>
+		<set name="basePDef" value="1808"/>
+		<set name="baseMDef" value="1879"/>
+		<set name="basePAtkSpd" value="398"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
-		<set name="baseCritRate" value="40"/>
+		<set name="baseCritRate" value="47"/>
 		<set name="baseWalkSpd" value="50"/>
 		<set name="baseRunSpd" value="180"/>
 		<set name="rndDam" value="30"/>
@@ -2839,7 +2829,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="18.0"/>
 		<!--Npc specific-->
@@ -2853,12 +2843,12 @@
 		<set name="aggroRange" value="0"/>
 		<set name="shots" value="NONE"/>
 		<attributes>
-			<defence attribute="fire" value="20"/>
-			<defence attribute="water" value="20"/>
-			<defence attribute="wind" value="20"/>
-			<defence attribute="earth" value="20"/>
-			<defence attribute="holy" value="20"/>
-			<defence attribute="unholy" value="20"/>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
 	<npc id="14947" name="Cute Bear" title="">
@@ -4220,9 +4210,7 @@
 			<defence attribute="unholy" value="20"/>
 		</attributes>
 	</npc>
-	<!--ru name: Жнец Смерти-->
 	<npc id="14973" name="Grim Reaper" title="">
-		<!--Base character specific-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
@@ -4276,25 +4264,24 @@
 			<rhand item_id="30329"/>
 		</equip>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14974" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="15157"/>
-		<set name="baseMpMax" value="1601.0"/>
+		<set name="baseHpMax" value="8269"/>
+		<set name="baseMpMax" value="1669"/>
 		<set name="baseHpReg" value="11.7"/>
 		<set name="baseMpReg" value="11.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="2814"/>
+		<set name="baseMAtk" value="914"/>
+		<set name="basePDef" value="1635"/>
+		<set name="baseMDef" value="1666"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -4306,7 +4293,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -4328,25 +4315,24 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14975" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="12155"/>
-		<set name="baseMpMax" value="1771.0"/>
+		<set name="baseHpMax" value="8620"/>
+		<set name="baseMpMax" value="1754"/>
 		<set name="baseHpReg" value="13.1"/>
 		<set name="baseMpReg" value="11.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="3128"/>
+		<set name="baseMAtk" value="1034"/>
+		<set name="basePDef" value="1765"/>
+		<set name="baseMDef" value="1824"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -4358,7 +4344,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -4380,25 +4366,24 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14976" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="8741"/>
-		<set name="baseMpMax" value="1771.0"/>
+		<set name="baseHpMax" value="8620"/>
+		<set name="baseMpMax" value="1754"/>
 		<set name="baseHpReg" value="13.1"/>
 		<set name="baseMpReg" value="11.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="3128"/>
+		<set name="baseMAtk" value="1034"/>
+		<set name="basePDef" value="1765"/>
+		<set name="baseMDef" value="1824"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -4410,7 +4395,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -4432,25 +4417,24 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14977" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="16023"/>
-		<set name="baseMpMax" value="1800.0"/>
+		<set name="baseHpMax" value="8620"/>
+		<set name="baseMpMax" value="1754"/>
 		<set name="baseHpReg" value="13.1"/>
 		<set name="baseMpReg" value="11.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="3128"/>
+		<set name="baseMAtk" value="1034"/>
+		<set name="basePDef" value="1765"/>
+		<set name="baseMDef" value="1824"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -4462,7 +4446,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -4484,25 +4468,24 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14978" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="11976"/>
-		<set name="baseMpMax" value="1800.0"/>
+		<set name="baseHpMax" value="8620"/>
+		<set name="baseMpMax" value="1754"/>
 		<set name="baseHpReg" value="13.1"/>
 		<set name="baseMpReg" value="11.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="3128"/>
+		<set name="baseMAtk" value="1034"/>
+		<set name="basePDef" value="1765"/>
+		<set name="baseMDef" value="1824"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -4514,7 +4497,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -4536,25 +4519,24 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14979" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="16023"/>
-		<set name="baseMpMax" value="1800.0"/>
+		<set name="baseHpMax" value="8620"/>
+		<set name="baseMpMax" value="1754"/>
 		<set name="baseHpReg" value="13.1"/>
 		<set name="baseMpReg" value="11.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="3128"/>
+		<set name="baseMAtk" value="1034"/>
+		<set name="basePDef" value="1765"/>
+		<set name="baseMDef" value="1824"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -4566,7 +4548,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -4588,25 +4570,24 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14980" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="16250"/>
-		<set name="baseMpMax" value="1800.0"/>
+		<set name="baseHpMax" value="8620"/>
+		<set name="baseMpMax" value="1754"/>
 		<set name="baseHpReg" value="13.1"/>
 		<set name="baseMpReg" value="11.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="3128"/>
+		<set name="baseMAtk" value="1034"/>
+		<set name="basePDef" value="1765"/>
+		<set name="baseMDef" value="1824"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -4618,7 +4599,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -4640,25 +4621,24 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14981" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="16250"/>
-		<set name="baseMpMax" value="1800.0"/>
+		<set name="baseHpMax" value="8620"/>
+		<set name="baseMpMax" value="1754"/>
 		<set name="baseHpReg" value="13.1"/>
 		<set name="baseMpReg" value="11.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="3128"/>
+		<set name="baseMAtk" value="1034"/>
+		<set name="basePDef" value="1765"/>
+		<set name="baseMDef" value="1824"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -4670,7 +4650,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -4692,25 +4672,24 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14982" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="16250"/>
-		<set name="baseMpMax" value="2000.0"/>
-		<set name="baseHpReg" value="14.1"/>
+		<set name="baseHpMax" value="8620"/>
+		<set name="baseMpMax" value="1754"/>
+		<set name="baseHpReg" value="13.1"/>
 		<set name="baseMpReg" value="11.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="3128"/>
+		<set name="baseMAtk" value="1034"/>
+		<set name="basePDef" value="1765"/>
+		<set name="baseMDef" value="1824"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -4722,7 +4701,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -4744,25 +4723,24 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14983" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="15568"/>
-		<set name="baseMpMax" value="2000.0"/>
-		<set name="baseHpReg" value="14.1"/>
+		<set name="baseHpMax" value="8620"/>
+		<set name="baseMpMax" value="1754"/>
+		<set name="baseHpReg" value="13.1"/>
 		<set name="baseMpReg" value="11.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="3128"/>
+		<set name="baseMAtk" value="1034"/>
+		<set name="basePDef" value="1765"/>
+		<set name="baseMDef" value="1824"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -4774,7 +4752,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -4796,25 +4774,24 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14984" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="8741"/>
-		<set name="baseMpMax" value="2000.0"/>
-		<set name="baseHpReg" value="14.1"/>
+		<set name="baseHpMax" value="8620"/>
+		<set name="baseMpMax" value="1754"/>
+		<set name="baseHpReg" value="13.1"/>
 		<set name="baseMpReg" value="11.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="3128"/>
+		<set name="baseMAtk" value="1034"/>
+		<set name="basePDef" value="1765"/>
+		<set name="baseMDef" value="1824"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -4826,7 +4803,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
@@ -4848,25 +4825,24 @@
 			<defence attribute="unholy" value="100"/>
 		</attributes>
 	</npc>
-	<!--ru name: Золотой Лев-->
 	<npc id="14985" name="Golden Lion" title="">
-		<!--Base character specific-->
+		<!--GD Retail by Andreagighi-->
 		<set name="baseSTR" value="78"/>
 		<set name="baseCON" value="75"/>
 		<set name="baseDEX" value="41"/>
 		<set name="baseINT" value="42"/>
 		<set name="baseWIT" value="78"/>
 		<set name="baseMEN" value="20"/>
-		<set name="baseHpMax" value="12500"/>
-		<set name="baseMpMax" value="2400.0"/>
-		<set name="baseHpReg" value="14.1"/>
+		<set name="baseHpMax" value="8620"/>
+		<set name="baseMpMax" value="1754"/>
+		<set name="baseHpReg" value="13.1"/>
 		<set name="baseMpReg" value="11.5"/>
-		<set name="basePAtk" value="971"/>
-		<set name="baseMAtk" value="663"/>
-		<set name="basePDef" value="341"/>
-		<set name="baseMDef" value="250"/>
-		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePAtk" value="3128"/>
+		<set name="baseMAtk" value="1034"/>
+		<set name="basePDef" value="1765"/>
+		<set name="baseMDef" value="1824"/>
+		<set name="basePAtkSpd" value="299"/>
+		<set name="baseMAtkSpd" value="398"/>
 		<set name="baseShldDef" value="0"/>
 		<set name="baseAtkRange" value="40"/>
 		<set name="baseShldRate" value="0"/>
@@ -4878,7 +4854,7 @@
 		<set name="baseAccuracyRate" value="0"/>
 		<set name="baseMevasionRate" value="0"/>
 		<set name="baseMaccuracyRate" value="0"/>
-		<set name="baseMCritRate" value="50.0"/>
+		<set name="baseMCritRate" value="0"/>
 		<set name="collision_radius" value="9.0"/>
 		<set name="collision_height" value="22.5"/>
 		<!--Npc specific-->
