@@ -81,7 +81,7 @@ public class _469_SuspiciousGardener extends Quest implements ScriptFile
 			else if(cond == 1)
 				htmltext = "33031-03.htm";
 			else if(cond == 2)
-				htmltext = "33032-05.htm";
+				htmltext = "33031-05.htm";
 			else
 				htmltext = "33032-07.htm";
 		}

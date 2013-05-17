@@ -193,6 +193,8 @@ public class _465_WeAreFriends extends Quest implements ScriptFile
 	@Override
 	public String onKill(NpcInstance npc, QuestState st)
 	{
+		if (st.getPlayer() != null)
+			st.getPlayer().sendMessage("onKill We Are Friend... ok");
 		if (Rnd.chance(5))
 		{
 			npcFeya = Functions.spawn(Location.findPointToStay(st.getPlayer(), 50, 100), 32922);
