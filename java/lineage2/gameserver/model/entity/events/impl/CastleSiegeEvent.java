@@ -9,7 +9,6 @@ import lineage2.gameserver.dao.CastleDamageZoneDAO;
 import lineage2.gameserver.dao.CastleDoorUpgradeDAO;
 import lineage2.gameserver.dao.CastleHiredGuardDAO;
 import lineage2.gameserver.dao.SiegeClanDAO;
-import lineage2.gameserver.data.xml.holder.EventHolder;
 import lineage2.gameserver.instancemanager.ReflectionManager;
 import lineage2.gameserver.model.Creature;
 import lineage2.gameserver.model.Player;
@@ -17,7 +16,6 @@ import lineage2.gameserver.model.Spawner;
 import lineage2.gameserver.model.Zone;
 import lineage2.gameserver.model.entity.Hero;
 import lineage2.gameserver.model.entity.HeroDiary;
-import lineage2.gameserver.model.entity.events.EventType;
 import lineage2.gameserver.model.entity.events.objects.*;
 import lineage2.gameserver.model.entity.residence.Castle;
 import lineage2.gameserver.model.entity.residence.ResidenceSide;
@@ -76,9 +74,6 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
         super(set);
     }
 
-    //========================================================================================================================================================================
-    //                                                    Главные методы осады
-    //========================================================================================================================================================================
     @Override
     public void initEvent() {
         super.initEvent();
@@ -107,7 +102,6 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
 
         getResidence().changeOwner(newOwnerClan);
 
-        // если есть овнер в резиденции, делаем его аттакером
         if (oldOwnerClan != null) {
             SiegeClanObject ownerSiegeClan = getSiegeClan(DEFENDERS, oldOwnerClan);
             removeObject(DEFENDERS, ownerSiegeClan);
@@ -115,13 +109,11 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
             ownerSiegeClan.setType(ATTACKERS);
             addObject(ATTACKERS, ownerSiegeClan);
         } else {
-            // Если атакуется замок, принадлежащий NPC, и только 1 атакующий - закончить осаду
             if (getObjects(ATTACKERS).size() == 1) {
                 stopEvent();
                 return;
             }
 
-            // Если атакуется замок, принадлежащий NPC, и все атакующие в одном альянсе - закончить осаду
             int allianceObjectId = newOwnerClan.getAllyId();
             if (allianceObjectId > 0) {
                 List<SiegeClanObject> attackers = getObjects(ATTACKERS);
@@ -136,22 +128,18 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
             }
         }
 
-        // ставим нового овнера защитником
         SiegeClanObject newOwnerSiegeClan = getSiegeClan(ATTACKERS, newOwnerClan);
         newOwnerSiegeClan.deleteFlag();
         newOwnerSiegeClan.setType(DEFENDERS);
 
         removeObject(ATTACKERS, newOwnerSiegeClan);
 
-        // у нас защитник ток овнер
         List<SiegeClanObject> defenders = removeObjects(DEFENDERS);
         for (SiegeClanObject siegeClan : defenders)
             siegeClan.setType(ATTACKERS);
 
-        // новый овнер это защитник
         addObject(DEFENDERS, newOwnerSiegeClan);
 
-        // все дефендеры, стают аттакующими
         addObjects(ATTACKERS, defenders);
 
         updateParticles(true, ATTACKERS, DEFENDERS);
@@ -159,7 +147,6 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
         teleportPlayers(ATTACKERS);
         teleportPlayers(SPECTATORS);
 
-        // ток при первом захвате обнуляем мерчант гвардов и убираем апгрейд дверей
         if (!_firstStep) {
             _firstStep = true;
 
@@ -280,17 +267,11 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
 
             getResidence().getOwnDate().setTimeInMillis(System.currentTimeMillis());
             getResidence().getLastSiegeDate().setTimeInMillis(getResidence().getSiegeDate().getTimeInMillis());
-
-            DominionSiegeRunnerEvent runnerEvent = EventHolder.getInstance().getEvent(EventType.MAIN_EVENT, 1);
-            runnerEvent.registerDominion(getResidence().getDominion());
         } else {
             broadcastToWorld(new SystemMessage2(SystemMsg.THE_SIEGE_OF_S1_HAS_ENDED_IN_A_DRAW).addResidenceName(getResidence()));
 
             getResidence().getOwnDate().setTimeInMillis(0);
             getResidence().getLastSiegeDate().setTimeInMillis(0);
-
-            DominionSiegeRunnerEvent runnerEvent = EventHolder.getInstance().getEvent(EventType.MAIN_EVENT, 1);
-            runnerEvent.unRegisterDominion(getResidence().getDominion());
         }
 
         despawnSiegeSummons();
@@ -315,7 +296,7 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
             if (startSiegeDate.getTimeInMillis() > currentTimeMillis)
                 registerActions();
             else if (startSiegeDate.getTimeInMillis() == 0) {
-                if ((currentTimeMillis - ownSiegeDate.getTimeInMillis()) > DAY_IN_MILISECONDS) // прошол день после осады
+                if ((currentTimeMillis - ownSiegeDate.getTimeInMillis()) > DAY_IN_MILISECONDS)
                     setNextSiegeTime();
                 else
                     generateNextSiegeDates();
@@ -405,13 +386,7 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
     private void damageZoneAction(boolean active) {
         zoneAction(BOUGHT_ZONES, active);
     }
-    //========================================================================================================================================================================
-    //                                                    Суппорт Методы для установки времени осады
-    //========================================================================================================================================================================
 
-    /**
-     * Генерирует даты для следующей осады замка, и запускает таймер на автоматическую установку даты
-     */
     public void generateNextSiegeDates() {
         if (getResidence().getSiegeDate().getTimeInMillis() != 0)
             return;
@@ -433,11 +408,6 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
         _nextSiegeDateSetTask = ThreadPoolManager.getInstance().schedule(new NextSiegeDateSet(), diff);
     }
 
-    /**
-     * Ставит осадное время вручну, вызывается с пакета {@link lineage2.gameserver.clientpackets.RequestSetCastleSiegeTime}
-     *
-     * @param id
-     */
     public void setNextSiegeTime(int id) {
         if (!_nextSiegeTimes.contains(id) || _nextSiegeDateSetTask == null)
             return;
@@ -449,9 +419,6 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
         setNextSiegeTime(id * 1000L);
     }
 
-    /**
-     * Автоматически генерит и устанавливает дату осады
-     */
     void setNextSiegeTime() {
         final Calendar calendar = (Calendar) Config.CASTLE_VALIDATION_DATE.clone();
         calendar.set(Calendar.DAY_OF_WEEK, Calendar.SUNDAY);
@@ -463,11 +430,6 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
         setNextSiegeTime(calendar.getTimeInMillis());
     }
 
-    /**
-     * Ставит дату осады, запускает действия, аннонсирует по миру
-     *
-     * @param g
-     */
     private void setNextSiegeTime(long g) {
         broadcastToWorld(new SystemMessage2(SystemMsg.S1_HAS_ANNOUNCED_THE_NEXT_CASTLE_SIEGE_TIME).addResidenceName(getResidence()));
 
@@ -493,15 +455,12 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
     public boolean canRessurect(Player resurrectPlayer, Creature target, boolean force) {
         boolean playerInZone = resurrectPlayer.isInZone(Zone.ZoneType.SIEGE);
         boolean targetInZone = target.isInZone(Zone.ZoneType.SIEGE);
-        // если оба вне зоны - рес разрешен
         if (!playerInZone && !targetInZone)
             return true;
-        // если таргет вне осадный зоны - рес разрешен
         if (!targetInZone)
             return false;
 
         Player targetPlayer = target.getPlayer();
-        // если таргет не с нашей осады(или вообще нету осады) - рес запрещен
         CastleSiegeEvent siegeEvent = target.getEvent(CastleSiegeEvent.class);
         if (siegeEvent != this) {
             if (force)
@@ -515,7 +474,6 @@ public class CastleSiegeEvent extends SiegeEvent<Castle, SiegeClanObject> {
             targetSiegeClan = siegeEvent.getSiegeClan(DEFENDERS, targetPlayer.getClan());
 
         if (targetSiegeClan.getType() == ATTACKERS) {
-            // если нету флага - рес запрещен
             if (targetSiegeClan.getFlag() == null) {
                 if (force)
                     targetPlayer.sendPacket(SystemMsg.IF_A_BASE_CAMP_DOES_NOT_EXIST_RESURRECTION_IS_NOT_POSSIBLE);

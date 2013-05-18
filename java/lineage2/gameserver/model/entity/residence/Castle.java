@@ -61,7 +61,6 @@ public class Castle extends Residence {
     private final IntObjectMap<MerchantGuard> _merchantGuards = new HashIntObjectMap<>();
     @SuppressWarnings("rawtypes")
 	private final IntObjectMap<List> _relatedFortresses = new CTreeIntObjectMap<>();
-    private Dominion _dominion;
 
     private List<CropProcure> _procure;
     private List<SeedProduction> _production;
@@ -153,8 +152,6 @@ public class Castle extends Residence {
         Clan oldOwner = null;
         if (getOwnerId() > 0 && (newOwner == null || newOwner.getClanId() != getOwnerId())) {
             removeSkills();
-            getDominion().changeOwner(null);
-            getDominion().removeSkills();
 
             setTaxPercent(null, 0);
             cancelCycleTask();
@@ -637,14 +634,6 @@ public class Castle extends Residence {
 
     public void setNextPeriodApproved(boolean val) {
         _isNextPeriodApproved = val;
-    }
-
-    public Dominion getDominion() {
-        return _dominion;
-    }
-
-    public void setDominion(Dominion dominion) {
-        _dominion = dominion;
     }
 
     public void addRelatedFortress(int type, int fortress) {

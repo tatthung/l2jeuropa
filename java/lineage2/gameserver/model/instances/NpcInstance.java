@@ -65,10 +65,8 @@ import lineage2.gameserver.model.base.ClassId;
 import lineage2.gameserver.model.entity.DelusionChamber;
 import lineage2.gameserver.model.entity.Reflection;
 import lineage2.gameserver.model.entity.events.GlobalEvent;
-import lineage2.gameserver.model.entity.events.objects.TerritoryWardObject;
 import lineage2.gameserver.model.entity.residence.Castle;
 import lineage2.gameserver.model.entity.residence.ClanHall;
-import lineage2.gameserver.model.entity.residence.Dominion;
 import lineage2.gameserver.model.entity.residence.Fortress;
 import lineage2.gameserver.model.items.ItemInstance;
 import lineage2.gameserver.model.pledge.Clan;
@@ -243,10 +241,6 @@ public class NpcInstance extends Creature
 	 * Field _nearestClanHall.
 	 */
 	private ClanHall _nearestClanHall;
-	/**
-	 * Field _nearestDominion.
-	 */
-	private Dominion _nearestDominion;
 	/**
 	 * Field _nameNpcString.
 	 */
@@ -1166,28 +1160,6 @@ public class NpcInstance extends Creature
 	}
 	
 	/**
-	 * Method getDominion.
-	 * @return Dominion
-	 */
-	public Dominion getDominion()
-	{
-		if (getReflection() != ReflectionManager.DEFAULT)
-		{
-			return null;
-		}
-		if (_nearestDominion == null)
-		{
-			if (getTemplate().getCastleId() == 0)
-			{
-				return null;
-			}
-			Castle castle = ResidenceHolder.getInstance().getResidence(getTemplate().getCastleId());
-			_nearestDominion = castle.getDominion();
-		}
-		return _nearestDominion;
-	}
-	
-	/**
 	 * Field _lastSocialAction.
 	 */
 	protected long _lastSocialAction;
@@ -1334,10 +1306,6 @@ public class NpcInstance extends Creature
 	public void onBypassFeedback(Player player, String command)
 	{
 		if (!canBypassCheck(player, this))
-		{
-			return;
-		}
-		if ((getTemplate().getTeleportList().size() > 0) && checkForDominionWard(player))
 		{
 			return;
 		}
@@ -1844,10 +1812,6 @@ public class NpcInstance extends Creature
 	 */
 	public void showChatWindow(Player player, int val, Object... replace)
 	{
-		if ((getTemplate().getTeleportList().size() > 0) && checkForDominionWard(player))
-		{
-			return;
-		}
 		String filename;
 		int npcId = getNpcId();
 		switch (npcId)
@@ -2536,13 +2500,19 @@ public class NpcInstance extends Creature
 	@Override
 	public Clan getClan()
 	{
-		Dominion dominion = getDominion();
-		if (dominion == null)
+		if (getTemplate().getCastleId() == 0)
 		{
 			return null;
 		}
-		int lordObjectId = dominion.getLordObjectId();
-		return lordObjectId == 0 ? null : dominion.getOwner();
+		Castle castle = ResidenceHolder.getInstance().getResidence(getTemplate().getCastleId());
+		if (castle.getOwner() == null)
+		{
+			return null;
+		}
+		if (castle.getOwner().getLevel() > 6) //TODO NEED CHECK WHEN NPC SHOULD BE OF A CLAN
+			return castle.getOwner();
+		else
+			return null;
 	}
 	
 	/**
@@ -2606,22 +2576,6 @@ public class NpcInstance extends Creature
 	public void setSpawnRange(SpawnRange spawnRange)
 	{
 		_spawnRange = spawnRange;
-	}
-	
-	/**
-	 * Method checkForDominionWard.
-	 * @param player Player
-	 * @return boolean
-	 */
-	public boolean checkForDominionWard(Player player)
-	{
-		ItemInstance item = getActiveWeaponInstance();
-		if ((item != null) && (item.getAttachment() instanceof TerritoryWardObject))
-		{
-			showChatWindow(player, "flagman.htm");
-			return true;
-		}
-		return false;
 	}
 	
 	/**

@@ -93,10 +93,6 @@ public class Clan implements Iterable<UnitMember>
 	 */
 	private int _hasHideout;
 	/**
-	 * Field _warDominion.
-	 */
-	private int _warDominion;
-	/**
 	 * Field _crestId.
 	 */
 	private int _crestId;
@@ -2261,24 +2257,6 @@ public class Clan implements Iterable<UnitMember>
 	public int getSkillLevel(int id)
 	{
 		return getSkillLevel(id, -1);
-	}
-	
-	/**
-	 * Method getWarDominion.
-	 * @return int
-	 */
-	public int getWarDominion()
-	{
-		return _warDominion;
-	}
-	
-	/**
-	 * Method setWarDominion.
-	 * @param warDominion int
-	 */
-	public void setWarDominion(int warDominion)
-	{
-		_warDominion = warDominion;
 	}
 	
 	/**

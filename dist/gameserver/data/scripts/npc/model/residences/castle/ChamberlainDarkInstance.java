@@ -24,7 +24,6 @@ import lineage2.gameserver.model.pledge.Privilege;
 import lineage2.gameserver.network.serverpackets.CastleSiegeInfo;
 import lineage2.gameserver.network.serverpackets.ExShowCropInfo;
 import lineage2.gameserver.network.serverpackets.ExShowCropSetting;
-import lineage2.gameserver.network.serverpackets.ExShowDominionRegistry;
 import lineage2.gameserver.network.serverpackets.ExShowManorDefaultInfo;
 import lineage2.gameserver.network.serverpackets.ExShowSeedInfo;
 import lineage2.gameserver.network.serverpackets.ExShowSeedSetting;
@@ -265,7 +264,7 @@ public class ChamberlainDarkInstance extends ResidenceManager
 				player.sendPacket(SystemMsg.YOU_ARE_NOT_AUTHORIZED_TO_DO_THAT);
 				return;
 			}
-			if(castle.getSiegeEvent().isInProgress() || castle.getDominion().getSiegeEvent().isInProgress())
+			if(castle.getSiegeEvent().isInProgress())
 			{
 				showChatWindow(player, "residence2/castle/chamberlain_saius021.htm");
 				return;
@@ -379,7 +378,7 @@ public class ChamberlainDarkInstance extends ResidenceManager
 				player.sendPacket(SystemMsg.YOU_ARE_NOT_AUTHORIZED_TO_DO_THAT);
 				return;
 			}
-			if(castle.getSiegeEvent().isInProgress() || castle.getDominion().getSiegeEvent().isInProgress())
+			if(castle.getSiegeEvent().isInProgress())
 			{
 				showChatWindow(player, "residence2/castle/chamberlain_saius021.htm");
 				return;
@@ -546,8 +545,6 @@ public class ChamberlainDarkInstance extends ResidenceManager
 				player.sendPacket(html);
 			}
 		}
-		else if(actualCommand.equalsIgnoreCase("viewTerritoryWarInfo"))
-			player.sendPacket(new ExShowDominionRegistry(player, castle.getDominion()));
 		else if(actualCommand.equalsIgnoreCase("manageFunctions"))
 		{
 			if(!player.hasPrivilege(Privilege.CS_FS_SET_FUNCTIONS))
@@ -708,7 +705,7 @@ public class ChamberlainDarkInstance extends ResidenceManager
 			return false;
 		}
 
-		if(castle.getSiegeEvent().isInProgress() || castle.getDominion().getSiegeEvent().isInProgress())
+		if(castle.getSiegeEvent().isInProgress())
 		{
 			showChatWindow(player, "residence2/castle/chamberlain_saius021.htm");
 			return false;
