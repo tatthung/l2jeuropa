@@ -165,7 +165,8 @@ public class _10331_StartOfFate extends Quest implements ScriptFile
 					}
 					else
 					{
-						Reflection reflect = npc.getReflection();
+						Player player = st.getPlayer();
+						Reflection reflect = player.getActiveReflection();
 						if(reflect.getInstancedZoneId() == INSTANCED_ZONE_ID)
 						{
 							st.set("stage", 4);
@@ -261,7 +262,8 @@ public class _10331_StartOfFate extends Quest implements ScriptFile
 		}
 		else if(event.equalsIgnoreCase("process_stage_5"))
 		{
-			Reflection reflect = npc.getReflection();
+			Player player = st.getPlayer();
+			Reflection reflect = player.getActiveReflection();
 			if(reflect.getInstancedZoneId() == INSTANCED_ZONE_ID)
 			{
 				int defenderKills = st.getInt("defender_kills");
@@ -286,7 +288,8 @@ public class _10331_StartOfFate extends Quest implements ScriptFile
 		}
 		else if(event.equalsIgnoreCase("start_stage_7"))
 		{
-			Reflection reflect = npc.getReflection();
+			Player player = st.getPlayer();
+			Reflection reflect = player.getActiveReflection();
 			if(reflect.getInstancedZoneId() == INSTANCED_ZONE_ID)
 			{
 				st.set("stage", 7);
@@ -301,7 +304,8 @@ public class _10331_StartOfFate extends Quest implements ScriptFile
 		{
 			if(st.getInt("stage") == 7)
 			{
-				Reflection reflect = npc.getReflection();
+				Player player = st.getPlayer();
+				Reflection reflect = player.getActiveReflection();
 				if(reflect.getInstancedZoneId() == INSTANCED_ZONE_ID)
 				{
 					addSpawnToInstance(NEMERTESS, new Location(-118328, 212968, -8705, 24575), 0, reflect.getId());
@@ -313,7 +317,8 @@ public class _10331_StartOfFate extends Quest implements ScriptFile
 		{
 			if(st.getInt("stage") == 7)
 			{
-				Reflection reflect = npc.getReflection();
+				Player player = st.getPlayer();
+				Reflection reflect = player.getActiveReflection();
 				if(reflect.getInstancedZoneId() == INSTANCED_ZONE_ID)
 				{
 					clearInstanceVariables(st);

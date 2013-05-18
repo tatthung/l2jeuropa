@@ -34,7 +34,6 @@ public class KartiaLabyrinth85Party extends Reflection
 	DeathListener _deathListener;
 	private final ZoneListener _epicZoneListener;
 	private final ZoneListenerL _landingZoneListener;
-	boolean _entryLocked;
 	boolean _startLaunched;
 	boolean _landingentered;
 	
@@ -52,7 +51,6 @@ public class KartiaLabyrinth85Party extends Reflection
 		_epicZoneListener = new ZoneListener();
 		_landingZoneListener = new ZoneListenerL();
 		_landingentered = false;
-		_entryLocked = false;
 		_startLaunched = false;
 	}
 	
@@ -111,7 +109,7 @@ public class KartiaLabyrinth85Party extends Reflection
 		@Override
 		public void onZoneEnter(Zone zone, Creature cha)
 		{
-			if (_entryLocked)
+			if (_startLaunched)
 			{
 				return;
 			}
@@ -793,7 +791,6 @@ public class KartiaLabyrinth85Party extends Reflection
 		@Override
 		public void runImpl()
 		{
-			_entryLocked = true;
 			ThreadPoolManager.getInstance().schedule(new FirstStage(), 12000L);
 		}
 	}
