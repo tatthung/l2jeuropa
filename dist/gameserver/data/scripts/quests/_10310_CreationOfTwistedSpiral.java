@@ -39,7 +39,7 @@ public class _10310_CreationOfTwistedSpiral extends Quest implements ScriptFile
 		addKillNpcWithLog(2, "Gardener", 10, MOB_OUTDOOR_GARDENER);
 		addKillNpcWithLog(2, "Destroyer", 10, MOB_GARDEN_DESTROYER);
 		addLevelCheck(90, 99);
-		addQuestCompletedCheck(_10302_TheShadowOfAnxiety.class);
+		addQuestCompletedCheck(_10302_UnsettlingShadowAndRumors.class);
 	}
 	
 	@Override
@@ -80,7 +80,7 @@ public class _10310_CreationOfTwistedSpiral extends Quest implements ScriptFile
 		}
 		int npcId = npc.getNpcId();
 		Player player = st.getPlayer();
-		QuestState previous = player.getQuestState(_10302_TheShadowOfAnxiety.class);
+		QuestState previous = player.getQuestState(_10302_UnsettlingShadowAndRumors.class);
 		if (npcId == NPC_SELINA)
 		{
 			if ((previous == null) || (!previous.isCompleted()) || (player.getLevel() < 90))

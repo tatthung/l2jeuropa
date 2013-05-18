@@ -38,7 +38,7 @@ public class _10306_TheCorruptedLeader extends Quest implements ScriptFile
 		super(false);
 		addStartNpc(NPC_NAOMI_KASHERON);
 		addKillId(MOB_KIMERIAN);
-		addQuestCompletedCheck(_10305_TheEndlessFutileEfforts.class);
+		addQuestCompletedCheck(_10305_UnstoppableFutileEfforts.class);
 		addLevelCheck(90, 99);
 	}
 	
@@ -74,7 +74,7 @@ public class _10306_TheCorruptedLeader extends Quest implements ScriptFile
 			return htmltext;
 		}
 		Player player = st.getPlayer();
-		QuestState prevst = player.getQuestState(_10305_TheEndlessFutileEfforts.class);
+		QuestState prevst = player.getQuestState(_10305_UnstoppableFutileEfforts.class);
 		if (npc.getNpcId() == NPC_NAOMI_KASHERON)
 		{
 			switch (st.getState())
