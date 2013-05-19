@@ -214,6 +214,7 @@ public class CharInfo extends L2GameServerPacket
 		maxHP = player.getMaxHp();
 		curMP = (int) player.getCurrentMp();
 		maxMP = player.getMaxMp();
+		_aveList = player.getAveList();
 	}
 
 	@Override
