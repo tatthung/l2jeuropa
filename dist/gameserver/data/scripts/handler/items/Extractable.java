@@ -109,6 +109,7 @@ public class Extractable extends SimpleItemHandler
 			30291, // Twilight Robe Armor Box
 			30292, // Immortal Accessory Box
 			30293, // Twilight Accessory Box
+			33465,
 			34927,
 			34928,
 			34929,
@@ -3406,6 +3407,9 @@ public class Extractable extends SimpleItemHandler
 			break;
 		case 30293: // Twilight Accessory Box
 			use30293(player, ctrl);
+			break;
+		case 33465:
+			use33465(player, ctrl);
 			break;
 		case 34927:
 			use34927(player, ctrl);
@@ -12653,4 +12657,21 @@ public class Extractable extends SimpleItemHandler
 		}
 		return true;
 	}
+	
+	private void use33465(Player player, boolean ctrl)
+	{
+		if (Rnd.chance(30))
+		{
+			if (Rnd.chance(40))
+				Functions.addItem(player, 30297, 1L);
+			else if (Rnd.chance(20))
+				Functions.addItem(player, 30299, 1L);
+			else if (Rnd.chance(10))
+				Functions.addItem(player, 30298, 1L);
+			else if (Rnd.chance(30))
+				Functions.addItem(player, 30300, 1L);
+		}
+		else player.sendPacket(Msg.THERE_WAS_NOTHING_FOUND_INSIDE_OF_THAT);
+	}
+
 }

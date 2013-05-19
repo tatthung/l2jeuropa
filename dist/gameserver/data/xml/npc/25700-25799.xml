@@ -6187,7 +6187,7 @@
 		<set name="collision_height" value="93.0"/>
 		<!--Npc specific-->
 		<set name="type" value="RaidBoss"/>
-		<set name="ai_type" value="Fighter"/>
+		<set name="ai_type" value="gardenofgenesis.Apherus"/>
 		<set name="level" value="94"/>
 		<set name="baseHpRate" value="1.0"/>
 		<set name="rewardExp" value="198916032"/>
