@@ -3557,18 +3557,18 @@
             <skill id="5465" level="1"/>
             <!-- Earth Attack -->
         </skills>
-        <attributes>
-            <defence attribute="fire" value="20"/>
-            <defence attribute="water" value="20"/>
-            <defence attribute="wind" value="20"/>
-            <defence attribute="earth" value="20"/>
-            <defence attribute="holy" value="20"/>
-            <defence attribute="unholy" value="20"/>
-        </attributes>
+		<attributes>
+			<defence attribute="fire" value="167"/>
+			<defence attribute="water" value="220"/>
+			<defence attribute="wind" value="220"/>
+			<defence attribute="earth" value="220"/>
+			<defence attribute="holy" value="220"/>
+			<defence attribute="unholy" value="220"/>
+		</attributes>
     </npc>
 	<npc id="25866" name="Apherus" title="">
         <set name="aggroRange" value="0"/>
-        <set name="ai_type" value="Fighter"/>
+		<set name="ai_type" value="gardenofgenesis.Apherus"/>
         <set name="baseAtkRange" value="40"/>
         <set name="baseCON" value="57"/>
         <set name="baseCritRate" value="40"/>
@@ -3614,14 +3614,25 @@
             <skill id="5465" level="1"/>
             <!-- Earth Attack -->
         </skills>
-        <attributes>
-            <defence attribute="fire" value="20"/>
-            <defence attribute="water" value="20"/>
-            <defence attribute="wind" value="20"/>
-            <defence attribute="earth" value="20"/>
-            <defence attribute="holy" value="20"/>
-            <defence attribute="unholy" value="20"/>
-        </attributes>
+		<attributes>
+			<defence attribute="fire" value="187"/>
+			<defence attribute="water" value="240"/>
+			<defence attribute="wind" value="240"/>
+			<defence attribute="earth" value="240"/>
+			<defence attribute="holy" value="240"/>
+			<defence attribute="unholy" value="240"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="100.0">
+				<reward item_id="18165" min="1" max="1" chance="30.34"/>
+				<reward item_id="18160" min="1" max="1" chance="20.52"/>
+				<reward item_id="18143" min="1" max="1" chance="2.600"/>
+				<reward item_id="18147" min="1" max="1" chance="1.775"/>
+			</group>
+			<group chance="100.0">
+				<reward item_id="17526" min="1" max="1" chance="8.133"/>
+			</group>
+		</rewardlist>
     </npc>
 	<npc id="25867" name="Spezion" title="Raid Boss">
         <set name="aggroRange" value="0"/>
