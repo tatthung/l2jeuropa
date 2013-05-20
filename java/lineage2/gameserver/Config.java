@@ -127,6 +127,7 @@ public class Config
 	public static int ALT_PARTY_DISTRIBUTION_RANGE;
 	public static double[] ALT_PARTY_BONUS;
 	public static double ALT_ABSORB_DAMAGE_MODIFIER;
+	public static boolean ALT_ABSORB_DAMAGE_ONLY_MEELE;
 	public static boolean ALT_ALL_PHYS_SKILLS_OVERHIT;
 	public static double ALT_POLE_DAMAGE_MODIFIER;
 	public static boolean ALT_REMOVE_SKILLS_ON_DELEVEL;
@@ -1306,6 +1307,7 @@ public class Config
 		SKILLS_CHANCE_CAP = formulasSettings.getProperty("SkillsChanceCap", 95.);
 		SKILLS_CAST_TIME_MIN = formulasSettings.getProperty("SkillsCastTimeMin", 333);
 		ALT_ABSORB_DAMAGE_MODIFIER = formulasSettings.getProperty("AbsorbDamageModifier", 1.0);
+		ALT_ABSORB_DAMAGE_ONLY_MEELE = formulasSettings.getProperty("AbsorbDamageOnlyMeele", true);
 		LIM_PATK = formulasSettings.getProperty("LimitPatk", 20000);
 		LIM_MATK = formulasSettings.getProperty("LimitMAtk", 25000);
 		LIM_PDEF = formulasSettings.getProperty("LimitPDef", 15000);

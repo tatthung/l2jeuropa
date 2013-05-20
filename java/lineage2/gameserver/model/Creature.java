@@ -951,7 +951,7 @@ public abstract class Creature extends GameObject
 				reduceCurrentHp((value / 100.) * damage, 0, target, null, true, true, false, false, false, false, true);
 			}
 		}
-		if ((skill != null) || bow)
+		if ((skill != null || bow) && Config.ALT_ABSORB_DAMAGE_ONLY_MEELE)
 		{
 			return false;
 		}
