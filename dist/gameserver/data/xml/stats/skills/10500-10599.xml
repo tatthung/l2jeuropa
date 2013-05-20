@@ -1608,9 +1608,6 @@
             <using kind="Dagger, Dual Dagger"/>
         </cond>
 		<enchant1 levels="10" name="Attack"/>
-        <for>
-            <effect name="Disarm" time="5" val="0" stackOrder="1" stackType="disarm"/> <!--TODO: wtf is that?!?!?!-->
-        </for>
     </skill>
     <skill id="10549" levels="5" name="Kick">
     <!-- Powerfully Knock Back the target with a kick. -->

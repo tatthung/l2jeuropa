@@ -445,13 +445,6 @@ public class ResidenceFunction
                 { SkillTable.getInstance().getInfo(4349, 2), A }, { SkillTable.getInstance().getInfo(4350, 4), W }, { SkillTable.getInstance().getInfo(4348, 6), A },
                 { SkillTable.getInstance().getInfo(4351, 6), M }, { SkillTable.getInstance().getInfo(4352, 2), A }, { SkillTable.getInstance().getInfo(4353, 6), W },
                 { SkillTable.getInstance().getInfo(4358, 3), W }, { SkillTable.getInstance().getInfo(4354, 4), W },
-                //GOD
-                { SkillTable.getInstance().getInfo(15374, 1), M },
-                { SkillTable.getInstance().getInfo(15375, 1), M },
-                { SkillTable.getInstance().getInfo(15376, 1), M },
-                { SkillTable.getInstance().getInfo(15377, 1), M },
-                { SkillTable.getInstance().getInfo(15378, 1), M },
-                { SkillTable.getInstance().getInfo(15379, 1), M }
         },
         {
                 // level 8
@@ -463,18 +456,35 @@ public class ResidenceFunction
                 { SkillTable.getInstance().getInfo(4356, 1), M }, { SkillTable.getInstance().getInfo(4357, 1), W }, { SkillTable.getInstance().getInfo(4359, 1), W },
                 { SkillTable.getInstance().getInfo(4360, 1), W },
                 //GOD
-                { SkillTable.getInstance().getInfo(15374, 2), M },
-                { SkillTable.getInstance().getInfo(15375, 2), M },
-                { SkillTable.getInstance().getInfo(15376, 2), M },
-                { SkillTable.getInstance().getInfo(15377, 2), M },
-                { SkillTable.getInstance().getInfo(15378, 2), M },
-                { SkillTable.getInstance().getInfo(15379, 2), M },
+                { SkillTable.getInstance().getInfo(15374, 1), M },
+                { SkillTable.getInstance().getInfo(15375, 1), M },
+                { SkillTable.getInstance().getInfo(15376, 1), M },
+                { SkillTable.getInstance().getInfo(15377, 1), M },
+                { SkillTable.getInstance().getInfo(15378, 1), M },
+                { SkillTable.getInstance().getInfo(15379, 1), M },
                 { SkillTable.getInstance().getInfo(15380, 1), M },
                 { SkillTable.getInstance().getInfo(15381, 1), M },
-                { SkillTable.getInstance().getInfo(15382, 1), M },
+                { SkillTable.getInstance().getInfo(15382, 1), M }
         },
         {
-        // level 9 - unused
+            // Level 9 Castle and Fortress only
+            { SkillTable.getInstance().getInfo(4342, 2), A }, { SkillTable.getInstance().getInfo(4343, 3), A }, { SkillTable.getInstance().getInfo(4344, 3), A },
+            { SkillTable.getInstance().getInfo(4346, 4), A }, { SkillTable.getInstance().getInfo(4345, 3), W }, { SkillTable.getInstance().getInfo(4347, 6), A },
+            { SkillTable.getInstance().getInfo(4349, 2), A }, { SkillTable.getInstance().getInfo(4350, 4), W }, { SkillTable.getInstance().getInfo(4348, 6), A },
+            { SkillTable.getInstance().getInfo(4351, 6), M }, { SkillTable.getInstance().getInfo(4352, 2), A }, { SkillTable.getInstance().getInfo(4353, 6), W },
+            { SkillTable.getInstance().getInfo(4358, 3), W }, { SkillTable.getInstance().getInfo(4354, 4), W }, { SkillTable.getInstance().getInfo(4355, 1), M },
+            { SkillTable.getInstance().getInfo(4356, 1), M }, { SkillTable.getInstance().getInfo(4357, 1), W }, { SkillTable.getInstance().getInfo(4359, 1), W },
+            { SkillTable.getInstance().getInfo(4360, 1), W },
+            //GOD
+            { SkillTable.getInstance().getInfo(15374, 2), M },
+            { SkillTable.getInstance().getInfo(15375, 2), M },
+            { SkillTable.getInstance().getInfo(15376, 2), M },
+            { SkillTable.getInstance().getInfo(15377, 2), M },
+            { SkillTable.getInstance().getInfo(15378, 2), M },
+            { SkillTable.getInstance().getInfo(15379, 2), M },
+            { SkillTable.getInstance().getInfo(15380, 1), M },
+            { SkillTable.getInstance().getInfo(15381, 1), M },
+            { SkillTable.getInstance().getInfo(15382, 1), M }
         },
         {
         // level 10 - unused

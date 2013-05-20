@@ -95,6 +95,7 @@ import lineage2.gameserver.skills.skillclasses.NegateStats;
 import lineage2.gameserver.skills.skillclasses.PDam;
 import lineage2.gameserver.skills.skillclasses.PcBangPointsAdd;
 import lineage2.gameserver.skills.skillclasses.PetSummon;
+import lineage2.gameserver.skills.skillclasses.Plunder;
 import lineage2.gameserver.skills.skillclasses.Recall;
 import lineage2.gameserver.skills.skillclasses.ReelingPumping;
 import lineage2.gameserver.skills.skillclasses.Refill;
@@ -838,7 +839,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		/**
 		 * Field SWEEP.
 		 */
-		PLUNDER(Sweep.class);
+		PLUNDER(Plunder.class);
 		/**
 		 * Field clazz.
 		 */
