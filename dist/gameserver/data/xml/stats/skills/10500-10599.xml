@@ -1596,7 +1596,8 @@
         <table name="#mpConsume2">38 39 40 42 43 45 46 47</table>
 		<table name="#power">0</table>
 		<set name="power" val="#power"/>
-        <set name="activateRate" val="30 35 40 45 50 55 60 65"/>
+        <table name="#activateRate">30 35 40 45 50 55 60 65</table>
+		<set name="activateRate" val="#activateRate"/>
         <set name="mpConsume2" val="#mpConsume2"/>
         <set name="magicLevel" val="#magicLevel"/>
         <set name="target" val="TARGET_ONE"/>
