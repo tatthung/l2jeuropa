@@ -227,9 +227,9 @@
 		</for>
    </skill>
 	<skill id="11254" levels="4" name="Superior Summon Mastery">
-    <!-- INT + 2. You can use up to 6 summon points, and when you receive damage your servitor's battle skills are increased. -->
+    <!-- INT + 2. You can use up to 4 summon points, and when you receive damage your servitor's battle skills are increased -->
         <table name="#magicLevel">85 86 87 88</table>
-        <table name="#summonPointCount">6 7 8 9</table>
+        <table name="#summonPointCount">4 4 4 4</table>
         <set name="magicLevel" val="#magicLevel"/>
         <set name="target" val="TARGET_SELF"/>
         <set name="skillType" val="BUFF"/>
