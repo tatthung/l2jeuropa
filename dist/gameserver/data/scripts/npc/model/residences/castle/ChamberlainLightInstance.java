@@ -544,16 +544,16 @@ public class ChamberlainLightInstance extends ResidenceManager
 				player.sendPacket(html);
 			}
 		}
-		else if(actualCommand.equalsIgnoreCase("Cloak")) // Give Cold Cloak of Dark to Castle Owner
+		else if(actualCommand.equalsIgnoreCase("Cloak")) // Give Radiant Cloak of Light to Castle Owner
 		{
 			if(!player.isClanLeader())
 			{
 				player.sendPacket(SystemMsg.YOU_ARE_NOT_AUTHORIZED_TO_DO_THAT);
 				return;
 			}
-			if(player.getInventory().getItemByItemId(34997) == null)
+			if(player.getInventory().getItemByItemId(34996) == null)
 			{
-				player.getInventory().addItem(ItemFunctions.createItem(34997));
+				player.getInventory().addItem(ItemFunctions.createItem(34996));
 
 				NpcHtmlMessage html = new NpcHtmlMessage(player, this);
 				html.setFile("castle/chamberlain/chamberlain-givecloak.htm");
