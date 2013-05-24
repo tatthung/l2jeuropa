@@ -703,6 +703,10 @@ public class Castle extends Residence {
 		return _residenceSide;
 	}
 
+	public boolean isCastleTypeLight()
+	{
+		return getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0;
+	}
 
 	public void broadcastResidenceState()
 	{
@@ -718,227 +722,214 @@ public class Castle extends Residence {
 	{
 		if(getId() == 1)
 		{
-		if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
-		{	
-			setResidenceSide(ResidenceSide.LIGHT);
-			Announcements.getInstance().announceToAll("The Gludio Castle went to the Light side");
-			SpawnManager.getInstance().despawn("spawn_dark_gludio");
-			SpawnManager.getInstance().spawn("spawn_light_gludio");
-			//broadcastPacket(getResidenceSide().ordinal(),true,false);
-			setTaxPercent(null, 0);
-			_log.info("Terrytory on Light Side");			
+			if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
+			{	
+				setResidenceSide(ResidenceSide.LIGHT);
+				Announcements.getInstance().announceToAll("The Gludio Castle went to the Light side");
+				SpawnManager.getInstance().despawn("spawn_dark_gludio");
+				SpawnManager.getInstance().spawn("spawn_light_gludio");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);
+				setTaxPercent(null, 0);
+				_log.info("Terrytory on Light Side");			
+			}
+			else
+			{
+				setResidenceSide(ResidenceSide.DARK);
+				Announcements.getInstance().announceToAll("The Gludio Castle went to the Dark side");
+				SpawnManager.getInstance().spawn("spawn_dark_gludio");
+				SpawnManager.getInstance().despawn("spawn_light_gludio");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);
+				setTaxPercent(null,30);
+				_log.info("Terrytory on Dark Side");
+			}
+			return;
 		}
-		else
+		if(getId() == 2)
 		{
-			setResidenceSide(ResidenceSide.DARK);
-			Announcements.getInstance().announceToAll("The Gludio Castle went to the Dark side");
-			SpawnManager.getInstance().spawn("spawn_dark_gludio");
-			SpawnManager.getInstance().despawn("spawn_light_gludio");
-			//broadcastPacket(getResidenceSide().ordinal(),true,false);
-			setTaxPercent(null,30);
-			_log.info("Terrytory on Dark Side");
+			//
+			if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
+			{
+				setResidenceSide(ResidenceSide.LIGHT);
+				Announcements.getInstance().announceToAll("The Dion Castle went to the Light side");
+				SpawnManager.getInstance().despawn("spawn_dark_dion");
+				SpawnManager.getInstance().spawn("spawn_light_dion");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);
+				setTaxPercent(null, 0);
+				_log.info("Terrytory on Light Side");
+			}
+			else
+			{
+				Announcements.getInstance().announceToAll("The Dion Castle went to the Dark side");
+				SpawnManager.getInstance().spawn("spawn_dark_dion");
+				SpawnManager.getInstance().despawn("spawn_light_dion");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);
+				setTaxPercent(null,30);
+				_log.info("Terrytory on Dark Side");
+			}
+			return;
 		}
-		return;
-		}
-		
-	  if(getId() == 2)
-	  {
-		//
-		if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
+		if(getId() == 3)
 		{
-		setResidenceSide(ResidenceSide.LIGHT);
-		Announcements.getInstance().announceToAll("The Dion Castle went to the Light side");
-		SpawnManager.getInstance().despawn("spawn_dark_dion");
-		SpawnManager.getInstance().spawn("spawn_light_dion");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);
-		setTaxPercent(null, 0);
-		_log.info("Terrytory on Light Side");
+			if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
+			{
+				setResidenceSide(ResidenceSide.LIGHT);
+				Announcements.getInstance().announceToAll("The Giran Castle went to the Light side");
+				SpawnManager.getInstance().despawn("spawn_dark_giran");
+				SpawnManager.getInstance().spawn("spawn_light_giran");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null, 0);
+				_log.info("Terrytory on Light Side");
+			}
+			else
+			{
+				Announcements.getInstance().announceToAll("The Giran Castle went to the Dark side");
+				SpawnManager.getInstance().spawn("spawn_dark_giran");
+				SpawnManager.getInstance().despawn("spawn_light_giran");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null,30);
+				_log.info("Terrytory on Dark Side");
+			}
+			return;
 		}
-		else
+		if(getId() == 4)
 		{
-		Announcements.getInstance().announceToAll("The Dion Castle went to the Dark side");
-		SpawnManager.getInstance().spawn("spawn_dark_dion");
-		SpawnManager.getInstance().despawn("spawn_light_dion");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);
-		setTaxPercent(null,30);
-		_log.info("Terrytory on Dark Side");
+			if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
+			{
+				setResidenceSide(ResidenceSide.LIGHT);
+				Announcements.getInstance().announceToAll("The Oren Castle went to the Light side");
+				SpawnManager.getInstance().despawn("spawn_dark_oren");
+				SpawnManager.getInstance().spawn("spawn_light_oren");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null, 0);
+				_log.info("Terrytory on Light Side");
+			}
+			else
+			{
+				Announcements.getInstance().announceToAll("The Oren Castle went to the Dark side");
+				SpawnManager.getInstance().spawn("spawn_dark_oren");
+				SpawnManager.getInstance().despawn("spawn_light_oren");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null,30);
+				_log.info("Terrytory on Dark Side");
+			}
+			return;
 		}
-		return;
-	  }
-	  
-	  if(getId() == 3)
-	  {
-		if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
+		if(getId() == 5)
 		{
-		setResidenceSide(ResidenceSide.LIGHT);
-		Announcements.getInstance().announceToAll("The Giran Castle went to the Light side");
-		SpawnManager.getInstance().despawn("spawn_dark_giran");
-		SpawnManager.getInstance().spawn("spawn_light_giran");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null, 0);
-		_log.info("Terrytory on Light Side");
+			if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
+			{
+				setResidenceSide(ResidenceSide.LIGHT);
+				Announcements.getInstance().announceToAll("The Aden Castle went to the Light side");
+				SpawnManager.getInstance().despawn("spawn_dark_aden");
+				SpawnManager.getInstance().spawn("spawn_light_aden");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null, 0);
+				_log.info("Terrytory on Light Side");
+			}
+			else
+			{
+				Announcements.getInstance().announceToAll("The Aden Castle went to the Dark side");
+				SpawnManager.getInstance().spawn("spawn_dark_aden");
+				SpawnManager.getInstance().despawn("spawn_light_aden");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null,30);
+				_log.info("Terrytory on Dark Side");
+			}
+			return;
 		}
-		else
+		if(getId() == 6)
 		{
-		Announcements.getInstance().announceToAll("The Giran Castle went to the Dark side");
-		SpawnManager.getInstance().spawn("spawn_dark_giran");
-		SpawnManager.getInstance().despawn("spawn_light_giran");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null,30);
-		_log.info("Terrytory on Dark Side");
-		
+			if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
+			{
+				setResidenceSide(ResidenceSide.LIGHT);
+				Announcements.getInstance().announceToAll("The Innadril Castle went to the Light side");
+				SpawnManager.getInstance().despawn("spawn_dark_heine");
+				SpawnManager.getInstance().spawn("spawn_light_heine");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null, 0);
+				_log.info("Terrytory on Light Side");
+			}
+			else
+			{
+				Announcements.getInstance().announceToAll("The Innadril Castle went to the Dark side");
+				SpawnManager.getInstance().spawn("spawn_dark_heine");
+				SpawnManager.getInstance().despawn("spawn_light_heine");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null,30);
+				_log.info("Terrytory on Dark Side");
+			}
+			return;
 		}
-		return;
-	  }
-	  
-	  if(getId() == 4)
-	  {
-		if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
+		if(getId() == 7)
 		{
-		setResidenceSide(ResidenceSide.LIGHT);
-		Announcements.getInstance().announceToAll("The Oren Castle went to the Light side");
-		SpawnManager.getInstance().despawn("spawn_dark_oren");
-		SpawnManager.getInstance().spawn("spawn_light_oren");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null, 0);
-		_log.info("Terrytory on Light Side");
+			if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
+			{
+				setResidenceSide(ResidenceSide.LIGHT);
+				Announcements.getInstance().announceToAll("The Schuttgart Castle went to the Light side");
+				SpawnManager.getInstance().despawn("spawn_dark_shutgart");
+				SpawnManager.getInstance().spawn("spawn_light_shutgart");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null, 0);
+				_log.info("Terrytory on Light Side");
+			}
+			else
+			{
+				Announcements.getInstance().announceToAll("The Schuttgart Castle went to the Dark side");
+				SpawnManager.getInstance().spawn("spawn_dark_shutgart");
+				SpawnManager.getInstance().despawn("spawn_light_shutgart");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null,30);
+				_log.info("Terrytory on Dark Side");	
+			}
+			return;
 		}
-		else
+		if(getId() == 8)
 		{
-		Announcements.getInstance().announceToAll("The Oren Castle went to the Dark side");
-		SpawnManager.getInstance().spawn("spawn_dark_oren");
-		SpawnManager.getInstance().despawn("spawn_light_oren");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null,30);
-		_log.info("Terrytory on Dark Side");
+			if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
+			{
+				setResidenceSide(ResidenceSide.LIGHT);
+				Announcements.getInstance().announceToAll("The Rune Castle went to the Light side");
+				SpawnManager.getInstance().despawn("spawn_dark_rune");
+				SpawnManager.getInstance().spawn("spawn_light_rune");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null, 0);
+				_log.info("Terrytory on Light Side");
+			}
+			else
+			{
+				Announcements.getInstance().announceToAll("The Rune Castle went to the Dark side");
+				SpawnManager.getInstance().spawn("spawn_dark_rune");
+				SpawnManager.getInstance().despawn("spawn_light_rune");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null,30);
+				_log.info("Terrytory on Dark Side");
+			}
+			return;
 		}
-		return;
-	  }
-	  
-	  if(getId() == 5)
-	  {
-		if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
+		if(getId() == 9)
 		{
-		setResidenceSide(ResidenceSide.LIGHT);
-		Announcements.getInstance().announceToAll("The Aden Castle went to the Light side");
-		SpawnManager.getInstance().despawn("spawn_dark_aden");
-		SpawnManager.getInstance().spawn("spawn_light_aden");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null, 0);
-		_log.info("Terrytory on Light Side");
+			if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
+			{
+				setResidenceSide(ResidenceSide.LIGHT);
+				Announcements.getInstance().announceToAll("The Goddard Castle went to the Light side");
+				SpawnManager.getInstance().despawn("spawn_dark_goddart");
+				SpawnManager.getInstance().spawn("spawn_light_goddart");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null, 0);
+				_log.info("Terrytory on Light Side");
+			}
+			else
+			{
+				Announcements.getInstance().announceToAll("The Goddard Castle went to the Dark side");
+				SpawnManager.getInstance().spawn("spawn_dark_goddart");
+				SpawnManager.getInstance().despawn("spawn_light_goddart");
+				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
+				setTaxPercent(null,30);
+				_log.info("Terrytory on Dark Side");
+			}
+			return;
 		}
-		else
-		{
-		Announcements.getInstance().announceToAll("The Aden Castle went to the Dark side");
-		SpawnManager.getInstance().spawn("spawn_dark_aden");
-		SpawnManager.getInstance().despawn("spawn_light_aden");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null,30);
-		_log.info("Terrytory on Dark Side");
-		}
-		return;
-	  }
-	  
-	  if(getId() == 6)
-	  {
-		if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
-		{
-		setResidenceSide(ResidenceSide.LIGHT);
-		Announcements.getInstance().announceToAll("The Innadril Castle went to the Light side");
-		SpawnManager.getInstance().despawn("spawn_dark_heine");
-		SpawnManager.getInstance().spawn("spawn_light_heine");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null, 0);
-		_log.info("Terrytory on Light Side");
-		}
-		else
-		{
-		Announcements.getInstance().announceToAll("The Innadril Castle went to the Dark side");
-		SpawnManager.getInstance().spawn("spawn_dark_heine");
-		SpawnManager.getInstance().despawn("spawn_light_heine");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null,30);
-		_log.info("Terrytory on Dark Side");
-		}
-		return;
-	  }
-	  
-	  if(getId() == 7)
-	  {
-		if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
-		{
-		setResidenceSide(ResidenceSide.LIGHT);
-		Announcements.getInstance().announceToAll("The Schuttgart Castle went to the Light side");
-		SpawnManager.getInstance().despawn("spawn_dark_shutgart");
-		SpawnManager.getInstance().spawn("spawn_light_shutgart");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null, 0);
-		_log.info("Terrytory on Light Side");
-		}
-		else
-		{
-		Announcements.getInstance().announceToAll("The Schuttgart Castle went to the Dark side");
-		SpawnManager.getInstance().spawn("spawn_dark_shutgart");
-		SpawnManager.getInstance().despawn("spawn_light_shutgart");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null,30);
-		_log.info("Terrytory on Dark Side");	
-		}
-		return;
-	  }
-	  
-	  if(getId() == 8)
-	  {
-
-		if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
-		{
-		setResidenceSide(ResidenceSide.LIGHT);
-		Announcements.getInstance().announceToAll("The Rune Castle went to the Light side");
-		SpawnManager.getInstance().despawn("spawn_dark_rune");
-		SpawnManager.getInstance().spawn("spawn_light_rune");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null, 0);
-		_log.info("Terrytory on Light Side");
-		}
-		else
-		{
-		Announcements.getInstance().announceToAll("The Rune Castle went to the Dark side");
-		SpawnManager.getInstance().spawn("spawn_dark_rune");
-		SpawnManager.getInstance().despawn("spawn_light_rune");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null,30);
-		_log.info("Terrytory on Dark Side");
-		}
-		return;
-	  }
-	  
-	  if(getId() == 9)
-	  {
-		if(getResidenceSide().ordinal()==1 || getResidenceSide().ordinal()==0)
-		{
-		setResidenceSide(ResidenceSide.LIGHT);
-		Announcements.getInstance().announceToAll("The Goddard Castle went to the Light side");
-		SpawnManager.getInstance().despawn("spawn_dark_goddart");
-		SpawnManager.getInstance().spawn("spawn_light_goddart");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null, 0);
-		_log.info("Terrytory on Light Side");
-		}
-		else
-		{
-		Announcements.getInstance().announceToAll("The Goddard Castle went to the Dark side");
-		SpawnManager.getInstance().spawn("spawn_dark_goddart");
-		SpawnManager.getInstance().despawn("spawn_light_goddart");
-		//broadcastPacket(getResidenceSide().ordinal(),true,false);	
-		setTaxPercent(null,30);
-		_log.info("Terrytory on Dark Side");
-		}
-		return;
-	  }
 	}
-	
-	
-	
 	
 	public void broadcastPacket(int value, boolean b, boolean message)
 	{

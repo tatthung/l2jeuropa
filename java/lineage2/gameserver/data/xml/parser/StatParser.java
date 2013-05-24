@@ -22,6 +22,8 @@ import lineage2.gameserver.model.entity.residence.ResidenceType;
 import lineage2.gameserver.stats.StatTemplate;
 import lineage2.gameserver.stats.Stats;
 import lineage2.gameserver.stats.conditions.Condition;
+import lineage2.gameserver.stats.conditions.ConditionCastleLight;
+import lineage2.gameserver.stats.conditions.ConditionCastleLightClanLeader;
 import lineage2.gameserver.stats.conditions.ConditionLogicAnd;
 import lineage2.gameserver.stats.conditions.ConditionLogicNot;
 import lineage2.gameserver.stats.conditions.ConditionLogicOr;
@@ -250,6 +252,14 @@ public abstract class StatParser<H extends AbstractHolder> extends AbstractDirPa
 			{
 				String[] st = value.split(";");
 				cond = joinAnd(cond, new ConditionPlayerMinMaxDamage(Double.parseDouble(st[0]), Double.parseDouble(st[1])));
+			}
+			else if (name.equalsIgnoreCase("castleLight"))
+			{
+				cond = joinAnd(cond, new ConditionCastleLight(Boolean.parseBoolean(value)));
+			}
+			else if (name.equalsIgnoreCase("castleLightClanLeader"))
+			{
+				cond = joinAnd(cond, new ConditionCastleLightClanLeader(Boolean.parseBoolean(value)));
 			}
 		}
 		return cond;

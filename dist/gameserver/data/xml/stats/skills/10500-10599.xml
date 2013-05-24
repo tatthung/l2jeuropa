@@ -857,7 +857,7 @@
 		<set name="skillType" val="SUMMON"/>
 		<set name="summonType" val="SYMBOL"/>
 		<set name="reuseDelay" val="30000"/>
-		<set name="isMagic" val="true"/>
+		<set name="magicType" val="MAGIC"/>
 		<set name="isDebuff" val="true"/>
 		<set name="isOffensive" val="true"/>
 		<set name="operateType" val="OP_ACTIVE"/>
@@ -1089,7 +1089,7 @@
         <set name="target" val="TARGET_SELF"/>
         <set name="skillType" val="BUFF"/>
         <set name="operateType" val="OP_ACTIVE"/>
-        <set name="isMagic" val="true"/>
+        <set name="magicType" val="MAGIC"/>
         <for>
             <add order="0x40" stat="pAtk" val="30"/>
             <add order="0x40" stat="rCrit" val="10"/>
@@ -1113,7 +1113,7 @@
         <set name="target" val="TARGET_SELF"/>
         <set name="skillType" val="BUFF"/>
         <set name="operateType" val="OP_ACTIVE"/>
-        <set name="isMagic" val="true"/>
+        <set name="magicType" val="MAGIC"/>
         <set name="addSkills" val="5447;1"/>
         <cond msgId="113" addName="1">
             <using kind="Dagger,Dual Dagger"/>

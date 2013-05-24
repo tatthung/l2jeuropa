@@ -273,6 +273,8 @@ public abstract class SagasSuperclass extends Quest
 			if(!_npcWaves.isEmpty())
 				_npcWaves.clear();
 			player.unsetVar("wave");
+			player.unsetVar("sel1");
+			player.unsetVar("sel2");
 			// maybe take some other quest items?
 			st.setCond(5);
 			enterInstance(st, 185);

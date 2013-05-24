@@ -259,7 +259,7 @@
 		<set name="magicLevel" val="85"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="skillRadius" val="1000"/>
-		<set name="isMagic" val="true"/>
+		<set name="magicType" val="MAGIC"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="isSaveable" val="false"/>
 		<set name="cancelable" val="false"/>

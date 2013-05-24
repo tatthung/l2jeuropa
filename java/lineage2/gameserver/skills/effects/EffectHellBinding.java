@@ -92,7 +92,6 @@ public final class EffectHellBinding extends Effect
 			_effected.startAirbinding();
 		_effected.abortAttack(true, true);
 		_effected.abortCast(true, true);
-		_effected.startParalyzed();
 		_effected.stopMove();
 	}
 	
@@ -105,7 +104,6 @@ public final class EffectHellBinding extends Effect
 		super.onExit();
 		if(_effected.isAirBinded())
 			_effected.stopAirbinding();			
-		_effected.stopParalyzed();
 	}
 	
 	/**

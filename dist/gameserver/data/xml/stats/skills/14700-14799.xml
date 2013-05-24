@@ -267,7 +267,7 @@
         <set name="hitTime" val="500"/>
         <set name="hitCancelTime" val="500"/>
         <set name="skillType" val="HEAL_WITH_CP"/>
-        <set name="isMagic" val="true"/>
+        <set name="magicType" val="MAGIC"/>
         <set name="castRange" val="600"/>
         <set name="power" val="1488"/>
         <set name="reuseDelay" val="3000"/>

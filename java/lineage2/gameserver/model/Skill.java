@@ -433,6 +433,10 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		 */
 		TARGET_SUMMON_AURA,
 		/**
+		 * Field TARGET_SUMMON_AURA_AND_ME.
+		 */
+		TARGET_SUMMON_AURA_AND_ME,
+		/**
 		 * Field TARGET_GROUND.
 		 */
 		TARGET_GROUND
@@ -2413,6 +2417,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 		switch (_targetType)
 		{
 			case TARGET_SUMMON_AURA:
+			case TARGET_SUMMON_AURA_AND_ME:
 			case TARGET_ALLY:
 			case TARGET_CLAN:
 			case TARGET_PARTY:
@@ -2436,12 +2441,12 @@ public abstract class Skill extends StatTemplate implements Cloneable
 			case TARGET_FEEDABLE_BEAST:
 				return target instanceof FeedableBeastInstance ? target : null;
 			case TARGET_PET:
+				return (target != null) && (target.isPet()) && (target.isDead() == _isCorpse) ? target : null;
 			case TARGET_PET_AURA:
 				target = activeChar.getPlayer().getSummonList().getFirstServitor();
 				return (target != null) && (target.isDead() == _isCorpse) ? target : null;
 			case TARGET_SUMMON:
-				target = activeChar.getPlayer().getSummonList().getSecondServitor();
-				return (target != null) && (target.isDead() == _isCorpse) ? target : null;
+				return (target != null) && (target.isServitor()) && (target.isDead() == _isCorpse) ? target : null;
 			case TARGET_OWNER:
 				if (activeChar.isServitor() || activeChar.isPet())
 				{
@@ -2629,10 +2634,17 @@ public abstract class Skill extends StatTemplate implements Cloneable
 				addTargetsToList(targets, activeChar.getPlayer().getSummonList().getFirstServitor(), activeChar, forceUse);
 				break;
 			case TARGET_SUMMON_AURA:
+			case TARGET_SUMMON_AURA_AND_ME:
 				List<Summon> servitors = activeChar.getPlayer().getSummonList().getServitors();
 				for (Summon summon : servitors)
 				{
 					targets.add(summon);
+				}
+				switch (_targetType)
+				{
+					case TARGET_SUMMON_AURA_AND_ME:
+						targets.add(activeChar);
+						break;
 				}
 				break;
 			case TARGET_PARTY:
@@ -4379,6 +4391,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 			case TARGET_PARTY:
 			case TARGET_PARTY_WITHOUT_ME:
 			case TARGET_SUMMON_AURA:
+			case TARGET_SUMMON_AURA_AND_ME:
 				return true;
 			default:
 				return false;

@@ -14,7 +14,7 @@
 		<set name="target" val="TARGET_ONE"/>
 		<set name="magicLevel" val="85"/>
 		<set name="skillType" val="BUFF"/>
-		<set name="isMagic" val="true"/>
+		<set name="magicType" val="MAGIC"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<for>
 			<effect name="Buff" time="1800" val="0" stackOrder="#stackLevel" stackType="MagicDefUp;pAtk;pDef;mAtk">
@@ -37,7 +37,7 @@
 		<set name="target" val="TARGET_ONE"/>
 		<set name="magicLevel" val="85"/>
 		<set name="skillType" val="BUFF"/>
-		<set name="isMagic" val="true"/>
+		<set name="magicType" val="MAGIC"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<for>
 			<effect name="Buff" time="1800" val="0" stackOrder="3" stackType="ancient">
@@ -68,7 +68,7 @@
 		<set name="target" val="TARGET_ONE"/>
 		<set name="magicLevel" val="85"/>
 		<set name="skillType" val="BUFF"/>
-		<set name="isMagic" val="true"/>
+		<set name="magicType" val="MAGIC"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<for>
 			<effect name="Buff" time="1800" val="0" stackOrder="11" stackType="hp_up;hpregen;mp_up">
@@ -92,7 +92,7 @@
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="magicLevel" val="85"/>
-		<set name="isMagic" val="true"/>
+		<set name="magicType" val="MAGIC"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<for>
 			<effect name="Buff" time="1800" val="0" stackOrder="#stackLevel" stackType="impulse;rCrit;cAtk">
@@ -117,7 +117,7 @@
 		<set name="mpConsume2" val="100"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="BUFF"/>
-		<set name="isMagic" val="true"/>
+		<set name="magicType" val="MAGIC"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="magicLevel" val="85"/>
 		<for>
@@ -144,7 +144,7 @@
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="magicLevel" val="85"/>
-		<set name="isMagic" val="true"/>
+		<set name="magicType" val="MAGIC"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<for>
 			<effect name="Buff" time="1800" val="0" stackOrder="#stackLevel" stackType="vampRage;pAtkSpeedUp;mAtkSpeedUp">
@@ -164,7 +164,7 @@
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="magicLevel" val="85"/>
-		<set name="isMagic" val="true"/>
+		<set name="magicType" val="MAGIC"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<for>
 			<effect name="Buff" time="1800" val="0" stackOrder="4" stackType="shieldProbUp;sDef;Harmony_isa;Great;HarmonyGuardian_1;HarmonyGuardian_2;song_of_hunter;dance_of_fire;dance_of_warrior;song_of_earth;rhythm_of_critical;rhythm_of_combat;berserk">
@@ -188,7 +188,7 @@
 		<set name="target" val="TARGET_ONE"/>
 		<set name="magicLevel" val="85"/>
 		<set name="skillType" val="BUFF"/>
-		<set name="isMagic" val="true"/>
+		<set name="magicType" val="MAGIC"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<for>
 			<effect name="Buff" time="1800" val="0" stackOrder="4" stackType="Great;Harmony;Harmony_isa;HarmonyBerserk_1;HarmonyBerserk_2;dance_of_warrior;song_of_earth;rhythm_of_combat;dance_of_fire;song_of_hunter;rhythm_of_critical;berserk">
@@ -215,7 +215,7 @@
 		<set name="target" val="TARGET_ONE"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="magicLevel" val="85"/>
-		<set name="isMagic" val="true"/>
+		<set name="magicType" val="MAGIC"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<for>
 			<effect name="Buff" time="1800" val="0" stackOrder="4" stackType="concentration;Harmony_isa;buff_one;HarmonyMage_1;HarmonyMage_2;HarmonyMage_3;rhythm_of_magic;dance_of_mystic;song_of_warding;dance_of_siren;song_of_renewal;rhythm_of_start;berserk">

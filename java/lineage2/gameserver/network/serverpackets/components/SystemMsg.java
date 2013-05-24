@@ -528,6 +528,9 @@ public enum SystemMsg implements IStaticPacket
 	// Message: The Blessed Enchant failed. The enchant value of the item became
 	// 0.
 	THE_BLESSED_ENCHANT_FAILED(1517),
+	
+	//You do not meet the required condition to equip that item.
+	YOU_DO_NOT_MEET_THE_REQUIRED_CONDITION_TO_EQUIP_THAT_ITEM(1518),
 	// Message: You should release your pet or servitor so that it does not fall
 	// off of the boat and drown!
 	YOU_SHOULD_RELEASE_YOUR_PET_OR_SERVITOR_SO_THAT_IT_DOES_NOT_FALL_OFF_OF_THE_BOAT_AND_DROWN(1523),

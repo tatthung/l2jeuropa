@@ -1069,6 +1069,25 @@ public abstract class Creature extends GameObject
 		double transferToSummonDam = calcStat(Stats.TRANSFER_TO_SUMMON_DAMAGE_PERCENT, 0.);
 		if (transferToSummonDam > 0)
 		{
+			//TRANSFER DAMAGE ALWAYS TO THE FIRST SUMMON
+			Summon summon = null;
+			List<Summon> servitors = ((Player) this).getSummonList().getServitors();
+			double transferDamage = (damage * transferToSummonDam) * .01;
+			if (servitors.size() > 0)
+			{
+				summon = servitors.get(0);
+			}
+			if (summon != null && !summon.isDead() && summon.getCurrentHp()>transferDamage && summon.isInRangeZ(this, 1200))
+			{
+				damage -= transferDamage;
+				summon.reduceCurrentHp(transferDamage, 0, summon, null, false, false, false, false, true, false, true);
+			}
+			else
+			{
+				getEffectList().stopEffects(EffectType.AbsorbDamageToSummon);
+				return damage;
+			}
+			/* 
 			List<Summon> servitors = ((Player) this).getSummonList().getServitors();
 			double transferDamage = (damage * transferToSummonDam) * .01;
 			for (Iterator<Summon> it = servitors.iterator(); it.hasNext();)
@@ -1095,6 +1114,7 @@ public abstract class Creature extends GameObject
 				getEffectList().stopEffects(EffectType.AbsorbDamageToSummon);
 				return damage;
 			}
+			*/
 		}
 		return damage;
 	}
