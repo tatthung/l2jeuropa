@@ -259,18 +259,18 @@ public class CharInfo extends L2GameServerPacket
 			writeD(_inv[PAPERDOLL_ID][1]);
 		}
 
-		writeD(0x01); // TODO talisman count(VISTALL)
-		writeD(0x00); // TODO cloak status(VISTALL)
+		writeD(0x01);    // TODO talisman count(VISTALL)
+		writeD(0x00);    // TODO cloak status(VISTALL)
+		writeD(0x00);
+		writeD(0x00);
+		writeD(0x00);
+		writeD(0x00);
+		writeD(0x00);
+		writeD(0x00);
 		writeD(pvp_flag);
 		writeD(karma);
-		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(_mEvasion); // Tauti
-		writeD(_mAccuracy); // Tauti
+		writeD(_mEvasion);
+		writeD(_mAccuracy);
 		writeD(_mCritRate);
 		writeD(_mAtkSpd);
 		writeD(_pAtkSpd);
@@ -334,10 +334,10 @@ public class CharInfo extends L2GameServerPacket
 		writeD(clan_rep_score);
 		writeD(_transform);
 		writeD(_agathion);
-		writeD(0x01); // T2
-		writeD(0x00);// Unknown1 (GOD)
-		writeD(0x00);// Unknown2 (GOD)
-		writeD(0x00);// Unknown3 (GOD)
+		writeD(0x01);    // T2
+		writeD(0x00);
+		writeD(0x00);
+		writeD(0x00);
 
 		writeD(curCP);
 		writeD(curHP);
@@ -345,8 +345,8 @@ public class CharInfo extends L2GameServerPacket
 		writeD(curMP);
 		writeD(maxMP);
 		writeD(0x00);
-		writeD(0x00);// Unknown9 (GOD)
-		writeC(0x00);// Unknown10 (GOD)
+		writeC(0x00);
+		writeD(0x00);
 		if (_aveList != null)
 		{
 			writeD(_aveList.size());
@@ -359,8 +359,7 @@ public class CharInfo extends L2GameServerPacket
 		{
 			writeD(0x00);
 		}
-		writeC(0x00); // Tauti
-
+		writeD(0x00);
 	}
 
 	public static final int[] PAPERDOLL_ORDER = { Inventory.PAPERDOLL_UNDER, Inventory.PAPERDOLL_HEAD, Inventory.PAPERDOLL_RHAND, Inventory.PAPERDOLL_LHAND, Inventory.PAPERDOLL_GLOVES,

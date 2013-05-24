@@ -32,7 +32,7 @@ public class UserInfo extends L2GameServerPacket
 	private int _patk, _patkspd, _pdef, evasion, accuracy, crit, _matk, _matkspd, _mevasion, _maccuracy, _mCritRate;
 	private int _mdef, pvp_flag, karma, hair_style, hair_color, face, gm_commands, fame, vitality;
 	private int clan_id, clan_crest_id, ally_id, ally_crest_id, large_clan_crest_id;
-	private int private_store, can_crystalize, pk_kills, pvp_kills, class_id, agathion;
+	private int private_store, can_crystalize, pk_kills, pvp_kills, class_id, agathion, _partySubstitute;
 	private int noble, hero, mount_id, cw_level;
 	private int name_color, running, pledge_class, pledge_type, title_color, transformation, fishing;
 	private int defenceFire, defenceWater, defenceWind, defenceEarth, defenceHoly, defenceUnholy;
@@ -230,6 +230,7 @@ public class UserInfo extends L2GameServerPacket
 		openCloak = player.getOpenCloak();
 		_allowMap = player.isActionBlocked(Zone.BLOCKED_ACTION_MINIMAP);
 		fishing = player.isFishing() ? 1 : 0; // Fishing Mode
+		_partySubstitute = 0;
 		can_writeImpl = true;
 	}
 
@@ -386,7 +387,7 @@ public class UserInfo extends L2GameServerPacket
 
 		writeD(0x00);// Unknown GOD
 		writeD(0x00);// Unknown GOD (1 - Party searching?)
-		writeC(0x00);// Unknown GOD
+		writeC(_partySubstitute);
 		writeD(0x00);// Unknown GOD
 
 		if (_aveList != null)
@@ -401,7 +402,5 @@ public class UserInfo extends L2GameServerPacket
 		{
 			writeD(0x00);
 		}
-
-		writeC(0); // Tauti
 	}
 }
