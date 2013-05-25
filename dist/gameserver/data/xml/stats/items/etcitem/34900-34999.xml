@@ -3,7 +3,7 @@
 <list>
 	<etcitem id="34900" name="Mysterious Mark">
 		<set name="icon" value="icon.etc_coins_black_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -15,7 +15,7 @@
 	</etcitem>
 	<etcitem id="34901" name="Proof of Alliance">
 		<set name="icon" value="icon.etc_paper_white_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -27,7 +27,7 @@
 	</etcitem>
 	<etcitem id="34902" name="Proof of Aspiration">
 		<set name="icon" value="icon.etc_paper_blue_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -39,7 +39,7 @@
 	</etcitem>
 	<etcitem id="34903" name="Mysterious Shadow">
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -51,7 +51,7 @@
 	</etcitem>
 	<etcitem id="34904" name="Mysterious Power">
 		<set name="icon" value="icon.weapon_apprentices_spellbook_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -131,7 +131,7 @@
 	</etcitem>
 	<etcitem id="34909" name="Mark of the Resistance">
 		<set name="icon" value="icon.scroll_of_verification_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -143,7 +143,7 @@
 	</etcitem>
 	<etcitem id="34910" name="Aku's Mark">
 		<set name="icon" value="icon.scroll_of_verification_i01"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -155,7 +155,7 @@
 	</etcitem>
 	<etcitem id="34911" name="Ruler's Authority" add_name="Not Used">
 		<set name="icon" value="icon.etc_spell_books_red_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -167,7 +167,7 @@
 	</etcitem>
 	<etcitem id="34912" name="Summoning Stone">
 		<set name="icon" value="icon.etc_crystal_ball_white_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -178,7 +178,7 @@
 	</etcitem>
 	<etcitem id="34913" name="Sack Containing Ingredients">
 		<set name="icon" value="BranchSys2.icon.etc_ancient_treasure_sack_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -191,7 +191,7 @@
 	</etcitem>
 	<etcitem id="34914" name="Transport Goods - Aden">
 		<set name="icon" value="icon.etc_jewel_box_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -204,7 +204,7 @@
 	</etcitem>
 	<etcitem id="34915" name="Hard Transport Goods - Aden" add_name="Not Used">
 		<set name="icon" value="icon.etc_treasure_box_i02"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -217,7 +217,7 @@
 	</etcitem>
 	<etcitem id="34916" name="Transport Box">
 		<set name="icon" value="icon.etc_jewel_box_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -230,7 +230,7 @@
 	</etcitem>
 	<etcitem id="34917" name="Greater Transport Box">
 		<set name="icon" value="icon.etc_treasure_box_i02"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -243,7 +243,7 @@
 	</etcitem>
 	<etcitem id="34918" name="Treasure Chest of the King of Aden">
 		<set name="icon" value="icon.etc_treasure_box_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -256,7 +256,7 @@
 	</etcitem>
 	<etcitem id="34919" name="Tax Bundle">
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -269,7 +269,7 @@
 	</etcitem>
 	<etcitem id="34920" name="Treasure Chest of the King of Rune">
 		<set name="icon" value="icon.etc_treasure_box_i01"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -360,7 +360,7 @@
 	</etcitem>
 	<etcitem id="34933" name="Kranken's Gift">
 		<set name="icon" value="icon.etc_pouch_gold_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -373,7 +373,7 @@
 	</etcitem>
 	<etcitem id="34934" name="Pobre's Gift">
 		<set name="icon" value="icon.etc_pouch_gold_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -386,7 +386,7 @@
 	</etcitem>
 	<etcitem id="34940" name="Scroll: Enchant Hair Accessory" add_name="Event">
 		<set name="icon" value="icon.etc_scroll_of_enchant_armor_i05"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -404,7 +404,7 @@
 	</etcitem>
 	<etcitem id="34941" name="Life Stone - Hair Accessory" add_name="Event">
 		<set name="icon" value="icon.life_dust_hairacc_general"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -417,7 +417,7 @@
 	</etcitem>
 	<etcitem id="34942" name="Lv2 Giant Dye Box" add_name="Event">
 		<set name="icon" value="icon.present_of_destination_event"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -430,7 +430,7 @@
 	</etcitem>
 	<etcitem id="34943" name="Lv2 Legendary Dye Box" add_name="Event">
 		<set name="icon" value="icon.present_of_destination_event"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -443,7 +443,7 @@
 	</etcitem>
 	<etcitem id="34944" name="Lv2 Ancient Dye Box" add_name="Event">
 		<set name="icon" value="icon.present_of_destination_event"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -456,7 +456,7 @@
 	</etcitem>
 	<etcitem id="34945" name="Lv3 Giant Dye Box" add_name="Event">
 		<set name="icon" value="icon.present_of_destination_event"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -469,7 +469,7 @@
 	</etcitem>
 	<etcitem id="34946" name="Lv3 Legendary Dye Box" add_name="Event">
 		<set name="icon" value="icon.present_of_destination_event"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -482,7 +482,7 @@
 	</etcitem>
 	<etcitem id="34947" name="Lv3 Ancient Dye Box" add_name="Event">
 		<set name="icon" value="icon.present_of_destination_event"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -495,7 +495,7 @@
 	</etcitem>
 	<etcitem id="34948" name="Scroll of Escape: Village Box" add_name="Event">
 		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -508,7 +508,7 @@
 	</etcitem>
 	<etcitem id="34949" name="Letter Collector's Gift (8th Anniversary)" add_name="Event">
 		<set name="icon" value="icon.shield_bread_i02"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="5"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -521,7 +521,7 @@
 	</etcitem>
 	<etcitem id="34950" name="Lv4 Giant Dye Box" add_name="Event">
 		<set name="icon" value="icon.present_of_destination_event"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -534,7 +534,7 @@
 	</etcitem>
 	<etcitem id="34951" name="Lv4 Legendary Dye Box" add_name="Event">
 		<set name="icon" value="icon.present_of_destination_event"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -547,7 +547,7 @@
 	</etcitem>
 	<etcitem id="34952" name="Lv4 Ancient Dye Box" add_name="Event">
 		<set name="icon" value="icon.present_of_destination_event"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -560,7 +560,7 @@
 	</etcitem>
 	<etcitem id="34953" name="Lv5 Giant Dye Box" add_name="Event">
 		<set name="icon" value="icon.present_of_destination_event"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -573,7 +573,7 @@
 	</etcitem>
 	<etcitem id="34954" name="Lv5 Legendary Dye Box" add_name="Event">
 		<set name="icon" value="icon.present_of_destination_event"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -586,7 +586,7 @@
 	</etcitem>
 	<etcitem id="34955" name="Lv5 Ancient Dye Box" add_name="Event">
 		<set name="icon" value="icon.present_of_destination_event"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -599,7 +599,7 @@
 	</etcitem>
 	<etcitem id="34956" name="Letter - M">
 		<set name="icon" value="icon.etc_alphabet_m_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -611,7 +611,7 @@
 	</etcitem>
 	<etcitem id="34957" name="Kbaldir's Letter">
 		<set name="icon" value="icon.etc_letter_white_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -623,7 +623,7 @@
 	</etcitem>
 	<etcitem id="34958" name="Unstable Petra">
 		<set name="icon" value="icon.etc_torch_on_i09"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -635,7 +635,7 @@
 	</etcitem>
 	<etcitem id="34959" name="Petra">
 		<set name="icon" value="icon.etc_torch_on_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -647,7 +647,7 @@
 	</etcitem>
 	<etcitem id="34960" name="Tauti's Fragment">
 		<set name="icon" value="icon.piece_of_emery_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -659,7 +659,7 @@
 	</etcitem>
 	<etcitem id="34961" name="Helping Seed">
 		<set name="icon" value="icon.etc_help_seed_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -671,7 +671,7 @@
 	</etcitem>
 	<etcitem id="34962" name="Ashes of Remnants">
 		<set name="icon" value="icon.etc_powder_orange_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -683,7 +683,7 @@
 	</etcitem>
 	<etcitem id="34963" name="Mysterious Seed">
 		<set name="icon" value="icon.etc_coda_seed_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -695,7 +695,7 @@
 	</etcitem>
 	<etcitem id="34964" name="White Chrysanthemum">
 		<set name="icon" value="icon.etc_flower_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -707,7 +707,7 @@
 	</etcitem>
 	<etcitem id="34965" name="Daylily">
 		<set name="icon" value="icon.etc_flower_i02"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -719,7 +719,7 @@
 	</etcitem>
 	<etcitem id="34966" name="Peony">
 		<set name="icon" value="icon.etc_flower_i01"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -731,7 +731,7 @@
 	</etcitem>
 	<etcitem id="34967" name="Petunia">
 		<set name="icon" value="icon.etc_flower_i03"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -743,7 +743,7 @@
 	</etcitem>
 	<etcitem id="34968" name="Pansy">
 		<set name="icon" value="icon.etc_flower_i04"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -755,7 +755,7 @@
 	</etcitem>
 	<etcitem id="34969" name="Iris">
 		<set name="icon" value="icon.etc_flower_i05"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -767,7 +767,7 @@
 	</etcitem>
 	<etcitem id="34970" name="Kuon">
 		<set name="icon" value="icon.etc_flower_i06"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -779,7 +779,7 @@
 	</etcitem>
 	<etcitem id="34971" name="Deadman's Flesh">
 		<set name="icon" value="icon.etc_bodypart_liver_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -791,7 +791,7 @@
 	</etcitem>
 	<etcitem id="34972" name="Harlan's Orders">
 		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -803,7 +803,7 @@
 	</etcitem>
 	<etcitem id="34973" name="Endrigo's Report">
 		<set name="icon" value="icon.mercenary_certification_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -815,7 +815,7 @@
 	</etcitem>
 	<etcitem id="34974" name="Mandragora Stem">
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -827,7 +827,7 @@
 	</etcitem>
 	<etcitem id="34975" name="Mandragora Root">
 		<set name="icon" value="icon.etc_ginseng_gray_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -839,7 +839,7 @@
 	</etcitem>
 	<etcitem id="34976" name="Disabled Petra">
 		<set name="icon" value="icon.etc_torch_off_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -851,7 +851,7 @@
 	</etcitem>
 	<etcitem id="34977" name="Saw-toothed Wheel of Hellfire">
 		<set name="icon" value="icon.etc_leash_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -863,7 +863,7 @@
 	</etcitem>
 	<etcitem id="34978" name="Scroll of Escape: Hot Springs">
 		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="120"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -881,7 +881,7 @@
 	</etcitem>
 	<etcitem id="34979" name="Scroll of Escape: Forge of the Gods">
 		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="120"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -899,7 +899,7 @@
 	</etcitem>
 	<etcitem id="34980" name="Scroll of Escape: Isle of Prayer">
 		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="120"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -917,7 +917,7 @@
 	</etcitem>
 	<etcitem id="34981" name="Scroll of Escape: Aden Castle (siege)">
 		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="120"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -935,7 +935,7 @@
 	</etcitem>
 	<etcitem id="34982" name="Scroll of Escape: Rune Castle (siege)">
 		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="weight" value="120"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -953,7 +953,7 @@
 	</etcitem>
 	<etcitem id="34983" name="Acquire Noblesse Privileges">
 		<set name="icon" value="icon.etc_nobless_teleport_coupon_i00"/>
-		<set name="type" value="NONE"/>
+		<set name="type" value="OTHER"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
