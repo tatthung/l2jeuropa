@@ -32,24 +32,6 @@ public class RequestPledgeCrestLarge extends L2GameClientPacket
 		_crestId = readD();
 	}
 	
-	public static byte[][] divideArray(byte[] source, int chunksize)
-	{
-        byte[][] ret = new byte[(int)Math.ceil(source.length / (double)chunksize)][chunksize];
-        int start = 0;
-        for(int i = 0; i < ret.length; i++)
-        {
-            if(start + chunksize > source.length)
-            {
-                System.arraycopy(source, start, ret[i], 0, source.length - start);
-            }
-            else
-            {
-                System.arraycopy(source, start, ret[i], 0, chunksize);
-            }
-            start += chunksize ;
-        }
-        return ret;
-    }
 	/**
 	 * Method runImpl.
 	 */

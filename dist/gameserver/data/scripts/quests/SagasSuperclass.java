@@ -837,9 +837,12 @@ public abstract class SagasSuperclass extends Quest
 			return StartNPC + ".htm";
 
 		if(id == COMPLETED)
-			return htmltext;
+		{
+			//QUEST COMPLETED BUT PLAYER WANT TO TRICLASS WITH ANOTHER SUBCLASS
+			st.exitCurrentQuest(true);
+		}
 
-		else if(npcId == StartNPC)
+		if(npcId == StartNPC)
 		{
 			if(cond == 0)
 				return StartNPC + "-1.htm";
