@@ -16,10 +16,6 @@ import lineage2.gameserver.cache.CrestCache;
 import lineage2.gameserver.model.Player;
 import lineage2.gameserver.network.serverpackets.ExPledgeCrestLarge;
 
-/**
- * @author Mobius
- * @version $Revision: 1.0 $
- */
 public class RequestPledgeCrestLarge extends L2GameClientPacket
 {
 	/**
@@ -36,6 +32,24 @@ public class RequestPledgeCrestLarge extends L2GameClientPacket
 		_crestId = readD();
 	}
 	
+	public static byte[][] divideArray(byte[] source, int chunksize)
+	{
+        byte[][] ret = new byte[(int)Math.ceil(source.length / (double)chunksize)][chunksize];
+        int start = 0;
+        for(int i = 0; i < ret.length; i++)
+        {
+            if(start + chunksize > source.length)
+            {
+                System.arraycopy(source, start, ret[i], 0, source.length - start);
+            }
+            else
+            {
+                System.arraycopy(source, start, ret[i], 0, chunksize);
+            }
+            start += chunksize ;
+        }
+        return ret;
+    }
 	/**
 	 * Method runImpl.
 	 */
@@ -54,8 +68,23 @@ public class RequestPledgeCrestLarge extends L2GameClientPacket
 		byte[] data = CrestCache.getInstance().getPledgeCrestLarge(_crestId);
 		if (data != null)
 		{
-			ExPledgeCrestLarge pcl = new ExPledgeCrestLarge(_crestId, data);
-			sendPacket(pcl);
+			for (int i = 0; i <= 4; i++)
+			{
+				byte[] dest1 = new byte[14336];
+				byte[] dest2 = new byte[8320];
+				if (i<4)
+				{
+					System.arraycopy(data, (14336*i), dest1, 0, 14336);
+					ExPledgeCrestLarge pcl = new ExPledgeCrestLarge(_crestId, dest1, i);
+					sendPacket(pcl);
+				}
+				else
+				{
+					System.arraycopy(data, (14336*i), dest2, 0, 8320);
+					ExPledgeCrestLarge pcl = new ExPledgeCrestLarge(_crestId, dest2, i);
+					sendPacket(pcl);
+				}
+			}
 		}
 	}
 }

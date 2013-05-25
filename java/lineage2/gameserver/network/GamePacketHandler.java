@@ -769,7 +769,29 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 									msg = new RequestPledgeCrestLarge();
 									break;
 								case 0x11:
-									msg = new RequestSetPledgeCrestLarge();
+									int id7 = buf.getInt();
+									if (client.getActiveChar().isGM() && client.getActiveChar().isDebug())
+									{
+										client.getActiveChar().sendMessage("IN_GAME 0xd0: 0x11:" + id7);
+									}
+									switch (id7)
+									{
+										case 0x00:
+											msg = new RequestSetPledgeCrestLarge(0);
+											break;
+										case 0x01:
+											msg = new RequestSetPledgeCrestLarge(1);
+											break;
+										case 0x02:
+											msg = new RequestSetPledgeCrestLarge(2);
+											break;
+										case 0x03:
+											msg = new RequestSetPledgeCrestLarge(3);
+											break;
+										case 0x04:
+											msg = new RequestSetPledgeCrestLarge(4);
+											break;
+									}
 									break;
 								case 0x12:
 									msg = new RequestPledgeSetAcademyMaster();
