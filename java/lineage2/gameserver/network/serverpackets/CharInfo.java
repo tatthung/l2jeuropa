@@ -315,7 +315,7 @@ public class CharInfo extends L2GameServerPacket
 		writeH(rec_have);
 		writeD(mount_id);
 		writeD(class_id);
-		writeD(0x00);
+		writeD(0x00);    // special effects? circles around player...
 		writeC(_enchant);
 		writeC(_team.ordinal()); // team circle around feet 1 = Blue, 2 = red
 		writeD(large_clan_crest_id);

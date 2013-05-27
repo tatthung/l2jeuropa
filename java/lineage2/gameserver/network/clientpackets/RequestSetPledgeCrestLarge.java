@@ -19,7 +19,6 @@ import lineage2.gameserver.model.pledge.Clan;
 
 public class RequestSetPledgeCrestLarge extends L2GameClientPacket
 {
-	private int _colors;
 	private int _length;
 	private byte[] _data;
 	private int _request;
@@ -43,7 +42,7 @@ public class RequestSetPledgeCrestLarge extends L2GameClientPacket
 	@Override
 	protected void readImpl()
 	{
-		_colors = readD();
+		readD();
 		_length = readD();
 		if (_length!=0 && _length==_buf.remaining())
 		{

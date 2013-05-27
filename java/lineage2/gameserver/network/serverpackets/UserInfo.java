@@ -347,7 +347,7 @@ public class UserInfo extends L2GameServerPacket
 		writeD(mount_id);
 		writeH(InventoryLimit);
 		writeD(class_id);
-		writeD(0x00);
+		writeD(0x00);    // special effects? circles around player...
 		writeD(maxCp);
 		writeD(curCp);
 		writeC(_enchant);
