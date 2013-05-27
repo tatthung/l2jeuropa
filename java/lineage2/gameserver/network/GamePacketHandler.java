@@ -27,10 +27,6 @@ import lineage2.gameserver.network.clientpackets.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * @author Mobius
- * @version $Revision: 1.0 $
- */
 public final class GamePacketHandler implements IPacketHandler<GameClient>, IClientFactory<GameClient>, IMMOExecutor<GameClient>
 {
 	/**
