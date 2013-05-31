@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="12600" name="Foundation Sealed Majestic Plate Armor">
+	<etcitem id="12600" name="Foundation Sealed Majestic Plate Armor" add_name="Foundation Sealed Majestic Plate Armor">
+	<!-- Rare Sealed Majestic Plate Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
@@ -10,7 +11,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="9200"/>
 	</etcitem>
-	<etcitem id="12601" name="Foundation Sealed Armor of Nightmare">
+	<etcitem id="12601" name="Foundation Sealed Armor of Nightmare" add_name="Foundation Sealed Armor of Nightmare">
+	<!-- Rare Sealed Armor of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
@@ -19,7 +21,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="9580"/>
 	</etcitem>
-	<etcitem id="12602" name="Foundation Sealed Gauntlet of Nightmare">
+	<etcitem id="12602" name="Foundation Sealed Gauntlets of Nightmare" add_name="Foundation Sealed Gauntlets of Nightmare">
+	<!-- Rare Sealed Gauntlets of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="A"/>
@@ -29,7 +32,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="550"/>
 	</etcitem>
-	<etcitem id="12603" name="Foundation Sealed Leather Armor of Nightmare">
+	<etcitem id="12603" name="Foundation Sealed Leather Armor of Nightmare" add_name="Foundation Sealed Leather Armor of Nightmare">
+	<!-- Rare Sealed Leather Armor of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
@@ -38,7 +42,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="5300"/>
 	</etcitem>
-	<etcitem id="12604" name="Foundation Sealed Nightmare Robe">
+	<etcitem id="12604" name="Foundation Sealed Robe of Nightmare" add_name="Foundation Sealed Robe of Nightmare">
+	<!-- Rare Sealed Robe of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
@@ -47,7 +52,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="2300"/>
 	</etcitem>
-	<etcitem id="12605" name="Foundation Sealed Boots of Nightmare">
+	<etcitem id="12605" name="Foundation Sealed Boots of Nightmare" add_name="Foundation Sealed Boots of Nightmare">
+	<!-- Rare Sealed Boots of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
@@ -56,7 +62,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1110"/>
 	</etcitem>
-	<etcitem id="12606" name="Foundation Sealed Shield of Nightmare">
+	<etcitem id="12606" name="Foundation Sealed Shield of Nightmare" add_name="Foundation Sealed Shield of Nightmare">
+	<!-- Rare Sealed Shield of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
@@ -65,7 +72,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1180"/>
 	</etcitem>
-	<etcitem id="12607" name="Foundation Sealed Helm of Nightmare">
+	<etcitem id="12607" name="Foundation Sealed Helm of Nightmare" add_name="Foundation Sealed Helm of Nightmare">
+	<!-- Rare Sealed Helm of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
@@ -74,7 +82,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="560"/>
 	</etcitem>
-	<etcitem id="12608" name="Foundation Armor of Nightmare">
+	<etcitem id="12608" name="Foundation Armor of Nightmare" add_name="Foundation Armor of Nightmare">
+	<!-- Rare Armor of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="A"/>
@@ -84,7 +93,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="9580"/>
 	</etcitem>
-	<etcitem id="12609" name="Foundation Gauntlet of Nightmare">
+	<etcitem id="12609" name="Foundation Gauntlets of Nightmare" add_name="Foundation Gauntlets of Nightmare">
+	<!-- Rare Gauntlets of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
@@ -93,7 +103,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="550"/>
 	</etcitem>
-	<etcitem id="12610" name="Foundation Gauntlet of Nightmare">
+	<etcitem id="12610" name="Foundation Gauntlets of Nightmare" add_name="Foundation Gauntlets of Nightmare">
+	<!-- Rare Gauntlets of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="A"/>
@@ -103,7 +114,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="550"/>
 	</etcitem>
-	<etcitem id="12611" name="Foundation Gauntlet of Nightmare">
+	<etcitem id="12611" name="Foundation Gauntlets of Nightmare" add_name="Foundation Gauntlets of Nightmare">
+	<!-- Rare Gauntlets of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="A"/>
@@ -113,7 +125,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="550"/>
 	</etcitem>
-	<etcitem id="12612" name="Foundation Nightmarish Leather Armor">
+	<etcitem id="12612" name="Foundation Leather Armor of Nightmare" add_name="Foundation Leather Armor of Nightmare">
+	<!-- Rare Leather Armor of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="A"/>
@@ -123,7 +136,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="5300"/>
 	</etcitem>
-	<etcitem id="12613" name="Foundation Nightmare Robe">
+	<etcitem id="12613" name="Foundation Robe of Nightmare" add_name="Foundation Robe of Nightmare">
+	<!-- Rare Robe of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="A"/>
@@ -133,7 +147,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="2300"/>
 	</etcitem>
-	<etcitem id="12614" name="Foundation Boots of Nightmare">
+	<etcitem id="12614" name="Foundation Boots of Nightmare" add_name="Foundation Boots of Nightmare">
+	<!-- Rare Boots of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="A"/>
@@ -143,7 +158,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1110"/>
 	</etcitem>
-	<etcitem id="12615" name="Foundation Boots of Nightmare">
+	<etcitem id="12615" name="Foundation Boots of Nightmare" add_name="Foundation Boots of Nightmare">
+	<!-- Rare Boots of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="A"/>
@@ -153,7 +169,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1110"/>
 	</etcitem>
-	<etcitem id="12616" name="Foundation Boots of Nightmare">
+	<etcitem id="12616" name="Foundation Boots of Nightmare" add_name="Foundation Boots of Nightmare">
+	<!-- Rare Boots of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="A"/>
@@ -163,7 +180,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1110"/>
 	</etcitem>
-	<etcitem id="12617" name="Foundation Shield of Nightmare">
+	<etcitem id="12617" name="Foundation Shield of Nightmare" add_name="Foundation Shield of Nightmare">
+	<!-- Rare Shield of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="A"/>
 		<set name="crystallizable" value="true"/>
@@ -172,7 +190,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1180"/>
 	</etcitem>
-	<etcitem id="12618" name="Foundation Helm of Nightmare">
+	<etcitem id="12618" name="Foundation Helm of Nightmare" add_name="Foundation Helm of Nightmare">
+	<!-- Rare Helm of Nightmare that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="A"/>
@@ -182,7 +201,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="560"/>
 	</etcitem>
-	<etcitem id="12619" name="Foundation Draconic Leather Gloves">
+	<etcitem id="12619" name="Foundation Draconic Leather Gloves" add_name="Foundation Draconic Leather Gloves">
+	<!-- Rare Draconic Leather Gloves that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -192,7 +212,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="540"/>
 	</etcitem>
-	<etcitem id="12620" name="Foundation Draconic Leather Boots">
+	<etcitem id="12620" name="Foundation Draconic Leather Boots" add_name="Foundation Draconic Leather Boots">
+	<!-- Rare Draconic Leather Boots that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -202,7 +223,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1110"/>
 	</etcitem>
-	<etcitem id="12621" name="Foundation Draconic Leather Armor">
+	<etcitem id="12621" name="Foundation Draconic Leather Armor" add_name="Foundation Draconic Leather Armor">
+	<!-- Rare Draconic Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -212,7 +234,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4950"/>
 	</etcitem>
-	<etcitem id="12622" name="Foundation Draconic Leather Helmet">
+	<etcitem id="12622" name="Foundation Draconic Leather Helmet" add_name="Foundation Draconic Leather Helmet">
+	<!-- Rare Draconic Leather Helmet that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -222,7 +245,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="550"/>
 	</etcitem>
-	<etcitem id="12623" name="Foundation Major Arcana Gloves">
+	<etcitem id="12623" name="Foundation Major Arcana Gloves" add_name="Foundation Major Arcana Gloves">
+	<!-- Rare Arcana Gloves that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -232,7 +256,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="540"/>
 	</etcitem>
-	<etcitem id="12624" name="Foundation Major Arcana Robe">
+	<etcitem id="12624" name="Foundation Major Arcana Robe" add_name="Foundation Major Arcana Robe">
+	<!-- Rare Arcana Robe that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -242,7 +267,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="2300"/>
 	</etcitem>
-	<etcitem id="12625" name="Foundation Major Arcana Boots">
+	<etcitem id="12625" name="Foundation Major Arcana Boots" add_name="Foundation Major Arcana Boots">
+	<!-- Rare Arcana Boots that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -252,7 +278,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1110"/>
 	</etcitem>
-	<etcitem id="12626" name="Foundation Major Arcana Circlet">
+	<etcitem id="12626" name="Foundation Major Arcana Circlet" add_name="Foundation Major Arcana Circlet">
+	<!-- Rare Arcana Circlet that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -262,7 +289,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="550"/>
 	</etcitem>
-	<etcitem id="12627" name="Foundation Sealed Draconic Leather Gloves">
+	<etcitem id="12627" name="Foundation Sealed Draconic Leather Gloves" add_name="Foundation Sealed Draconic Leather Gloves">
+	<!-- Rare Sealed Draconic Leather Gloves that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -271,7 +299,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="540"/>
 	</etcitem>
-	<etcitem id="12628" name="Foundation Sealed Draconic Leather Boots">
+	<etcitem id="12628" name="Foundation Sealed Draconic Leather Boots" add_name="Foundation Sealed Draconic Leather Boots">
+	<!-- Rare Sealed Draconic Leather Boots that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -280,7 +309,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1110"/>
 	</etcitem>
-	<etcitem id="12629" name="Foundation Sealed Draconic Leather Armor">
+	<etcitem id="12629" name="Foundation Sealed Draconic Leather Armor" add_name="Foundation Sealed Draconic Leather Armor">
+	<!-- Rare Sealed Draconic Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -289,7 +319,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4950"/>
 	</etcitem>
-	<etcitem id="12630" name="Foundation Sealed Draconic Leather Helmet">
+	<etcitem id="12630" name="Foundation Sealed Draconic Leather Helmet" add_name="Foundation Sealed Draconic Leather Helmet">
+	<!-- Rare Sealed Draconic Leather Helmet that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -298,7 +329,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="550"/>
 	</etcitem>
-	<etcitem id="12631" name="Foundation Sealed Major Arcana Gloves">
+	<etcitem id="12631" name="Foundation Sealed Major Arcana Gloves" add_name="Foundation Sealed Major Arcana Gloves">
+	<!-- Rare Sealed Arcana Gloves that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -307,7 +339,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="540"/>
 	</etcitem>
-	<etcitem id="12632" name="Foundation Sealed Major Arcana Robe">
+	<etcitem id="12632" name="Foundation Sealed Major Arcana Robe" add_name="Foundation Sealed Major Arcana Robe">
+	<!-- Rare Sealed Arcana Robe that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -316,7 +349,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="2300"/>
 	</etcitem>
-	<etcitem id="12633" name="Foundation Sealed Major Arcana Boots">
+	<etcitem id="12633" name="Foundation Sealed Major Arcana Boots" add_name="Foundation Sealed Major Arcana Boots">
+	<!-- Rare Sealed Arcana Boots that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -325,7 +359,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1110"/>
 	</etcitem>
-	<etcitem id="12634" name="Foundation Sealed Major Arcana Circlet">
+	<etcitem id="12634" name="Foundation Sealed Major Arcana Circlet" add_name="Foundation Sealed Major Arcana Circlet">
+	<!-- Rare Sealed Arcana Circlet that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -334,7 +369,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="550"/>
 	</etcitem>
-	<etcitem id="12635" name="Foundation Sealed Imperial Crusader Gaiters">
+	<etcitem id="12635" name="Foundation Sealed Imperial Crusader Gaiters" add_name="Foundation Sealed Imperial Crusader Gaiters">
+	<!-- Rare Sealed Imperial Crusader Gaiters that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -343,7 +379,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="3260"/>
 	</etcitem>
-	<etcitem id="12636" name="Foundation Sealed Imperial Crusader Gauntlet">
+	<etcitem id="12636" name="Foundation Sealed Imperial Crusader Gauntlets" add_name="Foundation Sealed Imperial Crusader Gauntlets">
+	<!-- Rare Sealed Imperial Crusader Gauntlets that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -352,7 +389,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="540"/>
 	</etcitem>
-	<etcitem id="12637" name="Foundation Sealed Imperial Crusader Boots">
+	<etcitem id="12637" name="Foundation Sealed Imperial Crusader Boots" add_name="Foundation Sealed Imperial Crusader Boots">
+	<!-- Rare Sealed Imperial Crusader Boots that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -361,7 +399,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1110"/>
 	</etcitem>
-	<etcitem id="12638" name="Foundation Sealed Imperial Crusader Shield">
+	<etcitem id="12638" name="Foundation Sealed Imperial Crusader Shield" add_name="Foundation Sealed Imperial Crusader Shield">
+	<!-- Rare Sealed Imperial Crusader Shield that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -370,7 +409,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1170"/>
 	</etcitem>
-	<etcitem id="12639" name="Foundation Sealed Imperial Crusader Helmet">
+	<etcitem id="12639" name="Foundation Sealed Imperial Crusader Helmet" add_name="Foundation Sealed Imperial Crusader Helmet">
+	<!-- Rare Sealed Imperial Crusader Helmet that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -379,7 +419,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="550"/>
 	</etcitem>
-	<etcitem id="12640" name="Foundation Sealed Imperial Crusader Breastplate">
+	<etcitem id="12640" name="Foundation Sealed Imperial Crusader Breastplate" add_name="Foundation Sealed Imperial Crusader Breastplate">
+	<!-- Rare Sealed Imperial Crusader Breastplate that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -388,7 +429,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="7620"/>
 	</etcitem>
-	<etcitem id="12641" name="Foundation Imperial Crusader Gaiters">
+	<etcitem id="12641" name="Foundation Imperial Crusader Gaiters" add_name="Foundation Imperial Crusader Gaiters">
+	<!-- Rare Imperial Crusader Gaiters that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -398,7 +440,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="3260"/>
 	</etcitem>
-	<etcitem id="12642" name="Foundation Imperial Crusader Gauntlet">
+	<etcitem id="12642" name="Foundation Imperial Crusader Gauntlets" add_name="Foundation Imperial Crusader Gauntlets">
+	<!-- Rare Imperial Crusader Gauntlets that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -408,7 +451,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="540"/>
 	</etcitem>
-	<etcitem id="12643" name="Foundation Imperial Crusader Boots">
+	<etcitem id="12643" name="Foundation Imperial Crusader Boots" add_name="Foundation Imperial Crusader Boots">
+	<!-- Rare Imperial Crusader Boots that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -418,7 +462,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1110"/>
 	</etcitem>
-	<etcitem id="12644" name="Foundation Imperial Crusader Shield">
+	<etcitem id="12644" name="Foundation Imperial Crusader Shield" add_name="Foundation Imperial Crusader Shield">
+	<!-- Rare Imperial Crusader Shield that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -427,7 +472,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1170"/>
 	</etcitem>
-	<etcitem id="12645" name="Foundation Imperial Crusader Helmet">
+	<etcitem id="12645" name="Foundation Imperial Crusader Helmet" add_name="Foundation Imperial Crusader Helmet">
+	<!-- Rare Imperial Crusader Helmet that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -437,7 +483,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="550"/>
 	</etcitem>
-	<etcitem id="12646" name="Foundation Imperial Crusader Breastplate">
+	<etcitem id="12646" name="Foundation Imperial Crusader Breastplate" add_name="Foundation Imperial Crusader Breastplate">
+	<!-- Rare Imperial Crusader Breastplate that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -447,7 +494,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="7620"/>
 	</etcitem>
-	<etcitem id="12647" name="Foundation Dynasty Gaiters">
+	<etcitem id="12647" name="Foundation Dynasty Gaiters" add_name="Foundation Dynasty Gaiters">
+	<!-- Rare Dynasty Gaiters that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -457,7 +505,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="3210"/>
 	</etcitem>
-	<etcitem id="12648" name="Foundation Dynasty Gauntlet">
+	<etcitem id="12648" name="Foundation Dynasty Gauntlets" add_name="Foundation Dynasty Gauntlets">
+	<!-- Rare Dynasty Gauntlets that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -467,7 +516,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="520"/>
 	</etcitem>
-	<etcitem id="12649" name="Foundation Dynasty Gloves">
+	<etcitem id="12649" name="Foundation Dynasty Gloves" add_name="Foundation Dynasty Gloves">
+	<!-- Rare Dynasty Gloves that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -477,7 +527,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="520"/>
 	</etcitem>
-	<etcitem id="12650" name="Foundation Dynasty Leather Gloves">
+	<etcitem id="12650" name="Foundation Dynasty Leather Gloves" add_name="Foundation Dynasty Leather Gloves">
+	<!-- Rare Dynasty Leather Gloves that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -487,7 +538,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="520"/>
 	</etcitem>
-	<etcitem id="12651" name="Foundation Dynasty Leather Leggings">
+	<etcitem id="12651" name="Foundation Dynasty Leather Leggings" add_name="Foundation Dynasty Leather Leggings">
+	<!-- Rare Dynasty Leather Leggings that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -497,7 +549,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1370"/>
 	</etcitem>
-	<etcitem id="12652" name="Foundation Dynasty Leather Armor">
+	<etcitem id="12652" name="Foundation Dynasty Leather Armor" add_name="Foundation Dynasty Leather Armor">
+	<!-- Rare Dynasty Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -507,7 +560,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12653" name="Foundation Dynasty Leather Armor">
+	<etcitem id="12653" name="Foundation Dynasty Leather Armor" add_name="Foundation Dynasty Leather Armor">
+	<!-- Rare Dynasty Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -517,7 +571,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12654" name="Foundation Dynasty Leather Armor">
+	<etcitem id="12654" name="Foundation Dynasty Leather Armor" add_name="Foundation Dynasty Leather Armor">
+	<!-- Rare Dynasty Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -527,7 +582,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12655" name="Foundation Dynasty Leather Armor">
+	<etcitem id="12655" name="Foundation Dynasty Leather Armor" add_name="Foundation Dynasty Leather Armor">
+	<!-- Rare Dynasty Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -537,7 +593,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12656" name="Foundation Dynasty Leather Armor">
+	<etcitem id="12656" name="Foundation Dynasty Leather Armor" add_name="Foundation Dynasty Leather Armor">
+	<!-- Rare Dynasty Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -547,7 +604,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12657" name="Foundation Dynasty Leather Armor">
+	<etcitem id="12657" name="Foundation Dynasty Leather Armor" add_name="Foundation Dynasty Leather Armor">
+	<!-- Rare Dynasty Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -557,7 +615,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12658" name="Foundation Dynasty Leather Armor">
+	<etcitem id="12658" name="Foundation Dynasty Leather Armor" add_name="Foundation Dynasty Leather Armor">
+	<!-- Rare Dynasty Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -567,7 +626,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12659" name="Foundation Dynasty Leather Boots">
+	<etcitem id="12659" name="Foundation Dynasty Leather Boots" add_name="Foundation Dynasty Leather Boots">
+	<!-- Rare Dynasty Leather Boots that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -577,7 +637,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1090"/>
 	</etcitem>
-	<etcitem id="12660" name="Foundation Dynasty Leather Helmet">
+	<etcitem id="12660" name="Foundation Dynasty Leather Helmet" add_name="Foundation Dynasty Leather Helmet">
+	<!-- Rare Dynasty Leather Helmet that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -587,7 +648,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="530"/>
 	</etcitem>
-	<etcitem id="12661" name="Foundation Dynasty Boots">
+	<etcitem id="12661" name="Foundation Dynasty Boots" add_name="Foundation Dynasty Boots">
+	<!-- Rare Dynasty Boots that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -597,7 +659,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1090"/>
 	</etcitem>
-	<etcitem id="12662" name="Foundation Dynasty Breastplate">
+	<etcitem id="12662" name="Foundation Dynasty Breastplate" add_name="Foundation Dynasty Breastplate">
+	<!-- Rare Dynasty Breastplate that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -607,7 +670,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="7570"/>
 	</etcitem>
-	<etcitem id="12663" name="Foundation Dynasty Breastplate">
+	<etcitem id="12663" name="Foundation Dynasty Breastplate" add_name="Foundation Dynasty Breastplate">
+	<!-- Rare Dynasty Breastplate that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -617,7 +681,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="7570"/>
 	</etcitem>
-	<etcitem id="12664" name="Foundation Dynasty Breastplate">
+	<etcitem id="12664" name="Foundation Dynasty Breastplate" add_name="Foundation Dynasty Breastplate">
+	<!-- Rare Dynasty Breastplate that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -627,7 +692,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="7570"/>
 	</etcitem>
-	<etcitem id="12665" name="Foundation Dynasty Breastplate">
+	<etcitem id="12665" name="Foundation Dynasty Breastplate" add_name="Foundation Dynasty Breastplate">
+	<!-- Rare Dynasty Breastplate that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -637,7 +703,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="7570"/>
 	</etcitem>
-	<etcitem id="12666" name="Foundation Dynasty Breastplate">
+	<etcitem id="12666" name="Foundation Dynasty Breastplate" add_name="Foundation Dynasty Breastplate">
+	<!-- Rare Dynasty Breastplate that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -647,7 +714,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="7570"/>
 	</etcitem>
-	<etcitem id="12667" name="Foundation Dynasty Shield">
+	<etcitem id="12667" name="Foundation Dynasty Shield" add_name="Foundation Dynasty Shield">
+	<!-- Rare Dynasty Shield that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -656,7 +724,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1390"/>
 	</etcitem>
-	<etcitem id="12668" name="Foundation Dynasty Shoes">
+	<etcitem id="12668" name="Foundation Dynasty Shoes" add_name="Foundation Dynasty Shoes">
+	<!-- Rare Dynasty Shoes that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -666,7 +735,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1090"/>
 	</etcitem>
-	<etcitem id="12669" name="Foundation Dynasty Silver Satin Tunic">
+	<etcitem id="12669" name="Foundation Dynasty Silver Satin Tunic" add_name="Foundation Dynasty Silver Satin Tunic">
+	<!-- Rare Dynasty Silver Satin Tunic that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -676,7 +746,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1780"/>
 	</etcitem>
-	<etcitem id="12670" name="Foundation Dynasty Silver Satin Tunic">
+	<etcitem id="12670" name="Foundation Dynasty Silver Satin Tunic" add_name="Foundation Dynasty Silver Satin Tunic">
+	<!-- Rare Dynasty Silver Satin Tunic that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -686,7 +757,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1780"/>
 	</etcitem>
-	<etcitem id="12671" name="Foundation Dynasty Silver Satin Tunic">
+	<etcitem id="12671" name="Foundation Dynasty Silver Satin Tunic" add_name="Foundation Dynasty Silver Satin Tunic">
+	<!-- Rare Dynasty Silver Satin Tunic that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -696,7 +768,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1780"/>
 	</etcitem>
-	<etcitem id="12672" name="Foundation Dynasty Silver Satin Tunic">
+	<etcitem id="12672" name="Foundation Dynasty Silver Satin Tunic" add_name="Foundation Dynasty Silver Satin Tunic">
+	<!-- Rare Dynasty Silver Satin Tunic that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -706,7 +779,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1780"/>
 	</etcitem>
-	<etcitem id="12673" name="Foundation Dynasty Silver Satin Tunic">
+	<etcitem id="12673" name="Foundation Dynasty Silver Satin Tunic" add_name="Foundation Dynasty Silver Satin Tunic">
+	<!-- Rare Dynasty Silver Satin Tunic that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -716,7 +790,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1780"/>
 	</etcitem>
-	<etcitem id="12674" name="Foundation Dynasty Circlet">
+	<etcitem id="12674" name="Foundation Dynasty Circlet" add_name="Foundation Dynasty Circlet">
+	<!-- Rare Dynasty Circlet that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -726,7 +801,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="530"/>
 	</etcitem>
-	<etcitem id="12675" name="Foundation Dynasty Jewel Leather Mail">
+	<etcitem id="12675" name="Foundation Dynasty Jewel Leather Armor" add_name="Foundation Dynasty Jewel Leather Armor">
+	<!-- Rare Dynasty Jewel Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -736,7 +812,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12676" name="Foundation Dynasty Jewel Leather Mail">
+	<etcitem id="12676" name="Foundation Dynasty Jewel Leather Armor" add_name="Foundation Dynasty Jewel Leather Armor">
+	<!-- Rare Dynasty Jewel Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -746,7 +823,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12677" name="Foundation Dynasty Jewel Leather Mail">
+	<etcitem id="12677" name="Foundation Dynasty Jewel Leather Armor" add_name="Foundation Dynasty Jewel Leather Armor">
+	<!-- Rare Dynasty Jewel Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -756,7 +834,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12678" name="Foundation Dynasty Jewel Leather Mail">
+	<etcitem id="12678" name="Foundation Dynasty Jewel Leather Armor" add_name="Foundation Dynasty Jewel Leather Armor">
+	<!-- Rare Dynasty Jewel Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -766,7 +845,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12679" name="Foundation Dynasty Jewel Leather Mail">
+	<etcitem id="12679" name="Foundation Dynasty Jewel Leather Armor" add_name="Foundation Dynasty Jewel Leather Armor">
+	<!-- Rare Dynasty Jewel Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -776,7 +856,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12680" name="Foundation Dynasty Jewel Leather Mail">
+	<etcitem id="12680" name="Foundation Dynasty Jewel Leather Armor" add_name="Foundation Dynasty Jewel Leather Armor">
+	<!-- Rare Dynasty Jewel Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -786,7 +867,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12681" name="Foundation Dynasty Jewel Leather Mail">
+	<etcitem id="12681" name="Foundation Dynasty Jewel Leather Armor" add_name="Foundation Dynasty Jewel Leather Armor">
+	<!-- Rare Dynasty Jewel Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -796,7 +878,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="4180"/>
 	</etcitem>
-	<etcitem id="12682" name="Foundation Dynasty Tunic">
+	<etcitem id="12682" name="Foundation Dynasty Tunic" add_name="Foundation Dynasty Tunic">
+	<!-- Rare Dynasty Tunic that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -806,7 +889,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1780"/>
 	</etcitem>
-	<etcitem id="12683" name="Foundation Dynasty Tunic">
+	<etcitem id="12683" name="Foundation Dynasty Tunic" add_name="Foundation Dynasty Tunic">
+	<!-- Rare Dynasty Tunic that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -816,7 +900,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1780"/>
 	</etcitem>
-	<etcitem id="12684" name="Foundation Dynasty Tunic">
+	<etcitem id="12684" name="Foundation Dynasty Tunic" add_name="Foundation Dynasty Tunic">
+	<!-- Rare Dynasty Tunic that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -826,7 +911,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1780"/>
 	</etcitem>
-	<etcitem id="12685" name="Foundation Dynasty Tunic">
+	<etcitem id="12685" name="Foundation Dynasty Tunic" add_name="Foundation Dynasty Tunic">
+	<!-- Rare Dynasty Tunic that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -836,7 +922,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1780"/>
 	</etcitem>
-	<etcitem id="12686" name="Foundation Dynasty Tunic">
+	<etcitem id="12686" name="Foundation Dynasty Tunic" add_name="Foundation Dynasty Tunic">
+	<!-- Rare Dynasty Tunic that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -846,7 +933,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1780"/>
 	</etcitem>
-	<etcitem id="12687" name="Foundation Dynasty Platinum Plate">
+	<etcitem id="12687" name="Foundation Dynasty Platinum Plate" add_name="Foundation Dynasty Platinum Plate">
+	<!-- Rare Dynasty Platinum Plate that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -856,7 +944,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="7570"/>
 	</etcitem>
-	<etcitem id="12688" name="Foundation Dynasty Platinum Plate">
+	<etcitem id="12688" name="Foundation Dynasty Platinum Plate" add_name="Foundation Dynasty Platinum Plate">
+	<!-- Rare Dynasty Platinum Plate that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -866,7 +955,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="7570"/>
 	</etcitem>
-	<etcitem id="12689" name="Foundation Dynasty Platinum Plate">
+	<etcitem id="12689" name="Foundation Dynasty Platinum Plate" add_name="Foundation Dynasty Platinum Plate">
+	<!-- Rare Dynasty Platinum Plate that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -876,7 +966,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="7570"/>
 	</etcitem>
-	<etcitem id="12690" name="Foundation Dynasty Platinum Plate">
+	<etcitem id="12690" name="Foundation Dynasty Platinum Plate" add_name="Foundation Dynasty Platinum Plate">
+	<!-- Rare Dynasty Platinum Plate that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -886,7 +977,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="7570"/>
 	</etcitem>
-	<etcitem id="12691" name="Foundation Dynasty Platinum Plate">
+	<etcitem id="12691" name="Foundation Dynasty Platinum Plate" add_name="Foundation Dynasty Platinum Plate">
+	<!-- Rare Dynasty Platinum Plate that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -896,7 +988,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="7570"/>
 	</etcitem>
-	<etcitem id="12692" name="Foundation Dynasty Helmet">
+	<etcitem id="12692" name="Foundation Dynasty Helmet" add_name="Foundation Dynasty Helmet">
+	<!-- Rare Dynasty Helmet that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -906,7 +999,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="530"/>
 	</etcitem>
-	<etcitem id="12693" name="Foundation Dynasty Stockings">
+	<etcitem id="12693" name="Foundation Dynasty Stockings" add_name="Foundation Dynasty Stockings">
+	<!-- Rare Dynasty Stockings that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="S"/>
@@ -916,7 +1010,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="860"/>
 	</etcitem>
-	<etcitem id="12694" name="Foundation Sealed Dynasty Gaiters">
+	<etcitem id="12694" name="Foundation Sealed Dynasty Gaiters" add_name="Foundation Sealed Dynasty Gaiters">
+	<!-- Rare Sealed Dynasty Gaiters that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -925,7 +1020,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="3210"/>
 	</etcitem>
-	<etcitem id="12695" name="Foundation Sealed Dynasty Gauntlet">
+	<etcitem id="12695" name="Foundation Sealed Dynasty Gauntlets" add_name="Foundation Sealed Dynasty Gauntlets">
+	<!-- Rare Sealed Dynasty Gauntlets that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -934,7 +1030,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="520"/>
 	</etcitem>
-	<etcitem id="12696" name="Foundation Sealed Dynasty Gloves">
+	<etcitem id="12696" name="Foundation Sealed Dynasty Gloves" add_name="Foundation Sealed Dynasty Gloves">
+	<!-- Rare Sealed Dynasty Gloves that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -943,7 +1040,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="520"/>
 	</etcitem>
-	<etcitem id="12697" name="Foundation Sealed Dynasty Leather Gloves">
+	<etcitem id="12697" name="Foundation Sealed Dynasty Leather Gloves" add_name="Foundation Sealed Dynasty Leather Gloves">
+	<!-- Rare Sealed Dynasty Leather Gloves that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -952,7 +1050,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="520"/>
 	</etcitem>
-	<etcitem id="12698" name="Foundation Sealed Dynasty Leather Leggings">
+	<etcitem id="12698" name="Foundation Sealed Dynasty Leather Leggings" add_name="Foundation Sealed Dynasty Leather Leggings">
+	<!-- Rare Sealed Dynasty Leather Leggings that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>
@@ -961,7 +1060,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1370"/>
 	</etcitem>
-	<etcitem id="12699" name="Foundation Sealed Dynasty Leather Armor">
+	<etcitem id="12699" name="Foundation Sealed Dynasty Leather Armor" add_name="Foundation Sealed Dynasty Leather Armor">
+	<!-- Rare Sealed Dynasty Leather Armor that requires a thorough varnishing. It can be varnished by the Blacksmith of Mammon. -->
 		<set name="class" value="ARMOR"/>
 		<set name="crystal_type" value="S"/>
 		<set name="crystallizable" value="true"/>

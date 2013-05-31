@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="31700" name="Unidentified Keshanberk">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31700" name="Unidentified Keshanberk" add_name="Unidentified Keshanberk">
+	<!-- Keshanberk in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -12,8 +12,8 @@
 			<skill id="12309" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31701" name="Unidentified Crimson Sword*Sword of Revolution">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31701" name="Unidentified Crimson Sword*Sword of Revolution" add_name="Unidentified Crimson Sword*Sword of Revolution">
+	<!-- A Crimson Sword*Sword of Revolution in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -23,8 +23,8 @@
 			<skill id="12310" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31702" name="Unidentified Crimson Sword*Crimson Sword">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31702" name="Unidentified Crimson Sword*Crimson Sword" add_name="Unidentified Crimson Sword*Crimson Sword">
+	<!-- A Crimson Sword*Crimson Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -34,8 +34,8 @@
 			<skill id="12311" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31703" name="Unidentified Crimson Sword*Elven Sword">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31703" name="Unidentified Crimson Sword*Elven Sword" add_name="Unidentified Crimson Sword*Elven Sword">
+	<!-- A Crimson Sword*Elven Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -45,8 +45,8 @@
 			<skill id="12312" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31704" name="Unidentified Crimson Sword*Elven Long Sword">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31704" name="Unidentified Crimson Sword*Elven Long Sword" add_name="Unidentified Crimson Sword*Elven Long Sword">
+	<!-- A Crimson Sword*Elven Long Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -56,8 +56,8 @@
 			<skill id="12313" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31705" name="Unidentified Crimson Sword">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31705" name="Unidentified Crimson Sword" add_name="Unidentified Crimson Sword">
+	<!-- Crimson sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -67,8 +67,8 @@
 			<skill id="12314" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31706" name="Unidentified Crystal Staff">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31706" name="Unidentified Crystal Staff" add_name="Unidentified Crystal Staff">
+	<!-- A Crystal Staff in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -78,8 +78,8 @@
 			<skill id="12315" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31707" name="Unidentified Crystal Dagger">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31707" name="Unidentified Crystal Dagger" add_name="Unidentified Crystal Dagger">
+	<!-- A Crystal Dagger in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -89,8 +89,8 @@
 			<skill id="12316" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31708" name="Unidentified Crys">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31708" name="Unidentified Kris" add_name="Unidentified Kris">
+	<!-- Kris in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -100,8 +100,8 @@
 			<skill id="12317" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31709" name="Unidentified Crossbow">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31709" name="Unidentified Crossbow" add_name="Unidentified Crossbow">
+	<!-- Kamael-exclusive weapon:  Gastraphetes conversion, Unidentified Crossbow. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / crossbow) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -111,8 +111,8 @@
 			<skill id="12318" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31710" name="Unidentified Cranequin">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31710" name="Unidentified Cranequin" add_name="Unidentified Cranequin">
+	<!-- Kamael-exclusive weapon:  Light Crossbow conversion, Unidentified Cranequin. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / crossbow) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -122,8 +122,8 @@
 			<skill id="12319" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31711" name="Unidentified Kukuri">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31711" name="Unidentified Kukuri" add_name="Unidentified Kukuri">
+	<!-- Kukuri in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -133,8 +133,8 @@
 			<skill id="12320" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31712" name="Unidentified Compound Armor">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31712" name="Unidentified Compound Armor" add_name="Unidentified Compound Armor">
+	<!-- A Compound Armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-piece / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -144,8 +144,8 @@
 			<skill id="12321" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31713" name="Unidentified Compound Helmet">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31713" name="Unidentified Compound Helmet" add_name="Unidentified Compound Helmet">
+	<!-- A Compound Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Helmet) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -155,8 +155,8 @@
 			<skill id="12322" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31714" name="Unidentified Compound Shield">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31714" name="Unidentified Compound Shield" add_name="Unidentified Compound Shield">
+	<!-- A Compound Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Shield) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -166,8 +166,8 @@
 			<skill id="12323" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31715" name="Unidentified Compound Boots">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31715" name="Unidentified Compound Boots" add_name="Unidentified Compound Boots">
+	<!-- Compound Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -177,8 +177,8 @@
 			<skill id="12324" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31716" name="Unidentified Conjuror's Staff">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31716" name="Unidentified Conjuror's Staff" add_name="Unidentified Conjuror's Staff">
+	<!-- A Conjuror's Staff in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -188,8 +188,8 @@
 			<skill id="12325" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31717" name="Unidentified Conjuror's Knife">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31717" name="Unidentified Conjuror's Knife" add_name="Unidentified Conjuror's Knife">
+	<!-- A Conjuror's Knife in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -199,8 +199,8 @@
 			<skill id="12326" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31718" name="Unidentified Katana*Katana">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31718" name="Unidentified Katana*Katana" add_name="Unidentified Katana*Katana">
+	<!-- Katana*katana in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -210,8 +210,8 @@
 			<skill id="12327" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31719" name="Unidentified Katana*Spirit Sword">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31719" name="Unidentified Katana*Spirit Sword" add_name="Unidentified Katana*Spirit Sword">
+	<!-- Katana*spirit sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -221,8 +221,8 @@
 			<skill id="12328" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31720" name="Unidentified Katana*Raid Sword">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31720" name="Unidentified Katana*Raid Sword" add_name="Unidentified Katana*Raid Sword">
+	<!-- Katana*raid sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -232,8 +232,8 @@
 			<skill id="12329" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31721" name="Unidentified Katana">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31721" name="Unidentified Katana" add_name="Unidentified Katana">
+	<!-- Katana in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -243,8 +243,8 @@
 			<skill id="12330" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31722" name="Unidentified Katzbalger">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31722" name="Unidentified Katzbalger" add_name="Unidentified Katzbalger">
+	<!-- Kamael-exclusive weapon:  Lesser Giant's Sword conversion, Unidentified Katzbalger. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / ancient sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -254,8 +254,8 @@
 			<skill id="12331" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31723" name="Unidentified Kaim Vanul's Bones">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31723" name="Unidentified Kaim Vanul's Bones" add_name="Unidentified Kaim Vanul's Bones">
+	<!-- Kaim Vanul's Bones in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -265,8 +265,8 @@
 			<skill id="12332" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31724" name="Unidentified Kite Shield">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31724" name="Unidentified Kite Shield" add_name="Unidentified Kite Shield">
+	<!-- A Kite Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Shield) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -276,8 +276,8 @@
 			<skill id="12333" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31725" name="Unidentified Karik Horn">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31725" name="Unidentified Karik Horn" add_name="Unidentified Karik Horn">
+	<!-- A Karik Horn in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -287,8 +287,8 @@
 			<skill id="12334" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31726" name="Unidentified Caliburs">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31726" name="Unidentified Caliburs" add_name="Unidentified Caliburs">
+	<!-- A Caliburs in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -298,8 +298,8 @@
 			<skill id="12335" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31727" name="Unidentified Karmian Stockings">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31727" name="Unidentified Karmian Stockings" add_name="Unidentified Karmian Stockings">
+	<!-- Karmian Stockings in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -309,8 +309,8 @@
 			<skill id="12336" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31728" name="Unidentified Karmian Tunic">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31728" name="Unidentified Karmian Tunic" add_name="Unidentified Karmian Tunic">
+	<!-- A Karmian Tunic in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -320,8 +320,8 @@
 			<skill id="12337" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31729" name="Unidentified Karmian Boots">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31729" name="Unidentified Karmian Boots" add_name="Unidentified Karmian Boots">
+	<!-- Karmian Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -331,8 +331,8 @@
 			<skill id="12338" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31730" name="Unidentified Karmian Gloves">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31730" name="Unidentified Karmian Gloves" add_name="Unidentified Karmian Gloves">
+	<!-- Karmian Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -342,8 +342,8 @@
 			<skill id="12339" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31731" name="Unidentified Carnage Bow">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31731" name="Unidentified Carnage Bow" add_name="Unidentified Carnage Bow">
+	<!-- Carnage bow in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / bow) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -353,8 +353,8 @@
 			<skill id="12340" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31732" name="Unidentified Tsurugi">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31732" name="Unidentified Tsurugi" add_name="Unidentified Tsurugi">
+	<!-- Tsurugi in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -364,8 +364,8 @@
 			<skill id="12341" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31733" name="Unidentified Chain Shield">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31733" name="Unidentified Chain Shield" add_name="Unidentified Chain Shield">
+	<!-- A Chain Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Shield) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -375,8 +375,8 @@
 			<skill id="12342" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31734" name="Unidentified Chain Mail Shirt">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31734" name="Unidentified Chain Mail Shirt" add_name="Unidentified Chain Mail Shirt">
+	<!-- Chain Mail Shirt in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -386,8 +386,8 @@
 			<skill id="12343" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31735" name="Unidentified Chain Gaiters">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31735" name="Unidentified Chain Gaiters" add_name="Unidentified Chain Gaiters">
+	<!-- Chain Gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -397,8 +397,8 @@
 			<skill id="12344" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31736" name="Unidentified Chain Boots">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31736" name="Unidentified Chain Boots" add_name="Unidentified Chain Boots">
+	<!-- Chain Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -408,8 +408,8 @@
 			<skill id="12345" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31737" name="Unidentified Chain Gloves">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31737" name="Unidentified Chain Gloves" add_name="Unidentified Chain Gloves">
+	<!-- Chain Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -419,8 +419,8 @@
 			<skill id="12346" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31738" name="Unidentified Bronze Helmet">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31738" name="Unidentified Bronze Helmet" add_name="Unidentified Bronze Helmet">
+	<!-- Bronze Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Helmet) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -430,8 +430,8 @@
 			<skill id="12347" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31739" name="Unidentified Bronze Shield">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31739" name="Unidentified Bronze Shield" add_name="Unidentified Bronze Shield">
+	<!-- Bronze Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Shield) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -441,8 +441,8 @@
 			<skill id="12348" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31740" name="Unidentified Iron Plate Gaiters">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31740" name="Unidentified Iron Plate Gaiters" add_name="Unidentified Iron Plate Gaiters">
+	<!-- Iron plate Gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -452,8 +452,8 @@
 			<skill id="12349" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31741" name="Unidentified Chakram">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31741" name="Unidentified Chakram" add_name="Unidentified Chakram">
+	<!-- Chakram in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / combat) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -463,8 +463,8 @@
 			<skill id="12350" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31742" name="Unidentified Crimson Boots">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31742" name="Unidentified Crimson Boots" add_name="Unidentified Crimson Boots">
+	<!-- Crimson Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -474,8 +474,8 @@
 			<skill id="12351" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31743" name="Unidentified Rip Gauntlet">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31743" name="Unidentified Rip Gauntlets" add_name="Unidentified Rip Gauntlets">
+	<!-- Crimson Gauntlets in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -485,8 +485,8 @@
 			<skill id="12352" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31744" name="Unidentified Scroll of Wisdom">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31744" name="Unidentified Scroll of Wisdom" add_name="Unidentified Scroll of Wisdom">
+	<!-- Scroll of wisdom in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -496,8 +496,8 @@
 			<skill id="12353" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31745" name="Unidentified Stockings of Knowledge">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31745" name="Unidentified Stockings of Knowledge" add_name="Unidentified Stockings of Knowledge">
+	<!-- Stockings of knowledge in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -507,8 +507,8 @@
 			<skill id="12354" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31746" name="Unidentified Tunic of Knowledge">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31746" name="Unidentified Tunic of Knowledge" add_name="Unidentified Tunic of Knowledge">
+	<!-- Tunic of knowledge in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -518,8 +518,8 @@
 			<skill id="12355" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31747" name="Unidentified Gloves of Knowledge">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31747" name="Unidentified Gloves of Knowledge" add_name="Unidentified Gloves of Knowledge">
+	<!-- Gloves of knowledge in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -529,8 +529,8 @@
 			<skill id="12356" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31748" name="Unidentified Boots of Knowledge">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31748" name="Unidentified Boots of Knowledge" add_name="Unidentified Boots of Knowledge">
+	<!-- Boots of knowledge in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -540,8 +540,8 @@
 			<skill id="12357" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31749" name="Unidentified Striped Silk Shirt">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31749" name="Unidentified Striped Silk Shirt" add_name="Unidentified Striped Silk Shirt">
+	<!-- Striped Silk Shirt in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: undergarment) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -551,8 +551,8 @@
 			<skill id="12358" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31750" name="Unidentified Striped Linen Shirt">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31750" name="Unidentified Striped Linen Shirt" add_name="Unidentified Striped Linen Shirt">
+	<!-- Striped Linen Shirt in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: undergarment) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -562,8 +562,8 @@
 			<skill id="12359" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31751" name="Unidentified General's Katzbalger">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31751" name="Unidentified General's Katzbalger" add_name="Unidentified General's Katzbalger">
+	<!-- Kamael-exclusive weapon:  Claymore conversion, Unidentified General's Katzbalger. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / ancient sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -573,8 +573,8 @@
 			<skill id="12360" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31752" name="Unidentified Sprite's Staff">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31752" name="Unidentified Spirit's Staff" add_name="Unidentified Spirit's Staff">
+	<!-- Spirit's Staff in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -584,8 +584,8 @@
 			<skill id="12361" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31753" name="Unidentified Cursed Maingauche">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31753" name="Unidentified Cursed Maingauche" add_name="Unidentified Cursed Maingauche">
+	<!-- A Cursed Maingauche in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -595,8 +595,8 @@
 			<skill id="12362" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31754" name="Unidentified Cursed Dagger">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31754" name="Unidentified Cursed Dagger" add_name="Unidentified Cursed Dagger">
+	<!-- A Cursed Dagger in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -606,8 +606,8 @@
 			<skill id="12363" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31755" name="Unidentified Cursed Stockings">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31755" name="Unidentified Cursed Stockings" add_name="Unidentified Cursed Stockings">
+	<!-- Cursed Stockings in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -617,8 +617,8 @@
 			<skill id="12364" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31756" name="Unidentified Cursed Tunic">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31756" name="Unidentified Cursed Tunic" add_name="Unidentified Cursed Tunic">
+	<!-- Cursed Tunic in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -628,8 +628,8 @@
 			<skill id="12365" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31757" name="Unidentified Cursed Staff">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31757" name="Unidentified Cursed Staff" add_name="Unidentified Cursed Staff">
+	<!-- Cursed staff in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -639,8 +639,8 @@
 			<skill id="12366" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31758" name="Unidentified Artisan's Sword*Sword of Revolution">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31758" name="Unidentified Artisan's Sword*Sword of Revolution" add_name="Unidentified Artisan's Sword*Sword of Revolution">
+	<!-- Artisan's Sword*Sword of Revolution in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -650,8 +650,8 @@
 			<skill id="12367" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31759" name="Unidentified Artisan's Sword*Crimson Sword">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31759" name="Unidentified Artisan's Sword*Crimson Sword" add_name="Unidentified Artisan's Sword*Crimson Sword">
+	<!-- Artisan's Sword*Crimson Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -661,8 +661,8 @@
 			<skill id="12368" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31760" name="Unidentified Artisan's Sword*Artisan's Sword">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31760" name="Unidentified Artisan's Sword*Artisan's Sword" add_name="Unidentified Artisan's Sword*Artisan's Sword">
+	<!-- Artisan's Sword*Artisan's Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -672,8 +672,8 @@
 			<skill id="12369" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31761" name="Unidentified Artisan's Sword*Elven Sword">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31761" name="Unidentified Artisan's Sword*Elven Sword" add_name="Unidentified Artisan's Sword*Elven Sword">
+	<!-- Artisan's Sword*Elven Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -683,8 +683,8 @@
 			<skill id="12370" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31762" name="Unidentified Artisan's Sword*Elven Long Sword">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31762" name="Unidentified Artisan's Sword*Elven Long Sword" add_name="Unidentified Artisan's Sword*Elven Long Sword">
+	<!-- Artisan's Sword*Elven Long Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -694,8 +694,8 @@
 			<skill id="12371" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31763" name="Unidentified Artisan's Sword*Knight's Sword">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31763" name="Unidentified Artisan's Sword*Knight's Sword" add_name="Unidentified Artisan's Sword*Knight's Sword">
+	<!-- Artisan's Sword*Knight Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -705,8 +705,8 @@
 			<skill id="12372" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31764" name="Unidentified Artisan's Sword">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31764" name="Unidentified Artisan's Sword" add_name="Unidentified Artisan's Sword">
+	<!-- Artisan's Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -716,8 +716,8 @@
 			<skill id="12373" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31765" name="Unidentified Work Hammer">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31765" name="Unidentified Work Hammer" add_name="Unidentified Work Hammer">
+	<!-- A Work Hammer in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -727,8 +727,8 @@
 			<skill id="12374" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31766" name="Unidentified Imperial Crusader Breastplate">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31766" name="Unidentified Imperial Crusader Breastplate" add_name="Unidentified Imperial Crusader Breastplate">
+	<!-- Imperial crusader Breastplate in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -738,8 +738,8 @@
 			<skill id="12375" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31767" name="Unidentified Imperial Crusader Helmet">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31767" name="Unidentified Imperial Crusader Helmet" add_name="Unidentified Imperial Crusader Helmet">
+	<!-- Imperial crusader Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: headgear) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -749,8 +749,8 @@
 			<skill id="12376" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31768" name="Unidentified Imperial Crusader Shield">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31768" name="Unidentified Imperial Crusader Shield" add_name="Unidentified Imperial Crusader Shield">
+	<!-- Imperial crusader Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Shield) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -760,8 +760,8 @@
 			<skill id="12377" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31769" name="Unidentified Imperial Crusader Boots">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31769" name="Unidentified Imperial Crusader Boots" add_name="Unidentified Imperial Crusader Boots">
+	<!-- Imperial crusader Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -771,8 +771,8 @@
 			<skill id="12378" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31770" name="Unidentified Imperial Crusader Gauntlet">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31770" name="Unidentified Imperial Crusader Gauntlets" add_name="Unidentified Imperial Crusader Gauntlets">
+	<!-- Imperial crusader Gauntlets in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -782,8 +782,8 @@
 			<skill id="12379" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31771" name="Unidentified Imperial Crusader Gaiters">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31771" name="Unidentified Imperial Crusader Gaiters" add_name="Unidentified Imperial Crusader Gaiters">
+	<!-- Imperial crusader Gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -793,8 +793,8 @@
 			<skill id="12380" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31772" name="Unidentified Imperial Staff">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31772" name="Unidentified Imperial Staff" add_name="Unidentified Imperial Staff">
+	<!-- Imperial staff in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -804,8 +804,8 @@
 			<skill id="12381" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31773" name="Unidentified Inferno Staff">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31773" name="Unidentified Inferno Staff" add_name="Unidentified Inferno Staff">
+	<!-- An Inferno Staff in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -815,8 +815,8 @@
 			<skill id="12382" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31774" name="Unidentified Infernal Master">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31774" name="Unidentified Infernal Master" add_name="Unidentified Infernal Master">
+	<!-- Infernal Master in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -826,8 +826,8 @@
 			<skill id="12383" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31775" name="Unidentified Necklace of Mermaid">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31775" name="Unidentified Necklace of Mermaid" add_name="Unidentified Necklace of Mermaid">
+	<!-- A Necklace of Mermaid in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Necklace) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -837,8 +837,8 @@
 			<skill id="12384" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31776" name="Unidentified Necklace of Mermaid">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31776" name="Unidentified Necklace of Mermaid" add_name="Unidentified Necklace of Mermaid">
+	<!-- Necklace of mermaid in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Necklace) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -848,8 +848,8 @@
 			<skill id="12385" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31777" name="Unidentified Immortal Edge">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31777" name="Unidentified Immortal Edge" add_name="Unidentified Immortal Edge">
+	<!-- Kamael-exclusive weapon:  Pa'agrian Sword conversion, Unidentified Immortal Edge. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / ancient sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -859,8 +859,8 @@
 			<skill id="12386" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31778" name="Unidentified Ecliptic Axe">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31778" name="Unidentified Ecliptic Axe" add_name="Unidentified Ecliptic Axe">
+	<!-- Ecliptic axe in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -870,8 +870,8 @@
 			<skill id="12387" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31779" name="Unidentified Heathen's Book">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31779" name="Unidentified Heathen's Book" add_name="Unidentified Heathen's Book">
+	<!-- Heathen's book in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / other) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -881,8 +881,8 @@
 			<skill id="12388" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31780" name="Unidentified Winged Spear">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31780" name="Unidentified Winged Spear" add_name="Unidentified Winged Spear">
+	<!-- Winged spear in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / spear) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -892,8 +892,8 @@
 			<skill id="12389" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31781" name="Unidentified Widow Maker">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31781" name="Unidentified Widow Maker" add_name="Unidentified Widow Maker">
+	<!-- Widow maker in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / spear) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -903,8 +903,8 @@
 			<skill id="12390" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31782" name="Unidentified Silver Axe">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31782" name="Unidentified Silver Axe" add_name="Unidentified Silver Axe">
+	<!-- Silver axe in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -914,8 +914,8 @@
 			<skill id="12391" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31783" name="Unidentified War Axe">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31783" name="Unidentified War Axe" add_name="Unidentified War Axe">
+	<!-- War axe in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -925,8 +925,8 @@
 			<skill id="12392" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31784" name="Unidentified War Hammer">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31784" name="Unidentified War Hammer" add_name="Unidentified War Hammer">
+	<!-- A War Hammer in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / spear) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -936,8 +936,8 @@
 			<skill id="12393" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31785" name="Unidentified Single-Edged Jamadhr">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31785" name="Unidentified Single-Edged Jamadhr" add_name="Unidentified Single-Edged Jamadhr">
+	<!-- A Single-Edged Jamadhr in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / combat) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -947,8 +947,8 @@
 			<skill id="12394" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31786" name="Unidentified Orcish Poleaxe">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31786" name="Unidentified Orcish Poleaxe" add_name="Unidentified Orcish Poleaxe">
+	<!-- Orcish poleaxe in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / spear) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -958,8 +958,8 @@
 			<skill id="12395" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31787" name="Unidentified Orcish Glaive">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31787" name="Unidentified Orcish Glaive" add_name="Unidentified Orcish Glaive">
+	<!-- Orcish glaive in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / spear) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -969,8 +969,8 @@
 			<skill id="12396" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31788" name="Unidentified Omen Beast's Eye Earring">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31788" name="Unidentified Onyx Beast's Eye Earring" add_name="Unidentified Onyx Beast's Eye Earring">
+	<!-- An Onyx Beast's Eye in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Earring) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -980,8 +980,8 @@
 			<skill id="12397" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31789" name="Unidentified Ogre Power Gauntlet">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31789" name="Unidentified Ogre Power Gauntlets" add_name="Unidentified Ogre Power Gauntlets">
+	<!-- Ogre power Gauntlets in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -991,8 +991,8 @@
 			<skill id="12398" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31790" name="Unidentified Ogre Power Gauntlet">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31790" name="Unidentified Ogre Power Gauntlets" add_name="Unidentified Ogre Power Gauntlets">
+	<!-- Ogre power Gauntlets in an Unidentified state.  Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1002,8 +1002,8 @@
 			<skill id="12399" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31791" name="Unidentified Near Forest Necklace">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31791" name="Unidentified Near Forest Necklace" add_name="Unidentified Near Forest Necklace">
+	<!-- Near forest Necklace in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Necklace) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1013,8 +1013,8 @@
 			<skill id="12400" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31792" name="Unidentified Near Forest Necklace">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31792" name="Unidentified Near Forest Necklace" add_name="Unidentified Near Forest Necklace">
+	<!-- Near forest Necklace in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Necklace) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1024,8 +1024,8 @@
 			<skill id="12401" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31793" name="Unidentified Soul Bow">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31793" name="Unidentified Soul Bow" add_name="Unidentified Soul Bow">
+	<!-- Soul Bow in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / bow) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1035,8 +1035,8 @@
 			<skill id="12402" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31794" name="Unidentified Spiritual Eye">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31794" name="Unidentified Spiritual Eye" add_name="Unidentified Spiritual Eye">
+	<!-- Spiritual Eye in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1046,8 +1046,8 @@
 			<skill id="12403" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31795" name="Unidentified Ring of Ages">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31795" name="Unidentified Ring of Ages" add_name="Unidentified Ring of Ages">
+	<!-- A Ring of ages in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Ring) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1057,8 +1057,8 @@
 			<skill id="12404" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31796" name="Unidentified Ring of Ages">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31796" name="Unidentified Ring of Ages" add_name="Unidentified Ring of Ages">
+	<!-- Ring of ages in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Ring) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1068,8 +1068,8 @@
 			<skill id="12405" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31797" name="Unidentified Horn of Glory">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31797" name="Unidentified Horn of Glory" add_name="Unidentified Horn of Glory">
+	<!-- Horn of glory in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / other) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1079,8 +1079,8 @@
 			<skill id="12406" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31798" name="Unidentified Mace of Miracle">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31798" name="Unidentified Mace of Miracle" add_name="Unidentified Mace of Miracle">
+	<!-- Mace of miracle in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1090,8 +1090,8 @@
 			<skill id="12407" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="31799" name="Unidentified Elven Stockings">
-		<!--Done By Darvin (c)Java - Team 2012-->
+	<etcitem id="31799" name="Unidentified Elven Stockings" add_name="Unidentified Elven Stockings">
+	<!-- Elven Stockings in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>

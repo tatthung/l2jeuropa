@@ -83,7 +83,7 @@ public class _10374_ThatPlaceSuccubus extends Quest implements ScriptFile
 				case CREATED:
 					if (st.getPlayer().getLevel() >= 80)
 					{
-						if (st.getPlayer().getClassId().level() == 4)
+						if (st.getPlayer().getClassId().level() >= 4)
 						{
 							htmltext = "31292-01.htm";
 						}

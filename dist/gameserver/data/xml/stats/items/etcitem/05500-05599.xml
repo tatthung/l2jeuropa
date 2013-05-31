@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="5500" name="Sealed Red Flame Boots Lining">
+	<etcitem id="5500" name="Sealed Red Flame Boots Lining" add_name="Sealed Red Flame Boots Lining">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Red Flame Boots. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_black_i00"/>
@@ -10,7 +11,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5501" name="Sealed Phoenix Boots Lining">
+	<etcitem id="5501" name="Sealed Phoenix Boots Lining" add_name="Sealed Phoenix Boots Lining">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Phoenix Boots. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_black_i00"/>
@@ -19,7 +21,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5502" name="Sealed Boots of Nightmare Lining">
+	<etcitem id="5502" name="Sealed Boots of Nightmare Lining" add_name="Sealed Boots of Nightmare Lining">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Boots of Nightmare. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_black_i00"/>
@@ -28,7 +31,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5503" name="Sealed Majestic Boots Lining">
+	<etcitem id="5503" name="Sealed Majestic Boots Lining" add_name="Sealed Majestic Boots Lining">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Majestic Boots. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_black_i00"/>
@@ -37,7 +41,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5504" name="Sealed Dark Legion Boots Lining">
+	<etcitem id="5504" name="Sealed Dark Legion Boots Lining" add_name="Sealed Dark Legion Boots Lining">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Dark Legion Boots. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_black_i00"/>
@@ -46,7 +51,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5505" name="Sealed Boots of Phantom Lining">
+	<etcitem id="5505" name="Sealed Boots of Phantom Lining" add_name="Sealed Boots of Phantom Lining">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Boots of Phantom. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_black_i00"/>
@@ -55,7 +61,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5506" name="Sealed Cerberus Boots Lining">
+	<etcitem id="5506" name="Sealed Cerberus Boots Lining" add_name="Sealed Cerberus Boots Lining">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Cerberus Boots. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_black_i00"/>
@@ -64,7 +71,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5507" name="Sealed Dasparion's Boots Lining">
+	<etcitem id="5507" name="Sealed Dasparion's Boots Lining" add_name="Sealed Dasparion's Boots Lining">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Dasparion's Boots. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_black_i00"/>
@@ -73,7 +81,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5508" name="Sealed Dark Crystal Gloves Design">
+	<etcitem id="5508" name="Sealed Dark Crystal Gloves Design" add_name="Sealed Dark Crystal Gloves Design">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Dark Crystal Gloves. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -82,7 +91,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5509" name="Sealed Tallum Gloves Design">
+	<etcitem id="5509" name="Sealed Tallum Gloves Design" add_name="Sealed Tallum Gloves Design">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Tallum Gloves. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -91,7 +101,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5510" name="Sealed Gloves of the Underworld Design">
+	<etcitem id="5510" name="Sealed Gloves of Underworld Design" add_name="Sealed Gloves of Underworld Design">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Gloves of Underworld. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -100,7 +111,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5511" name="Sealed Gust Bracer design">
+	<etcitem id="5511" name="Sealed Gust Bracer design" add_name="Sealed Gust Bracer design">
+	<!-- Essential ingredient needed by a Dwarf to make a Sealed Gust Bracer. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -109,7 +121,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5512" name="Sealed Gloves of Black Ore Design">
+	<etcitem id="5512" name="Sealed Red Flame Gloves Design" add_name="Sealed Red Flame Gloves Design">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Red Flame Gloves. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -118,7 +131,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5513" name="Sealed Phoenix Gloves Design">
+	<etcitem id="5513" name="Sealed Phoenix Gloves Design" add_name="Sealed Phoenix Gloves Design">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Phoenix Gloves. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -127,7 +141,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5514" name="Sealed Gauntlets of Nightmare Design">
+	<etcitem id="5514" name="Sealed Gauntlets of Nightmare Design" add_name="Sealed Gauntlets of Nightmare Design">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Gauntlets of Nightmare. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -136,7 +151,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5515" name="Sealed Majestic Gauntlets Design">
+	<etcitem id="5515" name="Sealed Majestic Gauntlets Design" add_name="Sealed Majestic Gauntlets Design">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Majestic Gauntlets. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -145,7 +161,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5516" name="Sealed Dark Legion Gloves Design">
+	<etcitem id="5516" name="Sealed Dark Legion Gloves Design" add_name="Sealed Dark Legion Gloves Design">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Dark Legion Gloves. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -154,7 +171,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5517" name="Sealed Gloves of Phantom Design">
+	<etcitem id="5517" name="Sealed Gloves of Phantom Design" add_name="Sealed Gloves of Phantom Design">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Gloves of Phantom. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -163,7 +181,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5518" name="Sealed Cerberus Gloves Design">
+	<etcitem id="5518" name="Sealed Cerberus Gloves Design" add_name="Sealed Cerberus Gloves Design">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Cerberus Gloves. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -172,7 +191,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5519" name="Sealed Dasparion's Gloves Design">
+	<etcitem id="5519" name="Sealed Dasparion's Gloves Design" add_name="Sealed Dasparion's Gloves Design">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Dasparion's Gloves. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -181,7 +201,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5520" name="Sealed Dark Crystal Breastplate Pattern">
+	<etcitem id="5520" name="Sealed Dark Crystal Breastplate Pattern" add_name="Sealed Dark Crystal Breastplate Pattern">
+	<!-- Essential ingredient needed by a Dwarf to make a Sealed Dark Crystal Breastplate. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -190,7 +211,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5521" name="Sealed Tallum Plate Armor Pattern">
+	<etcitem id="5521" name="Sealed Tallum Plate Armor Pattern" add_name="Sealed Tallum Plate Armor Pattern">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Tallum Plate Armor. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -199,7 +221,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5522" name="Sealed Armor of Nightmare Pattern">
+	<etcitem id="5522" name="Sealed Armor of Nightmare Pattern" add_name="Sealed Armor of Nightmare Pattern">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Armor of Nightmare. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -208,7 +231,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5523" name="Sealed Majestic Plate Armor Pattern">
+	<etcitem id="5523" name="Sealed Majestic Plate Armor Pattern" add_name="Sealed Majestic Plate Armor Pattern">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Majestic Plate Armor. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -217,7 +241,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5524" name="Sealed Dark Crystal Gaiters Pattern">
+	<etcitem id="5524" name="Sealed Dark Crystal Gaiters Pattern" add_name="Sealed Dark Crystal Gaiters Pattern">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Dark Crystal Gaiters. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -226,7 +251,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5525" name="Sealed Dark Crystal Helmet Design">
+	<etcitem id="5525" name="Sealed Dark Crystal Helmet Design" add_name="Sealed Dark Crystal Helmet Design">
+	<!-- Essential ingredient needed by a Dwarf to make a Sealed Dark Crystal Helmet. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -235,7 +261,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5526" name="Sealed Tallum Helm Design">
+	<etcitem id="5526" name="Sealed Tallum Helmet Design" add_name="Sealed Tallum Helmet Design">
+	<!-- Essential ingredient needed by a Dwarf to make a sealed Tallum Helmet. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -244,7 +271,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5527" name="Sealed Helm of Nightmare Design">
+	<etcitem id="5527" name="Sealed Helm of Nightmare Design" add_name="Sealed Helm of Nightmare Design">
+	<!-- Essential ingredient needed by a Dwarf to make a Sealed Helm of Nightmare. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -253,7 +281,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5528" name="Sealed Majestic Circlet Design">
+	<etcitem id="5528" name="Sealed Majestic Circlet Design" add_name="Sealed Majestic Circlet Design">
+	<!-- Essential ingredient needed by a Dwarf to make a Sealed Majestic Circlet. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -262,7 +291,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5529" name="Dragon Slayer Edge">
+	<etcitem id="5529" name="Dragon Slayer Edge" add_name="Dragon Slayer Edge">
+	<!-- Essential ingredient needed by a Dwarf to make a Dragon Slayer. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -271,7 +301,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5530" name="Berserker Blade Edge">
+	<etcitem id="5530" name="Berserker Blade Edge" add_name="Berserker Blade Edge">
+	<!-- Essential ingredient needed by a Dwarf to make a Berserker Blade. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -280,7 +311,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5531" name="Heavy Sword Edge">
+	<etcitem id="5531" name="Heavy Sword Edge" add_name="Heavy Sword Edge">
+	<!-- Essential ingredient needed by a Dwarf to make a Heavy Sword. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -289,7 +321,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5532" name="Meteor Shower Head">
+	<etcitem id="5532" name="Meteor Shower Head" add_name="Meteor Shower Head">
+	<!-- Essential ingredient needed by a Dwarf to make a Meteor Shower. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_silver_i00"/>
@@ -298,7 +331,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5533" name="Elysian Head">
+	<etcitem id="5533" name="Elysian Head" add_name="Elysian Head">
+	<!-- Essential ingredient needed by a Dwarf to make an Elysian. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_silver_i00"/>
@@ -307,7 +341,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5534" name="Soul Bow Stave">
+	<etcitem id="5534" name="Soul Bow Shaft" add_name="Soul Bow Shaft">
+	<!-- Essential ingredient needed by a Dwarf to make a Soul Bow. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -316,7 +351,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5535" name="Carnage Bow Stave">
+	<etcitem id="5535" name="Carnage Bow Shaft" add_name="Carnage Bow Shaft">
+	<!-- Essential ingredient needed by a Dwarf to make a Carnage Bow. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -325,7 +361,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5536" name="Bloody Orchid Head">
+	<etcitem id="5536" name="Bloody Orchid Head" add_name="Bloody Orchid Head">
+	<!-- Essential ingredient needed by a Dwarf to make a Bloody Orchid. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -334,7 +371,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5537" name="Soul Separator Head">
+	<etcitem id="5537" name="Soul Separator Head" add_name="Soul Separator Head">
+	<!-- Essential ingredient needed by a Dwarf to make a Soul Separator. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -343,7 +381,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5538" name="Dragon Grinder Edge">
+	<etcitem id="5538" name="Dragon Grinder Edge" add_name="Dragon Grinder Edge">
+	<!-- Essential ingredient needed by a Dwarf to make a Dragon Grinder. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -352,7 +391,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5539" name="Blood Tornado Edge">
+	<etcitem id="5539" name="Blood Tornado Edge" add_name="Blood Tornado Edge">
+	<!-- Essential ingredient needed by a Dwarf to make a Blood Tornado. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -361,7 +401,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5540" name="Orcish Halberd Edge">
+	<etcitem id="5540" name="Orcish Halberd Edge" add_name="Orcish Halberd Edge">
+	<!-- Essential ingredient needed by a Dwarf to make an Orcish Halberd. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -370,7 +411,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5541" name="Tallum Glaive Edge">
+	<etcitem id="5541" name="Tallum Glaive Edge" add_name="Tallum Glaive Edge">
+	<!-- Essential ingredient needed by a Dwarf to make a Tallum Glaive. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -379,7 +421,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5542" name="Halberd Edge">
+	<etcitem id="5542" name="Halberd Edge" add_name="Halberd Edge">
+	<!-- Essential ingredient needed by a Dwarf to make a Halberd. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -388,7 +431,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5543" name="Dasparion's Staff Edge">
+	<etcitem id="5543" name="Dasparion's Staff Head" add_name="Dasparion's Staff Head">
+	<!-- Essential ingredient needed by a Dwarf to make a Dasparion's Staff. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_silver_i00"/>
@@ -397,7 +441,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5544" name="Branch of the Mother Tree Head">
+	<etcitem id="5544" name="Branch of the Mother Tree Head" add_name="Branch of the Mother Tree Head">
+	<!-- Essential ingredient needed by a Dwarf to make a Branch of the Mother Tree. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_silver_i00"/>
@@ -406,7 +451,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5545" name="Dark Legion's Edge Blade">
+	<etcitem id="5545" name="Dark Legion's Edge Blade" add_name="Dark Legion's Edge Blade">
+	<!-- Essential ingredient needed by a Dwarf to make a Dark Legion's Edge. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -415,7 +461,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5546" name="Sword of Miracles Edge">
+	<etcitem id="5546" name="Sword of Miracles Edge" add_name="Sword of Miracles Edge">
+	<!-- Essential ingredient needed by a Dwarf to make a Sword of Miracles. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -424,7 +471,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5547" name="Elemental Sword Edge">
+	<etcitem id="5547" name="Elemental Sword Edge" add_name="Elemental Sword Edge">
+	<!-- Essential ingredient needed by a Dwarf to make an Elemental Sword. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -433,7 +481,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5548" name="Tallum Blade Edge">
+	<etcitem id="5548" name="Tallum Blade Edge" add_name="Tallum Blade Edge">
+	<!-- Essential ingredient needed by a Dwarf to make a Tallum Blade. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -442,7 +491,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5549" name="Metallic Thread">
+	<etcitem id="5549" name="Metallic Thread" add_name="Metallic Thread">
+	<!-- Material used by a Dwarf to make an item. It can be sold at a regular store. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_skein_gray_i00"/>
@@ -451,7 +501,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="5550" name="Durable Metal Plate">
+	<etcitem id="5550" name="Reinforced Metal Plate" add_name="Reinforced Metal Plate">
+	<!-- Material used by a Dwarf to make an item. It can be sold at a regular store. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_wood_i00"/>
@@ -460,7 +511,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="5551" name="Leolin's Mold">
+	<etcitem id="5551" name="Reorin's Mold" add_name="Reorin's Mold">
+	<!-- Material used by a Dwarf to make an item. It can be sold at a regular store. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_blacksmiths_frame_i00"/>
@@ -469,7 +521,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="5552" name="Warsmith's Mold">
+	<etcitem id="5552" name="Warsmith' Mold" add_name="Warsmith' Mold">
+	<!-- Material used by a Dwarf to make an item. It can be sold at a regular store. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_blacksmiths_frame_i00"/>
@@ -478,7 +531,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="5553" name="Arcsmith's Anvil">
+	<etcitem id="5553" name="Arcsmith' Anvil" add_name="Arcsmith' Anvil">
+	<!-- Material used by a Dwarf to make an item. It can be sold at a regular store. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_blacksmiths_frame_i00"/>
@@ -487,7 +541,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="5554" name="Warsmith's Holder">
+	<etcitem id="5554" name="Warsmith' Holder" add_name="Warsmith' Holder">
+	<!-- Material used by a Dwarf to make an item. It can be sold at a regular store. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_blacksmiths_frame_i00"/>
@@ -496,7 +551,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="5555" name="Token of Love">
+	<etcitem id="5555" name="Mark of Love" add_name="Mark of Love">
+	<!-- Commemorative item for Christmas, 2004. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -505,7 +561,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="5556" name="Star Ornament">
+	<etcitem id="5556" name="Star Ornament" add_name="Star Ornament">
+	<!-- Essential ingredient needed to make a Holiday Tree. Take it to a Santa trainee, and he will create a Holiday Tree for you. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_deco_star_i00"/>
@@ -513,7 +570,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="MATERIAL"/>
 	</etcitem>
-	<etcitem id="5557" name="Bead Ornament">
+	<etcitem id="5557" name="Bead Ornament" add_name="Bead Ornament">
+	<!-- Ingredient of a Holiday Tree. Take it to a Santa trainee, along with the other necessary ingredients, and he will create a Holiday Tree for you. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_deco_bead_i00"/>
@@ -521,7 +579,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="MATERIAL"/>
 	</etcitem>
-	<etcitem id="5558" name="Fir Tree Branch">
+	<etcitem id="5558" name="Fir Tree Branch" add_name="Fir Tree Branch">
+	<!-- Ingredient of a Holiday Tree. Take it to a Santa trainee, along with the other necessary ingredients, and he will create a Holiday Tree for you. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_fir_spring_i00"/>
@@ -529,7 +588,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="MATERIAL"/>
 	</etcitem>
-	<etcitem id="5559" name="Flower Pot">
+	<etcitem id="5559" name="Flower Pot" add_name="Flower Pot">
+	<!-- Ingredient of a Holiday Tree. Take it to a Santa trainee, along with the other necessary ingredients, and he will create a Holiday Tree for you. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_flowerpot_i00"/>
@@ -537,7 +597,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="MATERIAL"/>
 	</etcitem>
-	<etcitem id="5560" name="Christmas Tree">
+	<etcitem id="5560" name="Holiday Tree" add_name="Holiday Tree">
+	<!-- Summons a Holiday Tree. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_x_mas_tree_i00"/>
@@ -551,7 +612,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="5561" name="Special Christmas Tree">
+	<etcitem id="5561" name="Special Holiday Tree" add_name="Special Holiday Tree">
+	<!-- Summons a Holiday Tree that increases HP and MP Recovery Rate. This effect is only produced if the Special Holiday Tree is summoned a certain distance away from the village. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_x_mas_tree_i00"/>
@@ -565,7 +627,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="5562" name="Echo Crystal - 1st Carol">
+	<etcitem id="5562" name="Echo Crystal - 1st Carol" add_name="Echo Crystal - 1st Carol">
+	<!-- Echo crystal that plays the 1st carol. It disappears after one use. -->
 		<set name="reuse_delay" value="44000"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -584,7 +647,8 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="5563" name="Echo Crystal - 2nd Carol">
+	<etcitem id="5563" name="Echo Crystal - 2nd Carol" add_name="Echo Crystal - 2nd Carol">
+	<!-- Echo crystal that plays the 2nd carol. It disappears after one use. -->
 		<set name="reuse_delay" value="32000"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -603,7 +667,8 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="5564" name="Echo Crystal - 3rd Carol">
+	<etcitem id="5564" name="Echo Crystal - 3rd Carol" add_name="Echo Crystal - 3rd Carol">
+	<!-- Echo crystal that plays the 3rd carol. It disappears after one use. -->
 		<set name="reuse_delay" value="30000"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -622,7 +687,8 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="5565" name="Echo Crystal - 4th Carol">
+	<etcitem id="5565" name="Echo Crystal - 4th Carol" add_name="Echo Crystal - 4th Carol">
+	<!-- Echo crystal that plays the 4th carol. It disappears after one use. -->
 		<set name="reuse_delay" value="29000"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -641,7 +707,8 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="5566" name="Echo Crystal - 5th Carol">
+	<etcitem id="5566" name="Echo Crystal - 5th Carol" add_name="Echo Crystal - 5th Carol">
+	<!-- Echo crystal that plays the 5th carol. It disappears after one use. -->
 		<set name="reuse_delay" value="26000"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -660,7 +727,8 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="5567" name="Letter of Greetings">
+	<etcitem id="5567" name="Letter of Greetings" add_name="Letter of Greetings">
+	<!-- Sla's letter to her disciples. Deliver it to Nyakuri in Dwarven Village. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -669,7 +737,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="5568" name="Letter of Greetings">
+	<etcitem id="5568" name="Letter of Greetings" add_name="Letter of Greetings">
+	<!-- Sla's letter to her disciples. Deliver it to Ramus on Talking Island. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -678,7 +747,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="5569" name="Water Rune">
+	<etcitem id="5569" name="Water Rune" add_name="Water Rune">
+	<!-- Fragment of Seal Stone collected by the Lords of Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -686,7 +756,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="5570" name="Water Mantra">
+	<etcitem id="5570" name="Water Mantra" add_name="Water Mantra">
+	<!-- Fragment of Seal Stone collected by the Revolutionaries of Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -694,7 +765,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="5571" name="Wind Rune">
+	<etcitem id="5571" name="Wind Rune" add_name="Wind Rune">
+	<!-- Fragment of Seal Stone collected by the Lords of Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -702,7 +774,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="5572" name="Wind Mantra">
+	<etcitem id="5572" name="Wind Mantra" add_name="Wind Mantra">
+	<!-- Fragment of Seal Stone collected by the Revolutionaries of Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -710,7 +783,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="5573" name="Fire Rune">
+	<etcitem id="5573" name="Fire Rune" add_name="Fire Rune">
+	<!-- Fragment of Seal Stone collected by the Lords of Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -718,7 +792,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="5574" name="Fire Mantra">
+	<etcitem id="5574" name="Fire Mantra" add_name="Fire Mantra">
+	<!-- Fragment of Seal Stone collected by the Revolutionaries of Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -726,7 +801,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="5575" name="Ancient Adena">
+	<etcitem id="5575" name="Ancient Adena" add_name="Ancient Adena">
+	<!-- Ancient Adena. It was said to have been used in the past when trading with the Merchants of Mammon and the Blacksmith of Mammon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -734,7 +810,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="MONEY"/>
 	</etcitem>
-	<etcitem id="5577" name="Red Soul Crystal - Stage 11">
+	<etcitem id="5577" name="Red Soul Crystal - Stage 11" add_name="Red Soul Crystal - Stage 11">
+	<!-- Red crystal containing the light of absorbed souls. stage 11. Once saturated, it bestows special abilities to a weapon. Consumes 26 MP. A crystal of this level is said to absorb crystals on its own, so it doesn't seem like you need to use it directly on the monsters. -->
 		<set name="class" value="MISC"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_soul_stone_i00"/>
@@ -746,7 +823,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="5578" name="Green Soul Crystal - Stage 11">
+	<etcitem id="5578" name="Green Soul Crystal - Stage 11" add_name="Green Soul Crystal - Stage 11">
+	<!-- Green crystal containing the light of absorbed souls. stage 11. Once saturated, it bestows special abilities to a weapon. Consumes 26 MP. A crystal of this level is said to absorb crystals on its own, so it doesn't seem like you need to use it directly on the monsters. -->
 		<set name="class" value="MISC"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_soul_stone_i02"/>
@@ -758,7 +836,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="5579" name="Blue Soul Crystal - Stage 11">
+	<etcitem id="5579" name="Blue Soul Crystal - Stage 11" add_name="Blue Soul Crystal - Stage 11">
+	<!-- Blue crystal containing the light of absorbed souls. stage 11. Once saturated, it bestows special abilities to a weapon. Consumes 26 MP. A crystal of this level is said to absorb crystals on its own, so it doesn't seem like you need to use it directly on the monsters. -->
 		<set name="class" value="MISC"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_soul_stone_i01"/>
@@ -770,7 +849,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="5580" name="Red Soul Crystal - Stage 12">
+	<etcitem id="5580" name="Red Soul Crystal - Stage 12" add_name="Red Soul Crystal - Stage 12">
+	<!-- Red crystal containing the light of absorbed souls. stage 12. Once saturated, it bestows special abilities to a weapon. Consumes 26 MP. A crystal of this level is said to absorb crystals on its own, so it doesn't seem like you need to use it directly on the monsters. -->
 		<set name="class" value="MISC"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_soul_stone_i00"/>
@@ -782,7 +862,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="5581" name="Green Soul Crystal - Stage 12">
+	<etcitem id="5581" name="Green Soul Crystal - Stage 12" add_name="Green Soul Crystal - Stage 12">
+	<!-- Green crystal containing the light of absorbed souls. stage 12. Once saturated, it bestows special abilities to a weapon. Consumes 26 MP. A crystal of this level is said to absorb crystals on its own, so it doesn't seem like you need to use it directly on the monsters. -->
 		<set name="class" value="MISC"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_soul_stone_i02"/>
@@ -794,7 +875,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="5582" name="Blue Soul Crystal - Stage 12">
+	<etcitem id="5582" name="Blue Soul Crystal - Stage 12" add_name="Blue Soul Crystal - Stage 12">
+	<!-- Blue crystal containing the light of absorbed souls. stage 12. Once saturated, it bestows special abilities to a weapon. Consumes 26 MP. A crystal of this level is said to absorb crystals on its own, so it doesn't seem like you need to use it directly on the monsters. -->
 		<set name="class" value="MISC"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_soul_stone_i01"/>
@@ -806,7 +888,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="5583" name="Echo Crystal - 6th Carol">
+	<etcitem id="5583" name="Echo Crystal - 6th Carol" add_name="Echo Crystal - 6th Carol">
+	<!-- Echo crystal that plays the 6th carol. It disappears after one use. -->
 		<set name="reuse_delay" value="20000"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -825,7 +908,8 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="5584" name="Echo Crystal - 7th Carol">
+	<etcitem id="5584" name="Echo Crystal - 7th Carol" add_name="Echo Crystal - 7th Carol">
+	<!-- Echo crystal that plays the 7th carol. It disappears after one use. -->
 		<set name="reuse_delay" value="17000"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -844,7 +928,8 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="5585" name="Echo Crystal - 8th Carol">
+	<etcitem id="5585" name="Echo Crystal - 8th Carol" add_name="Echo Crystal - 8th Carol">
+	<!-- Echo crystal that plays the 8th carol. It disappears after one use. -->
 		<set name="reuse_delay" value="15000"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -863,7 +948,8 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="5586" name="Echo Crystal - 9th Carol">
+	<etcitem id="5586" name="Echo Crystal - 9th Carol" add_name="Echo Crystal - 9th Carol">
+	<!-- Echo crystal that plays the 9th carol. It disappears after one use. -->
 		<set name="reuse_delay" value="9000"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -882,7 +968,8 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="5587" name="Echo Crystal - 10th Carol">
+	<etcitem id="5587" name="Echo Crystal - 10th Carol" add_name="Echo Crystal - 10th Carol">
+	<!-- Echo crystal that plays the 10th carol. It disappears after one use. -->
 		<set name="reuse_delay" value="31000"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -901,7 +988,8 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="5588" name="Tutorial Guide">
+	<etcitem id="5588" name="Tutorial Guide" add_name="Tutorial Guide">
+	<!-- Booklet containing general information for the new player. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -912,7 +1000,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 	</etcitem>
-	<etcitem id="5589" name="Energy Stone">
+	<etcitem id="5589" name="Momentum Stone" add_name="Momentum Stone">
+	<!-- Recharges the Momentum of a Gladiator or a Tyrant 1 level at a time. Can be used to charge up to 2 levels. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_energy_stone_i00"/>
@@ -925,7 +1014,8 @@
 			<skill id="2165" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="5591" name="CP Potion">
+	<etcitem id="5591" name="CP Potion" add_name="CP Potion">
+	<!-- Restores CP by 50. -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
@@ -944,7 +1034,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="5592" name="Greater CP Potion">
+	<etcitem id="5592" name="Greater CP Potion" add_name="Greater CP Potion">
+	<!-- Restores CP by 200. -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
@@ -963,7 +1054,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="5593" name="SP Scroll: Low Grade">
+	<etcitem id="5593" name="SP Scroll (Low-grade)" add_name="SP Scroll (Low-grade)">
+	<!-- Recharges SP by 500. Does not increase SP when used in a chaotic state. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sp_scroll1_i00"/>
@@ -980,7 +1072,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="5594" name="SP Scroll: Medium Grade">
+	<etcitem id="5594" name="SP Scroll (Mid-grade)" add_name="SP Scroll (Mid-grade)">
+	<!-- Recharges SP by 5000. Does not increase SP when used in a chaotic state. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sp_scroll2_i00"/>
@@ -997,7 +1090,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="5595" name="SP Scroll: High Grade">
+	<etcitem id="5595" name="SP Scroll (High-grade)" add_name="SP Scroll (High-grade)">
+	<!-- Recharges SP by 100000. Does not increase SP when used in a chaotic state. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sp_scroll3_i00"/>

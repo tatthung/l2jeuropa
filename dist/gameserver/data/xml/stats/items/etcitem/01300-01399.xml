@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="1334" name="Predator's Fang">
+	<etcitem id="1334" name="Predator's Fang" add_name="Predator's Fang">
+	<!-- Collect 100 predator's fangs and take them to Pixy Murika. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -10,7 +11,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1335" name="Goblin Club">
+	<etcitem id="1335" name="Goblin Club" add_name="Goblin Club">
+	<!-- Sturdy club made from thick tree branches and carried by goblins. Take this to Treant Bremac. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -19,7 +21,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1336" name="Glass Shard">
+	<etcitem id="1336" name="Glass Shard" add_name="Glass Shard">
+	<!-- Broken glass piece. Can be sold in any shop for a low price. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -29,7 +32,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="80"/>
 	</etcitem>
-	<etcitem id="1337" name="Emerald">
+	<etcitem id="1337" name="Emerald" add_name="Emerald">
+	<!-- Can be sold in any shop for a high price. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -39,7 +43,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="80"/>
 	</etcitem>
-	<etcitem id="1338" name="Blue Onyx">
+	<etcitem id="1338" name="Blue Onyx" add_name="Blue Onyx">
+	<!-- Blue jewel. Can be sold in any shop. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -49,7 +54,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="80"/>
 	</etcitem>
-	<etcitem id="1339" name="Onyx">
+	<etcitem id="1339" name="Onyx" add_name="Onyx">
+	<!-- Black jewel. Can be sold in any shop. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -59,7 +65,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="80"/>
 	</etcitem>
-	<etcitem id="1340" name="Silvery Leaf">
+	<etcitem id="1340" name="Silvery Leaf" add_name="Silvery Leaf">
+	<!-- The leaf of a silvery mistletoe. Can be sold in any shop. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -69,7 +76,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="3"/>
 	</etcitem>
-	<etcitem id="1341" name="Bone Arrow">
+	<etcitem id="1341" name="Bone Arrow" add_name="Bone Arrow">
+	<!-- Arrow made from a piece of sharpened bone. It is used as an arrow for a D-grade bow. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="D"/>
 		<set name="icon" value="icon.etc_bone_quiver_i00"/>
@@ -81,7 +89,8 @@
 			<slot id="LEFT_HAND"/>
 		</equip>
 	</etcitem>
-	<etcitem id="1342" name="Iron Arrow">
+	<etcitem id="1342" name="Steel Arrow" add_name="Steel Arrow">
+	<!-- Powerful arrow made of steel. It is used as an arrow for a C-grade bow. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="C"/>
 		<set name="icon" value="icon.etc_fine_steel_quiver_i00"/>
@@ -93,7 +102,8 @@
 			<slot id="LEFT_HAND"/>
 		</equip>
 	</etcitem>
-	<etcitem id="1343" name="Silver Arrow">
+	<etcitem id="1343" name="Silver Arrow" add_name="Silver Arrow">
+	<!-- Steel arrow plated with silver. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="B"/>
 		<set name="icon" value="icon.etc_silver_quiver_i00"/>
@@ -105,7 +115,8 @@
 			<slot id="LEFT_HAND"/>
 		</equip>
 	</etcitem>
-	<etcitem id="1344" name="Mithril Arrow">
+	<etcitem id="1344" name="Mithril Arrow" add_name="Mithril Arrow">
+	<!-- Steel arrow plated with Mithril. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.etc_mithril_quiver_i00"/>
@@ -117,7 +128,8 @@
 			<slot id="LEFT_HAND"/>
 		</equip>
 	</etcitem>
-	<etcitem id="1345" name="Shining Arrow">
+	<etcitem id="1345" name="Arrow of Light" add_name="Arrow of Light">
+	<!-- The most powerful arrow. Unknown material. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="S"/>
 		<set name="icon" value="icon.etc_shining_quiver_i00"/>
@@ -129,7 +141,8 @@
 			<slot id="LEFT_HAND"/>
 		</equip>
 	</etcitem>
-	<etcitem id="1346" name="Golem's Stoneheart">
+	<etcitem id="1346" name="Golem's Stoneheart" add_name="Golem's Stoneheart">
+	<!-- Stone found within the remains of a destroyed golem. Take this to Trader Rorento. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -138,7 +151,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1347" name="Monster Eye Carcass">
+	<etcitem id="1347" name="Monster Eye Meat" add_name="Monster Eye Meat">
+	<!-- The carcass of monster eye. Take this to Trader Sarien. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -147,7 +161,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1348" name="Basilisk's Gizzard">
+	<etcitem id="1348" name="Basilisk's Gizzard" add_name="Basilisk's Gizzard">
+	<!-- The digestive organ of a basilisk. Take this to Trader Sarien. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -156,7 +171,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1349" name="Anatomy Diagram">
+	<etcitem id="1349" name="Anatomy Diagram" add_name="Anatomy Diagram">
+	<!-- Diagram designed by Avella physicians for human anatomy. Use this to perform Samed's request. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -165,7 +181,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1350" name="Zombie Head">
+	<etcitem id="1350" name="Zombie Head" add_name="Zombie Head">
+	<!-- Head of zombie from ruins. Take this to Samed of the Town of Gludio. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -174,7 +191,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1351" name="Zombie Heart">
+	<etcitem id="1351" name="Zombie Heart" add_name="Zombie Heart">
+	<!-- Heart of zombie from ruins. Take this to Samed in the Town of Gludio. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -183,7 +201,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1352" name="Zombie Liver">
+	<etcitem id="1352" name="Zombie Liver" add_name="Zombie Liver">
+	<!-- Liver of zombie from ruins. Take this to Samed in the Town of Gludio. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -192,7 +211,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1353" name="Skull">
+	<etcitem id="1353" name="Deadman's Skull" add_name="Deadman's Skull">
+	<!-- Skull of skeleton from ruins. Take this to Samed in the Town of Gludio. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -201,7 +221,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1354" name="Rib Bone">
+	<etcitem id="1354" name="Deadman's Rib Bone" add_name="Deadman's Rib Bone">
+	<!-- Rib of skeleton from ruins. Take this to Samed in the Town of Gludio. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -210,7 +231,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1355" name="Spine">
+	<etcitem id="1355" name="Deadman's Spine" add_name="Deadman's Spine">
+	<!-- Spine of skeleton from ruins. Take this to Samed in the Town of Gludio. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -219,7 +241,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1356" name="Arm Bone">
+	<etcitem id="1356" name="Deadman's Arm Bone" add_name="Deadman's Arm Bone">
+	<!-- Arm bone of skeleton from ruins. Take this to Samed in the Town of Gludio. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -228,7 +251,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1357" name="Thigh Bone">
+	<etcitem id="1357" name="Deadman's Thigh Bone" add_name="Deadman's Thigh Bone">
+	<!-- Thigh bone of skeleton from ruins. Take this to Samed in the Town of Gludio. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -237,7 +261,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1358" name="Complete Skeleton">
+	<etcitem id="1358" name="Deadman's Complete Skeleton" add_name="Deadman's Complete Skeleton">
+	<!-- Complete skeleton put together with bone pieces by undertaker Varsak. Take this to Samed in the Town of Gludio. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -246,7 +271,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1359" name="Red Cross Badge">
+	<etcitem id="1359" name="Red Cross Badge" add_name="Red Cross Badge">
+	<!-- Soldier badge of foreign troops. Take this to Leopold in Gludin. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -255,7 +281,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1360" name="Blue Cross Badge">
+	<etcitem id="1360" name="Blue Cross Badge" add_name="Blue Cross Badge">
+	<!-- Badge of high ranking of Gracian foreign troops. Take this to Leopold in Gludin. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -264,7 +291,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1361" name="Black Cross Badge">
+	<etcitem id="1361" name="Black Cross Badge" add_name="Black Cross Badge">
+	<!-- Badge of captain ranking of Gracian foreign troops. Take this to Leopold in Gludin. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -273,7 +301,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1362" name="Spider's Carapace">
+	<etcitem id="1362" name="Spider's Carapace" add_name="Spider's Carapace">
+	<!-- The hard carapace of a spider. Often used to coat a shield or a helmet. Take this to Trader Arodin. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -282,7 +311,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1363" name="Spider Silk">
+	<etcitem id="1363" name="Spider Silk" add_name="Spider Silk">
+	<!-- Tough, stretchy spider web. Used to make bowstrings. Take this to Trader Arodin. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -291,7 +321,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1364" name="Spider Venom Sac">
+	<etcitem id="1364" name="Spider's Poison Sac" add_name="Spider's Poison Sac">
+	<!-- Sac with a spider's deadly Poison  in it. Can be sold to Trader Cullinas in Gludin. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -300,7 +331,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1365" name="Broken Stoneheart">
+	<etcitem id="1365" name="Broken Stoneheart" add_name="Broken Stoneheart">
+	<!-- Small pieces of stone found within the remains of a destroyed golem. Take this to Trader Rorento. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -309,7 +341,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1366" name="Monster Eye's Lens">
+	<etcitem id="1366" name="Monster Eye's Lens" add_name="Monster Eye's Lens">
+	<!-- The transparent part of monster eye. Take this to Trader Sarien. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -318,7 +351,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1367" name="Wolf Claw">
+	<etcitem id="1367" name="Wolf Claw" add_name="Wolf Claw">
+	<!-- Collect 50 wolf claws and take them to Trader Payne of the weapons and armor shop. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -327,7 +361,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1368" name="Imp Shackles">
+	<etcitem id="1368" name="Imp Shackles" add_name="Imp Shackles">
+	<!-- The metal shackles attached around the neck of the imp race. Take this to Sentry Kristin. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -336,7 +371,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1369" name="Black Lion Mark">
+	<etcitem id="1369" name="Black Lion Badge" add_name="Black Lion Badge">
+	<!-- A badge that indicates one is a member of the Black Lion troop. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -345,7 +381,9 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="1370" name="Spellbook: Aqua Swirl">
+	<etcitem id="1370" name="Spellbook: Aqua Swirl" add_name="Spellbook: Aqua Swirl">
+	<!-- Spellbook needed to learn Aqua Swirl. Used by Elven Wizards.
+	Required level: 20 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_element_i00"/>
@@ -355,7 +393,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1371" name="Spellbook: Twister">
+	<etcitem id="1371" name="Spellbook: Twister" add_name="Spellbook: Twister">
+	<!-- Spellbook needed to learn Twister. Used by Dark Wizards.
+	Required level: 20 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_element_i00"/>
@@ -365,7 +405,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1372" name="Spellbook: Blaze">
+	<etcitem id="1372" name="Spellbook: Blaze" add_name="Spellbook: Blaze">
+	<!-- Spellbook needed to learn Blaze. Used by Human Wizards.
+	Required level: 20 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_element_i00"/>
@@ -375,7 +417,8 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1373" name="Magic Gem">
+	<etcitem id="1373" name="Magic Gem" add_name="Magic Gem">
+	<!-- Ingredient needed for certain magic. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -385,7 +428,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="80"/>
 	</etcitem>
-	<etcitem id="1374" name="Greater Haste Potion">
+	<etcitem id="1374" name="Greater Wind Walk Potion" add_name="Greater Wind Walk Potion">
+	<!-- Magical potion that increases movement Speed dramatically -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
@@ -404,7 +448,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="1375" name="Greater Swift Attack Potion">
+	<etcitem id="1375" name="Greater Haste Potion" add_name="Greater Haste Potion">
+	<!-- Magical potion that increases Atk. Spd. dramatically -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
@@ -423,7 +468,9 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="1377" name="Spellbook: Poison Recovery">
+	<etcitem id="1377" name="Spellbook: Poison Recovery" add_name="Spellbook: Poison Recovery">
+	<!-- Spellbook needed to learn Poison Recovery. Used by Elven Knights and Elven Scouts.
+	Required level: Elven Knight - 20, Elven Scout - 24 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_efighter_i00"/>
@@ -433,7 +480,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1378" name="Spellbook: Divine Heal">
+	<etcitem id="1378" name="Spellbook: Divine Heal" add_name="Spellbook: Divine Heal">
+	<!-- Spellbook needed to learn Divine Heal. Used by Human Knights.
+	Required level: 28 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_hfighter_i00"/>
@@ -443,7 +492,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1379" name="Spellbook: Cure Bleeding">
+	<etcitem id="1379" name="Spellbook: Cure Bleeding" add_name="Spellbook: Cure Bleeding">
+	<!-- Spellbook needed to learn Cure Bleeding. Used by Elven Knights and Elven Scouts.
+	Required level: 24 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_efighter_i00"/>
@@ -453,7 +504,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1380" name="Spellbook: Entangle">
+	<etcitem id="1380" name="Spellbook: Entangle" add_name="Spellbook: Entangle">
+	<!-- Spellbook needed to learn Entangle. Used by Elven Knights and Elven Scouts.
+	Required level: 36 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_efighter_i00"/>
@@ -463,7 +516,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1381" name="Spellbook: Freezing Strike">
+	<etcitem id="1381" name="Spellbook: Freezing Strike" add_name="Spellbook: Freezing Strike">
+	<!-- Spellbook needed to learn Freezing Strike. Used by Palus Knights and Assassins.
+	Required level: 36 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_defighter_i00"/>
@@ -473,7 +528,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1382" name="Spellbook: Power Break">
+	<etcitem id="1382" name="Spellbook: Power Break" add_name="Spellbook: Power Break">
+	<!-- Spellbook needed to learn Power Break. Used by Palus Knights and Assassins.
+	Required level: 32 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_defighter_i00"/>
@@ -483,7 +540,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1383" name="Spellbook: Poison">
+	<etcitem id="1383" name="Spellbook: Poison" add_name="Spellbook: Poison">
+	<!-- Spellbook needed to learn Poison. Used by Palus Knights and Assassins.
+	Required level: 20 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_defighter_i00"/>
@@ -493,7 +552,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1384" name="Spellbook: Sprint">
+	<etcitem id="1384" name="Spellbook: Sprint" add_name="Spellbook: Sprint">
+	<!-- Spellbook needed to learn Sprint. Used by Elven Knights and Elven Scouts.
+	Required level: 32 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_efighter_i00"/>
@@ -503,7 +564,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1385" name="Spellbook: Recharge">
+	<etcitem id="1385" name="Spellbook: Recharge" add_name="Spellbook: Recharge">
+	<!-- Spellbook needed to learn Recharge. Used by Elven Oracles and Shillien Oracles.
+	Required level: 30 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_white_i00"/>
@@ -513,7 +576,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1386" name="Spellbook: Disrupt Undead">
+	<etcitem id="1386" name="Spellbook: Disrupt Undead" add_name="Spellbook: Disrupt Undead">
+	<!-- Spellbook needed to learn Disrupt Undead. Used by Clerics, Elven Oracles and Shillien Oracles.
+	Required level: 20 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_white_i00"/>
@@ -523,7 +588,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1387" name="Spellbook: Resist Poison">
+	<etcitem id="1387" name="Spellbook: Poison Resistance" add_name="Spellbook: Poison Resistance">
+	<!-- Spellbook needed to learn Poison Resistance. Used by Oracles and Prophets.
+	Required level: Oracle - 35, Prophet - 60 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
@@ -533,7 +600,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1388" name="Spellbook: Mental Shield">
+	<etcitem id="1388" name="Spellbook: Mental Shield" add_name="Spellbook: Mental Shield">
+	<!-- Spellbook needed to learn Mental Shield. Used by Clerics, Elven Oracles and Shillien Oracles.
+	Required level: 25 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
@@ -543,7 +612,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1389" name="Spellbook: Holy Weapon">
+	<etcitem id="1389" name="Spellbook: Holy Weapon" add_name="Spellbook: Holy Weapon">
+	<!-- Spellbook needed to learn Holy Weapon. Used by Clerics and Elven Oracles.
+	Required level: 25 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_white_i00"/>
@@ -553,7 +624,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1390" name="Spellbook: Regeneration">
+	<etcitem id="1390" name="Spellbook: Regeneration" add_name="Spellbook: Regeneration">
+	<!-- Spellbook needed to learn Regeneration. Used by Clerics and Elven Oracles.
+	Required level: 35 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
@@ -563,7 +636,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1391" name="Spellbook: Empower">
+	<etcitem id="1391" name="Spellbook: Empower" add_name="Spellbook: Empower">
+	<!-- Spellbook needed to learn Empower. Used by Shillien Oracles.
+	Required level: 25 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
@@ -573,7 +648,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1392" name="Spellbook: Berserker Spirit">
+	<etcitem id="1392" name="Spellbook: Berserker Spirit" add_name="Spellbook: Berserker Spirit">
+	<!-- Spellbook needed to learn Berserker Spirit. Used by Clerics.
+	Required level: 35 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
@@ -583,7 +660,8 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1393" name="Spellbook: Quickness">
+	<etcitem id="1393" name="Spellbook: Quickness" add_name="Spellbook: Quickness">
+	<!-- Spellbook needed to learn Quickness. -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_blue_i00"/>
@@ -593,7 +671,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1394" name="Spellbook: Sleep">
+	<etcitem id="1394" name="Spellbook: Sleep" add_name="Spellbook: Sleep">
+	<!-- Spellbook needed to learn Sleep. Used by Human Wizards, Clerics, Elven Wizards, Elven Oracles, Dark Wizards, and Shillien Oracles.
+	Required level: 25 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
@@ -603,7 +683,8 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1395" name="Spellbook: Surrender to Water">
+	<etcitem id="1395" name="Spellbook: Surrender to Water" add_name="Spellbook: Surrender to Water">
+	<!-- Spellbook needed to learn Surrender to Water. -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_blue_i00"/>
@@ -612,7 +693,8 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1396" name="Spellbook: Surrender to Wind">
+	<etcitem id="1396" name="Spellbook: Surrender to Wind" add_name="Spellbook: Surrender to Wind">
+	<!-- Spellbook needed to learn Surrender to Water -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_blue_i00"/>
@@ -621,7 +703,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1397" name="Spellbook: Peace">
+	<etcitem id="1397" name="Spellbook: Peace" add_name="Spellbook: Peace">
+	<!-- Spellbook needed to learn Peace. Used by Clerics.
+	Required level: 35 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
@@ -631,7 +715,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1398" name="Spellbook: Focus">
+	<etcitem id="1398" name="Spellbook: Focus" add_name="Spellbook: Focus">
+	<!-- Spellbook needed to learn Focus. Used by Clerics and Shillien Oracles.
+	Required level: 25 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
@@ -641,7 +727,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="1399" name="Spellbook: Concentration">
+	<etcitem id="1399" name="Spellbook: Concentration" add_name="Spellbook: Concentration">
+	<!-- Spellbook needed to learn Concentration. Used by Human Wizards, Clerics, Elven Wizards, Elven Oracles, Dark Wizards, and Shillien Oracles.
+	Required level: 20 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>

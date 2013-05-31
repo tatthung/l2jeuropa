@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="2000" name="Tallum Helm Design">
+	<etcitem id="2000" name="Tallum Helmet Design" add_name="Tallum Helmet Design">
+	<!-- Key material that Dwarves use to make the Tallum Helmet. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
@@ -10,7 +11,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2001" name="Helm of Avadon Design">
+	<etcitem id="2001" name="Helm of Avadon Design" add_name="Helm of Avadon Design">
+	<!-- Key material that Dwarves use to make the Helm of Avadon. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
@@ -19,7 +21,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2002" name="Helmet of Pledge Pattern">
+	<etcitem id="2002" name="Helmet of Pledge Pattern" add_name="Helmet of Pledge Pattern">
+	<!-- Key material that Dwarves use to make the Helmet of Pledge. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -28,7 +31,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2003" name="Gauntlets of Ghost Pattern">
+	<etcitem id="2003" name="Gauntlets of Ghost Pattern" add_name="Gauntlets of Ghost Pattern">
+	<!-- Key material that Dwarves use to make the Gauntlets of Ghost. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -37,7 +41,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2004" name="Adamantite Boots Design">
+	<etcitem id="2004" name="Adamantite Boots Design" add_name="Adamantite Boots Design">
+	<!-- Key material that Dwarves use to make Adamantite Boots. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
@@ -46,7 +51,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2005" name="Broadsword Blade">
+	<etcitem id="2005" name="Broadsword Blade" add_name="Broadsword Blade">
+	<!-- Key material that Dwarves use to make a Broadsword. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -55,7 +61,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2006" name="Willow Staff Head">
+	<etcitem id="2006" name="Willow Staff Head" add_name="Willow Staff Head">
+	<!-- Key material that Dwarves use to make the Willow Staff. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -64,7 +71,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2007" name="Bow Shaft">
+	<etcitem id="2007" name="Bow Shaft" add_name="Bow Shaft">
+	<!-- Key material that Dwarves use to make a Bow. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -73,7 +81,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2008" name="Cedar Staff Head">
+	<etcitem id="2008" name="Cedar Staff Head" add_name="Cedar Staff Head">
+	<!-- Key material that Dwarves use to make a Cedar Staff. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -82,7 +91,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2009" name="Dirk Blade">
+	<etcitem id="2009" name="Dirk Blade" add_name="Dirk Blade">
+	<!-- Key material that Dwarves use to make a Dirk. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -91,7 +101,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2010" name="Brandish Blade">
+	<etcitem id="2010" name="Brandish Blade" add_name="Brandish Blade">
+	<!-- Key material that Dwarves use to make a Brandish. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -100,7 +111,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2011" name="Short Spear Edge">
+	<etcitem id="2011" name="Short Spear Edge" add_name="Short Spear Edge">
+	<!-- Key material that Dwarves use to make a Short Spear. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -109,7 +121,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2012" name="Sword of Reflection Blade">
+	<etcitem id="2012" name="Sword of Reflection Blade" add_name="Sword of Reflection Blade">
+	<!-- Key material that Dwarves use to make the Sword of Reflection. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -118,7 +131,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2013" name="Forest Bow Shaft">
+	<etcitem id="2013" name="Forest Bow Shaft" add_name="Forest Bow Shaft">
+	<!-- Key material that Dwarves use to make the Forest Bow. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -127,7 +141,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2014" name="Iron Hammer Head">
+	<etcitem id="2014" name="Iron Hammer Head" add_name="Iron Hammer Head">
+	<!-- Key material that Dwarves use to make the Iron Hammer. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_silver_i00"/>
@@ -136,7 +151,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2015" name="Sword Breaker Edge">
+	<etcitem id="2015" name="Sword Breaker Edge" add_name="Sword Breaker Edge">
+	<!-- Key material that Dwarves use to make the Sword Breaker. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -145,7 +161,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2016" name="Composite Bow Shaft">
+	<etcitem id="2016" name="Compound Bow Shaft" add_name="Compound Bow Shaft">
+	<!-- Key material that Dwarves use to make the Compound Bow. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -154,7 +171,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2017" name="Saber Blade">
+	<etcitem id="2017" name="Saber Blade" add_name="Saber Blade">
+	<!-- Key material that Dwarves use to make a Saber. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -163,7 +181,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2018" name="Assassin Knife Edge">
+	<etcitem id="2018" name="Assassin Knife Edge" add_name="Assassin Knife Edge">
+	<!-- Key material that Dwarves use to make the Assassin Knife. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -172,7 +191,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2019" name="Trident Edge">
+	<etcitem id="2019" name="Trident Edge" add_name="Trident Edge">
+	<!-- Key material that Dwarves use to make a Trident. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -181,7 +201,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2020" name="Temptation of Abyss Piece">
+	<etcitem id="2020" name="Temptation of Abyss Piece" add_name="Temptation of Abyss Piece">
+	<!-- Key material that Dwarves use to make the Temptation of Abyss. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_oriharukon_ore_i00"/>
@@ -190,7 +211,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2021" name="Spinebone Sword Blade">
+	<etcitem id="2021" name="Spinebone Sword Blade" add_name="Spinebone Sword Blade">
+	<!-- Key material that Dwarves use to make the Spinebone Sword. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -199,7 +221,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2022" name="Mace of Judgment Head">
+	<etcitem id="2022" name="Mace of Judgment Head" add_name="Mace of Judgment Head">
+	<!-- Key material that Dwarves use to make the Mace of Judgment. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_silver_i00"/>
@@ -208,7 +231,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2023" name="Conjuror's Staff Head">
+	<etcitem id="2023" name="Conjuror's Staff Head" add_name="Conjuror's Staff Head">
+	<!-- Key material that Dwarves use to make the Conjuror's Staff. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -217,7 +241,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2024" name="Elven Bow Shaft">
+	<etcitem id="2024" name="Elven Bow Shaft" add_name="Elven Bow Shaft">
+	<!-- Key material that Dwarves use to make the Elven Bow. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -226,7 +251,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2025" name="Dwarven Trident Edge">
+	<etcitem id="2025" name="Dwarven Trident Edge" add_name="Dwarven Trident Edge">
+	<!-- Key material that Dwarves use to make the Dwarven Trident. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -235,7 +261,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2026" name="Two-Handed Sword Edge">
+	<etcitem id="2026" name="Two-handed Sword Edge" add_name="Two-handed Sword Edge">
+	<!-- Key material that Dwarves use to make the Two-handed Sword. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -244,7 +271,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2027" name="Spiked Club Head">
+	<etcitem id="2027" name="Spiked Club Head" add_name="Spiked Club Head">
+	<!-- Key material that Dwarves use to make the Spiked Club. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -253,7 +281,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2028" name="Shilen Knife Edge">
+	<etcitem id="2028" name="Shilen Knife Edge" add_name="Shilen Knife Edge">
+	<!-- Key material that Dwarves use to make the Shilen Knife. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -262,7 +291,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2029" name="Gastraphetes Shaft">
+	<etcitem id="2029" name="Gastraphetes Shaft" add_name="Gastraphetes Shaft">
+	<!-- Key material that Dwarves use to make the Gastraphetes. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -271,7 +301,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2030" name="Tome of Blood Page">
+	<etcitem id="2030" name="Tome of Blood Page" add_name="Tome of Blood Page">
+	<!-- Key material that Dwarves use to make the Tome of Blood. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_paper_gray_i00"/>
@@ -280,7 +311,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2031" name="Morning Star Head">
+	<etcitem id="2031" name="Morning Star Head" add_name="Morning Star Head">
+	<!-- Key material that Dwarves use to make the Morning Star. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -289,7 +321,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2032" name="Goat Head Staff Head">
+	<etcitem id="2032" name="Goat Head Staff Head" add_name="Goat Head Staff Head">
+	<!-- Key material that Dwarves use to make the Goat Head Staff. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -298,7 +331,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2033" name="Winged Spear Blade">
+	<etcitem id="2033" name="Winged Spear Blade" add_name="Winged Spear Blade">
+	<!-- Key material that Dwarves use to make the Winged Spear. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -307,7 +341,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2034" name="Sword of Revolution Blade">
+	<etcitem id="2034" name="Sword of Revolution Blade" add_name="Sword of Revolution Blade">
+	<!-- Key material that Dwarves use to make the Sword of Revolution. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -316,7 +351,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2035" name="Tarbar Head">
+	<etcitem id="2035" name="Tarbar Head" add_name="Tarbar Head">
+	<!-- Key material that Dwarves use to make the Tarbar. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -325,7 +361,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2036" name="Skull Breaker Head">
+	<etcitem id="2036" name="Skull Breaker Head" add_name="Skull Breaker Head">
+	<!-- Key material that Dwarves use to make the Skull Breaker. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -334,7 +371,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2037" name="Heavy Bone Club Head">
+	<etcitem id="2037" name="Heavy Bone Club Head" add_name="Heavy Bone Club Head">
+	<!-- Key material that Dwarves use to make the Heavy Bone Club. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -343,7 +381,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2038" name="Maingauche Edge">
+	<etcitem id="2038" name="Maingauche Edge" add_name="Maingauche Edge">
+	<!-- Key material that Dwarves use to make the Maingauche. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -352,7 +391,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2039" name="Bich'Hwa Edge">
+	<etcitem id="2039" name="Bich'Hwa Edge" add_name="Bich'Hwa Edge">
+	<!-- Key material that Dwarves use to make the Bich'Hwa. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -361,7 +401,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2040" name="Strengthened Long Bow Shaft">
+	<etcitem id="2040" name="Reinforced Longbow Shaft" add_name="Reinforced Longbow Shaft">
+	<!-- Key material that Dwarves use to make the Reinforced Longbow. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -370,7 +411,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2041" name="War Pick Head">
+	<etcitem id="2041" name="War Pick Head" add_name="War Pick Head">
+	<!-- Key material that Dwarves use to make the War Pick. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -379,7 +421,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2042" name="Crucifix of Blood Piece">
+	<etcitem id="2042" name="Crucifix of Blood Piece" add_name="Crucifix of Blood Piece">
+	<!-- Key material that Dwarves use to make the Crucifix of Blood. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -388,7 +431,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2043" name="Eye of Infinity Stone">
+	<etcitem id="2043" name="Eye of Infinity Stone" add_name="Eye of Infinity Stone">
+	<!-- Key material that Dwarves use to make the Eye of Infinity. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_crystal_ball_gold_i00"/>
@@ -397,7 +441,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2044" name="Cursed Maingauche Edge">
+	<etcitem id="2044" name="Cursed Maingauche Edge" add_name="Cursed Maingauche Edge">
+	<!-- Key material that Dwarves use to make the Cursed Maingauche. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -406,7 +451,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2045" name="Blue Crystal Skull Part">
+	<etcitem id="2045" name="Blue Crystal Skull Part" add_name="Blue Crystal Skull Part">
+	<!-- Key material that Dwarves use to make the Blue Crystal Skull. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_skull_red_i00"/>
@@ -415,7 +461,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2046" name="Demon Fangs Part">
+	<etcitem id="2046" name="Demon's Fangs Part" add_name="Demon's Fangs Part">
+	<!-- Key material that Dwarves use to make Demon's Fangs. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_horn_i00"/>
@@ -424,7 +471,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2047" name="Claymore Blade">
+	<etcitem id="2047" name="Claymore Blade" add_name="Claymore Blade">
+	<!-- Key material that Dwarves use to make the Claymore. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -433,7 +481,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2048" name="Bonebreaker Head">
+	<etcitem id="2048" name="Bonebreaker Head" add_name="Bonebreaker Head">
+	<!-- Key material that Dwarves use to make the Bonebreaker. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -442,7 +491,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2049" name="Atuba Hammer Head">
+	<etcitem id="2049" name="Atuba Hammer Head" add_name="Atuba Hammer Head">
+	<!-- Key material that Dwarves use to make the Atuba Hammer. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -451,7 +501,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2050" name="Ghost Staff Head">
+	<etcitem id="2050" name="Ghost Staff Head" add_name="Ghost Staff Head">
+	<!-- Key material that Dwarves use to make the Ghost Staff. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -460,7 +511,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2051" name="Staff of Life Shaft">
+	<etcitem id="2051" name="Staff of Life Shaft" add_name="Staff of Life Shaft">
+	<!-- Key material that Dwarves use to make the Staff of Life. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -469,7 +521,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2052" name="Mithril Dagger Blade">
+	<etcitem id="2052" name="Mithril Dagger Blade" add_name="Mithril Dagger Blade">
+	<!-- Key material that Dwarves use to make the Mithril Dagger. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -478,7 +531,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2053" name="Scallop Jamadhr Edge">
+	<etcitem id="2053" name="Scallop Jamadhr Edge" add_name="Scallop Jamadhr Edge">
+	<!-- Key material that Dwarves use to make the Scallop Jamadhr. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -487,7 +541,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2054" name="Light Crossbow Shaft">
+	<etcitem id="2054" name="Light Crossbow Shaft" add_name="Light Crossbow Shaft">
+	<!-- Key material that Dwarves use to make the Light Crossbow. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -496,7 +551,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2055" name="Glaive Edge">
+	<etcitem id="2055" name="Glaive Edge" add_name="Glaive Edge">
+	<!-- Key material that Dwarves use to make the Glaive. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -505,7 +561,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2056" name="Vajra Wand Frame">
+	<etcitem id="2056" name="Vajra Wand Frame" add_name="Vajra Wand Frame">
+	<!-- Key material that Dwarves use to make the Vajra Wand. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_mold_i00"/>
@@ -514,7 +571,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2057" name="Ancient Reagent Remnant">
+	<etcitem id="2057" name="Ancient Reagent Remnant" add_name="Ancient Reagent Remnant">
+	<!-- Key material that Dwarves use to make Ancient Reagent. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_potion_clear_i00"/>
@@ -523,7 +581,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2058" name="Atuba Mace Head">
+	<etcitem id="2058" name="Atuba Mace Head" add_name="Atuba Mace Head">
+	<!-- Key material that Dwarves use to make the Atuba Mace. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -532,7 +591,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2059" name="Flamberge Blade">
+	<etcitem id="2059" name="Flamberge Blade" add_name="Flamberge Blade">
+	<!-- Key material that Dwarves use to make the Flamberge. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -541,7 +601,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2060" name="Stormbringer Blade">
+	<etcitem id="2060" name="StormBringer Blade" add_name="StormBringer Blade">
+	<!-- Key material that Dwarves use to make the StormBringer. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -550,7 +611,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2061" name="Big Hammer Head">
+	<etcitem id="2061" name="Big Hammer Head" add_name="Big Hammer Head">
+	<!-- Key material that Dwarves use to make the Big Hammer. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -559,7 +621,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2062" name="Scythe Edge">
+	<etcitem id="2062" name="Scythe Edge" add_name="Scythe Edge">
+	<!-- Key material that Dwarves use to make the Scythe. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -568,7 +631,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2063" name="Battle Axe Head">
+	<etcitem id="2063" name="Battle Axe Head" add_name="Battle Axe Head">
+	<!-- Key material that Dwarves use to make the Battle Axe. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -577,7 +641,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2064" name="Silver Axe Head">
+	<etcitem id="2064" name="Silver Axe Head" add_name="Silver Axe Head">
+	<!-- Key material that Dwarves use to make the Silver Axe. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -586,7 +651,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2065" name="Skull Graver Head">
+	<etcitem id="2065" name="Skull Graver Head" add_name="Skull Graver Head">
+	<!-- Key material that Dwarves use to make the Skull Graver. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -595,7 +661,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2066" name="Heavy Doom Hammer Head">
+	<etcitem id="2066" name="Heavy Doom Hammer Head" add_name="Heavy Doom Hammer Head">
+	<!-- Key material that Dwarves use to make the Heavy Doom Hammer. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -604,7 +671,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2067" name="Crystal Staff Head">
+	<etcitem id="2067" name="Crystal Staff Head" add_name="Crystal Staff Head">
+	<!-- Key material that Dwarves use to make the Crystal Staff. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -613,7 +681,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2068" name="Stick of Faith Shaft">
+	<etcitem id="2068" name="Stick of Faith Shaft" add_name="Stick of Faith Shaft">
+	<!-- Key material that Dwarves use to make the Stick of Faith. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -622,7 +691,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2069" name="Heavy Doom Axe Blade">
+	<etcitem id="2069" name="Heavy Doom Axe Blade" add_name="Heavy Doom Axe Blade">
+	<!-- Key material that Dwarves use to make the Heavy Doom Axe. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -631,7 +701,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2070" name="Cursed Dagger Blade">
+	<etcitem id="2070" name="Cursed Dagger Blade" add_name="Cursed Dagger Blade">
+	<!-- Key material that Dwarves use to make the Cursed Dagger. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -640,7 +711,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2071" name="Wolverine Needle Edge">
+	<etcitem id="2071" name="Needle Wolverine Edge" add_name="Needle Wolverine Edge">
+	<!-- Key material that Dwarves use to make the Needle Wolverine. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -649,7 +721,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2072" name="Dark Elven Dagger Edge">
+	<etcitem id="2072" name="Dark Elven Dagger Edge" add_name="Dark Elven Dagger Edge">
+	<!-- Key material that Dwarves use to make the Dark Elven Dagger. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -658,7 +731,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2073" name="Chakram Edge">
+	<etcitem id="2073" name="Chakram Edge" add_name="Chakram Edge">
+	<!-- Key material that Dwarves use to make the Chakram. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -667,7 +741,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2074" name="Crystallized Ice Bow Shaft">
+	<etcitem id="2074" name="Crystallized Ice Bow Shaft" add_name="Crystallized Ice Bow Shaft">
+	<!-- Key material that Dwarves use to make the Crystallized Ice Bow. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -676,7 +751,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2075" name="Orcish Glaive Blade">
+	<etcitem id="2075" name="Orcish Glaive Blade" add_name="Orcish Glaive Blade">
+	<!-- Key material that Dwarves use to make the Orcish Glaive. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -685,7 +761,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2076" name="Body Slasher Blade">
+	<etcitem id="2076" name="Body Slasher Blade" add_name="Body Slasher Blade">
+	<!-- Key material that Dwarves use to make the Body Slasher. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -694,7 +771,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2077" name="Shamshir Blade">
+	<etcitem id="2077" name="Shamshir Blade" add_name="Shamshir Blade">
+	<!-- Key material that Dwarves use to make the Shamshir. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -703,7 +781,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2078" name="Katana Blade">
+	<etcitem id="2078" name="Katana Blade" add_name="Katana Blade">
+	<!-- Key material that Dwarves use to make the Katana. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -712,7 +791,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2079" name="Bec De Corbin Blade">
+	<etcitem id="2079" name="Bec de Corbin Blade" add_name="Bec de Corbin Blade">
+	<!-- Key material that Dwarves use to make the Bec de Corbin. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -721,7 +801,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2080" name="Spirit Sword Blade">
+	<etcitem id="2080" name="Spirit Sword Blade" add_name="Spirit Sword Blade">
+	<!-- Key material that Dwarves use to make the Spirit Sword. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -730,7 +811,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2081" name="Raid Sword Blade">
+	<etcitem id="2081" name="Raid Sword Blade" add_name="Raid Sword Blade">
+	<!-- Key material that Dwarves use to make the Raid Sword. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -739,7 +821,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2082" name="Cursed Staff Head">
+	<etcitem id="2082" name="Cursed Staff Head" add_name="Cursed Staff Head">
+	<!-- Key material that Dwarves use to make the Cursed Staff. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_squares_gray_i00"/>
@@ -748,7 +831,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2083" name="Stiletto Edge">
+	<etcitem id="2083" name="Stiletto Edge" add_name="Stiletto Edge">
+	<!-- Key material that Dwarves use to make the Stiletto. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -757,7 +841,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2084" name="Soulfire Dirk Blade">
+	<etcitem id="2084" name="Soulfire Dirk Blade" add_name="Soulfire Dirk Blade">
+	<!-- Key material that Dwarves use to make the Soulfire Dirk. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -766,7 +851,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2085" name="Crossbow Shaft">
+	<etcitem id="2085" name="Elemental Crossbow Shaft" add_name="Elemental Crossbow Shaft">
+	<!-- Key material that Dwarves use to make a Crossbow. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -775,7 +861,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2086" name="Elven Bow of Nobility Shaft">
+	<etcitem id="2086" name="Noble Elven Bow Shaft" add_name="Noble Elven Bow Shaft">
+	<!-- Key material that Dwarves use to make the Noble Elven Bow. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>
@@ -784,7 +871,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2087" name="Tears of Fairy Drop">
+	<etcitem id="2087" name="Tears of Fairy Drop" add_name="Tears of Fairy Drop">
+	<!-- Key material that Dwarves use to make Tears of Fairy. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_lesser_potion_clear_i00"/>
@@ -793,7 +881,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2088" name="Horn of Glory Fragment">
+	<etcitem id="2088" name="Horn of Glory Fragment" add_name="Horn of Glory Fragment">
+	<!-- Key material that Dwarves use to make the Horn of Glory. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_claw_i00"/>
@@ -802,7 +891,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2089" name="Caliburs Edge">
+	<etcitem id="2089" name="Caliburs Edge" add_name="Caliburs Edge">
+	<!-- Key material that Dwarves use to make the Caliburs. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -811,7 +901,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2090" name="Delusional Blade">
+	<etcitem id="2090" name="Delusional Blade" add_name="Delusional Blade">
+	<!-- Key material that Dwarves use to make the Sword of Delusion. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -820,7 +911,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2091" name="Tsurugi Blade">
+	<etcitem id="2091" name="Tsurugi Blade" add_name="Tsurugi Blade">
+	<!-- Key material that Dwarves use to make the Tsurugi. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -829,7 +921,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2092" name="Homunkulus's Sword Blade">
+	<etcitem id="2092" name="Homunkulus' Sword Blade" add_name="Homunkulus' Sword Blade">
+	<!-- Key material that Dwarves use to make Homunkulus' Sword. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -838,7 +931,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2093" name="Poleaxe Blade">
+	<etcitem id="2093" name="Poleaxe Blade" add_name="Poleaxe Blade">
+	<!-- Key material that Dwarves use to make the Poleaxe. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -847,7 +941,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2094" name="Sword of Limit Blade">
+	<etcitem id="2094" name="Sword of Limit Blade" add_name="Sword of Limit Blade">
+	<!-- Key material that Dwarves use to make the Sword of Limit. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -856,7 +951,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2095" name="Sword of Nightmare Blade">
+	<etcitem id="2095" name="Sword of Nightmare Blade" add_name="Sword of Nightmare Blade">
+	<!-- Key material that Dwarves use to make the Sword of Nightmare. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -865,7 +961,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2096" name="Sword of Whispering Death Blade">
+	<etcitem id="2096" name="Sword of Whispering Death Blade" add_name="Sword of Whispering Death Blade">
+	<!-- Key material that Dwarves use to make the Sword of Whispering Death. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -874,7 +971,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2097" name="War Axe Blade">
+	<etcitem id="2097" name="War Axe Blade" add_name="War Axe Blade">
+	<!-- Key material that Dwarves use to make the War Axe. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -883,7 +981,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2098" name="Nirvana Axe Blade">
+	<etcitem id="2098" name="Nirvana Axe Blade" add_name="Nirvana Axe Blade">
+	<!-- Key material that Dwarves use to make the Nirvana Axe. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_sword_body_i00"/>
@@ -892,7 +991,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="2099" name="Stick of Eternity Shaft">
+	<etcitem id="2099" name="Stick of Eternity Shaft" add_name="Stick of Eternity Shaft">
+	<!-- Key material that Dwarves use to make the Stick of Eternity. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_branch_gold_i00"/>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>	
-	<etcitem id="36078" name="Certificate - Dual Class">
+	<etcitem id="36078" name="Certificate - Dual Class" add_name="Certificate - Dual Class">
+	<!-- Spellbook that contains the concentrated power of a dual class. It is said that if you take it to Trandon in Talking Island Village, you can get the power in this spellbook. Cannot be dropped, exchanged or destroyed. Cannot use a warehouse. -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_all_subjob_skillbook_i00"/>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="4200" name="Spellbook: Restore Life">
+	<etcitem id="4200" name="Spellbook: Restore Life" add_name="Spellbook: Restore Life">
+	<!-- Spellbook needed to learn Restore Life. Used by Bishops.
+	Required level: 44 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
@@ -11,7 +13,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="4201" name="Spellbook: Resist Shock">
+	<etcitem id="4201" name="Spellbook: Stun Resistance" add_name="Spellbook: Stun Resistance">
+	<!-- Spellbook needed to learn Stun Resistance. Used by Elven Elders.
+	Required level: 40 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_white_i00"/>
@@ -21,7 +25,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="4203" name="Spellbook: Life Leech">
+	<etcitem id="4203" name="Spellbook: Life Leech" add_name="Spellbook: Life Leech">
+	<!-- Spellbook needed to learn Life Leech. Used by Shillien Knights.
+	Required level: 40 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_defighter_i00"/>
@@ -31,7 +37,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="4204" name="Amulet: Pa'agrio's Tact">
+	<etcitem id="4204" name="Amulet: Pa'agrio's Tact" add_name="Amulet: Pa'agrio's Tact">
+	<!-- Amulet required for the Pa'agrio's Tact spell. Used by Overlords.
+	Required level: 40 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_orcish_talisman_i00"/>
@@ -41,7 +49,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="4205" name="Amulet: Pa'agrio's Rage">
+	<etcitem id="4205" name="Amulet: Pa'agrio's Rage" add_name="Amulet: Pa'agrio's Rage">
+	<!-- Amulet required for the Pa'agrio's Rage spell. Used by Overlords.
+	Required level: 44 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_orcish_talisman_i00"/>
@@ -51,7 +61,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="4206" name="Spellbook: Transfer Pain">
+	<etcitem id="4206" name="Spellbook: Transfer Pain" add_name="Spellbook: Transfer Pain">
+	<!-- Spellbook needed to learn Transfer Pain. Used by Necromancers, Warlocks, Elemental Summoners and Phantom Summoners.
+	Required level: 40 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_summon_i00"/>
@@ -61,7 +73,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="4207" name="Spellbook: Mana Regeneration">
+	<etcitem id="4207" name="Spellbook: Mana Regeneration" add_name="Spellbook: Mana Regeneration">
+	<!-- Spellbook needed to learn Mana Regeneration. Used by Spellsingers.
+	Required level: 40 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
@@ -71,7 +85,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="4208" name="Spellbook: Curse Gloom">
+	<etcitem id="4208" name="Spellbook: Curse Gloom" add_name="Spellbook: Curse Gloom">
+	<!-- Spellbook needed to learn Curse Gloom. Used by Necromancers.
+	Required level: 44 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_black_i00"/>
@@ -81,7 +97,8 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="4209" name="Change of Heart - Piece 1">
+	<etcitem id="4209" name="Change of Heart - Piece 1" add_name="Change of Heart - Piece 1">
+	<!-- Used only during the Change of Heart event. Complete a heart and take it to Puss the Cat to claim your prize. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -89,7 +106,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="4210" name="Change of Heart - Piece 2">
+	<etcitem id="4210" name="Change of Heart - Piece 2" add_name="Change of Heart - Piece 2">
+	<!-- Used only during the Change of Heart event. Complete a heart and take it to Puss the Cat to claim your prize. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -97,7 +115,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="4211" name="Change of Heart - Piece 3">
+	<etcitem id="4211" name="Change of Heart - Piece 3" add_name="Change of Heart - Piece 3">
+	<!-- Used only during the Change of Heart event. Complete a heart and take it to Puss the Cat to claim your prize. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -105,7 +124,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="4212" name="Change of Heart - Piece 4">
+	<etcitem id="4212" name="Change of Heart - Piece 4" add_name="Change of Heart - Piece 4">
+	<!-- Used only during the Change of Heart event. Complete a heart and take it to Puss the Cat to claim your prize. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -113,7 +133,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="4213" name="Change of Heart - Piece 5">
+	<etcitem id="4213" name="Change of Heart - Piece 5" add_name="Change of Heart - Piece 5">
+	<!-- Used only during the Change of Heart event. Complete a heart and take it to Puss the Cat to claim your prize. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -121,7 +142,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="4214" name="Change of Heart - Piece 6">
+	<etcitem id="4214" name="Change of Heart - Piece 6" add_name="Change of Heart - Piece 6">
+	<!-- Used only during the Change of Heart event. Complete a heart and take it to Puss the Cat to claim your prize. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -129,7 +151,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="4215" name="Change of Heart - Piece 7">
+	<etcitem id="4215" name="Change of Heart - Piece 7" add_name="Change of Heart - Piece 7">
+	<!-- Used only during the Change of Heart event. Complete a heart and take it to Puss the Cat to claim your prize. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -137,7 +160,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="4216" name="Change of Heart - Piece 8">
+	<etcitem id="4216" name="Change of Heart - Piece 8" add_name="Change of Heart - Piece 8">
+	<!-- Used only during the Change of Heart event. Complete a heart and take it to Puss the Cat to claim your prize. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -145,7 +169,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="4217" name="Change of Heart - Piece 9">
+	<etcitem id="4217" name="Change of Heart - Piece 9" add_name="Change of Heart - Piece 9">
+	<!-- Used only during the Change of Heart event. Complete a heart and take it to Puss the Cat to claim your prize. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -153,7 +178,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="4218" name="L2 Day - Scroll of Mana Regeneration">
+	<etcitem id="4218" name="L2 Day - Scroll: Mana Regeneration" add_name="L2 Day - Scroll: Mana Regeneration">
+	<!-- Increases MP Recovery Rate. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -170,14 +196,16 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="4232" name="Dice">
+	<etcitem id="4232" name="Dice" add_name="Dice">
+	<!-- Simple game of chance! Roll 'em!! -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_dice_a_i00"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4239" name="Blade Mold">
+	<etcitem id="4239" name="Blade Mold" add_name="Blade Mold">
+	<!-- Cargo that Trader Arodin needs to send to the Dark Elves. Find all 20 of them and take them to Trader Tyra. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -186,7 +214,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4240" name="Tyra's Bill">
+	<etcitem id="4240" name="Tyra's Bill" add_name="Tyra's Bill">
+	<!-- Note from Trader Tyra. Take it to Trader Arodin in Gludin Village. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -195,7 +224,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4241" name="Ranger's Report - Part 1">
+	<etcitem id="4241" name="Ranger's Report - Part 1" add_name="Ranger's Report - Part 1">
+	<!-- First piece of a ranger's report. Find all 4 pieces and take them to Guard Alvah. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -204,7 +234,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4242" name="Ranger's Report - Part 2">
+	<etcitem id="4242" name="Ranger's Report - Part 2" add_name="Ranger's Report - Part 2">
+	<!-- Second piece of a ranger's report. Find all 4 pieces and take them to Guard Alvah. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -213,7 +244,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4243" name="Ranger's Report - Part 3">
+	<etcitem id="4243" name="Ranger's Report - Part 3" add_name="Ranger's Report - Part 3">
+	<!-- Third piece of a ranger's report. Find all 4 pieces and take them to Guard Alvah. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -222,7 +254,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4244" name="Ranger's Report - Part 4">
+	<etcitem id="4244" name="Ranger's Report - Part 4" add_name="Ranger's Report - Part 4">
+	<!-- Fourth piece of a ranger's report. Find all 4 pieces and take them to Guard Alvah. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -231,7 +264,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4245" name="Weapons Trade Contract">
+	<etcitem id="4245" name="Weapons Trade Contract" add_name="Weapons Trade Contract">
+	<!-- The contract that was carried by an Ol Mahum General. It is engraved with the Mark of the Dwarves. Take it to Guard Alvah. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -240,7 +274,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4246" name="Attack Directives">
+	<etcitem id="4246" name="Attack Directives" add_name="Attack Directives">
+	<!-- Operation order that was carried by an Ol Mahum General. Take it to Guard Alvah. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -249,7 +284,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4247" name="Certificate of the Silver Scale Guild">
+	<etcitem id="4247" name="Certificate of the Silver Scale Guild" add_name="Certificate of the Silver Scale Guild">
+	<!-- Certificate that verifies one's membership to the Silver Scale Guild. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -258,7 +294,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4248" name="Rolento's Cargobox">
+	<etcitem id="4248" name="Rolento's Cargobox" add_name="Rolento's Cargobox">
+	<!-- The war supplies that the Dwarven trader Rolento promised to send to Turek orcs. First, show it to Guard Alvah. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -267,7 +304,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4249" name="Ol Mahum Captain's Head">
+	<etcitem id="4249" name="Ol Mahum Captain's Head" add_name="Ol Mahum Captain's Head">
+	<!-- Severed head of an Ol Mahum Captain. Collect 30 of them and take them to Turek Chief Burai. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -276,7 +314,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4250" name="Jade Crystal">
+	<etcitem id="4250" name="Jade Crystal" add_name="Jade Crystal">
+	<!-- Jade gemstone from the Enchanted Valley. Collect them and take them to Bentley of Hunters Village. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -285,7 +324,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4251" name="Ancient Statue of Goddess">
+	<etcitem id="4251" name="Ancient Statue of Goddess" add_name="Ancient Statue of Goddess">
+	<!-- Statue of a goddess from an old empire that has been discovered in the cemetery. Take it to Priestess Flownia of Town of Aden. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -294,7 +334,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4252" name="GalfRedo Romer's Bust">
+	<etcitem id="4252" name="GalfRedo Romer's Bust" add_name="GalfRedo Romer's Bust">
+	<!-- Statue created by the ancient sculptor Berona. Take it to Trader Galibredo of the Town of Oren. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -303,7 +344,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4253" name="Eye of the Shadow">
+	<etcitem id="4253" name="Eye of the Shadow" add_name="Eye of the Shadow">
+	<!-- Collect 50 eyes of the Shadow and take them to Warehouse Keeper Sorint. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -312,7 +354,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4254" name="Certificate of Participation: Battle Royal">
+	<etcitem id="4254" name="Certificate of Participation: Battle Royal" add_name="Certificate of Participation: Battle Royal">
+	<!-- The certificate that allows one to participate in a Battle Royal. This game is played by grade 1 members of the Coin Collectors Club. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -321,7 +364,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4255" name="Trade Cargo">
+	<etcitem id="4255" name="Trade Cargo" add_name="Trade Cargo">
+	<!-- The cargo boxes that have been robbed from the wagon of the Trade Guild. Collect 30 of them and take them to Guard Weisz. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -330,7 +374,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4256" name="Agnes's Holy Symbol">
+	<etcitem id="4256" name="Agnes' Holy Symbol" add_name="Agnes' Holy Symbol">
+	<!-- The Crucifix of the goddess of Einhasad. This article was left by Priestess Agnes after her death. Take it along with Agnes' Rosary to Priest Adonius. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -339,7 +384,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4257" name="Agnes's Rosary">
+	<etcitem id="4257" name="Agnes' Rosary" add_name="Agnes' Rosary">
+	<!-- Rosary used while praying. It was left by Priestess Agnes after her death. Take it along with the Crucifix of the goddess of Einhasad to Priest Adonius. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -348,7 +394,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4258" name="Sinister Totem">
+	<etcitem id="4258" name="Sinister Totem" add_name="Sinister Totem">
+	<!-- Black totem that exudes an evil aura. Take it to High Priestess Levian. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -357,7 +404,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4259" name="Bear Skin">
+	<etcitem id="4259" name="Bear Skin" add_name="Bear Skin">
+	<!-- The pelts obtained by hunting bears. Collect 20 of them and take them to Grocer Pano of Floran Village. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -366,7 +414,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4260" name="Enku Orc's Head">
+	<etcitem id="4260" name="Enku Orc's Head" add_name="Enku Orc's Head">
+	<!-- Beheaded head of an Enku Orc. Collect 100 of them and take them to Orc Lady Jennifer. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -375,7 +424,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4261" name="Orc Heads Bouquet -1">
+	<etcitem id="4261" name="Orc Heads Bouquet -1" add_name="Orc Heads Bouquet -1">
+	<!-- Bouquet made by tying 100 orc heads together. On behalf of Jennifer who is shy, deliver it to High Prefect Drikus. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -384,7 +434,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4262" name="Orc Heads Bouquet -2">
+	<etcitem id="4262" name="Orc Heads Bouquet -2" add_name="Orc Heads Bouquet -2">
+	<!-- Bouquet made by tying 100 orc heads together. On behalf of Jennifer who is shy, deliver it to Priest Manuel. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -393,7 +444,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4263" name="Orc Heads Bouquet -3">
+	<etcitem id="4263" name="Orc Heads Bouquet -3" add_name="Orc Heads Bouquet -3">
+	<!-- Bouquet made by tying 100 orc heads together. On behalf of Jennifer who is shy, deliver it to Vuku Chief Driko. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -402,7 +454,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4264" name="Orc Heads Bouquet -4">
+	<etcitem id="4264" name="Orc Heads Bouquet -4" add_name="Orc Heads Bouquet -4">
+	<!-- Bouquet made by tying 100 orc heads together. On behalf of Jennifer who is shy, deliver it to Seer Somak. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -411,7 +464,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4265" name="Orc Heads Bouquet -5">
+	<etcitem id="4265" name="Orc Heads Bouquet -5" add_name="Orc Heads Bouquet -5">
+	<!-- Bouquet made by tying 100 orc heads together. On behalf of Jennifer who is shy, deliver it to Prefect Dowki. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -420,7 +474,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4266" name="Orc Heads Bouquet -6">
+	<etcitem id="4266" name="Orc Heads Bouquet -6" add_name="Orc Heads Bouquet -6">
+	<!-- Bouquet made by tying 100 orc heads together. On behalf of Jennifer who is shy, deliver it to Watchman Endrigo. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -429,7 +484,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4267" name="Orc Heads Bouquet -7">
+	<etcitem id="4267" name="Orc Heads Bouquet -7" add_name="Orc Heads Bouquet -7">
+	<!-- Bouquet made by tying 100 orc heads together. On behalf of Jennifer who is shy, deliver it to Captain Lucas. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -438,7 +494,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4268" name="Jennifer's Box">
+	<etcitem id="4268" name="Jennifer's Box" add_name="Jennifer's Box">
+	<!-- The box that a man who is smitten by Orc Lady Jennifer asked this to be delivered to her. What do you think is in the box...? -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -447,7 +504,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4269" name="Articles of Dead Heroes">
+	<etcitem id="4269" name="Articles of Dead Heroes" add_name="Articles of Dead Heroes">
+	<!-- The articles of dead soldiers who were sent as an expeditionary force 1,000 years ago. These articles have been collected by hunting cave servants. Take them to Antharas Watchman Gilmore. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -456,7 +514,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4270" name="Old Key">
+	<etcitem id="4270" name="Old Key" add_name="Old Key">
+	<!-- Article left by a dead soldier. His descendent Sir Kristof Rodemai is living in Town of Giran. Take it to him. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -465,7 +524,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4271" name="Old Hilt">
+	<etcitem id="4271" name="Old Hilt" add_name="Old Hilt">
+	<!-- Article left by a dead soldier. His descendant Duelist Kaien is living in the Town of Oren. Take it to him. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -474,7 +534,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4272" name="Totem Necklace">
+	<etcitem id="4272" name="Totem Necklace" add_name="Totem Necklace">
+	<!-- Article left by a dead soldier. His descendent, High Prefect Garvarentz, is living in Hunters Village. Take it to him. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -483,7 +544,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4273" name="Einhasad Crucifix">
+	<etcitem id="4273" name="Einhasad's Crucifix" add_name="Einhasad's Crucifix">
+	<!-- Article left by a dead soldier. Take it to High Priest Orven of Einhasad Temple in Town of Aden where the dead soldier used to be stationed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -492,7 +554,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4274" name="Victim's Arm Bone">
+	<etcitem id="4274" name="Victim's Arm Bone" add_name="Victim's Arm Bone">
+	<!-- The arm bone of a victim who has been eaten by a Crokian. Collect the five types of bones and take them to Xenovia. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -501,7 +564,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4275" name="Victim's Thigh Bone">
+	<etcitem id="4275" name="Victim's Thigh Bone" add_name="Victim's Thigh Bone">
+	<!-- The thigh bone of a victim who has been eaten by a Crokian. Collect the five types of bones and take them to Xenovia. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -510,7 +574,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4276" name="Victim's Skull">
+	<etcitem id="4276" name="Victim's Skull" add_name="Victim's Skull">
+	<!-- The skull of a victim who has been eaten alive by a Crokian. Collect the five types of bones and take them to Xenovia. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -519,7 +584,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4277" name="Victim's Rib Bone">
+	<etcitem id="4277" name="Victim's Rib Bone" add_name="Victim's Rib Bone">
+	<!-- The rib bone of a victim who has been eaten by a Crokian. Collect the five types of bones and take them to Xenovia. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -528,7 +594,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4278" name="Victim's Spine">
+	<etcitem id="4278" name="Victim's Spine" add_name="Victim's Spine">
+	<!-- The spine of a victim who has been eaten by a Crokian. Collect the five types of bones and take them to Xenovia. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -537,7 +604,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4279" name="Jar of Bones">
+	<etcitem id="4279" name="Jar of Bones" add_name="Jar of Bones">
+	<!-- Urn that contains the bones of all the victims. Ask Mad Doctor Orpheus to resurrect the victims. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -546,7 +614,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4280" name="Useless Bone Pieces">
+	<etcitem id="4280" name="Useless Bone Pieces" add_name="Useless Bone Pieces">
+	<!-- Useless bone pieces obtained after hunting Crokians. If you take them to Orpheus, perhaps something good will happen...? -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -555,7 +624,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4281" name="Powder to Summon Dead Souls">
+	<etcitem id="4281" name="Powder to Summon Dead Souls" add_name="Powder to Summon Dead Souls">
+	<!-- The magic powder bought from Magister Xenovia. Throw it along with the victims' bones into a the Psychic Medium's Urn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -564,7 +634,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4282" name="Sack of the Dead">
+	<etcitem id="4282" name="Sack of the Dead" add_name="Sack of the Dead">
+	<!-- Sack containing a victim's soul. Urn was possessed by the victim's soul. Take it to Locksmith Dorothy. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -573,7 +644,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4283" name="Frog Prince">
+	<etcitem id="4283" name="Frog Prince" add_name="Frog Prince">
+	<!-- What are you waiting for? You promised to help me! Release me from this curse immediately! I want to turn back to normal as soon as possible!!! -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -582,7 +654,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4284" name="Fly Powder">
+	<etcitem id="4284" name="Fly Powder" add_name="Fly Powder">
+	<!-- Powder made by grinding dried flies. Use it when you fail in your attempt to transform a frog. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -591,7 +664,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4285" name="Calculator">
+	<etcitem id="4285" name="Calculator" add_name="Calculator">
+	<!-- The latest model of calculator. Take it to Blacksmith Brunon. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -600,7 +674,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4286" name="Gemstone Beast's Crystal">
+	<etcitem id="4286" name="Gemstone Beast's Crystal" add_name="Gemstone Beast's Crystal">
+	<!-- Crystal obtained by slaying a gemstone beast. Collect 10 of these and take them to Blacksmith Silvera. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -609,7 +684,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4287" name="Titan's Powerstone">
+	<etcitem id="4287" name="Lesser Giant's Powerstone" add_name="Lesser Giant's Powerstone">
+	<!-- The Lesser Giant's Powerstone that has been extracted from the corpse of a Giant. Take it to Magister Hanellin. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -618,7 +694,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4288" name="Hanellin's 1st Letter">
+	<etcitem id="4288" name="Hanellin's 1st Letter" add_name="Hanellin's 1st Letter">
+	<!-- A Letter that Hanellin entrusted you with. Take it to Magister Harne of the Town of Gludio and receive your next assignment from her. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -627,7 +704,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4289" name="Hanellin's 2nd Letter">
+	<etcitem id="4289" name="Hanellin's 2nd Letter" add_name="Hanellin's 2nd Letter">
+	<!-- Letter that Hanellin entrusted you with. Take it to Claudia Athebaldt of Town of Aden and receive your next assignment from her. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -636,7 +714,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4290" name="Hanellin's 3rd Letter">
+	<etcitem id="4290" name="Hanellin's 3rd Letter" add_name="Hanellin's 3rd Letter">
+	<!-- Letter that Hanellin entrusted you with. Take it to Martien of the Town of Giran and receive your next assignment from him. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -645,7 +724,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4291" name="1st Key of Ark">
+	<etcitem id="4291" name="1st Key of Ark" add_name="1st Key of Ark">
+	<!-- The key that was found upon the corpse of the guardian of the sacred ark. Use this key to open the sacred ark and retrieve the sacred object. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -654,7 +734,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4292" name="2nd Key of Ark">
+	<etcitem id="4292" name="2nd Key of Ark" add_name="2nd Key of Ark">
+	<!-- The key that was taken after killing Elberos, the guardian of the sacred ark. Use the key to open the sacred ark and retrieve the sacred object. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -663,7 +744,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4293" name="3rd Key of Ark">
+	<etcitem id="4293" name="3rd Key of Ark" add_name="3rd Key of Ark">
+	<!-- The key that was taken after killing Shadowfang, the guardian of the sacred ark. Use the key to open the sacred ark and retrieve the sacred object. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -672,7 +754,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4294" name="White Fabric">
+	<etcitem id="4294" name="White Cloth" add_name="White Cloth">
+	<!-- Large piece of white cloth given by Magister Hanellin. Kill the Platinum Tribe Shamans and Overlords and soak the cloth with their blood. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -681,7 +764,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4295" name="Blooded Fabric">
+	<etcitem id="4295" name="Blood-stained Cloth" add_name="Blood-stained Cloth">
+	<!-- Piece of cloth soaked in the blood of angels and the Platinum race. Hanellin Has told you that in order to challenge Baium, you must wrap this blood-soaked cloth around your body. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -690,7 +774,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4296" name="Order of Gosta">
+	<etcitem id="4296" name="Order of Gosta" add_name="Order of Gosta">
+	<!-- The order states that you should hunt Tasaba Lizardmen and Tasaba Lizardman Shaman and bring back their fangs as proof. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -699,7 +784,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4297" name="Lizard Fang">
+	<etcitem id="4297" name="Lizardman's Fang" add_name="Lizardman's Fang">
+	<!-- The fangs that have been collected as proofs that Tasaba Lizardmen and Tasaba Lizardman Shaman have been hunted. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -708,7 +794,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4298" name="Barrel of League">
+	<etcitem id="4298" name="Barrel of League" add_name="Barrel of League">
+	<!-- This seems to be the cargo that was stolen from Iason Heine's wagon by Tasaba Lizardmen. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -717,7 +804,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4299" name="Operation Document - 1/10">
+	<etcitem id="4299" name="Operation Document - 1/10" add_name="Operation Document - 1/10">
+	<!-- This document was found in the cargo of the Trade Guild. The document contains various information regarding Innadril. How could this have happened...? -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>

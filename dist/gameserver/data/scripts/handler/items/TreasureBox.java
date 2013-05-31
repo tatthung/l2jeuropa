@@ -22,7 +22,6 @@ public class TreasureBox extends SimpleItemHandler
 {
 	private static final int[] ITEM_IDS = new int[] { 
 									32241,
-									32727,
 									32728,
 									32729,
 									32730,
@@ -70,9 +69,6 @@ public class TreasureBox extends SimpleItemHandler
 		switch(itemId)
 		{
 			// -------------Chest
-			case 32727:
-				use32727(player, ctrl);
-				break;
 			case 33477:
 				use33477(player, ctrl);
 				break;
@@ -180,14 +176,6 @@ public class TreasureBox extends SimpleItemHandler
 	}
 
 	// --------------------------------------------------Chest
-	// A Treasure Box
-	private void use32727(Player player, boolean ctrl)
-	{
-		int[][] list = new int[][]{{32730, 1}, {32731, 1}, {32732, 1}, {32733, 1}, {32734, 1}, {32735, 1}, {32736, 1}, {32737, 1}, {32738, 1}, {32739, 1}, {32740, 1}, {32741, 1}, {32728, 1}, {32729, 1}};
-		double[] chances = new double[]{9.55555, 3.01515, 33.16666, 26.86999, 19.19444, 13.38888, 7.75, 4, 28.33333, 23.94444, 16, 12.6666, 25.38888, 9.77777, 8.77777};
-		extractRandomOneItem(player, list, chances);
-	}
-
 	// Hero's Treasure Box
 	private void use33477(Player player, boolean ctrl)
 	{

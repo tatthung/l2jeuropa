@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="1900" name="Enchanted Necklace Chain">
+	<etcitem id="1900" name="Necklace Chain of Magic" add_name="Necklace Chain of Magic">
+	<!-- Key material that Dwarves use to make a Necklace of Magic. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_jewel_box_i00"/>
@@ -10,7 +11,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1901" name="Tiger's Eye Earring Stone">
+	<etcitem id="1901" name="Tiger's Eye Stone" add_name="Tiger's Eye Stone">
+	<!-- Key material that Dwarves use to make Tiger's Eye. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_jewel_gold_i00"/>
@@ -19,7 +21,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1902" name="Elven Earring Beads">
+	<etcitem id="1902" name="Elven Earring Beads" add_name="Elven Earring Beads">
+	<!-- Key material that Dwarves use to make the Elven Earring. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_crystal_ball_green_i00"/>
@@ -28,7 +31,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1903" name="Elven Ring Piece">
+	<etcitem id="1903" name="Elven Ring Piece" add_name="Elven Ring Piece">
+	<!-- Key material that Dwarves use to make the Elven Ring. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_jewel_box_i00"/>
@@ -37,7 +41,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1904" name="Elven Necklace Beads">
+	<etcitem id="1904" name="Elven Necklace Beads" add_name="Elven Necklace Beads">
+	<!-- Key material that Dwarves use to make the Elven Necklace. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_crystal_ball_green_i00"/>
@@ -46,7 +51,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1905" name="Omen Beast's Eye Earring Gemstone">
+	<etcitem id="1905" name="Onyx Beast's Eye Earring Gemstone" add_name="Onyx Beast's Eye Earring Gemstone">
+	<!-- Key material that Dwarves use to make the Onyx Beast's Eye. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_bead_silver_i00"/>
@@ -55,7 +61,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1906" name="Mithril Ring Wire">
+	<etcitem id="1906" name="Mithril Ring Wire" add_name="Mithril Ring Wire">
+	<!-- Key material that Dwarves use to make a Mithril Ring. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_jewel_box_i00"/>
@@ -64,7 +71,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1907" name="Necklace of Darkness Gem">
+	<etcitem id="1907" name="Dark Necklace Gem" add_name="Dark Necklace Gem">
+	<!-- Key material that Dwarves use to make a Dark Necklace. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_gem_black_i00"/>
@@ -73,7 +81,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1908" name="Moonstone Earring Wire">
+	<etcitem id="1908" name="Moonstone Earring Wire" add_name="Moonstone Earring Wire">
+	<!-- Key material that Dwarves use to make a Moonstone Earring. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_jewel_box_i00"/>
@@ -82,7 +91,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1909" name="Aquastone Ring Wire">
+	<etcitem id="1909" name="Aquastone Ring Wire" add_name="Aquastone Ring Wire">
+	<!-- Key material that Dwarves use to make the Aquastone Ring. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_jewel_box_i00"/>
@@ -91,7 +101,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1910" name="Aquastone Necklace Chain">
+	<etcitem id="1910" name="Aquastone Necklace Chain" add_name="Aquastone Necklace Chain">
+	<!-- Key material that Dwarves use to make the Aquastone Necklace. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_jewel_box_i00"/>
@@ -100,7 +111,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1911" name="Earring of Protection Gemstone">
+	<etcitem id="1911" name="Earring of Protection Gemstone" add_name="Earring of Protection Gemstone">
+	<!-- Key material that Dwarves use to make the Earring of Protection. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_gem_yellow_i00"/>
@@ -109,7 +121,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1912" name="Ring of Protection Gemstone">
+	<etcitem id="1912" name="Ring of Protection Gemstone" add_name="Ring of Protection Gemstone">
+	<!-- Key material that Dwarves use to make the Ring of Protection. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_gem_yellow_i00"/>
@@ -118,7 +131,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1913" name="Necklace of Protection Gemstone">
+	<etcitem id="1913" name="Necklace of Protection Gemstone" add_name="Necklace of Protection Gemstone">
+	<!-- Key material that Dwarves use to make the Necklace of Protection. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_gem_yellow_i00"/>
@@ -127,7 +141,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1914" name="Earring of Binding Gemstone">
+	<etcitem id="1914" name="Earring of Seal Gemstone" add_name="Earring of Seal Gemstone">
+	<!-- Key material that Dwarves use to make an Earring of Seal. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_gem_clear_i00"/>
@@ -136,7 +151,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1915" name="Ring of Ages Gemstone">
+	<etcitem id="1915" name="Ring of Ages Gemstone" add_name="Ring of Ages Gemstone">
+	<!-- Key material that Dwarves use to make a Ring of Ages. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_gem_clear_i00"/>
@@ -145,7 +161,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1916" name="Necklace of Mermaid Teardrop">
+	<etcitem id="1916" name="Necklace of Mermaid Teardrop" add_name="Necklace of Mermaid Teardrop">
+	<!-- Key material that Dwarves use to make the Necklace of Mermaid. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_reagent_white_i00"/>
@@ -154,7 +171,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1917" name="Sage's Necklace Chain">
+	<etcitem id="1917" name="Sage's Necklace Chain" add_name="Sage's Necklace Chain">
+	<!-- Key material that Dwarves use to make a Sage's Necklace. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_jewel_box_i00"/>
@@ -163,7 +181,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1918" name="Nassen's Earring Gemstone">
+	<etcitem id="1918" name="Nassen's Earring Gemstone" add_name="Nassen's Earring Gemstone">
+	<!-- Key material that Dwarves use to make Nassen's Earring. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_gem_red_i00"/>
@@ -172,7 +191,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1919" name="Ring of Sage Gemstone">
+	<etcitem id="1919" name="Sage's Ring Gemstone" add_name="Sage's Ring Gemstone">
+	<!-- Key material that Dwarves use to make a Sage's Ring. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_bead_silver_i00"/>
@@ -181,7 +201,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1920" name="Necklace of Binding Chain">
+	<etcitem id="1920" name="Necklace of Seal Chain" add_name="Necklace of Seal Chain">
+	<!-- Key material that Dwarves use to make a Necklace of Seal. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_jewel_box_i00"/>
@@ -190,7 +211,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1921" name="Leather Shoes Texture">
+	<etcitem id="1921" name="Leather Shoes Texture" add_name="Leather Shoes Texture">
+	<!-- Key material that Dwarves use to make Leather Shoes. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_yellow_i00"/>
@@ -199,7 +221,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1922" name="Leather Tunic Pattern">
+	<etcitem id="1922" name="Leather Tunic Pattern" add_name="Leather Tunic Pattern">
+	<!-- Key material that Dwarves use to make a Leather Tunic. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -208,7 +231,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1923" name="Leather Stocking Pattern">
+	<etcitem id="1923" name="Leather Stockings Pattern" add_name="Leather Stockings Pattern">
+	<!-- Key material that Dwarves use to make Leather Stockings. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -217,7 +241,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1924" name="Leather Helmet Design">
+	<etcitem id="1924" name="Leather Helmet Design" add_name="Leather Helmet Design">
+	<!-- Key material that Dwarves use to make a Leather Helmet. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -226,7 +251,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1925" name="Leather Gloves Lining">
+	<etcitem id="1925" name="Leather Gloves Lining" add_name="Leather Gloves Lining">
+	<!-- Key material that Dwarves use to make Leather Gloves. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -235,7 +261,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1926" name="Piece Bone Breastplate Fragment">
+	<etcitem id="1926" name="Piece Bone Breastplate Fragment" add_name="Piece Bone Breastplate Fragment">
+	<!-- Key material that Dwarves use to make a Piece Bone Breastplate. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_bone_black_i00"/>
@@ -244,7 +271,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1927" name="Hard Leather Shirt Pattern">
+	<etcitem id="1927" name="Hard Leather Shirt Pattern" add_name="Hard Leather Shirt Pattern">
+	<!-- Key material that Dwarves use to make the Hard Leather Shirt. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -253,7 +281,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1928" name="Piece Bone Gaiters Fragment">
+	<etcitem id="1928" name="Piece Bone Gaiters Fragment" add_name="Piece Bone Gaiters Fragment">
+	<!-- Key material that Dwarves use to make Piece Bone Gaiters. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_bone_black_i00"/>
@@ -262,7 +291,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1929" name="Hard Leather Gaiters Material">
+	<etcitem id="1929" name="Hard Leather Gaiters Material" add_name="Hard Leather Gaiters Material">
+	<!-- Key material that Dwarves use to make Hard Leather Gaiters. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -271,7 +301,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1930" name="Boot Lining">
+	<etcitem id="1930" name="Boots Lining" add_name="Boots Lining">
+	<!-- Key material that Dwarves use to make Boots. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -280,7 +311,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1931" name="Leather Boot Lining">
+	<etcitem id="1931" name="Leather Boots Lining" add_name="Leather Boots Lining">
+	<!-- Key material that Dwarves use to make Leather Boots. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -289,7 +321,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1932" name="Bone Helmet Design">
+	<etcitem id="1932" name="Bone Helmet Design" add_name="Bone Helmet Design">
+	<!-- Key material that Dwarves use to make a Bone Helmet. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -298,7 +331,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1933" name="Dark Stocking Fabric">
+	<etcitem id="1933" name="Dark Stockings Fabric" add_name="Dark Stockings Fabric">
+	<!-- Key material that Dwarves use to make Dark Stockings. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_white_i00"/>
@@ -307,7 +341,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1934" name="Crafted Leather Gloves Lining">
+	<etcitem id="1934" name="Crafted Leather Gloves Lining" add_name="Crafted Leather Gloves Lining">
+	<!-- Key material that Dwarves use to make Crafted Leather Gloves. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -316,7 +351,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1935" name="Scale Mail Fragment">
+	<etcitem id="1935" name="Scale Mail Fragment" add_name="Scale Mail Fragment">
+	<!-- Key material that Dwarves use to make Scale Mail. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -325,7 +361,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1936" name="White Tunic Pattern">
+	<etcitem id="1936" name="White Tunic Pattern" add_name="White Tunic Pattern">
+	<!-- Key material that Dwarves use to make a White Tunic. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -334,7 +371,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1937" name="Scale Gaiters Fragment">
+	<etcitem id="1937" name="Scale Gaiters Fragment" add_name="Scale Gaiters Fragment">
+	<!-- Key material that Dwarves use to make Scale Gaiters. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -343,7 +381,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1938" name="Mithril Banded Mail Material">
+	<etcitem id="1938" name="Mithril Banded Mail Material" add_name="Mithril Banded Mail Material">
+	<!-- Key material that Dwarves use to make Mithril Banded Mail. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -352,7 +391,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1939" name="Mithril Banded Gaiters Material">
+	<etcitem id="1939" name="Mithril Banded Gaiters Material" add_name="Mithril Banded Gaiters Material">
+	<!-- Key material that Dwarves use to make Mithril Banded Gaiters. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -361,7 +401,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1940" name="Iron Boots Design">
+	<etcitem id="1940" name="Iron Boots Design" add_name="Iron Boots Design">
+	<!-- Key material that Dwarves use to make Iron Boots. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -370,7 +411,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1941" name="Brigandine Temper">
+	<etcitem id="1941" name="Brigandine Temper" add_name="Brigandine Temper">
+	<!-- Key material that Dwarves use to make Brigandine. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_glay_i00"/>
@@ -379,7 +421,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1942" name="Manticore Skin Shirt Texture">
+	<etcitem id="1942" name="Manticore Skin Shirt Texture" add_name="Manticore Skin Shirt Texture">
+	<!-- Key material that Dwarves use to make a Manticor Skin Shirt. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -388,7 +431,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1943" name="Manticore Skin Gaiters Pattern">
+	<etcitem id="1943" name="Manticore Skin Gaiters Pattern" add_name="Manticore Skin Gaiters Pattern">
+	<!-- Key material that Dwarves use to make Manticor Skin Gaiters. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -397,7 +441,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1944" name="Mithril Tunic Fabric">
+	<etcitem id="1944" name="Mithril Tunic Fabric" add_name="Mithril Tunic Fabric">
+	<!-- Key material that Dwarves use to make a Mithril Tunic. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_white_i00"/>
@@ -406,7 +451,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1945" name="Mithril Stocking Design">
+	<etcitem id="1945" name="Mithril Stockings Design" add_name="Mithril Stockings Design">
+	<!-- Key material that Dwarves use to make Mithril Stockings. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -415,7 +461,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1946" name="Rip Gauntlets Pattern">
+	<etcitem id="1946" name="Rip Gauntlets Pattern" add_name="Rip Gauntlets Pattern">
+	<!-- Key material that Dwarves use to make Rip Gauntlets. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -424,7 +471,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1947" name="Kite Shield Fragment">
+	<etcitem id="1947" name="Kite Shield Fragment" add_name="Kite Shield Fragment">
+	<!-- Key material that Dwarves use to make a Kite Shield. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -433,7 +481,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1948" name="Boots of Power Pattern">
+	<etcitem id="1948" name="Boots of Strength Pattern" add_name="Boots of Strength Pattern">
+	<!-- Key material that Dwarves use to make the Boots of Strength. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -442,7 +491,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1949" name="Mithril Gloves Design">
+	<etcitem id="1949" name="Mithril Gloves Design" add_name="Mithril Gloves Design">
+	<!-- Key material that Dwarves use to make Mithril Gloves. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -451,7 +501,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1950" name="Half Plate Temper">
+	<etcitem id="1950" name="Half Plate Temper" add_name="Half Plate Temper">
+	<!-- Key material that Dwarves use to make Half Plate. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_glay_i00"/>
@@ -460,7 +511,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1951" name="Plate Gaiters Part">
+	<etcitem id="1951" name="Plate Gaiters Part" add_name="Plate Gaiters Part">
+	<!-- Key material that Dwarves use to make Plate Gaiters. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -469,7 +521,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1952" name="Salamander Skin Mail Texture">
+	<etcitem id="1952" name="Salamander Skin Mail Texture" add_name="Salamander Skin Mail Texture">
+	<!-- Key material that Dwarves use to make Salamander Skin Mail. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -478,7 +531,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1953" name="Sage's Rag Lining">
+	<etcitem id="1953" name="Sage's Rags Lining" add_name="Sage's Rags Lining">
+	<!-- Key material that Dwarves use to make a Sage's Rags. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -487,7 +541,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1954" name="Karmian Stocking Design">
+	<etcitem id="1954" name="Karmian Stockings Design" add_name="Karmian Stockings Design">
+	<!-- Key material that Dwarves use to make Karmian Stockings. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -496,7 +551,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1955" name="Chain Helmet Design">
+	<etcitem id="1955" name="Chain Helmet Design" add_name="Chain Helmet Design">
+	<!-- Key material that Dwarves use to make a Chain Helmet. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -505,7 +561,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1956" name="Square Shield Fragment">
+	<etcitem id="1956" name="Square Shield Fragment" add_name="Square Shield Fragment">
+	<!-- Key material that Dwarves use to make a Square Shield. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -514,7 +571,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1957" name="Assault Boots Part">
+	<etcitem id="1957" name="Assault Boots Part" add_name="Assault Boots Part">
+	<!-- Key material that Dwarves use to make Assault Boots. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -523,7 +581,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1958" name="Mithril Boots Design">
+	<etcitem id="1958" name="Reinforced Mithril Boots Design" add_name="Reinforced Mithril Boots Design">
+	<!-- Key material that Dwarves use to make Reinforced Mithril Boots. This can be sold at shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -532,7 +591,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1959" name="Chain Mail Shirt Material">
+	<etcitem id="1959" name="Chain Mail Shirt Material" add_name="Chain Mail Shirt Material">
+	<!-- Key material that Dwarves use to make a Chain Mail Shirt. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -541,7 +601,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1960" name="Chain Gaiters Part">
+	<etcitem id="1960" name="Chain Gaiters Part" add_name="Chain Gaiters Part">
+	<!-- Key material that Dwarves use to make Chain Gaiters. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -550,7 +611,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1961" name="Mithril Shirt Fabric">
+	<etcitem id="1961" name="Reinforced Mithril Shirt Fabric" add_name="Reinforced Mithril Shirt Fabric">
+	<!-- Key material that Dwarves use to make a Mithril Shirt. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_white_i00"/>
@@ -559,7 +621,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1962" name="Karmian Tunic Pattern">
+	<etcitem id="1962" name="Karmian Tunic Pattern" add_name="Karmian Tunic Pattern">
+	<!-- Key material that Dwarves use to make a Karmian Tunic. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -568,7 +631,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1963" name="Ogre Power Gauntlets Part">
+	<etcitem id="1963" name="Ogre Power Gauntlets Part" add_name="Ogre Power Gauntlets Part">
+	<!-- Key material that Dwarves use to make Ogre Power Gauntlets. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -577,7 +641,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1964" name="Eldarake Temper">
+	<etcitem id="1964" name="Eldarake Temper" add_name="Eldarake Temper">
+	<!-- Key material that Dwarves use to make an Eldarake. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_glay_i00"/>
@@ -586,7 +651,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1965" name="Metal Plate Helmet Material">
+	<etcitem id="1965" name="Metal Plate Helmet Material" add_name="Metal Plate Helmet Material">
+	<!-- Key material that Dwarves use to make a metal Plate Helmet. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -595,7 +661,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1966" name="Plated Leather Fragment">
+	<etcitem id="1966" name="Plated Leather Armor Fragment" add_name="Plated Leather Armor Fragment">
+	<!-- Key material that Dwarves use to make Plated Leather. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -604,7 +671,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1967" name="Plated Leather Gaiters Material">
+	<etcitem id="1967" name="Plated Leather Gaiters Material" add_name="Plated Leather Gaiters Material">
+	<!-- Key material that Dwarves use to make Plated Leather Gaiters. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -613,7 +681,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1968" name="Dwarven Chain Mail Shirt Material">
+	<etcitem id="1968" name="Dwarven Chain Mail Shirt Material" add_name="Dwarven Chain Mail Shirt Material">
+	<!-- Key material that Dwarves use to make the Dwarven Chain Mail Shirt. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -622,7 +691,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1969" name="Dwarven Chain Gaiters Material">
+	<etcitem id="1969" name="Dwarven Chain Gaiters Material" add_name="Dwarven Chain Gaiters Material">
+	<!-- Key material that Dwarves use to make Dwarven Chain Gaiters. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -631,7 +701,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1970" name="Robe of Seal Fabric">
+	<etcitem id="1970" name="Robe of Seal Fabric" add_name="Robe of Seal Fabric">
+	<!-- Key material that Dwarves use to make the Robe of Seal. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_white_i00"/>
@@ -640,7 +711,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1971" name="Great Helmet Material">
+	<etcitem id="1971" name="Great Helmet Material" add_name="Great Helmet Material">
+	<!-- Key material that Dwarves use to make the Great Helmet. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -649,7 +721,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1972" name="Knight's Shield Fragment">
+	<etcitem id="1972" name="Knight's Shield Fragment" add_name="Knight's Shield Fragment">
+	<!-- Key material that Dwarves use to make a Knight's Shield. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -658,7 +731,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1973" name="Pa'agrian Hand Design">
+	<etcitem id="1973" name="Pa'agrio Hand Design" add_name="Pa'agrio Hand Design">
+	<!-- Key material that Dwarves use to make a Pa'agrio Hand. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_jewel_box_i00"/>
@@ -667,7 +741,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1974" name="Crimson Boot Fabric">
+	<etcitem id="1974" name="Crimson Boots Fabric" add_name="Crimson Boots Fabric">
+	<!-- Key material that Dwarves use to make Crimson Boots. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_red_i00"/>
@@ -676,7 +751,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1975" name="Rind Leather Armor Design">
+	<etcitem id="1975" name="Rind Leather Armor Design" add_name="Rind Leather Armor Design">
+	<!-- Key material that Dwarves use to make Rind Leather Armor. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -685,7 +761,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1976" name="Rind Leather Gaiters Material">
+	<etcitem id="1976" name="Rind Leather Gaiters Material" add_name="Rind Leather Gaiters Material">
+	<!-- Key material that Dwarves use to make Rind Leather Gaiters. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -694,7 +771,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1977" name="Composite Armor Temper">
+	<etcitem id="1977" name="Compound Armor Temper" add_name="Compound Armor Temper">
+	<!-- Key material that Dwarves use to make Compound Armor. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_glay_i00"/>
@@ -703,7 +781,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1978" name="Tower Shield Fragment">
+	<etcitem id="1978" name="Tower Shield Fragment" add_name="Tower Shield Fragment">
+	<!-- Key material that Dwarves use to make the Tower Shield. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_glay_i00"/>
@@ -712,7 +791,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1979" name="Demon's Tunic Fabric">
+	<etcitem id="1979" name="Demon's Tunic Fabric" add_name="Demon's Tunic Fabric">
+	<!-- Key material that Dwarves use to make a Demon's Tunic. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_white_i00"/>
@@ -721,7 +801,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1980" name="Demon's Stocking Pattern">
+	<etcitem id="1980" name="Demon's Stockings Pattern" add_name="Demon's Stockings Pattern">
+	<!-- Key material that Dwarves use to make Demon's Stockings. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -730,7 +811,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1981" name="Mithril Gauntlets Design">
+	<etcitem id="1981" name="Mithril Gauntlets Design" add_name="Mithril Gauntlets Design">
+	<!-- Key material that Dwarves use to make Mithril Gauntlets. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -739,7 +821,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1982" name="Forgotten Boots Pattern">
+	<etcitem id="1982" name="Forgotten Boots Pattern" add_name="Forgotten Boots Pattern">
+	<!-- Key material that Dwarves use to make Forgotten Boots. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -748,7 +831,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1983" name="Shining Circlet Pattern">
+	<etcitem id="1983" name="Shining Circlet Pattern" add_name="Shining Circlet Pattern">
+	<!-- Key material that Dwarves use to make the Shining Circlet. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -757,7 +841,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1984" name="Theca Leather Armor Pattern">
+	<etcitem id="1984" name="Theca Leather Armor Pattern" add_name="Theca Leather Armor Pattern">
+	<!-- Key material that Dwarves use to make Theca Leather Armor. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -766,7 +851,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1985" name="Theca Leather Gaiters Pattern">
+	<etcitem id="1985" name="Theca Leather Gaiters Pattern" add_name="Theca Leather Gaiters Pattern">
+	<!-- Key material that Dwarves use to make Theca Leather Gaiters. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -775,7 +861,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1986" name="Full Plate Armor Temper">
+	<etcitem id="1986" name="Full Plate Armor Temper" add_name="Full Plate Armor Temper">
+	<!-- Key material that Dwarves use to make Full Plate Armor. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -784,7 +871,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1987" name="Drake Leather Armor Texture">
+	<etcitem id="1987" name="Drake Leather Armor Texture" add_name="Drake Leather Armor Texture">
+	<!-- Key material that Dwarves use to make Drake Leather Armor. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -793,7 +881,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1988" name="Divine Tunic Fabric">
+	<etcitem id="1988" name="Divine Tunic Fabric" add_name="Divine Tunic Fabric">
+	<!-- Key material that Dwarves use to make the Divine Tunic. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_white_i00"/>
@@ -802,7 +891,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1989" name="Divine Stocking Pattern">
+	<etcitem id="1989" name="Divine Stockings Pattern" add_name="Divine Stockings Pattern">
+	<!-- Key material that Dwarves use to make Divine Stockings. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -811,7 +901,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1990" name="Mithril Helmet Design">
+	<etcitem id="1990" name="Mithril Helmet Design" add_name="Mithril Helmet Design">
+	<!-- Key material that Dwarves use to make the Mithril Helmet. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -820,7 +911,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1991" name="Cap of Mana Pattern">
+	<etcitem id="1991" name="Cap of Mana Pattern" add_name="Cap of Mana Pattern">
+	<!-- Key material that Dwarves use to make the Cap of Mana. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -829,7 +921,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1992" name="Paradia Hood Material">
+	<etcitem id="1992" name="Paradia Hood Material" add_name="Paradia Hood Material">
+	<!-- Key material that Dwarves use to make the Paradia Hood. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -838,7 +931,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1993" name="Hood of Solar Eclipse Texture">
+	<etcitem id="1993" name="Hood of Solar Eclipse Texture" add_name="Hood of Solar Eclipse Texture">
+	<!-- Key material that Dwarves use to make the Hood of Solar Eclipse. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -847,7 +941,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1994" name="Hood of Summoning Texture">
+	<etcitem id="1994" name="Summoning Hood Texture" add_name="Summoning Hood Texture">
+	<!-- Key material that Dwarves use to make a Summoning Hood. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -856,7 +951,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1995" name="Elemental Hood Material">
+	<etcitem id="1995" name="Elemental Hood Material" add_name="Elemental Hood Material">
+	<!-- Key material that Dwarves use to make the Elemental Hood. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -865,7 +961,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1996" name="Hood of Grace Texture">
+	<etcitem id="1996" name="Hood of Grace Texture" add_name="Hood of Grace Texture">
+	<!-- Key material that Dwarves use to make the Hood of Grace. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -874,7 +971,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1997" name="Phoenix Hood Material">
+	<etcitem id="1997" name="Phoenix Hood Material" add_name="Phoenix Hood Material">
+	<!-- Key material that Dwarves use to make a Phoenix Hood. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -883,7 +981,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1998" name="Hood of Aid Material">
+	<etcitem id="1998" name="Hood of Aid Material" add_name="Hood of Aid Material">
+	<!-- Key material that Dwarves use to make the Hood of Aid. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plate_silver_i00"/>
@@ -892,7 +991,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="1999" name="Flame Helm Design">
+	<etcitem id="1999" name="Flame Helm Design" add_name="Flame Helm Design">
+	<!-- Key material that Dwarves use to make the Flame Helm. Can be sold in any shop. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_yellow_i00"/>

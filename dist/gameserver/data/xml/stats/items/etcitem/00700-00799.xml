@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="700" name="Hobgoblin Amulet">
+	<etcitem id="700" name="_" add_name="_">
+	<!-- Description of the hobgoblin amulet -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -10,7 +11,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="701" name="Fungus Juice">
+	<etcitem id="701" name="Fungus Juice" add_name="Fungus Juice">
+	<!-- The juice of a fungus. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -19,7 +21,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="702" name="Wolf Pelt">
+	<etcitem id="702" name="Wolf Pelt" add_name="Wolf Pelt">
+	<!-- Gather forty wolf pelts and take them to Trader Lector of the weapons and armor shop. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -28,7 +31,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="703" name="Poison Sac">
+	<etcitem id="703" name="Giant Spider's Poison Sac" add_name="Giant Spider's Poison Sac">
+	<!-- Giant Spider's Poison Sacs obtained from the dead giant spider. Take this to Priest Yohanes. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -37,7 +41,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="704" name="Fever Medicine">
+	<etcitem id="704" name="Fever Medicine" add_name="Fever Medicine">
+	<!-- Medicine concocted by Priest Yohanes for the students who are ill with fever. Take this to Elias. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -46,7 +51,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="705" name="Orc's Amulet">
+	<etcitem id="705" name="_" add_name="_">
+	<!-- Description of an Orc feather amulet. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -55,7 +61,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="706" name="Basilisk's Claw">
+	<etcitem id="706" name="Basilisk's Claw" add_name="Basilisk's Claw">
+	<!-- Basilisk's claw. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -64,7 +71,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="707" name="Spore Sac">
+	<etcitem id="707" name="Spore Sac" add_name="Spore Sac">
+	<!-- Sac obtained from the spore fungus. Gather 10 of these and take them to Trader Vollodos. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -73,7 +81,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="708" name="Sylph Headband">
+	<etcitem id="708" name="Sylph Headband" add_name="Sylph Headband">
+	<!-- A Sylph Headband -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -82,7 +91,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="709" name="Leather Shirt">
+	<etcitem id="709" name="Leather Shirt" add_name="Leather Shirt">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -91,7 +100,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="400"/>
 	</etcitem>
-	<etcitem id="710" name="Hard Leather Shirt">
+	<etcitem id="710" name="Hard Leather Shirt" add_name="Hard Leather Shirt">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -100,7 +109,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="400"/>
 	</etcitem>
-	<etcitem id="711" name="Piece Bone Breastplate">
+	<etcitem id="711" name="Piece Bone Breastplate" add_name="Piece Bone Breastplate">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -109,7 +118,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="800"/>
 	</etcitem>
-	<etcitem id="712" name="Half Plate Armor">
+	<etcitem id="712" name="Half Plate Armor" add_name="Half Plate Armor">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -118,7 +127,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1200"/>
 	</etcitem>
-	<etcitem id="713" name="Leather Pants">
+	<etcitem id="713" name="Leather Pants" add_name="Leather Pants">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -127,7 +136,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="250"/>
 	</etcitem>
-	<etcitem id="714" name="Hard Leather Pants">
+	<etcitem id="714" name="Hard Leather Pants" add_name="Hard Leather Pants">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -136,7 +145,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="300"/>
 	</etcitem>
-	<etcitem id="715" name="Piece Bone Gaiters">
+	<etcitem id="715" name="Piece Bone Gaiters" add_name="Piece Bone Gaiters">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -145,7 +154,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="500"/>
 	</etcitem>
-	<etcitem id="716" name="Plate Gaiters">
+	<etcitem id="716" name="Plate Gaiters" add_name="Plate Gaiters">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -154,7 +163,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="800"/>
 	</etcitem>
-	<etcitem id="717" name="Leather Gloves">
+	<etcitem id="717" name="Leather Gloves" add_name="Leather Gloves">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -163,7 +172,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="718" name="Hard Leather Gloves">
+	<etcitem id="718" name="Hard Leather Gloves" add_name="Hard Leather Gloves">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -172,7 +181,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="150"/>
 	</etcitem>
-	<etcitem id="719" name="Crafted Leather Gloves">
+	<etcitem id="719" name="Crafted Leather Gloves" add_name="Crafted Leather Gloves">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -181,7 +190,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="150"/>
 	</etcitem>
-	<etcitem id="720" name="Reinforced Gloves">
+	<etcitem id="720" name="Reinforced Gloves" add_name="Reinforced Gloves">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -190,7 +199,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="200"/>
 	</etcitem>
-	<etcitem id="721" name="Leather Boots">
+	<etcitem id="721" name="Leather Boots" add_name="Leather Boots">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -199,7 +208,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="150"/>
 	</etcitem>
-	<etcitem id="722" name="Hard Leather Boots">
+	<etcitem id="722" name="Hard Leather Boots" add_name="Hard Leather Boots">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -208,7 +217,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="150"/>
 	</etcitem>
-	<etcitem id="723" name="Crafted Leather Boots">
+	<etcitem id="723" name="Crafted Leather Boots" add_name="Crafted Leather Boots">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -217,7 +226,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="200"/>
 	</etcitem>
-	<etcitem id="724" name="Reinforced Boots">
+	<etcitem id="724" name="Reinforced Boots" add_name="Reinforced Boots">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -226,7 +235,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="250"/>
 	</etcitem>
-	<etcitem id="725" name="Healing Drug">
+	<etcitem id="725" name="Healing Drug" add_name="Healing Drug">
+	<!-- Magical, liquid medicine that restores HP for a certain amount of time. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_potion_red_i00"/>
@@ -244,7 +254,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="726" name="Mana Drug">
+	<etcitem id="726" name="Mana Potion" add_name="Mana Potion">
+	<!-- Magical, liquid medicine that restores MP for a certain amount of time. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_potion_blue_i00"/>
@@ -262,7 +273,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="727" name="Healing Potion">
+	<etcitem id="727" name="Healing Potion" add_name="Healing Potion">
+	<!-- Magical, liquid medicine that restores HP for a certain amount of time. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.item_system03"/>
@@ -277,7 +289,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="728" name="Mana Potion">
+	<etcitem id="728" name="Mana Potion" add_name="Mana Potion">
+	<!-- Magical, liquid medicine that restores MP for a certain amount of time. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_reagent_blue_i00"/>
@@ -296,7 +309,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="729" name="Scroll: Enchant Weapon (A)">
+	<etcitem id="729" name="Scroll: Enchant Weapon (A-grade)" add_name="Scroll: Enchant Weapon (A-grade)">
+	<!-- When enchanted, increases P. Atk. by 4 for A-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. increases P. Atk. by 5 for two-handed swords, two-handed blunts, dualswords, and two-handed fist weapons. increases P. Atk. by 8 for bows. Increases M. Atk. by 3 for all weapons. Starting at + 4, P. Atk. / M. Atk. bonus double. Enchanting is safe up to + 3. -->
 		<set name="class" value="MISC"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_of_enchant_weapon_i04"/>
@@ -310,7 +324,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="730" name="Scroll: Enchant Armor (A)">
+	<etcitem id="730" name="Scroll: Enchant Armor (A-grade)" add_name="Scroll: Enchant Armor (A-grade)">
+	<!-- Increases P. Def. by 1 for A-grade armor and accessories. Starting from + 4, increases P. Def. by 3. Can be safely enchanted up to + 3. For one-piece armor, it can safely be enchanted up to + 4. HP gradually increases with each enchant level starting from + 4. -->
 		<set name="class" value="MISC"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_of_enchant_armor_i04"/>
@@ -324,7 +339,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="731" name="Crystal Scroll: Enchant Weapon (A)">
+	<etcitem id="731" name="Crystal Scroll: Enchant Weapon (A-grade)" add_name="Crystal Scroll: Enchant Weapon (A-grade)">
+	<!-- Scroll of enchantment that empowers an A-grade weapon. -->
 		<set name="class" value="MISC"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_of_enchant_weapon_i01"/>
@@ -337,7 +353,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="732" name="Crystal Scroll: Enchant Armor (A)">
+	<etcitem id="732" name="Crystal Scroll: Enchant Armor (A-grade)" add_name="Crystal Scroll: Enchant Armor (A-grade)">
+	<!-- Scroll of enchantment that empowers an A-grade armor. -->
 		<set name="class" value="MISC"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_of_enchant_armor_i01"/>
@@ -350,7 +367,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="733" name="Endeavor Potion">
+	<etcitem id="733" name="Endeavor Potion" add_name="Endeavor Potion">
+	<!-- Magical, liquid medicine that increases willpower. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_lesser_potion_yellow_i00"/>
@@ -368,7 +386,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="734" name="Haste Potion">
+	<etcitem id="734" name="Wind Walk Potion" add_name="Wind Walk Potion">
+	<!-- Magical potion that increases movement Speed -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
@@ -387,7 +406,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="735" name="Potion of Alacrity">
+	<etcitem id="735" name="Haste Potion" add_name="Haste Potion">
+	<!-- Magical potion that increases Atk. Spd. -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
@@ -406,7 +426,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="736" name="Scroll of Escape">
+	<etcitem id="736" name="Scroll of Escape" add_name="Scroll of Escape">
+	<!-- Scroll of enchantment that relocates you to the nearest village. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
@@ -423,7 +444,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="737" name="Scroll of Resurrection">
+	<etcitem id="737" name="Scroll of Resurrection" add_name="Scroll of Resurrection">
+	<!-- Scroll of enchantment that resuscitates a dead person. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_of_resurrection_i00"/>
@@ -440,7 +462,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="739" name="Broken Sword Handle">
+	<etcitem id="739" name="Broken Sword Handle" add_name="Broken Sword Handle">
+	<!-- The handle portion of the sword of solidarity. Take this to Blacksmith Altran. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -449,7 +472,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="740" name="Broken Blade Bottom">
+	<etcitem id="740" name="Broken Blade Bottom" add_name="Broken Blade Bottom">
+	<!-- Take this, and the upper portion of the blade to Blacksmith Altran. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -458,7 +482,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="741" name="Broken Blade Top">
+	<etcitem id="741" name="Broken Blade Top" add_name="Broken Blade Top">
+	<!-- Take this, and the lower portion of the blade to Blacksmith Altran. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -467,7 +492,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="742" name="Altran's Note">
+	<etcitem id="742" name="Altran's Note" add_name="Altran's Note">
+	<!-- Letter requesting the handle of the sword from Roien. Take this to Grand Master Roien of Sedrick's Training Hall. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -476,7 +502,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="745" name="Cobendell Medicine">
+	<etcitem id="745" name="Cobendell's Medicine" add_name="Cobendell's Medicine">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -485,7 +511,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="746" name="Alberius's List">
+	<etcitem id="746" name="Alberius' List" add_name="Alberius' List">
+	<!-- Deliver the medicine to Sentinel Berros, Sentinel Veltress, Sentinel Rayen, and Sentinel Gartrandell. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -494,7 +521,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="750" name="Kinship Crystal">
+	<etcitem id="750" name="Kinship Crystal" add_name="Kinship Crystal">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -503,7 +530,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="751" name="Cracked Kinship Crystal">
+	<etcitem id="751" name="Cracked Kinship Crystal" add_name="Cracked Kinship Crystal">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -512,7 +539,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="752" name="Orc Amulet">
+	<etcitem id="752" name="Orc Amulet" add_name="Orc Amulet">
+	<!-- Amulet that the Orcs carry for magical purposes. Take this to Captain Gilbert. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -521,7 +549,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="753" name="Silverleaf Brooch">
+	<etcitem id="753" name="Silverleaf Brooch" add_name="Silverleaf Brooch">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -530,7 +558,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="755" name="Colleen's Letter">
+	<etcitem id="755" name="Colleen's Letter" add_name="Colleen's Letter">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -539,7 +567,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="756" name="Mandragora Root">
+	<etcitem id="756" name="Mandragora Root" add_name="Mandragora Root">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -548,7 +576,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="757" name="Mandragora Essence">
+	<etcitem id="757" name="Mandragora Essence" add_name="Mandragora Essence">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -557,7 +585,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="758" name="Colleen's Receipt">
+	<etcitem id="758" name="Colleen's Receipt" add_name="Colleen's Receipt">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -566,7 +594,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="759" name="Etched Rune Sword">
+	<etcitem id="759" name="Etched Rune Sword" add_name="Etched Rune Sword">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -575,7 +603,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="760" name="Macabre Sword">
+	<etcitem id="760" name="Macabre Sword" add_name="Macabre Sword">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -584,7 +612,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="761" name="Thanatos Sword">
+	<etcitem id="761" name="Thanatos Sword" add_name="Thanatos Sword">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -593,7 +621,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="762" name="Gray Bone Chip">
+	<etcitem id="762" name="Grey Bone Chip" add_name="Grey Bone Chip">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -602,7 +630,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="763" name="Esther's Letter">
+	<etcitem id="763" name="Esther's Letter" add_name="Esther's Letter">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -611,7 +639,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="764" name="Arbon's Letter">
+	<etcitem id="764" name="_" add_name="_">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -620,7 +648,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="765" name="Conspirator List">
+	<etcitem id="765" name="Conspirator List" add_name="Conspirator List">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -629,7 +657,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="766" name="Sabrin's Signet">
+	<etcitem id="766" name="Sabrin's Signet" add_name="Sabrin's Signet">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -638,7 +666,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="767" name="Sealed Scroll">
+	<etcitem id="767" name="Sealed Scroll" add_name="Sealed Scroll">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -647,7 +675,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="768" name="Oyen's Key">
+	<etcitem id="768" name="Oyen's Key" add_name="Oyen's Key">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -656,7 +684,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="769" name="Ricardo's Skull">
+	<etcitem id="769" name="Ricardo's Skull" add_name="Ricardo's Skull">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -665,7 +693,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="770" name="Shield of Honor">
+	<etcitem id="770" name="_" add_name="_">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -674,7 +702,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="771" name="Saythus's Skull">
+	<etcitem id="771" name="Saythus' Skull" add_name="Saythus' Skull">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -683,7 +711,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="772" name="Trayer's Skull">
+	<etcitem id="772" name="Trayer's Skull" add_name="Trayer's Skull">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -692,7 +720,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="773" name="Falimar's Skull">
+	<etcitem id="773" name="Falimar's Skull" add_name="Falimar's Skull">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -701,7 +729,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="774" name="Fallen Sword of Honor">
+	<etcitem id="774" name="Fallen Glorious Sword" add_name="Fallen Glorious Sword">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -710,7 +738,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="775" name="Sword of Honor">
+	<etcitem id="775" name="Glorious Sword" add_name="Glorious Sword">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -719,7 +747,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="776" name="Nameless Sword">
+	<etcitem id="776" name="Nameless Sword" add_name="Nameless Sword">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -728,7 +756,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="777" name="Sword of Black Ice">
+	<etcitem id="777" name="Sword of Black Ice" add_name="Sword of Black Ice">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -737,7 +765,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="778" name="Arodin's Letter">
+	<etcitem id="778" name="Arodin's Letter" add_name="Arodin's Letter">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -746,7 +774,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="779" name="Sabrin's Ring">
+	<etcitem id="779" name="Sabrin's Ring" add_name="Sabrin's Ring">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -755,7 +783,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="780" name="Arbon's Letter">
+	<etcitem id="780" name="_" add_name="_">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -764,7 +792,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="781" name="Madclaw's Necklace">
+	<etcitem id="781" name="Madclaw's Necklace" add_name="Madclaw's Necklace">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -773,7 +801,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="782" name="Alex's Letter">
+	<etcitem id="782" name="Alex's Letter" add_name="Alex's Letter">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -782,7 +810,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="783" name="Alex's Receipt">
+	<etcitem id="783" name="Alex's Receipt" add_name="Alex's Receipt">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -791,7 +819,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="784" name="Glass Dagger">
+	<etcitem id="784" name="Glass Dagger" add_name="Glass Dagger">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -800,7 +828,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="785" name="Broken Glass Dagger">
+	<etcitem id="785" name="Broken Glass Dagger" add_name="Broken Glass Dagger">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -809,7 +837,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="786" name="Shadowguard Dagger">
+	<etcitem id="786" name="Shadowguard Dagger" add_name="Shadowguard Dagger">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -818,7 +846,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="787" name="Coroli's Key">
+	<etcitem id="787" name="Coroli's Key" add_name="Coroli's Key">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -827,7 +855,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="788" name="Midnight Onyx Necklace">
+	<etcitem id="788" name="Midnight Onyx Necklace" add_name="Midnight Onyx Necklace">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -836,7 +864,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="789" name="Song: Moonlight Whisper">
+	<etcitem id="789" name="Song: Moonlight Whisper" add_name="Song: Moonlight Whisper">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -845,7 +873,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="790" name="Bloodsteel Kris">
+	<etcitem id="790" name="Bloodsteel Kris" add_name="Bloodsteel Kris">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -854,7 +882,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="791" name="Karlun's Skull">
+	<etcitem id="791" name="Karlun's Skull" add_name="Karlun's Skull">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -863,7 +891,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="792" name="Karlun's Rib Bone">
+	<etcitem id="792" name="Karlun's Rib Bone" add_name="Karlun's Rib Bone">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -872,7 +900,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="793" name="Karlun's Thigh Bone">
+	<etcitem id="793" name="Karlun's Thigh Bone" add_name="Karlun's Thigh Bone">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -881,7 +909,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="794" name="Saint's Ash Urn">
+	<etcitem id="794" name="Saint's Ash Urn" add_name="Saint's Ash Urn">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -890,7 +918,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="795" name="Mace of Athebaldt">
+	<etcitem id="795" name="Mace of Athebaldt" add_name="Mace of Athebaldt">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -899,7 +927,8 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="796" name="Roien's Letter">
+	<etcitem id="796" name="Roien's Letter" add_name="Roien's Letter">
+	<!-- Letter on which Roien summarized the historical information related to the sword of solidarity. Take this to Blacksmith Altran. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -908,7 +937,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="797" name="Manuel's Letter">
+	<etcitem id="797" name="Manuel's Letter" add_name="Manuel's Letter">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -917,7 +946,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="798" name="Varan's Letter">
+	<etcitem id="798" name="Varan's Letter" add_name="Varan's Letter">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -926,7 +955,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="799" name="Groot's Letter">
+	<etcitem id="799" name="Groot's Letter" add_name="Groot's Letter">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>

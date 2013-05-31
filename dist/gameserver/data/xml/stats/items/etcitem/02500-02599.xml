@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="2508" name="Cursed Bone">
+	<etcitem id="2508" name="Cursed Bone" add_name="Cursed Bone">
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_bone_red_i00"/>
@@ -10,7 +10,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="3"/>
 	</etcitem>
-	<etcitem id="2509" name="Spiritshot: No Grade">
+	<etcitem id="2509" name="Spiritshot (No-grade)" add_name="Spiritshot (No-grade)">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon causing its M. Atk. to momentarily increase. Used with a No-grade weapon. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_shot_white_i00"/>
@@ -19,7 +20,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="5"/>
 	</etcitem>
-	<etcitem id="2510" name="Spiritshot: D-grade">
+	<etcitem id="2510" name="Spiritshot (D-grade)" add_name="Spiritshot (D-grade)">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon causing its M. Atk. to momentarily increase. Used with a D-grade weapon. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="D"/>
 		<set name="icon" value="icon.etc_spell_shot_blue_i00"/>
@@ -28,7 +30,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="5"/>
 	</etcitem>
-	<etcitem id="2511" name="Spiritshot: C-grade">
+	<etcitem id="2511" name="Spiritshot (C-grade)" add_name="Spiritshot (C-grade)">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon causing its M. Atk. to momentarily increase. Used with a C-grade weapon. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="C"/>
 		<set name="icon" value="icon.etc_spell_shot_green_i00"/>
@@ -37,7 +40,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="3"/>
 	</etcitem>
-	<etcitem id="2512" name="Spiritshot: B-grade">
+	<etcitem id="2512" name="Spiritshot (B-grade)" add_name="Spiritshot (B-grade)">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon causing its M. Atk. to momentarily increase. Used with a B-grade weapon. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="B"/>
 		<set name="icon" value="icon.etc_spell_shot_red_i00"/>
@@ -46,7 +50,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="3"/>
 	</etcitem>
-	<etcitem id="2513" name="Spiritshot: A-grade">
+	<etcitem id="2513" name="Spiritshot (A-grade)" add_name="Spiritshot (A-grade)">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon causing its M. Atk. to momentarily increase. Used with an A-grade weapon. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.etc_spell_shot_silver_i00"/>
@@ -55,7 +60,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="2514" name="Spiritshot: S-grade">
+	<etcitem id="2514" name="Spiritshot (S-grade)" add_name="Spiritshot (S-grade)">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon causing its M. Atk. to momentarily increase. Used with an S-grade weapon. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="S"/>
 		<set name="icon" value="icon.etc_spell_shot_gold_i00"/>
@@ -64,7 +70,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="2515" name="Food For Wolves">
+	<etcitem id="2515" name="Wolf Food" add_name="Wolf Food">
+	<!-- When the hunger gauge of a wolf reaches 55% or below, its food will be consumed automatically. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>

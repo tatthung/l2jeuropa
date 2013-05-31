@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="5400" name="Recipe: Sealed Gloves of Black Ore(60%)">
+	<etcitem id="5400" name="Recipe: Sealed Red Flame Gloves(60%)" add_name="Recipe: Sealed Red Flame Gloves(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Red Flame Gloves. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -12,7 +13,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5401" name="Recipe: Sealed Gloves of Black Ore(100%)">
+	<etcitem id="5401" name="Recipe: Sealed Red Flame Gloves(100%)" add_name="Recipe: Sealed Red Flame Gloves(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Red Flame Gloves. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -23,7 +25,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5402" name="Recipe: Sealed Phoenix Gloves(60%)">
+	<etcitem id="5402" name="Recipe: Sealed Phoenix Gloves(60%)" add_name="Recipe: Sealed Phoenix Gloves(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Phoenix Gloves. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -34,7 +37,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5403" name="Recipe: Sealed Phoenix Gloves(100%)">
+	<etcitem id="5403" name="Recipe: Sealed Phoenix Gloves(100%)" add_name="Recipe: Sealed Phoenix Gloves(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Phoenix Gloves. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -45,7 +49,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5404" name="Recipe: Sealed Gauntlets of Nightmare(60%)">
+	<etcitem id="5404" name="Recipe: Sealed Gauntlets of Nightmare(60%)" add_name="Recipe: Sealed Gauntlets of Nightmare(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Gauntlets of Nightmare. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -56,7 +61,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5405" name="Recipe: Sealed Gauntlets of Nightmare(100%)">
+	<etcitem id="5405" name="Recipe: Sealed Gauntlets of Nightmare(100%)" add_name="Recipe: Sealed Gauntlets of Nightmare(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Gauntlets of Nightmare. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -67,7 +73,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5406" name="Recipe: Sealed Majestic Gauntlets(60%)">
+	<etcitem id="5406" name="Recipe: Sealed Majestic Gauntlets(60%)" add_name="Recipe: Sealed Majestic Gauntlets(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Majestic Gauntlets. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -78,7 +85,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5407" name="Recipe: Sealed Majestic Gauntlets(100%)">
+	<etcitem id="5407" name="Recipe: Sealed Majestic Gauntlets(100%)" add_name="Recipe: Sealed Majestic Gauntlets(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Majestic Gauntlets. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -89,7 +97,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5408" name="Recipe: Sealed Dark Legion Gloves(60%)">
+	<etcitem id="5408" name="Recipe: Sealed Dark Legion Gloves(60%)" add_name="Recipe: Sealed Dark Legion Gloves(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Dark Legion Gloves. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -100,7 +109,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5409" name="Recipe: Sealed Dark Legion Gloves(100%)">
+	<etcitem id="5409" name="Recipe: Sealed Dark Legion Gloves(100%)" add_name="Recipe: Sealed Dark Legion Gloves(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Dark Legion Gloves. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -111,7 +121,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5410" name="Recipe: Sealed Gloves of Phantom(60%)">
+	<etcitem id="5410" name="Recipe: Sealed Gloves of Phantom(60%)" add_name="Recipe: Sealed Gloves of Phantom(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Gloves of Phantom. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -122,7 +133,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5411" name="Recipe: Sealed Gloves of Phantom(100%)">
+	<etcitem id="5411" name="Recipe: Sealed Gloves of Phantom(100%)" add_name="Recipe: Sealed Gloves of Phantom(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Gloves of Phantom. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -133,7 +145,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5412" name="Recipe: Sealed Cerberus Gloves(60%)">
+	<etcitem id="5412" name="Recipe: Sealed Cerberus Gloves(60%)" add_name="Recipe: Sealed Cerberus Gloves(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Cerberus Gloves. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -144,7 +157,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5413" name="Recipe: Sealed Cerberus Gloves(100%)">
+	<etcitem id="5413" name="Recipe: Sealed Cerberus Gloves(100%)" add_name="Recipe: Sealed Cerberus Gloves(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Cerberus Gloves. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -155,7 +169,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5414" name="Recipe: Sealed Dasparion's Gloves(60%)">
+	<etcitem id="5414" name="Recipe: Sealed Dasparion's Gloves(60%)" add_name="Recipe: Sealed Dasparion's Gloves(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Dasparion's Gloves. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -166,7 +181,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5415" name="Recipe: Sealed Dasparion's Gloves(100%)">
+	<etcitem id="5415" name="Recipe: Sealed Dasparion's Gloves(100%)" add_name="Recipe: Sealed Dasparion's Gloves(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Dasparion's Gloves. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -177,7 +193,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5416" name="Recipe: Sealed Dark Crystal Breastplate(60%)">
+	<etcitem id="5416" name="Recipe: Sealed Dark Crystal Breastplate(60%)" add_name="Recipe: Sealed Dark Crystal Breastplate(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Dark Crystal Breastplate. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -188,7 +205,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5417" name="Recipe: Sealed Dark Crystal Breastplate(100%)">
+	<etcitem id="5417" name="Recipe: Sealed Dark Crystal Breastplate(100%)" add_name="Recipe: Sealed Dark Crystal Breastplate(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Dark Crystal Breastplate. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -199,7 +217,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5418" name="Recipe: Sealed Tallum Plate Armor(60%)">
+	<etcitem id="5418" name="Recipe: Sealed Tallum Plate Armor(60%)" add_name="Recipe: Sealed Tallum Plate Armor(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Tallum Plate Armor. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -210,7 +229,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5419" name="Recipe: Sealed Tallum Plate Armor(100%)">
+	<etcitem id="5419" name="Recipe: Sealed Tallum Plate Armor(100%)" add_name="Recipe: Sealed Tallum Plate Armor(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Tallum Plate Armor. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -221,7 +241,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5420" name="Recipe: Sealed Armor of Nightmare(60%)">
+	<etcitem id="5420" name="Recipe: Sealed Armor of Nightmare(60%)" add_name="Recipe: Sealed Armor of Nightmare(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Armor of Nightmare. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -232,7 +253,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5421" name="Recipe: Sealed Armor of Nightmare(100%)">
+	<etcitem id="5421" name="Recipe: Sealed Armor of Nightmare(100%)" add_name="Recipe: Sealed Armor of Nightmare(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Armor of Nightmare. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -243,7 +265,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5422" name="Recipe: Sealed Majestic Plate Armor(60%)">
+	<etcitem id="5422" name="Recipe: Sealed Majestic Plate Armor(60%)" add_name="Recipe: Sealed Majestic Plate Armor(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Majestic Plate Armor. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -254,7 +277,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5423" name="Recipe: Sealed Majestic Plate Armor(100%)">
+	<etcitem id="5423" name="Recipe: Sealed Majestic Plate Armor(100%)" add_name="Recipe: Sealed Majestic Plate Armor(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Majestic Plate Armor. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -265,7 +289,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5424" name="Recipe: Sealed Dark Crystal Gaiters(60%)">
+	<etcitem id="5424" name="Recipe: Sealed Dark Crystal Gaiters(60%)" add_name="Recipe: Sealed Dark Crystal Gaiters(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Dark Crystal Gaiters. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -276,7 +301,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5425" name="Recipe: Sealed Dark Crystal Gaiters(100%)">
+	<etcitem id="5425" name="Recipe: Sealed Dark Crystal Gaiters(100%)" add_name="Recipe: Sealed Dark Crystal Gaiters(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Dark Crystal Gaiters. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -287,7 +313,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5426" name="Recipe: Sealed Dark Crystal Helmet(60%)">
+	<etcitem id="5426" name="Recipe: Sealed Dark Crystal Helmet(60%)" add_name="Recipe: Sealed Dark Crystal Helmet(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Dark Crystal Helmet. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -298,7 +325,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5427" name="Recipe: Sealed Dark Crystal Helmet(100%)">
+	<etcitem id="5427" name="Recipe: Sealed Dark Crystal Helmet(100%)" add_name="Recipe: Sealed Dark Crystal Helmet(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Dark Crystal Helmet. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -309,7 +337,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5428" name="Recipe: Sealed Tallum Helmet(60%)">
+	<etcitem id="5428" name="Recipe: Sealed Tallum Helmet(60%)" add_name="Recipe: Sealed Tallum Helmet(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Tallum Helmet. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -320,7 +349,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5429" name="Recipe: Sealed Tallum Helmet(100%)">
+	<etcitem id="5429" name="Recipe: Sealed Tallum Helmet(100%)" add_name="Recipe: Sealed Tallum Helmet(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Tallum Helmet. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -331,7 +361,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5430" name="Recipe: Sealed Helm of Nightmare(60%)">
+	<etcitem id="5430" name="Recipe: Sealed Helm of Nightmare(60%)" add_name="Recipe: Sealed Helm of Nightmare(60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Helm of Nightmare. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -342,7 +373,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5431" name="Recipe: Sealed Helm of Nightmare(100%)">
+	<etcitem id="5431" name="Recipe: Sealed Helm of Nightmare(100%)" add_name="Recipe: Sealed Helm of Nightmare(100%)">
+	<!-- For Dwarves only. Recipe for the Sealed Helm of Nightmare. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -353,7 +385,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5432" name="Recipe: Sealed Majestic Circlet (60%)">
+	<etcitem id="5432" name="Recipe: Sealed Majestic Circlet (60%)" add_name="Recipe: Sealed Majestic Circlet (60%)">
+	<!-- For Dwarves only. Recipe for the Sealed Majestic Circlet. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -364,7 +397,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5433" name="Recipe: Sealed Majestic Circlet (100%)">
+	<etcitem id="5433" name="Recipe: Sealed Majestic Circlet" add_name="Recipe: Sealed Majestic Circlet">
+	<!-- For Dwarves only. Recipe for the Sealed Majestic Circlet. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -375,7 +409,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5434" name="Recipe: Dragon Slayer(60%)">
+	<etcitem id="5434" name="Recipe: Dragon Slayer(60%)" add_name="Recipe: Dragon Slayer(60%)">
+	<!-- For Dwarves only. Recipe for a Dragon Slayer. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -386,7 +421,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5435" name="Recipe: Dragon Slayer(100%)">
+	<etcitem id="5435" name="Recipe: Dragon Slayer(100%)" add_name="Recipe: Dragon Slayer(100%)">
+	<!-- For Dwarves only. Recipe for a Dragon Slayer. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -397,7 +433,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5436" name="Recipe: Berserker Blade(100%)">
+	<etcitem id="5436" name="Recipe: Berserker Blade(100%)" add_name="Recipe: Berserker Blade(100%)">
+	<!-- For Dwarves only. Recipe for a Berserker Blade. Requires Create Item - Skill Level 6. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -408,7 +445,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5437" name="Recipe: Heavy Sword(100%)">
+	<etcitem id="5437" name="Recipe: Heavy Sword(100%)" add_name="Recipe: Heavy Sword(100%)">
+	<!-- For Dwarves only. Recipe for a Heavy Sword. Requires Create Item - Skill Level 2. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -419,7 +457,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5438" name="Recipe: Meteor Shower(60%)">
+	<etcitem id="5438" name="Recipe: Meteor Shower(60%)" add_name="Recipe: Meteor Shower(60%)">
+	<!-- For Dwarves only. Recipe for a Meteor Shower. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -430,7 +469,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5439" name="Recipe: Meteor Shower(100%)">
+	<etcitem id="5439" name="Recipe: Meteor Shower(100%)" add_name="Recipe: Meteor Shower(100%)">
+	<!-- For Dwarves only. Recipe for a Meteor Shower. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -441,7 +481,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5440" name="Recipe: Elysian(60%)">
+	<etcitem id="5440" name="Recipe: Elysian(60%)" add_name="Recipe: Elysian(60%)">
+	<!-- For Dwarves only. Recipe for an Elysian. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -452,7 +493,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5441" name="Recipe: Elysian(100%)">
+	<etcitem id="5441" name="Recipe: Elysian(100%)" add_name="Recipe: Elysian(100%)">
+	<!-- For Dwarves only. Recipe for an Elysian. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -463,7 +505,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5442" name="Recipe: Soul Bow(60%)">
+	<etcitem id="5442" name="Recipe: Soul Bow(60%)" add_name="Recipe: Soul Bow(60%)">
+	<!-- For Dwarves only. Recipe for a Soul Bow. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -474,7 +517,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5443" name="Recipe: Soul Bow(100%)">
+	<etcitem id="5443" name="Recipe: Soul Bow(100%)" add_name="Recipe: Soul Bow(100%)">
+	<!-- For Dwarves only. Recipe for a Soul Bow. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -485,7 +529,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5444" name="Recipe: Carnage Bow(60%)">
+	<etcitem id="5444" name="Recipe: Carnage Bow(60%)" add_name="Recipe: Carnage Bow(60%)">
+	<!-- For Dwarves only. Recipe for a Carnage Bow. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -496,7 +541,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5445" name="Recipe: Carnage Bow(100%)">
+	<etcitem id="5445" name="Recipe: Carnage Bow(100%)" add_name="Recipe: Carnage Bow(100%)">
+	<!-- For Dwarves only. Recipe for a Carnage Bow. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -507,7 +553,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5446" name="Recipe: Bloody Orchid(60%)">
+	<etcitem id="5446" name="Recipe: Bloody Orchid(60%)" add_name="Recipe: Bloody Orchid(60%)">
+	<!-- For Dwarves only. Recipe for a Bloody Orchid. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -518,7 +565,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5447" name="Recipe: Bloody Orchid(100%)">
+	<etcitem id="5447" name="Recipe: Bloody Orchid(100%)" add_name="Recipe: Bloody Orchid(100%)">
+	<!-- For Dwarves only. Recipe for a Bloody Orchid. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -529,7 +577,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5448" name="Recipe: Soul Separator(60%)">
+	<etcitem id="5448" name="Recipe: Soul Separator(60%)" add_name="Recipe: Soul Separator(60%)">
+	<!-- For Dwarves only. Recipe for a Soul Separator. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -540,7 +589,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5449" name="Recipe: Soul Separator(100%)">
+	<etcitem id="5449" name="Recipe: Soul Separator(100%)" add_name="Recipe: Soul Separator(100%)">
+	<!-- For Dwarves only. Recipe for a Soul Separator. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -551,7 +601,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5450" name="Recipe: Dragon Grinder(60%)">
+	<etcitem id="5450" name="Recipe: Dragon Grinder(60%)" add_name="Recipe: Dragon Grinder(60%)">
+	<!-- For Dwarves only. Recipe for a Dragon Grinder. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -562,7 +613,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5451" name="Recipe: Dragon Grinder(100%)">
+	<etcitem id="5451" name="Recipe: Dragon Grinder(100%)" add_name="Recipe: Dragon Grinder(100%)">
+	<!-- For Dwarves only. Recipe for a Dragon Grinder. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -573,7 +625,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5452" name="Recipe: Blood Tornado(60%)">
+	<etcitem id="5452" name="Recipe: Blood Tornado(60%)" add_name="Recipe: Blood Tornado(60%)">
+	<!-- For Dwarves only. Recipe for a Blood Tornado. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -584,7 +637,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5453" name="Recipe: Blood Tornado(100%)">
+	<etcitem id="5453" name="Recipe: Blood Tornado(100%)" add_name="Recipe: Blood Tornado(100%)">
+	<!-- For Dwarves only. Recipe for a Blood Tornado. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -595,7 +649,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5454" name="Recipe: Orcish Halberd(60%)">
+	<etcitem id="5454" name="Recipe: Orcish Halberd(60%)" add_name="Recipe: Orcish Halberd(60%)">
+	<!-- For Dwarves only. Recipe for an Orcish Halberd. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -606,7 +661,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5455" name="Recipe: Orcish Halberd(100%)">
+	<etcitem id="5455" name="Recipe: Orcish Halberd(100%)" add_name="Recipe: Orcish Halberd(100%)">
+	<!-- For Dwarves only. Recipe for an Orcish Halberd. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -617,7 +673,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5456" name="Recipe: Tallum Glaive(60%)">
+	<etcitem id="5456" name="Recipe: Tallum Glaive(60%)" add_name="Recipe: Tallum Glaive(60%)">
+	<!-- For Dwarves only. Recipe for a Tallum Glaive. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -628,7 +685,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5457" name="Recipe: Tallum Glaive(100%)">
+	<etcitem id="5457" name="Recipe: Tallum Glaive(100%)" add_name="Recipe: Tallum Glaive(100%)">
+	<!-- For Dwarves only. Recipe for a Tallum Glaive. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -639,7 +697,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5458" name="Recipe: Halberd(60%)">
+	<etcitem id="5458" name="Recipe: Halberd(60%)" add_name="Recipe: Halberd(60%)">
+	<!-- For Dwarves only. Recipe for a Halberd. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -650,7 +709,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5459" name="Recipe: Halberd(100%)">
+	<etcitem id="5459" name="Recipe: Halberd(100%)" add_name="Recipe: Halberd(100%)">
+	<!-- For Dwarves only. Recipe for a Halberd. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -661,7 +721,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5460" name="Recipe: Dasparion's Staff(60%)">
+	<etcitem id="5460" name="Recipe: Dasparion's Staff(60%)" add_name="Recipe: Dasparion's Staff(60%)">
+	<!-- For Dwarves only. Recipe for the Dasparion's Staff. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -672,7 +733,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5461" name="Recipe: Dasparion's Staff(100%)">
+	<etcitem id="5461" name="Recipe: Dasparion's Staff(100%)" add_name="Recipe: Dasparion's Staff(100%)">
+	<!-- For Dwarves only. Recipe for the Dasparion's Staff. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -683,7 +745,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5462" name="Recipe: Branch of the Mother Tree(60%)">
+	<etcitem id="5462" name="Recipe: Branch of the Mother Tree(60%)" add_name="Recipe: Branch of the Mother Tree(60%)">
+	<!-- For Dwarves only. Recipe for a Branch of the Mother Tree. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -694,7 +757,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5463" name="Recipe: Branch of the Mother Tree(100%)">
+	<etcitem id="5463" name="Recipe: Branch of the Mother Tree(100%)" add_name="Recipe: Branch of the Mother Tree(100%)">
+	<!-- For Dwarves only. Recipe for a Branch of the Mother Tree. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -705,7 +769,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5464" name="Recipe: Dark Legion's Edge(60%)">
+	<etcitem id="5464" name="Recipe: Dark Legion's Edge(60%)" add_name="Recipe: Dark Legion's Edge(60%)">
+	<!-- For Dwarves only. Recipe for a Dark Legion's Edge. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -716,7 +781,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5465" name="Recipe: Dark Legion's Edge(100%)">
+	<etcitem id="5465" name="Recipe: Dark Legion's Edge(100%)" add_name="Recipe: Dark Legion's Edge(100%)">
+	<!-- For Dwarves only. Recipe for a Dark Legion's Edge. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -727,7 +793,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5466" name="Recipe: Sword of Miracles(60%)">
+	<etcitem id="5466" name="Recipe: Sword of Miracles(60%)" add_name="Recipe: Sword of Miracles(60%)">
+	<!-- For Dwarves only. Recipe for a Sword of Miracles. Requires Create Item - Skill Level 8. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -738,7 +805,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5467" name="Recipe: Sword of Miracles(100%)">
+	<etcitem id="5467" name="Recipe: Sword of Miracles(100%)" add_name="Recipe: Sword of Miracles(100%)">
+	<!-- For Dwarves only. Recipe for a Sword of Miracles. Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -749,7 +817,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5468" name="Recipe: Elemental Sword(60%)">
+	<etcitem id="5468" name="Recipe: Elemental Sword(60%)" add_name="Recipe: Elemental Sword(60%)">
+	<!-- For Dwarves only. Recipe for an Elemental Sword. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -760,7 +829,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5469" name="Recipe: Elemental Sword(100%)">
+	<etcitem id="5469" name="Recipe: Elemental Sword(100%)" add_name="Recipe: Elemental Sword(100%)">
+	<!-- For Dwarves only. Recipe for an Elemental Sword. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -771,7 +841,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5470" name="Recipe: Tallum Blade(60%)">
+	<etcitem id="5470" name="Recipe: Tallum Blade(60%)" add_name="Recipe: Tallum Blade(60%)">
+	<!-- For Dwarves only. Recipe for a Tallum Blade. Requires Create Item - Skill Level 7. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -782,7 +853,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5471" name="Recipe: Tallum Blade(100%)">
+	<etcitem id="5471" name="Recipe: Tallum Blade(100%)" add_name="Recipe: Tallum Blade(100%)">
+	<!-- For Dwarves only. Recipe for a Tallum Blade. Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -793,7 +865,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5472" name="Recipe: Metallic Thread(100%)">
+	<etcitem id="5472" name="Recipe: Metallic Thread(100%)" add_name="Recipe: Metallic Thread(100%)">
+	<!-- For Dwarves only. Recipe for Metallic Thread. Requires Create Item - Skill Level 4. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -804,7 +877,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5473" name="Recipe: Durable Metal Plate(100%)">
+	<etcitem id="5473" name="Recipe: Reinforced Metal Plate(100%)" add_name="Recipe: Reinforced Metal Plate(100%)">
+	<!-- For Dwarves only. Recipe for a Reinforced Metal Plate. Requires Create Item - Skill Level 4. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -815,7 +889,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5474" name="Recipe: Reorin's Mold(100%)">
+	<etcitem id="5474" name="Recipe: Reorin's Mold(100%)" add_name="Recipe: Reorin's Mold(100%)">
+	<!-- For Dwarves only. Recipe for a Reorin's Mold. Requires Create Item - Skill Level 5. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -826,7 +901,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5475" name="Recipe: Warsmith's Mold(100%)">
+	<etcitem id="5475" name="Recipe: Warsmith' Mold(100%)" add_name="Recipe: Warsmith' Mold(100%)">
+	<!-- For Dwarves only. Recipe for a Warsmith' Mold. Requires Create Item - Skill Level 6. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -837,7 +913,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5476" name="Recipe: Arcsmith's Anvil(100%)">
+	<etcitem id="5476" name="Recipe: Arcsmith' Anvil(100%)" add_name="Recipe: Arcsmith' Anvil(100%)">
+	<!-- For Dwarves only. Recipe for an Arcsmith' Anvil. Requires Create Item - Skill Level 6. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -848,7 +925,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5477" name="Recipe: Warsmith's Holder(100%)">
+	<etcitem id="5477" name="Recipe: Warsmith' Holder(100%)" add_name="Recipe: Warsmith' Holder(100%)">
+	<!-- For Dwarves only. Recipe for a Warsmith' Holder. Requires Create Item - Skill Level 6. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="durability" value="90"/>
@@ -859,7 +937,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="5478" name="Sealed Dark Crystal Leather Armor Pattern">
+	<etcitem id="5478" name="Sealed Dark Crystal Leather Armor Pattern" add_name="Sealed Dark Crystal Leather Armor Pattern">
+	<!-- Essential ingredient needed by a Dwarf to make a Sealed Dark Crystal Leather Armor. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -868,7 +947,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5479" name="Sealed Tallum Leather Armor Pattern">
+	<etcitem id="5479" name="Sealed Tallum Leather Armor Pattern" add_name="Sealed Tallum Leather Armor Pattern">
+	<!-- Essential ingredient needed by a Dwarf to make a Sealed Tallum Leather Armor. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_letter_red_i00"/>
@@ -877,7 +957,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5480" name="Sealed Leather Armor of Nightmare Fabric">
+	<etcitem id="5480" name="Sealed Leather Armor of Nightmare Fabric" add_name="Sealed Leather Armor of Nightmare Fabric">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Leather Armor of Nightmare. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -886,7 +967,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5481" name="Sealed Majestic Leather Armor Fabric">
+	<etcitem id="5481" name="Sealed Majestic Leather Armor Fabric" add_name="Sealed Majestic Leather Armor Fabric">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Majestic Leather Armor. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -895,7 +977,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5482" name="Sealed Dark Crystal Leggings Design">
+	<etcitem id="5482" name="Sealed Dark Crystal Leggings Design" add_name="Sealed Dark Crystal Leggings Design">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Dark Crystal Leggings. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_pouch_brown_i00"/>
@@ -904,7 +987,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5483" name="Phoenix Earring Gemstone">
+	<etcitem id="5483" name="Phoenix Earring Gemstone" add_name="Phoenix Earring Gemstone">
+	<!-- Essential ingredient needed by a Dwarf to make a Phoenix Earring. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_gem_blue_i00"/>
@@ -913,7 +997,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5484" name="Inferno Earring Gemstone">
+	<etcitem id="5484" name="Majestic Earring Gemstone" add_name="Majestic Earring Gemstone">
+	<!-- Essential ingredient needed by a Dwarf to make an Inferno Earring. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_gem_blue_i00"/>
@@ -922,7 +1007,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5485" name="Sealed Tallum Tunic Texture">
+	<etcitem id="5485" name="Sealed Tallum Tunic Texture" add_name="Sealed Tallum Tunic Texture">
+	<!-- Essential ingredient needed by a Dwarf to make a Sealed Tallum Tunic. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_yellow_i00"/>
@@ -931,7 +1017,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5486" name="Sealed Dark Crystal Robe Fabric">
+	<etcitem id="5486" name="Sealed Dark Crystal Robe Fabric" add_name="Sealed Dark Crystal Robe Fabric">
+	<!-- Essential ingredient needed by a Dwarf to make a Sealed Dark Crystal Robe. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -940,7 +1027,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5487" name="Sealed Nightmare Robe Fabric">
+	<etcitem id="5487" name="Sealed Robe of Nightmare Fabric" add_name="Sealed Robe of Nightmare Fabric">
+	<!-- Essential ingredient needed by a Dwarf to make a Sealed Robe of Nightmare. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -949,7 +1037,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5488" name="Sealed Majestic Robe Fabric">
+	<etcitem id="5488" name="Sealed Majestic Robe Fabric" add_name="Sealed Majestic Robe Fabric">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Majestic Robe. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -958,7 +1047,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5489" name="Sealed Tallum Stockings Fabric">
+	<etcitem id="5489" name="Sealed Tallum Stockings Fabric" add_name="Sealed Tallum Stockings Fabric">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Tallum Stockings. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_leather_gray_i00"/>
@@ -967,7 +1057,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5490" name="Phoenix Necklace Beads">
+	<etcitem id="5490" name="Phoenix Necklace Beads" add_name="Phoenix Necklace Beads">
+	<!-- Essential ingredient needed by a Dwarf to make Phoenix Armor. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_crystal_ball_green_i00"/>
@@ -976,7 +1067,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5491" name="Inferno Necklace Beads">
+	<etcitem id="5491" name="Majestic Necklace Beads" add_name="Majestic Necklace Beads">
+	<!-- Essential ingredient needed by a Dwarf to make an Inferno Necklace. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_crystal_ball_green_i00"/>
@@ -985,7 +1077,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5492" name="Phoenix Ring Gemstone">
+	<etcitem id="5492" name="Phoenix Ring Gemstone" add_name="Phoenix Ring Gemstone">
+	<!-- Essential ingredient needed by a Dwarf to make a Phoenix Ring. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_gem_blue_i00"/>
@@ -994,7 +1087,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5493" name="Inferno Ring Gemstone">
+	<etcitem id="5493" name="Majestic Ring Gemstone" add_name="Majestic Ring Gemstone">
+	<!-- Essential ingredient needed by a Dwarf to make an Inferno Ring. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_gem_blue_i00"/>
@@ -1003,7 +1097,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5494" name="Sealed Dark Crystal Shield Fragment">
+	<etcitem id="5494" name="Sealed Dark Crystal Shield Fragment" add_name="Sealed Dark Crystal Shield Fragment">
+	<!-- Essential ingredient needed by a Dwarf to make a Sealed Dark Crystal Shield. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_jewel_box_i00"/>
@@ -1012,7 +1107,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5495" name="Sealed Shield of Nightmare Fragment">
+	<etcitem id="5495" name="Sealed Shield of Nightmare Fragment" add_name="Sealed Shield of Nightmare Fragment">
+	<!-- Essential ingredient needed by a Dwarf to make a Sealed Shield of Nightmare. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_jewel_box_i00"/>
@@ -1021,7 +1117,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5496" name="Sealed Dark Crystal Boots Lining">
+	<etcitem id="5496" name="Sealed Dark Crystal Boots Lining" add_name="Sealed Dark Crystal Boots Lining">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Dark Crystal Boots. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_black_i00"/>
@@ -1030,7 +1127,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5497" name="Sealed Tallum Boots Lining">
+	<etcitem id="5497" name="Sealed Tallum Boots Lining" add_name="Sealed Tallum Boots Lining">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Tallum Boots. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_black_i00"/>
@@ -1039,7 +1137,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5498" name="Sealed Boots of the Underworld Lining">
+	<etcitem id="5498" name="Sealed Boots of Underworld Lining" add_name="Sealed Boots of Underworld Lining">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Boots of Underworld. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_black_i00"/>
@@ -1048,7 +1147,8 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="5499" name="Sealed Gust Boots Lining">
+	<etcitem id="5499" name="Sealed Gust Boots Lining" add_name="Sealed Gust Boots Lining">
+	<!-- Essential ingredient needed by a Dwarf to make Sealed Gust Boots. It can be sold at a regular store. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_piece_of_cloth_black_i00"/>

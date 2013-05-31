@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="3926" name="L2Day - Scroll of Guidance">
+	<etcitem id="3926" name="Scroll: Guidance" add_name="Scroll: Guidance">
+	<!-- Accuracy increases. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_white_i00"/>
@@ -17,7 +18,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="3927" name="L2Day - Scroll of Death Whisper">
+	<etcitem id="3927" name="Scroll: Death Whisper" add_name="Scroll: Death Whisper">
+	<!-- Increases P. Critical Damage. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_white_i00"/>
@@ -33,7 +35,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="3928" name="L2Day - Scroll of Focus">
+	<etcitem id="3928" name="Scroll: Focus" add_name="Scroll: Focus">
+	<!-- P. Critical Rate increases. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_white_i00"/>
@@ -49,7 +52,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="3929" name="L2Day - Scroll of Greater Acumen">
+	<etcitem id="3929" name="Scroll: Greater Acumen" add_name="Scroll: Greater Acumen">
+	<!-- Spell Casting Spd. increases. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_white_i00"/>
@@ -65,7 +69,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="3930" name="L2Day - Scroll of Haste">
+	<etcitem id="3930" name="Scroll: Haste" add_name="Scroll: Haste">
+	<!-- Increases Atk. Spd.. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_white_i00"/>
@@ -81,7 +86,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="3931" name="L2Day - Scroll of Agility">
+	<etcitem id="3931" name="Scroll: Agility" add_name="Scroll: Agility">
+	<!-- Increases Evasion. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_white_i00"/>
@@ -97,7 +103,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="3932" name="L2Day - Scroll of Mystic Empower">
+	<etcitem id="3932" name="Scroll: Mystic Empower" add_name="Scroll: Mystic Empower">
+	<!-- M. Atk. increases. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_white_i00"/>
@@ -113,7 +120,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="3933" name="L2Day - Scroll of Might">
+	<etcitem id="3933" name="Scroll: Might" add_name="Scroll: Might">
+	<!-- P. Atk. increases. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_white_i00"/>
@@ -129,7 +137,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="3934" name="L2Day - Scroll of Windwalk">
+	<etcitem id="3934" name="Scroll: Wind Walk" add_name="Scroll: Wind Walk">
+	<!-- Speed increases. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_white_i00"/>
@@ -145,7 +154,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="3935" name="L2Day - Scroll of Shield">
+	<etcitem id="3935" name="Scroll: Shield" add_name="Scroll: Shield">
+	<!-- P. Def. increases. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_white_i00"/>
@@ -161,7 +171,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="3936" name="Blessed Scroll of Resurrection">
+	<etcitem id="3936" name="Blessed Scroll of Resurrection" add_name="Blessed Scroll of Resurrection">
+	<!-- Magic scroll that resurrects a dead character and restores his or her XP completely. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_of_resurrection_i01"/>
@@ -178,7 +189,9 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="3940" name="Blueprint: Summon Siege Golem">
+	<etcitem id="3940" name="Blueprint: Summon Siege Golem" add_name="Blueprint: Summon Siege Golem">
+	<!-- Blueprint needed to learn the Summon Siege Golem technique.
+	Required level: 49 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_plan_i00"/>
@@ -188,7 +201,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="3941" name="Spellbook: Mass Resurrection">
+	<etcitem id="3941" name="Spellbook: Mass Resurrection" add_name="Spellbook: Mass Resurrection">
+	<!-- Spellbook needed to learn Mass Resurrection. Used by Bishops.
+	Required level: 40 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_white_i00"/>
@@ -198,7 +213,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="3942" name="Spellbook: Party Return">
+	<etcitem id="3942" name="Spellbook: Party Return" add_name="Spellbook: Party Return">
+	<!-- Spellbook needed to learn Party Return. Used by Elven Elders.
+	Required level: 48 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
@@ -208,7 +225,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="3943" name="Amulet: Pa'agrio's Heart">
+	<etcitem id="3943" name="Amulet: Pa'agrio's Heart" add_name="Amulet: Pa'agrio's Heart">
+	<!-- Amulet required for the Pa'agrio's Heart spell. Used by Overlords.
+	Required level: 44 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_orcish_talisman_i00"/>
@@ -218,7 +237,9 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="3944" name="Spellbook: Decrease Weight">
+	<etcitem id="3944" name="Spellbook: Decrease Weight" add_name="Spellbook: Decrease Weight">
+	<!-- Spellbook needed to learn Decrease Weight. Used by Elven Oracles.
+	Required level: 35 -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_books_blue_i00"/>
@@ -228,7 +249,8 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="3945" name="Boat Ticket: Talking Island to Giran">
+	<etcitem id="3945" name="Boat Ticket: Talking Island to Giran" add_name="Boat Ticket: Talking Island to Giran">
+	<!-- Ship ticket: From Talking Island - To Giran -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -238,7 +260,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="3946" name="Boat Ticket: Giran to Talking Island">
+	<etcitem id="3946" name="Boat Ticket: Giran to Talking Island" add_name="Boat Ticket: Giran to Talking Island">
+	<!-- Ship ticket: From Giran - To Talking Island -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -248,7 +271,8 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="3947" name="Blessed Spiritshot: No Grade">
+	<etcitem id="3947" name="Blessed Spiritshot (No-grade)" add_name="Blessed Spiritshot (No-grade)">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon, temporarily increasing its magic significantly. Used with No-grade weapons. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_spell_shot_white_i01"/>
@@ -257,7 +281,8 @@
 		<set name="type" value="SHOT"/>
 		<set name="weight" value="5"/>
 	</etcitem>
-	<etcitem id="3948" name="Blessed Spiritshot: D-Grade">
+	<etcitem id="3948" name="Blessed Spiritshot (D-grade)" add_name="Blessed Spiritshot (D-grade)">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon, temporarily increasing its magic significantly. Used with D-grade weapons. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="D"/>
 		<set name="icon" value="icon.etc_spell_shot_blue_i01"/>
@@ -266,7 +291,8 @@
 		<set name="type" value="SHOT"/>
 		<set name="weight" value="5"/>
 	</etcitem>
-	<etcitem id="3949" name="Blessed Spiritshot: C-Grade">
+	<etcitem id="3949" name="Blessed Spiritshot (C-grade)" add_name="Blessed Spiritshot (C-grade)">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon, temporarily increasing its magic significantly. Used with C-grade weapons. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="C"/>
 		<set name="icon" value="icon.etc_spell_shot_green_i01"/>
@@ -275,7 +301,8 @@
 		<set name="type" value="SHOT"/>
 		<set name="weight" value="3"/>
 	</etcitem>
-	<etcitem id="3950" name="Blessed Spiritshot: B-Grade">
+	<etcitem id="3950" name="Blessed Spiritshot (B-grade)" add_name="Blessed Spiritshot (B-grade)">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon, temporarily increasing its magic significantly. Used with B-grade weapons. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="B"/>
 		<set name="icon" value="icon.etc_spell_shot_red_i01"/>
@@ -284,7 +311,8 @@
 		<set name="type" value="SHOT"/>
 		<set name="weight" value="3"/>
 	</etcitem>
-	<etcitem id="3951" name="Blessed Spiritshot: A-Grade">
+	<etcitem id="3951" name="Blessed Spiritshot (A-grade)" add_name="Blessed Spiritshot (A-grade)">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon, temporarily increasing its magic significantly. Used with a-grade weapons. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="A"/>
 		<set name="icon" value="icon.etc_spell_shot_silver_i01"/>
@@ -293,7 +321,8 @@
 		<set name="type" value="SHOT"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="3952" name="Blessed Spiritshot: S Grade">
+	<etcitem id="3952" name="Blessed Spiritshot (S-grade)" add_name="Blessed Spiritshot (S-grade)">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon, temporarily increasing its magic significantly. Used with S-grade weapons. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="S"/>
 		<set name="icon" value="icon.etc_spell_shot_gold_i01"/>
@@ -302,7 +331,8 @@
 		<set name="type" value="SHOT"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="3953" name="Recipe: Blessed Spiritshot D">
+	<etcitem id="3953" name="Recipe: Blessed Spiritshot (D-grade)" add_name="Recipe: Blessed Spiritshot (D-grade)">
+	<!-- For Dwarves only. Recipe for the Blessed Spiritshot (D-grade) . Requires Create Item - Skill Level 2. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_recipe_blue_i00"/>
@@ -312,7 +342,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="3954" name="Recipe: Blessed Spiritshot C">
+	<etcitem id="3954" name="Recipe: Blessed Spiritshot (C-grade)" add_name="Recipe: Blessed Spiritshot (C-grade)">
+	<!-- For Dwarves only. Recipe for the Blessed Spiritshot (C-grade) . Requires Create Item - Skill Level 4. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_recipe_yellow_i00"/>
@@ -322,7 +353,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="3955" name="Recipe: Blessed Spiritshot B">
+	<etcitem id="3955" name="Recipe: Blessed Spiritshot (B-grade)" add_name="Recipe: Blessed Spiritshot (B-grade)">
+	<!-- For Dwarves only. Recipe for the Blessed Spiritshot (B-grade). Requires Create Item - Skill Level 6. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_recipe_red_i00"/>
@@ -332,7 +364,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="3956" name="Recipe: Blessed Spiritshot A">
+	<etcitem id="3956" name="Recipe: Blessed Spiritshot (A-grade)" add_name="Recipe: Blessed Spiritshot (A-grade)">
+	<!-- For Dwarves only. Recipe for the Blessed Spiritshot (A-grade) . Requires Create Item - Skill Level 7. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_recipe_violet_i00"/>
@@ -342,7 +375,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="3957" name="Recipe: Blessed Spiritshot S">
+	<etcitem id="3957" name="Recipe: Blessed Spiritshot (S-grade)" add_name="Recipe: Blessed Spiritshot (S-grade)">
+	<!-- For Dwarves only. Recipe for the Blessed Spiritshot (S-grade) . Requires Create Item - Skill Level 8. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_recipe_black_i00"/>
@@ -352,7 +386,8 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="3958" name="L2Day - Blessed Escape Effect">
+	<etcitem id="3958" name="Blessed Scroll of Escape" add_name="Blessed Scroll of Escape">
+	<!-- Magical scroll that relocates user to the nearest village -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_of_return_i01"/>
@@ -368,7 +403,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="3959" name="L2Day - Blessed Resurrection Effect">
+	<etcitem id="3959" name="Blessed Scroll of Resurrection" add_name="Blessed Scroll of Resurrection">
+	<!-- Magic scroll that resurrects a dead character and restores his or her XP completely. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="icon.etc_scroll_of_resurrection_i01"/>
@@ -384,7 +420,8 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="3960" name="Mercenary Posting Ticket (Sword/Stationary)">
+	<etcitem id="3960" name="Mercenary Posting Ticket (Sword/Stationary)" add_name="Mercenary Posting Ticket (Sword/Stationary)">
+	<!-- Gludio/Sword/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -395,7 +432,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3961" name="Mercenary Posting Ticket (Spear/Stationary)">
+	<etcitem id="3961" name="Mercenary Posting Ticket (Spear/Stationary)" add_name="Mercenary Posting Ticket (Spear/Stationary)">
+	<!-- Gludio/Spear/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -406,7 +444,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3962" name="Mercenary Posting Ticket (Bow/Stationary)">
+	<etcitem id="3962" name="Mercenary Posting Ticket (Bow/Stationary)" add_name="Mercenary Posting Ticket (Bow/Stationary)">
+	<!-- Gludio/Bow/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -417,7 +456,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3963" name="Mercenary Posting Ticket (Cleric/Stationary)">
+	<etcitem id="3963" name="Mercenary Posting Ticket (Cleric/Stationary)" add_name="Mercenary Posting Ticket (Cleric/Stationary)">
+	<!-- Gludio/Cleric/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -428,7 +468,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3964" name="Mercenary Posting Ticket (Wizard/Stationary)">
+	<etcitem id="3964" name="Mercenary Posting Ticket (Wizard/Stationary)" add_name="Mercenary Posting Ticket (Wizard/Stationary)">
+	<!-- Gludio/Wizard/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -439,7 +480,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3965" name="Mercenary Posting Ticket (Sword/Mobile)">
+	<etcitem id="3965" name="Mercenary Posting Ticket (Sword/Mobile)" add_name="Mercenary Posting Ticket (Sword/Mobile)">
+	<!-- Gludio/Sword/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -450,7 +492,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3966" name="Mercenary Posting Ticket (Spear/Mobile)">
+	<etcitem id="3966" name="Mercenary Posting Ticket (Spear/Mobile)" add_name="Mercenary Posting Ticket (Spear/Mobile)">
+	<!-- Gludio/Spear/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -461,7 +504,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3967" name="Mercenary Posting Ticket (Bow/Mobile)">
+	<etcitem id="3967" name="Mercenary Posting Ticket (Bow/Mobile)" add_name="Mercenary Posting Ticket (Bow/Mobile)">
+	<!-- Gludio/Bow/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -472,7 +516,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3968" name="Mercenary Posting Ticket (Cleric/Mobile)">
+	<etcitem id="3968" name="Mercenary Posting Ticket (Cleric/Mobile)" add_name="Mercenary Posting Ticket (Cleric/Mobile)">
+	<!-- Gludio/Cleric/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -483,7 +528,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3969" name="Mercenary Posting Ticket (Wizard/Mobile)">
+	<etcitem id="3969" name="Mercenary Posting Ticket (Wizard/Mobile)" add_name="Mercenary Posting Ticket (Wizard/Mobile)">
+	<!-- Gludio/Wizard/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -494,7 +540,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3970" name="Mercenary Posting Ticket (Teleporter1)">
+	<etcitem id="3970" name="Mercenary Posting Ticket (Teleporter1)" add_name="Mercenary Posting Ticket (Teleporter1)">
+	<!-- Placed in Gludio, at the Teleporter or inside the castle, this ticket allows teleportation to the inner castle or the guardian's location. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -505,7 +552,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3971" name="Mercenary Posting Ticket (Teleporter2)">
+	<etcitem id="3971" name="Mercenary Posting Ticket (Teleporter2)" add_name="Mercenary Posting Ticket (Teleporter2)">
+	<!-- Placed in Gludio, at the Teleporter or inside the castle, this ticket allows teleportation to the outer castle or the guardian's location. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -516,7 +564,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3972" name="Mercenary Posting Ticket (Teleporter3)">
+	<etcitem id="3972" name="Mercenary Posting Ticket (Teleporter3)" add_name="Mercenary Posting Ticket (Teleporter3)">
+	<!-- Placed in Gludio, at the Teleporter or inside the castle, this ticket allows teleportation to the inner or outer castle. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -527,7 +576,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3973" name="Mercenary Posting Ticket (Sword/Stationary)">
+	<etcitem id="3973" name="Mercenary Posting Ticket (Sword/Stationary)" add_name="Mercenary Posting Ticket (Sword/Stationary)">
+	<!-- Dion/Sword/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -538,7 +588,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3974" name="Mercenary Posting Ticket (Spear/Stationary)">
+	<etcitem id="3974" name="Mercenary Posting Ticket (Spear/Stationary)" add_name="Mercenary Posting Ticket (Spear/Stationary)">
+	<!-- Dion/Spear/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -549,7 +600,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3975" name="Mercenary Posting Ticket (Bow/Stationary)">
+	<etcitem id="3975" name="Mercenary Posting Ticket (Bow/Stationary)" add_name="Mercenary Posting Ticket (Bow/Stationary)">
+	<!-- Dion/Bow/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -560,7 +612,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3976" name="Mercenary Posting Ticket (Cleric/Stationary)">
+	<etcitem id="3976" name="Mercenary Posting Ticket (Cleric/Stationary)" add_name="Mercenary Posting Ticket (Cleric/Stationary)">
+	<!-- Dion/Cleric/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -571,7 +624,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3977" name="Mercenary Posting Ticket (Wizard/Stationary)">
+	<etcitem id="3977" name="Mercenary Posting Ticket (Wizard/Stationary)" add_name="Mercenary Posting Ticket (Wizard/Stationary)">
+	<!-- Dion/Wizard/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -582,7 +636,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3978" name="Mercenary Posting Ticket (Sword/Mobile)">
+	<etcitem id="3978" name="Mercenary Posting Ticket (Sword/Mobile)" add_name="Mercenary Posting Ticket (Sword/Mobile)">
+	<!-- Dion/Sword/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -593,7 +648,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3979" name="Mercenary Posting Ticket (Spear/Mobile)">
+	<etcitem id="3979" name="Mercenary Posting Ticket (Spear/Mobile)" add_name="Mercenary Posting Ticket (Spear/Mobile)">
+	<!-- Dion/Spear/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -604,7 +660,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3980" name="Mercenary Posting Ticket (Bow/Mobile)">
+	<etcitem id="3980" name="Mercenary Posting Ticket (Bow/Mobile)" add_name="Mercenary Posting Ticket (Bow/Mobile)">
+	<!-- Dion/Bow/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -615,7 +672,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3981" name="Mercenary Posting Ticket (Cleric/Mobile)">
+	<etcitem id="3981" name="Mercenary Posting Ticket (Cleric/Mobile)" add_name="Mercenary Posting Ticket (Cleric/Mobile)">
+	<!-- Dion/Cleric/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -626,7 +684,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3982" name="Mercenary Posting Ticket (Wizard/Mobile)">
+	<etcitem id="3982" name="Mercenary Posting Ticket (Wizard/Mobile)" add_name="Mercenary Posting Ticket (Wizard/Mobile)">
+	<!-- Dion/Wizard/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -637,7 +696,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3983" name="Mercenary Posting Ticket (Teleporter1)">
+	<etcitem id="3983" name="Mercenary Posting Ticket (Teleporter1)" add_name="Mercenary Posting Ticket (Teleporter1)">
+	<!-- Placed in Dion, at the Teleporter or inside the castle, this ticket allows teleportation to the inner castle or the guardian's location. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -648,7 +708,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3984" name="Mercenary Posting Ticket (Teleporter2)">
+	<etcitem id="3984" name="Mercenary Posting Ticket (Teleporter2)" add_name="Mercenary Posting Ticket (Teleporter2)">
+	<!-- Placed in Dion, at the Teleporter or inside the castle, this ticket allows teleportation to the outer castle or the guardian's location. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -659,7 +720,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3985" name="Mercenary Posting Ticket (Teleporter3)">
+	<etcitem id="3985" name="Mercenary Posting Ticket (Teleporter3)" add_name="Mercenary Posting Ticket (Teleporter3)">
+	<!-- Placed in Dion, at the Teleporter or inside the castle, this ticket allows teleportation to the inner or outer castle. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -670,7 +732,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3986" name="Mercenary Posting Ticket (Sword/Stationary)">
+	<etcitem id="3986" name="Mercenary Posting Ticket (Sword/Stationary)" add_name="Mercenary Posting Ticket (Sword/Stationary)">
+	<!-- Giran/Sword/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -681,7 +744,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3987" name="Mercenary Posting Ticket (Spear/Stationary)">
+	<etcitem id="3987" name="Mercenary Posting Ticket (Spear/Stationary)" add_name="Mercenary Posting Ticket (Spear/Stationary)">
+	<!-- Giran/Spear/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -692,7 +756,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3988" name="Mercenary Posting Ticket (Bow/Stationary)">
+	<etcitem id="3988" name="Mercenary Posting Ticket (Bow/Stationary)" add_name="Mercenary Posting Ticket (Bow/Stationary)">
+	<!-- Giran/Bow/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -703,7 +768,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3989" name="Mercenary Posting Ticket (Cleric/Stationary)">
+	<etcitem id="3989" name="Mercenary Posting Ticket (Cleric/Stationary)" add_name="Mercenary Posting Ticket (Cleric/Stationary)">
+	<!-- Giran/Cleric/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -714,7 +780,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3990" name="Mercenary Posting Ticket (Wizard/Stationary)">
+	<etcitem id="3990" name="Mercenary Posting Ticket (Wizard/Stationary)" add_name="Mercenary Posting Ticket (Wizard/Stationary)">
+	<!-- Giran/Wizard/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -725,7 +792,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3991" name="Mercenary Posting Ticket (Sword/Mobile)">
+	<etcitem id="3991" name="Mercenary Posting Ticket (Sword/Mobile)" add_name="Mercenary Posting Ticket (Sword/Mobile)">
+	<!-- Giran/Sword/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -736,7 +804,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3992" name="Mercenary Posting Ticket (Spear/Mobile)">
+	<etcitem id="3992" name="Mercenary Posting Ticket (Spear/Mobile)" add_name="Mercenary Posting Ticket (Spear/Mobile)">
+	<!-- Giran/Spear/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -747,7 +816,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3993" name="Mercenary Posting Ticket (Bow/Mobile)">
+	<etcitem id="3993" name="Mercenary Posting Ticket (Bow/Mobile)" add_name="Mercenary Posting Ticket (Bow/Mobile)">
+	<!-- Giran/Bow/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -758,7 +828,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3994" name="Mercenary Posting Ticket (Cleric/Mobile)">
+	<etcitem id="3994" name="Mercenary Posting Ticket (Cleric/Mobile)" add_name="Mercenary Posting Ticket (Cleric/Mobile)">
+	<!-- Giran/Cleric/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -769,7 +840,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3995" name="Mercenary Posting Ticket (Wizard/Mobile)">
+	<etcitem id="3995" name="Mercenary Posting Ticket (Wizard/Mobile)" add_name="Mercenary Posting Ticket (Wizard/Mobile)">
+	<!-- Giran/Wizard/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -780,7 +852,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3996" name="Mercenary Posting Ticket (Teleporter1)">
+	<etcitem id="3996" name="Mercenary Posting Ticket (Teleporter1)" add_name="Mercenary Posting Ticket (Teleporter1)">
+	<!-- Placed in Giran, at the Teleporter or inside the castle, this ticket allows teleportation to the inner castle or the guardian's location. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -791,7 +864,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3997" name="Mercenary Posting Ticket (Teleporter2)">
+	<etcitem id="3997" name="Mercenary Posting Ticket (Teleporter2)" add_name="Mercenary Posting Ticket (Teleporter2)">
+	<!-- Placed in Giran, at the Teleporter or inside the castle, this ticket allows teleportation to the outer castle or the guardian's location. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -802,7 +876,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3998" name="Mercenary Posting Ticket (Teleporter3)">
+	<etcitem id="3998" name="Mercenary Posting Ticket (Teleporter3)" add_name="Mercenary Posting Ticket (Teleporter3)">
+	<!-- Placed in Giran, at the Teleporter or inside the castle, this ticket allows teleportation to the inner or outer castle. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -813,7 +888,8 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="3999" name="Mercenary Posting Ticket (Sword/Stationary)">
+	<etcitem id="3999" name="Mercenary Posting Ticket (Sword/Stationary)" add_name="Mercenary Posting Ticket (Sword/Stationary)">
+	<!-- Oren/Sword/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
