@@ -22,6 +22,8 @@ import lineage2.gameserver.model.entity.residence.ResidenceType;
 import lineage2.gameserver.stats.StatTemplate;
 import lineage2.gameserver.stats.Stats;
 import lineage2.gameserver.stats.conditions.Condition;
+import lineage2.gameserver.stats.conditions.ConditionCastleDark;
+import lineage2.gameserver.stats.conditions.ConditionCastleDarkClanLeader;
 import lineage2.gameserver.stats.conditions.ConditionCastleLight;
 import lineage2.gameserver.stats.conditions.ConditionCastleLightClanLeader;
 import lineage2.gameserver.stats.conditions.ConditionLogicAnd;
@@ -255,11 +257,19 @@ public abstract class StatParser<H extends AbstractHolder> extends AbstractDirPa
 			}
 			else if (name.equalsIgnoreCase("castleLight"))
 			{
-				cond = joinAnd(cond, new ConditionCastleLight(Boolean.parseBoolean(value)));
+				cond = joinAnd(cond, new ConditionCastleLight());
 			}
 			else if (name.equalsIgnoreCase("castleLightClanLeader"))
 			{
-				cond = joinAnd(cond, new ConditionCastleLightClanLeader(Boolean.parseBoolean(value)));
+				cond = joinAnd(cond, new ConditionCastleLightClanLeader());
+			}
+			else if (name.equalsIgnoreCase("castleDark"))
+			{
+				cond = joinAnd(cond, new ConditionCastleDark());
+			}
+			else if (name.equalsIgnoreCase("castleDarkClanLeader"))
+			{
+				cond = joinAnd(cond, new ConditionCastleDarkClanLeader());
 			}
 		}
 		return cond;

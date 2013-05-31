@@ -3,9 +3,9 @@ package lineage2.gameserver.stats.conditions;
 import lineage2.gameserver.model.Player;
 import lineage2.gameserver.stats.Env;
 
-public class ConditionCastleLight extends Condition
+public class ConditionCastleDarkClanLeader extends Condition
 {
-	public ConditionCastleLight()
+	public ConditionCastleDarkClanLeader()
 	{
 	}
 
@@ -24,6 +24,11 @@ public class ConditionCastleLight extends Condition
 			return false;
 		}
 
-		return player.getCastle().isCastleTypeLight();
+		if(!player.isClanLeader())
+		{
+			return false;
+		}
+
+		return !player.getCastle().isCastleTypeLight();
 	}
 }

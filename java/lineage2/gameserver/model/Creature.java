@@ -2354,9 +2354,9 @@ public abstract class Creature extends GameObject
 		{
 			return GeoEngine.moveCheckInAir(getX(), getY(), getZ(), getX() + x1, getY() + y1, getZ() + z1, getColRadius(), getGeoIndex());
 		}
-		return GeoEngine.moveCheck(getX(), getY(), getZ(), getX() + x1, getY() + y1, getGeoIndex() + z1);
+		return GeoEngine.moveCheck(getX(), getY(), getZ(), getX() + x1, getY() + y1, getGeoIndex());
 	}
-	
+
 	/**
 	 * Method doDie.
 	 * @param killer Creature
@@ -4531,7 +4531,7 @@ public abstract class Creature extends GameObject
 		}
 		switch (skill.getFlyType())
 		{
-		// TARGETS FLYTYPE
+			// TARGETS FLYTYPE
 			case THROW_UP:
 			case THROW_HORIZONTAL:
 			case PUSH_HORIZONTAL:
@@ -4540,6 +4540,8 @@ public abstract class Creature extends GameObject
 				for (Creature target : targets)
 				{
 					flyLoc = target.getFlyLocation(null, skill);
+					if (flyLoc == null)
+						_log.warn(skill.getFlyType() + " have null flyLoc.");
 					target.setLoc(flyLoc);
 					broadcastPacket(new FlyToLocation(target, flyLoc, skill.getFlyType(), 0));
 				}

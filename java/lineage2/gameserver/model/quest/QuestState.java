@@ -423,7 +423,31 @@ public final class QuestState
 		}
 		return varint;
 	}
-	
+
+	/**
+	 * Method getInt.
+	 * @param var String
+	 * @return int
+	 */
+	public long getLong(String var)
+	{
+		long varlong = 0;
+		try
+		{
+			String val = get(var);
+			if (val == null)
+			{
+				return 0;
+			}
+			varlong = Long.parseLong(val);
+		}
+		catch (Exception e)
+		{
+			_log.error(getPlayer().getName() + ": variable " + var + " isn't a long: " + varlong, e);
+		}
+		return varlong;
+	}
+
 	/**
 	 * Method getItemEquipped.
 	 * @param loc int
@@ -879,6 +903,17 @@ public final class QuestState
 	public String set(String var, int intval)
 	{
 		return set(var, String.valueOf(intval), true);
+	}
+
+	/**
+	 * Method set.
+	 * @param var String
+	 * @param longval long
+	 * @return String
+	 */
+	public String set(String var, long longval)
+	{
+		return set(var, String.valueOf(longval), true);
 	}
 	
 	/**
