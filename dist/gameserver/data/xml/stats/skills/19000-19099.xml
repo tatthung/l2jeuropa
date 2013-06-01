@@ -536,4 +536,17 @@
 		<set name="skillType" val="NOTDONE"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 	</skill>
+	<skill id="19099" levels="1" name="GM's Authority">
+    <!-- Inflicts petrification on the target for 60 minutes. -->
+		<set name="power" val="99999"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="skillType" val="PARALYZE"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="relationSkillsId" val="437;1097"/>
+		<for>
+		<effect count="1" name="Petrification" stackOrder="-1" stackType="paralyze" time="3600" val="0">
+			<set order="0x80" stat="regHp" val="0"/>
+		</effect>
+		</for>
+	</skill>
 </list>
