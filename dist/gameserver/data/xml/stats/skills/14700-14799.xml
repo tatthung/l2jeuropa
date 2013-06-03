@@ -587,7 +587,6 @@
 			</effect>
 		</for>
 	</skill>
-    </skill>
     <skill id="14780" levels="1" name="Master's Blessing - Drum Melody">
     <!-- The GM is always with you. For 1 hour, increases Max MP + 20%, HP recovery bonus + 20%, M. Critical Rate + 20, Critical Damage during a normal attack + 20%, P. Atk. + 10%, P. Def. + 20%, Atk. Spd. + 20%, M. Atk. + 20%, M. Def. + 20%, Casting Spd. + 20%, resistance to de-buff + 10%, and increased P. Def. upon evading a critical attack. Also for clan members who are equipped with short-range weapons that receive more than a set amount of damage, critical power increases during a normal attack. -->
         <set name="icon" val="icon.skill11522"/>
