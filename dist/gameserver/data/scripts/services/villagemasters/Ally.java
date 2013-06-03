@@ -33,7 +33,7 @@ public class Ally extends Functions
 		{
 			htmltext = "ally-02.htm";
 		}
-		((VillageMasterInstance) getNpc()).showChatWindow(pl, "villagemaster/ally" + htmltext);
+		((VillageMasterInstance) getNpc()).showChatWindow(pl, "villagemaster/ally/" + htmltext);
 	}
 	
 	/**
@@ -51,6 +51,6 @@ public class Ally extends Functions
 		{
 			htmltext = "ally-03.htm";
 		}
-		((VillageMasterInstance) getNpc()).showChatWindow(pl, "villagemaster/ally" + htmltext);
+		((VillageMasterInstance) getNpc()).showChatWindow(pl, "villagemaster/ally/" + htmltext);
 	}
 }
