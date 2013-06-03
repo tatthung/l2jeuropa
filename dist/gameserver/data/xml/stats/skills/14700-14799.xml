@@ -665,7 +665,7 @@
 		<set name="relationSkillsId" val="1535;230;1461;1240;1252;1309"/>
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="14" stackType="accuracyUp;SpeedUp;Poem_Arfa;rEvas;CoP">
-				<add order="0x40" stat="accCombat" val="#vuln"/>
+				<add order="0x40" stat="accCombat" val="8"/>
 				<add order="0x40" stat="rEvas" val="8"/>
 				<add order="0x40" stat="mEvas" val="8"/>
 				<add order="0x40" stat="runSpd" val="37"/>
