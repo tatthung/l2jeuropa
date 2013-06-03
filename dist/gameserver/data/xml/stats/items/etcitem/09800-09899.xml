@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="9800" name="Ranku's Blueprint" add_name="Ranku's Blueprint">
+	<etcitem id="9800" name="Ranku's Blueprint">
 	<!-- This is a blueprint belonging to Ranku that Matras requested. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -10,7 +10,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9801" name="Demon Prince's Blueprint" add_name="Demon Prince's Blueprint">
+	<etcitem id="9801" name="Demon Prince's Blueprint">
 	<!-- This is a blueprint belonging to a Demon Prince that Matras requested. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -19,7 +19,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9802" name="Safe Key" add_name="Safe Key">
+	<etcitem id="9802" name="Safe Key">
 	<!-- This key, crafted by Blacksmith Noel, should be given to Warehouse Chief Mona. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -28,7 +28,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9803" name="Sealed Document" add_name="Sealed Document">
+	<etcitem id="9803" name="Sealed Document">
 	<!-- This document was sent by Kaitnat to the Hierarch Casca. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -37,7 +37,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9804" name="Wyrm Heart" add_name="Wyrm Heart">
+	<etcitem id="9804" name="Wyrm Heart">
 	<!-- This is the heart of the Wyrm that Kekropus requested. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -47,7 +47,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9805" name="Kekropus' Recommendation" add_name="Kekropus' Recommendation">
+	<etcitem id="9805" name="Kekropus' Recommendation">
 	<!-- This letter of recommendation written by Kekropus should be shown to Bitus in Giran. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -56,7 +56,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9806" name="Soul Breaker Certificate" add_name="Soul Breaker Certificate">
+	<etcitem id="9806" name="Soul Breaker Certificate">
 	<!-- Show this Soul Breaker Certificate to a nearby Grand Master and you can become a Soul Breaker. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -65,7 +65,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9807" name="Wolf Tail" add_name="Wolf Tail">
+	<etcitem id="9807" name="Wolf Tail">
 	<!-- Perwan Has requested this wolf tail for the Rite of Warriors. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -74,7 +74,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9808" name="Muertos Claw" add_name="Muertos Claw">
+	<etcitem id="9808" name="Muertos Claw">
 	<!-- Collect 10 of these sharp Muertos claws and take them to Kekropus. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -83,7 +83,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9809" name="Grey Keltir Tooth" add_name="Grey Keltir Tooth">
+	<etcitem id="9809" name="Grey Keltir Tooth">
 	<!-- Marksman Bixon will pay well for this Grey Keltir Tooth. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -92,7 +92,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9810" name="Black Wolf Tooth" add_name="Black Wolf Tooth">
+	<etcitem id="9810" name="Black Wolf Tooth">
 	<!-- Marksman Bixon will pay well for this tooth of a Black Wolf. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -101,7 +101,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9811" name="Fortress Certificate" add_name="Fortress Certificate">
+	<etcitem id="9811" name="Fortress Certificate">
 	<!-- Use this to trade for supplies with a Detention Camp Warden. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -111,7 +111,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="9812" name="Castle Certificate" add_name="Castle Certificate">
+	<etcitem id="9812" name="Castle Certificate">
 	<!-- Use this to trade for supplies with a Prison Warden. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -121,7 +121,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="9814" name="Memento Mori" add_name="Memento Mori">
+	<etcitem id="9814" name="Memento Mori">
 	<!-- Obtained by attacking a Raid Boss, you can assemble this Crystal of Life and trade it for something useful. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -131,7 +131,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="9815" name="Dragon Heart" add_name="Dragon Heart">
+	<etcitem id="9815" name="Dragon Heart">
 	<!-- Obtained by attacking a Raid Boss, you can assemble this Crystal of Life and trade it for something useful. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -141,7 +141,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="9816" name="Earth Egg" add_name="Earth Egg">
+	<etcitem id="9816" name="Earth Egg">
 	<!-- Obtained by attacking a Raid Boss, you can assemble this Crystal of Life and trade it for something useful. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -151,7 +151,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="9817" name="Nonliving Nucleus" add_name="Nonliving Nucleus">
+	<etcitem id="9817" name="Nonliving Nucleus">
 	<!-- Obtained by attacking a Raid Boss, you can assemble this Crystal of Life and trade it for something useful. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -161,7 +161,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="9818" name="Angelic Essence" add_name="Angelic Essence">
+	<etcitem id="9818" name="Angelic Essence">
 	<!-- Obtained by attacking a Raid Boss, you can assemble this Crystal of Life and trade it for something useful. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -171,7 +171,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="9849" name="Fiery Demon Blood" add_name="Fiery Demon Blood">
+	<etcitem id="9849" name="Fiery Demon Blood">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -181,7 +181,7 @@
 			<skill id="2357" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="9850" name="Basic Caravan Certificate" add_name="Basic Caravan Certificate">
+	<etcitem id="9850" name="Basic Caravan Certificate">
 	<!-- Certificate of friendship with Caravans. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -191,7 +191,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9851" name="Standard Caravan Certificate" add_name="Standard Caravan Certificate">
+	<etcitem id="9851" name="Standard Caravan Certificate">
 	<!-- Certificate of business relations with Caravans. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -201,7 +201,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9852" name="Premium Caravan Certificate" add_name="Premium Caravan Certificate">
+	<etcitem id="9852" name="Premium Caravan Certificate">
 	<!-- Certificate indicating a unique friendship with Caravans. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -211,7 +211,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9853" name="Mark of Friendship and Trust" add_name="Mark of Friendship and Trust">
+	<etcitem id="9853" name="Mark of Friendship and Trust">
 	<!-- Mark to show the highest grade of relationship Caravans. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -222,7 +222,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9881" name="Diploma" add_name="Diploma">
+	<etcitem id="9881" name="Diploma">
 	<!-- Take this Diploma to Second Hierarch Perwan. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -232,7 +232,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="9882" name="Great Black Wolf Necklace" add_name="Great Black Wolf Necklace">
+	<etcitem id="9882" name="Great Black Wolf Necklace">
 	<!-- Necklace used to summon Great Wolf. Takes a part of the XP gained by the Pet master. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -249,7 +249,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="9897" name="Transformation Scroll: Pig" add_name="Transformation Scroll: Pig">
+	<etcitem id="9897" name="Transformation Scroll: Pig">
 	<!-- Transforms you into a pig for 60 min. It will have no effect if used while in a transformed state. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
@@ -267,7 +267,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="9898" name="SP Scroll (Top-grade)" add_name="SP Scroll (Top-grade)">
+	<etcitem id="9898" name="SP Scroll (Top-grade)">
 	<!-- Scroll that replenishes 500,000 SP. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>

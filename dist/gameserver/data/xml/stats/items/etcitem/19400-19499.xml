@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="19400" name="Recipe: Unidentified Seraph Circlet (60%)" add_name="Recipe: Unidentified Seraph Circlet (60%)">
+	<etcitem id="19400" name="Recipe: Unidentified Seraph Circlet (60%)">
 	<!-- For Dwarves only. Recipe for making a Seraph Circlet. Requires level 13 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -9,8 +9,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19401" name="Recipe: Unidentified Seraph Tunic (60%)" add_name="Recipe: Unidentified Seraph Tunic (60%)">
+	<etcitem id="19401" name="Recipe: Unidentified Seraph Tunic (60%)">
 	<!-- For Dwarves only. Recipe for making a Seraph Tunic. Requires level 13 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -18,8 +19,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19402" name="Recipe: Unidentified Seraph Stockings (60%)" add_name="Recipe: Unidentified Seraph Stockings (60%)">
+	<etcitem id="19402" name="Recipe: Unidentified Seraph Stockings (60%)">
 	<!-- For Dwarves only. Recipe for making a Seraph Stockings. Requires level 13 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -27,8 +29,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19403" name="Recipe: Unidentified Seraph Gloves (60%)" add_name="Recipe: Unidentified Seraph Gloves (60%)">
+	<etcitem id="19403" name="Recipe: Unidentified Seraph Gloves (60%)">
 	<!-- For Dwarves only. Recipe for making a Seraph Gloves. Requires level 13 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -36,8 +39,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19404" name="Recipe: Unidentified Seraph Shoes (60%)" add_name="Recipe: Unidentified Seraph Shoes (60%)">
+	<etcitem id="19404" name="Recipe: Unidentified Seraph Shoes (60%)">
 	<!-- For Dwarves only. Recipe for making a Seraph Shoes. Requires level 13 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -45,8 +49,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19405" name="Recipe: Unidentified Seraph Sigil (60%)" add_name="Recipe: Unidentified Seraph Sigil (60%)">
+	<etcitem id="19405" name="Recipe: Unidentified Seraph Sigil (60%)">
 	<!-- For Dwarves only. Recipe for making a Seraph Sigil. Requires level 13 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -54,8 +59,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19406" name="Recipe: Unidentified Seraph Necklace (60%)" add_name="Recipe: Unidentified Seraph Necklace (60%)">
+	<etcitem id="19406" name="Recipe: Unidentified Seraph Necklace (60%)">
 	<!-- For Dwarves only. Recipe for making a Seraph Necklace. Requires level 13 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -63,8 +69,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19407" name="Recipe: Unidentified Seraph Earring (60%)" add_name="Recipe: Unidentified Seraph Earring (60%)">
+	<etcitem id="19407" name="Recipe: Unidentified Seraph Earring (60%)">
 	<!-- For Dwarves only. Recipe for making a Seraph Earring. Requires level 13 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -72,8 +79,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19408" name="Recipe: Unidentified Seraph Ring (60%)" add_name="Recipe: Unidentified Seraph Ring (60%)">
+	<etcitem id="19408" name="Recipe: Unidentified Seraph Ring (60%)">
 	<!-- For Dwarves only. Recipe for making a Seraph Ring. Requires level 13 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -81,8 +89,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19409" name="Recipe: Unidentified Amaranthine Shaper (60%)" add_name="Recipe: Unidentified Amaranthine Shaper (60%)">
+	<etcitem id="19409" name="Recipe: Unidentified Amaranthine Shaper (60%)">
 	<!-- For Dwarves only. Recipe for making an Amaranthine Shaper. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -90,8 +99,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19410" name="Recipe: Unidentified Amaranthine Cutter (60%)" add_name="Recipe: Unidentified Amaranthine Cutter (60%)">
+	<etcitem id="19410" name="Recipe: Unidentified Amaranthine Cutter (60%)">
 	<!-- For Dwarves only. Recipe for making an Amaranthine Cutter. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -99,8 +109,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19411" name="Recipe: Unidentified Amaranthine Slasher (60%)" add_name="Recipe: Unidentified Amaranthine Slasher (60%)">
+	<etcitem id="19411" name="Recipe: Unidentified Amaranthine Slasher (60%)">
 	<!-- For Dwarves only. Recipe for making an Amaranthine Slasher. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -108,8 +119,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19412" name="Recipe: Unidentified Amaranthine Avenger (60%)" add_name="Recipe: Unidentified Amaranthine Avenger (60%)">
+	<etcitem id="19412" name="Recipe: Unidentified Amaranthine Avenger (60%)">
 	<!-- For Dwarves only. Recipe for making an Amaranthine Avenger. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -117,8 +129,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19413" name="Recipe: Unidentified Amaranthine Fighter (60%)" add_name="Recipe: Unidentified Amaranthine Fighter (60%)">
+	<etcitem id="19413" name="Recipe: Unidentified Amaranthine Fighter (60%)">
 	<!-- For Dwarves only. Recipe for making an Amaranthine Fighter. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -126,8 +139,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19414" name="Recipe: Unidentified Amaranthine Stormer (60%)" add_name="Recipe: Unidentified Amaranthine Stormer (60%)">
+	<etcitem id="19414" name="Recipe: Unidentified Amaranthine Stormer (60%)">
 	<!-- For Dwarves only. Recipe for making an Amaranthine Stormer. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -135,8 +149,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19415" name="Recipe: Unidentified Amaranthine Thrower (60%)" add_name="Recipe: Unidentified Amaranthine Thrower (60%)">
+	<etcitem id="19415" name="Recipe: Unidentified Amaranthine Thrower (60%)">
 	<!-- For Dwarves only. Recipe for making an Amaranthine Thrower. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -144,8 +159,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19416" name="Recipe: Unidentified Amaranthine Shooter (60%)" add_name="Recipe: Unidentified Amaranthine Shooter (60%)">
+	<etcitem id="19416" name="Recipe: Unidentified Amaranthine Shooter (60%)">
 	<!-- For Dwarves only. Recipe for making an Amaranthine Shooter. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -153,8 +169,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19417" name="Recipe: Unidentified Amaranthine Buster (60%)" add_name="Recipe: Unidentified Amaranthine Buster (60%)">
+	<etcitem id="19417" name="Recipe: Unidentified Amaranthine Buster (60%)">
 	<!-- For Dwarves only. Recipe for making an Amaranthine Buster. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -162,8 +179,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19418" name="Recipe: Unidentified Amaranthine Caster (60%)" add_name="Recipe: Unidentified Amaranthine Caster (60%)">
+	<etcitem id="19418" name="Recipe: Unidentified Amaranthine Caster (60%)">
 	<!-- For Dwarves only. Recipe for making an Amaranthine Caster. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -171,8 +189,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19419" name="Recipe: Unidentified Amaranthine Retributer (60%)" add_name="Recipe: Unidentified Amaranthine Retributer (60%)">
+	<etcitem id="19419" name="Recipe: Unidentified Amaranthine Retributer (60%)">
 	<!-- For Dwarves only. Recipe for making an Amaranthine Retributer. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -180,8 +199,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19420" name="Recipe: Unidentified Eternal Helmet (60%)" add_name="Recipe: Unidentified Eternal Helmet (60%)">
+	<etcitem id="19420" name="Recipe: Unidentified Eternal Helmet (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Helmet. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -189,8 +209,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19421" name="Recipe: Unidentified Eternal Breastplate (60%)" add_name="Recipe: Unidentified Eternal Breastplate (60%)">
+	<etcitem id="19421" name="Recipe: Unidentified Eternal Breastplate (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Breastplate. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -198,8 +219,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19422" name="Recipe: Unidentified Eternal Gaiters (60%)" add_name="Recipe: Unidentified Eternal Gaiters (60%)">
+	<etcitem id="19422" name="Recipe: Unidentified Eternal Gaiters (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Gaiters. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -207,8 +229,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19423" name="Recipe: Unidentified Eternal Gauntlets (60%)" add_name="Recipe: Unidentified Eternal Gauntlets (60%)">
+	<etcitem id="19423" name="Recipe: Unidentified Eternal Gauntlets (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Gauntlets. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -216,8 +239,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19424" name="Recipe: Unidentified Eternal Boots (60%)" add_name="Recipe: Unidentified Eternal Boots (60%)">
+	<etcitem id="19424" name="Recipe: Unidentified Eternal Boots (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Boots. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -225,8 +249,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19425" name="Recipe: Unidentified Eternal Shield (60%)" add_name="Recipe: Unidentified Eternal Shield (60%)">
+	<etcitem id="19425" name="Recipe: Unidentified Eternal Shield (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Shield. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -234,8 +259,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19426" name="Recipe: Unidentified Eternal Leather Helmet (60%)" add_name="Recipe: Unidentified Eternal Leather Helmet (60%)">
+	<etcitem id="19426" name="Recipe: Unidentified Eternal Leather Helmet (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Leather Helmet. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -243,8 +269,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19427" name="Recipe: Unidentified Eternal Leather Armor (60%)" add_name="Recipe: Unidentified Eternal Leather Armor (60%)">
+	<etcitem id="19427" name="Recipe: Unidentified Eternal Leather Armor (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Leather Armor. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -252,8 +279,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19428" name="Recipe: Unidentified Eternal Leather Leggings (60%)" add_name="Recipe: Unidentified Eternal Leather Leggings (60%)">
+	<etcitem id="19428" name="Recipe: Unidentified Eternal Leather Leggings (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Leather Leggings. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -261,8 +289,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19429" name="Recipe: Unidentified Eternal Leather Gloves (60%)" add_name="Recipe: Unidentified Eternal Leather Gloves (60%)">
+	<etcitem id="19429" name="Recipe: Unidentified Eternal Leather Gloves (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Leather Gloves. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -270,8 +299,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19430" name="Recipe: Unidentified Eternal Leather Boots (60%)" add_name="Recipe: Unidentified Eternal Leather Boots (60%)">
+	<etcitem id="19430" name="Recipe: Unidentified Eternal Leather Boots (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Leather Boots. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -279,8 +309,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19431" name="Recipe: Unidentified Eternal Circlet (60%)" add_name="Recipe: Unidentified Eternal Circlet (60%)">
+	<etcitem id="19431" name="Recipe: Unidentified Eternal Circlet (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Circlet. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -288,8 +319,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19432" name="Recipe: Unidentified Eternal Tunic (60%)" add_name="Recipe: Unidentified Eternal Tunic (60%)">
+	<etcitem id="19432" name="Recipe: Unidentified Eternal Tunic (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Tunic. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -297,8 +329,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19433" name="Recipe: Unidentified Eternal Stockings (60%)" add_name="Recipe: Unidentified Eternal Stockings (60%)">
+	<etcitem id="19433" name="Recipe: Unidentified Eternal Stockings (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Stockings. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -306,8 +339,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19434" name="Recipe: Unidentified Eternal Gloves (60%)" add_name="Recipe: Unidentified Eternal Gloves (60%)">
+	<etcitem id="19434" name="Recipe: Unidentified Eternal Gloves (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Gloves. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -315,8 +349,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19435" name="Recipe: Unidentified Eternal Shoes (60%)" add_name="Recipe: Unidentified Eternal Shoes (60%)">
+	<etcitem id="19435" name="Recipe: Unidentified Eternal Shoes (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Shoes. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -324,8 +359,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19436" name="Recipe: Unidentified Eternal Sigil (60%)" add_name="Recipe: Unidentified Eternal Sigil (60%)">
+	<etcitem id="19436" name="Recipe: Unidentified Eternal Sigil (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Sigil. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -333,8 +369,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19437" name="Recipe: Unidentified Eternal Necklace (60%)" add_name="Recipe: Unidentified Eternal Necklace (60%)">
+	<etcitem id="19437" name="Recipe: Unidentified Eternal Necklace (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Necklace. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -342,8 +379,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19438" name="Recipe: Unidentified Eternal Earring (60%)" add_name="Recipe: Unidentified Eternal Earring (60%)">
+	<etcitem id="19438" name="Recipe: Unidentified Eternal Earring (60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Earring. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -351,8 +389,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19439" name="Recipe: Unidentified Eternal Ring(60%)" add_name="Recipe: Unidentified Eternal Ring(60%)">
+	<etcitem id="19439" name="Recipe: Unidentified Eternal Ring(60%)">
 	<!-- For Dwarves only. Recipe for making an Eternal Ring. Requires level 14 of the create item skill. Success rate is 60%. In case of the success, the obtained item can be bound, normal, or blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -360,51 +399,53 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="19440" name="Gemstone (R-grade)" add_name="Gemstone (R-grade)">
+	<etcitem id="19440" name="Gemstone (R-grade)">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_bead_gold_i00"/>
 	</etcitem>
-	<etcitem id="19441" name="Spiritshot (R-grade)" add_name="Spiritshot (R-grade)">
+	<etcitem id="19441" name="Spiritshot (R-grade)">
 	<!-- The power of a higher-level spirit is bestowed upon a weapon, temporarily increasing its M. Atk.. Can be used with an R-grade weapon. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="R"/>
 		<set name="dropable" value="false"/>
-		<set name="icon" value="br_cashtex.item.br_cash_spiritshot_r_i00"/>
+		<set name="icon" value="icon.spiritshot_r_i00"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1"/>
 	</etcitem>
-	<etcitem id="19442" name="Blessed Spiritshot (R-grade)" add_name="Blessed Spiritshot (R-grade)">
+	<etcitem id="19442" name="Blessed Spiritshot (R-grade)">
 	<!-- The power of a higher-level spirit is bestowed upon a weapon, temporarily increasing its M. Atk. significantly. Can be used with an R-grade weapon. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="R"/>
 		<set name="dropable" value="false"/>
-		<set name="icon" value="br_cashtex.item.br_cash_blessed_spiritshot_r_i00"/>
+		<set name="icon" value="icon.blessed_spiritshot_r_i00"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1"/>
 	</etcitem>
-	<etcitem id="19443" name="Orichalcum Bolt" add_name="Orichalcum Bolt">
+	<etcitem id="19443" name="Orichalcum Bolt">
 	<!-- Bolt made of Orichalcum. Used as bolts for R-grade Crossbows. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="R"/>
-		<set name="icon" value="icon.etc_shining_bolt_i00"/>
+		<set name="icon" value="icon.etc_oricalcum_bolt_i00"/>
 		<set name="price" value="10"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="BOLT"/>
-		<set name="weight" value="3"/>
+		<set name="weight" value="0"/>
 		<equip>
 			<slot id="LEFT_HAND"/>
 		</equip>
 	</etcitem>
-	<etcitem id="19444" name="Unbind Scroll (R-grade)" add_name="Unbind Scroll (R-grade)">
+	<etcitem id="19444" name="Unbind Scroll (R-grade)">
 	<!-- Transforms an R-grade bound item into a standard item through the Blacksmith of Mammon. Also has a low chance of becoming Blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -412,8 +453,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.cursed_free_r"/>
 	</etcitem>
-	<etcitem id="19445" name="Unbind Scroll (R95-grade)" add_name="Unbind Scroll (R95-grade)">
+	<etcitem id="19445" name="Unbind Scroll (R95-grade)">
 	<!-- Transforms an R95-grade bound item into a standard item through the Blacksmith of Mammon. Also has a low chance of becoming Blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -421,8 +463,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.cursed_free_r95"/>
 	</etcitem>
-	<etcitem id="19446" name="Unbind Scroll (R99-grade)" add_name="Unbind Scroll (R99-grade)">
+	<etcitem id="19446" name="Unbind Scroll (R99-grade)">
 	<!-- Transforms an R99-grade bound item into a standard item through the Blacksmith of Mammon. Also has a low chance of becoming Blessed. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -430,12 +473,13 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.cursed_free_r99"/>
 	</etcitem>
-	<etcitem id="19447" name="Blessed Scroll: Enchant Weapon (R-grade)" add_name="Blessed Scroll: Enchant Weapon (R-grade)">
+	<etcitem id="19447" name="Blessed Scroll: Enchant Weapon (R-grade)">
 	<!-- Increases P. Atk. by 6 for R-grade one-handed sword, one-handed blunt, dagger, spear, and other weapons when enchanted. Increases P. Atk. by 7 for two-handed sword, two-handed blunt, dualsword, two-handed fist weapon, and crossbow. Increases P. Atk. by 12 for bow weapons. Increases M. Atk. by 5 for all weapons. P. Atk./M. Atk. greatly Increases starting at + 4. All amounts are increased for Blessed weapons. If enchanting fails, the item will not be crystallized, but the enchant value will be reset to 0. -->
 		<set name="class" value="MISC"/>
 		<set name="crystal_type" value="NONE"/>
-		<set name="icon" value="icon.etc_scroll_of_enchant_weapon_i06"/>
+		<set name="icon" value="icon.blessed_scroll_of_enchant_weapon_i06"/>
 		<set name="price" value="5000000"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="SCROLL"/>
@@ -446,11 +490,11 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="19448" name="Blessed Scroll: Enchant Armor (R-grade)" add_name="Blessed Scroll: Enchant Armor (R-grade)">
+	<etcitem id="19448" name="Blessed Scroll: Enchant Armor (R-grade)">
 	<!-- When enchanted, increases P. Def. by 2 for R-grade armor and accessories. Greatly increased starting at + 4. Can be enhanced safely to + 3. When enhanced + 4 or more, HP also increases according to the enchant value. If enchanting fails, the item will not be crystallized, but the enchant value will be reset to 0. -->
 		<set name="class" value="MISC"/>
 		<set name="crystal_type" value="NONE"/>
-		<set name="icon" value="icon.etc_scroll_of_enchant_weapon_i06"/>
+		<set name="icon" value="icon.blessed_scroll_of_enchant_armor_i06"/>
 		<set name="price" value="5000000"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="SCROLL"/>
@@ -461,7 +505,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="19450" name="Proof of Fidelity" add_name="Proof of Fidelity">
+	<etcitem id="19450" name="Proof of Fidelity">
 	<!-- Proof given to those who successfully complete a mission. Can be exchanged for equipment. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -469,8 +513,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.item_normal52"/>
 	</etcitem>
-	<etcitem id="19465" name="Bottle of Antharas' Soul" add_name="Bottle of Antharas' Soul">
+	<etcitem id="19465" name="Bottle of Antharas' Soul">
 	<!-- Bottle containing Antharas' Soul. Bring 10 of this to Rafforty to bestow Antharas' Earring with Antharas' Soul. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -478,8 +523,9 @@
 		<set name="weight" value="60"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.bottle_of_antalas_soul_i00"/>
 	</etcitem>
-	<etcitem id="19466" name="Bottle of Valakas' Soul" add_name="Bottle of Valakas' Soul">
+	<etcitem id="19466" name="Bottle of Valakas' Soul">
 	<!-- Bottle containing Valakas' Soul. Bring 10 of this to Rafforty to bestow Valakas' Necklace with Valakas' Soul. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -487,8 +533,9 @@
 		<set name="weight" value="60"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.bottle_of_valakas_soul_i00"/>
 	</etcitem>
-	<etcitem id="19467" name="Yellow Soul Crystal Fragment (R99-grade)" add_name="Yellow Soul Crystal Fragment (R99-grade)">
+	<etcitem id="19467" name="Yellow Soul Crystal Fragment (R99-grade)">
 	<!-- Legendary yellow crystal fragment containing the light of absorbed souls. R99-grade . Collect 10 to make a complete crystal. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -496,8 +543,9 @@
 		<set name="weight" value="20"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.r99_soul_stone_piece_i03"/>
 	</etcitem>
-	<etcitem id="19468" name="Teal Soul Crystal Fragment (R99-grade)" add_name="Teal Soul Crystal Fragment (R99-grade)">
+	<etcitem id="19468" name="Teal Soul Crystal Fragment (R99-grade)">
 	<!-- Legendary Teal crystal fragment containing the light of absorbed souls. R99-grade . Collect 10 to make a complete crystal. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -505,8 +553,9 @@
 		<set name="weight" value="20"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.r99_soul_stone_piece_i04"/>
 	</etcitem>
-	<etcitem id="19469" name="Purple Soul Crystal Fragment (R99-grade)" add_name="Purple Soul Crystal Fragment (R99-grade)">
+	<etcitem id="19469" name="Purple Soul Crystal Fragment (R99-grade)">
 	<!-- Legendary purple crystal fragment containing the light of absorbed souls. R99-grade . Collect 10 to make a complete crystal. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -514,24 +563,27 @@
 		<set name="weight" value="20"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.r99_soul_stone_piece_i05"/>
 	</etcitem>
-	<etcitem id="19482" name="Ivory Tower Delivery" add_name="Ivory Tower Delivery">
+	<etcitem id="19482" name="Ivory Tower Delivery">
 	<!-- Item to be delivered to the Magister Joan on the 3rd Floor of the Ivory Tower. To teleport to the Ivory Tower, visit the Gatekeeper in Gludio. Teleport to the Tower of Oren. Speak with the Gatekeeper in Oren and teleport to the Ivory Tower. At the Ivory Tower speak to the Gatekeeper and request to teleport to the 3rd floor. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_jewel_box_i00"/>
 	</etcitem>
-	<etcitem id="19483" name="Research Ingredient" add_name="Research Ingredient">
+	<etcitem id="19483" name="Research Ingredient">
 	<!-- Items to be collected for the Ivory Tower mission. Collect them and bring them to the 3rd floor to magister Joan in the elven Mystic Guild. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_oil_pot_white_i00"/>
 	</etcitem>
-	<etcitem id="19484" name="Outlaw's Mark" add_name="Outlaw's Mark">
+	<etcitem id="19484" name="Outlaw's Mark">
 	<!-- Insignia collected from the creatures in the Outlaw Forest. Collect enough and return to Captain Mouen in the Town of Oren. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -539,8 +591,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_jewel_green_i00"/>
 	</etcitem>
-	<etcitem id="19485" name="Witch Doctor's Mark" add_name="Witch Doctor's Mark">
+	<etcitem id="19485" name="Witch Doctor's Mark">
 	<!-- Emblem collected from the creatures in the Outlaw Forest. Collect enough and return to Captain Mouen in the Town of Oren. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -548,8 +601,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_jewel_blue_i00"/>
 	</etcitem>
-	<etcitem id="19486" name="Element of Evil" add_name="Element of Evil">
+	<etcitem id="19486" name="Element of Evil">
 	<!-- Element of Evil collected from the creatures in the Outlaw Forest. Collect enough and return to Captain Mouen in the Town of Oren. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -557,8 +611,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_debris_i00"/>
 	</etcitem>
-	<etcitem id="19487" name="Legacy Core" add_name="Legacy Core">
+	<etcitem id="19487" name="Legacy Core">
 	<!-- Strange rock collected off a creature in the Forsaken Plains. Needed as proof that you have completed task assigned to you from Captain Kurtiz in the Town of Aden. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -566,8 +621,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_black_freezing_core_i00"/>
 	</etcitem>
-	<etcitem id="19488" name="Pure Legacy Core" add_name="Pure Legacy Core">
+	<etcitem id="19488" name="Pure Legacy Core">
 	<!-- Item obtained from creatures in the Forsaken Plains. Collect enough and bring them to Magister Desmond in the Mystic Guide in the Town of Aden. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -575,8 +631,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_freezing_core_i00"/>
 	</etcitem>
-	<etcitem id="19489" name="Remnant Ash" add_name="Remnant Ash">
+	<etcitem id="19489" name="Remnant Ash">
 	<!-- The ash left from the defeated creatures in the Valley of Saints. Collect enough of them and bring them to High Priest Agripel in the Town of Rune Einhasad Temple. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -584,8 +641,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_powder_gray_i00"/>
 	</etcitem>
-	<etcitem id="19490" name="Buffalo Meat" add_name="Buffalo Meat">
+	<etcitem id="19490" name="Buffalo Meat">
 	<!-- Buffalo Meat collected for the work request from Captain Vishotsky to replenish the food shortage in Schuttgart. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -593,8 +651,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_meat_of_monstereye_i00"/>
 	</etcitem>
-	<etcitem id="19491" name="Ursus Meat" add_name="Ursus Meat">
+	<etcitem id="19491" name="Ursus Meat">
 	<!-- Ursus Meat collected for the work request from Captain Vishotsky to replenish the food shortage in Schuttgart. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -602,8 +661,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_meat_i00"/>
 	</etcitem>
-	<etcitem id="19492" name="Yeti Meat" add_name="Yeti Meat">
+	<etcitem id="19492" name="Yeti Meat">
 	<!-- Yeti Meat collected for the work request from Captain Vishotsky to replenish the food shortage in Schuttgart. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -611,24 +671,27 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_bodypart_liver_i00"/>
 	</etcitem>
-	<etcitem id="19493" name="Mysterious Letter" add_name="Mysterious Letter">
+	<etcitem id="19493" name="Mysterious Letter">
 	<!-- Letter Armor Merchant Alisha in the Town of Rune needs you to deliver to Grand Magister Tifaren in the Mystic Guild of the Town of Rune. You have been warned not to read its contents. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.item_normal20"/>
 	</etcitem>
-	<etcitem id="19494" name="Mysterious Letter" add_name="Mysterious Letter">
+	<etcitem id="19494" name="Mysterious Letter">
 	<!-- Letter that Grand Magister Tifaren was intending to send to the Mysterious Wizard. She needs you to deliver it to the Mysterious Wizard in the Forest of the Dead. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.item_normal20"/>
 	</etcitem>
-	<etcitem id="19495" name="Blazing Swamp Ash" add_name="Blazing Swamp Ash">
+	<etcitem id="19495" name="Blazing Swamp Ash">
 	<!-- Item obtained from the creatures inhabiting the Blazing Swamp. Collect an enough and bring them to Priest Ross in Einhasad's Temple in the Town of Aden. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -636,8 +699,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_powder_gray_i00"/>
 	</etcitem>
-	<etcitem id="19496" name="Argos Blood Sample" add_name="Argos Blood Sample">
+	<etcitem id="19496" name="Argos Blood Sample">
 	<!-- Blood Sample collected from the creatures defeated at the Wall of Argos. Collect enough and bring them to Magister Justin at the Mystic Guild in Goddard. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -645,8 +709,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_dragons_blood_i00"/>
 	</etcitem>
-	<etcitem id="19497" name="Hot Springs Water Sample" add_name="Hot Springs Water Sample">
+	<etcitem id="19497" name="Hot Springs Water Sample">
 	<!-- Item needed to help Walderal start his new business. Collect enough and return to Warehouse Keeper Walderal in the Town of Aden. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -654,8 +719,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_hot_spring_mineral_i00"/>
 	</etcitem>
-	<etcitem id="19498" name="Stakato Shell" add_name="Stakato Shell">
+	<etcitem id="19498" name="Stakato Shell">
 	<!-- Item obtained hunting Stakatos in the Swamp of Screams. After collecting enough return to Mercenary Supplier Abercrombie near the Swamp of Screams. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -663,8 +729,9 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_parasite_i00"/>
 	</etcitem>
-	<etcitem id="19499" name="Dancer Goods" add_name="Dancer Goods">
+	<etcitem id="19499" name="Dancer Goods">
 	<!-- Item obtained from the evil spirits of the Cemetery. Collect an adequate amount and bring them to Pamela Aprodia in the Goddard town warehouse. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -672,5 +739,6 @@
 		<set name="weight" value="2"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
 	</etcitem>
 </list>

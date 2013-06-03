@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="14300" name="Yaksa Mace" add_name="Yaksa Mace">
+	<etcitem id="14300" name="Yaksa Mace">
 		<set name="crystal_count" value="1885"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -12,7 +12,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1640"/>
 	</etcitem>
-	<etcitem id="14301" name="Shamshir*Shamshir" add_name="Shamshir*Shamshir">
+	<etcitem id="14301" name="Shamshir*Shamshir">
 		<set name="crystal_count" value="1885"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -23,7 +23,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="2330"/>
 	</etcitem>
-	<etcitem id="14302" name="Berserker Blade" add_name="Berserker Blade">
+	<etcitem id="14302" name="Berserker Blade">
 		<set name="crystal_count" value="1885"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -34,7 +34,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1380"/>
 	</etcitem>
-	<etcitem id="14303" name="Crystal Dagger" add_name="Crystal Dagger">
+	<etcitem id="14303" name="Crystal Dagger">
 		<set name="crystal_count" value="1885"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -45,7 +45,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1000"/>
 	</etcitem>
-	<etcitem id="14304" name="Ecliptic Sword" add_name="Ecliptic Sword">
+	<etcitem id="14304" name="Ecliptic Sword">
 		<set name="is_magic_weapon" value="true"/>
 		<set name="crystal_count" value="1885"/>
 		<set name="class" value="OTHER"/>
@@ -57,7 +57,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1380"/>
 	</etcitem>
-	<etcitem id="14305" name="Ecliptic Axe" add_name="Ecliptic Axe">
+	<etcitem id="14305" name="Ecliptic Axe">
 		<set name="is_magic_weapon" value="true"/>
 		<set name="crystal_count" value="1885"/>
 		<set name="class" value="OTHER"/>
@@ -69,7 +69,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1640"/>
 	</etcitem>
-	<etcitem id="14306" name="Dwarven Hammer" add_name="Dwarven Hammer">
+	<etcitem id="14306" name="Dwarven Hammer">
 		<set name="crystal_count" value="1885"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -80,7 +80,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="2010"/>
 	</etcitem>
-	<etcitem id="14307" name="Admiral's Estoc" add_name="Admiral's Estoc">
+	<etcitem id="14307" name="Admiral's Estoc">
 		<set name="crystal_count" value="1885"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -91,7 +91,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1380"/>
 	</etcitem>
-	<etcitem id="14308" name="Saber Tooth" add_name="Saber Tooth">
+	<etcitem id="14308" name="Saber Tooth">
 		<set name="crystal_count" value="1885"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -102,7 +102,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1950"/>
 	</etcitem>
-	<etcitem id="14309" name="Sharpshooter" add_name="Sharpshooter">
+	<etcitem id="14309" name="Sharpshooter">
 		<set name="atk_reuse" value="400"/>
 		<set name="reuse_delay" value="400"/>
 		<set name="crystal_count" value="1885"/>
@@ -115,7 +115,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1740"/>
 	</etcitem>
-	<etcitem id="14310" name="Damascus Sword" add_name="Damascus Sword">
+	<etcitem id="14310" name="Damascus Sword">
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -126,7 +126,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1350"/>
 	</etcitem>
-	<etcitem id="14311" name="Lance" add_name="Lance">
+	<etcitem id="14311" name="Lance">
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -137,7 +137,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1920"/>
 	</etcitem>
-	<etcitem id="14312" name="Deadman's Glory" add_name="Deadman's Glory">
+	<etcitem id="14312" name="Deadman's Glory">
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -148,7 +148,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1600"/>
 	</etcitem>
-	<etcitem id="14313" name="Art of Battle Axe" add_name="Art of Battle Axe">
+	<etcitem id="14313" name="Art of Battle Axe">
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -159,7 +159,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1570"/>
 	</etcitem>
-	<etcitem id="14314" name="Staff of Evil Spirits" add_name="Staff of Evil Spirits">
+	<etcitem id="14314" name="Staff of Evil Spirits">
 		<set name="is_magic_weapon" value="true"/>
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
@@ -171,7 +171,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="930"/>
 	</etcitem>
-	<etcitem id="14315" name="Demon's Dagger" add_name="Demon's Dagger">
+	<etcitem id="14315" name="Demon's Dagger">
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -182,7 +182,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="970"/>
 	</etcitem>
-	<etcitem id="14316" name="Bellion Cestus" add_name="Bellion Cestus">
+	<etcitem id="14316" name="Bellion Cestus">
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -193,7 +193,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1390"/>
 	</etcitem>
-	<etcitem id="14317" name="Bow of Peril" add_name="Bow of Peril">
+	<etcitem id="14317" name="Bow of Peril">
 		<set name="atk_reuse" value="1500"/>
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
@@ -205,7 +205,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1700"/>
 	</etcitem>
-	<etcitem id="14318" name="Samurai Long Sword*Samurai Long Sword" add_name="Samurai Long Sword*Samurai Long Sword">
+	<etcitem id="14318" name="Samurai Long Sword*Samurai Long Sword">
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -216,7 +216,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="2080"/>
 	</etcitem>
-	<etcitem id="14319" name="Demon's Dagger" add_name="Demon's Dagger">
+	<etcitem id="14319" name="Demon's Dagger">
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -227,7 +227,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="970"/>
 	</etcitem>
-	<etcitem id="14320" name="Guardian's Sword" add_name="Guardian's Sword">
+	<etcitem id="14320" name="Guardian's Sword">
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -238,7 +238,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1930"/>
 	</etcitem>
-	<etcitem id="14321" name="Wizard's Tear" add_name="Wizard's Tear">
+	<etcitem id="14321" name="Wizard's Tear">
 		<set name="is_magic_weapon" value="true"/>
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
@@ -250,7 +250,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1350"/>
 	</etcitem>
-	<etcitem id="14322" name="Kaim Vanul's Bones" add_name="Kaim Vanul's Bones">
+	<etcitem id="14322" name="Kaim Vanul's Bones">
 		<set name="is_magic_weapon" value="true"/>
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
@@ -262,7 +262,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1570"/>
 	</etcitem>
-	<etcitem id="14323" name="Star Buster" add_name="Star Buster">
+	<etcitem id="14323" name="Star Buster">
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -273,7 +273,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1930"/>
 	</etcitem>
-	<etcitem id="14324" name="Colichemarde" add_name="Colichemarde">
+	<etcitem id="14324" name="Colichemarde">
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -284,7 +284,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1350"/>
 	</etcitem>
-	<etcitem id="14325" name="Dismantler" add_name="Dismantler">
+	<etcitem id="14325" name="Dismantler">
 		<set name="crystal_count" value="1346"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -295,7 +295,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1930"/>
 	</etcitem>
-	<etcitem id="14326" name="Hell Hound" add_name="Hell Hound">
+	<etcitem id="14326" name="Hell Hound">
 		<set name="atk_reuse" value="400"/>
 		<set name="reuse_delay" value="400"/>
 		<set name="crystal_count" value="1346"/>
@@ -308,7 +308,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1700"/>
 	</etcitem>
-	<etcitem id="14327" name="Sirra's Blade" add_name="Sirra's Blade">
+	<etcitem id="14327" name="Sirra's Blade">
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -319,7 +319,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1300"/>
 	</etcitem>
-	<etcitem id="14328" name="Sword of Ipos" add_name="Sword of Ipos">
+	<etcitem id="14328" name="Sword of Ipos">
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -330,7 +330,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1820"/>
 	</etcitem>
-	<etcitem id="14329" name="Barakiel's Axe" add_name="Barakiel's Axe">
+	<etcitem id="14329" name="Barakiel's Axe">
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -341,7 +341,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1550"/>
 	</etcitem>
-	<etcitem id="14330" name="Behemoth' Tuning Fork" add_name="Behemoth' Tuning Fork">
+	<etcitem id="14330" name="Behemoth' Tuning Fork">
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -352,7 +352,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1890"/>
 	</etcitem>
-	<etcitem id="14331" name="Naga Storm" add_name="Naga Storm">
+	<etcitem id="14331" name="Naga Storm">
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -363,7 +363,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="930"/>
 	</etcitem>
-	<etcitem id="14332" name="Tiphon's Spear" add_name="Tiphon's Spear">
+	<etcitem id="14332" name="Tiphon's Spear">
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -374,7 +374,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1820"/>
 	</etcitem>
-	<etcitem id="14333" name="Shyeed's Bow" add_name="Shyeed's Bow">
+	<etcitem id="14333" name="Shyeed's Bow">
 		<set name="atk_reuse" value="820"/>
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
@@ -386,7 +386,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1640"/>
 	</etcitem>
-	<etcitem id="14334" name="Sobekk's Hurricane" add_name="Sobekk's Hurricane">
+	<etcitem id="14334" name="Sobekk's Hurricane">
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -397,7 +397,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1330"/>
 	</etcitem>
-	<etcitem id="14335" name="Themis' Tongue" add_name="Themis' Tongue">
+	<etcitem id="14335" name="Themis' Tongue">
 		<set name="is_magic_weapon" value="true"/>
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
@@ -409,7 +409,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="820"/>
 	</etcitem>
-	<etcitem id="14336" name="Cabrio's Hand" add_name="Cabrio's Hand">
+	<etcitem id="14336" name="Cabrio's Hand">
 		<set name="is_magic_weapon" value="true"/>
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
@@ -421,7 +421,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1510"/>
 	</etcitem>
-	<etcitem id="14337" name="Daimon Crystal" add_name="Daimon Crystal">
+	<etcitem id="14337" name="Daimon Crystal">
 		<set name="is_magic_weapon" value="true"/>
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
@@ -433,7 +433,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="880"/>
 	</etcitem>
-	<etcitem id="14338" name="Tallum Blade*Damascus" add_name="Tallum Blade*Damascus">
+	<etcitem id="14338" name="Tallum Blade*Damascus">
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -444,7 +444,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1890"/>
 	</etcitem>
-	<etcitem id="14339" name="Éclair Bijou" add_name="Éclair Bijou">
+	<etcitem id="14339" name="Éclair Bijou">
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -455,7 +455,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1300"/>
 	</etcitem>
-	<etcitem id="14340" name="Durendal" add_name="Durendal">
+	<etcitem id="14340" name="Durendal">
 		<set name="crystal_count" value="2157"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -466,7 +466,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1820"/>
 	</etcitem>
-	<etcitem id="14341" name="Screaming Vengeance" add_name="Screaming Vengeance">
+	<etcitem id="14341" name="Screaming Vengeance">
 		<set name="atk_reuse" value="400"/>
 		<set name="reuse_delay" value="400"/>
 		<set name="crystal_count" value="2157"/>
@@ -479,7 +479,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="1640"/>
 	</etcitem>
-	<etcitem id="14342" name="Necklace of Seal" add_name="Necklace of Seal">
+	<etcitem id="14342" name="Necklace of Seal">
 		<set name="crystal_count" value="174"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -490,7 +490,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="150"/>
 	</etcitem>
-	<etcitem id="14343" name="Nassen's Earring" add_name="Nassen's Earring">
+	<etcitem id="14343" name="Nassen's Earring">
 		<set name="crystal_count" value="130"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -501,7 +501,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="150"/>
 	</etcitem>
-	<etcitem id="14344" name="Ring of Seal" add_name="Ring of Seal">
+	<etcitem id="14344" name="Ring of Seal">
 		<set name="crystal_count" value="87"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -512,7 +512,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="150"/>
 	</etcitem>
-	<etcitem id="14345" name="Black Ore Earring" add_name="Black Ore Earring">
+	<etcitem id="14345" name="Black Ore Earring">
 		<set name="crystal_count" value="95"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -523,7 +523,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="150"/>
 	</etcitem>
-	<etcitem id="14346" name="Black Ore Ring" add_name="Black Ore Ring">
+	<etcitem id="14346" name="Black Ore Ring">
 		<set name="crystal_count" value="63"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -534,7 +534,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="150"/>
 	</etcitem>
-	<etcitem id="14347" name="Black Ore Necklace" add_name="Black Ore Necklace">
+	<etcitem id="14347" name="Black Ore Necklace">
 		<set name="crystal_count" value="126"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -545,7 +545,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="150"/>
 	</etcitem>
-	<etcitem id="14348" name="Majestic Earring" add_name="Majestic Earring">
+	<etcitem id="14348" name="Majestic Earring">
 		<set name="crystal_count" value="120"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -556,7 +556,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="150"/>
 	</etcitem>
-	<etcitem id="14349" name="Majestic Ring" add_name="Majestic Ring">
+	<etcitem id="14349" name="Majestic Ring">
 		<set name="crystal_count" value="80"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -567,7 +567,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="150"/>
 	</etcitem>
-	<etcitem id="14350" name="Majestic Necklace" add_name="Majestic Necklace">
+	<etcitem id="14350" name="Majestic Necklace">
 		<set name="crystal_count" value="160"/>
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -578,7 +578,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="150"/>
 	</etcitem>
-	<etcitem id="14351" name="Gracian Anniversary Coins" add_name="Gracian Anniversary Coins">
+	<etcitem id="14351" name="Gracian Anniversary Coins">
 	<!-- Gracian Anniversary Coins can be used at an Item Merchant in order to receive a reward. Cannot be exchanged, dropped, destroyed nor stored in a private warehouse. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -589,7 +589,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="14352" name="Mysterious Sculpture" add_name="Mysterious Sculpture">
+	<etcitem id="14352" name="Mysterious Sculpture">
 	<!-- The Mysterious Sculpture possesses a mysterious power left from a dying creature. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -598,7 +598,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="14353" name="Mysterious Sculpture" add_name="Mysterious Sculpture">
+	<etcitem id="14353" name="Mysterious Sculpture">
 	<!-- The Mysterious Sculpture possesses a mysterious power left from a dying creature. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -607,7 +607,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="14354" name="Mysterious Sculpture" add_name="Mysterious Sculpture">
+	<etcitem id="14354" name="Mysterious Sculpture">
 	<!-- The Mysterious Sculpture possesses a mysterious power left from a dying creature. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -616,7 +616,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="14355" name="Mysterious Sculpture" add_name="Mysterious Sculpture">
+	<etcitem id="14355" name="Mysterious Sculpture">
 	<!-- The Mysterious Sculpture possesses a mysterious power left from a dying creature. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -625,7 +625,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="14356" name="Mysterious Sculpture" add_name="Mysterious Sculpture">
+	<etcitem id="14356" name="Mysterious Sculpture">
 	<!-- The Mysterious Sculpture possesses a mysterious power left from a dying creature. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -634,7 +634,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="14357" name="Mysterious Sculpture" add_name="Mysterious Sculpture">
+	<etcitem id="14357" name="Mysterious Sculpture">
 	<!-- The Mysterious Sculpture possesses a mysterious power left from a dying creature. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -643,7 +643,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="14358" name="Mysterious Sculpture" add_name="Mysterious Sculpture">
+	<etcitem id="14358" name="Mysterious Sculpture">
 	<!-- The Mysterious Sculpture possesses a mysterious power left from a dying creature. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -652,7 +652,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="14359" name="Mysterious Sculpture" add_name="Mysterious Sculpture">
+	<etcitem id="14359" name="Mysterious Sculpture">
 	<!-- The Mysterious Sculpture possesses a mysterious power left from a dying creature. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -661,7 +661,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="14360" name="Mysterious Sculpture" add_name="Mysterious Sculpture">
+	<etcitem id="14360" name="Mysterious Sculpture">
 	<!-- The Mysterious Sculpture possesses a mysterious power left from a dying creature. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -670,7 +670,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="14361" name="Blood-stained Cloth" add_name="Blood-stained Cloth">
+	<etcitem id="14361" name="Blood-stained Cloth">
 	<!-- Piece of cloth soaked in the blood of angels and Platinum race that Magister Kaspar asked for. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -679,7 +679,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="14362" name="White Cloth" add_name="White Cloth">
+	<etcitem id="14362" name="White Cloth">
 	<!-- Large piece of white cloth given by Magister Kaspar. Stain the cloth with the blood of angels and the Platinum race in the Tower of Insolence. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>

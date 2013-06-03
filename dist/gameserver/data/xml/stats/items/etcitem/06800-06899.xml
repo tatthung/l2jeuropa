@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="6800" name="Greater Mercenary Posting Ticket (Cleric/Mobile)" add_name="Greater Mercenary Posting Ticket (Cleric/Mobile)">
+	<etcitem id="6800" name="Greater Mercenary Posting Ticket (Cleric/Mobile)">
 	<!-- Goddard/Cleric/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -13,7 +13,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6801" name="Greater Mercenary Posting Ticket (Wizard/Mobile)" add_name="Greater Mercenary Posting Ticket (Wizard/Mobile)">
+	<etcitem id="6801" name="Greater Mercenary Posting Ticket (Wizard/Mobile)">
 	<!-- Goddard/Wizard/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -25,7 +25,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6802" name="Dawn Mercenary Posting Ticket (Sword/Stationary)" add_name="Dawn Mercenary Posting Ticket (Sword/Stationary)">
+	<etcitem id="6802" name="Dawn Mercenary Posting Ticket (Sword/Stationary)">
 	<!-- Goddard/Sword/Stationary. Posting possible when Seal of Strife is owned by Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -37,7 +37,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6803" name="Dawn Mercenary Posting Ticket (Spear/Stationary)" add_name="Dawn Mercenary Posting Ticket (Spear/Stationary)">
+	<etcitem id="6803" name="Dawn Mercenary Posting Ticket (Spear/Stationary)">
 	<!-- Goddard/Spear/Stationary. Posting possible when Seal of Strife is owned by Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -49,7 +49,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6804" name="Dawn Mercenary Posting Ticket (Bow/Stationary)" add_name="Dawn Mercenary Posting Ticket (Bow/Stationary)">
+	<etcitem id="6804" name="Dawn Mercenary Posting Ticket (Bow/Stationary)">
 	<!-- Goddard/Bow/Stationary. Posting possible when Seal of Strife is owned by Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -61,7 +61,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6805" name="Dawn Mercenary Posting Ticket (Cleric/Stationary)" add_name="Dawn Mercenary Posting Ticket (Cleric/Stationary)">
+	<etcitem id="6805" name="Dawn Mercenary Posting Ticket (Cleric/Stationary)">
 	<!-- Goddard/Cleric/Stationary. Posting possible when Seal of Strife is owned by Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -73,7 +73,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6806" name="Dawn Mercenary Posting Ticket (Wizard/Stationary)" add_name="Dawn Mercenary Posting Ticket (Wizard/Stationary)">
+	<etcitem id="6806" name="Dawn Mercenary Posting Ticket (Wizard/Stationary)">
 	<!-- Goddard/Wizard/Stationary. Posting possible when Seal of Strife is owned by Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -85,7 +85,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6807" name="Dawn Mercenary Posting Ticket (Sword/Mobile)" add_name="Dawn Mercenary Posting Ticket (Sword/Mobile)">
+	<etcitem id="6807" name="Dawn Mercenary Posting Ticket (Sword/Mobile)">
 	<!-- Goddard/Sword/Mobile. Posting possible when Seal of Strife is owned by Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -97,7 +97,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6808" name="Dawn Mercenary Posting Ticket (Spear/Mobile)" add_name="Dawn Mercenary Posting Ticket (Spear/Mobile)">
+	<etcitem id="6808" name="Dawn Mercenary Posting Ticket (Spear/Mobile)">
 	<!-- Goddard/Spear/Mobile. Posting possible when Seal of Strife is owned by Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -109,7 +109,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6809" name="Dawn Mercenary Posting Ticket (Bow/Mobile)" add_name="Dawn Mercenary Posting Ticket (Bow/Mobile)">
+	<etcitem id="6809" name="Dawn Mercenary Posting Ticket (Bow/Mobile)">
 	<!-- Goddard/Bow/Mobile. Posting possible when Seal of Strife is owned by Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -121,7 +121,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6810" name="Dawn Mercenary Posting Ticket (Cleric/Mobile)" add_name="Dawn Mercenary Posting Ticket (Cleric/Mobile)">
+	<etcitem id="6810" name="Dawn Mercenary Posting Ticket (Cleric/Mobile)">
 	<!-- Goddard/Cleric/Mobile. Posting possible when Seal of Strife is owned by Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -133,7 +133,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6811" name="Dawn Mercenary Posting Ticket (Wizard/Mobile)" add_name="Dawn Mercenary Posting Ticket (Wizard/Mobile)">
+	<etcitem id="6811" name="Dawn Mercenary Posting Ticket (Wizard/Mobile)">
 	<!-- Goddard/Wizard/Mobile. Posting possible when Seal of Strife is owned by Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -145,7 +145,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6812" name="Greater Recruit Posting Ticket (Sword/Stationary)" add_name="Greater Recruit Posting Ticket (Sword/Stationary)">
+	<etcitem id="6812" name="Greater Recruit Posting Ticket (Sword/Stationary)">
 	<!-- Goddard/Sword/Stationary. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -157,7 +157,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6813" name="Greater Recruit Posting Ticket (Spear/Stationary)" add_name="Greater Recruit Posting Ticket (Spear/Stationary)">
+	<etcitem id="6813" name="Greater Recruit Posting Ticket (Spear/Stationary)">
 	<!-- Goddard/Spear/Stationary. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -169,7 +169,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6814" name="Greater Recruit Posting Ticket (Bow/Stationary)" add_name="Greater Recruit Posting Ticket (Bow/Stationary)">
+	<etcitem id="6814" name="Greater Recruit Posting Ticket (Bow/Stationary)">
 	<!-- Goddard/Bow/Stationary. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -181,7 +181,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6815" name="Greater Recruit Posting Ticket (Cleric/Stationary)" add_name="Greater Recruit Posting Ticket (Cleric/Stationary)">
+	<etcitem id="6815" name="Greater Recruit Posting Ticket (Cleric/Stationary)">
 	<!-- Goddard/Cleric/Stationary. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -193,7 +193,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6816" name="Greater Recruit Posting Ticket (Wizard/Stationary)" add_name="Greater Recruit Posting Ticket (Wizard/Stationary)">
+	<etcitem id="6816" name="Greater Recruit Posting Ticket (Wizard/Stationary)">
 	<!-- Goddard/Wizard/Stationary. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -205,7 +205,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6817" name="Greater Recruit Posting Ticket (Sword/Mobile)" add_name="Greater Recruit Posting Ticket (Sword/Mobile)">
+	<etcitem id="6817" name="Greater Recruit Posting Ticket (Sword/Mobile)">
 	<!-- Goddard/Sword/Mobile. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -217,7 +217,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6818" name="Greater Recruit Posting Ticket (Spear/Mobile)" add_name="Greater Recruit Posting Ticket (Spear/Mobile)">
+	<etcitem id="6818" name="Greater Recruit Posting Ticket (Spear/Mobile)">
 	<!-- Goddard/Spear/Mobile. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -229,7 +229,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6819" name="Greater Recruit Posting Ticket (Bow/Mobile)" add_name="Greater Recruit Posting Ticket (Bow/Mobile)">
+	<etcitem id="6819" name="Greater Recruit Posting Ticket (Bow/Mobile)">
 	<!-- Goddard/Bow/Mobile. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -241,7 +241,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6820" name="Greater Recruit Posting Ticket (Cleric/Mobile)" add_name="Greater Recruit Posting Ticket (Cleric/Mobile)">
+	<etcitem id="6820" name="Greater Recruit Posting Ticket (Cleric/Mobile)">
 	<!-- Goddard/Cleric/Mobile. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -253,7 +253,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6821" name="Greater Recruit Posting Ticket (Wizard/Mobile)" add_name="Greater Recruit Posting Ticket (Wizard/Mobile)">
+	<etcitem id="6821" name="Greater Recruit Posting Ticket (Wizard/Mobile)">
 	<!-- Goddard/Wizard/Mobile. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -265,7 +265,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6822" name="Recruit Posting Ticket (Sword/Stationary)" add_name="Recruit Posting Ticket (Sword/Stationary)">
+	<etcitem id="6822" name="Recruit Posting Ticket (Sword/Stationary)">
 	<!-- Goddard/Sword/Stationary. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -277,7 +277,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6823" name="Recruit Posting Ticket (Spear/Stationary)" add_name="Recruit Posting Ticket (Spear/Stationary)">
+	<etcitem id="6823" name="Recruit Posting Ticket (Spear/Stationary)">
 	<!-- Goddard/Spear/Stationary. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -289,7 +289,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6824" name="Recruit Posting Ticket (Bow/Stationary)" add_name="Recruit Posting Ticket (Bow/Stationary)">
+	<etcitem id="6824" name="Recruit Posting Ticket (Bow/Stationary)">
 	<!-- Goddard/Bow/Stationary. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -301,7 +301,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6825" name="Recruit Posting Ticket (Cleric/Stationary)" add_name="Recruit Posting Ticket (Cleric/Stationary)">
+	<etcitem id="6825" name="Recruit Posting Ticket (Cleric/Stationary)">
 	<!-- Goddard/Cleric/Stationary. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -311,7 +311,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6826" name="Recruit Posting Ticket (Wizard/Stationary)" add_name="Recruit Posting Ticket (Wizard/Stationary)">
+	<etcitem id="6826" name="Recruit Posting Ticket (Wizard/Stationary)">
 	<!-- Goddard/Wizard/Stationary. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -323,7 +323,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6827" name="Recruit Posting Ticket (Sword/Mobile)" add_name="Recruit Posting Ticket (Sword/Mobile)">
+	<etcitem id="6827" name="Recruit Posting Ticket (Sword/Mobile)">
 	<!-- Goddard/Sword/Mobile. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -335,7 +335,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6828" name="Recruit Posting Ticket (Spear/Mobile)" add_name="Recruit Posting Ticket (Spear/Mobile)">
+	<etcitem id="6828" name="Recruit Posting Ticket (Spear/Mobile)">
 	<!-- Goddard/Spear/Mobile. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -347,7 +347,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6829" name="Recruit Posting Ticket (Bow/Mobile)" add_name="Recruit Posting Ticket (Bow/Mobile)">
+	<etcitem id="6829" name="Recruit Posting Ticket (Bow/Mobile)">
 	<!-- Goddard/Bow/Mobile. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -359,7 +359,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6830" name="Recruit Posting Ticket (Cleric/Mobile)" add_name="Recruit Posting Ticket (Cleric/Mobile)">
+	<etcitem id="6830" name="Recruit Posting Ticket (Cleric/Mobile)">
 	<!-- Goddard/Cleric/Mobile. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -371,7 +371,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6831" name="Recruit Posting Ticket (Wizard/Mobile)" add_name="Recruit Posting Ticket (Wizard/Mobile)">
+	<etcitem id="6831" name="Recruit Posting Ticket (Wizard/Mobile)">
 	<!-- Goddard/Wizard/Mobile. Posting possible when Seal of Strife is owned by Dusk. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -383,7 +383,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6832" name="Nephilim Warrior Posting Ticket (Sword/Mobile)" add_name="Nephilim Warrior Posting Ticket (Sword/Mobile)">
+	<etcitem id="6832" name="Nephilim Warrior Posting Ticket (Sword/Mobile)">
 	<!-- Goddard/Sword/Mobile. Posting possible when Seal of Strife is owned by Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -395,7 +395,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6833" name="Nephilim Shaman Posting Ticket (Wizard/Mobile)" add_name="Nephilim Shaman Posting Ticket (Wizard/Mobile)">
+	<etcitem id="6833" name="Nephilim Shaman Posting Ticket (Wizard/Mobile)">
 	<!-- Goddard/Wizard/Mobile. Posting possible when Seal of Strife is owned by Dawn. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -407,7 +407,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="6847" name="Recipe: Sealed Tateossian Earring (70%)" add_name="Recipe: Sealed Tateossian Earring (70%)">
+	<etcitem id="6847" name="Recipe: Sealed Tateossian Earring (70%)">
 	<!-- For Dwarves only. Recipe for sealed Tateossian earrings. Requires Create Item - Skill Level 9. The success rate is 70%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -418,7 +418,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6848" name="Recipe: Sealed Tateossian Earring" add_name="Recipe: Sealed Tateossian Earring">
+	<etcitem id="6848" name="Recipe: Sealed Tateossian Earring">
 	<!-- For Dwarves only. Recipe for sealed Tateossian earrings. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -429,7 +429,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6849" name="Recipe: Sealed Tateossian Ring(70%)" add_name="Recipe: Sealed Tateossian Ring(70%)">
+	<etcitem id="6849" name="Recipe: Sealed Tateossian Ring(70%)">
 	<!-- For Dwarves only. Recipe for a Sealed Tateossian Ring. Requires Create Item - Skill Level 9. The success rate is 70%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -440,7 +440,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6850" name="Recipe: Sealed Tateossian Ring(100%)" add_name="Recipe: Sealed Tateossian Ring(100%)">
+	<etcitem id="6850" name="Recipe: Sealed Tateossian Ring(100%)">
 	<!-- For Dwarves only. Recipe for a Sealed Tateossian Ring. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -451,7 +451,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6851" name="Recipe: Sealed Tateossian Necklace(70%)" add_name="Recipe: Sealed Tateossian Necklace(70%)">
+	<etcitem id="6851" name="Recipe: Sealed Tateossian Necklace(70%)">
 	<!-- For Dwarves only. Recipe for a Sealed Tateossian Necklace. Requires Create Item - Skill Level 9. The success rate is 70%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -462,7 +462,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6852" name="Recipe: Sealed Tateossian Necklace(100%)" add_name="Recipe: Sealed Tateossian Necklace(100%)">
+	<etcitem id="6852" name="Recipe: Sealed Tateossian Necklace(100%)">
 	<!-- For Dwarves only. Recipe for a Sealed Tateossian Necklace. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -473,7 +473,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6853" name="Recipe: Sealed Imperial Crusader Breastplate (60%)" add_name="Recipe: Sealed Imperial Crusader Breastplate (60%)">
+	<etcitem id="6853" name="Recipe: Sealed Imperial Crusader Breastplate (60%)">
 	<!-- For Dwarves only. Recipe for a Sealed Imperial Crusader Breastplate. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -484,7 +484,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6854" name="Recipe: Sealed Imperial Crusader Breastplate" add_name="Recipe: Sealed Imperial Crusader Breastplate">
+	<etcitem id="6854" name="Recipe: Sealed Imperial Crusader Breastplate">
 	<!-- For Dwarves only. Recipe for a Sealed Imperial Crusader Breastplate. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -495,7 +495,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6855" name="Recipe: Sealed Imperial Crusader Gaiters (60%)" add_name="Recipe: Sealed Imperial Crusader Gaiters (60%)">
+	<etcitem id="6855" name="Recipe: Sealed Imperial Crusader Gaiters (60%)">
 	<!-- For Dwarves only. Recipe for Sealed Imperial Crusader Gaiters. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -506,7 +506,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6856" name="Recipe: Sealed Imperial Crusader Gaiters" add_name="Recipe: Sealed Imperial Crusader Gaiters">
+	<etcitem id="6856" name="Recipe: Sealed Imperial Crusader Gaiters">
 	<!-- For Dwarves only. Recipe for Sealed Imperial Crusader Gaiters. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -517,7 +517,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6857" name="Recipe: Sealed Imperial Crusader Gauntlets (60%)" add_name="Recipe: Sealed Imperial Crusader Gauntlets (60%)">
+	<etcitem id="6857" name="Recipe: Sealed Imperial Crusader Gauntlets (60%)">
 	<!-- For Dwarves only. Recipe for Sealed Imperial Crusader Gauntlets. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -528,7 +528,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6858" name="Recipe: Sealed Imperial Crusader Gauntlets" add_name="Recipe: Sealed Imperial Crusader Gauntlets">
+	<etcitem id="6858" name="Recipe: Sealed Imperial Crusader Gauntlets">
 	<!-- For Dwarves only. Recipe for Sealed Imperial Crusader Gauntlets. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -539,7 +539,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6859" name="Recipe: Sealed Imperial Crusader Boots (60%)" add_name="Recipe: Sealed Imperial Crusader Boots (60%)">
+	<etcitem id="6859" name="Recipe: Sealed Imperial Crusader Boots (60%)">
 	<!-- For Dwarves only. Recipe for a Sealed Imperial Crusader Boots. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -550,7 +550,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6860" name="Recipe: Sealed Imperial Crusader Boots" add_name="Recipe: Sealed Imperial Crusader Boots">
+	<etcitem id="6860" name="Recipe: Sealed Imperial Crusader Boots">
 	<!-- For Dwarves only. Recipe for a Sealed Imperial Crusader Boots. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -561,7 +561,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6861" name="Recipe: Sealed Imperial Crusader Shield (60%)" add_name="Recipe: Sealed Imperial Crusader Shield (60%)">
+	<etcitem id="6861" name="Recipe: Sealed Imperial Crusader Shield (60%)">
 	<!-- For Dwarves only. Recipe for a Sealed Imperial Crusader Shield. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -572,7 +572,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6862" name="Recipe: Sealed Imperial Crusader Shield" add_name="Recipe: Sealed Imperial Crusader Shield">
+	<etcitem id="6862" name="Recipe: Sealed Imperial Crusader Shield">
 	<!-- For Dwarves only. Recipe for a Sealed Imperial Crusader Shield. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -583,7 +583,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6863" name="Recipe: Sealed Imperial Crusader Helmet (60%)" add_name="Recipe: Sealed Imperial Crusader Helmet (60%)">
+	<etcitem id="6863" name="Recipe: Sealed Imperial Crusader Helmet (60%)">
 	<!-- For Dwarves only. Recipe for a Sealed Imperial Crusader Helmet. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -594,7 +594,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6864" name="Recipe: Sealed Imperial Crusader Helmet" add_name="Recipe: Sealed Imperial Crusader Helmet">
+	<etcitem id="6864" name="Recipe: Sealed Imperial Crusader Helmet">
 	<!-- For Dwarves only. Recipe for a Sealed Imperial Crusader Helmet. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -605,7 +605,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6865" name="Recipe: Sealed Draconic Leather Armor (60%)" add_name="Recipe: Sealed Draconic Leather Armor (60%)">
+	<etcitem id="6865" name="Recipe: Sealed Draconic Leather Armor (60%)">
 	<!-- For Dwarves only. Recipe for Sealed Draconic Leather Armor. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -616,7 +616,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6866" name="Recipe: Sealed Draconic Leather Armor" add_name="Recipe: Sealed Draconic Leather Armor">
+	<etcitem id="6866" name="Recipe: Sealed Draconic Leather Armor">
 	<!-- For Dwarves only. Recipe for Sealed Draconic Leather Armor. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -627,7 +627,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6867" name="Recipe: Sealed Draconic Leather Gloves (60%)" add_name="Recipe: Sealed Draconic Leather Gloves (60%)">
+	<etcitem id="6867" name="Recipe: Sealed Draconic Leather Gloves (60%)">
 	<!-- For Dwarves only. Recipe for Sealed Draconic Leather Gloves. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -638,7 +638,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6868" name="Recipe: Sealed Draconic Leather Gloves" add_name="Recipe: Sealed Draconic Leather Gloves">
+	<etcitem id="6868" name="Recipe: Sealed Draconic Leather Gloves">
 	<!-- For Dwarves only. Recipe for Sealed Draconic Leather Gloves. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -649,7 +649,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6869" name="Recipe: Sealed Draconic Leather Boots (60%)" add_name="Recipe: Sealed Draconic Leather Boots (60%)">
+	<etcitem id="6869" name="Recipe: Sealed Draconic Leather Boots (60%)">
 	<!-- For Dwarves only. Recipe for Sealed Draconic Leather Boots. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -660,7 +660,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6870" name="Recipe: Sealed Draconic Leather Boots" add_name="Recipe: Sealed Draconic Leather Boots">
+	<etcitem id="6870" name="Recipe: Sealed Draconic Leather Boots">
 	<!-- For Dwarves only. Recipe for Sealed Draconic Leather Boots. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -671,7 +671,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6871" name="Recipe: Sealed Draconic Leather Helmet (60%)" add_name="Recipe: Sealed Draconic Leather Helmet (60%)">
+	<etcitem id="6871" name="Recipe: Sealed Draconic Leather Helmet (60%)">
 	<!-- For Dwarves only. Recipe for a Sealed Draconic Leather Helmet. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -682,7 +682,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6872" name="Recipe: Sealed Draconic Leather Helmet" add_name="Recipe: Sealed Draconic Leather Helmet">
+	<etcitem id="6872" name="Recipe: Sealed Draconic Leather Helmet">
 	<!-- For Dwarves only. Recipe for a Sealed Draconic Leather Helmet. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -693,7 +693,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6873" name="Recipe: Sealed Major Arcana Robe (60%)" add_name="Recipe: Sealed Major Arcana Robe (60%)">
+	<etcitem id="6873" name="Recipe: Sealed Major Arcana Robe (60%)">
 	<!-- For Dwarves only. Recipe for a Sealed Major Arcana Robe. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -704,7 +704,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6874" name="Recipe: Sealed Major Arcana Robe" add_name="Recipe: Sealed Major Arcana Robe">
+	<etcitem id="6874" name="Recipe: Sealed Major Arcana Robe">
 	<!-- For Dwarves only. Recipe for a Sealed Major Arcana Robe. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -715,7 +715,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6875" name="Recipe: Sealed Major Arcana Gloves (60%)" add_name="Recipe: Sealed Major Arcana Gloves (60%)">
+	<etcitem id="6875" name="Recipe: Sealed Major Arcana Gloves (60%)">
 	<!-- For Dwarves only. Recipe for Sealed Major Arcana Gloves. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -726,7 +726,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6876" name="Recipe: Sealed Major Arcana Gloves" add_name="Recipe: Sealed Major Arcana Gloves">
+	<etcitem id="6876" name="Recipe: Sealed Major Arcana Gloves">
 	<!-- For Dwarves only. Recipe for Sealed Major Arcana Gloves. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -737,7 +737,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6877" name="Recipe: Sealed Major Arcana Boots (60%)" add_name="Recipe: Sealed Major Arcana Boots (60%)">
+	<etcitem id="6877" name="Recipe: Sealed Major Arcana Boots (60%)">
 	<!-- For Dwarves only. Recipe for Sealed Major Arcana Boots. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -748,7 +748,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6878" name="Recipe: Sealed Major Arcana Boots" add_name="Recipe: Sealed Major Arcana Boots">
+	<etcitem id="6878" name="Recipe: Sealed Major Arcana Boots">
 	<!-- For Dwarves only. Recipe for Sealed Major Arcana Boots. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -759,7 +759,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6879" name="Recipe: Sealed Major Arcana Circlet (60%)" add_name="Recipe: Sealed Major Arcana Circlet (60%)">
+	<etcitem id="6879" name="Recipe: Sealed Major Arcana Circlet (60%)">
 	<!-- For Dwarves only. Recipe for a Sealed Major Arcana Circlet. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -770,7 +770,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6880" name="Recipe: Sealed Major Arcana Circlet" add_name="Recipe: Sealed Major Arcana Circlet">
+	<etcitem id="6880" name="Recipe: Sealed Major Arcana Circlet">
 	<!-- For Dwarves only. Recipe for a Sealed Major Arcana Circlet. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -781,7 +781,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6881" name="Recipe: Forgotten Blade (60%)" add_name="Recipe: Forgotten Blade (60%)">
+	<etcitem id="6881" name="Recipe: Forgotten Blade (60%)">
 	<!-- For Dwarves only. Recipe for a Forgotten Blade. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -792,7 +792,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6882" name="Recipe: Forgotten Blade" add_name="Recipe: Forgotten Blade">
+	<etcitem id="6882" name="Recipe: Forgotten Blade">
 	<!-- For Dwarves only. Recipe for a Forgotten Blade. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -803,7 +803,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6883" name="Recipe: Basalt Battlehammer (60%)" add_name="Recipe: Basalt Battlehammer (60%)">
+	<etcitem id="6883" name="Recipe: Basalt Battlehammer (60%)">
 	<!-- For Dwarves only. Recipe for a Basalt Battlehammer. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -814,7 +814,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6884" name="Recipe: Basalt Battlehammer" add_name="Recipe: Basalt Battlehammer">
+	<etcitem id="6884" name="Recipe: Basalt Battlehammer">
 	<!-- For Dwarves only. Recipe for a Basalt Battlehammer. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -825,7 +825,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6885" name="Recipe: Imperial Staff (60%)" add_name="Recipe: Imperial Staff (60%)">
+	<etcitem id="6885" name="Recipe: Imperial Staff (60%)">
 	<!-- For Dwarves only. Recipe for an Imperial Staff. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -836,7 +836,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6886" name="Recipe: Imperial Staff(100%)" add_name="Recipe: Imperial Staff(100%)">
+	<etcitem id="6886" name="Recipe: Imperial Staff(100%)">
 	<!-- For Dwarves only. Recipe for an Imperial Staff. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -847,7 +847,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6887" name="Recipe: Angel Slayer (60%)" add_name="Recipe: Angel Slayer (60%)">
+	<etcitem id="6887" name="Recipe: Angel Slayer (60%)">
 	<!-- For Dwarves only. Recipe for an Angel Slayer. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -858,7 +858,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6888" name="Recipe: Angel Slayer" add_name="Recipe: Angel Slayer">
+	<etcitem id="6888" name="Recipe: Angel Slayer">
 	<!-- For Dwarves only. Recipe for an Angel Slayer. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -869,7 +869,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6889" name="Recipe: Bow of Light (60%)" add_name="Recipe: Bow of Light (60%)">
+	<etcitem id="6889" name="Recipe: Bow of Light (60%)">
 	<!-- For Dwarves only. Recipe for a Bow of Light. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -880,7 +880,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6890" name="Recipe: Bow of Light" add_name="Recipe: Bow of Light">
+	<etcitem id="6890" name="Recipe: Bow of Light">
 	<!-- For Dwarves only. Recipe for a Bow of Light. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -891,7 +891,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6891" name="Recipe: Dragon Hunter Axe (60%)" add_name="Recipe: Dragon Hunter Axe (60%)">
+	<etcitem id="6891" name="Recipe: Dragon Hunter Axe (60%)">
 	<!-- For Dwarves only. Recipe for a Dragon Hunter Axe. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -902,7 +902,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6892" name="Recipe: Dragon Hunter Axe" add_name="Recipe: Dragon Hunter Axe">
+	<etcitem id="6892" name="Recipe: Dragon Hunter Axe">
 	<!-- For Dwarves only. Recipe for a Dragon Hunter Axe. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -913,7 +913,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6893" name="Recipe: Saint Spear (60%)" add_name="Recipe: Saint Spear (60%)">
+	<etcitem id="6893" name="Recipe: Saint Spear (60%)">
 	<!-- For Dwarves only. Recipe for a Saint Spear. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -924,7 +924,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6894" name="Recipe: Saint Spear" add_name="Recipe: Saint Spear">
+	<etcitem id="6894" name="Recipe: Saint Spear">
 	<!-- For Dwarves only. Recipe for a Saint Spear. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -935,7 +935,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6895" name="Recipe: Demon Splinter (60%)" add_name="Recipe: Demon Splinter (60%)">
+	<etcitem id="6895" name="Recipe: Demon Splinter (60%)">
 	<!-- For Dwarves only. Recipe for a Demon Splinter. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -946,7 +946,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6896" name="Recipe: Demon Splinter" add_name="Recipe: Demon Splinter">
+	<etcitem id="6896" name="Recipe: Demon Splinter">
 	<!-- For Dwarves only. Recipe for a Demon Splinter. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -957,7 +957,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6897" name="Recipe: Heaven's Divider (60%)" add_name="Recipe: Heaven's Divider (60%)">
+	<etcitem id="6897" name="Recipe: Heaven's Divider (60%)">
 	<!-- For Dwarves only. Recipe for a Heaven's Divider. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -968,7 +968,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6898" name="Recipe: Heaven's Divider" add_name="Recipe: Heaven's Divider">
+	<etcitem id="6898" name="Recipe: Heaven's Divider">
 	<!-- For Dwarves only. Recipe for a Heaven's Divider. Requires Create Item - Skill Level 9. The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -979,7 +979,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="6899" name="Recipe: Arcana Mace (60%)" add_name="Recipe: Arcana Mace (60%)">
+	<etcitem id="6899" name="Recipe: Arcana Mace (60%)">
 	<!-- For Dwarves only. Recipe for an Arcana Mace. Requires Create Item - Skill Level 9. The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>

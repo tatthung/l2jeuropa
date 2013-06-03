@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="20602" name="Soul Silver Foil (Event)" add_name="Soul Silver Foil (Event)">
+	<etcitem id="20602" name="Soul Silver Foil (Event)">
 	<!-- Silver Foil to comfort a spirit of monster.
 	When used on a corpse of monster, increases max HP by 60%, max MP by 60%, max CP by 60%, P. Def. by 30%, Magic Def. by 30%, Speed by 30, P. Atk. by 20%, and decreases skill MP consumption by 10% for 2 min. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="class" value="OTHER"/>
@@ -18,7 +18,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="20603" name="Soul Scent (Event)" add_name="Soul Scent (Event)">
+	<etcitem id="20603" name="Soul Scent (Event)">
 	<!-- Scent to comfort a spirit of monster.
 	When used on a corpse of monster, increases max HP by 40%, max CP by 40%, P. Def. by 30%, Magic Def. by 30%, Speed by 20, P. Atk. by 45%, and decreases skill MP consumption by 10% for 2 min. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="class" value="OTHER"/>
@@ -35,7 +35,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="20604" name="Low-Class Certificate (Event)" add_name="Low-Class Certificate (Event)">
+	<etcitem id="20604" name="Low-Class Certificate (Event)">
 	<!-- A Certificate that shows you received the Event Small Scroll Chest. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -43,7 +43,7 @@
 		<set name="icon" value="icon.etc_royal_membership_i00"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="20605" name="Mid-grade Certificate (Event)" add_name="Mid-grade Certificate (Event)">
+	<etcitem id="20605" name="Mid-grade Certificate (Event)">
 	<!-- A Certificate that shows you received the Event Large Scroll Chest. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -51,7 +51,7 @@
 		<set name="icon" value="icon.etc_royal_membership_i00"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="20606" name="High-class Certificate (Event)" add_name="High-class Certificate (Event)">
+	<etcitem id="20606" name="High-class Certificate (Event)" add_name="(8-hour)">
 	<!-- A Certificate that shows you received the Event Chest of Experience. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -59,7 +59,7 @@
 		<set name="icon" value="icon.etc_royal_membership_i00"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="20607" name="Headphone Pack" add_name="Headphone Pack">
+	<etcitem id="20607" name="Headphone Pack" add_name="Town Theme">
 	<!-- Wrapped Pack containing a Headphone. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -72,7 +72,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20608" name="Headphone Pack" add_name="Headphone Pack">
+	<etcitem id="20608" name="Headphone Pack" add_name="Hero Theme">
 	<!-- Wrapped Pack containing a Headphone. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -85,7 +85,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20609" name="Headphone Pack" add_name="Headphone Pack">
+	<etcitem id="20609" name="Headphone Pack" add_name="Theme Park">
 	<!-- Wrapped Pack containing a Headphone. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -98,7 +98,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20610" name="Headphone Pack (7-day)" add_name="Headphone Pack (7-day)">
+	<etcitem id="20610" name="Headphone Pack (7-day)" add_name="Town Theme : Great Adventurer's Soul Power">
 	<!-- Wrapped Pack containing a Headphone (7-day). Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -111,7 +111,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20611" name="Headphone Pack (7-day)" add_name="Headphone Pack (7-day)">
+	<etcitem id="20611" name="Headphone Pack (7-day)" add_name="Hero Theme : Brave Warrior's Soul Power">
 	<!-- Wrapped Pack containing a Headphone (7-day). Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -124,7 +124,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20612" name="Headphone Pack (7-day)" add_name="Headphone Pack (7-day)">
+	<etcitem id="20612" name="Headphone Pack (7-day)" add_name="Theme Park : Great Wizard's Soul Power">
 	<!-- Wrapped Pack containing a Headphone (7-day). Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -137,7 +137,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20619" name="Agathion - Weaver 24-hour Pack" add_name="Agathion - Weaver 24-hour Pack">
+	<etcitem id="20619" name="Agathion - Weaver 24-hour Pack" add_name="Flute Sound">
 	<!-- Wrapped Pack containing an Agathion - Weaver (24-hour). No sale available. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -148,7 +148,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20620" name="Agathion - Weaver Pack (3-day)" add_name="Agathion - Weaver Pack (3-day)">
+	<etcitem id="20620" name="Agathion - Weaver Pack (3-day)" add_name="Flute Sound">
 	<!-- Wrapped Pack containing an Agathion - Weaver (3 day). No sale available. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -159,7 +159,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20623" name="Soul Silver Foil - Scent Pack" add_name="Soul Silver Foil - Scent Pack">
+	<etcitem id="20623" name="Soul Silver Foil - Scent Pack">
 	<!-- Wrapped containing silver foil and scent that comfort the souls of monsters. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -171,7 +171,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20624" name="Soul Scent 100-unit Pack" add_name="Soul Scent 100-unit Pack">
+	<etcitem id="20624" name="Soul Scent 100-unit Pack">
 	<!-- Wrapped containing scent that comfort the souls of monsters. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -183,7 +183,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20625" name="Anniversary Hat Pack (7-day)" add_name="Anniversary Hat Pack (7-day)">
+	<etcitem id="20625" name="Anniversary Hat Pack (7-day)" add_name="Resurrection">
 	<!-- Wrapped Pack containing an Anniversary Hat (7-day). Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -196,7 +196,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20627" name="Summon of Love Bracelet Pack (7-day)" add_name="Summon of Love Bracelet Pack (7-day)">
+	<etcitem id="20627" name="Summon of Love Bracelet Pack (7-day)">
 	<!-- Wrapped Pack containing a Summon of Love Bracelet (7-day). Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -209,7 +209,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20629" name="Fortune Box of Love (Event)" add_name="Fortune Box of Love (Event)">
+	<etcitem id="20629" name="Fortune Box of Love (Event)">
 	<!-- Can receive a Love Summon bracelet with a certain chance. Can be stored in a private warehouse. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -222,7 +222,7 @@
 		</skills>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="20630" name="Soul Magic Box" add_name="Soul Magic Box">
+	<etcitem id="20630" name="Soul Magic Box">
 	<!-- If you Double-click, Soul Silver Foil and Soul Scent items are created. No exchange/drop/sale/destroy available. (You can only use on every 24 hours.) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -236,7 +236,7 @@
 			<skill id="22102" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="20631" name="Watermelon Hat Pack (7-day)" add_name="Watermelon Hat Pack (7-day)">
+	<etcitem id="20631" name="Watermelon Hat Pack (7-day)">
 	<!-- Wrapped Pack containing a Laborer Hat (7-day). Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -249,7 +249,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20632" name="Watermelon Hat Pack" add_name="Watermelon Hat Pack">
+	<etcitem id="20632" name="Watermelon Hat Pack">
 	<!-- Wrapped Pack containing a Watermelon Hat. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -262,7 +262,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20635" name="No-grade Beginner's Adventurer Support Pack" add_name="No-grade Beginner's Adventurer Support Pack">
+	<etcitem id="20635" name="No-grade Beginner's Adventurer Support Pack">
 	<!-- Pack provided for new adventurers in Aden World. Contains No-grade items and cocktail drinks. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -274,7 +274,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20636" name="Warrior Support Pack (D-grade)" add_name="Warrior Support Pack (D-grade)">
+	<etcitem id="20636" name="Warrior Support Pack (D-grade)">
 	<!-- Pack provided for new adventurers in Aden World. Contains a D-grade Fighter item. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -286,7 +286,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20637" name="Wizard Support Pack (D-grade)" add_name="Wizard Support Pack (D-grade)">
+	<etcitem id="20637" name="Wizard Support Pack (D-grade)">
 	<!-- Pack provided for new adventurers in Aden World. Contains a D-grade Mage item. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -298,7 +298,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20638" name="Novice Adventurer Support Back" add_name="Novice Adventurer Support Back">
+	<etcitem id="20638" name="Novice Adventurer Support Back">
 	<!-- Pack provided for new adventurers in Aden World. Contains useful items. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -311,7 +311,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20680" name="Agathion - Lucky Girl Pack" add_name="Agathion - Lucky Girl Pack">
+	<etcitem id="20680" name="Agathion - Lucky Girl Pack">
 	<!-- Wrapped Pack containing an Agathion - Lucky Girl. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -324,7 +324,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20681" name="Agathion - Lucky Girl Pack (7-day)" add_name="Agathion - Lucky Girl Pack (7-day)">
+	<etcitem id="20681" name="Agathion - Lucky Girl Pack (7-day)" add_name="Brave Warrior's Soul Power">
 	<!-- Wrapped Pack containing an Agathion - Lucky Girl (7-day). Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -337,7 +337,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20682" name="Agathion - Lucky Boy Pack" add_name="Agathion - Lucky Boy Pack">
+	<etcitem id="20682" name="Agathion - Lucky Boy Pack">
 	<!-- Wrapped Pack containing an Agathion - Lucky Boy. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -350,7 +350,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20683" name="Agathion - Lucky Boy Pack (7-day)" add_name="Agathion - Lucky Boy Pack (7-day)">
+	<etcitem id="20683" name="Agathion - Lucky Boy Pack (7-day)" add_name="Great Wizard's Soul Power">
 	<!-- Wrapped Pack containing an Agathion - Lucky Boy (7-day). Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -363,7 +363,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20684" name="Agathion - Dancing Lucky Kid Pack" add_name="Agathion - Dancing Lucky Kid Pack">
+	<etcitem id="20684" name="Agathion - Dancing Lucky Kid Pack">
 	<!-- Wrapped Pack containing an Agathion - Dancing Lucky Kid  Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -376,7 +376,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20685" name="Agathion - Dancing Lucky Kid Pack (7 day)" add_name="Agathion - Dancing Lucky Kid Pack (7 day)">
+	<etcitem id="20685" name="Agathion - Dancing Lucky Kid Pack (7 day)" add_name="Great Adventurer's Soul Power">
 	<!-- Wrapped Pack containing an Agathion - Dancing Lucky Kid (7-day). Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -389,7 +389,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20686" name="Agathion - Monkey King Pack" add_name="Agathion - Monkey King Pack">
+	<etcitem id="20686" name="Agathion - Monkey King Pack">
 	<!-- Wrapped Pack containing Agathion - Monkey King. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -402,7 +402,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20687" name="Agathion - Monkey King Pack (7-day)" add_name="Agathion - Monkey King Pack (7-day)">
+	<etcitem id="20687" name="Agathion - Monkey King Pack (7-day)" add_name="Great Wizard's Soul Power">
 	<!-- Dimensional Item Pack
 	Wrapped Pack containing 1 Agathion - Monkey King (7-day). Cannot be exchanged or dropped. Can be shared between characters within the same account through the Dimensional Merchant. -->
 		<set name="freightable" value="true"/>
@@ -416,7 +416,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20688" name="Agathion - Uthanka Pack" add_name="Agathion - Uthanka Pack">
+	<etcitem id="20688" name="Agathion - Uthanka Pack">
 	<!-- Wrapped Pack containing an Agathion - Uthanka. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -429,7 +429,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20689" name="Agathion - Uthanka Pack (7-day)" add_name="Agathion - Uthanka Pack (7-day)">
+	<etcitem id="20689" name="Agathion - Uthanka Pack (7-day)" add_name="Brave Warrior's Soul Power">
 	<!-- Wrapped Pack containing an Agathion - Uthanka (7-day). Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -442,7 +442,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20690" name="Agathion - Bonus B Pack" add_name="Agathion - Bonus B Pack">
+	<etcitem id="20690" name="Agathion - Bonus B Pack">
 	<!-- Wrapped Pack containing an Agathion - Bonus B. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -455,7 +455,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20691" name="Agathion - Bonus B Pack (7-day)" add_name="Agathion - Bonus B Pack (7-day)">
+	<etcitem id="20691" name="Agathion - Bonus B Pack (7-day)" add_name="Great Adventurer's Soul Power">
 	<!-- Wrapped Pack containing an Agathion - Bonus B (7-day). Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -468,7 +468,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20692" name="Valkyrie Hat Pack" add_name="Valkyrie Hat Pack">
+	<etcitem id="20692" name="Valkyrie Hat Pack">
 	<!-- Wrapped Pack containing a Valkyrie Hat. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -481,7 +481,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20693" name="Valkyrie Hat Pack (7-day)" add_name="Valkyrie Hat Pack (7-day)">
+	<etcitem id="20693" name="Valkyrie Hat Pack (7-day)" add_name="Great Adventurer's Soul Power">
 	<!-- Wrapped Pack containing a Valkyrie Hat (7-day). Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -494,7 +494,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20694" name="Tiger Hat Pack" add_name="Tiger Hat Pack">
+	<etcitem id="20694" name="Tiger Hat Pack">
 	<!-- Wrapped Pack containing a Tiger Hat. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -507,7 +507,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20695" name="Tiger Hat Pack (7-day)" add_name="Tiger Hat Pack (7-day)">
+	<etcitem id="20695" name="Tiger Hat Pack (7-day)" add_name="Brave Warrior's Soul Power">
 	<!-- Wrapped Pack containing a Tiger Hat (7-day). Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -520,7 +520,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20696" name="Maid Hairband Pack" add_name="Maid Hairband Pack">
+	<etcitem id="20696" name="Maid Hairband Pack">
 	<!-- Wrapped Pack containing a Maid Hairband. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -533,7 +533,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20697" name="Maid Hairband Pack (7-day)" add_name="Maid Hairband Pack (7-day)">
+	<etcitem id="20697" name="Maid Hairband Pack (7-day)" add_name="Great Wizard's Soul Power">
 	<!-- Wrapped Pack containing a Maid Hairband (7-day). Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -546,7 +546,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20698" name="Baby Panda Hat Pack" add_name="Baby Panda Hat Pack">
+	<etcitem id="20698" name="Baby Panda Hat Pack">
 	<!-- Wrapped Pack containing a Baby Panda Hat. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -559,7 +559,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20699" name="Baby Panda Hat Pack (7-day)" add_name="Baby Panda Hat Pack (7-day)">
+	<etcitem id="20699" name="Baby Panda Hat Pack (7-day)" add_name="Blessed Escape">
 	<!-- Dimensional Item Pack
 	Wrapped Pack containing a Baby Panda Hat (7-day). Cannot be exchanged, dropped, or sold. Can be shared between characters within the same account through the Dimensional Merchant. -->
 		<set name="freightable" value="true"/>

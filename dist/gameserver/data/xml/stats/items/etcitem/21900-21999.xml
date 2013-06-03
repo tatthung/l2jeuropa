@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="21900" name="Totem of Spirit" add_name="Totem of Spirit">
+	<etcitem id="21900" name="Totem of Spirit">
 	<!-- Summons a totem that increases MP Recovery Rate by 15%. Total duration is 30 min. Can only be used inside the lairs of Valakas and Antharas. But cannot be used in "Balthus Knights - Antharas Expedition." cooldown is 10 min. -->
 		<set name="icon" value="BranchSys2.icon.totem_of_mind"/>
 		<set name="weight" value="10"/>
@@ -20,7 +20,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="21901" name="Totem of Courage" add_name="Totem of Courage">
+	<etcitem id="21901" name="Totem of Courage">
 	<!-- Summons a totem that increases P. Def. by 15% and cancels fear at a certain cycle. Total duration is 30 min. Can only be used inside the lairs of Valakas and Antharas. But cannot be used in "Balthus Knights - Antharas Expedition." cooldown is 10 min. -->
 		<set name="icon" value="BranchSys2.icon.totem_of_bravery"/>
 		<set name="weight" value="10"/>
@@ -39,7 +39,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="21902" name="Totem of Fortitude" add_name="Totem of Fortitude">
+	<etcitem id="21902" name="Totem of Fortitude">
 	<!-- Summons a totem that increases M. Def. by 25% and cancels petrification at a certain cycle. Total duration is 30 min. Can only be used inside the lairs of Valakas and Antharas. But cannot be used in "Balthus Knights - Antharas Expedition." cooldown is 10 min. -->
 		<set name="icon" value="BranchSys2.icon.totem_of_fortitude"/>
 		<set name="weight" value="10"/>
@@ -58,7 +58,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="21903" name="Refined Red Dragon Blood" add_name="Refined Red Dragon Blood">
+	<etcitem id="21903" name="Refined Red Dragon Blood">
 	<!-- When used, instantly recovers some HP to yourself and to party members. Can only be used inside the lairs of Valakas and Antharas. Cooldown is 5 min. -->
 		<set name="icon" value="BranchSys2.icon.refined_red_blood_of_dragon"/>
 		<set name="weight" value="10"/>
@@ -77,7 +77,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="21904" name="Refined Blue Dragon Blood" add_name="Refined Blue Dragon Blood">
+	<etcitem id="21904" name="Refined Blue Dragon Blood">
 	<!-- When used, instantly recovers some MP to yourself and to party members. Can only be used inside the lairs of Valakas and Antharas. Cooldown is 5 min. -->
 		<set name="icon" value="BranchSys2.icon.refined_blue_blood_of_dragon"/>
 		<set name="weight" value="10"/>
@@ -96,7 +96,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="21905" name="Clear Crystal" add_name="Clear Crystal">
+	<etcitem id="21905" name="Clear Crystal">
 	<!-- There is nothing inside the clear crystal. Rumors say that this crystal can store the Antharas' energy. -->
 		<set name="icon" value="icon.etc_bead_white_i00"/>
 		<set name="stackable" value="true"/>
@@ -105,7 +105,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21906" name="Empty Crystal" add_name="Empty Crystal">
+	<etcitem id="21906" name="Empty Crystal">
 	<!-- There is nothing inside the empty crystal. Rumors say that this crystal can store the Valakas' energy. -->
 		<set name="icon" value="icon.etc_bead_white_i00"/>
 		<set name="stackable" value="true"/>
@@ -114,7 +114,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21907" name="Filled Crystal (Antharas Energy)" add_name="Filled Crystal (Antharas Energy)">
+	<etcitem id="21907" name="Filled Crystal (Antharas Energy)">
 	<!-- Crystal containing the land dragon's energy. You must bring it to Theodric. -->
 		<set name="icon" value="icon.etc_bead_gold_i00"/>
 		<set name="stackable" value="true"/>
@@ -123,7 +123,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21908" name="Filled Crystal (Valakas Energy)" add_name="Filled Crystal (Valakas Energy)">
+	<etcitem id="21908" name="Filled Crystal (Valakas Energy)">
 	<!-- Crystal containing the fire dragon's energy. You must bring it to Klein. -->
 		<set name="icon" value="icon.etc_bead_red_i00"/>
 		<set name="stackable" value="true"/>
@@ -132,7 +132,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21909" name="Lavasaurus Stone Fragment" add_name="Lavasaurus Stone Fragment">
+	<etcitem id="21909" name="Lavasaurus Stone Fragment">
 	<!-- Stone fragment from a Lavasaurus. Researchers say this is what controls how a Lavasaurus moves. -->
 		<set name="icon" value="icon.etc_broken_crystal_silver_i00"/>
 		<set name="stackable" value="true"/>
@@ -141,7 +141,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21910" name="Lavasaurus Head Fragment" add_name="Lavasaurus Head Fragment">
+	<etcitem id="21910" name="Lavasaurus Head Fragment">
 	<!-- Fragment from the head of a Lavasaurus. Its shape resembles that of a Dragon. -->
 		<set name="icon" value="icon.etc_broken_crystal_silver_i00"/>
 		<set name="stackable" value="true"/>
@@ -150,7 +150,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21911" name="Lavasaurus Body Fragment" add_name="Lavasaurus Body Fragment">
+	<etcitem id="21911" name="Lavasaurus Body Fragment">
 	<!-- Fragment taken from the body of a Lavasaurus. -->
 		<set name="icon" value="icon.etc_broken_crystal_silver_i00"/>
 		<set name="stackable" value="true"/>
@@ -159,7 +159,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21912" name="Lavasaurus Horn Fragment" add_name="Lavasaurus Horn Fragment">
+	<etcitem id="21912" name="Lavasaurus Horn Fragment">
 	<!-- Fragment from a Lavasaurus horn. -->
 		<set name="icon" value="icon.etc_broken_crystal_silver_i00"/>
 		<set name="stackable" value="true"/>
@@ -168,7 +168,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21913" name="Unrefined Red Dragon Blood" add_name="Unrefined Red Dragon Blood">
+	<etcitem id="21913" name="Unrefined Red Dragon Blood">
 	<!-- Unrefined Red Dragon Blood collected from the dragons inside the Lair of Antharas. -->
 		<set name="icon" value="icon.etc_potion_red_i00"/>
 		<set name="stackable" value="true"/>
@@ -177,7 +177,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21914" name="Unrefined Blue Dragon Blood" add_name="Unrefined Blue Dragon Blood">
+	<etcitem id="21914" name="Unrefined Blue Dragon Blood">
 	<!-- Unrefined Blue Dragon Blood collected from the dragons inside the Lair of Antharas. -->
 		<set name="icon" value="icon.etc_potion_blue_i00"/>
 		<set name="stackable" value="true"/>
@@ -186,7 +186,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21915" name="Ice Candy Piece" add_name="Ice Candy Piece">
+	<etcitem id="21915" name="Ice Candy Piece">
 	<!-- Sweet ice candy piece. Collect 50 and bring them back to Santa Claus to receive a reward. -->
 		<set name="icon" value="BranchSys.icon.br_valentine_cream_i00"/>
 		<set name="stackable" value="true"/>
@@ -195,7 +195,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21916" name="Super Kat the Cat Z Summon Necklace" add_name="Super Kat the Cat Z Summon Necklace">
+	<etcitem id="21916" name="Super Kat the Cat Z Summon Necklace">
 	<!-- Dimensional Item
 	Item that allows you to summon a Minion who temporarily casts magician-type battle support magic. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" value="BranchSys2.icon.g_supercat_cat_i00"/>
@@ -205,7 +205,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21917" name="Super Feline Queen Z Summon Necklace" add_name="Super Feline Queen Z Summon Necklace">
+	<etcitem id="21917" name="Super Feline Queen Z Summon Necklace">
 	<!-- Dimensional Item
 	Item that allows you to summon a Minion who temporarily casts magician-type battle support magic. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" value="BranchSys2.icon.g_supercat_queen_i00"/>
@@ -215,7 +215,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21918" name="Super Mew the Cat Z Summon Necklace" add_name="Super Mew the Cat Z Summon Necklace">
+	<etcitem id="21918" name="Super Mew the Cat Z Summon Necklace">
 	<!-- Dimensional Item
 	Item that allows you to summon a Minion who temporarily casts magician-type battle support magic. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" value="BranchSys2.icon.g_supercat_mew_i00"/>
@@ -225,7 +225,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21991" name="Tarask Dragon's Leather Fragment" add_name="Tarask Dragon's Leather Fragment">
+	<etcitem id="21991" name="Tarask Dragon's Leather Fragment">
 	<!-- Leathery hide from a Tarask Dragon. -->
 		<set name="icon" value="icon.etc_leather_yellow_i00"/>
 		<set name="stackable" value="true"/>
@@ -234,7 +234,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21992" name="Behemoth Dragon Leather" add_name="Behemoth Dragon Leather">
+	<etcitem id="21992" name="Behemoth Dragon Leather">
 	<!-- Leathery hide from a Behemoth Dragon. -->
 		<set name="icon" value="icon.etc_leather_yellow_i00"/>
 		<set name="stackable" value="true"/>
@@ -243,7 +243,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21993" name="Lavasaurus Alpha Fragment" add_name="Lavasaurus Alpha Fragment">
+	<etcitem id="21993" name="Lavasaurus Alpha Fragment">
 	<!-- Lavasaurus Alpha fragment piece. Bring it to Valakas Watchman Klein. -->
 		<set name="icon" value="icon.etc_broken_crystal_gold_i00"/>
 		<set name="stackable" value="true"/>
@@ -252,7 +252,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21994" name="Vitality Replenishing Potion 9-unit Pack" add_name="Vitality Replenishing Potion 9-unit Pack">
+	<etcitem id="21994" name="Vitality Replenishing Potion 9-unit Pack">
 	<!-- Dimensional Item Pack
 	Pack containing 9 units of Vitality Replenishing Potion. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be shared between characters on the same account through the Dimensional Merchant. -->
 		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
@@ -263,7 +263,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21995" name="Vitality Replenishing Potion 12-unit Pack" add_name="Vitality Replenishing Potion 12-unit Pack">
+	<etcitem id="21995" name="Vitality Replenishing Potion 12-unit Pack">
 	<!-- Dimensional Item Pack
 	Pack containing 12 units of Vitality Replenishing Potion. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be shared between characters on the same account through the Dimensional Merchant. -->
 		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
@@ -274,7 +274,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21996" name="Vitality Replenishing Potion 15-unit Pack" add_name="Vitality Replenishing Potion 15-unit Pack">
+	<etcitem id="21996" name="Vitality Replenishing Potion 15-unit Pack">
 	<!-- Can be shared between characters on the same account through the Dimensional Merchant. Dimensional Item Pack
 	Pack containing 15 units of Vitality Replenishing Potion. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
@@ -285,7 +285,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21997" name="Shattered Bones" add_name="Shattered Bones">
+	<etcitem id="21997" name="Shattered Bones">
 	<!-- Shattered bones that can be obtained from the Ketra Orcs and the Varka Silenos. Bring this to Rune Captain Mathias. -->
 		<set name="icon" value="icon.etc_broken_crystal_gold_i00"/>
 		<set name="stackable" value="true"/>
@@ -294,7 +294,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21998" name="Cannibalistic Stakato Leader Claw" add_name="Cannibalistic Stakato Leader Claw">
+	<etcitem id="21998" name="Cannibalistic Stakato Leader Claw">
 	<!-- Cannibalistic Stakato Leader Claw. Bring this to Rune Captain Mathias. -->
 		<set name="icon" value="icon.etc_parasite_i00"/>
 		<set name="stackable" value="true"/>
@@ -303,7 +303,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="21999" name="Anais Scroll" add_name="Anais Scroll">
+	<etcitem id="21999" name="Anais Scroll">
 	<!-- Magic scroll that belongs to Anais. Bring this to Rune Captain Mathias. -->
 		<set name="icon" value="BranchSys2.icon.g_ancient_book_piece_high"/>
 		<set name="stackable" value="true"/>

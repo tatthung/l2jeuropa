@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="4000" name="Mercenary Posting Ticket (Spear/Stationary)" add_name="Mercenary Posting Ticket (Spear/Stationary)">
+	<etcitem id="4000" name="Mercenary Posting Ticket (Spear/Stationary)">
 	<!-- Oren/Spear/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -13,7 +13,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4001" name="Mercenary Posting Ticket (Bow/Stationary)" add_name="Mercenary Posting Ticket (Bow/Stationary)">
+	<etcitem id="4001" name="Mercenary Posting Ticket (Bow/Stationary)">
 	<!-- Oren/Bow/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -25,7 +25,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4002" name="Mercenary Posting Ticket (Cleric/Stationary)" add_name="Mercenary Posting Ticket (Cleric/Stationary)">
+	<etcitem id="4002" name="Mercenary Posting Ticket (Cleric/Stationary)">
 	<!-- Oren/Cleric/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -37,7 +37,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4003" name="Mercenary Posting Ticket (Wizard/Stationary)" add_name="Mercenary Posting Ticket (Wizard/Stationary)">
+	<etcitem id="4003" name="Mercenary Posting Ticket (Wizard/Stationary)">
 	<!-- Oren/Wizard/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -49,7 +49,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4004" name="Mercenary Posting Ticket (Sword/Mobile)" add_name="Mercenary Posting Ticket (Sword/Mobile)">
+	<etcitem id="4004" name="Mercenary Posting Ticket (Sword/Mobile)">
 	<!-- Oren/Sword/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -61,7 +61,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4005" name="Mercenary Posting Ticket (Spear/Mobile)" add_name="Mercenary Posting Ticket (Spear/Mobile)">
+	<etcitem id="4005" name="Mercenary Posting Ticket (Spear/Mobile)">
 	<!-- Oren/Spear/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -73,7 +73,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4006" name="Mercenary Posting Ticket (Bow/Mobile)" add_name="Mercenary Posting Ticket (Bow/Mobile)">
+	<etcitem id="4006" name="Mercenary Posting Ticket (Bow/Mobile)">
 	<!-- Oren/Bow/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -85,7 +85,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4007" name="Mercenary Posting Ticket (Cleric/Mobile)" add_name="Mercenary Posting Ticket (Cleric/Mobile)">
+	<etcitem id="4007" name="Mercenary Posting Ticket (Cleric/Mobile)">
 	<!-- Oren/Cleric/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -97,7 +97,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4008" name="Mercenary Posting Ticket (Wizard/Mobile)" add_name="Mercenary Posting Ticket (Wizard/Mobile)">
+	<etcitem id="4008" name="Mercenary Posting Ticket (Wizard/Mobile)">
 	<!-- Oren/Wizard/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -109,7 +109,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4009" name="Mercenary Posting Ticket (Teleporter1)" add_name="Mercenary Posting Ticket (Teleporter1)">
+	<etcitem id="4009" name="Mercenary Posting Ticket (Teleporter1)">
 	<!-- Placed in Oren, at the Teleporter or inside the castle, this ticket allows teleportation to the inner castle or the guardian's location. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -121,7 +121,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4010" name="Mercenary Posting Ticket (Teleporter2)" add_name="Mercenary Posting Ticket (Teleporter2)">
+	<etcitem id="4010" name="Mercenary Posting Ticket (Teleporter2)">
 	<!-- Placed in Oren, at the Teleporter or inside the castle, this ticket allows teleportation to the outer castle or the guardian's location. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -133,7 +133,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4011" name="Mercenary Posting Ticket (Teleporter3)" add_name="Mercenary Posting Ticket (Teleporter3)">
+	<etcitem id="4011" name="Mercenary Posting Ticket (Teleporter3)">
 	<!-- Placed in Oren, at the Teleporter or inside the castle, this ticket allows teleportation to the inner or outer castle. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -145,7 +145,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4012" name="Mercenary Posting Ticket (Sword/Stationary)" add_name="Mercenary Posting Ticket (Sword/Stationary)">
+	<etcitem id="4012" name="Mercenary Posting Ticket (Sword/Stationary)">
 	<!-- Aden/Sword/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -157,7 +157,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4013" name="Mercenary Posting Ticket (Spear/Stationary)" add_name="Mercenary Posting Ticket (Spear/Stationary)">
+	<etcitem id="4013" name="Mercenary Posting Ticket (Spear/Stationary)">
 	<!-- Aden/Spear/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -169,7 +169,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4014" name="Mercenary Posting Ticket (Bow/Stationary)" add_name="Mercenary Posting Ticket (Bow/Stationary)">
+	<etcitem id="4014" name="Mercenary Posting Ticket (Bow/Stationary)">
 	<!-- Aden/Bow/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -181,7 +181,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4015" name="Mercenary Posting Ticket (Cleric/Stationary)" add_name="Mercenary Posting Ticket (Cleric/Stationary)">
+	<etcitem id="4015" name="Mercenary Posting Ticket (Cleric/Stationary)">
 	<!-- Aden/Cleric/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -193,7 +193,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4016" name="Mercenary Posting Ticket (Wizard/Stationary)" add_name="Mercenary Posting Ticket (Wizard/Stationary)">
+	<etcitem id="4016" name="Mercenary Posting Ticket (Wizard/Stationary)">
 	<!-- Aden/Wizard/Stationary. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -205,7 +205,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4017" name="Mercenary Posting Ticket (Sword/Mobile)" add_name="Mercenary Posting Ticket (Sword/Mobile)">
+	<etcitem id="4017" name="Mercenary Posting Ticket (Sword/Mobile)">
 	<!-- Aden/Sword/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -217,7 +217,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4018" name="Mercenary Posting Ticket (Spear/Mobile)" add_name="Mercenary Posting Ticket (Spear/Mobile)">
+	<etcitem id="4018" name="Mercenary Posting Ticket (Spear/Mobile)">
 	<!-- Aden/Spear/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -229,7 +229,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4019" name="Mercenary Posting Ticket (Bow/Mobile)" add_name="Mercenary Posting Ticket (Bow/Mobile)">
+	<etcitem id="4019" name="Mercenary Posting Ticket (Bow/Mobile)">
 	<!-- Aden/Bow/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -241,7 +241,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4020" name="Mercenary Posting Ticket (Cleric/Mobile)" add_name="Mercenary Posting Ticket (Cleric/Mobile)">
+	<etcitem id="4020" name="Mercenary Posting Ticket (Cleric/Mobile)">
 	<!-- Aden/Cleric/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -253,7 +253,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4021" name="Mercenary Posting Ticket (Wizard/Mobile)" add_name="Mercenary Posting Ticket (Wizard/Mobile)">
+	<etcitem id="4021" name="Mercenary Posting Ticket (Wizard/Mobile)">
 	<!-- Aden/Wizard/Mobile. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -265,7 +265,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4022" name="Mercenary Posting Ticket (Teleporter1)" add_name="Mercenary Posting Ticket (Teleporter1)">
+	<etcitem id="4022" name="Mercenary Posting Ticket (Teleporter1)">
 	<!-- Placed in Aden, at the Teleporter or inside the castle, this ticket allows teleportation to the East or West Gate of the inner castle, the halls or the guardian's location. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -277,7 +277,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4023" name="Mercenary Posting Ticket (Teleporter2)" add_name="Mercenary Posting Ticket (Teleporter2)">
+	<etcitem id="4023" name="Mercenary Posting Ticket (Teleporter2)">
 	<!-- Placed in Aden, at the Teleporter or inside the castle, this ticket allows teleportation to the outer castle, the East Gate of the inner castle, the halls or the guardian's location. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -289,7 +289,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4024" name="Mercenary Posting Ticket (Teleporter3)" add_name="Mercenary Posting Ticket (Teleporter3)">
+	<etcitem id="4024" name="Mercenary Posting Ticket (Teleporter3)">
 	<!-- Placed in Aden, at the Teleporter or inside the castle, this ticket allows teleportation to the outer castle, the West Gate of the inner castle, the halls or the guardian's location. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -301,7 +301,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4025" name="Mercenary Posting Ticket (Teleporter4)" add_name="Mercenary Posting Ticket (Teleporter4)">
+	<etcitem id="4025" name="Mercenary Posting Ticket (Teleporter4)">
 	<!-- Placed in Aden, at the Teleporter or inside the castle, this ticket allows teleportation to the outer castle, the East or West Gate of the inner castle, or the guardian's location. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -313,7 +313,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4026" name="Mercenary Posting Ticket (Teleporter5)" add_name="Mercenary Posting Ticket (Teleporter5)">
+	<etcitem id="4026" name="Mercenary Posting Ticket (Teleporter5)">
 	<!-- Placed in Aden, at the Teleporter or inside the castle, this ticket allows teleportation to the outer castle, the East or West Gate of the inner castle, or the halls. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -325,7 +325,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="MERCENARY_TICKET"/>
 	</etcitem>
-	<etcitem id="4029" name="Red Paper" add_name="Red Paper">
+	<etcitem id="4029" name="Red Paper">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -334,7 +334,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4030" name="Orange Paper" add_name="Orange Paper">
+	<etcitem id="4030" name="Orange Paper">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -343,7 +343,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4031" name="Yellow Paper" add_name="Yellow Paper">
+	<etcitem id="4031" name="Yellow Paper">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -352,7 +352,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4032" name="Green Paper" add_name="Green Paper">
+	<etcitem id="4032" name="Green Paper">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -361,7 +361,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4033" name="Blue Paper" add_name="Blue Paper">
+	<etcitem id="4033" name="Blue Paper">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -370,7 +370,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4034" name="Purple Paper" add_name="Purple Paper">
+	<etcitem id="4034" name="Purple Paper">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -379,7 +379,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4035" name="White Paper" add_name="White Paper">
+	<etcitem id="4035" name="White Paper">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -388,7 +388,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4036" name="Black Paper" add_name="Black Paper">
+	<etcitem id="4036" name="Black Paper">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -397,7 +397,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="QUEST"/>
 	</etcitem>
-	<etcitem id="4037" name="Coin of Luck" add_name="Coin of Luck">
+	<etcitem id="4037" name="Coin of Luck">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -407,7 +407,7 @@
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="4038" name="Hatchling Food" add_name="Hatchling Food">
+	<etcitem id="4038" name="Hatchling Food">
 	<!-- When the hunger gauge of a Hatchling reaches 55% or below, its food will be consumed automatically. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -427,7 +427,7 @@
 		</skills>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="4039" name="Mold Glue" add_name="Mold Glue">
+	<etcitem id="4039" name="Mold Glue">
 	<!-- Ingredient for making upper garment tools. Can also be sold at ordinary shops. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -437,7 +437,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="4040" name="Mold Lubricant" add_name="Mold Lubricant">
+	<etcitem id="4040" name="Mold Lubricant">
 	<!-- Ingredient for making upper garment tools. Can also be sold at ordinary shops. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -447,7 +447,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="4041" name="Mold Hardener" add_name="Mold Hardener">
+	<etcitem id="4041" name="Mold Hardener">
 	<!-- Ingredient for making upper garment tools. Can also be sold at ordinary shops. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -457,7 +457,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="4042" name="Enria" add_name="Enria">
+	<etcitem id="4042" name="Enria">
 	<!-- Crystal representing revenge and destruction. Used for making items of B-grade and above and can also be sold at ordinary shops. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -467,7 +467,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="4043" name="Asofe" add_name="Asofe">
+	<etcitem id="4043" name="Asofe">
 	<!-- Crystal representing life and protection. Used for making items of B-grade and above and can also be sold at ordinary shops. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -477,7 +477,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="4044" name="Thons" add_name="Thons">
+	<etcitem id="4044" name="Thons">
 	<!-- Crystal representing choice and consciousness. Used for making items of B-grade and above and can also be sold at ordinary shops. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -487,7 +487,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="4045" name="Maestro Holder" add_name="Maestro Holder">
+	<etcitem id="4045" name="Maestro Holder">
 	<!-- Ingredient used in making Dwarven items. Can also be sold at ordinary shops. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -497,7 +497,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="4046" name="Maestro Anvil Lock" add_name="Maestro Anvil Lock">
+	<etcitem id="4046" name="Maestro Anvil Lock">
 	<!-- Ingredient used in making Dwarven items. Can also be sold at ordinary shops. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -507,7 +507,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="4047" name="Craftsman Mold" add_name="Craftsman Mold">
+	<etcitem id="4047" name="Craftsman Mold">
 	<!-- Ingredient used in making Dwarven items. Can also be sold at ordinary shops. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -517,7 +517,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="4048" name="Maestro Mold" add_name="Maestro Mold">
+	<etcitem id="4048" name="Maestro Mold">
 	<!-- Ingredient used in making Dwarven items. Can also be sold at ordinary shops. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -527,7 +527,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="4049" name="Adamantite Earring Gemstone" add_name="Adamantite Earring Gemstone">
+	<etcitem id="4049" name="Adamantite Earring Gemstone">
 	<!-- Main ingredient definitely required for a Dwarf to make admantite earrings. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -537,7 +537,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4050" name="Adamantite Ring Wire" add_name="Adamantite Ring Wire">
+	<etcitem id="4050" name="Adamantite Ring Wire">
 	<!-- Main ingredient definitely required for a Dwarf to make admantite ring. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -547,7 +547,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4051" name="Adamantite Necklace Chain" add_name="Adamantite Necklace Chain">
+	<etcitem id="4051" name="Adamantite Necklace Chain">
 	<!-- Main ingredient definitely required for a Dwarf to make admantite necklace. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -557,7 +557,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4052" name="Black Ore Earring Piece" add_name="Black Ore Earring Piece">
+	<etcitem id="4052" name="Black Ore Earring Piece">
 	<!-- Main ingredient definitely required for a Dwarf to make Black Ore Earring. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -567,7 +567,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4053" name="Black Ore Ring Gemstone" add_name="Black Ore Ring Gemstone">
+	<etcitem id="4053" name="Black Ore Ring Gemstone">
 	<!-- Main ingredient definitely required for a Dwarf to make Black Ore Ring. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -577,17 +577,17 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4054" name="Black Ore Necklace Beads" add_name="Black Ore Necklace Beads">
+	<etcitem id="4054" name="Black Ore Necklace Beads">
 	<!-- Main ingredient definitely required for a Dwarf to make Black Ore Necklace. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
-		<set name="icon" value="icon.etc_bead_silver_i00"/>
+		<set name="icon" value="BranchSys2.icon.etc_blackorenecklace_beads_i00"/>
 		<set name="price" value="10154"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4055" name="Compound Shield Fragment" add_name="Compound Shield Fragment">
+	<etcitem id="4055" name="Compound Shield Fragment">
 	<!-- Main ingredient definitely required for a Dwarf to make Compound Shield. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -597,7 +597,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4056" name="Zubei's Breastplate Part" add_name="Zubei's Breastplate Part">
+	<etcitem id="4056" name="Zubei's Breastplate Part">
 	<!-- Main ingredient definitely required for a Dwarf to make Zubei's Breastplate. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -607,7 +607,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4057" name="Zubei's Gaiters Material" add_name="Zubei's Gaiters Material">
+	<etcitem id="4057" name="Zubei's Gaiters Material">
 	<!-- Main ingredient definitely required for a Dwarf to make Zubei's Gaiters. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -617,7 +617,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4058" name="Implosion Boots Part" add_name="Implosion Boots Part">
+	<etcitem id="4058" name="Implosion Boots Part">
 	<!-- Main ingredient definitely required for a Dwarf to make Implosion Boots. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -627,7 +627,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4059" name="Boots of Silence Fabric" add_name="Boots of Silence Fabric">
+	<etcitem id="4059" name="Boots of Silence Fabric">
 	<!-- Main ingredient definitely required for a Dwarf to make silent Boots. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -637,7 +637,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4060" name="Guardian's Boots Fabric" add_name="Guardian's Boots Fabric">
+	<etcitem id="4060" name="Guardian's Boots Fabric">
 	<!-- Main ingredient definitely required for a Dwarf to make guardian Boots. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -647,7 +647,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4061" name="Paradia Boots Pattern" add_name="Paradia Boots Pattern">
+	<etcitem id="4061" name="Paradia Boots Pattern">
 	<!-- Main ingredient definitely required for a Dwarf to make Paradia Boots. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -657,7 +657,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4062" name="Elemental Boots Lining" add_name="Elemental Boots Lining">
+	<etcitem id="4062" name="Elemental Boots Lining">
 	<!-- Main ingredient definitely required for a Dwarf to make Elemental Boots. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -667,7 +667,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4063" name="Boots of Grace Lining" add_name="Boots of Grace Lining">
+	<etcitem id="4063" name="Boots of Grace Lining">
 	<!-- Main ingredient definitely required for a Dwarf to make grace Boots. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -677,7 +677,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4064" name="Avadon Breastplate Part" add_name="Avadon Breastplate Part">
+	<etcitem id="4064" name="Avadon Breastplate Part">
 	<!-- Main ingredient definitely required for a Dwarf to make an Avadon Breastplate. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -687,7 +687,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4065" name="Avadon Gaiters Material" add_name="Avadon Gaiters Material">
+	<etcitem id="4065" name="Avadon Gaiters Material">
 	<!-- Main ingredient definitely required for a Dwarf to make Avadon Gaiters. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -697,7 +697,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4066" name="Zubei's Leather Shirt Fabric" add_name="Zubei's Leather Shirt Fabric">
+	<etcitem id="4066" name="Zubei's Leather Shirt Fabric">
 	<!-- Main ingredient definitely required for a Dwarf to make Zubei's Leather Shirt. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -707,7 +707,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4067" name="Zubei's Leather Gaiters Texture" add_name="Zubei's Leather Gaiters Texture">
+	<etcitem id="4067" name="Zubei's Leather Gaiters Texture">
 	<!-- Main ingredient definitely required for a Dwarf to make Zubei's Leather Gaiters. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -717,7 +717,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4068" name="Avadon Leather Armor Lining" add_name="Avadon Leather Armor Lining">
+	<etcitem id="4068" name="Avadon Leather Armor Lining">
 	<!-- Main ingredient definitely required for a Dwarf to make Avadon Leather Armor. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -727,7 +727,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4069" name="Tunic of Zubei Fabric" add_name="Tunic of Zubei Fabric">
+	<etcitem id="4069" name="Tunic of Zubei Fabric">
 	<!-- Main ingredient definitely required for a Dwarf to make Tunic of Zubei. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -737,7 +737,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4070" name="Stockings of Zubei Fabric" add_name="Stockings of Zubei Fabric">
+	<etcitem id="4070" name="Stockings of Zubei Fabric">
 	<!-- Main ingredient definitely required for a Dwarf to make Stockings of Zubei. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -747,7 +747,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4071" name="Avadon Robe Fabric" add_name="Avadon Robe Fabric">
+	<etcitem id="4071" name="Avadon Robe Fabric">
 	<!-- Main ingredient definitely required for a Dwarf to make Avadon Robe. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -757,7 +757,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4072" name="Avadon Circlet Pattern" add_name="Avadon Circlet Pattern">
+	<etcitem id="4072" name="Avadon Circlet Pattern">
 	<!-- Main ingredient definitely required for a Dwarf to make Avadon Circlet. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -767,7 +767,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4073" name="Sealed Avadon Gloves Part" add_name="Sealed Avadon Gloves Part">
+	<etcitem id="4073" name="Sealed Avadon Gloves Part">
 	<!-- Main ingredient definitely required for a Dwarf to make Avadon Gloves. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -777,7 +777,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4074" name="Chain Gloves of Silence Design" add_name="Chain Gloves of Silence Design">
+	<etcitem id="4074" name="Chain Gloves of Silence Design">
 	<!-- Main ingredient definitely required for a Dwarf to make Chain Gloves of Silence. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -787,7 +787,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4075" name="Guardian's Gloves Design" add_name="Guardian's Gloves Design">
+	<etcitem id="4075" name="Guardian's Gloves Design">
 	<!-- Main ingredient definitely required for a Dwarf to Guardian's Gloves. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -797,7 +797,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4076" name="Gloves of Blessing Pattern" add_name="Gloves of Blessing Pattern">
+	<etcitem id="4076" name="Gloves of Blessing Pattern">
 	<!-- Main ingredient definitely required for a Dwarf to make Gloves of Blessing. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -807,7 +807,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4077" name="Doom Shield Fragment" add_name="Doom Shield Fragment">
+	<etcitem id="4077" name="Doom Shield Fragment">
 	<!-- Main ingredient definitely required for a Dwarf to make Doom Shield. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -817,7 +817,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4078" name="Blue Wolf Breastplate Part" add_name="Blue Wolf Breastplate Part">
+	<etcitem id="4078" name="Blue Wolf Breastplate Part">
 	<!-- Main ingredient definitely required for a Dwarf to make Blue Wolf Breastplate. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -827,7 +827,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4079" name="Boots of Blessing Design" add_name="Boots of Blessing Design">
+	<etcitem id="4079" name="Boots of Blessing Design">
 	<!-- Main ingredient definitely required for a Dwarf to make Boots of Blessing. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -837,7 +837,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4080" name="Blue Wolf Gaiters Material" add_name="Blue Wolf Gaiters Material">
+	<etcitem id="4080" name="Blue Wolf Gaiters Material">
 	<!-- Main ingredient definitely required for a Dwarf to make Blue Wolf Gaiters. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -847,7 +847,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4081" name="Doom Plate Armor Temper" add_name="Doom Plate Armor Temper">
+	<etcitem id="4081" name="Doom Plate Armor Temper">
 	<!-- Main ingredient definitely required for a Dwarf to make Doom Plate Armor. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -857,7 +857,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4082" name="Blue Wolf Leather Armor Texture" add_name="Blue Wolf Leather Armor Texture">
+	<etcitem id="4082" name="Blue Wolf Leather Armor Texture">
 	<!-- Main ingredient definitely required for a Dwarf to make Blue Wolf Leather Armor. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -867,7 +867,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4083" name="Leather Armor of Doom Design" add_name="Leather Armor of Doom Design">
+	<etcitem id="4083" name="Leather Armor of Doom Design">
 	<!-- Main ingredient definitely required for a Dwarf to make Leather Armor of Doom. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -877,7 +877,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4084" name="Blue Wolf Tunic Fabric" add_name="Blue Wolf Tunic Fabric">
+	<etcitem id="4084" name="Blue Wolf Tunic Fabric">
 	<!-- Main ingredient definitely required for a Dwarf to make Blue Wolf Tunic. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -887,7 +887,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4085" name="Tunic of Doom Pattern" add_name="Tunic of Doom Pattern">
+	<etcitem id="4085" name="Tunic of Doom Pattern">
 	<!-- Main ingredient definitely required for a Dwarf to make Tunic of Doom. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -897,7 +897,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4086" name="Blue Wolf Stockings Pattern" add_name="Blue Wolf Stockings Pattern">
+	<etcitem id="4086" name="Blue Wolf Stockings Pattern">
 	<!-- Main ingredient definitely required for a Dwarf to make Blue Wolf Stockings. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -907,7 +907,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4087" name="Stockings of Doom Pattern" add_name="Stockings of Doom Pattern">
+	<etcitem id="4087" name="Stockings of Doom Pattern">
 	<!-- Main ingredient definitely required for a Dwarf to make Stockings of Doom. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -917,7 +917,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4088" name="Blue Wolf Helmet Design" add_name="Blue Wolf Helmet Design">
+	<etcitem id="4088" name="Blue Wolf Helmet Design">
 	<!-- Main ingredient definitely required for a Dwarf to make Blue Wolf Helmet. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -927,7 +927,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4089" name="Doom Helmet Pattern" add_name="Doom Helmet Pattern">
+	<etcitem id="4089" name="Doom Helmet Pattern">
 	<!-- Main ingredient definitely required for a Dwarf to make Doom Helmet. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -937,7 +937,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4090" name="Sealed Blue Wolf Boots Design" add_name="Sealed Blue Wolf Boots Design">
+	<etcitem id="4090" name="Sealed Blue Wolf Boots Design">
 	<!-- Main ingredient definitely required for a Dwarf to make Blue Wolf Boots. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -947,7 +947,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4091" name="Sealed Doom Gloves Part" add_name="Sealed Doom Gloves Part">
+	<etcitem id="4091" name="Sealed Doom Gloves Part">
 	<!-- Main ingredient definitely required for a Dwarf to make Doom Gloves. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -957,7 +957,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4092" name="Elemental Gloves Lining" add_name="Elemental Gloves Lining">
+	<etcitem id="4092" name="Elemental Gloves Lining">
 	<!-- Main ingredient definitely required for a Dwarf to make Elemental Gloves. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -967,7 +967,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4093" name="Gloves of Grace Lining" add_name="Gloves of Grace Lining">
+	<etcitem id="4093" name="Gloves of Grace Lining">
 	<!-- Main ingredient definitely required for a Dwarf to make Gloves of Grace. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -977,7 +977,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4094" name="Implosion Gauntlets Fabric" add_name="Implosion Gauntlets Fabric">
+	<etcitem id="4094" name="Implosion Gauntlets Fabric">
 	<!-- Main ingredient definitely required for a Dwarf to make Implosion Gauntlets. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -987,7 +987,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4095" name="Paradia Gloves Pattern" add_name="Paradia Gloves Pattern">
+	<etcitem id="4095" name="Paradia Gloves Pattern">
 	<!-- Main ingredient definitely required for a Dwarf to make Paradia Gloves. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -997,7 +997,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4096" name="Sealed Blue Wolf Gloves Fabric" add_name="Sealed Blue Wolf Gloves Fabric">
+	<etcitem id="4096" name="Sealed Blue Wolf Gloves Fabric">
 	<!-- Main ingredient definitely required for a Dwarf to make Blue Wolf Gloves. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1007,7 +1007,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4097" name="Sealed Zubei's Boots Design" add_name="Sealed Zubei's Boots Design">
+	<etcitem id="4097" name="Sealed Zubei's Boots Design">
 	<!-- Main ingredient definitely required for a Dwarf to make Zubei's Boots. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1017,7 +1017,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4098" name="Sealed Avadon Boots Design" add_name="Sealed Avadon Boots Design">
+	<etcitem id="4098" name="Sealed Avadon Boots Design">
 	<!-- Main ingredient definitely required for a Dwarf to make Avadon Boots. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1027,7 +1027,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="4099" name="Sealed Doom Boots Part" add_name="Sealed Doom Boots Part">
+	<etcitem id="4099" name="Sealed Doom Boots Part">
 	<!-- Main ingredient definitely required for a Dwarf to make Doom Boots. Can also be sold at ordinary shops. -->
 		<set name="class" value="PIECES"/>
 		<set name="crystal_type" value="NONE"/>

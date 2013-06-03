@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="21600" name="Standard Package 300" add_name="Standard Package 300">
+	<etcitem id="21600" name="Standard Package 300">
 	<!-- Dimensional Item
 	Wrapped Pack containing 3 Vitality Replenishing Potions, 3 feathers of blessing, and 3 Superior Minions. Cannot be exchanged or dropped. Can be shared between characters within the same account through the Dimensional Merchant. Can be stored in a private warehouse. -->
 		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
@@ -11,7 +11,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21601" name="XP Rune III (Lv1-99) 30% Pack (5-hour)" add_name="XP Rune III (Lv1-99) 30% Pack (5-hour)">
+	<etcitem id="21601" name="XP Rune III (Lv1-99) 30% Pack (5-hour)">
 	<!-- Wrapped Pack containing an XP Rune III (Lv1-99) 30% (5-hour). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -22,7 +22,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21602" name="XP Rune III (Lv1-99) 50% Pack (5-hour)" add_name="XP Rune III (Lv1-99) 50% Pack (5-hour)">
+	<etcitem id="21602" name="XP Rune III (Lv1-99) 50% Pack (5-hour)">
 	<!-- Wrapped Pack containing an XP Rune III (Lv1-99) 50% (5-hour). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -33,7 +33,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21603" name="XP Rune III (Lv1-99) 30% Pack (10-hour)" add_name="XP Rune III (Lv1-99) 30% Pack (10-hour)">
+	<etcitem id="21603" name="XP Rune III (Lv1-99) 30% Pack (10-hour)">
 	<!-- Wrapped Pack containing an XP Rune III (Lv1-99) 30% (10-hour). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -44,7 +44,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21604" name="XP Rune III (Lv1-99) 50% Pack (10-hour)" add_name="XP Rune III (Lv1-99) 50% Pack (10-hour)">
+	<etcitem id="21604" name="XP Rune III (Lv1-99) 50% Pack (10-hour)">
 	<!-- Wrapped Pack containing an XP Rune III (Lv1-99) 50% (10-hour). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -55,7 +55,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21605" name="XP Rune III (Lv1-99) 30% Pack (7-day)" add_name="XP Rune III (Lv1-99) 30% Pack (7-day)">
+	<etcitem id="21605" name="XP Rune III (Lv1-99) 30% Pack (7-day)">
 	<!-- Wrapped Pack containing an XP Rune III (Lv1-99) 30% (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -66,7 +66,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21606" name="XP Rune III (Lv1-99) 50% Pack (7-day)" add_name="XP Rune III (Lv1-99) 50% Pack (7-day)">
+	<etcitem id="21606" name="XP Rune III (Lv1-99) 50% Pack (7-day)">
 	<!-- Wrapped Pack containing an XP Rune III (Lv1-99) 50% (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -77,7 +77,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21607" name="SP Rune 30% Pack (5-hour)" add_name="SP Rune 30% Pack (5-hour)">
+	<etcitem id="21607" name="SP Rune 30% Pack (5-hour)">
 	<!-- Wrapped Pack containing an SP Rune 30% (5-hour). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -88,7 +88,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21608" name="SP Rune 50% Pack (5-hour)" add_name="SP Rune 50% Pack (5-hour)">
+	<etcitem id="21608" name="SP Rune 50% Pack (5-hour)">
 	<!-- Wrapped Pack containing an SP Rune 50% (5-hour). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -99,7 +99,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21609" name="SP Rune 30% Pack (10-hour)" add_name="SP Rune 30% Pack (10-hour)">
+	<etcitem id="21609" name="SP Rune 30% Pack (10-hour)">
 	<!-- Wrapped Pack containing an SP Rune 30% (10-hour). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -110,7 +110,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21610" name="SP Rune 50% Pack (10-hour)" add_name="SP Rune 50% Pack (10-hour)">
+	<etcitem id="21610" name="SP Rune 50% Pack (10-hour)">
 	<!-- Wrapped Pack containing an SP Rune 50% (10-hour). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -121,7 +121,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21611" name="SP Rune 30% Pack (7-day)" add_name="SP Rune 30% Pack (7-day)">
+	<etcitem id="21611" name="SP Rune 30% Pack (7-day)">
 	<!-- Wrapped Pack containing an SP Rune 30% (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -132,7 +132,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21612" name="SP Rune 50% Pack (7-day)" add_name="SP Rune 50% Pack (7-day)">
+	<etcitem id="21612" name="SP Rune 50% Pack (7-day)">
 	<!-- Wrapped Pack containing an SP Rune 50% (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -143,7 +143,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21613" name="Rune of Crystal Level 3 5-hour Pack" add_name="Rune of Crystal Level 3 5-hour Pack">
+	<etcitem id="21613" name="Rune of Crystal Level 3 5-hour Pack">
 	<!-- Wrapped Pack containing a Rune of Crystal Level 3 (5-hour). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -154,7 +154,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21614" name="Rune of Crystal Level 5 5-hour Pack" add_name="Rune of Crystal Level 5 5-hour Pack">
+	<etcitem id="21614" name="Rune of Crystal Level 5 5-hour Pack">
 	<!-- Wrapped Pack containing a Rune of Crystal Level 5 (5-hour). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -165,7 +165,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21615" name="Rune of Crystal Level 3 10-hour Pack" add_name="Rune of Crystal Level 3 10-hour Pack">
+	<etcitem id="21615" name="Rune of Crystal Level 3 10-hour Pack">
 	<!-- Wrapped Pack containing a Rune of Crystal Level 3 (10-hour). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -176,7 +176,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21616" name="Rune of Crystal Level 5 10-hour Pack" add_name="Rune of Crystal Level 5 10-hour Pack">
+	<etcitem id="21616" name="Rune of Crystal Level 5 10-hour Pack">
 	<!-- Wrapped Pack containing a Rune of Crystal Level 5 (10-hour). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -187,7 +187,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21617" name="Rune of Crystal Level 3 Pack (7-day)" add_name="Rune of Crystal Level 3 Pack (7-day)">
+	<etcitem id="21617" name="Rune of Crystal Level 3 Pack (7-day)">
 	<!-- Wrapped Pack containing a Rune of Crystal Level 3 (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -198,7 +198,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21618" name="Rune of Crystal Level 5 Pack (7-day)" add_name="Rune of Crystal Level 5 Pack (7-day)">
+	<etcitem id="21618" name="Rune of Crystal Level 5 Pack (7-day)">
 	<!-- Wrapped Pack containing a Rune of Crystal Level 5 (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -209,7 +209,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21619" name="Rune of Feather 24-hour Pack" add_name="Rune of Feather 24-hour Pack">
+	<etcitem id="21619" name="Rune of Feather 24-hour Pack">
 	<!-- Wrapped Pack containing a Rune of Feather (24-hour). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -220,7 +220,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21620" name="Lucky Enchant Stone: Enchant Weapon (D-grade) Pack" add_name="Lucky Enchant Stone: Enchant Weapon (D-grade) Pack">
+	<etcitem id="21620" name="Lucky Enchant Stone: Enchant Weapon (D-grade) Pack">
 	<!-- Wrapped Pack containing a D-grade Weapon Enchant Stone. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -231,7 +231,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21621" name="Lucky Enchant Stone: Enchant Weapon (C-grade) Pack" add_name="Lucky Enchant Stone: Enchant Weapon (C-grade) Pack">
+	<etcitem id="21621" name="Lucky Enchant Stone: Enchant Weapon (C-grade) Pack">
 	<!-- Wrapped Pack containing a C-grade Weapon Enchant Stone. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -242,7 +242,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21622" name="Lucky Enchant Stone: Enchant Weapon (B-grade) Pack" add_name="Lucky Enchant Stone: Enchant Weapon (B-grade) Pack">
+	<etcitem id="21622" name="Lucky Enchant Stone: Enchant Weapon (B-grade) Pack">
 	<!-- Wrapped Pack containing a B-grade Weapon Enchant Stone. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -253,7 +253,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21623" name="Lucky Enchant Stone: Enchant Weapon (A-grade) Pack" add_name="Lucky Enchant Stone: Enchant Weapon (A-grade) Pack">
+	<etcitem id="21623" name="Lucky Enchant Stone: Enchant Weapon (A-grade) Pack">
 	<!-- Wrapped Pack containing an A-grade Weapon Enchant Stone. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -264,7 +264,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21624" name="Lucky Enchant Stone: Enchant Weapon (S-grade) Pack" add_name="Lucky Enchant Stone: Enchant Weapon (S-grade) Pack">
+	<etcitem id="21624" name="Lucky Enchant Stone: Enchant Weapon (S-grade) Pack">
 	<!-- Wrapped Pack containing an S-grade Weapon Enchant Stone. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -275,7 +275,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21625" name="Lucky Enchant Stone: Enchant Armor (D-grade) Pack" add_name="Lucky Enchant Stone: Enchant Armor (D-grade) Pack">
+	<etcitem id="21625" name="Lucky Enchant Stone: Enchant Armor (D-grade) Pack">
 	<!-- Wrapped Pack containing a D-grade Armor Enchant Stone. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -286,7 +286,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21626" name="Lucky Enchant Stone: Enchant Armor (C-grade) Pack" add_name="Lucky Enchant Stone: Enchant Armor (C-grade) Pack">
+	<etcitem id="21626" name="Lucky Enchant Stone: Enchant Armor (C-grade) Pack">
 	<!-- Wrapped Pack containing a C-grade Armor Enchant Stone. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -297,7 +297,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21627" name="Lucky Enchant Stone: Enchant Armor (B-grade) Pack" add_name="Lucky Enchant Stone: Enchant Armor (B-grade) Pack">
+	<etcitem id="21627" name="Lucky Enchant Stone: Enchant Armor (B-grade) Pack">
 	<!-- Wrapped Pack containing a B-grade armor Enchant Stone. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -308,7 +308,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21628" name="Lucky Enchant Stone: Enchant Armor (A-grade) Pack" add_name="Lucky Enchant Stone: Enchant Armor (A-grade) Pack">
+	<etcitem id="21628" name="Lucky Enchant Stone: Enchant Armor (A-grade) Pack">
 	<!-- Wrapped Pack containing an A-grade Armor Enchant Stone. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -319,7 +319,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21629" name="Lucky Enchant Stone: Enchant Armor (S-grade) Pack" add_name="Lucky Enchant Stone: Enchant Armor (S-grade) Pack">
+	<etcitem id="21629" name="Lucky Enchant Stone: Enchant Armor (S-grade) Pack">
 	<!-- Wrapped Pack containing an S-grade Armor Enchant Stone. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -330,7 +330,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21630" name="Vitality Maintaining Potion Pack" add_name="Vitality Maintaining Potion Pack">
+	<etcitem id="21630" name="Vitality Maintaining Potion Pack">
 	<!-- Wrapped Pack containing a Vitality Maintaining Potion. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -341,7 +341,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21631" name="Vitality Replenishing Potion Pack" add_name="Vitality Replenishing Potion Pack">
+	<etcitem id="21631" name="Vitality Replenishing Potion Pack">
 	<!-- Wrapped Pack containing a Vitality Replenishing Potion Pack. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -352,7 +352,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21632" name="Sweet Fruit Cocktail Pack" add_name="Sweet Fruit Cocktail Pack">
+	<etcitem id="21632" name="Sweet Fruit Cocktail Pack">
 	<!-- Wrapped Pack containing Sweet Fruit Cocktail. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -363,7 +363,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21633" name="Fresh Fruit Cocktail Pack" add_name="Fresh Fruit Cocktail Pack">
+	<etcitem id="21633" name="Fresh Fruit Cocktail Pack">
 	<!-- Wrapped Pack containing Fresh Fruit Cocktail Pack. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -374,7 +374,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21634" name="Mount - Darkmane Pacer Pack (7-day)" add_name="Mount - Darkmane Pacer Pack (7-day)">
+	<etcitem id="21634" name="Mount - Darkmane Pacer Pack (7-day)">
 	<!-- Wrapped Pack containing a Mount - Darkmane Pacer (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -385,7 +385,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21635" name="Mount - Darkmane Pacer Pack (30-day)" add_name="Mount - Darkmane Pacer Pack (30-day)">
+	<etcitem id="21635" name="Mount - Darkmane Pacer Pack (30-day)">
 	<!-- Wrapped Pack containing a Mount - Darkmane Pacer (30-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -396,7 +396,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21636" name="Mount - Darkmane Pacer Pack" add_name="Mount - Darkmane Pacer Pack">
+	<etcitem id="21636" name="Mount - Darkmane Pacer Pack">
 	<!-- Wrapped Pack containing a Mount - Darkmane Pacer. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -407,7 +407,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21637" name="Mount - Steam Beetle Pack (7-day)" add_name="Mount - Steam Beetle Pack (7-day)">
+	<etcitem id="21637" name="Mount - Steam Beetle Pack (7-day)">
 	<!-- Wrapped Pack containing a Mount - Steam Beetle (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -418,7 +418,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21638" name="Mount - Steam Beetle Pack (30-day)" add_name="Mount - Steam Beetle Pack (30-day)">
+	<etcitem id="21638" name="Mount - Steam Beetle Pack (30-day)">
 	<!-- Wrapped Pack containing a Mount - Steam Beetle (30-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -429,7 +429,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21639" name="Mount - Steam Beetle Pack" add_name="Mount - Steam Beetle Pack">
+	<etcitem id="21639" name="Mount - Steam Beetle Pack">
 	<!-- Wrapped Pack containing a Mount - Steam Beetle. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -440,7 +440,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21640" name="Mount - Gold Maned Lion Pack (30-day)" add_name="Mount - Gold Maned Lion Pack (30-day)">
+	<etcitem id="21640" name="Mount - Gold Maned Lion Pack (30-day)">
 	<!-- Wrapped Pack containing a Mount - Gold Maned Lion (30-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -451,7 +451,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21641" name="Mount - Gold Maned Lion Pack" add_name="Mount - Gold Maned Lion Pack">
+	<etcitem id="21641" name="Mount - Gold Maned Lion Pack">
 	<!-- Wrapped Pack containing a Mount - Gold Maned Lion. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -462,7 +462,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21642" name="Jet Bike Pack (7-day)" add_name="Jet Bike Pack (7-day)">
+	<etcitem id="21642" name="Jet Bike Pack (7-day)">
 	<!-- Wrapped Pack containing a Jet Bike (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -473,7 +473,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21643" name="Jet Bike Pack (30-day)" add_name="Jet Bike Pack (30-day)">
+	<etcitem id="21643" name="Jet Bike Pack (30-day)">
 	<!-- Wrapped Pack containing a Jet Bike (30-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -484,7 +484,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21644" name="Jet Bike Pack" add_name="Jet Bike Pack">
+	<etcitem id="21644" name="Jet Bike Pack">
 	<!-- Dimensional Item Pack
 	Wrapped Pack containing a Jet Bike. Can be exchanged or dropped. Can be shared between characters within the same account through the Dimensional Merchant. -->
 		<set name="freightable" value="true"/>
@@ -496,7 +496,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21645" name="Napoleon Hat Pack (7-day)" add_name="Napoleon Hat Pack (7-day)">
+	<etcitem id="21645" name="Napoleon Hat Pack (7-day)" add_name="Mana Regeneration">
 	<!-- Wrapped Pack containing a Napoleon Hat (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -507,7 +507,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21646" name="Napoleon Hat Pack" add_name="Napoleon Hat Pack">
+	<etcitem id="21646" name="Napoleon Hat Pack">
 	<!-- Wrapped Pack containing a Napoleon Hat. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -518,7 +518,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21647" name="Horn Hairband Pack (7-day)" add_name="Horn Hairband Pack (7-day)">
+	<etcitem id="21647" name="Horn Hairband Pack (7-day)" add_name="Reflect Damage">
 	<!-- Wrapped Pack containing a Horn Hairband (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -529,7 +529,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21648" name="Horn Hairband Pack" add_name="Horn Hairband Pack">
+	<etcitem id="21648" name="Horn Hairband Pack">
 	<!-- Wrapped Pack containing a Horn Hairband. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -540,7 +540,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21649" name="Black Gem Mask Pack (7-day)" add_name="Black Gem Mask Pack (7-day)">
+	<etcitem id="21649" name="Black Gem Mask Pack (7-day)" add_name="Vitality">
 	<!-- Wrapped Pack containing a Black Gem Mask (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -551,7 +551,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21650" name="Black Gem Mask Pack" add_name="Black Gem Mask Pack">
+	<etcitem id="21650" name="Black Gem Mask Pack">
 	<!-- Wrapped Pack containing a Black Gem Mask. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -562,7 +562,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21651" name="Plastic Hair Pack (7-day)" add_name="Plastic Hair Pack (7-day)">
+	<etcitem id="21651" name="Plastic Hair Pack (7-day)" add_name="Blessed Scroll of Escape">
 	<!-- Wrapped Pack containing Plastic Hair (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -573,7 +573,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21652" name="Plastic Hair Pack" add_name="Plastic Hair Pack">
+	<etcitem id="21652" name="Plastic Hair Pack">
 	<!-- Wrapped Pack containing Plastic Hair. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -584,7 +584,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21653" name="Daisy Hairpin Pack (7-day)" add_name="Daisy Hairpin Pack (7-day)">
+	<etcitem id="21653" name="Daisy Hairpin Pack (7-day)" add_name="Dark Attack Resistance">
 	<!-- Wrapped Pack containing a Daisy Hairpin (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -595,7 +595,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21654" name="Daisy Hairpin Pack" add_name="Daisy Hairpin Pack">
+	<etcitem id="21654" name="Daisy Hairpin Pack">
 	<!-- Wrapped Pack containing a Daisy Hairpin. Can only be equipped by females. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -606,7 +606,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21655" name="Forget-me-not Hairpin Pack (7-day)" add_name="Forget-me-not Hairpin Pack (7-day)">
+	<etcitem id="21655" name="Forget-me-not Hairpin Pack (7-day)" add_name="Wind Walk">
 	<!-- Wrapped Pack containing a Forget-me-not Hairpin (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -617,7 +617,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21656" name="Forget-me-not Hairpin Pack" add_name="Forget-me-not Hairpin Pack">
+	<etcitem id="21656" name="Forget-me-not Hairpin Pack">
 	<!-- Wrapped Pack containing a Forget-me-not Hairpin. Can only be equipped by females. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -628,7 +628,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21657" name="Outlaw's Eyepatch Pack (7-day)" add_name="Outlaw's Eyepatch Pack (7-day)">
+	<etcitem id="21657" name="Outlaw's Eyepatch Pack (7-day)" add_name="Death Whisper">
 	<!-- Wrapped Pack containing an Outlaw's Eyepatch (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -639,7 +639,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21658" name="Outlaw's Eyepatch Pack" add_name="Outlaw's Eyepatch Pack">
+	<etcitem id="21658" name="Outlaw's Eyepatch Pack">
 	<!-- Wrapped Pack containing an Outlaw's Eyepatch -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -650,7 +650,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21659" name="Pirate's Eyepatch Pack (7-day)" add_name="Pirate's Eyepatch Pack (7-day)">
+	<etcitem id="21659" name="Pirate's Eyepatch Pack (7-day)" add_name="Agility">
 	<!-- Wrapped Pack containing a Pirate's Eyepatch (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -661,7 +661,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21660" name="Pirate's Eyepatch Pack" add_name="Pirate's Eyepatch Pack">
+	<etcitem id="21660" name="Pirate's Eyepatch Pack">
 	<!-- Wrapped Pack containing a Pirate's Eyepatch -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -672,7 +672,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21661" name="Monocle Pack (7-day)" add_name="Monocle Pack (7-day)">
+	<etcitem id="21661" name="Monocle Pack (7-day)" add_name="Wild Magic">
 	<!-- Wrapped Pack containing a Monocle (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -683,7 +683,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21662" name="Monocle Pack" add_name="Monocle Pack">
+	<etcitem id="21662" name="Monocle Pack">
 	<!-- Wrapped Pack containing a Monocle -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -694,7 +694,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21663" name="Red Mask of Victory Pack (7-day)" add_name="Red Mask of Victory Pack (7-day)">
+	<etcitem id="21663" name="Red Mask of Victory Pack (7-day)" add_name="Mana Regeneration">
 	<!-- Wrapped Pack containing a Red Mask of Victory (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -705,7 +705,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21664" name="Red Mask of Victory Pack" add_name="Red Mask of Victory Pack">
+	<etcitem id="21664" name="Red Mask of Victory Pack">
 	<!-- Wrapped Pack containing a Red Mask of Victory. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -716,7 +716,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21665" name="Red Horn of Victory Pack (7-day)" add_name="Red Horn of Victory Pack (7-day)">
+	<etcitem id="21665" name="Red Horn of Victory Pack (7-day)" add_name="Reflect Damage">
 	<!-- Wrapped Pack containing a Red Horn of Victory (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -727,7 +727,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21666" name="Red Horn of Victory Pack" add_name="Red Horn of Victory Pack">
+	<etcitem id="21666" name="Red Horn of Victory Pack">
 	<!-- Wrapped Pack containing a Red Horn of Victory. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -738,7 +738,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21667" name="Party Mask Pack (7-day)" add_name="Party Mask Pack (7-day)">
+	<etcitem id="21667" name="Party Mask Pack (7-day)" add_name="Greater Heal">
 	<!-- Wrapped Pack containing a Party Mask (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -749,7 +749,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21668" name="Party Mask Pack" add_name="Party Mask Pack">
+	<etcitem id="21668" name="Party Mask Pack">
 	<!-- Wrapped Pack containing a Party Mask -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -760,7 +760,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21669" name="Red Party Mask Pack (7-day)" add_name="Red Party Mask Pack (7-day)">
+	<etcitem id="21669" name="Red Party Mask Pack (7-day)" add_name="Dark Attack Resistance">
 	<!-- Wrapped Pack containing a Red Party Mask (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -771,7 +771,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21670" name="Red Party Mask Pack" add_name="Red Party Mask Pack">
+	<etcitem id="21670" name="Red Party Mask Pack">
 	<!-- Wrapped Pack containing a Red Party Mask -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -782,7 +782,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21671" name="Cat Ears Pack (7-day)" add_name="Cat Ears Pack (7-day)">
+	<etcitem id="21671" name="Cat Ears Pack (7-day)" add_name="Wind Walk">
 	<!-- Wrapped Pack containing Cat Ears (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -793,7 +793,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21672" name="Cat Ears Pack" add_name="Cat Ears Pack">
+	<etcitem id="21672" name="Cat Ears Pack">
 	<!-- Wrapped Pack containing Cat Ears -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -804,7 +804,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21673" name="Lady's Hair Pin Pack (7-day)" add_name="Lady's Hair Pin Pack (7-day)">
+	<etcitem id="21673" name="Lady's Hair Pin Pack (7-day)" add_name="Death Whisper">
 	<!-- Wrapped Pack containing a Lady's Hair Pin (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -815,7 +815,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21674" name="Lady's Hair Pin Pack" add_name="Lady's Hair Pin Pack">
+	<etcitem id="21674" name="Lady's Hair Pin Pack">
 	<!-- Wrapped Pack containing a Lady's Hair Pin. Can only be equipped by females. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -826,7 +826,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21675" name="Raccoon Ears Pack (7-day)" add_name="Raccoon Ears Pack (7-day)">
+	<etcitem id="21675" name="Raccoon Ears Pack (7-day)" add_name="Agility">
 	<!-- Wrapped Pack containing Raccoon Ears (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -837,7 +837,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21676" name="Raccoon Ears Pack" add_name="Raccoon Ears Pack">
+	<etcitem id="21676" name="Raccoon Ears Pack">
 	<!-- Wrapped Pack containing Raccoon Ears -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -848,7 +848,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21677" name="Rabbit Ears Pack (7-day)" add_name="Rabbit Ears Pack (7-day)">
+	<etcitem id="21677" name="Rabbit Ears Pack (7-day)" add_name="Wild Magic">
 	<!-- Wrapped Pack containing Rabbit Ears (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -859,7 +859,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21678" name="Rabbit Ears Pack" add_name="Rabbit Ears Pack">
+	<etcitem id="21678" name="Rabbit Ears Pack">
 	<!-- Wrapped Pack containing Rabbit Ears -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -870,7 +870,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21679" name="Little Angel Wings Pack (7-day)" add_name="Little Angel Wings Pack (7-day)">
+	<etcitem id="21679" name="Little Angel Wings Pack (7-day)" add_name="Mana Regeneration">
 	<!-- Wrapped Pack containing Little Angel Wings (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -881,7 +881,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21680" name="Little Angel Wings Pack" add_name="Little Angel Wings Pack">
+	<etcitem id="21680" name="Little Angel Wings Pack">
 	<!-- Wrapped Pack containing Little Angel Wings -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -892,7 +892,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21681" name="Fairy Antennae Pack (7-day)" add_name="Fairy Antennae Pack (7-day)">
+	<etcitem id="21681" name="Fairy Antennae Pack (7-day)" add_name="Reflect Damage">
 	<!-- Wrapped Pack containing a Fairy Antennae (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -903,7 +903,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21682" name="Fairy Antennae Pack" add_name="Fairy Antennae Pack">
+	<etcitem id="21682" name="Fairy Antennae Pack">
 	<!-- Wrapped Pack containing Fairy Antennae -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -914,7 +914,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21683" name="Chapeau Pack (7-day)" add_name="Chapeau Pack (7-day)">
+	<etcitem id="21683" name="Chapeau Pack (7-day)" add_name="Greater Heal">
 	<!-- Wrapped Pack containing a Dandy's Chapeau (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -925,7 +925,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21684" name="Chapeau Pack" add_name="Chapeau Pack">
+	<etcitem id="21684" name="Chapeau Pack">
 	<!-- Wrapped Pack containing Dandy's Chapeau. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -936,7 +936,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21685" name="Artisan's Goggles Pack (7-day)" add_name="Artisan's Goggles Pack (7-day)">
+	<etcitem id="21685" name="Artisan's Goggles Pack (7-day)" add_name="Vitality">
 	<!-- Wrapped Pack containing Artisan's Goggles (7-day). -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>
@@ -947,7 +947,7 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="21686" name="Artisan's Goggles Pack" add_name="Artisan's Goggles Pack">
+	<etcitem id="21686" name="Artisan's Goggles Pack">
 	<!-- Wrapped Pack containing Artisan's Goggles. -->
 		<set name="freightable" value="true"/>
 		<set name="icon" value="BranchSys.icon.br_four_leaf_clover_box_i00"/>

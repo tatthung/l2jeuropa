@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="8600" name="Herb of Life" add_name="Herb of Life">
+	<etcitem id="8600" name="Herb of Life">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -11,7 +11,7 @@
 			<skill id="2278" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8601" name="Major Herb of Life" add_name="Major Herb of Life">
+	<etcitem id="8601" name="Major Herb of Life">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -21,7 +21,7 @@
 			<skill id="2278" level="2"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8602" name="Superior Herb of Life" add_name="Superior Herb of Life">
+	<etcitem id="8602" name="Superior Herb of Life">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -31,7 +31,7 @@
 			<skill id="2278" level="3"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8603" name="Herb of Mana" add_name="Herb of Mana">
+	<etcitem id="8603" name="Herb of Mana">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -41,7 +41,7 @@
 			<skill id="2279" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8604" name="Major Herb of Mana" add_name="Major Herb of Mana">
+	<etcitem id="8604" name="Major Herb of Mana">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -51,7 +51,7 @@
 			<skill id="2279" level="2"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8605" name="Superior Herb of Mana" add_name="Superior Herb of Mana">
+	<etcitem id="8605" name="Superior Herb of Mana">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -61,7 +61,7 @@
 			<skill id="2279" level="3"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8606" name="Herb of Power" add_name="Herb of Power">
+	<etcitem id="8606" name="Herb of Power">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -71,7 +71,7 @@
 			<skill id="2280" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8607" name="Herb of Magic" add_name="Herb of Magic">
+	<etcitem id="8607" name="Herb of Magic">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -81,7 +81,7 @@
 			<skill id="2281" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8608" name="Haste Herb" add_name="Haste Herb">
+	<etcitem id="8608" name="Haste Herb">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -91,7 +91,7 @@
 			<skill id="2282" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8609" name="Herb of Casting Spd." add_name="Herb of Casting Spd.">
+	<etcitem id="8609" name="Herb of Casting Spd.">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -101,7 +101,7 @@
 			<skill id="2283" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8610" name="Herb of Critical Attack - Probability" add_name="Herb of Critical Attack - Probability">
+	<etcitem id="8610" name="Herb of Critical Attack - Probability">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -111,7 +111,7 @@
 			<skill id="2284" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8611" name="Wind Walk Herb" add_name="Wind Walk Herb">
+	<etcitem id="8611" name="Wind Walk Herb">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -121,7 +121,7 @@
 			<skill id="2285" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8612" name="Herb of the Warrior" add_name="Herb of the Warrior">
+	<etcitem id="8612" name="Herb of the Warrior">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -133,7 +133,7 @@
 			<skill id="2284" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8613" name="Wizard Herb" add_name="Wizard Herb">
+	<etcitem id="8613" name="Wizard Herb">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -144,7 +144,7 @@
 			<skill id="2283" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8614" name="Herb of Recovery" add_name="Herb of Recovery">
+	<etcitem id="8614" name="Herb of Recovery">
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -155,7 +155,7 @@
 			<skill id="2279" level="3"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8615" name="Summoning Crystal" add_name="Summoning Crystal">
+	<etcitem id="8615" name="Summoning Crystal">
 	<!-- Crystal imbued with mystical power. Used for teleportation magic. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
@@ -166,7 +166,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="10"/>
 	</etcitem>
-	<etcitem id="8616" name="Spellbook: Summon Friend" add_name="Spellbook: Summon Friend">
+	<etcitem id="8616" name="Spellbook: Summon Friend">
 	<!-- Spellbook needed to learn Summon Friend. Used by Warlocks, Elemental Summoners and Phantom Summoners.
 	Required level: 56 -->
 		<set name="class" value="SPELLBOOKS"/>
@@ -178,7 +178,7 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="8617" name="Spellbook: Word of Invitation" add_name="Spellbook: Word of Invitation">
+	<etcitem id="8617" name="Spellbook: Word of Invitation">
 	<!-- Spellbook needed to learn Word of Invitation. Used by Sorcerers, Spellsingers and Spellhowlers. -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -189,7 +189,7 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="8618" name="Ancient Book: Divine Inspiration (Modern Language Version)" add_name="Ancient Book: Divine Inspiration (Modern Language Version)">
+	<etcitem id="8618" name="Ancient Book: Divine Inspiration (Modern Language Version)">
 	<!-- Restores forgotten abilities. The book was re-published after being translated into a the modern language. (Can only be used by characters level 52 or above.) -->
 		<set name="class" value="SPELLBOOKS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -199,7 +199,7 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="8619" name="Ancient Book: Divine Inspiration (Original Language Version)" add_name="Ancient Book: Divine Inspiration (Original Language Version)">
+	<etcitem id="8619" name="Ancient Book: Divine Inspiration (Original Language Version)">
 	<!-- Restores forgotten abilities. This book was published by ancient scholars for research purposes. It contains more information than the modern language version. (Can only be used by characters level 61 or above.) -->
 		<set name="price" value="500000"/>
 		<set name="class" value="SPELLBOOKS"/>
@@ -210,7 +210,7 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="8620" name="Ancient Book: Divine Inspiration (Manuscript)" add_name="Ancient Book: Divine Inspiration (Manuscript)">
+	<etcitem id="8620" name="Ancient Book: Divine Inspiration (Manuscript)">
 	<!-- Restores forgotten abilities. This book is a hand-written copy of the original. It is almost the same as the original version. (Can only be used by characters level 76 or above.) -->
 		<set name="price" value="500000"/>
 		<set name="class" value="SPELLBOOKS"/>
@@ -221,7 +221,7 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="8621" name="Ancient Book: Divine Inspiration (Original Version)" add_name="Ancient Book: Divine Inspiration (Original Version)">
+	<etcitem id="8621" name="Ancient Book: Divine Inspiration (Original Version)">
 	<!-- Awakens a forgotten ability. Those who lack the requisite knowledge cannot understand its contents. (Can only be used by characters level 76 or above.) -->
 		<set name="price" value="1000000"/>
 		<set name="class" value="SPELLBOOKS"/>
@@ -234,7 +234,7 @@
 		<set name="ex_type" value="SPELLBOOK"/>
 		<set name="weight" value="120"/>
 	</etcitem>
-	<etcitem id="8622" name="Elixir of Life (No-grade)" add_name="Elixir of Life (No-grade)">
+	<etcitem id="8622" name="Elixir of Life (No-grade)">
 	<!-- Regenerates HP. Can only be used by characters level 19 or below upon themselves. Cooldown is 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="1"/>
@@ -255,7 +255,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8623" name="Elixir of Life (D-grade)" add_name="Elixir of Life (D-grade)">
+	<etcitem id="8623" name="Elixir of Life (D-grade)">
 	<!-- Regenerates HP. This item can only be used by characters level 20 - 39. Cooldown is 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="2"/>
@@ -276,7 +276,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8624" name="Elixir of Life (C-grade)" add_name="Elixir of Life (C-grade)">
+	<etcitem id="8624" name="Elixir of Life (C-grade)">
 	<!-- Regenerates HP. This item can only be used by characters level 40 - 51. Cooldown is 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="3"/>
@@ -297,7 +297,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8625" name="Elixir of Life (B-grade)" add_name="Elixir of Life (B-grade)">
+	<etcitem id="8625" name="Elixir of Life (B-grade)">
 	<!-- Regenerates HP. This item can only be used by characters level 52 - 60. Cooldown is 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="4"/>
@@ -318,7 +318,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8626" name="Elixir of Life (A-grade)" add_name="Elixir of Life (A-grade)">
+	<etcitem id="8626" name="Elixir of Life (A-grade)">
 	<!-- Regenerates HP. This item can only be used by characters level 61 - 75. Cooldown is 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="5"/>
@@ -339,7 +339,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8627" name="Elixir of Life (S-grade)" add_name="Elixir of Life (S-grade)">
+	<etcitem id="8627" name="Elixir of Life (S-grade)">
 	<!-- Regenerates HP. This item can only be used by characters level 76 - 84. Cooldown is 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="6"/>
@@ -360,7 +360,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8628" name="Elixir of Mind (No-grade)" add_name="Elixir of Mind (No-grade)">
+	<etcitem id="8628" name="Elixir of Mind (No-grade)">
 	<!-- Regenerates MP. Can only be used by characters level 19 or below upon themselves. Cooldown is 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="1"/>
@@ -381,7 +381,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8629" name="Elixir of Mind (D-grade)" add_name="Elixir of Mind (D-grade)">
+	<etcitem id="8629" name="Elixir of Mind (D-grade)">
 	<!-- Regenerates MP. Can be used by characters level 20 - 39 upon themselves. Cooldown 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="2"/>
@@ -402,7 +402,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8630" name="Elixir of Mind (C-grade)" add_name="Elixir of Mind (C-grade)">
+	<etcitem id="8630" name="Elixir of Mind (C-grade)">
 	<!-- Regenerates MP. Can be used by characters level 40 - 51 upon themselves. Cooldown 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="3"/>
@@ -423,7 +423,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8631" name="Elixir of Mind (B-grade)" add_name="Elixir of Mind (B-grade)">
+	<etcitem id="8631" name="Elixir of Mind (B-grade)">
 	<!-- Regenerates MP. Can be used by characters level 52 - 60 upon themselves. Cooldown 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="4"/>
@@ -444,7 +444,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8632" name="Elixir of Mind (A-grade)" add_name="Elixir of Mind (A-grade)">
+	<etcitem id="8632" name="Elixir of Mind (A-grade)">
 	<!-- Regenerates MP. Can be used by characters level 61 - 75 upon themselves. Cooldown 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="5"/>
@@ -465,7 +465,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8633" name="Elixir of Mind (S-grade)" add_name="Elixir of Mind (S-grade)">
+	<etcitem id="8633" name="Elixir of Mind (S-grade)">
 	<!-- Regenerates MP. Can only be used by characters level 76 - 84 upon themselves. Cooldown 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="6"/>
@@ -486,7 +486,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8634" name="Elixir of CP (No-grade)" add_name="Elixir of CP (No-grade)">
+	<etcitem id="8634" name="Elixir of CP (No-grade)">
 	<!-- Regenerates CP. Can only be used by characters level 19 or below upon themselves. Cooldown is 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="7"/>
@@ -507,7 +507,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8635" name="Elixir of CP (D-grade)" add_name="Elixir of CP (D-grade)">
+	<etcitem id="8635" name="Elixir of CP (D-grade)">
 	<!-- Regenerates CP. This item can only be used by characters level 20 - 39. Cooldown is 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="7"/>
@@ -528,7 +528,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8636" name="Elixir of CP (C-grade)" add_name="Elixir of CP (C-grade)">
+	<etcitem id="8636" name="Elixir of CP (C-grade)">
 	<!-- Regenerates CP. This item can only be used by characters level 40 - 51. Cooldown is 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="7"/>
@@ -549,7 +549,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8637" name="Elixir of CP (B-grade)" add_name="Elixir of CP (B-grade)">
+	<etcitem id="8637" name="Elixir of CP (B-grade)">
 	<!-- Regenerates CP. This item can only be used by characters level 52 - 60. Cooldown is 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="7"/>
@@ -570,7 +570,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8638" name="Elixir of CP (A-grade)" add_name="Elixir of CP (A-grade)">
+	<etcitem id="8638" name="Elixir of CP (A-grade)">
 	<!-- Regenerates CP. This item can only be used by characters level 61 - 75. Cooldown is 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="7"/>
@@ -591,7 +591,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8639" name="Elixir of CP (S-grade)" add_name="Elixir of CP (S-grade)">
+	<etcitem id="8639" name="Elixir of CP (S-grade)">
 	<!-- Regenerates CP. This item can only be used by characters level 76 - 84. Cooldown is 5 min. -->
 		<set name="reuse_delay" value="300000"/>
 		<set name="delay_share_group" value="7"/>
@@ -612,7 +612,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="8640" name="Recipe: Elixir of Life (No-grade)" add_name="Recipe: Elixir of Life (No-grade)">
+	<etcitem id="8640" name="Recipe: Elixir of Life (No-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of Life (No-grade). Requires Create Common Item Skill Level 1. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -623,7 +623,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8641" name="Recipe: Elixir of Life (D-grade)" add_name="Recipe: Elixir of Life (D-grade)">
+	<etcitem id="8641" name="Recipe: Elixir of Life (D-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of Life (D-grade). Requires Create Common Item Skill Level 2. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -634,7 +634,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8642" name="Recipe: Elixir of Life (C-grade)" add_name="Recipe: Elixir of Life (C-grade)">
+	<etcitem id="8642" name="Recipe: Elixir of Life (C-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of Life (C-grade). Requires Create Common Item Skill Level 3. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -645,7 +645,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8643" name="Recipe: Elixir of Life (B-grade)" add_name="Recipe: Elixir of Life (B-grade)">
+	<etcitem id="8643" name="Recipe: Elixir of Life (B-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of Life (B-grade). Requires Create Common Item Skill Level 4. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -656,7 +656,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8644" name="Recipe: Elixir of Life (A-grade)" add_name="Recipe: Elixir of Life (A-grade)">
+	<etcitem id="8644" name="Recipe: Elixir of Life (A-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of Life (A-grade). Requires Create Common Item Skill Level 5. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -667,7 +667,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8645" name="Recipe: Elixir of Life (S-grade)" add_name="Recipe: Elixir of Life (S-grade)">
+	<etcitem id="8645" name="Recipe: Elixir of Life (S-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of Life (S-grade). Requires Create Common Item Skill Level 6. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -678,7 +678,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8646" name="Recipe: Elixir of Mind (No-grade)" add_name="Recipe: Elixir of Mind (No-grade)">
+	<etcitem id="8646" name="Recipe: Elixir of Mind (No-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of Mind (No-grade). Requires Create Common Item Skill Level 1. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -689,7 +689,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8647" name="Recipe: Elixir of Mind (D-grade)" add_name="Recipe: Elixir of Mind (D-grade)">
+	<etcitem id="8647" name="Recipe: Elixir of Mind (D-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of Mind (D-grade). Requires Create Common Item Skill Level 2. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -700,7 +700,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8648" name="Recipe: Elixir of Mind (C-grade)" add_name="Recipe: Elixir of Mind (C-grade)">
+	<etcitem id="8648" name="Recipe: Elixir of Mind (C-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of Mind (C-grade). Requires Create Common Item Skill Level 3. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -711,7 +711,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8649" name="Recipe: Elixir of Mind (B-grade)" add_name="Recipe: Elixir of Mind (B-grade)">
+	<etcitem id="8649" name="Recipe: Elixir of Mind (B-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of Mind (B-grade). Requires Create Common Item Skill Level 4. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -722,7 +722,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8650" name="Recipe: Elixir of Mind (A-grade)" add_name="Recipe: Elixir of Mind (A-grade)">
+	<etcitem id="8650" name="Recipe: Elixir of Mind (A-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of Mind (A-grade). Requires Create Common Item Skill Level 5. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -733,7 +733,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8651" name="Recipe: Elixir of Mind (S-grade)" add_name="Recipe: Elixir of Mind (S-grade)">
+	<etcitem id="8651" name="Recipe: Elixir of Mind (S-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of Mind (S-grade). Requires Create Common Item Skill Level 6. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -744,7 +744,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8652" name="Recipe: Elixir of CP (No-grade)" add_name="Recipe: Elixir of CP (No-grade)">
+	<etcitem id="8652" name="Recipe: Elixir of CP (No-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of CP (No-grade). Requires Create Common Item Skill Level 1. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -755,7 +755,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8653" name="Recipe: Elixir of CP (D-grade)" add_name="Recipe: Elixir of CP (D-grade)">
+	<etcitem id="8653" name="Recipe: Elixir of CP (D-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of CP (D-grade). Requires Create Common Item Skill Level 2. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -766,7 +766,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8654" name="Recipe: Elixir of CP (C-grade)" add_name="Recipe: Elixir of CP (C-grade)">
+	<etcitem id="8654" name="Recipe: Elixir of CP (C-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of CP (C-grade). Requires Create Common Item Skill Level 3. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -777,7 +777,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8655" name="Recipe: Elixir of CP (B-grade)" add_name="Recipe: Elixir of CP (B-grade)">
+	<etcitem id="8655" name="Recipe: Elixir of CP (B-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of CP (B-grade). Requires Create Common Item Skill Level 4. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -788,7 +788,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8656" name="Recipe: Elixir of CP (A-grade)" add_name="Recipe: Elixir of CP (A-grade)">
+	<etcitem id="8656" name="Recipe: Elixir of CP (A-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of CP (A-grade). Requires Create Common Item Skill Level 5. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -799,7 +799,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8657" name="Recipe: Elixir of CP (S-grade)" add_name="Recipe: Elixir of CP (S-grade)">
+	<etcitem id="8657" name="Recipe: Elixir of CP (S-grade)">
 	<!-- Usable by all races. Recipe for the Elixir of CP (S-grade). Requires Create Common Item Skill Level 6. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -810,7 +810,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8658" name="Mysterious Solvent" add_name="Mysterious Solvent">
+	<etcitem id="8658" name="Mysterious Solvent">
 	<!-- Dilutes any substance it is mixed with. Used when creating an elixir. -->
 		<set name="class" value="MATHERIALS"/>
 		<set name="crystal_type" value="NONE"/>
@@ -820,7 +820,7 @@
 		<set name="type" value="MATERIAL"/>
 		<set name="weight" value="2"/>
 	</etcitem>
-	<etcitem id="8659" name="Coffer of Shadows" add_name="Coffer of Shadows">
+	<etcitem id="8659" name="Coffer of Shadows">
 	<!-- Mystical object that has a tiny bit of unstable dark energy trapped inside. Double-click to transform into a random special item. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -832,7 +832,7 @@
 			<skill id="2290" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="8663" name="Mysterious Potion (Event)" add_name="Mysterious Potion (Event)">
+	<etcitem id="8663" name="Mysterious Potion (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. Results are temporary at best." -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -843,7 +843,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8664" name="Facelifting Potion - A (Event)" add_name="Facelifting Potion - A (Event)">
+	<etcitem id="8664" name="Facelifting Potion - A (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -854,7 +854,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8665" name="Facelifting Potion - B (Event)" add_name="Facelifting Potion - B (Event)">
+	<etcitem id="8665" name="Facelifting Potion - B (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -865,7 +865,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8666" name="Facelifting Potion - C (Event)" add_name="Facelifting Potion - C (Event)">
+	<etcitem id="8666" name="Facelifting Potion - C (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -876,7 +876,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8667" name="Dye Potion - A (Event)" add_name="Dye Potion - A (Event)">
+	<etcitem id="8667" name="Dye Potion - A (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -887,7 +887,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8668" name="Dye Potion - B (Event)" add_name="Dye Potion - B (Event)">
+	<etcitem id="8668" name="Dye Potion - B (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -898,7 +898,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8669" name="Dye Potion - C (Event)" add_name="Dye Potion - C (Event)">
+	<etcitem id="8669" name="Dye Potion - C (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -909,7 +909,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8670" name="Dye Potion - D (Event)" add_name="Dye Potion - D (Event)">
+	<etcitem id="8670" name="Dye Potion - D (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -920,7 +920,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8671" name="Hair Style Change Potion - A (Event)" add_name="Hair Style Change Potion - A (Event)">
+	<etcitem id="8671" name="Hair Style Change Potion - A (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -931,7 +931,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8672" name="Hair Style Change Potion - B (Event)" add_name="Hair Style Change Potion - B (Event)">
+	<etcitem id="8672" name="Hair Style Change Potion - B (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -942,7 +942,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8673" name="Hair Style Change Potion - C (Event)" add_name="Hair Style Change Potion - C (Event)">
+	<etcitem id="8673" name="Hair Style Change Potion - C (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -953,7 +953,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8674" name="Hair Style Change Potion - D (Event)" add_name="Hair Style Change Potion - D (Event)">
+	<etcitem id="8674" name="Hair Style Change Potion - D (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -964,7 +964,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8675" name="Hair Style Change Potion - E (Event)" add_name="Hair Style Change Potion - E (Event)">
+	<etcitem id="8675" name="Hair Style Change Potion - E (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -975,7 +975,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8676" name="Hair Style Change Potion - F (Event)" add_name="Hair Style Change Potion - F (Event)">
+	<etcitem id="8676" name="Hair Style Change Potion - F (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -986,7 +986,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8677" name="Hair Style Change Potion - G (Event)" add_name="Hair Style Change Potion - G (Event)">
+	<etcitem id="8677" name="Hair Style Change Potion - G (Event)">
 	<!-- Altered Realities Event Item. The label reads "Effects of this oil may be unpredictable. BEWARE!  Changes caused will be permanent. Drink at your own risk!" -->
 		<set name="reuse_delay" value="500"/>
 		<set name="class" value="CONSUMABLE"/>
@@ -997,7 +997,7 @@
 		<set name="ex_type" value="POTION"/>
 		<set name="weight" value="50"/>
 	</etcitem>
-	<etcitem id="8690" name="Recipe: Sirra's Blade (60%)" add_name="Recipe: Sirra's Blade (60%)">
+	<etcitem id="8690" name="Recipe: Sirra's Blade (60%)">
 	<!-- For Dwarves only. Recipe for making Sirra's Blade. Requires Create Item - Skill Level 8. 60% success rate. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1008,7 +1008,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8691" name="Recipe: Sirra's Blade" add_name="Recipe: Sirra's Blade">
+	<etcitem id="8691" name="Recipe: Sirra's Blade">
 	<!-- For Dwarves only. Recipe for making Sirra's Blade. Requires Create Item - Skill Level 8. 100% success rate. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1019,7 +1019,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8692" name="Recipe: Sword of Ipos (60%)" add_name="Recipe: Sword of Ipos (60%)">
+	<etcitem id="8692" name="Recipe: Sword of Ipos (60%)">
 	<!-- For Dwarves only. Recipe for making Sword of Ipos. Requires Create Item - Skill Level 8. 60% success rate. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1030,7 +1030,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8693" name="Recipe: Sword of Ipos" add_name="Recipe: Sword of Ipos">
+	<etcitem id="8693" name="Recipe: Sword of Ipos">
 	<!-- For Dwarves only. Recipe for making Sword of Ipos. Requires Create Item - Skill Level 8. 100% success rate. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1041,7 +1041,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8694" name="Recipe: Barakiel's Axe (60%)" add_name="Recipe: Barakiel's Axe (60%)">
+	<etcitem id="8694" name="Recipe: Barakiel's Axe (60%)">
 	<!-- For Dwarves only. Recipe for making Barakiel's Axe. Requires Create Item - Skill Level 8. 60% success rate. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1052,7 +1052,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8695" name="Recipe: Barakiel's Axe" add_name="Recipe: Barakiel's Axe">
+	<etcitem id="8695" name="Recipe: Barakiel's Axe">
 	<!-- For Dwarves only. Recipe for making Barakiel's Axe. Requires Create Item - Skill Level 8. 100% success rate. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1063,7 +1063,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8696" name="Recipe: Behemoth' Tuning Fork (60%)" add_name="Recipe: Behemoth' Tuning Fork (60%)">
+	<etcitem id="8696" name="Recipe: Behemoth' Tuning Fork (60%)">
 	<!-- For Dwarves only. Recipe for making Behemoth' Tuning Fork. Requires Create Item - Skill Level 8. 60% success rate. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1074,7 +1074,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8697" name="Recipe: Behemoth' Tuning Fork" add_name="Recipe: Behemoth' Tuning Fork">
+	<etcitem id="8697" name="Recipe: Behemoth' Tuning Fork">
 	<!-- For Dwarves only. Recipe for making Behemoth' Tuning Fork. Requires Create Item - Skill Level 8. 100% success rate. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1085,7 +1085,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8698" name="Recipe: Naga Storm (60%)" add_name="Recipe: Naga Storm (60%)">
+	<etcitem id="8698" name="Recipe: Naga Storm (60%)">
 	<!-- For Dwarves only. Recipe for making Naga Storm. Requires Create Item - Skill Level 8. 60% success rate. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -1096,7 +1096,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="8699" name="Recipe: Naga Storm" add_name="Recipe: Naga Storm">
+	<etcitem id="8699" name="Recipe: Naga Storm">
 	<!-- For Dwarves only. Recipe for making Naga Storm. Requires Create Item - Skill Level 8. 100% success rate. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>

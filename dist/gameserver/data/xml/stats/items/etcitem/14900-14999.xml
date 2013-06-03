@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="14900" name="Rune Supply Box - Magic Ornament" add_name="Rune Supply Box - Magic Ornament">
+	<etcitem id="14900" name="Rune Supply Box - Magic Ornament" add_name="S-grade , A">
 	<!-- Box that has the symbol of Rune. High grade magic pouch that's attached to the belt can be acquired at a certain rate. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -15,7 +15,7 @@
 		</skills>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="14901" name="Schuttgart Supply Box - Magic Ornament" add_name="Schuttgart Supply Box - Magic Ornament">
+	<etcitem id="14901" name="Schuttgart Supply Box - Magic Ornament" add_name="S-grade , A">
 	<!-- Box that has the symbol of Schuttgart. High grade magic pouch that's attached to the belt can be acquired at a certain rate. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -29,7 +29,7 @@
 		</skills>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="14902" name="Sealed Magic Rune Clip (A-grade)" add_name="Sealed Magic Rune Clip (A-grade)">
+	<etcitem id="14902" name="Sealed Magic Rune Clip (A-grade)">
 	<!-- Can be attached to Sealed Magic Rune Clip and Belt. The seal can be cancelled through the weaver Olf Kanore and Olf Adams. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -39,7 +39,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14903" name="Sealed Magic Rune Clip (S-grade)" add_name="Sealed Magic Rune Clip (S-grade)">
+	<etcitem id="14903" name="Sealed Magic Rune Clip (S-grade)">
 	<!-- Can be attached to Sealed Magic Rune Clip and Belt. The seal can be cancelled through the weaver Olf Kanore and Olf Adams. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -49,7 +49,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14904" name="Sealed Magic Ornament (A-grade)" add_name="Sealed Magic Ornament (A-grade)">
+	<etcitem id="14904" name="Sealed Magic Ornament (A-grade)">
 	<!-- Can be attached to Sealed Magic Ornament and Belt. The seal can be cancelled through the weaver Olf Kanore and Olf Adams. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -59,7 +59,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14905" name="Sealed Magic Ornament (S-grade)" add_name="Sealed Magic Ornament (S-grade)">
+	<etcitem id="14905" name="Sealed Magic Ornament (S-grade)">
 	<!-- Can be attached to Sealed Magic Ornament and Belt. The seal can be cancelled through the weaver Olf Kanore and Olf Adams. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -69,7 +69,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14906" name="Low-grade Magic Rune Clip (A-grade)" add_name="Low-grade Magic Rune Clip (A-grade)">
+	<etcitem id="14906" name="Low-grade Magic Rune Clip (A-grade)">
 	<!-- Low-grade Magic Rune Clip that can improve the function of Steel Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -79,7 +79,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14907" name="Mid-grade Magic Rune Clip (A-grade)" add_name="Mid-grade Magic Rune Clip (A-grade)">
+	<etcitem id="14907" name="Mid-grade Magic Rune Clip (A-grade)">
 	<!-- Magic Rune Clip that can improve the function of Steel Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -89,7 +89,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14908" name="High-grade Magic Rune Clip (A-grade)" add_name="High-grade Magic Rune Clip (A-grade)">
+	<etcitem id="14908" name="High-grade Magic Rune Clip (A-grade)">
 	<!-- Magic Rune Clip that can improve the function of Steel Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -99,7 +99,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14909" name="Top-grade Magic Rune Clip (A-grade)" add_name="Top-grade Magic Rune Clip (A-grade)">
+	<etcitem id="14909" name="Top-grade Magic Rune Clip (A-grade)">
 	<!-- Magic Rune Clip that can improve the function of Steel Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -109,7 +109,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14910" name="Low-grade Magic Rune Clip (S-grade)" add_name="Low-grade Magic Rune Clip (S-grade)">
+	<etcitem id="14910" name="Low-grade Magic Rune Clip (S-grade)">
 	<!-- Low-grade Magic Rune Clip that can improve the function of Mithril Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -119,7 +119,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14911" name="Mid-grade Magic Rune Clip (S-grade)" add_name="Mid-grade Magic Rune Clip (S-grade)">
+	<etcitem id="14911" name="Mid-grade Magic Rune Clip (S-grade)">
 	<!-- Magic Rune Clip that can improve the function of Mithril Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -129,7 +129,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14912" name="High-grade Magic Rune Clip (S-grade)" add_name="High-grade Magic Rune Clip (S-grade)">
+	<etcitem id="14912" name="High-grade Magic Rune Clip (S-grade)">
 	<!-- High-grade Magic Rune Clip that can improve the function of Mithril Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -139,7 +139,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14913" name="Top-grade Magic Rune Clip (S-grade)" add_name="Top-grade Magic Rune Clip (S-grade)">
+	<etcitem id="14913" name="Top-grade Magic Rune Clip (S-grade)">
 	<!-- Highest-grade Magic Rune Clip that can improve the function of Mithril Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -149,7 +149,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14914" name="Low-grade Magic Ornament (A-grade)" add_name="Low-grade Magic Ornament (A-grade)">
+	<etcitem id="14914" name="Low-grade Magic Ornament (A-grade)">
 	<!-- Low-grade Magic Ornament that can improve the function of Steel Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -159,7 +159,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14915" name="Mid-grade Magic Ornament (A-grade)" add_name="Mid-grade Magic Ornament (A-grade)">
+	<etcitem id="14915" name="Mid-grade Magic Ornament (A-grade)">
 	<!-- Magic Ornament that can improve the function of Iron Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -169,7 +169,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14916" name="High-grade Magic Ornament (A-grade)" add_name="High-grade Magic Ornament (A-grade)">
+	<etcitem id="14916" name="High-grade Magic Ornament (A-grade)">
 	<!-- High-grade Magic Ornament that can improve the function of Iron Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -179,7 +179,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14917" name="Top-grade Magic Ornament (A-grade)" add_name="Top-grade Magic Ornament (A-grade)">
+	<etcitem id="14917" name="Top-grade Magic Ornament (A-grade)">
 	<!-- Highest-level Magic Ornament that can improve the function of Iron Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -189,7 +189,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14918" name="Low-grade Magic Ornament (S-grade)" add_name="Low-grade Magic Ornament (S-grade)">
+	<etcitem id="14918" name="Low-grade Magic Ornament (S-grade)">
 	<!-- Low-grade Magic Pin that can improve the function of Mithril Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -199,7 +199,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14919" name="Mid-grade Magic Ornament (S-grade)" add_name="Mid-grade Magic Ornament (S-grade)">
+	<etcitem id="14919" name="Mid-grade Magic Ornament (S-grade)">
 	<!-- Magic Pin that can improve the function of Mithril Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -209,7 +209,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14920" name="High-grade Magic Ornament (S-grade)" add_name="High-grade Magic Ornament (S-grade)">
+	<etcitem id="14920" name="High-grade Magic Ornament (S-grade)">
 	<!-- High-grade Magic Ornament that can improve the function of Mithril Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -219,7 +219,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="20"/>
 	</etcitem>
-	<etcitem id="14921" name="Top-grade Magic Ornament (S-grade)" add_name="Top-grade Magic Ornament (S-grade)">
+	<etcitem id="14921" name="Top-grade Magic Ornament (S-grade)">
 	<!-- High-grade Magic Ornament that can improve the function of Mithril Belt. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="18103" name="Unidentified Requiem Shaper" add_name="Unidentified Requiem Shaper">
+	<etcitem id="18103" name="Unidentified Requiem Shaper">
 	<!-- A Requiem Shaper in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / dagger) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -11,8 +11,9 @@
 		<skills>
 			<skill id="12012" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_aspeda_i00"/>
 	</etcitem>
-	<etcitem id="18104" name="Unidentified Requiem Cutter" add_name="Unidentified Requiem Cutter">
+	<etcitem id="18104" name="Unidentified Requiem Cutter">
 	<!-- A Requiem Cutter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -22,8 +23,9 @@
 		<skills>
 			<skill id="12013" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_estia_i00"/>
 	</etcitem>
-	<etcitem id="18105" name="Unidentified Requiem Slasher" add_name="Unidentified Requiem Slasher">
+	<etcitem id="18105" name="Unidentified Requiem Slasher">
 	<!-- A Requiem Slasher in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -33,8 +35,9 @@
 		<skills>
 			<skill id="12014" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_polion_i00"/>
 	</etcitem>
-	<etcitem id="18106" name="Unidentified Requiem Avenger" add_name="Unidentified Requiem Avenger">
+	<etcitem id="18106" name="Unidentified Requiem Avenger">
 	<!-- A Requiem Avenger in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -44,8 +47,9 @@
 		<skills>
 			<skill id="12015" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_batista_i00"/>
 	</etcitem>
-	<etcitem id="18107" name="Unidentified Requiem Fighter" add_name="Unidentified Requiem Fighter">
+	<etcitem id="18107" name="Unidentified Requiem Fighter">
 	<!-- A Requiem Fighter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / combat) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -55,8 +59,9 @@
 		<skills>
 			<skill id="12016" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_fantasma_i00"/>
 	</etcitem>
-	<etcitem id="18108" name="Unidentified Requiem Stormer" add_name="Unidentified Requiem Stormer">
+	<etcitem id="18108" name="Unidentified Requiem Stormer">
 	<!-- A Requiem Stormer in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / spear) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -66,8 +71,9 @@
 		<skills>
 			<skill id="12017" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_soryu_i00"/>
 	</etcitem>
-	<etcitem id="18109" name="Unidentified Requiem Thrower" add_name="Unidentified Requiem Thrower">
+	<etcitem id="18109" name="Unidentified Requiem Thrower">
 	<!-- A Requiem Thrower in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / bow) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -77,8 +83,9 @@
 		<skills>
 			<skill id="12018" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_grabathus_i00"/>
 	</etcitem>
-	<etcitem id="18110" name="Unidentified Requiem Shooter" add_name="Unidentified Requiem Shooter">
+	<etcitem id="18110" name="Unidentified Requiem Shooter">
 	<!-- A Requiem Shooter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / crossbow / bow) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -88,8 +95,9 @@
 		<skills>
 			<skill id="12019" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_shyayaka_i00"/>
 	</etcitem>
-	<etcitem id="18111" name="Unidentified Requiem Buster" add_name="Unidentified Requiem Buster">
+	<etcitem id="18111" name="Unidentified Requiem Buster">
 	<!-- A Requiem Buster in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -99,8 +107,9 @@
 		<skills>
 			<skill id="12020" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_kaynon_i00"/>
 	</etcitem>
-	<etcitem id="18112" name="Unidentified Requiem Caster" add_name="Unidentified Requiem Caster">
+	<etcitem id="18112" name="Unidentified Requiem Caster">
 	<!-- A Requiem Caster in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -110,8 +119,9 @@
 		<skills>
 			<skill id="12021" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_anatrian_i00"/>
 	</etcitem>
-	<etcitem id="18113" name="Unidentified Requiem Retributer" add_name="Unidentified Requiem Retributer">
+	<etcitem id="18113" name="Unidentified Requiem Retributer">
 	<!-- A Requiem Retributer in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -121,8 +131,9 @@
 		<skills>
 			<skill id="12022" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_grangkaz_i00"/>
 	</etcitem>
-	<etcitem id="18114" name="Unidentified Requiem Dualsword" add_name="Unidentified Requiem Dualsword">
+	<etcitem id="18114" name="Unidentified Requiem Dualsword">
 	<!-- A Requiem Dualsword in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -132,8 +143,9 @@
 		<skills>
 			<skill id="12023" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_r_dualsword_i00"/>
 	</etcitem>
-	<etcitem id="18115" name="Unidentified Requiem Dual Dagger" add_name="Unidentified Requiem Dual Dagger">
+	<etcitem id="18115" name="Unidentified Requiem Dual Dagger">
 	<!-- A Requiem Dual Dagger in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword / dagger) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -143,8 +155,9 @@
 		<skills>
 			<skill id="12024" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_r_dualdagger_i00"/>
 	</etcitem>
-	<etcitem id="18116" name="Unidentified Requiem Dual Blunt Weapon" add_name="Unidentified Requiem Dual Blunt Weapon">
+	<etcitem id="18116" name="Unidentified Requiem Dual Blunt Weapon">
 	<!-- A Requiem Dual Blunt Weapon in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -154,8 +167,9 @@
 		<skills>
 			<skill id="12025" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_r_dualblunt_i00"/>
 	</etcitem>
-	<etcitem id="18117" name="Unidentified Immortal Helmet" add_name="Unidentified Immortal Helmet">
+	<etcitem id="18117" name="Unidentified Immortal Helmet" add_name="Heavy Armor">
 	<!-- An Immortal Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: helmet / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -165,8 +179,9 @@
 		<skills>
 			<skill id="12026" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_helmet_i00"/>
 	</etcitem>
-	<etcitem id="18118" name="Unidentified Immortal Breastplate" add_name="Unidentified Immortal Breastplate">
+	<etcitem id="18118" name="Unidentified Immortal Breastplate" add_name="Heavy Armor">
 	<!-- An Immortal Breastplate in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -176,8 +191,9 @@
 		<skills>
 			<skill id="12027" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t501_u_i00"/>
 	</etcitem>
-	<etcitem id="18119" name="Unidentified Immortal Gaiters" add_name="Unidentified Immortal Gaiters">
+	<etcitem id="18119" name="Unidentified Immortal Gaiters" add_name="Heavy Armor">
 	<!-- Immortal Gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -187,8 +203,9 @@
 		<skills>
 			<skill id="12028" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t501_l_i00"/>
 	</etcitem>
-	<etcitem id="18120" name="Unidentified Immortal Gauntlets" add_name="Unidentified Immortal Gauntlets">
+	<etcitem id="18120" name="Unidentified Immortal Gauntlets" add_name="Heavy Armor">
 	<!-- Immortal Gauntlets in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -198,8 +215,9 @@
 		<skills>
 			<skill id="12029" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t501_g_i00"/>
 	</etcitem>
-	<etcitem id="18121" name="Unidentified Immortal Boots" add_name="Unidentified Immortal Boots">
+	<etcitem id="18121" name="Unidentified Immortal Boots" add_name="Heavy Armor">
 	<!-- Immortal Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -209,8 +227,9 @@
 		<skills>
 			<skill id="12030" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t501_b_i00"/>
 	</etcitem>
-	<etcitem id="18122" name="Unidentified Immortal Shield" add_name="Unidentified Immortal Shield">
+	<etcitem id="18122" name="Unidentified Immortal Shield" add_name="Heavy Armor">
 	<!-- An Immortal Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: shield / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -220,8 +239,9 @@
 		<skills>
 			<skill id="12031" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_sacon_i00"/>
 	</etcitem>
-	<etcitem id="18123" name="Unidentified Immortal Leather Helmet" add_name="Unidentified Immortal Leather Helmet">
+	<etcitem id="18123" name="Unidentified Immortal Leather Helmet" add_name="Light Armor">
 	<!-- An Immortal Leather Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: helmet / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -231,8 +251,9 @@
 		<skills>
 			<skill id="12032" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
 	</etcitem>
-	<etcitem id="18124" name="Unidentified Immortal Leather Armor" add_name="Unidentified Immortal Leather Armor">
+	<etcitem id="18124" name="Unidentified Immortal Leather Armor" add_name="Light Armor">
 	<!-- An Immortal Leather Armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -242,8 +263,9 @@
 		<skills>
 			<skill id="12033" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t502_u_i00"/>
 	</etcitem>
-	<etcitem id="18125" name="Unidentified Immortal Leather Leggings" add_name="Unidentified Immortal Leather Leggings">
+	<etcitem id="18125" name="Unidentified Immortal Leather Leggings" add_name="Light Armor">
 	<!-- Immortal Leather Leggings in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -253,8 +275,9 @@
 		<skills>
 			<skill id="12034" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t502_l_i00"/>
 	</etcitem>
-	<etcitem id="18126" name="Unidentified Immortal Leather Gloves" add_name="Unidentified Immortal Leather Gloves">
+	<etcitem id="18126" name="Unidentified Immortal Leather Gloves" add_name="Light Armor">
 	<!-- Immortal Leather Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -264,8 +287,9 @@
 		<skills>
 			<skill id="12035" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t502_g_i00"/>
 	</etcitem>
-	<etcitem id="18127" name="Unidentified Immortal Leather Boots" add_name="Unidentified Immortal Leather Boots">
+	<etcitem id="18127" name="Unidentified Immortal Leather Boots" add_name="Light Armor">
 	<!-- Immortal Leather Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -275,8 +299,9 @@
 		<skills>
 			<skill id="12036" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t502_b_i00"/>
 	</etcitem>
-	<etcitem id="18128" name="Unidentified Immortal Circlet" add_name="Unidentified Immortal Circlet">
+	<etcitem id="18128" name="Unidentified Immortal Circlet" add_name="Robe">
 	<!-- An Immortal Circlet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: helmet / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -286,8 +311,9 @@
 		<skills>
 			<skill id="12037" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_circlet_i00"/>
 	</etcitem>
-	<etcitem id="18129" name="Unidentified Immortal Tunic" add_name="Unidentified Immortal Tunic">
+	<etcitem id="18129" name="Unidentified Immortal Tunic" add_name="Robe">
 	<!-- An Immortal Tunic in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -297,8 +323,9 @@
 		<skills>
 			<skill id="12038" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t503_u_i00"/>
 	</etcitem>
-	<etcitem id="18130" name="Unidentified Immortal Stockings" add_name="Unidentified Immortal Stockings">
+	<etcitem id="18130" name="Unidentified Immortal Stockings" add_name="Robe">
 	<!-- An Immortal Stockings in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -308,8 +335,9 @@
 		<skills>
 			<skill id="12039" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t503_l_i00"/>
 	</etcitem>
-	<etcitem id="18131" name="Unidentified Immortal Gloves" add_name="Unidentified Immortal Gloves">
+	<etcitem id="18131" name="Unidentified Immortal Gloves" add_name="Robe">
 	<!-- Immortal Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -319,8 +347,9 @@
 		<skills>
 			<skill id="12040" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t503_g_i00"/>
 	</etcitem>
-	<etcitem id="18132" name="Unidentified Immortal Shoes" add_name="Unidentified Immortal Shoes">
+	<etcitem id="18132" name="Unidentified Immortal Shoes" add_name="Robe">
 	<!-- Immortal Shoes in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -330,8 +359,9 @@
 		<skills>
 			<skill id="12041" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t503_b_i00"/>
 	</etcitem>
-	<etcitem id="18133" name="Unidentified Immortal Sigil" add_name="Unidentified Immortal Sigil">
+	<etcitem id="18133" name="Unidentified Immortal Sigil" add_name="Robe">
 	<!-- An Immortal Sigil in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: shield / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -341,8 +371,9 @@
 		<skills>
 			<skill id="12042" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_karyen_i00"/>
 	</etcitem>
-	<etcitem id="18134" name="Unidentified Immortal Necklace" add_name="Unidentified Immortal Necklace">
+	<etcitem id="18134" name="Unidentified Immortal Necklace">
 	<!-- An Immortal Necklace in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Necklace) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -352,8 +383,9 @@
 		<skills>
 			<skill id="12043" level="1"/>
 		</skills>
+		<set name="icon" value="icon.r1_necklace_i00"/>
 	</etcitem>
-	<etcitem id="18135" name="Unidentified Immortal Earring" add_name="Unidentified Immortal Earring">
+	<etcitem id="18135" name="Unidentified Immortal Earring">
 	<!-- An Immortal Earring in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Earring) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -363,8 +395,9 @@
 		<skills>
 			<skill id="12044" level="1"/>
 		</skills>
+		<set name="icon" value="icon.r1_earring_i00"/>
 	</etcitem>
-	<etcitem id="18136" name="Unidentified Immortal Ring" add_name="Unidentified Immortal Ring">
+	<etcitem id="18136" name="Unidentified Immortal Ring">
 	<!-- An Immortal Ring in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Ring) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -374,8 +407,9 @@
 		<skills>
 			<skill id="12045" level="1"/>
 		</skills>
+		<set name="icon" value="icon.r1_ring_i00"/>
 	</etcitem>
-	<etcitem id="18137" name="Unidentified Apocalypse Shaper" add_name="Unidentified Apocalypse Shaper">
+	<etcitem id="18137" name="Unidentified Apocalypse Shaper">
 	<!-- Apocalypse Shaper in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / dagger) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -385,8 +419,9 @@
 		<skills>
 			<skill id="12046" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_phasian_i00"/>
 	</etcitem>
-	<etcitem id="18138" name="Unidentified Apocalypse Cutter" add_name="Unidentified Apocalypse Cutter">
+	<etcitem id="18138" name="Unidentified Apocalypse Cutter">
 	<!-- Apocalypse Cutter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -396,8 +431,9 @@
 		<skills>
 			<skill id="12047" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_pasis_i00"/>
 	</etcitem>
-	<etcitem id="18139" name="Unidentified Apocalypse Slasher" add_name="Unidentified Apocalypse Slasher">
+	<etcitem id="18139" name="Unidentified Apocalypse Slasher">
 	<!-- Apocalypse Slasher in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -407,8 +443,9 @@
 		<skills>
 			<skill id="12048" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_volver_i00"/>
 	</etcitem>
-	<etcitem id="18140" name="Unidentified Apocalypse Avenger" add_name="Unidentified Apocalypse Avenger">
+	<etcitem id="18140" name="Unidentified Apocalypse Avenger">
 	<!-- Apocalypse Avenger in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -418,8 +455,9 @@
 		<skills>
 			<skill id="12049" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_raksilion_i00"/>
 	</etcitem>
-	<etcitem id="18141" name="Unidentified Apocalypse Fighter" add_name="Unidentified Apocalypse Fighter">
+	<etcitem id="18141" name="Unidentified Apocalypse Fighter">
 	<!-- Apocalypse Fighter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / combat) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -429,8 +467,9 @@
 		<skills>
 			<skill id="12050" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_kirche_i00"/>
 	</etcitem>
-	<etcitem id="18142" name="Unidentified Apocalypse Stormer" add_name="Unidentified Apocalypse Stormer">
+	<etcitem id="18142" name="Unidentified Apocalypse Stormer">
 	<!-- Apocalypse Stormer in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / spear) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -440,8 +479,9 @@
 		<skills>
 			<skill id="12051" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_grave_i00"/>
 	</etcitem>
-	<etcitem id="18143" name="Unidentified Apocalypse Thrower" add_name="Unidentified Apocalypse Thrower">
+	<etcitem id="18143" name="Unidentified Apocalypse Thrower">
 	<!-- Apocalypse Thrower in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / bow) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -451,8 +491,9 @@
 		<skills>
 			<skill id="12052" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_spina_i00"/>
 	</etcitem>
-	<etcitem id="18144" name="Unidentified Apocalypse Shooter" add_name="Unidentified Apocalypse Shooter">
+	<etcitem id="18144" name="Unidentified Apocalypse Shooter">
 	<!-- Apocalypse Shooter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / crossbow / bow) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -462,8 +503,9 @@
 		<skills>
 			<skill id="12053" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_medianox_i00"/>
 	</etcitem>
-	<etcitem id="18145" name="Unidentified Apocalypse Buster" add_name="Unidentified Apocalypse Buster">
+	<etcitem id="18145" name="Unidentified Apocalypse Buster">
 	<!-- Apocalypse Buster in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -473,8 +515,9 @@
 		<skills>
 			<skill id="12054" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_imerose_i00"/>
 	</etcitem>
-	<etcitem id="18146" name="Unidentified Apocalypse Caster" add_name="Unidentified Apocalypse Caster">
+	<etcitem id="18146" name="Unidentified Apocalypse Caster">
 	<!-- Apocalypse Caster in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -484,8 +527,9 @@
 		<skills>
 			<skill id="12055" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_yuke_i00"/>
 	</etcitem>
-	<etcitem id="18147" name="Unidentified Apocalypse Retributer" add_name="Unidentified Apocalypse Retributer">
+	<etcitem id="18147" name="Unidentified Apocalypse Retributer">
 	<!-- Apocalypse Retributer in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -495,8 +539,9 @@
 		<skills>
 			<skill id="12056" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_herencia_i00"/>
 	</etcitem>
-	<etcitem id="18148" name="Unidentified Apocalypse Dualsword" add_name="Unidentified Apocalypse Dualsword">
+	<etcitem id="18148" name="Unidentified Apocalypse Dualsword">
 	<!-- Apocalypse Dualsword in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / Dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -506,8 +551,9 @@
 		<skills>
 			<skill id="12057" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_r_dualsword_i00"/>
 	</etcitem>
-	<etcitem id="18149" name="Unidentified Apocalypse Dual Dagger" add_name="Unidentified Apocalypse Dual Dagger">
+	<etcitem id="18149" name="Unidentified Apocalypse Dual Dagger">
 	<!-- Apocalypse Dual Dagger in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword / dagger) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -517,8 +563,9 @@
 		<skills>
 			<skill id="12058" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_r_dualdagger_i00"/>
 	</etcitem>
-	<etcitem id="18150" name="Unidentified Apocalypse Dual Blunt Weapon" add_name="Unidentified Apocalypse Dual Blunt Weapon">
+	<etcitem id="18150" name="Unidentified Apocalypse Dual Blunt Weapon">
 	<!-- Apocalypse Dual Blunt Weapon in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -528,8 +575,9 @@
 		<skills>
 			<skill id="12059" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_r_dualblunt_i00"/>
 	</etcitem>
-	<etcitem id="18151" name="Unidentified Twilight Helmet" add_name="Unidentified Twilight Helmet">
+	<etcitem id="18151" name="Unidentified Twilight Helmet" add_name="Heavy Armor">
 	<!-- A Twilight Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Helmet / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -539,8 +587,9 @@
 		<skills>
 			<skill id="12060" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_helmet_i00"/>
 	</etcitem>
-	<etcitem id="18152" name="Unidentified Twilight Breastplate" add_name="Unidentified Twilight Breastplate">
+	<etcitem id="18152" name="Unidentified Twilight Breastplate" add_name="Heavy Armor">
 	<!-- A Twilight Breastplate in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -550,8 +599,9 @@
 		<skills>
 			<skill id="12061" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t601_u_i00"/>
 	</etcitem>
-	<etcitem id="18153" name="Unidentified Twilight Gaiters" add_name="Unidentified Twilight Gaiters">
+	<etcitem id="18153" name="Unidentified Twilight Gaiters" add_name="Heavy Armor">
 	<!-- Twilight Gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -561,8 +611,9 @@
 		<skills>
 			<skill id="12062" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t601_l_i00"/>
 	</etcitem>
-	<etcitem id="18154" name="Unidentified Twilight Gauntlets" add_name="Unidentified Twilight Gauntlets">
+	<etcitem id="18154" name="Unidentified Twilight Gauntlets" add_name="Heavy Armor">
 	<!-- A Twilight Gauntlets in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -572,8 +623,9 @@
 		<skills>
 			<skill id="12063" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t601_g_i00"/>
 	</etcitem>
-	<etcitem id="18155" name="Unidentified Twilight Boots" add_name="Unidentified Twilight Boots">
+	<etcitem id="18155" name="Unidentified Twilight Boots" add_name="Heavy Armor">
 	<!-- Twilight Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -583,8 +635,9 @@
 		<skills>
 			<skill id="12064" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t601_b_i00"/>
 	</etcitem>
-	<etcitem id="18156" name="Unidentified Twilight Shield" add_name="Unidentified Twilight Shield">
+	<etcitem id="18156" name="Unidentified Twilight Shield" add_name="Heavy Armor">
 	<!-- A Twilight Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Shield / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -594,8 +647,9 @@
 		<skills>
 			<skill id="12065" level="1"/>
 		</skills>
+		<set name="icon" value="icon.kratere_i00"/>
 	</etcitem>
-	<etcitem id="18157" name="Unidentified Twilight Leather Helmet" add_name="Unidentified Twilight Leather Helmet">
+	<etcitem id="18157" name="Unidentified Twilight Leather Helmet" add_name="Light Armor">
 	<!-- A Twilight leather Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Helmet / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -605,8 +659,9 @@
 		<skills>
 			<skill id="12066" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
 	</etcitem>
-	<etcitem id="18158" name="Unidentified Twilight Leather Armor" add_name="Unidentified Twilight Leather Armor">
+	<etcitem id="18158" name="Unidentified Twilight Leather Armor" add_name="Light Armor">
 	<!-- A Twilight leather armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -616,8 +671,9 @@
 		<skills>
 			<skill id="12067" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t602_u_i00"/>
 	</etcitem>
-	<etcitem id="18159" name="Unidentified Twilight Leather Leggings" add_name="Unidentified Twilight Leather Leggings">
+	<etcitem id="18159" name="Unidentified Twilight Leather Leggings" add_name="Light Armor">
 	<!-- Twilight leather Leggings in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -627,8 +683,9 @@
 		<skills>
 			<skill id="12068" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t602_l_i00"/>
 	</etcitem>
-	<etcitem id="18160" name="Unidentified Twilight Leather Gloves" add_name="Unidentified Twilight Leather Gloves">
+	<etcitem id="18160" name="Unidentified Twilight Leather Gloves" add_name="Light Armor">
 	<!-- Twilight leather Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -638,8 +695,9 @@
 		<skills>
 			<skill id="12069" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t602_g_i00"/>
 	</etcitem>
-	<etcitem id="18161" name="Unidentified Twilight Leather Boots" add_name="Unidentified Twilight Leather Boots">
+	<etcitem id="18161" name="Unidentified Twilight Leather Boots" add_name="Light Armor">
 	<!-- Twilight leather Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -649,8 +707,9 @@
 		<skills>
 			<skill id="12070" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t602_b_i00"/>
 	</etcitem>
-	<etcitem id="18162" name="Unidentified Twilight Circlet" add_name="Unidentified Twilight Circlet">
+	<etcitem id="18162" name="Unidentified Twilight Circlet" add_name="Robe">
 	<!-- A Twilight Circlet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Helmet / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -660,8 +719,9 @@
 		<skills>
 			<skill id="12071" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_circlet_i00"/>
 	</etcitem>
-	<etcitem id="18163" name="Unidentified Twilight Tunic" add_name="Unidentified Twilight Tunic">
+	<etcitem id="18163" name="Unidentified Twilight Tunic" add_name="Robe">
 	<!-- A Twilight Tunic in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -671,8 +731,9 @@
 		<skills>
 			<skill id="12072" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t603_u_i00"/>
 	</etcitem>
-	<etcitem id="18164" name="Unidentified Twilight Stockings" add_name="Unidentified Twilight Stockings">
+	<etcitem id="18164" name="Unidentified Twilight Stockings" add_name="Robe">
 	<!-- Twilight Stockings in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -682,8 +743,9 @@
 		<skills>
 			<skill id="12073" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t603_l_i00"/>
 	</etcitem>
-	<etcitem id="18165" name="Unidentified Twilight Gloves" add_name="Unidentified Twilight Gloves">
+	<etcitem id="18165" name="Unidentified Twilight Gloves" add_name="Robe">
 	<!-- Twilight Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -693,8 +755,9 @@
 		<skills>
 			<skill id="12074" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t603_g_i00"/>
 	</etcitem>
-	<etcitem id="18166" name="Unidentified Twilight Shoes" add_name="Unidentified Twilight Shoes">
+	<etcitem id="18166" name="Unidentified Twilight Shoes" add_name="Robe">
 	<!-- Twilight Shoes in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -704,8 +767,9 @@
 		<skills>
 			<skill id="12075" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t603_b_i00"/>
 	</etcitem>
-	<etcitem id="18167" name="Unidentified Twilight Sigil" add_name="Unidentified Twilight Sigil">
+	<etcitem id="18167" name="Unidentified Twilight Sigil" add_name="Robe">
 	<!-- A Twilight Sigil in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Shield / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -715,8 +779,9 @@
 		<skills>
 			<skill id="12076" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_dynaksus_i00"/>
 	</etcitem>
-	<etcitem id="18168" name="Unidentified Twilight Necklace" add_name="Unidentified Twilight Necklace">
+	<etcitem id="18168" name="Unidentified Twilight Necklace">
 	<!-- A Twilight Necklace in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Necklace) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -726,8 +791,9 @@
 		<skills>
 			<skill id="12077" level="1"/>
 		</skills>
+		<set name="icon" value="icon.r2_necklace_i00"/>
 	</etcitem>
-	<etcitem id="18169" name="Unidentified Twilight Earring" add_name="Unidentified Twilight Earring">
+	<etcitem id="18169" name="Unidentified Twilight Earring">
 	<!-- A Twilight Earring in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Earring) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -737,8 +803,9 @@
 		<skills>
 			<skill id="12078" level="1"/>
 		</skills>
+		<set name="icon" value="icon.r2_earring_i00"/>
 	</etcitem>
-	<etcitem id="18170" name="Unidentified Twilight Ring" add_name="Unidentified Twilight Ring">
+	<etcitem id="18170" name="Unidentified Twilight Ring">
 	<!-- A Twilight Ring in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Ring) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -748,8 +815,9 @@
 		<skills>
 			<skill id="12079" level="1"/>
 		</skills>
+		<set name="icon" value="icon.r2_ring_i00"/>
 	</etcitem>
-	<etcitem id="18171" name="Unidentified Specter Shaper" add_name="Unidentified Specter Shaper">
+	<etcitem id="18171" name="Unidentified Specter Shaper">
 	<!-- A Specter Shaper in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / dagger) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -759,8 +827,9 @@
 		<skills>
 			<skill id="12080" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_ignicion_i00"/>
 	</etcitem>
-	<etcitem id="18172" name="Unidentified Specter Cutter" add_name="Unidentified Specter Cutter">
+	<etcitem id="18172" name="Unidentified Specter Cutter">
 	<!-- A Specter Cutter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -770,8 +839,9 @@
 		<skills>
 			<skill id="12081" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_ninfea_i00"/>
 	</etcitem>
-	<etcitem id="18173" name="Unidentified Specter Slasher" add_name="Unidentified Specter Slasher">
+	<etcitem id="18173" name="Unidentified Specter Slasher">
 	<!-- A Specter Slasher in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -781,8 +851,9 @@
 		<skills>
 			<skill id="12082" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_skia_i00"/>
 	</etcitem>
-	<etcitem id="18174" name="Unidentified Specter Avenger" add_name="Unidentified Specter Avenger">
+	<etcitem id="18174" name="Unidentified Specter Avenger">
 	<!-- A Specter Avenger in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -792,8 +863,9 @@
 		<skills>
 			<skill id="12083" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_ikeon_i00"/>
 	</etcitem>
-	<etcitem id="18175" name="Unidentified Specter Fighter" add_name="Unidentified Specter Fighter">
+	<etcitem id="18175" name="Unidentified Specter Fighter">
 	<!-- A Specter Fighter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / combat) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -803,8 +875,9 @@
 		<skills>
 			<skill id="12084" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_deodos_i00"/>
 	</etcitem>
-	<etcitem id="18176" name="Unidentified Specter Stormer" add_name="Unidentified Specter Stormer">
+	<etcitem id="18176" name="Unidentified Specter Stormer">
 	<!-- A Specter Stormer in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / spear) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -814,8 +887,9 @@
 		<skills>
 			<skill id="12085" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_transgredi_i00"/>
 	</etcitem>
-	<etcitem id="18177" name="Unidentified Specter Thrower" add_name="Unidentified Specter Thrower">
+	<etcitem id="18177" name="Unidentified Specter Thrower">
 	<!-- A Specter Thrower in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / bow) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -825,8 +899,9 @@
 		<skills>
 			<skill id="12086" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_solenas_i00"/>
 	</etcitem>
-	<etcitem id="18178" name="Unidentified Specter Shooter" add_name="Unidentified Specter Shooter">
+	<etcitem id="18178" name="Unidentified Specter Shooter">
 	<!-- A Specter Shooter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / crossbow / bow) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -836,8 +911,9 @@
 		<skills>
 			<skill id="12087" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_lapis_i00"/>
 	</etcitem>
-	<etcitem id="18179" name="Unidentified Specter Buster" add_name="Unidentified Specter Buster">
+	<etcitem id="18179" name="Unidentified Specter Buster">
 	<!-- A Specter Buster in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / sword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -847,8 +923,9 @@
 		<skills>
 			<skill id="12088" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_zihel_i00"/>
 	</etcitem>
-	<etcitem id="18180" name="Unidentified Specter Caster" add_name="Unidentified Specter Caster">
+	<etcitem id="18180" name="Unidentified Specter Caster">
 	<!-- A Specter Caster in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -858,8 +935,9 @@
 		<skills>
 			<skill id="12089" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_alacer_i00"/>
 	</etcitem>
-	<etcitem id="18181" name="Unidentified Specter Retributer" add_name="Unidentified Specter Retributer">
+	<etcitem id="18181" name="Unidentified Specter Retributer">
 	<!-- A Specter Retributer in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -869,8 +947,9 @@
 		<skills>
 			<skill id="12090" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_rupe_i00"/>
 	</etcitem>
-	<etcitem id="18182" name="Unidentified Specter Dualsword" add_name="Unidentified Specter Dualsword">
+	<etcitem id="18182" name="Unidentified Specter Dualsword">
 	<!-- A Specter Dualsword in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -880,8 +959,9 @@
 		<skills>
 			<skill id="12091" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_r_dualsword_i00"/>
 	</etcitem>
-	<etcitem id="18183" name="Unidentified Specter Dual Dagger" add_name="Unidentified Specter Dual Dagger">
+	<etcitem id="18183" name="Unidentified Specter Dual Dagger">
 	<!-- A Specter Dual Dagger in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword / dagger) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -891,8 +971,9 @@
 		<skills>
 			<skill id="12092" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_r_dualdagger_i00"/>
 	</etcitem>
-	<etcitem id="18184" name="Unidentified Specter Dual Blunt Weapon" add_name="Unidentified Specter Dual Blunt Weapon">
+	<etcitem id="18184" name="Unidentified Specter Dual Blunt Weapon">
 	<!-- A Specter Dual Blunt Weapon in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword / blunt) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -902,8 +983,9 @@
 		<skills>
 			<skill id="12093" level="1"/>
 		</skills>
+		<set name="icon" value="icon.weapon_r_dualblunt_i00"/>
 	</etcitem>
-	<etcitem id="18185" name="Unidentified Seraph Helmet" add_name="Unidentified Seraph Helmet">
+	<etcitem id="18185" name="Unidentified Seraph Helmet" add_name="Heavy Armor">
 	<!-- A Seraph Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Helmet / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -913,8 +995,9 @@
 		<skills>
 			<skill id="12094" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_helmet_i00"/>
 	</etcitem>
-	<etcitem id="18186" name="Unidentified Seraph Breastplate" add_name="Unidentified Seraph Breastplate">
+	<etcitem id="18186" name="Unidentified Seraph Breastplate" add_name="Heavy Armor">
 	<!-- A Seraph Breastplate in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -924,8 +1007,9 @@
 		<skills>
 			<skill id="12095" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t401_u_i00"/>
 	</etcitem>
-	<etcitem id="18187" name="Unidentified Seraph Gaiters" add_name="Unidentified Seraph Gaiters">
+	<etcitem id="18187" name="Unidentified Seraph Gaiters" add_name="Heavy Armor">
 	<!-- Seraph Gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -935,8 +1019,9 @@
 		<skills>
 			<skill id="12096" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t401_l_i00"/>
 	</etcitem>
-	<etcitem id="18188" name="Unidentified Seraph Gauntlets" add_name="Unidentified Seraph Gauntlets">
+	<etcitem id="18188" name="Unidentified Seraph Gauntlets" add_name="Heavy Armor">
 	<!-- A Seraph Gauntlets in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -946,8 +1031,9 @@
 		<skills>
 			<skill id="12097" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t401_g_i00"/>
 	</etcitem>
-	<etcitem id="18189" name="Unidentified Seraph Boots" add_name="Unidentified Seraph Boots">
+	<etcitem id="18189" name="Unidentified Seraph Boots" add_name="Heavy Armor">
 	<!-- Seraph Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -957,8 +1043,9 @@
 		<skills>
 			<skill id="12098" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t401_b_i00"/>
 	</etcitem>
-	<etcitem id="18190" name="Unidentified Seraph Shield" add_name="Unidentified Seraph Shield">
+	<etcitem id="18190" name="Unidentified Seraph Shield" add_name="Heavy Armor">
 	<!-- A Seraph Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Shield / heavy armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -968,8 +1055,9 @@
 		<skills>
 			<skill id="12099" level="1"/>
 		</skills>
+		<set name="icon" value="icon.beranka_i00"/>
 	</etcitem>
-	<etcitem id="18191" name="Unidentified Seraph Leather Helmet" add_name="Unidentified Seraph Leather Helmet">
+	<etcitem id="18191" name="Unidentified Seraph Leather Helmet" add_name="Light Armor">
 	<!-- A Seraph leather Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Helmet / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -979,8 +1067,9 @@
 		<skills>
 			<skill id="12100" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
 	</etcitem>
-	<etcitem id="18192" name="Unidentified Seraph Leather Armor" add_name="Unidentified Seraph Leather Armor">
+	<etcitem id="18192" name="Unidentified Seraph Leather Armor" add_name="Light Armor">
 	<!-- Seraph leather armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -990,8 +1079,9 @@
 		<skills>
 			<skill id="12101" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t402_u_i00"/>
 	</etcitem>
-	<etcitem id="18193" name="Unidentified Seraph Leather Leggings" add_name="Unidentified Seraph Leather Leggings">
+	<etcitem id="18193" name="Unidentified Seraph Leather Leggings" add_name="Light Armor">
 	<!-- Seraph leather Leggings in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -1001,8 +1091,9 @@
 		<skills>
 			<skill id="12102" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t402_l_i00"/>
 	</etcitem>
-	<etcitem id="18194" name="Unidentified Seraph Leather Gloves" add_name="Unidentified Seraph Leather Gloves">
+	<etcitem id="18194" name="Unidentified Seraph Leather Gloves" add_name="Light Armor">
 	<!-- Seraph leather Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -1012,8 +1103,9 @@
 		<skills>
 			<skill id="12103" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t402_g_i00"/>
 	</etcitem>
-	<etcitem id="18195" name="Unidentified Seraph Leather Boots" add_name="Unidentified Seraph Leather Boots">
+	<etcitem id="18195" name="Unidentified Seraph Leather Boots" add_name="Light Armor">
 	<!-- Seraph leather Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / light armor) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -1023,8 +1115,9 @@
 		<skills>
 			<skill id="12104" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t402_b_i00"/>
 	</etcitem>
-	<etcitem id="18196" name="Unidentified Seraph Circlet" add_name="Unidentified Seraph Circlet">
+	<etcitem id="18196" name="Unidentified Seraph Circlet" add_name="Robe">
 	<!-- A Seraph Circlet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Helmet / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -1034,8 +1127,9 @@
 		<skills>
 			<skill id="12105" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_circlet_i00"/>
 	</etcitem>
-	<etcitem id="18197" name="Unidentified Seraph Tunic" add_name="Unidentified Seraph Tunic">
+	<etcitem id="18197" name="Unidentified Seraph Tunic" add_name="Robe">
 	<!-- A Seraph Tunic in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -1045,8 +1139,9 @@
 		<skills>
 			<skill id="12106" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t403_u_i00"/>
 	</etcitem>
-	<etcitem id="18198" name="Unidentified Seraph Stockings" add_name="Unidentified Seraph Stockings">
+	<etcitem id="18198" name="Unidentified Seraph Stockings" add_name="Robe">
 	<!-- Seraph Stockings in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -1056,8 +1151,9 @@
 		<skills>
 			<skill id="12107" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t403_l_i00"/>
 	</etcitem>
-	<etcitem id="18199" name="Unidentified Seraph Gloves" add_name="Unidentified Seraph Gloves">
+	<etcitem id="18199" name="Unidentified Seraph Gloves" add_name="Robe">
 	<!-- Seraph Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / robe) -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -1067,5 +1163,6 @@
 		<skills>
 			<skill id="12108" level="1"/>
 		</skills>
+		<set name="icon" value="icon.armor_t403_g_i00"/>
 	</etcitem>
 </list>

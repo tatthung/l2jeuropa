@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="20000" name="Spicy Kimchi" add_name="Spicy Kimchi">
+	<etcitem id="20000" name="Spicy Kimchi">
 	<!-- Event Item
 	Temporarily increases Recovery Rate. Effect 1. -->
 		<set name="class" value="OTHER"/>
@@ -15,7 +15,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="20001" name="Spicy Kimchi" add_name="Spicy Kimchi">
+	<etcitem id="20001" name="Spicy Kimchi">
 	<!-- Event Item
 	Temporarily increases Recovery Rate and power. Effect 2. -->
 		<set name="class" value="OTHER"/>
@@ -29,7 +29,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="20002" name="Spicy Kimchi" add_name="Spicy Kimchi">
+	<etcitem id="20002" name="Spicy Kimchi">
 	<!-- Event Item
 	Temporarily increases Recovery Rate, power and power Speed. Effect 3. -->
 		<set name="class" value="OTHER"/>
@@ -43,7 +43,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="20003" name="Sweet-and-Sour White Kimchi" add_name="Sweet-and-Sour White Kimchi">
+	<etcitem id="20003" name="Sweet-and-Sour White Kimchi">
 	<!-- Event Item
 	Magically multiplies the effect of Spicy Kimchi by 5. -->
 		<set name="class" value="OTHER"/>
@@ -60,7 +60,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="20004" name="Vitality Ginseng" add_name="Vitality Ginseng">
+	<etcitem id="20004" name="Vitality Ginseng">
 	<!-- Event item
 	Recovers Vitality upon acquiring XP Vitality item with limited usage. -->
 		<set name="class" value="OTHER"/>
@@ -74,7 +74,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="20005" name="Vitality Red Ginseng" add_name="Vitality Red Ginseng">
+	<etcitem id="20005" name="Vitality Red Ginseng">
 	<!-- Event item
 	Magic Red Ginseng that replenishes some Vitality. Vitality item with limited usage. -->
 		<set name="class" value="OTHER"/>
@@ -88,7 +88,7 @@
 			</not>
 		</cond>
 	</etcitem>
-	<etcitem id="20025" name="My Teleport Scroll" add_name="My Teleport Scroll">
+	<etcitem id="20025" name="My Teleport Scroll">
 	<!-- This consumable item allows you to magically transport yourself to a specific location. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -99,7 +99,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="5"/>
 	</etcitem>
-	<etcitem id="20026" name="Extra Pass - Kamaloka (Hall of the Abyss)" add_name="Extra Pass - Kamaloka (Hall of the Abyss)">
+	<etcitem id="20026" name="Extra Pass - Kamaloka (Hall of the Abyss)">
 	<!-- Extra entrance pass that lets you enter Kamaloka (Hall of the Abyss). Can cancel the limit on entrance if used while a limit on entrance to the Hall of the Abyss exists. Can only be used once a day outside the instant zone. After use, the effect disappears at the corresponding instant dungeon's reset time. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -110,7 +110,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="5"/>
 	</etcitem>
-	<etcitem id="20027" name="Extra Pass - Near Kamaloka" add_name="Extra Pass - Near Kamaloka">
+	<etcitem id="20027" name="Extra Pass - Near Kamaloka">
 	<!-- Extra entrance pass that lets you enter Near Kamaloka. Can cancel the limit on entrance if used while a limit on entrance to Near Kamaloka exists. Can only be used once a day outside the instant zone. After use, the effect disappears at the corresponding instant dungeon's reset time. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -121,7 +121,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="5"/>
 	</etcitem>
-	<etcitem id="20028" name="Extra Pass - Kamaloka (Labyrinth of the Abyss)" add_name="Extra Pass - Kamaloka (Labyrinth of the Abyss)">
+	<etcitem id="20028" name="Extra Pass - Kamaloka (Labyrinth of the Abyss)">
 	<!-- Extra entrance pass that lets you enter Kamaloka (Labyrinth of the Abyss). Can cancel the limit on entrance if used while a limit on entrance to the Labyrinth of the Abyss exists. Can only be used once a day outside the instant zone. After use, the effect disappears at the corresponding instant dungeon's reset time. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -132,7 +132,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="5"/>
 	</etcitem>
-	<etcitem id="20033" name="My Teleport Flag" add_name="My Teleport Flag">
+	<etcitem id="20033" name="My Teleport Flag">
 	<!-- Dimensional Item
 	Item consumed when saving a new My Teleport location. Can be shared between characters within the same account through the Dimensional Merchant. -->
 		<set name="freightable" value="true"/>
@@ -144,7 +144,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="5"/>
 	</etcitem>
-	<etcitem id="20034" name="Revita-Pop (Event)" add_name="Revita-Pop (Event)">
+	<etcitem id="20034" name="Revita-Pop (Event)">
 	<!-- Tasty candy that replenishes your Vitality to a certain degree. Cooldown is 60 min. Cannot be exchanged or dropped. Limited number available. Can be shared between characters on the same account through the Dimensional Merchant. -->
 		<set name="reuse_delay" value="3000"/>
 		<set name="class" value="OTHER"/>
@@ -155,12 +155,12 @@
 		<set name="stackable" value="true"/>
 		<set name="tradeable" value="false"/>
 		<set name="type" value="SCROLL"/>
-		<set name="weight" value="5"/>
+		<set name="weight" value="0"/>
 		<skills>
 			<skill id="22006" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="20035" name="Agathion - Majo Pack" add_name="Agathion - Majo Pack">
+	<etcitem id="20035" name="Agathion - Majo Pack">
 	<!-- Wrapped Pack containing an Agathion - Majo. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -173,7 +173,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20036" name="Agathion - Gold Majo Pack" add_name="Agathion - Gold Majo Pack">
+	<etcitem id="20036" name="Agathion - Gold Majo Pack">
 	<!-- Wrapped Pack containing an Agathion - Gold Majo. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -186,7 +186,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20037" name="Agathion - Black Majo Pack" add_name="Agathion - Black Majo Pack">
+	<etcitem id="20037" name="Agathion - Black Majo Pack">
 	<!-- Wrapped Pack containing Agathion - Black Majo. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -199,7 +199,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20038" name="Agathion - Majo Pack (30-day)" add_name="Agathion - Majo Pack (30-day)">
+	<etcitem id="20038" name="Agathion - Majo Pack (30-day)" add_name="Big Head">
 	<!-- Contains an Agathion - Majo usable for up to 30 days. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -212,7 +212,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20039" name="Agathion - Gold Majo Pack (30-day)" add_name="Agathion - Gold Majo Pack (30-day)">
+	<etcitem id="20039" name="Agathion - Gold Majo Pack (30-day)" add_name="Resurrection">
 	<!-- Contains an Agathion - Gold Majo usable for up to 30 days. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -225,7 +225,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20040" name="Agathion - Black Majo Pack (30-day)" add_name="Agathion - Black Majo Pack (30-day)">
+	<etcitem id="20040" name="Agathion - Black Majo Pack (30-day)" add_name="Escape">
 	<!-- Contains an Agathion - Black Majo usable for up to 30 days. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -238,7 +238,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20041" name="Agathion - Plaipitak Pack" add_name="Agathion - Plaipitak Pack">
+	<etcitem id="20041" name="Agathion - Plaipitak Pack">
 	<!-- Contains an Agathion - Plaipitak. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -251,7 +251,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20042" name="Agathion - Plaipitak Pack (30-day)" add_name="Agathion - Plaipitak Pack (30-day)">
+	<etcitem id="20042" name="Agathion - Plaipitak Pack (30-day)" add_name="Big Head">
 	<!-- Contains an Agathion - Plaipitak usable for up to 30 days. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -264,7 +264,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20043" name="Agathion - Plaipitak Pack (30-day)" add_name="Agathion - Plaipitak Pack (30-day)">
+	<etcitem id="20043" name="Agathion - Plaipitak Pack (30-day)" add_name="Resurrection">
 	<!-- Contains an Agathion - Plaipitak usable for up to 30 days. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -277,7 +277,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20044" name="Agathion - Plaipitak Pack (30-day)" add_name="Agathion - Plaipitak Pack (30-day)">
+	<etcitem id="20044" name="Agathion - Plaipitak Pack (30-day)" add_name="Escape">
 	<!-- Contains an Agathion - Plaipitak usable for up to 30 days. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -290,7 +290,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20045" name="Horn-rimmed Glasses Pack" add_name="Horn-rimmed Glasses Pack">
+	<etcitem id="20045" name="Horn-rimmed Glasses Pack" add_name="Agility">
 	<!-- Contains a pair of Horn-rimmed Glasses. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -303,7 +303,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20046" name="Afro Hair Pack" add_name="Afro Hair Pack">
+	<etcitem id="20046" name="Afro Hair Pack">
 	<!-- Contains an Afro Hair wig. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -314,7 +314,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20047" name="Afro Hair Pack" add_name="Afro Hair Pack">
+	<etcitem id="20047" name="Afro Hair Pack" add_name="Big Head, Firework">
 	<!-- Contains an Afro Hair wig. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -325,7 +325,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20048" name="Afro Hair Pack" add_name="Afro Hair Pack">
+	<etcitem id="20048" name="Afro Hair Pack" add_name="Wind Walk">
 	<!-- Contains an Afro Hair wig. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -336,7 +336,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20049" name="Uniform Hat Pack" add_name="Uniform Hat Pack">
+	<etcitem id="20049" name="Uniform Hat Pack">
 	<!-- Contains a fancy Uniform Hat. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -347,7 +347,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20050" name="Assassin's Bamboo Hat Pack" add_name="Assassin's Bamboo Hat Pack">
+	<etcitem id="20050" name="Assassin's Bamboo Hat Pack">
 	<!-- Contains an Assassin's Bamboo Hat. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -358,7 +358,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20051" name="Ruthless Tribe Mask Pack" add_name="Ruthless Tribe Mask Pack">
+	<etcitem id="20051" name="Ruthless Tribe Mask Pack">
 	<!-- Contains a Ruthless Tribe Mask. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -369,7 +369,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20052" name="Ribbon Hairband Pack" add_name="Ribbon Hairband Pack">
+	<etcitem id="20052" name="Ribbon Hairband Pack">
 	<!-- Contains an elegant Ribbon Hairband. Exclusive for female characters. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -380,7 +380,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20053" name="Visor Pack" add_name="Visor Pack">
+	<etcitem id="20053" name="Visor Pack">
 	<!-- Contains a rakish Visor. Exclusive for male characters. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -391,7 +391,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20054" name="My Teleport Scroll Pack" add_name="My Teleport Scroll Pack">
+	<etcitem id="20054" name="My Teleport Scroll Pack">
 	<!-- Contains a My Teleport Scroll. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -402,7 +402,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20055" name="Extra Pass - Kamaloka (Hall of the Abyss) Pack" add_name="Extra Pass - Kamaloka (Hall of the Abyss) Pack">
+	<etcitem id="20055" name="Extra Pass - Kamaloka (Hall of the Abyss) Pack">
 	<!-- Contains an extra entrance pass that allows you to enter Kamaloka (Hall of the Abyss). -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -413,7 +413,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20056" name="Extra Pass - Near Kamaloka Pack" add_name="Extra Pass - Near Kamaloka Pack">
+	<etcitem id="20056" name="Extra Pass - Near Kamaloka Pack">
 	<!-- Contains an extra entrance pass that allows you to enter Near Kamaloka. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -424,7 +424,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20057" name="Extra Pass - Kamaloka (Labyrinth of the Abyss) Pack" add_name="Extra Pass - Kamaloka (Labyrinth of the Abyss) Pack">
+	<etcitem id="20057" name="Extra Pass - Kamaloka (Labyrinth of the Abyss) Pack">
 	<!-- Contains an extra entrance pass that allows you to enter Kamaloka (Labyrinth of the Abyss). -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -435,7 +435,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20058" name="Mount - Darkmane Pacer Pack" add_name="Mount - Darkmane Pacer Pack">
+	<etcitem id="20058" name="Mount - Darkmane Pacer Pack">
 	<!-- Wrapped Pack containing a Mount - Darkmane Pacer. Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -448,7 +448,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20059" name="Mount - Darkmane Pacer Pack (30-day)" add_name="Mount - Darkmane Pacer Pack (30-day)">
+	<etcitem id="20059" name="Mount - Darkmane Pacer Pack (30-day)">
 	<!-- Wrapped Pack containing a Mount - Darkmane Pacer (30-day). Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -461,7 +461,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20060" name="Kat the Cat Hat Pack" add_name="Kat the Cat Hat Pack">
+	<etcitem id="20060" name="Kat the Cat Hat Pack">
 	<!-- Contains a Kat the Cat Hat. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -472,7 +472,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20061" name="Skull Hat Pack" add_name="Skull Hat Pack">
+	<etcitem id="20061" name="Skull Hat Pack">
 	<!-- Contains a Skull Hat. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -483,7 +483,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20062" name="My Teleport Flag Pack" add_name="My Teleport Flag Pack">
+	<etcitem id="20062" name="My Teleport Flag Pack">
 	<!-- Contains a My Teleport Flag. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -494,7 +494,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20069" name="Agathion - Baby Panda Pack" add_name="Agathion - Baby Panda Pack">
+	<etcitem id="20069" name="Agathion - Baby Panda Pack">
 	<!-- Wrapped Pack containing a Baby Panda. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -507,7 +507,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20070" name="Agathion - Bamboo Panda Pack" add_name="Agathion - Bamboo Panda Pack">
+	<etcitem id="20070" name="Agathion - Bamboo Panda Pack">
 	<!-- Wrapped Pack containing an Agathion - Bamboo Panda. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -520,7 +520,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20071" name="Agathion - Sexy Pandan Pack" add_name="Agathion - Sexy Pandan Pack">
+	<etcitem id="20071" name="Agathion - Sexy Pandan Pack">
 	<!-- Wrapped Pack containing a Sexy Panda. Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -533,7 +533,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20072" name="Agathion - Baby Panda Pack (15-day)" add_name="Agathion - Baby Panda Pack (15-day)">
+	<etcitem id="20072" name="Agathion - Baby Panda Pack (15-day)" add_name="Big Head">
 	<!-- Wrapped Pack containing an Agathion - Baby Panda (15 day). Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -546,7 +546,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20073" name="Agathion - Bamboo Panda Pack (15-day)" add_name="Agathion - Bamboo Panda Pack (15-day)">
+	<etcitem id="20073" name="Agathion - Bamboo Panda Pack (15-day)" add_name="Resurrection">
 	<!-- Wrapped Pack containing an Agathion - Bamboo Panda (15 day). Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -559,7 +559,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20074" name="Agathion - Sexy Panda Pack (15-day)" add_name="Agathion - Sexy Panda Pack (15-day)">
+	<etcitem id="20074" name="Agathion - Sexy Panda Pack (15-day)" add_name="Escape">
 	<!-- Wrapped Pack containing an Agathion - Sexy Pandan (15 day). Cannot be exchanged or dropped. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -572,7 +572,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20075" name="Santa Claus' Gift - Joy" add_name="Santa Claus' Gift - Joy">
+	<etcitem id="20075" name="Santa Claus' Gift - Joy" add_name="(4-hour)">
 	<!-- Gift of joy. No exchange/drop/sale/warehouse available. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -594,7 +594,7 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="20076" name="Santa Claus' Gift - Enjoyment" add_name="Santa Claus' Gift - Enjoyment">
+	<etcitem id="20076" name="Santa Claus' Gift - Enjoyment" add_name="(4-hour)">
 	<!-- Gift of enjoyment. No exchange/drop/sale/warehouse available. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -616,7 +616,7 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="20077" name="Santa Claus' Gift - Luck" add_name="Santa Claus' Gift - Luck">
+	<etcitem id="20077" name="Santa Claus' Gift - Luck" add_name="(4-hour)">
 	<!-- Gift of luck. No exchange/drop/sale/warehouse available. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -638,7 +638,7 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="20078" name="Santa Claus' Gift - Luck" add_name="Santa Claus' Gift - Luck">
+	<etcitem id="20078" name="Santa Claus' Gift - Luck" add_name="(4-hour)">
 	<!-- Gift of luck. No exchange/drop/sale/warehouse available. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -660,7 +660,7 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="20079" name="Good Luck Bag Pack" add_name="Good Luck Bag Pack">
+	<etcitem id="20079" name="Good Luck Bag Pack">
 	<!-- Wrapped Pack containing a Good Luck Bag. Cannot be exchanged, dropped, or sold. Can be shared between characters within the same account through the Dimensional Merchant. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -673,7 +673,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20080" name="Lucky Four-leaf Clover Pack" add_name="Lucky Four-leaf Clover Pack">
+	<etcitem id="20080" name="Lucky Four-leaf Clover Pack">
 	<!-- Wrapped Pack containing a Lucky Four-leaf Pack. Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -686,7 +686,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20081" name="Good Luck Bag" add_name="Good Luck Bag">
+	<etcitem id="20081" name="Good Luck Bag">
 	<!-- Lucky Bag filled with good luck. If you use it, you can acquire a hair accessory that has the Vitality recovery capability. Cannot be exchanged, dropped, or sold. Can be shared between characters within the same account through the Dimensional Merchant. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -708,7 +708,7 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="20082" name="Lucky Four-leaf Clover" add_name="Lucky Four-leaf Clover">
+	<etcitem id="20082" name="Lucky Four-leaf Clover">
 	<!-- A Lucky Four-leaf Clover. Gives a random Vitality-imbued hair accessory. Cannot be exchanged, dropped, or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -730,7 +730,7 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="20092" name="Holiday Spirit Pack" add_name="Holiday Spirit Pack">
+	<etcitem id="20092" name="Holiday Spirit Pack">
 	<!-- This gift-wrapped pack contains the true spirit of the holiday season. It cannot be exchanged, dropped or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -743,7 +743,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20093" name="Holiday Miracle" add_name="Holiday Miracle">
+	<etcitem id="20093" name="Holiday Miracle">
 	<!-- This provides you with a chance to acquire an Agathion - Rudolph, which Has Vitality Recovery Capability. It cannot be exchanged, dropped or sold. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -765,7 +765,7 @@
 		</cond>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="20096" name="Mysterious Formal Wear (Event) Pack" add_name="Mysterious Formal Wear (Event) Pack">
+	<etcitem id="20096" name="Mysterious Formal Wear (Event) Pack">
 	<!-- This gift-wrapped pack contains a Mysterious Formal Wear. It cannot be exchanged, dropped or sold. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -777,7 +777,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="20097" name="Mysterious Formal Wear (Event)" add_name="Mysterious Formal Wear (Event)">
+	<etcitem id="20097" name="Mysterious Formal Wear (Event)">
 	<!-- Use this to acquire the Formal Wear. It cannot be exchanged, dropped or sold. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>

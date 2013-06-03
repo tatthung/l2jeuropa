@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="32814" name="Recipe: Soulshot (R-grade)" add_name="Recipe: Soulshot (R-grade)">
+	<etcitem id="32814" name="Recipe: Soulshot (R-grade)">
 	<!-- For those who have completed the fourth class transfer only. Recipe for Soulshot (R-grade). Requires Create Common Item Skill Level 10. Success rate is 100%. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -9,8 +9,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="32815" name="Recipe: Spiritshot (R-grade)" add_name="Recipe: Spiritshot (R-grade)">
+	<etcitem id="32815" name="Recipe: Spiritshot (R-grade)">
 	<!-- For those who have completed the fourth class transfer only. Recipe for Spiritshot (R-grade). Requires Create Common Item Skill Level 10. Success rate is 100%. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -18,8 +19,9 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
-	<etcitem id="32816" name="Recipe: Blessed Spiritshot R" add_name="Recipe: Blessed Spiritshot R">
+	<etcitem id="32816" name="Recipe: Blessed Spiritshot R">
 	<!-- For those who have completed the fourth class transfer only. Recipe for Blessed Spiritshot (R-grade). Requires Create Common Item Skill Level 10. Success rate is 100%. -->
 		<set name="class" value="OTHER"/>
 		<set name="ex_type" value="OTHER_ITEMS"/>
@@ -27,5 +29,6 @@
 		<set name="weight" value="30"/>
 		<set name="stackable" value="true"/>
 		<set name="type" value="OTHER"/>
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
 	</etcitem>
 </list>

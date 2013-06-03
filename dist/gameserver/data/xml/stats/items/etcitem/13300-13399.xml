@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="13300" name="Feather of Blessing (Event)" add_name="Feather of Blessing (Event)">
+	<etcitem id="13300" name="Feather of Blessing (Event)">
 	<!-- Dimensional Item
 	You can resurrect right away at the spot where you get killed if you have the Feather of Blessing. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. Can be shared between characters within the same account through the Dimensional Merchant. -->
 		<set name="class" value="OTHER"/>
@@ -13,7 +13,7 @@
 		<set name="tradeable" value="false"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
-	<etcitem id="13301" name="My Teleport Scroll (Event)" add_name="My Teleport Scroll (Event)">
+	<etcitem id="13301" name="My Teleport Scroll (Event)">
 	<!-- Dimensional Item
 	Increases by 3 slots the free teleport list, which can remember designated locations. Can expand up to 9 slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. Can be shared between characters within the same account through the Dimensional Merchant. -->
 		<set name="class" value="OTHER"/>
@@ -26,7 +26,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="5"/>
 	</etcitem>
-	<etcitem id="13302" name="My Teleport Scroll (Event)" add_name="My Teleport Scroll (Event)">
+	<etcitem id="13302" name="My Teleport Scroll (Event)">
 	<!-- Dimensional Item
 	Item that is consumed when moving to the remembered location. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. Can be shared between characters within the same account through the Dimensional Merchant. -->
 		<set name="class" value="OTHER"/>
@@ -39,7 +39,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="5"/>
 	</etcitem>
-	<etcitem id="13303" name="White Weasel Minion Necklace (Event)" add_name="White Weasel Minion Necklace (Event)">
+	<etcitem id="13303" name="White Weasel Minion Necklace (Event)">
 	<!-- Dimensional Item
 	Item that allows you to summon a Minion who temporarily casts warrior-type battle support magic. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
 		<set name="class" value="OTHER"/>
@@ -51,7 +51,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 	</etcitem>
-	<etcitem id="13304" name="Fairy Princess Minion Necklace (Event)" add_name="Fairy Princess Minion Necklace (Event)">
+	<etcitem id="13304" name="Fairy Princess Minion Necklace (Event)">
 	<!-- Dimensional Item
 	Item that allows you to summon a Minion who temporarily casts magician-type battle support magic. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
 		<set name="class" value="OTHER"/>
@@ -63,7 +63,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 	</etcitem>
-	<etcitem id="13305" name="Wild Beast Fighter Minion Necklace (Event)" add_name="Wild Beast Fighter Minion Necklace (Event)">
+	<etcitem id="13305" name="Wild Beast Fighter Minion Necklace (Event)">
 	<!-- Dimensional Item
 	Item that allows you to summon a warrior-type battle Minion. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
 		<set name="class" value="OTHER"/>
@@ -75,7 +75,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 	</etcitem>
-	<etcitem id="13306" name="Fox Shaman Minion Necklace (Event)" add_name="Fox Shaman Minion Necklace (Event)">
+	<etcitem id="13306" name="Fox Shaman Minion Necklace (Event)">
 	<!-- Dimensional Item
 	Item that allows you to summon a magician-type battle Minion. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
 		<set name="class" value="OTHER"/>
@@ -87,7 +87,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="10"/>
 	</etcitem>
-	<etcitem id="13307" name="Color Title (Event)" add_name="Color Title (Event)">
+	<etcitem id="13307" name="Color Title (Event)">
 	<!-- Dimensional Item
 	Item that allows you to change a character's name color. You can change back to the original name color by using the "/resetname" command after changing the name color. If there is no original name, the name will disappear. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. Can be shared between characters within the same account through the Dimensional Merchant. -->
 		<set name="class" value="OTHER"/>
@@ -100,7 +100,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="5"/>
 	</etcitem>
-	<etcitem id="13341" name="My Teleport Scroll Pack (Event)" add_name="My Teleport Scroll Pack (Event)">
+	<etcitem id="13341" name="My Teleport Scroll Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 1 sheet of the Free Teleporter's Scroll. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -114,7 +114,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13342" name="My Teleport Scroll 30-unit Pack (Event)" add_name="My Teleport Scroll 30-unit Pack (Event)">
+	<etcitem id="13342" name="My Teleport Scroll 30-unit Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 30 sheets of Free Teleporter's Spellbooks. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -128,7 +128,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13343" name="Feather of Blessing 3-unit Pack (Event)" add_name="Feather of Blessing 3-unit Pack (Event)">
+	<etcitem id="13343" name="Feather of Blessing 3-unit Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 3 sheets of the Feather of Blessing. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -142,7 +142,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13344" name="Agathion - Love Pack (30-day) (Event)" add_name="Agathion - Love Pack (30-day) (Event)">
+	<etcitem id="13344" name="Agathion - Love Pack (30-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing an Love Agathion Seal Bracelet (30-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -156,7 +156,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13345" name="Pumpkin Transformation Stick Pack (30-day) (Event)" add_name="Pumpkin Transformation Stick Pack (30-day) (Event)">
+	<etcitem id="13345" name="Pumpkin Transformation Stick Pack (30-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing Pumpkin Transformation Stick (30-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -170,7 +170,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13346" name="Kamaloka Entrance Pass 3-unit Pack (Event)" add_name="Kamaloka Entrance Pass 3-unit Pack (Event)">
+	<etcitem id="13346" name="Kamaloka Entrance Pass 3-unit Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 5 Sheets of Extra Entrances Passes each to Kamaloka (Hall of the Abyss), Near Kamalok and Kamaloka (Labyrinth of the Abyss). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -184,7 +184,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13347" name="Kat the Cat Hat Pack (30-day) (Event)" add_name="Kat the Cat Hat Pack (30-day) (Event)">
+	<etcitem id="13347" name="Kat the Cat Hat Pack (30-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Kat the Cat Hat (30-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -198,7 +198,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13348" name="Feline Queen Hat Pack (30-day) (Event)" add_name="Feline Queen Hat Pack (30-day) (Event)">
+	<etcitem id="13348" name="Feline Queen Hat Pack (30-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Feline Queen Hat (30-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -212,7 +212,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13349" name="Monster Eye Hat Pack (30-day) (Event)" add_name="Monster Eye Hat Pack (30-day) (Event)">
+	<etcitem id="13349" name="Monster Eye Hat Pack (30-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Monster Eye Hat (30-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -226,7 +226,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13350" name="Brown Bear Hat Pack (30-day) (Event)" add_name="Brown Bear Hat Pack (30-day) (Event)">
+	<etcitem id="13350" name="Brown Bear Hat Pack (30-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Brown Bear Hat (30-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -240,7 +240,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13351" name="Fungus Hat Pack (30-day) (Event)" add_name="Fungus Hat Pack (30-day) (Event)">
+	<etcitem id="13351" name="Fungus Hat Pack (30-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Fungus Hat (30-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -254,7 +254,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13352" name="Skull Hat Pack (30-day) (Event)" add_name="Skull Hat Pack (30-day) (Event)">
+	<etcitem id="13352" name="Skull Hat Pack (30-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Skull Hat (30-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -268,7 +268,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13353" name="Ornithomimus Hat Pack (30-day) (Event)" add_name="Ornithomimus Hat Pack (30-day) (Event)">
+	<etcitem id="13353" name="Ornithomimus Hat Pack (30-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Ornithomimus Hat (30-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -282,7 +282,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13354" name="Feline King Hat Pack (30-day) (Event)" add_name="Feline King Hat Pack (30-day) (Event)">
+	<etcitem id="13354" name="Feline King Hat Pack (30-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Feline King Hat (30-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -296,7 +296,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13355" name="Kai the Cat Hat Pack (30-day) (Event)" add_name="Kai the Cat Hat Pack (30-day) (Event)">
+	<etcitem id="13355" name="Kai the Cat Hat Pack (30-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Kai the Cat Hat (30-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -310,7 +310,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13356" name="OX Stick Pack (30-day) (Event)" add_name="OX Stick Pack (30-day) (Event)">
+	<etcitem id="13356" name="OX Stick Pack (30-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing an OX Stick (30-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -324,7 +324,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13357" name="Rock-Paper-Scissors Stick Pack (30-day) (Event)" add_name="Rock-Paper-Scissors Stick Pack (30-day) (Event)">
+	<etcitem id="13357" name="Rock-Paper-Scissors Stick Pack (30-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Rock-Paper-Scissors Stick (30-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -338,7 +338,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13358" name="Darkmane Pacer Pack (7-day) (Event)" add_name="Darkmane Pacer Pack (7-day) (Event)">
+	<etcitem id="13358" name="Darkmane Pacer Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a bracelet that summons a Darkmane Pacer (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -352,7 +352,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13359" name="Color Title 3-unit Pack (Event)" add_name="Color Title 3-unit Pack (Event)">
+	<etcitem id="13359" name="Color Title 3-unit Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 3 sheets of Color Titles. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -366,7 +366,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13360" name="Color Title Pack (Event)" add_name="Color Title Pack (Event)">
+	<etcitem id="13360" name="Color Title Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 1 sheets of Color Titles. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -380,7 +380,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13361" name="My Teleport Scroll 10-unit Pack (Event)" add_name="My Teleport Scroll 10-unit Pack (Event)">
+	<etcitem id="13361" name="My Teleport Scroll 10-unit Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 10 sheets of Free Teleporter's Spellbooks. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -394,7 +394,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13362" name="Kamaloka (Hall of the Abyss) 15-unit Pack (Event)" add_name="Kamaloka (Hall of the Abyss) 15-unit Pack (Event)">
+	<etcitem id="13362" name="Kamaloka (Hall of the Abyss) 15-unit Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 15 Sheets of Extra Entrance Passes to Kamaloka (Hall of the Abyss). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -408,7 +408,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13363" name="Near Kamaloka 15-unit Pack (Event)" add_name="Near Kamaloka 15-unit Pack (Event)">
+	<etcitem id="13363" name="Near Kamaloka 15-unit Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 15 Sheets of Extra Entrance Passes to Near Kamaloka. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -422,7 +422,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13364" name="Kamaloka (Labyrinth of the Abyss) 15-unit Pack (Event)" add_name="Kamaloka (Labyrinth of the Abyss) 15-unit Pack (Event)">
+	<etcitem id="13364" name="Kamaloka (Labyrinth of the Abyss) 15-unit Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 15 Sheets of Extra Entrance Passes to Kamaloka (Labyrinth of the Abyss). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -436,7 +436,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13365" name="Kamaloka (Hall of the Abyss) 5-unit Pack (Event)" add_name="Kamaloka (Hall of the Abyss) 5-unit Pack (Event)">
+	<etcitem id="13365" name="Kamaloka (Hall of the Abyss) 5-unit Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 5 Sheets of Extra Entrance Passes to Kamaloka (Hall of the Abyss). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -450,7 +450,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13366" name="Near Kamaloka 5-unit Pack (Event)" add_name="Near Kamaloka 5-unit Pack (Event)">
+	<etcitem id="13366" name="Near Kamaloka 5-unit Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 5 Sheets of Extra Entrance Passes to Near Kamaloka. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -464,7 +464,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13367" name="Kamaloka (Labyrinth of the Abyss) 5-unit Pack (Event)" add_name="Kamaloka (Labyrinth of the Abyss) 5-unit Pack (Event)">
+	<etcitem id="13367" name="Kamaloka (Labyrinth of the Abyss) 5-unit Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 5 Sheets of Extra Entrance Passes to Kamaloka (Labyrinth of the Abyss). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -478,7 +478,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13368" name="Feather of Blessing Pack (Event)" add_name="Feather of Blessing Pack (Event)">
+	<etcitem id="13368" name="Feather of Blessing Pack (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing 1 sheets of the Feather of Blessing. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -492,7 +492,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13369" name="Agathion - Love Pack (7-day) (Event)" add_name="Agathion - Love Pack (7-day) (Event)">
+	<etcitem id="13369" name="Agathion - Love Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing an Love Agathion Seal Bracelet (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -506,7 +506,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13370" name="Pumpkin Transformation Stick Pack (7-day) (Event)" add_name="Pumpkin Transformation Stick Pack (7-day) (Event)">
+	<etcitem id="13370" name="Pumpkin Transformation Stick Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing Pumpkin Transformation Stick (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -520,7 +520,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13371" name="Kat the Cat Hat Pack (7-day) (Event)" add_name="Kat the Cat Hat Pack (7-day) (Event)">
+	<etcitem id="13371" name="Kat the Cat Hat Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Kat the Cat Hat (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -534,7 +534,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13372" name="Feline Queen Hat Pack (7-day) (Event)" add_name="Feline Queen Hat Pack (7-day) (Event)">
+	<etcitem id="13372" name="Feline Queen Hat Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Feline Queen Hat (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -548,7 +548,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13373" name="Monster Eye Hat Pack (7-day) (Event)" add_name="Monster Eye Hat Pack (7-day) (Event)">
+	<etcitem id="13373" name="Monster Eye Hat Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Monster Eye Hat (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -562,7 +562,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13374" name="Brown Bear Hat Pack (7-day) (Event)" add_name="Brown Bear Hat Pack (7-day) (Event)">
+	<etcitem id="13374" name="Brown Bear Hat Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Brown Bear Hat (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -576,7 +576,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13375" name="Fungus Hat Pack (7-day) (Event)" add_name="Fungus Hat Pack (7-day) (Event)">
+	<etcitem id="13375" name="Fungus Hat Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Fungus Hat (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -590,7 +590,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13376" name="Skull Hat Pack (7-day) (Event)" add_name="Skull Hat Pack (7-day) (Event)">
+	<etcitem id="13376" name="Skull Hat Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Skull Hat (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -604,7 +604,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13377" name="Ornithomimus Hat Pack (7-day) (Event)" add_name="Ornithomimus Hat Pack (7-day) (Event)">
+	<etcitem id="13377" name="Ornithomimus Hat Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Ornithomimus Hat (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -618,7 +618,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13378" name="Feline King Hat Pack (7-day) (Event)" add_name="Feline King Hat Pack (7-day) (Event)">
+	<etcitem id="13378" name="Feline King Hat Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Feline King Hat (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -632,7 +632,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13379" name="Kai the Cat Hat Pack (7-day) (Event)" add_name="Kai the Cat Hat Pack (7-day) (Event)">
+	<etcitem id="13379" name="Kai the Cat Hat Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Kai the Cat Hat (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -646,7 +646,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13380" name="OX Stick Pack (7-day) (Event)" add_name="OX Stick Pack (7-day) (Event)">
+	<etcitem id="13380" name="OX Stick Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing an OX Stick (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -660,7 +660,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13381" name="Rock-Paper-Scissors Stick Pack (7-day) (Event)" add_name="Rock-Paper-Scissors Stick Pack (7-day) (Event)">
+	<etcitem id="13381" name="Rock-Paper-Scissors Stick Pack (7-day) (Event)">
 	<!-- Dimensional Item Pack
 	Wrapped pack containing a Rock-Paper-Scissors Stick (7-day). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -674,7 +674,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13382" name="Gran Kain's Gift Box (Event)" add_name="Gran Kain's Gift Box (Event)">
+	<etcitem id="13382" name="Gran Kain's Gift Box (Event)" add_name="30-day">
 	<!-- Wrapped Pack provides you with a free item once a day. Can be used for up to 30 days. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
 		<set name="class" value="OTHER"/>
@@ -690,7 +690,7 @@
 			<skill id="2606" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="13383" name="Minion Coupon (5-hour) (Event)" add_name="Minion Coupon (5-hour) (Event)">
+	<etcitem id="13383" name="Minion Coupon (5-hour) (Event)">
 	<!-- Dimensional Item
 	A coupon that can be exchanged for a necklace that allows you to summon a Minion (5-hour). Can be exchanged through the Dimensional Merchant. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. Can be shared between characters within the same account through the Dimensional Merchant. -->
 		<set name="class" value="OTHER"/>
@@ -703,7 +703,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13384" name="Minion Coupon 3-unit Pack (Event)" add_name="Minion Coupon 3-unit Pack (Event)">
+	<etcitem id="13384" name="Minion Coupon 3-unit Pack (Event)">
 	<!-- Dimensional item Pack
 	Wrapped box containing a ticket that can be exchanged for a necklace that allows you to summon a Minion (5-hour). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -717,7 +717,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13385" name="Minion Coupon Pack (Event)" add_name="Minion Coupon Pack (Event)">
+	<etcitem id="13385" name="Minion Coupon Pack (Event)">
 	<!-- Dimensional item Pack
 	Wrapped box containing 1 ticket sheet that can be exchanged for a necklace that allows you to summon a Minion (5-hour). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="freightable" value="true"/>
@@ -731,7 +731,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="100"/>
 	</etcitem>
-	<etcitem id="13386" name="Blue Crystal of Fantasy" add_name="Blue Crystal of Fantasy">
+	<etcitem id="13386" name="Blue Crystal of Fantasy">
 	<!-- Increases SP by 50000 when used. Can be used above level 76. Cannot be exchanged or dropped. -->
 		<set name="reuse_delay" value="1000"/>
 		<set name="class" value="OTHER"/>
@@ -747,7 +747,7 @@
 			<skill id="2608" level="1"/>
 		</skills>
 	</etcitem>
-	<etcitem id="13387" name="Fantasy Green Crystal" add_name="Fantasy Green Crystal">
+	<etcitem id="13387" name="Fantasy Green Crystal">
 	<!-- Increases SP by 100000 when used. Can be used above level 76. Cannot be exchanged or dropped. -->
 		<set name="reuse_delay" value="1000"/>
 		<set name="class" value="OTHER"/>
@@ -763,7 +763,7 @@
 			<skill id="2608" level="2"/>
 		</skills>
 	</etcitem>
-	<etcitem id="13388" name="Fantasy Red Crystal" add_name="Fantasy Red Crystal">
+	<etcitem id="13388" name="Fantasy Red Crystal">
 	<!-- Increases SP by 200000 when used. Can be used above level 76. Cannot be exchanged or dropped. -->
 		<set name="reuse_delay" value="1000"/>
 		<set name="class" value="OTHER"/>
@@ -779,7 +779,7 @@
 			<skill id="2608" level="3"/>
 		</skills>
 	</etcitem>
-	<etcitem id="13395" name="Scroll of Escape: Talking Island Village" add_name="Scroll of Escape: Talking Island Village">
+	<etcitem id="13395" name="Scroll of Escape: Talking Island Village">
 	<!-- Teleports you to Talking Island Village. Cannot be sold, exchanged or dropped. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
@@ -794,7 +794,7 @@
 		</skills>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="13396" name="Scroll of Escape: Elven Village" add_name="Scroll of Escape: Elven Village">
+	<etcitem id="13396" name="Scroll of Escape: Elven Village">
 	<!-- Teleports you to the Elven Village. Cannot be sold, exchanged or dropped. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
@@ -809,7 +809,7 @@
 		</skills>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="13397" name="Scroll of Escape: Dark Elf Village" add_name="Scroll of Escape: Dark Elf Village">
+	<etcitem id="13397" name="Scroll of Escape: Dark Elf Village">
 	<!-- Teleports you to the Dark Elf Village. Cannot be sold, exchanged or dropped. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
@@ -824,7 +824,7 @@
 		</skills>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="13398" name="Scroll of Escape: Orc Village" add_name="Scroll of Escape: Orc Village">
+	<etcitem id="13398" name="Scroll of Escape: Orc Village">
 	<!-- Teleports you to the Orc Village. Cannot be sold, exchanged or dropped. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>
@@ -839,7 +839,7 @@
 		</skills>
 		<set name="capsuled" value="true"/>
 	</etcitem>
-	<etcitem id="13399" name="Scroll of Escape: Dwarven Village" add_name="Scroll of Escape: Dwarven Village">
+	<etcitem id="13399" name="Scroll of Escape: Dwarven Village">
 	<!-- Magic scroll that moves you to Dwarven Village. No selling to stores, exchange, or drop available for this item. -->
 		<set name="class" value="CONSUMABLE"/>
 		<set name="crystal_type" value="NONE"/>

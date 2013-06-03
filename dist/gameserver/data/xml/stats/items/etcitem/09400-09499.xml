@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE list SYSTEM "item.dtd">
 <list>
-	<etcitem id="9451" name="Dynastic Essence" add_name="Dynastic Essence">
+	<etcitem id="9451" name="Dynastic Essence">
 	<!-- Can modify Dynasty garments. When Dynasty garments are modified, you will have more powerful options. -->
 		<set name="class" value="MISC"/>
 		<set name="crystal_type" value="NONE"/>
@@ -10,7 +10,7 @@
 		<set name="type" value="OTHER"/>
 		<set name="weight" value="60"/>
 	</etcitem>
-	<etcitem id="9482" name="Recipe: Sealed Dynasty Breastplate (60%)" add_name="Recipe: Sealed Dynasty Breastplate (60%)">
+	<etcitem id="9482" name="Recipe: Sealed Dynasty Breastplate (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Breastplate. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -22,7 +22,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9483" name="Recipe: Sealed Dynasty Gaiters (60%)" add_name="Recipe: Sealed Dynasty Gaiters (60%)">
+	<etcitem id="9483" name="Recipe: Sealed Dynasty Gaiters (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Gaiters. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -34,7 +34,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9484" name="Recipe: Sealed Dynasty Helmet (60%)" add_name="Recipe: Sealed Dynasty Helmet (60%)">
+	<etcitem id="9484" name="Recipe: Sealed Dynasty Helmet (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Helmet. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -46,7 +46,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9485" name="Recipe: Sealed Dynasty Gauntlets (60%)" add_name="Recipe: Sealed Dynasty Gauntlets (60%)">
+	<etcitem id="9485" name="Recipe: Sealed Dynasty Gauntlets (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Gauntlets. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -58,7 +58,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9486" name="Recipe: Sealed Dynasty Boots (60%)" add_name="Recipe: Sealed Dynasty Boots (60%)">
+	<etcitem id="9486" name="Recipe: Sealed Dynasty Boots (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Boots. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -70,7 +70,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9487" name="Recipe: Sealed Dynasty Leather Armor (60%)" add_name="Recipe: Sealed Dynasty Leather Armor (60%)">
+	<etcitem id="9487" name="Recipe: Sealed Dynasty Leather Armor (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Leather Armor. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -82,7 +82,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9488" name="Recipe: Sealed Dynasty Leather Leggings (60%)" add_name="Recipe: Sealed Dynasty Leather Leggings (60%)">
+	<etcitem id="9488" name="Recipe: Sealed Dynasty Leather Leggings (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Leather Leggings. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -94,7 +94,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9489" name="Recipe: Sealed Dynasty Leather Helmet (60%)" add_name="Recipe: Sealed Dynasty Leather Helmet (60%)">
+	<etcitem id="9489" name="Recipe: Sealed Dynasty Leather Helmet (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Leather Helmet. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -106,7 +106,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9490" name="Recipe: Sealed Dynasty Leather Gloves (60%)" add_name="Recipe: Sealed Dynasty Leather Gloves (60%)">
+	<etcitem id="9490" name="Recipe: Sealed Dynasty Leather Gloves (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Leather Gloves. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -118,7 +118,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9491" name="Recipe: Sealed Dynasty Leather Boots (60%)" add_name="Recipe: Sealed Dynasty Leather Boots (60%)">
+	<etcitem id="9491" name="Recipe: Sealed Dynasty Leather Boots (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Leather Boots. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -130,7 +130,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9492" name="Recipe: Sealed Dynasty Tunic (60%)" add_name="Recipe: Sealed Dynasty Tunic (60%)">
+	<etcitem id="9492" name="Recipe: Sealed Dynasty Tunic (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Tunic. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -142,7 +142,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9493" name="Recipe: Sealed Dynasty Stockings (60%)" add_name="Recipe: Sealed Dynasty Stockings (60%)">
+	<etcitem id="9493" name="Recipe: Sealed Dynasty Stockings (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Stockings. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -154,7 +154,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9494" name="Recipe: Sealed Dynasty Circlet (60%)" add_name="Recipe: Sealed Dynasty Circlet (60%)">
+	<etcitem id="9494" name="Recipe: Sealed Dynasty Circlet (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Circlet. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -166,7 +166,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9495" name="Recipe: Sealed Dynasty Gloves (60%)" add_name="Recipe: Sealed Dynasty Gloves (60%)">
+	<etcitem id="9495" name="Recipe: Sealed Dynasty Gloves (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Gloves. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -178,7 +178,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9496" name="Recipe: Sealed Dynasty Shoes (60%)" add_name="Recipe: Sealed Dynasty Shoes (60%)">
+	<etcitem id="9496" name="Recipe: Sealed Dynasty Shoes (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Shoes. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -190,7 +190,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9497" name="Recipe: Sealed Dynasty Shield (60%)" add_name="Recipe: Sealed Dynasty Shield (60%)">
+	<etcitem id="9497" name="Recipe: Sealed Dynasty Shield (60%)">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Shield. Requires Create Item (Lv. 9). The success rate is 60%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -202,7 +202,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9498" name="Recipe: Sealed Dynasty Breastplate" add_name="Recipe: Sealed Dynasty Breastplate">
+	<etcitem id="9498" name="Recipe: Sealed Dynasty Breastplate">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Breastplate. Requires Create Item (Lv. 9). The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
@@ -214,7 +214,7 @@
 		<set name="ex_type" value="RECIPE"/>
 		<set name="weight" value="30"/>
 	</etcitem>
-	<etcitem id="9499" name="Recipe: Sealed Dynasty Gaiters" add_name="Recipe: Sealed Dynasty Gaiters">
+	<etcitem id="9499" name="Recipe: Sealed Dynasty Gaiters">
 	<!-- For Dwarves only. Recipe for the Sealed Dynasty Gaiters. Requires Create Item (Lv. 9). The success rate is 100%. -->
 		<set name="class" value="RECIPIES"/>
 		<set name="crystal_type" value="NONE"/>
