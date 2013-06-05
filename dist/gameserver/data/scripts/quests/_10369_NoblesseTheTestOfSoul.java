@@ -29,7 +29,7 @@ import lineage2.gameserver.utils.ItemFunctions;
 import lineage2.gameserver.utils.Location;
 
 /**
-* @author Jocy
+* @author Jocy,vegax
 * @version $Revision: 1.0 $
 */
 public class _10369_NoblesseTheTestOfSoul extends Quest implements ScriptFile, OnMagicUseListener
@@ -315,7 +315,7 @@ switch (npcId) {
 case Cerenas:
 if (cond == 0)
 {
-if (!st.getPlayer().isBaseClassActive())
+if (st.getPlayer().isBaseClassActive())
 {
 return "Subclass only!";
 }
