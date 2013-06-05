@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="150696" y="-112968" z="-2164" h="47000"/>
+        <npc id="27482"/>
+        <!--Quest Monster: One Who Eats Prophecies -->
+</spawn>
+<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="150760" y="-112872" z="-2178" h="10000"/>
+        <npc id="27482"/>
+        <!--Quest Monster: One Who Eats Prophecies -->
+</spawn>
+<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="-121207" y="-116537" z="-5758" h="32767"/>
+        <npc id="33686"/>
+        <!--Eva's Avatar -->
+</spawn>
+
+</list>

@@ -2460,16 +2460,6 @@
         <npc id="31521"/>
         <!--Jeremy-->
     </spawn>
-	    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
-        <point x="150696" y="-112968" z="-2164" h="47000"/>
-        <npc id="27482"/>
-        <!--Quest Monster: One Who Eats Prophecies -->
-    </spawn>
-<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
-        <point x="150760" y="-112872" z="-2178" h="10000"/>
-        <npc id="27482"/>
-        <!--Quest Monster: One Who Eats Prophecies -->
-    </spawn>
     <spawn count="1" respawn="86400" respawn_random="21600" period_of_day="none">
         <point x="157136" y="-121456" z="-2363" h="40000"/>
         <npc id="31542"/>
