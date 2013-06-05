@@ -320,8 +320,13 @@
 		<set name="reuseDelay" val="6000"/>
 		<set name="hitTime" val="3000"/>
 		<set name="icon" val="icon.skill0000"/>
-		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="SUMMON_ITEM"/>
+		<set name="isHandler" val="true"/>
+		<set name="SummonItemId" val="34888"/>
+		<set name="SummonMinCount" val="1"/>
+		<set name="itemConsumeId" val="34887"/>
+		<set name="itemConsumeCount" val="1"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 	</skill>
 	<skill id="9444" levels="1" name="Helping Seed">

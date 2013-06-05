@@ -466,9 +466,13 @@
 	<etcitem id="34887" name="Empty Hot Springs Water Bottle">
 	<!-- Empty bottle for holding hot spring water. Double-click on it while in the hot springs to fill it with hot spring water. -->
 		<set name="icon" value="icon.etc_hot_spring_glass_bottle_i00"/>
+		<set name="class" value="CONSUMABLE"/>
 		<set name="weight" value="20"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="9443" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="34888" name="Hot Springs Water Bottle">
 	<!-- Bottle for holding hot spring water. It contains hot spring water. -->
