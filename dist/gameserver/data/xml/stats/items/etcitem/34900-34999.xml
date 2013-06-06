@@ -958,7 +958,8 @@
 	<etcitem id="34979" name="Scroll of Escape: Forge of the Gods">
 	<!-- Scroll of Escape to the Forge of the Gods. Can only be used in the Soul Testing quest. Can move to the special Forge of the Gods area for the quest mission. But cannot be exchanged, dropped, or received again. -->
 		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
-		<set name="type" value="OTHER"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="SCROLL"/>
 		<set name="weight" value="120"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -968,6 +969,9 @@
 		<set name="sellable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="stackable" value="true"/>
+		<skills>
+			<skill id="9447" level="1"/>
+		</skills>
 		<cond msgId="1508">
 			<not>
 				<player olympiad="true"/>
@@ -977,7 +981,8 @@
 	<etcitem id="34980" name="Scroll of Escape: Isle of Prayer">
 	<!-- Scroll of Escape to the Isle of Prayer. Can only be used in the Soul Testing quest. Can move to the special Isle of Prayer area for the quest mission. But cannot be exchanged, dropped, or received again. -->
 		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
-		<set name="type" value="OTHER"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="SCROLL"/>
 		<set name="weight" value="120"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -987,6 +992,9 @@
 		<set name="sellable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="stackable" value="true"/>
+		<skills>
+			<skill id="9448" level="1"/>
+		</skills>
 		<cond msgId="1508">
 			<not>
 				<player olympiad="true"/>
@@ -996,7 +1004,8 @@
 	<etcitem id="34981" name="Scroll of Escape: Aden Castle (Siege)">
 	<!-- Scroll of Escape to the Aden Castle siege area. Can only be used in the Soul Testing quest. Can move to the special Aden Castle siege area for the quest mission. But cannot be exchanged, dropped, or received again. -->
 		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
-		<set name="type" value="OTHER"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="type" value="SCROLL"/>
 		<set name="weight" value="120"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
@@ -1006,6 +1015,9 @@
 		<set name="sellable" value="false"/>
 		<set name="tradeable" value="false"/>
 		<set name="stackable" value="true"/>
+		<skills>
+			<skill id="9449" level="1"/>
+		</skills>
 		<cond msgId="1508">
 			<not>
 				<player olympiad="true"/>

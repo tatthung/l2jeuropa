@@ -224,6 +224,21 @@ public class Recall extends Skill
 						pcTarget.teleToLocation(155784, -105640, -2778, 0);
 						return;
 					}
+					if(_itemConsumeId[0] == 34979) //Scroll of Escape: Forge of the Gods
+					{
+						pcTarget.teleToLocation(175992, -116088, -3798, 0);
+						return;
+}
+					if(_itemConsumeId[0] == 34980) //Scroll of Escape: Isle of Prayer
+					{
+						pcTarget.teleToLocation(156984, 169736, -3514, 0);
+						return;
+					}
+					if(_itemConsumeId[0] == 34981) //Scroll of Escape: Aden Castle(Siege)
+					{
+						pcTarget.teleToLocation(147432, 15640, -1448, 0);
+						return;
+					}
 				}
 				if (_loc != null)
 				{
