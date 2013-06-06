@@ -15,7 +15,7 @@ package quests;
 
 
 import org.apache.commons.lang3.ArrayUtils;
-
+import lineage2.commons.util.Rnd;
 import lineage2.gameserver.listener.actor.OnMagicUseListener;
 import lineage2.gameserver.model.*;
 import lineage2.gameserver.model.actor.listener.CharListenerList;
@@ -66,7 +66,7 @@ private static final int[] IsleOf =
 private static final int Trower = 9442;
 private static final int EmptyHotSkill = 9443;
 private static final int HelpingS = 9444;
-private static final int SummonStoneSkill = 9445; //not work Summon Stone
+private static final int SummonStoneSkill = 9445;
 
 
 //item
@@ -120,6 +120,7 @@ public void onReload() {
 CharListenerList.removeGlobal(this);
 CharListenerList.addGlobal(this);
 }
+
 @Override
 public void onMagicUse(Creature actor, Skill skill, Creature target, boolean alt)
 {
@@ -146,13 +147,6 @@ st.playSound("ItemSound.quest_middle");
 st.setCond(17);
 }
 
-break;
-case EmptyHotSkill:
-if (cond == 6)
-{
-st.playSound("ItemSound.quest_middle");
-st.setCond(7);
-}
 break;
 case Trower:
 if (npcId == FlameFlower && cond == 10)
@@ -181,7 +175,7 @@ st.giveItems(NovellProphecy, 1);
 st.playSound("ItemSound.quest_itemget");
 st.setCond(3);
 }
-if ((st.getCond() == 8 ) && ArrayUtils.contains(HotSprings, npcId) && (st.getQuestItemsCount(HardLeather) < 10))
+if ((st.getCond() == 8 ) && ArrayUtils.contains(HotSprings, npcId) && Rnd.chance(40))
 {
 st.giveItems(HardLeather, 1);
 st.playSound("ItemSound.quest_itemget");
@@ -256,7 +250,7 @@ st.setCond(8);
 
 else if (cond == 9 && event.equalsIgnoreCase("Lanya-5.htm"))
 {
-st.takeItems(HardLeather, -1);
+st.takeItems(HardLeather, -10);
 st.giveItems(Trowel, 1);
 st.giveItems(SOEForgeOfTheGods, 1);
 st.playSound("ItemSound.quest_middle");
@@ -359,7 +353,13 @@ st.setCond(18);
 }
 break;
 case Lanya:
-if (cond == 7)
+	if (cond == 6 && st.getQuestItemsCount(HotFull) == 1)
+	{
+		st.playSound("ItemSound.quest_middle");
+		st.setCond(7);
+		htmltext = "Lanya-1.htm";
+	}
+else if (cond == 7)
 {
 htmltext = "Lanya-1.htm";
 }
