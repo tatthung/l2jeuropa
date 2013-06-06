@@ -345,10 +345,17 @@
 	</skill>
 	<skill id="9446" levels="1" name="Scroll of Escape - Hot Springs">
     <!-- none -->
-		<set name="hitTime" val="20000"/>
+		<set name="magicType" val="SPECIAL"/>
 		<set name="icon" val="icon.skill0000"/>
-		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE"/>
+		<set name="magicLevel" val="1"/>
+		<set name="hitTime" val="20000"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="townId" val="17"/>
+		<set name="itemConsumeId" val="34978"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="RECALL"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 	</skill>
 	<skill id="9447" levels="1" name="Scroll of Escape - Forge of the Gods">

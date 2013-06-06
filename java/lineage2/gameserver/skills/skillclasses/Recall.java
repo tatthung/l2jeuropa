@@ -27,7 +27,7 @@ import lineage2.gameserver.templates.StatsSet;
 import lineage2.gameserver.utils.Location;
 
 /**
- * @author Mobius
+ * @author vegax
  * @version $Revision: 1.0 $
  */
 public class Recall extends Skill
@@ -216,6 +216,12 @@ public class Recall extends Skill
 					if (_itemConsumeId[0] == 7619)
 					{
 						pcTarget.teleToLocation(108275, -53785, -2524, 0);
+						return;
+					}
+					
+					if(_itemConsumeId[0] == 34978) //Scroll of Escape: Hot Springs
+					{
+						pcTarget.teleToLocation(155784, -105640, -2778, 0);
 						return;
 					}
 				}
