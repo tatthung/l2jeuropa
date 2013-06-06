@@ -180,7 +180,8 @@
 	<etcitem id="34912" name="Summoning Stone">
 	<!-- Summoning Stone that can be used during the Noblesse quest. Double-click on it to summon the Water Spirit Lanya. -->
 		<set name="icon" value="icon.etc_crystal_ball_white_i00"/>
-		<set name="type" value="OTHER"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="SCROLL"/>
 		<set name="destroyable" value="false"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
@@ -188,6 +189,9 @@
 		<set name="attributable" value="false"/>
 		<set name="sellable" value="false"/>
 		<set name="tradeable" value="false"/>
+		<skills>
+			<skill id="9445" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="34913" name="Sack Containing Ingredients">
 	<!-- Sack containing ingredients. it contains 4 types of ingredients needed to make a weapon that purifies the water of Ev the goddess of water. -->
