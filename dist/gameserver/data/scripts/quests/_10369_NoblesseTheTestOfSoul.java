@@ -148,10 +148,8 @@ st.setCond(17);
 
 break;
 case EmptyHotSkill:
-if (npcId == SeedWaler && cond == 6)
+if (cond == 6)
 {
-ItemFunctions.removeItem(st.getPlayer(), EmptyHot, 1L, true);
-st.giveItems(HotFull, 1);
 st.playSound("ItemSound.quest_middle");
 st.setCond(7);
 }
