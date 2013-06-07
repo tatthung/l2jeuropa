@@ -382,7 +382,7 @@ htmltext = "Lanya-7.htm";
 else if (cond == 13)
 {
 htmltext = "Lanya-9.htm";
-st.takeItems(HfCeoW, -1);
+st.takeItems(HfCeoW, -10);
 st.playSound("ItemSound.quest_middle");
 st.setCond(14);
 }
