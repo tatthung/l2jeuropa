@@ -504,6 +504,7 @@
 	<!-- energy of fire. Ingredient for making a weapon that purifies water. -->
 		<set name="icon" value="icon.etc_bead_red_i00"/>
 		<set name="weight" value="0"/>
+		<set name="stackable" value="true"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>
@@ -511,6 +512,7 @@
 	<!-- Hard fossil containing Energy of Water. Ingredient for making a weapon that purifies water. -->
 		<set name="icon" value="icon.etc_hard_fossil_i00"/>
 		<set name="weight" value="0"/>
+		<set name="stackable" value="true"/>
 		<set name="crystal_type" value="NONE"/>
 		<set name="type" value="OTHER"/>
 	</etcitem>

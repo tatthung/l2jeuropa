@@ -149,15 +149,18 @@ st.setCond(17);
 
 break;
 case Trower:
-if (npcId == FlameFlower && cond == 10)
-{
-ItemFunctions.removeItem(st.getPlayer(), Trowel, 1L, true);
-st.giveItems(EnergyOfFire, 5);
-st.playSound("ItemSound.quest_middle");
-st.setCond(11);
-}
-break;
-}
+if ((st.getCond() == 10) && (npcId == FlameFlower)  && !npc.isDead())
+	{
+        st.giveItems(EnergyOfFire, 1);
+        st.playSound("ItemSound.quest_itemget");
+        npc.doDie(player);
+	}
+if ((st.getQuestItemsCount(EnergyOfFire) >= 5))
+	{
+		st.playSound(SOUND_MIDDLE);
+		st.setCond(11);
+	}
+	}
 }
 @Override
 public String onKill(NpcInstance npc, QuestState st) {
@@ -186,7 +189,7 @@ st.setCond(9);
 st.playSound(SOUND_MIDDLE);
 }
 
-if ((st.getCond() == 12) && ArrayUtils.contains(IsleOf, npcId) && (st.getQuestItemsCount(HfCeoW ) < 10))
+if ((st.getCond() == 12) && ArrayUtils.contains(IsleOf, npcId) && Rnd.chance(40))
 {
 st.giveItems(HfCeoW , 1);
 st.playSound("ItemSound.quest_itemget");
@@ -259,7 +262,8 @@ st.setCond(10);
 else if (cond == 11 && event.equalsIgnoreCase("Lanya-8.htm"))
 {
 
-st.takeItems(EnergyOfFire, -1);
+st.takeItems(EnergyOfFire, -5);
+st.takeItems(Trowel, -1);
 st.giveItems(SOEIsleofPrayer, 1);
 st.playSound("ItemSound.quest_middle");
 st.setCond(12);
