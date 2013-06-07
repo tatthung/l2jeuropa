@@ -16,5 +16,35 @@
         <npc id="33686"/>
         <!--Eva's Avatar -->
 </spawn>
+<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="-121207" y="-116537" z="-5758" h="32767"/>
+        <npc id="33686"/>
+        <!--Eva's Avatar -->
+</spawn>
+<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="176008" y="-116296" z="-3793" h="0"/>
+        <npc id="27483"/>
+        <!--Flame Flower -->
+</spawn>
+<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="176168" y="-116296" z="-3804" h="0"/>
+        <npc id="27483"/>
+        <!--Flame Flower -->
+</spawn>
+<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="176440" y="-115992" z="-3803" h="0"/>
+        <npc id="27483"/>
+        <!--Flame Flower -->
+</spawn>
+<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="176312" y="-115880" z="-3809" h="0"/>
+        <npc id="27483"/>
+        <!--Flame Flower -->
+</spawn>
+<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="175976" y="-115864" z="-3809" h="0"/>
+        <npc id="27483"/>
+        <!--Flame Flower -->
+</spawn>
 
 </list>
