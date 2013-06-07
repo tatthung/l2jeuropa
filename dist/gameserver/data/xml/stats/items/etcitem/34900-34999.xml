@@ -713,16 +713,17 @@
 	</etcitem>
 	<etcitem id="34961" name="Helping Seed">
 	<!-- Helping Herb. Double-click on it in a siege area to plant a Tree of Helping. -->
-		<set name="icon" value="icon.etc_help_seed_i00"/>
-		<set name="type" value="OTHER"/>
-		<set name="destroyable" value="false"/>
+		<set name="class" value="OTHER"/>
+		<set name="type" value="SCROLL"/>
 		<set name="dropable" value="false"/>
 		<set name="augmentable" value="false"/>
 		<set name="enchantable" value="false"/>
 		<set name="attributable" value="false"/>
 		<set name="sellable" value="false"/>
 		<set name="tradeable" value="false"/>
-		<set name="stackable" value="true"/>
+		<skills>
+			<skill id="9444" level="1"/>
+		</skills>
 	</etcitem>
 	<etcitem id="34962" name="Ashes of Remnants">
 	<!-- Ashes of Remnants. If you plant a Tree of Helping in a siege battle are you can obtain Ashes of Remnants. -->

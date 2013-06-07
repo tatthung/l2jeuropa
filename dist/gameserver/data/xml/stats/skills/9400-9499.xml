@@ -333,10 +333,18 @@
 	</skill>
 	<skill id="9444" levels="1" name="Helping Seed">
     <!-- Summon the Helping Tree. -->
-		<set name="icon" val="icon.skill0000"/>
-		<set name="target" val="TARGET_NONE"/>
-		<set name="skillType" val="NOTDONE"/>
+		<set name="reuseDelay" val="1"/>
+		<set name="magicType" val="SPECIAL"/>
+		<set name="hitTime" val="600"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="mpConsume2" val="1"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="SUMMON"/>
+		<set name="isHandler" val="true"/>
 		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="npcId" val="27486"/>
+		<set name="lifeTime" val="60"/>
+		<set name="summonType" val="NPC"/>
 	</skill>
 	<skill id="9445" levels="1" name="Summon Stone">
     <!-- Summons Lanya. -->
