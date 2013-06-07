@@ -46,5 +46,10 @@
         <npc id="27483"/>
         <!--Flame Flower -->
 </spawn>
+<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="148216" y="14696" z="-1393" h="0"/>
+        <npc id="19293"/>
+        <!--Helping Tree Summoning Device -->
+</spawn>
 
 </list>
