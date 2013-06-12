@@ -9,6 +9,7 @@ import lineage2.gameserver.model.Player;
 import lineage2.gameserver.model.base.TeamType;
 import lineage2.gameserver.model.instances.DecoyInstance;
 import lineage2.gameserver.model.items.Inventory;
+import lineage2.gameserver.model.items.PcInventory;
 import lineage2.gameserver.model.matching.MatchingRoom;
 import lineage2.gameserver.model.pledge.Alliance;
 import lineage2.gameserver.model.pledge.Clan;
@@ -22,7 +23,7 @@ public class CharInfo extends L2GameServerPacket
 	private static final Logger _log = LoggerFactory.getLogger(CharInfo.class);
 
 	private int[][] _inv;
-	private int _mAtkSpd, _pAtkSpd, _mEvasion, _mAccuracy, _mCritRate;
+	private int _mAtkSpd, _pAtkSpd;
 	private int _runSpd, _walkSpd, _swimSpd, _flRunSpd, _flWalkSpd, _flyRunSpd, _flyWalkSpd;
 	private Location _loc, _fishLoc;
 	private String _name, _title;
@@ -39,6 +40,7 @@ public class CharInfo extends L2GameServerPacket
 	private TeamType _team;
 	private int curHP, maxHP, curMP, maxMP, curCP;
 	private FastList<Integer> _aveList;
+	private PcInventory inv;
 
 	public CharInfo(Player cha)
 	{
@@ -145,9 +147,6 @@ public class CharInfo extends L2GameServerPacket
 
 		_mAtkSpd = player.getMAtkSpd();
 		_pAtkSpd = player.getPAtkSpd();
-		_mEvasion = player.getMEvasionRate(null);
-		_mAccuracy = player.getMAccuracy();
-		_mCritRate = (int) player.getMagicCriticalRate(null, null);
 		
 		speed_move = player.getMovementSpeedMultiplier();
 		_runSpd = (int) (player.getRunSpeed() / speed_move);
@@ -215,6 +214,7 @@ public class CharInfo extends L2GameServerPacket
 		curMP = (int) player.getCurrentMp();
 		maxMP = player.getMaxMp();
 		_aveList = player.getAveList();
+		inv = player.getInventory();
 	}
 
 	@Override
@@ -261,20 +261,25 @@ public class CharInfo extends L2GameServerPacket
 
 		writeD(0x01);    // TODO talisman count(VISTALL)
 		writeD(0x00);    // TODO cloak status(VISTALL)
-		writeD(0x00);
-		writeD(0x00);
-		writeD(0x00);
-		writeD(0x00);
-		writeD(0x00);
-		writeD(0x00);
+		
 		writeD(pvp_flag);
 		writeD(karma);
-		writeD(_mEvasion);
-		writeD(_mAccuracy);
-		writeD(_mCritRate);
+
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_RHAND)); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_LHAND)); // Tauti
+		writeD(0); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_GLOVES)); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_CHEST)); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_LEGS)); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_FEET)); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_HAIR)); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_DHAIR)); // Tauti
+
 		writeD(_mAtkSpd);
 		writeD(_pAtkSpd);
+
 		writeD(0x00);
+
 		writeD(_runSpd);
 		writeD(_walkSpd);
 		writeD(_swimSpd);
@@ -296,6 +301,7 @@ public class CharInfo extends L2GameServerPacket
 		writeD(clan_crest_id);
 		writeD(ally_id);
 		writeD(ally_crest_id);
+
 		writeC(_sit);
 		writeC(_run);
 		writeC(_combat);
@@ -304,12 +310,10 @@ public class CharInfo extends L2GameServerPacket
 		writeC(mount_type); // 1-on Strider, 2-on Wyvern, 3-on Great Wolf, 0-no mount
 		writeC(private_store);
 		writeH(cubics.length);
-		
 		for (EffectCubic cubic : cubics)
 		{
 			writeH(cubic == null ? 0 : cubic.getId());
 		}
-		
 		writeC(_isPartyRoomLeader ? 0x01 : 0x00); // find party members
 		writeC(_isFlying ? 0x02 : 0x00);
 		writeH(rec_have);
@@ -317,14 +321,18 @@ public class CharInfo extends L2GameServerPacket
 		writeD(class_id);
 		writeD(0x00);    // special effects? circles around player...
 		writeC(_enchant);
+
 		writeC(_team.ordinal()); // team circle around feet 1 = Blue, 2 = red
+
 		writeD(large_clan_crest_id);
 		writeC(_noble);
 		writeC(_hero);
+
 		writeC(_fishing);
 		writeD(_fishLoc.x);
 		writeD(_fishLoc.y);
 		writeD(_fishLoc.z);
+
 		writeD(_nameColor);
 		writeD(_loc.h);
 		writeD(plg_class);
@@ -334,19 +342,21 @@ public class CharInfo extends L2GameServerPacket
 		writeD(clan_rep_score);
 		writeD(_transform);
 		writeD(_agathion);
-		writeD(0x01);    // T2
-		writeD(0x00);
-		writeD(0x00);
-		writeD(0x00);
 
+		writeD(0x01);    // T2
+
+		writeD(0x00);
+		writeD(0x00);
+		writeD(0x00);
 		writeD(curCP);
 		writeD(curHP);
 		writeD(maxHP);
 		writeD(curMP);
 		writeD(maxMP);
 		writeD(0x00);
-		writeC(0x00);
 		writeD(0x00);
+		writeC(0x00);
+
 		if (_aveList != null)
 		{
 			writeD(_aveList.size());
@@ -359,7 +369,8 @@ public class CharInfo extends L2GameServerPacket
 		{
 			writeD(0x00);
 		}
-		writeD(0x00);
+		
+		writeC(0x00);
 	}
 
 	public static final int[] PAPERDOLL_ORDER = { Inventory.PAPERDOLL_UNDER, Inventory.PAPERDOLL_HEAD, Inventory.PAPERDOLL_RHAND, Inventory.PAPERDOLL_LHAND, Inventory.PAPERDOLL_GLOVES,

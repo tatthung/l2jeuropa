@@ -1322,6 +1322,18 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 								case 0xc2:
 									msg = new RequestInstanceZone();
 									break;
+                                case 0xCC:
+                                    msg = new RequestExTryToPutShapeShiftingTargetItem();
+                                    break;
+                                case 0xCD:
+                                    msg = new RequestExTryToPutShapeShiftingEnchantSupportItem();
+                                    break;
+                                case 0xCE:
+                                    msg = new RequestExCancelShapeShiftingItem();
+                                    break;
+                                case 0xCF:
+                                    msg = new RequestShapeShiftingItem();
+                                    break;
 								default:
 									_log.info("0xd0=" + id3);
 									client.onUnknownPacket();

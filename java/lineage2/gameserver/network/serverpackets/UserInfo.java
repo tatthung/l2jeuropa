@@ -12,6 +12,7 @@ import lineage2.gameserver.model.base.Experience;
 import lineage2.gameserver.model.base.TeamType;
 import lineage2.gameserver.model.entity.events.GlobalEvent;
 import lineage2.gameserver.model.items.Inventory;
+import lineage2.gameserver.model.items.PcInventory;
 import lineage2.gameserver.model.matching.MatchingRoom;
 import lineage2.gameserver.model.pledge.Alliance;
 import lineage2.gameserver.model.pledge.Clan;
@@ -47,6 +48,7 @@ public class UserInfo extends L2GameServerPacket
 	private double _expPercent;
 	private TeamType _team;
 	private final FastList<Integer> _aveList;
+	private PcInventory inv;
 
 	public UserInfo(Player player)
 	{
@@ -231,6 +233,7 @@ public class UserInfo extends L2GameServerPacket
 		_allowMap = player.isActionBlocked(Zone.BLOCKED_ACTION_MINIMAP);
 		fishing = player.isFishing() ? 1 : 0; // Fishing Mode
 		_partySubstitute = 0;
+		inv = player.getInventory();
 		can_writeImpl = true;
 	}
 
@@ -281,15 +284,15 @@ public class UserInfo extends L2GameServerPacket
 		writeD(talismans);
 		writeD(openCloak ? 0x01 : 0x00);
 
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_RHAND)); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_LHAND)); // Tauti
 		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(0); // Tauti
-		writeD(0); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_GLOVES)); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_CHEST)); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_LEGS)); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_FEET)); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_HAIR)); // Tauti
+		writeD(inv.getVisualItemId(Inventory.PAPERDOLL_DHAIR)); // Tauti
 
 		writeD(_patk);
 		writeD(_patkspd);

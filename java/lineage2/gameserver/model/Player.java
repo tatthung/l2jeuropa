@@ -848,6 +848,9 @@ public final class Player extends Playable implements PlayerGroup
 	 * Field _olympiadSide.
 	 */
 	private int _olympiadSide = -1;
+
+	private ItemInstance _enchantItem;
+	private ItemInstance _enchantSupportItem;
 	/**
 	 * Field _varka.
 	 */
@@ -5472,6 +5475,8 @@ public final class Player extends Playable implements PlayerGroup
 		_fistsWeaponItem = null;
 		_chars = null;
 		_enchantScroll = null;
+		_enchantItem = null;
+		_enchantSupportItem = null;
 		_lastNpc = HardReferences.emptyRef();
 		_observerRegion = null;
 	}
@@ -14726,6 +14731,26 @@ public final class Player extends Playable implements PlayerGroup
 	public boolean isChaotic()
 	{
 		return getKarma() < 0;
+	}
+
+	public void setAppearanceStone(final ItemInstance enchantItem)
+	{
+		_enchantItem = enchantItem;
+	}
+
+	public ItemInstance getAppearanceStone()
+	{
+		return _enchantItem;
+	}
+
+	public void setAppearanceExtractItem(final ItemInstance supportItem)
+	{
+		_enchantSupportItem = supportItem;
+	}
+
+	public ItemInstance getAppearanceExtractItem()
+	{
+		return _enchantSupportItem;
 	}
 
 }
