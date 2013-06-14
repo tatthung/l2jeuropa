@@ -294,7 +294,7 @@ public class _10331_StartOfFate extends Quest implements ScriptFile
 			{
 				st.set("stage", 7);
 				reflect.openDoor(16240008);
-				SceneMovie scene = SceneMovie.sc_talking_island_boss_ending;
+				SceneMovie scene = SceneMovie.sc_talking_island_boss_opening;
 				st.getPlayer().showQuestMovie(scene);
 				st.startQuestTimer("spawn_nemertess", scene.getDuration(), npc);
 			}
