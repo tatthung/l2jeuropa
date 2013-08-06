@@ -1706,11 +1706,6 @@
         <!--Thief Kelbar-->
     </spawn>
     <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
-        <point x="117095" y="144997" z="-2539" h="32768"/>
-        <npc id="35184"/>
-        <!--Saul-->
-    </spawn>
-    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
         <point x="107386" y="145807" z="-3300" h="32768"/>
         <npc id="35188"/>
         <!--Holmes-->
@@ -1739,11 +1734,6 @@
         <point x="116984" y="145278" z="-2555" h="32768"/>
         <npc id="35186"/>
         <!--Arvid-->
-    </spawn>
-    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
-        <point x="116123" y="249702" z="-762" h="49152"/>
-        <npc id="35316"/>
-        <!--Neurath-->
     </spawn>
     <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
         <point x="117136" y="241763" z="-1280" h="49152"/>
