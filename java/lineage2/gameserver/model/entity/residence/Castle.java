@@ -103,30 +103,8 @@ public class Castle extends Residence {
             }
             _relatedFortresses.put(entry.getKey(), list2);
         }
-		//broadcastAbstractSide();
-		//Announcements.getInstance().announceToAll(new ExCastleState(this));
 		broadcastResidenceState();
     }
-	
-	//public void broadcastAbstractSide()
-	//{
-			//if(_rs == _residenceSide)
-			//{
-			//_log.info("Terrytory on Light Side");
-			//broadcastPacket(getResidenceSide().ordinal(),true,false);
-			//broadcastResidenceState();
-			//return;
-			//}
-		//L2GameServerPacket trigger1 = new ExCastleState(this);
-		//L2GameServerPacket trigger2 = new EventTrigger(getResidenceSide().ordinal(),true);
-		//for (Player player : GameObjectsStorage.getAllPlayersForIterate())
-		//{
-			//player.sendPacket(trigger1);
-			//player.sendPacket(trigger2);
-		//}
-		//_log.info("Terrytory Ready");
-			
-	//}
 	
     @Override
     public ResidenceType getType() {
@@ -730,7 +708,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().spawn("spawn_light_gludio");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);
 				setTaxPercent(null, 0);
-				_log.info("Terrytory on Light Side");			
+				_log.info("Territory of Gludio Castle is on Light Side");			
 			}
 			else
 			{
@@ -740,7 +718,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().despawn("spawn_light_gludio");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);
 				setTaxPercent(null,30);
-				_log.info("Terrytory on Dark Side");
+				_log.info("Territory of Gludio Castle is on Dark Side");
 			}
 			return;
 		}
@@ -755,7 +733,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().spawn("spawn_light_dion");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);
 				setTaxPercent(null, 0);
-				_log.info("Terrytory on Light Side");
+				_log.info("Territory of Dion Castle is on Light Side");
 			}
 			else
 			{
@@ -764,7 +742,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().despawn("spawn_light_dion");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);
 				setTaxPercent(null,30);
-				_log.info("Terrytory on Dark Side");
+				_log.info("Territory of Dion Castle is on Dark Side");
 			}
 			return;
 		}
@@ -778,7 +756,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().spawn("spawn_light_giran");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null, 0);
-				_log.info("Terrytory on Light Side");
+				_log.info("Territory of Giran Castle is on Light Side");
 			}
 			else
 			{
@@ -787,7 +765,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().despawn("spawn_light_giran");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null,30);
-				_log.info("Terrytory on Dark Side");
+				_log.info("Territory of Giran Castle is on Dark Side");
 			}
 			return;
 		}
@@ -801,7 +779,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().spawn("spawn_light_oren");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null, 0);
-				_log.info("Terrytory on Light Side");
+				_log.info("Territory of Oren Castle is on Light Side");
 			}
 			else
 			{
@@ -810,7 +788,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().despawn("spawn_light_oren");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null,30);
-				_log.info("Terrytory on Dark Side");
+				_log.info("Territory of Oren Castle is on Dark Side");
 			}
 			return;
 		}
@@ -824,7 +802,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().spawn("spawn_light_aden");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null, 0);
-				_log.info("Terrytory on Light Side");
+				_log.info("Territory of Aden Castle is on Light Side");
 			}
 			else
 			{
@@ -833,7 +811,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().despawn("spawn_light_aden");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null,30);
-				_log.info("Terrytory on Dark Side");
+				_log.info("Territory of Aden Castle is on Dark Side");
 			}
 			return;
 		}
@@ -847,7 +825,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().spawn("spawn_light_heine");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null, 0);
-				_log.info("Terrytory on Light Side");
+				_log.info("Territory of Innadril Castle is on Light Side");
 			}
 			else
 			{
@@ -856,7 +834,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().despawn("spawn_light_heine");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null,30);
-				_log.info("Terrytory on Dark Side");
+				_log.info("Territory of Innadril Castle is on Dark Side");
 			}
 			return;
 		}
@@ -870,7 +848,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().spawn("spawn_light_shutgart");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null, 0);
-				_log.info("Terrytory on Light Side");
+				_log.info("Territory of Schuttgart Castle is on Light Side");
 			}
 			else
 			{
@@ -879,7 +857,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().despawn("spawn_light_shutgart");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null,30);
-				_log.info("Terrytory on Dark Side");	
+				_log.info("Territory of Schuttgart Castle is on Dark Side");	
 			}
 			return;
 		}
@@ -893,7 +871,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().spawn("spawn_light_rune");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null, 0);
-				_log.info("Terrytory on Light Side");
+				_log.info("Territory of Rune Castle is on Light Side");
 			}
 			else
 			{
@@ -902,7 +880,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().despawn("spawn_light_rune");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null,30);
-				_log.info("Terrytory on Dark Side");
+				_log.info("Territory of Rune Castle is on Dark Side");
 			}
 			return;
 		}
@@ -916,7 +894,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().spawn("spawn_light_goddart");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null, 0);
-				_log.info("Terrytory on Light Side");
+				_log.info("Territory of Goddard Castle is on Light Side");
 			}
 			else
 			{
@@ -925,7 +903,7 @@ public class Castle extends Residence {
 				SpawnManager.getInstance().despawn("spawn_light_goddart");
 				//broadcastPacket(getResidenceSide().ordinal(),true,false);	
 				setTaxPercent(null,30);
-				_log.info("Terrytory on Dark Side");
+				_log.info("Territory of Goddard Castle is on Dark Side");
 			}
 			return;
 		}

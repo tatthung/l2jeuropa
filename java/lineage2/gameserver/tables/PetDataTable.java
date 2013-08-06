@@ -211,12 +211,21 @@ public class PetDataTable
 	public PetData getInfo(int petNpcId, int level)
 	{
 		PetData result = null;
+		result = _pets.get((petNpcId * 100) + level);
+		if (result != null) 
+			return result;
+		else
+		{
+			_log.error("Missing PetData for NpcId:" + petNpcId + " at level:" + level);
+			return null;
+		}
+		/*
 		while ((result == null) && (level < 100))
 		{
 			result = _pets.get((petNpcId * 100) + level);
 			level++;
 		}
-		return result;
+		*/
 	}
 	
 	/**
