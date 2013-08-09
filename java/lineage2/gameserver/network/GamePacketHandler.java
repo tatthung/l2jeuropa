@@ -1012,13 +1012,11 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 									msg = new NotifyStartMiniGame();
 									break;
 								case 0x57:
-									int tmp57 = buf.getInt();
-									_log.info("0xd0 - 0x57:" + tmp57);
+									_log.info("0xd0 - 0x57:");
 								//	msg = new RequestExJoinDominionWar();
 									break;
 								case 0x58:
-									int tmp58 = buf.getInt();
-									_log.info("0xd0 - 0x58:" + tmp58);
+									_log.info("0xd0 - 0x58:");
 								//	msg = new RequestExDominionInfo();
 									break;
 								case 0x59:
