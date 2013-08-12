@@ -534,7 +534,7 @@
 		<set name="operateType" val="OP_ACTIVE"/>
 		<for>
 			<effect name="HealAndDamage" />
-		</for>   
+		</for>
 	</skill>
 	<skill id="11772" levels="4" name="Giant's Favor">
 	<!-- Performs an ancient secret technique of the Giants to increase P. Def., M. Def., and Healing power by 1000 for 15 seconds. -->
@@ -576,14 +576,14 @@
 	</skill>
 	<skill id="11773" levels="2" name="Lakcis Disc">
 		<!-- Directly manipulates the power of light to Heal nearby allies and damage nearby enemies. Continuously consumes MP. -->
-         	<table name="#magicLevel">89 95</table>
-         	<table name="#mp">3 4</table>
-	        <set name="skillType" val="CONT"/>
-        	<set name="isAwakeningToggle" val="true"/>
-      		<set name="magicLevel" val="#magicLevel"/>
+		<table name="#magicLevel">89 95</table>
+		<table name="#mp">3 4</table>
+		<set name="skillType" val="CONT"/>
+		<set name="isAwakeningToggle" val="true"/>
+		<set name="magicLevel" val="#magicLevel"/>
 		<set name="target" val="TARGET_SELF"/> 
 		<set name="operateType" val="OP_TOGGLE"/>
-	        <for>
+		<for>
 			<effect count="0x7fffffff" name="LDManaDamOverTime" time="5" val="#mp"/>
 			<effect count="0x7fffffff" name="CallSkills" time="5" val="0">
 				<def name="skillIds" val="11771"/>
@@ -781,7 +781,7 @@
 		<table name="#mpConsume2">50</table>
 		<set name="reuseDelay" val="30000"/>
 		<set name="hitTime" val="500"/>
-        	<set name="isAwakeningToggle" val="true"/>
+		<set name="isAwakeningToggle" val="true"/>
 		<set name="mpConsume2" val="#mpConsume2"/>	
 		<set name="magicLevel" val="#magicLevel"/>
 		<set name="target" val="TARGET_SELF"/>
