@@ -136,7 +136,7 @@
 		<set name="skillType" val="HEAL_HP_CP"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="relationSkillsId" val="1217;1401"/>
-		<enchant1 name="Cost">
+		<enchant1 levels="10" name="Cost">
 			<table name="#power">1583 1589 1596 1602 1615 1629 1642 1656 1670 1684</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant1>
@@ -152,7 +152,7 @@
 		<set name="skillType" val="HEAL_HP_CP"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="relationSkillsId" val="1218;"/>
-		<enchant1 name="Cost">
+		<enchant1 levels="10" name="Cost">
 			<table name="#power">1583 1589 1596 1602 1615 1629 1642 1656 1670 1684</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant1>
@@ -169,7 +169,7 @@
 		<set name="skillType" val="HEAL_HP_CP"/>
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="relationSkillsId" val="1402;1219;"/>
-		<enchant1 name="Cost">
+		<enchant1 levels="10" name="Cost">
 			<table name="#power">1269 1278 1286 1295 1304 1312 1321 1329  1347</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant1>
@@ -367,18 +367,18 @@
 			<table name="#power">156 158 159 161 163 165 167 169 170 172</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant1>
-		<enchant2 name="Duel">
+		<enchant2 levels="10" name="Duel">
 			<table name="#powerPvP">156 158 159 161 163 165 167 169 170 172</table>
 			<table name="#power">156 158 159 161 163 165 167 169 170 172</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant2>
-		<enchant3 name="Holy Attack">
+		<enchant3 levels="10" name="Holy Attack">
 			<table name="#element">holy</table>
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
 			<table name="#power">156 158 159 161 163 165 167 169 170 172</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant3>
-		<enchant4 name="Dark Attack">
+		<enchant4 levels="10" name="Dark Attack">
 			<table name="#element">unholy</table>
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
 			<table name="#power">156 158 159 161 163 165 167 169 170 172</table>
@@ -411,18 +411,18 @@
 			<table name="#power">143 144 146 148 150 151 153 155 156 158</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant1>
-		<enchant2 name="Duel">
+		<enchant2 levels="10" name="Duel">
 			<table name="#powerPvP">143 144 146 148 150 151 153 155 156 158</table>
 			<table name="#power">143 144 146 148 150 151 153 155 156 158</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant2>
-		<enchant3 name="Holy Attack">
+		<enchant3 levels="10" name="Holy Attack">
 			<table name="#element">holy</table>
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
 			<table name="#power">143 144 146 148 150 151 153 155 156 158</table>
             <table name="#magicLevel">90 91 92 93 94 95 96 97 98 99</table>
 		</enchant3>
-		<enchant4 name="Dark Attack">
+		<enchant4 levels="10" name="Dark Attack">
 			<table name="#element">unholy</table>
 			<table name="#elementPower">20 23 26 30 33 36 40 43 46 50</table>
 			<table name="#power">143 144 146 148 150 151 153 155 156 158</table>

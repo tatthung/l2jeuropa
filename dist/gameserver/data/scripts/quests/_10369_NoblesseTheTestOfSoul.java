@@ -61,9 +61,9 @@ public class _10369_NoblesseTheTestOfSoul extends Quest implements ScriptFile, O
 
 	//skill
 	private static final int Trower = 9442;
-	private static final int EmptyHotSkill = 9443;
+	//private static final int EmptyHotSkill = 9443;
 	private static final int HelpingS = 9444;
-	private static final int SummonStoneSkill = 9445;
+	//private static final int SummonStoneSkill = 9445;
 
 	//item
 	private static final int HelpingSeed = 34961;
@@ -138,7 +138,7 @@ public class _10369_NoblesseTheTestOfSoul extends Quest implements ScriptFile, O
 				if (npcId == Helping && cond == 16) //Aden Castle
 				{
 					ItemFunctions.removeItem(st.getPlayer(), HelpingSeed, 1L, true);
-					NpcInstance mob = st.addSpawn(HelpingTree, 148216, 14856, -1393);
+					/*NpcInstance mob =*/ st.addSpawn(HelpingTree, 148216, 14856, -1393);
 					st.giveItems(Ashes, 1);
 					st.playSound("ItemSound.quest_middle");
 					st.setCond(17);
