@@ -70,8 +70,12 @@ public class StatusUpdate extends L2GameServerPacket
 			}
 			case STR:
 			{
-				value = _actor.getDEX();
+				value = _actor.getSTR();
 				break;
+			}
+			case DEX:
+			{
+				value = _actor.getDEX();
 			}
 			case CON:
 			{
@@ -213,6 +217,8 @@ public class StatusUpdate extends L2GameServerPacket
 				}
 				break;
 			}
+			default:
+				break;
 		}
 		if(value != -1)
 		{

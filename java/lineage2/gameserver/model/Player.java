@@ -3108,6 +3108,8 @@ public final class Player extends Playable implements PlayerGroup
 				case SHILLIEN_SAINT:
 					ItemFunctions.addItem(this, 15309, 7, true);
 					break;
+				default:
+					break;
 			}
 			rewardSkills(true,false);
 			storeCharSubClasses();

@@ -241,6 +241,8 @@ public class RequestEnchantItem extends AbstractEnchantPacket
 						break;
 					case ANCIENT:
 						player.sendPacket(EnchantResult.ANCIENT_FAILED);
+					default:
+						break;
 				}
 			}
 		}

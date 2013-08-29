@@ -233,6 +233,8 @@ public class FuncEnchant extends Func
 				}
 				return;
 			}
+			default:
+				break;
 		}
 	}
 	

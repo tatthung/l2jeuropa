@@ -106,14 +106,14 @@ public class GeoOptimizer
 		private void saveToFile(BlockLink[] links)
 		{
 			log.info("Saving matches to: " + fileName);
-			try
+			File f = new File(Config.DATAPACK_ROOT, fileName);
+			if (f.exists())
 			{
-				File f = new File(Config.DATAPACK_ROOT, fileName);
-				if (f.exists())
-				{
-					f.delete();
-				}
-				FileChannel wChannel = new RandomAccessFile(f, "rw").getChannel();
+				f.delete();
+			}
+			try(RandomAccessFile raf = new RandomAccessFile(f, "rw");
+				FileChannel wChannel = raf.getChannel())
+			{
 				ByteBuffer buffer = wChannel.map(FileChannel.MapMode.READ_WRITE, 0, (links.length * 6) + 1);
 				buffer.order(ByteOrder.LITTLE_ENDIAN);
 				buffer.put(version);
@@ -272,9 +272,9 @@ public class GeoOptimizer
 			{
 				return false;
 			}
-			try
+			try(RandomAccessFile raf = new RandomAccessFile(GeoCrc, "r");
+					FileChannel roChannel = raf.getChannel();)
 			{
-				FileChannel roChannel = new RandomAccessFile(GeoCrc, "r").getChannel();
 				if (roChannel.size() != (GeoEngine.BLOCKS_IN_MAP * 4))
 				{
 					roChannel.close();
@@ -304,15 +304,14 @@ public class GeoOptimizer
 		private void saveToFile()
 		{
 			log.info("Saving checksums to: " + fileName);
-			FileChannel wChannel;
-			try
+			File f = new File(Config.DATAPACK_ROOT, fileName);
+			if (f.exists())
 			{
-				File f = new File(Config.DATAPACK_ROOT, fileName);
-				if (f.exists())
-				{
-					f.delete();
-				}
-				wChannel = new RandomAccessFile(f, "rw").getChannel();
+				f.delete();
+			}
+			try(RandomAccessFile raf = new RandomAccessFile(f, "rw");
+				FileChannel wChannel = raf.getChannel())
+			{
 				ByteBuffer buffer = wChannel.map(FileChannel.MapMode.READ_WRITE, 0, GeoEngine.BLOCKS_IN_MAP * 4);
 				buffer.order(ByteOrder.LITTLE_ENDIAN);
 				int[] _checkSums = checkSums[geoX][geoY];
@@ -422,9 +421,9 @@ public class GeoOptimizer
 		{
 			return null;
 		}
-		try
+		try(RandomAccessFile raf = new RandomAccessFile(f, "r");
+				FileChannel roChannel = raf.getChannel())
 		{
-			FileChannel roChannel = new RandomAccessFile(f, "r").getChannel();
 			int count = (int) ((roChannel.size() - 1) / 6);
 			ByteBuffer buffer = roChannel.map(FileChannel.MapMode.READ_ONLY, 0, roChannel.size());
 			roChannel.close();

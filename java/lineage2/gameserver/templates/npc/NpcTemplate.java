@@ -590,6 +590,8 @@ public final class NpcTemplate extends CharTemplate
 								_dotSkills = ArrayUtils.add(_dotSkills, skill);
 								added = true;
 								break;
+							default:
+								break;
 						}
 					}
 				}

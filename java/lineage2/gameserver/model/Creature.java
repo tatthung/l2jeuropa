@@ -4572,6 +4572,8 @@ public abstract class Creature extends GameObject
 					sendPacket(SystemMsg.CANNOT_SEE_TARGET);
 				}
 				break;
+			default:
+				break;
 		}
 		if (_scheduledCastCount > 0)
 		{

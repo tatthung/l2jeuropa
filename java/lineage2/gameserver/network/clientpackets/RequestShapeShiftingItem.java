@@ -316,6 +316,8 @@ public class RequestShapeShiftingItem extends L2GameClientPacket
 				case FIXED:
 					targetItem.setVisualId(appearanceStone.getExtractItemId());
 					break;
+				default:
+					break;
 			}
 
 			targetItem.setJdbcState(JdbcEntityState.UPDATED);

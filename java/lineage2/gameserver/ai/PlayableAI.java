@@ -413,6 +413,12 @@ public class PlayableAI extends CharacterAI
 				case AI_INTENTION_COUPLE_ACTION:
 					thinkCoupleAction((Player) _intention_arg0, (Integer) _intention_arg1, false);
 					break;
+				case AI_INTENTION_IDLE:
+					thinkIdle();
+					break;
+				case AI_INTENTION_REST:
+					thinkRest();
+					break;
 			}
 		}
 		catch (Exception e)
@@ -851,6 +857,20 @@ public class PlayableAI extends CharacterAI
 	 * @param cancel boolean
 	 */
 	protected void thinkCoupleAction(Player target, Integer socialId, boolean cancel)
+	{
+	}
+	
+	/**
+	 * Method thinkIdle.
+	 */
+	protected void thinkIdle()
+	{
+	}
+	
+	/**
+	 * Method thinkRest.
+	 */
+	protected void thinkRest()
 	{
 	}
 	

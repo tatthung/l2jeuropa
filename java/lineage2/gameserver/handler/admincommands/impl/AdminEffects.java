@@ -215,6 +215,9 @@ public class AdminEffects implements IAdminCommandHandler
 					activeChar.unsetVar("gm_invul");
 				}
 				break;
+			default:
+				activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
+				break;
 		}
 		if (!activeChar.isGM())
 		{
@@ -436,6 +439,9 @@ public class AdminEffects implements IAdminCommandHandler
 					return false;
 				}
 				activeChar.showQuestMovie(id);
+				break;
+			default:
+				activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
 				break;
 		}
 		return true;

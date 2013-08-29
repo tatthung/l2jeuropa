@@ -423,6 +423,22 @@ public class CharacterAI extends AbstractAI
 	}
 	
 	/**
+	 * Method onEvtKnockDown.
+	 */
+	@Override
+	protected void onEvtKnockDown()
+	{
+	}
+	
+	/**
+	 * Method onEvtTeleported.
+	 */
+	@Override
+	protected void onEvtTeleported()
+	{
+	}
+	
+	/**
 	 * Method addTimer.
 	 * @param timerId int
 	 * @param delay long

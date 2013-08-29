@@ -980,6 +980,8 @@ public class Reflection
 				case RESIDENCE:
 					zone.addListener(ResidenceEnterLeaveListenerImpl.STATIC);
 					break;
+				default:
+					break;
 			}
 			if (template.isEnabled())
 			{
@@ -1032,6 +1034,8 @@ public class Reflection
 					break;
 				case RESIDENCE:
 					zone.addListener(ResidenceEnterLeaveListenerImpl.STATIC);
+					break;
+				default:
 					break;
 			}
 			if (t.isActive())

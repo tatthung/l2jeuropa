@@ -2645,6 +2645,8 @@ public abstract class Skill extends StatTemplate implements Cloneable
 					case TARGET_SUMMON_AURA_AND_ME:
 						targets.add(activeChar);
 						break;
+					default:
+						break;
 				}
 				break;
 			case TARGET_PARTY:
@@ -2690,6 +2692,8 @@ public abstract class Skill extends StatTemplate implements Cloneable
 						case TARGET_ALLY:
 							check = ((player.getClanId() != 0) && (target.getClanId() == player.getClanId())) || ((player.getAllyId() != 0) && (target.getAllyId() == player.getAllyId()));
 							break;
+						default:
+							break;
 					}
 					if (!check)
 					{
@@ -2722,6 +2726,8 @@ public abstract class Skill extends StatTemplate implements Cloneable
 				addTargetsToList(targets, loc, activeChar, forceUse);
 				break;
 			}
+			default:
+				break;
 		}
 		return targets;
 	}
@@ -4692,6 +4698,8 @@ public abstract class Skill extends StatTemplate implements Cloneable
 			case SLEEP:
 			case STUN:
 				min = 5000;
+				break;
+			default:
 				break;
 		}
 		return Math.max(Math.max(_hitTime + _coolTime, _reuseDelay), min);

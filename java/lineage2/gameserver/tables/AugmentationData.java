@@ -628,6 +628,8 @@ public class AugmentationData
 				generateSkill = Rnd.chance(Config.AUGMENTATION_TOP_SKILL_CHANCE);
 				generateGlow = Rnd.chance(Config.AUGMENTATION_TOP_GLOW_CHANCE);
 				break;
+			default:
+				break;
 		}
 		if (!generateSkill && (Rnd.get(1, 100) <= Config.AUGMENTATION_BASESTAT_CHANCE))
 		{

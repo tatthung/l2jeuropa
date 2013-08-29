@@ -517,6 +517,8 @@ public class ItemAuction
 					return;
 				}
 				break;
+			default:
+				break;
 		}
 		int charId = player.getObjectId();
 		synchronized (_auctionBids)

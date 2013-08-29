@@ -54,6 +54,8 @@ public class ExShowBaseAttributeCancelWindow extends L2GameServerPacket
 				return item.getTemplate().getType2() == ItemTemplate.TYPE2_WEAPON ? 800000 : 640000;
 			case R99:
 				return item.getTemplate().getType2() == ItemTemplate.TYPE2_WEAPON ? 3200000 : 2560000;
+			default:
+				break;
 		}
 		return 0;
 	}

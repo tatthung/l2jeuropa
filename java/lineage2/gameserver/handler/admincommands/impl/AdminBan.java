@@ -118,6 +118,9 @@ public class AdminBan implements IAdminCommandHandler
 					return tradeBan(st, activeChar);
 				case admin_trade_unban:
 					return tradeUnban(st, activeChar);
+				default:
+					activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
+					break;
 			}
 		}
 		if (activeChar.getPlayerAccess().CanBan)
@@ -286,6 +289,9 @@ public class AdminBan implements IAdminCommandHandler
 					banned.kick();
 					Functions.sendDebugMessage(activeChar, "Player account " + banaccount + " is banned, player " + banned.getName() + " kicked.");
 					break;
+				default:
+					activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
+					break;
 			}
 		}
 		return true;
@@ -409,13 +415,13 @@ public class AdminBan implements IAdminCommandHandler
 		targ.unsetVar("tradeBan");
 		if (Config.BANCHAT_ANNOUNCE_FOR_ALL_WORLD)
 		{
-			Announcements.getInstance().announceToAll(activeChar + " разблокировал торговл�? пер�?онажу " + targ + ".");
+			Announcements.getInstance().announceToAll(activeChar + " has banned " + targ + "from chat.");
 		}
 		else
 		{
-			Announcements.shout(activeChar, activeChar + " разблокировал торговл�? пер�?онажу " + targ + ".", ChatType.CRITICAL_ANNOUNCE);
+			Announcements.shout(activeChar, activeChar + " has banned " + targ + "from chat.", ChatType.CRITICAL_ANNOUNCE);
 		}
-		Log.add(activeChar + " разблокировал торговл�? пер�?онажу " + targ + ".", "tradeBan", activeChar);
+		Log.add(activeChar + " has banned " + targ + "from chat.", "tradeBan", activeChar);
 		return true;
 	}
 	

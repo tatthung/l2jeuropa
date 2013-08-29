@@ -324,6 +324,8 @@ public class Formulas
 			case SIDE:
 				info.damage *= 1.1;
 				break;
+			default:
+				break;
 		}
 		if (ss)
 		{
@@ -674,6 +676,8 @@ public class Formulas
 					chance = 3.0;
 				}
 				break;
+			default:
+				break;
 		}
 		chance = Math.min(skill.isBehind() ? 100 : 80, chance);
 		return Rnd.chance(chance);
@@ -705,6 +709,8 @@ public class Formulas
 				break;
 			case SIDE:
 				rate *= 1.2;
+				break;
+			default:
 				break;
 		}
 		return rate / 10;
@@ -818,6 +824,8 @@ public class Formulas
 				break;
 			case SIDE:
 				chanceToHit *= 1.1;
+				break;
+			default:
 				break;
 		}
 		return !Rnd.chance(chanceToHit);

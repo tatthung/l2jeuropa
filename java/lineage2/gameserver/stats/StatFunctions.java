@@ -1182,6 +1182,8 @@ public class StatFunctions
 						case DUALDAGGER:
 							env.value += 12.;
 							break;
+						default:
+							break;
 					}
 				}
 			}

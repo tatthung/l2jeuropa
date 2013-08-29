@@ -685,6 +685,8 @@ public abstract class SiegeEvent<R extends Residence, S extends SiegeClanObject>
 					player.sendPacket(SystemMsg.IF_A_BASE_CAMP_DOES_NOT_EXIST_RESURRECTION_IS_NOT_POSSIBLE);
 				}
 				break;
+			default:
+				break;
 		}
 		return loc;
 	}

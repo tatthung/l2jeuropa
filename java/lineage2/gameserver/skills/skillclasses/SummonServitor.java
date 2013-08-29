@@ -129,6 +129,8 @@ public class SummonServitor extends Skill
 			case CLONE:
 			case NPC:
 				break;
+			default:
+				break;
 		}
 		return super.checkCondition(activeChar, target, forceUse, dontMove, first);
 	}
@@ -341,6 +343,8 @@ public class SummonServitor extends Skill
 				normalnpc.setReflection(activeChar.getReflection());
 				normalnpc.spawnMe(activeChar.getLoc());
 				ThreadPoolManager.getInstance().schedule(new GameObjectTasks.DeleteTask(normalnpc), _lifeTime);
+				break;
+			default:
 				break;
 		}
 		if (isSSPossible())

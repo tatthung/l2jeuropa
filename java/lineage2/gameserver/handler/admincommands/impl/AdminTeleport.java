@@ -326,6 +326,9 @@ public class AdminTeleport implements IAdminCommandHandler
 				}
 				activeChar.sendMessage("Object " + target + " not found");
 				break;
+			default:
+				activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
+				break;
 		}
 		if (!activeChar.getPlayerAccess().CanEditChar)
 		{
@@ -404,6 +407,9 @@ public class AdminTeleport implements IAdminCommandHandler
 				}
 				activeChar.sendMessage("Player '" + wordList[1] + "' in reflection: " + activeChar.getReflectionId() + ", name: " + activeChar.getReflection().getName());
 				break;
+			default:
+				activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
+				break;
 		}
 		if (!activeChar.getPlayerAccess().CanEditNPC)
 		{
@@ -413,6 +419,9 @@ public class AdminTeleport implements IAdminCommandHandler
 		{
 			case admin_recall_npc:
 				recallNPC(activeChar);
+				break;
+			default:
+				activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
 				break;
 		}
 		return true;

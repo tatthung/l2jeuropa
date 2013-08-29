@@ -103,6 +103,8 @@ public class EffectDamOverTime extends Effect
 				case Bleed:
 					damage = (bleed[getStackOrder() - 1] * getPeriod()) / 1000;
 					break;
+				default:
+					break;
 			}
 		}
 		damage = _effector.calcStat(getSkill().isMagic() ? Stats.MAGIC_DAMAGE : Stats.PHYSICAL_DAMAGE, damage, _effected, getSkill());

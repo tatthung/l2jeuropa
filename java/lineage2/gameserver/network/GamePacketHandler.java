@@ -1347,6 +1347,8 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 						}
 					}
 					break;
+				default:
+					break;
 			}
 		}
 		catch (BufferUnderflowException e)
