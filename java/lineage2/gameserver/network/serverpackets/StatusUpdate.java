@@ -76,6 +76,7 @@ public class StatusUpdate extends L2GameServerPacket
 			case DEX:
 			{
 				value = _actor.getDEX();
+				break;
 			}
 			case CON:
 			{

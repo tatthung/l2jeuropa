@@ -66,7 +66,7 @@ public final class RestorationInfoParser extends AbstractDirParser<RestorationIn
 				}
 				restorationInfo.addRestorationGroup(restorationGroup);
 			}
-			((RestorationInfoHolder)getHolder()).addRestorationInfo(restorationInfo);
+			(getHolder()).addRestorationInfo(restorationInfo);
 		}
 	}
 }

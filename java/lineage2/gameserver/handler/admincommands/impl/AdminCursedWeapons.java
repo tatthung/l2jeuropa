@@ -100,7 +100,6 @@ public class AdminCursedWeapons implements IAdminCommandHandler
 				}
 				break;
 			default:
-				activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
 				break;
 		}
 		switch (command)

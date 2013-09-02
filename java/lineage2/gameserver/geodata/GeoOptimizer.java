@@ -124,7 +124,6 @@ public class GeoOptimizer
 					buffer.put(link.linkMapY);
 					buffer.putShort((short) link.linkBlockIndex);
 				}
-				wChannel.close();
 			}
 			catch (Exception e)
 			{
@@ -277,11 +276,9 @@ public class GeoOptimizer
 			{
 				if (roChannel.size() != (GeoEngine.BLOCKS_IN_MAP * 4))
 				{
-					roChannel.close();
 					return false;
 				}
 				ByteBuffer buffer = roChannel.map(FileChannel.MapMode.READ_ONLY, 0, roChannel.size());
-				roChannel.close();
 				buffer.order(ByteOrder.LITTLE_ENDIAN);
 				int[] _checkSums = new int[GeoEngine.BLOCKS_IN_MAP];
 				for (int i = 0; i < GeoEngine.BLOCKS_IN_MAP; i++)
@@ -319,7 +316,6 @@ public class GeoOptimizer
 				{
 					buffer.putInt(_checkSums[i]);
 				}
-				wChannel.close();
 			}
 			catch (Exception e)
 			{
@@ -426,7 +422,6 @@ public class GeoOptimizer
 		{
 			int count = (int) ((roChannel.size() - 1) / 6);
 			ByteBuffer buffer = roChannel.map(FileChannel.MapMode.READ_ONLY, 0, roChannel.size());
-			roChannel.close();
 			buffer.order(ByteOrder.LITTLE_ENDIAN);
 			if (buffer.get() != version)
 			{

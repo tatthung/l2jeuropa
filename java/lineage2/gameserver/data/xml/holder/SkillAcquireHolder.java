@@ -730,7 +730,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 		List<Integer> ListSkills = new ArrayList<Integer>();
 		for(Iterator<Entry<Integer, List<SkillLearn>>> allClassSkills = _normalSkillTree.entrySet().iterator(); allClassSkills.hasNext();)
 		{
-			Map.Entry<Integer, List<SkillLearn>> e = (Map.Entry<Integer,List<SkillLearn>>) allClassSkills.next();
+			Map.Entry<Integer, List<SkillLearn>> e = allClassSkills.next();
 			for(SkillLearn skill : e.getValue())
 			{
 				ListSkills.add(skill.getId());
@@ -748,7 +748,7 @@ public final class SkillAcquireHolder extends AbstractHolder
 		List<SkillLearn> ListSkills = new ArrayList<SkillLearn>();
 		for(Iterator<Entry<Integer, List<SkillLearn>>> allClassSkills = _normalSkillTree.entrySet().iterator(); allClassSkills.hasNext();)
 		{
-			Map.Entry<Integer, List<SkillLearn>> e = (Map.Entry<Integer,List<SkillLearn>>) allClassSkills.next();
+			Map.Entry<Integer, List<SkillLearn>> e = allClassSkills.next();
 			for(SkillLearn skill : e.getValue())
 			{
 				ListSkills.add(skill);

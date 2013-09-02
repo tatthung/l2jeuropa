@@ -10021,7 +10021,7 @@ public final class Player extends Playable implements PlayerGroup
 		HashMap <Integer,Integer> certificationSkills = getCertSkill();
 		for(Iterator <Entry<Integer,Integer>> i = certificationSkills.entrySet().iterator();i.hasNext();)
 		{
-			Map.Entry<Integer,Integer> e = (Map.Entry<Integer, Integer>)i.next();
+			Map.Entry<Integer,Integer> e = i.next();
 			Skill skl = SkillTable.getInstance().getInfo(e.getKey(), e.getValue());
 			addSkill(skl,true);									
 		}

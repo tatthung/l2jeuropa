@@ -24,10 +24,10 @@ public class RandomActions
 	{
 		if (_randomOrder)
 		{
-			Action[] actionsArr = (Action[])_actions.values(new Action[_actions.size()]);
+			Action[] actionsArr = _actions.values(new Action[_actions.size()]);
 			return actionsArr[Rnd.get(actionsArr.length)];
 		}
-		return (Action)_actions.get(id);
+		return _actions.get(id);
 	}
 
 	public int getActionsCount()

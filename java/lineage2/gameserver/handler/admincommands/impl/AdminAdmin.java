@@ -518,7 +518,7 @@ public class AdminAdmin implements IAdminCommandHandler
 					}
 					break;
 				default:
-					activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
+					activeChar.sendMessage("Command isn't implemented yet.");
 					break;
 			}
 			return true;
@@ -553,7 +553,6 @@ public class AdminAdmin implements IAdminCommandHandler
 					}
 					break;
 				default:
-					activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
 					break;
 			}
 			return true;

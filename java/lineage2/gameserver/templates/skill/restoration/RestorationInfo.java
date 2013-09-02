@@ -70,7 +70,7 @@ public final class RestorationInfo
 						successGroups.add(group);
 				}
 			}
-			RestorationGroup[] groupsArray = (RestorationGroup[])successGroups.toArray(new RestorationGroup[successGroups.size()]);
+			RestorationGroup[] groupsArray = successGroups.toArray(new RestorationGroup[successGroups.size()]);
 			return groupsArray[Rnd.get(groupsArray.length)].getRestorationItems();
 		}
 		return new ArrayList<RestorationItem>(0);

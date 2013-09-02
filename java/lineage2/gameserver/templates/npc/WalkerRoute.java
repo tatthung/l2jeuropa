@@ -32,7 +32,7 @@ public class WalkerRoute
 
 	public WalkerRoutePoint getPoint(int id)
 	{
-		return (WalkerRoutePoint)_points.get(id);
+		return _points.get(id);
 	}
 
 	public int size()

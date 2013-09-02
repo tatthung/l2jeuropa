@@ -444,7 +444,7 @@ public final class SubClassManagerInstance extends NpcInstance
 		showAcquireList(type, player);
 	}
 	
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	private static <K extends Comparable, V extends Comparable> Map <K,V> sortByLevels(Map<K,V> map)
 	{
 		List <K> keys = new LinkedList<K>(map.keySet());

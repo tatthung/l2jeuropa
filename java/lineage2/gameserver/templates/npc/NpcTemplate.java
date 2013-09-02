@@ -900,7 +900,7 @@ public final class NpcTemplate extends CharTemplate
 
 	public WalkerRoute getWalkerRoute(int id)
 	{
-		return (WalkerRoute)this._walkerRoute.get(id);
+		return this._walkerRoute.get(id);
 	}
 
 	public boolean isDisplayHpBar()

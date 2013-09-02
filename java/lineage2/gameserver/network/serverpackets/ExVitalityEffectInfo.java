@@ -11,7 +11,7 @@ public class ExVitalityEffectInfo extends L2GameServerPacket
 	public ExVitalityEffectInfo(Player player)
 	{
 		points = player.getVitality();
-		expBonus = (int) (player.getVitality() == 0 ? 0 : (int) (Config.ALT_VITALITY_RATE * 100));
+		expBonus = (player.getVitality() == 0 ? 0 : (int) (Config.ALT_VITALITY_RATE * 100));
 	}
 
 	@Override

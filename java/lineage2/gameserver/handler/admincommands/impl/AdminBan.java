@@ -119,7 +119,6 @@ public class AdminBan implements IAdminCommandHandler
 				case admin_trade_unban:
 					return tradeUnban(st, activeChar);
 				default:
-					activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
 					break;
 			}
 		}
@@ -290,7 +289,7 @@ public class AdminBan implements IAdminCommandHandler
 					Functions.sendDebugMessage(activeChar, "Player account " + banaccount + " is banned, player " + banned.getName() + " kicked.");
 					break;
 				default:
-					activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
+					activeChar.sendMessage("Command isn't implemented yet.");
 					break;
 			}
 		}

@@ -22,6 +22,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author Mobius
  * @version $Revision: 1.0 $
  */
+@SuppressWarnings("rawtypes")
 public class MMOExecutableQueue<T extends MMOClient> implements Queue<ReceivablePacket<T>>, Runnable
 {
 	/**

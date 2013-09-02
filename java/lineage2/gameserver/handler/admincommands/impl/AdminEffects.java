@@ -216,7 +216,6 @@ public class AdminEffects implements IAdminCommandHandler
 				}
 				break;
 			default:
-				activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
 				break;
 		}
 		if (!activeChar.isGM())
@@ -382,7 +381,6 @@ public class AdminEffects implements IAdminCommandHandler
 					}
 				}
 				break;
-				
 			case admin_effect:
 				try
 				{
@@ -409,7 +407,8 @@ public class AdminEffects implements IAdminCommandHandler
 				{
 					((Creature)target).broadcastPacket(new MagicSkillUse(((Creature)target), activeChar, Integer.valueOf(Skill), Integer.valueOf(level), Integer.valueOf(hittime), 0));
 					activeChar.sendMessage(((Creature)target).getName() + " performs MSU " + Skill + "/" + level + " by your request.");
-				}			
+				}
+				break;
 			case admin_transform:
 				try
 				{
@@ -441,7 +440,6 @@ public class AdminEffects implements IAdminCommandHandler
 				activeChar.showQuestMovie(id);
 				break;
 			default:
-				activeChar.sendMessage("You do not have sufficient privileges or command isn't implemented yet.");
 				break;
 		}
 		return true;

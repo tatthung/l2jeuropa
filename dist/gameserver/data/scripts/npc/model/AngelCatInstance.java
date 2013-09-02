@@ -53,16 +53,16 @@ public final class AngelCatInstance extends NpcInstance
 	private boolean loadInfo(Player player)
 	{
 		String value = null;
-
-		Connection con = null;
-		PreparedStatement statement = null;
+		
 		ResultSet rs = null;
-		try
+		try (
+				Connection con = DatabaseFactory.getInstance().getConnection();
+				PreparedStatement statement = con.prepareStatement(SELECT_DATA);
+		)
 		{
-			con = DatabaseFactory.getInstance().getConnection();
-			statement = con.prepareStatement(SELECT_DATA);
 			statement.setString(1, player.getAccountName());
 			rs = statement.executeQuery();
+			
 			while (rs.next())
 			{
 				value = rs.getString("value");
@@ -79,7 +79,13 @@ public final class AngelCatInstance extends NpcInstance
 		}
 		finally
 		{
-			DbUtils.closeQuietly(con, statement, rs);
+			//DbUtils.closeQuietly(rs); //FIXME: creating error while compiling the scripts on server start (see below).
+			/**
+			 * ERROR server\gameserver\data\scripts\npc\model\AngelCatInstance.java:0,0: 
+			 * Internal compiler error: 
+			 * java.lang.ArrayIndexOutOfBoundsException: 4 at org.eclipse.jdt.internal.compiler.codegen.ExceptionLabel.placeEnd(ExceptionLabel.java:41)
+			 * 
+			 */
 		}
 		return true;
 	}
