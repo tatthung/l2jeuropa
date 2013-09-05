@@ -559,6 +559,47 @@ public class EffectList
 	}
 	
 	/**
+	 * Method removeEffect.
+	 * @param skillId int
+	 */
+	public void removeEffect(int skillId)
+	{
+		if (isEmpty())
+		{
+			return;
+		}
+		for (Effect e : _effects)
+		{
+			if (e.getSkill().getId() == skillId)
+			{
+				boolean remove = false;
+				lock.lock();
+				try
+				{
+					if (_effects == null)
+					{
+						return;
+					}
+					if (!((remove = _effects.remove(e))))
+					{
+						return;
+					}
+				}
+				finally
+				{
+					lock.unlock();
+				}
+				if (!remove)
+				{
+					return;
+				}
+				_actor.updateStats();
+				_actor.updateEffectIcons();
+			}
+		}
+	}
+	
+	/**
 	 * Method stopAllEffects.
 	 */
 	public void stopAllEffects()

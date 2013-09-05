@@ -803,6 +803,7 @@ public class Config
 	public static int LOGIN_SERVER_SERVER_TYPE;
 	public static int SAFE_ENCHANT_LVL;
 	public static boolean REMOVE_UNKNOWN_QUEST;
+	public static boolean ALLOW_MENTOR_BUFFS_IN_OFFLINE_MODE;
 	
 	/**
 	 * Method loadServerConfig.
@@ -1269,6 +1270,7 @@ public class Config
 		GAME_POINT_ITEM_ID = otherSettings.getProperty("GamePointItemId", -1);
 		SAFE_ENCHANT_LVL = otherSettings.getProperty("SafeEnchant", 0);
 		REMOVE_UNKNOWN_QUEST = otherSettings.getProperty("RemoveUnknownQuest", false);
+		ALLOW_MENTOR_BUFFS_IN_OFFLINE_MODE = otherSettings.getProperty("AllowMentorBuffsInOfflineMode", false);
 	}
 	
 	/**

@@ -48,14 +48,14 @@ public final class EffectHellBinding extends Effect
 		_ChainedAirSkills.put(144, 11749);
 		_ChainedAirSkills.put(145, 11499);
 		_ChainedAirSkills.put(146, 11999);
-		_ChainedTemporalReplace.put(10249, 10008);
-		_ChainedTemporalReplace.put(10499, 10258);
-		_ChainedTemporalReplace.put(10749, 10508);
-		_ChainedTemporalReplace.put(10999, 10760);
-		_ChainedTemporalReplace.put(11249, 11017);
-		_ChainedTemporalReplace.put(11749, 11509);
-		_ChainedTemporalReplace.put(11499, 11263);
-		_ChainedTemporalReplace.put(11999, 11814);
+		_ChainedTemporalReplace.put(10249, 10008); //FIXME: Sometime causes: java.lang.ArrayIndexOutOfBoundsException
+		_ChainedTemporalReplace.put(10499, 10258); //FIXME: Sometime causes: java.lang.ArrayIndexOutOfBoundsException
+		_ChainedTemporalReplace.put(10749, 10508); //FIXME: Sometime causes: java.lang.ArrayIndexOutOfBoundsException
+		_ChainedTemporalReplace.put(10999, 10760); //FIXME: Sometime causes: java.lang.ArrayIndexOutOfBoundsException
+		_ChainedTemporalReplace.put(11249, 11017); //FIXME: Sometime causes: java.lang.ArrayIndexOutOfBoundsException
+		_ChainedTemporalReplace.put(11749, 11509); //FIXME: Sometime causes: java.lang.ArrayIndexOutOfBoundsException
+		_ChainedTemporalReplace.put(11499, 11263); //FIXME: Sometime causes: java.lang.ArrayIndexOutOfBoundsException
+		_ChainedTemporalReplace.put(11999, 11814); //FIXME: Sometime causes: java.lang.ArrayIndexOutOfBoundsException
 	}
 	
 	/**

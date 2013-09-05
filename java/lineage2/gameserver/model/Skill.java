@@ -2331,7 +2331,7 @@ public abstract class Skill extends StatTemplate implements Cloneable
 					}
 					return SystemMsg.INVALID_TARGET;
 				}
-				if ((_targetType == SkillTargetType.TARGET_MENTEE) && (pcTarget.getMenteeList().getMentor() != player.getObjectId()))
+				if ((_targetType == SkillTargetType.TARGET_MENTEE) && (pcTarget.getMenteeMentorList().getMentor() != player.getObjectId()))
 				{
 					return SystemMsg.INVALID_TARGET;
 				}

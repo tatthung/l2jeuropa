@@ -117,7 +117,8 @@ import lineage2.gameserver.model.actor.instances.player.BookMarkList;
 import lineage2.gameserver.model.actor.instances.player.FriendList;
 import lineage2.gameserver.model.actor.instances.player.Macro;
 import lineage2.gameserver.model.actor.instances.player.MacroList;
-import lineage2.gameserver.model.actor.instances.player.MenteeList;
+import lineage2.gameserver.model.actor.instances.player.MenteeMentor;
+import lineage2.gameserver.model.actor.instances.player.MenteeMentorList;
 import lineage2.gameserver.model.actor.instances.player.RecomBonus;
 import lineage2.gameserver.model.actor.instances.player.ShortCut;
 import lineage2.gameserver.model.actor.instances.player.ShortCutList;
@@ -202,6 +203,7 @@ import lineage2.gameserver.network.serverpackets.ExAutoSoulShot;
 import lineage2.gameserver.network.serverpackets.ExBR_AgathionEnergyInfo;
 import lineage2.gameserver.network.serverpackets.ExBR_ExtraUserInfo;
 import lineage2.gameserver.network.serverpackets.ExBasicActionList;
+import lineage2.gameserver.network.serverpackets.ExMentorList;
 import lineage2.gameserver.network.serverpackets.ExNewSkillToLearnByLevelUp;
 import lineage2.gameserver.network.serverpackets.ExOlympiadMatchEnd;
 import lineage2.gameserver.network.serverpackets.ExOlympiadMode;
@@ -799,7 +801,7 @@ public final class Player extends Playable implements PlayerGroup
 	/**
 	 * Field _menteeList.
 	 */
-	private final MenteeList _menteeList = new MenteeList(this);
+	private final MenteeMentorList _menteeMentorList = new MenteeMentorList(this);
 	/**
 	 * Field _hero.
 	 */
@@ -5306,14 +5308,15 @@ public final class Player extends Playable implements PlayerGroup
 					break;
 				}
 			}
-			int mentorId = getMenteeList().getMentor();
+			int mentorId = getMenteeMentorList().getMentor();
 			if (mentorId != 0)
 			{
-				String mentorName = getMenteeList().getList().get(mentorId).getName();
+				String mentorName = getMenteeMentorList().getList().get(mentorId).getName();
 				Player mentorPlayer = World.getPlayer(mentorName);
-				if (getMenteeList().someOneOnline(true))
+				if (getMenteeMentorList().someOneOnline(true) && getLevel() != 86)
 				{
-					Mentoring.applyMentoringCond(this, true);
+					Mentoring.applyMenteeBuffs(this);
+					Mentoring.applyMentorBuffs(mentorPlayer);
 				}
 				if (mentorPlayer != null)
 				{
@@ -5333,17 +5336,23 @@ public final class Player extends Playable implements PlayerGroup
 						Mentoring.sendMentorMail(mentorPlayer, signOfTutor);
 					}
 				}
-				if (getLevel() == 86)
+				if (getLevel() >= 86)
 				{
 					sendPacket(new SystemMessage2(SystemMsg.YOU_REACHED_LEVEL_86_RELATIONSHIP_WITH_S1_CAME_TO_AN_END).addString(mentorName));
-					getMenteeList().remove(mentorName, false, true);
+					getMenteeMentorList().remove(mentorName, false, false);
+					sendPacket(new ExMentorList(this));
 					if (mentorPlayer != null)
 					{
-						mentorPlayer.sendPacket(new SystemMessage2(SystemMsg.THE_MENTEE_S1_HAS_REACHED_LEVEL_86).addName(this));
-						mentorPlayer.getMenteeList().remove(_name, true, false);
-						Mentoring.setTimePenalty(mentorId, System.currentTimeMillis() + (5 * 24 * 3600 * 1000L), -1);
+						if (mentorPlayer.isOnline())
+						{
+							mentorPlayer.sendPacket(new SystemMessage2(SystemMsg.THE_MENTEE_S1_HAS_REACHED_LEVEL_86).addName(this));
+							mentorPlayer.getMenteeMentorList().remove(_name, true, false);
+							mentorPlayer.sendPacket(new ExMentorList(mentorPlayer));
+						}
+						Mentoring.setTimePenalty(mentorId, System.currentTimeMillis() + (1 * 24 * 3600 * 1000L), -1);
 					}
-					Mentoring.applyMentoringCond(this, false);
+					Mentoring.cancelMenteeBuffs(this);
+					Mentoring.cancelMentorBuffs(mentorPlayer);
 				}
 			}
 		}
@@ -6320,7 +6329,7 @@ public final class Player extends Playable implements PlayerGroup
 				player.setActiveSubClass(player.getActiveClassId(), false, 0);
 				player.restoreVitality();
 				player.getInventory().restore();
-				player._menteeList.restore();
+				player._menteeMentorList.restore();
 				try
 				{
 					String var = player.getVar("ExpandInventory");
@@ -13360,12 +13369,12 @@ public final class Player extends Playable implements PlayerGroup
 	}
 	
 	/**
-	 * Method getMenteeList.
-	 * @return MenteeList
+	 * Method getMenteeMentorList.
+	 * @return _menteeMentorList
 	 */
-	public MenteeList getMenteeList()
+	public MenteeMentorList getMenteeMentorList()
 	{
-		return _menteeList;
+		return _menteeMentorList;
 	}
 	
 	/**
@@ -13373,10 +13382,25 @@ public final class Player extends Playable implements PlayerGroup
 	 */
 	public void mentoringLoginConditions()
 	{
-		if (getMenteeList().someOneOnline(true))
+		if (getMenteeMentorList().someOneOnline(true))
 		{
-			getMenteeList().notify(true);
-			Mentoring.applyMentoringCond(this, true);
+			getMenteeMentorList().notify(true);
+
+			if (getClassId().getId() > 138 && getLevel() > 85)
+			{
+				Mentoring.applyMentorBuffs(this);
+				for (MenteeMentor mentee : getMenteeMentorList().getList().values())
+				{
+					Player menteePlayer = World.getPlayer(mentee.getName());
+					Mentoring.applyMenteeBuffs(menteePlayer);
+				}
+			}
+			else
+			{
+				Mentoring.applyMenteeBuffs(this);
+				Player mentorPlayer = World.getPlayer(getMenteeMentorList().getMentor());
+				Mentoring.applyMentorBuffs(mentorPlayer);
+			}
 		}
 	}
 	
@@ -13385,10 +13409,23 @@ public final class Player extends Playable implements PlayerGroup
 	 */
 	public void mentoringLogoutConditions()
 	{
-		if (getMenteeList().someOneOnline(false))
+		if (getMenteeMentorList().someOneOnline(false))
 		{
-			getMenteeList().notify(false);
-			Mentoring.applyMentoringCond(this, false);
+			getMenteeMentorList().notify(false);
+
+			if (getClassId().getId() > 138 && getLevel() > 85)
+			{
+				for (MenteeMentor mentee : getMenteeMentorList().getList().values())
+				{
+					Player menteePlayer = World.getPlayer(mentee.getName());
+					Mentoring.cancelMenteeBuffs(menteePlayer);
+				}
+			}
+			else
+			{
+				Player mentorPlayer = World.getPlayer(getMenteeMentorList().getMentor());
+				Mentoring.cancelMentorBuffs(mentorPlayer);
+			}
 		}
 	}
 	

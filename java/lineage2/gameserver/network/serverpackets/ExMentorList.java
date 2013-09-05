@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 import lineage2.gameserver.model.Player;
-import lineage2.gameserver.model.actor.instances.player.Mentee;
+import lineage2.gameserver.model.actor.instances.player.MenteeMentor;
 
 public class ExMentorList extends L2GameServerPacket
 {
@@ -25,10 +25,10 @@ public class ExMentorList extends L2GameServerPacket
 	 */
 	public ExMentorList(Player player)
 	{
-		_mentor = player.getMenteeList().getMentor();
-		Map<Integer, Mentee> list = player.getMenteeList().getList();
+		_mentor = player.getMenteeMentorList().getMentor();
+		Map<Integer, MenteeMentor> list = player.getMenteeMentorList().getList();
 		_list = new ArrayList<>(list.size());
-		for (Map.Entry<Integer, Mentee> entry : list.entrySet())
+		for (Map.Entry<Integer, MenteeMentor> entry : list.entrySet())
 		{
 			MenteeInfo m = new MenteeInfo();
 			m.objectId = entry.getKey();
